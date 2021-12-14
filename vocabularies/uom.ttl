@@ -32,7 +32,7 @@ unit:GM
     skos:notation "kg" ;
     rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
     skos:prefLabel "Gram"@en ;
-    skos:topConceptOf <http://qudt.org/community/loop3d/voc> ;
+    skos:topConceptOf <http://qudt.org/community/ga/voc> ;
 .
 
 unit:KiloGM 
@@ -42,7 +42,7 @@ unit:KiloGM
     rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
     skos:prefLabel "Kilogram"@en ;
     skos:altLabel "Kilogramme"@en ;
-    skos:topConceptOf <http://qudt.org/community/loop3d/voc> ;
+    skos:topConceptOf <http://qudt.org/community/ga/voc> ;
 .
 
 unit:KiloGM-PER-M2
@@ -51,7 +51,7 @@ unit:KiloGM-PER-M2
     skos:notation "kg" ;
     rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
     skos:prefLabel "Kilogram per Square Metre"@en ;
-    skos:topConceptOf <http://qudt.org/community/loop3d/voc> ;
+    skos:topConceptOf <http://qudt.org/community/ga/voc> ;
 .
 
 unit:M
@@ -61,7 +61,7 @@ unit:M
     rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
     skos:prefLabel "Meter"@en ;
     skos:altLabel "Metre" ;
-    skos:topConceptOf <http://qudt.org/community/loop3d/voc> ;
+    skos:topConceptOf <http://qudt.org/community/ga/voc> ;
 .
 
 unit:MegaYR
@@ -71,7 +71,7 @@ unit:MegaYR
     rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
     skos:prefLabel "Million Years"@en ;
     skos:altLabel "Mega Year"@en ;
-    skos:topConceptOf <http://qudt.org/community/loop3d/voc> ;
+    skos:topConceptOf <http://qudt.org/community/ga/voc> ;
 .
 
 <https://linked.data.gov.au/org/surround>
