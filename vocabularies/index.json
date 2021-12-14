@@ -1,10 +1,7 @@
 {
-    "induration-style.ttl": "https://linked.data.gov.au/def/induration-style",
-    "petroleum-tenement-type.ttl": "http://resource.geoscience.gov.au/classifierScheme/ggic/2021.01/petroleum-tenement-type",
-    "tenement-status.ttl": "http://resource.geoscience.gov.au/classifierscheme/ggic/2016.01/tenement-status",
-    "tenement-type.ttl": "http://resource.geoscience.gov.au/classifierscheme/ggic/2016.01/tenementtype",
     "AssociationType.ttl": "http://pid.geoscience.gov.au/def/voc/ga/associationtype",
     "OnlineFunction.ttl": "http://pid.geoscience.gov.au/def/voc/ga/onlinefunction",
     "ProtocolType.ttl": "http://pid.geoscience.gov.au/def/voc/ga/protocoltype",
-    "ServiceType.ttl": "http://pid.geoscience.gov.au/def/voc/ga/servicetype"
+    "ServiceType.ttl": "http://pid.geoscience.gov.au/def/voc/ga/servicetype",
+    "uom.ttl": "http://qudt.org/community/ga/voc"    
 }
