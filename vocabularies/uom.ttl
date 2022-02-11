@@ -15,7 +15,7 @@
     dcterms:created "2021-12-14"^^xsd:date ;
     dcterms:creator <https://linked.data.gov.au/org/surround> ;
     dcterms:contributor <https://linked.data.gov.au/org/ga> ;
-    dcterms:modified "2021-12-14"^^xsd:date ;
+    dcterms:modified "2022-02-11"^^xsd:date ;
     dcterms:publisher <http://qudt.org> ;
     dcterms:provenance "This vocabulary is a subset of the QUDT Units of Measure at http://www.qudt.org/doc/DOC_VOCAB-UNITS.html"@en ;
     skos:hasTopConcept
@@ -33,6 +33,7 @@ unit:GM
     rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
     skos:prefLabel "Gram"@en ;
     skos:topConceptOf <http://qudt.org/community/ga/voc> ;
+    dcterms:provenance "This is a SKOS Concept profile of the more detailed QUDT Unit of Measure object" ;
 .
 
 unit:KiloGM 
@@ -43,6 +44,7 @@ unit:KiloGM
     skos:prefLabel "Kilogram"@en ;
     skos:altLabel "Kilogramme"@en ;
     skos:topConceptOf <http://qudt.org/community/ga/voc> ;
+    dcterms:provenance "This is a SKOS Concept profile of the more detailed QUDT Unit of Measure object" ;
 .
 
 unit:KiloGM-PER-M2
@@ -52,6 +54,7 @@ unit:KiloGM-PER-M2
     rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
     skos:prefLabel "Kilogram per Square Metre"@en ;
     skos:topConceptOf <http://qudt.org/community/ga/voc> ;
+    dcterms:provenance "This is a SKOS Concept profile of the more detailed QUDT Unit of Measure object" ;
 .
 
 unit:M
@@ -62,6 +65,7 @@ unit:M
     skos:prefLabel "Meter"@en ;
     skos:altLabel "Metre" ;
     skos:topConceptOf <http://qudt.org/community/ga/voc> ;
+    dcterms:provenance "This is a SKOS Concept profile of the more detailed QUDT Unit of Measure object" ;
 .
 
 unit:MegaYR
@@ -72,6 +76,7 @@ unit:MegaYR
     skos:prefLabel "Million Years"@en ;
     skos:altLabel "Mega Year"@en ;
     skos:topConceptOf <http://qudt.org/community/ga/voc> ;
+    dcterms:provenance "This is a SKOS Concept profile of the more detailed QUDT Unit of Measure object" ;
 .
 
 <https://linked.data.gov.au/org/surround>
