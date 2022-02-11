@@ -182,4 +182,3 @@
         <http://pid.geoscience.gov.au/def/voc/ga/onlinefunction/search>,
         <http://pid.geoscience.gov.au/def/voc/ga/onlinefunction/upload> ;
     skos:prefLabel "OnLine Function Type"@en .
-

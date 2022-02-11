@@ -265,4 +265,3 @@ This vocabulary re-uses URIs from another distribution of the ISO19115-1 standar
         <http://registry.it.csiro.au/def/isotc211/DS_AssociationTypeCode/series>,
         <http://registry.it.csiro.au/def/isotc211/DS_AssociationTypeCode/stereoMate> ;
     skos:prefLabel "Association Type"@en .
-
