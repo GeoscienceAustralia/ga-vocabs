@@ -1,5 +1,5 @@
-PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/associationtype/>
-PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/associationtype>
+PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/AssociationType/>
+PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/AssociationType>
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
