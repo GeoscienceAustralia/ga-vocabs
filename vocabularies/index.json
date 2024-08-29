@@ -7,7 +7,6 @@
     "RoleCodeType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/roleCodeType",
     "SampleMaterialClassBoreholes.ttl": "https://pid.geoscience.gov.au/def/voc/ga/sample_material_class",
     "MarineGeomorphSettingProcess.ttl": "https://pid.geoscience.gov.au/def/voc/ga/GeomorphologySettings",
-    "SamplingMethod.ttl": "https://pid.geoscience.gov.au/def/voc/ga/sampling_method",
     "ProtocolType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype",
     "ServiceType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/servicetype"
 }
