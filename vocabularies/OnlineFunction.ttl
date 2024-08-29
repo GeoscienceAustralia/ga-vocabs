@@ -1,0 +1,166 @@
+PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/OnlineFunctions/>
+PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/OnlineFunctions>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sdo: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<http://editor.vocabs.ands.org.au/user/Geoscience-Australia>
+    a
+        dcterms:Agent ,
+        rdfs:Resource ;
+    dcterms:contributor <http://editor.vocabs.ands.org.au/user/GA_Car.Nicholas> ;
+    dcterms:modified "2017-10-24T01:58:50+00:00"^^xsd:dateTime ;
+    foaf:name "Geoscience Australia" ;
+.
+
+:browseGraphic
+    a skos:Concept ;
+    dcterms:provenance "ISO19115-1:2014"@en ;
+    skos:definition "browse graphic provided"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "browseGraphic"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:browsing
+    a skos:Concept ;
+    dcterms:provenance "ISO19115-1:2014"@en ;
+    skos:definition "online browsing provided"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "browsing"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:completeMetadata
+    a skos:Concept ;
+    dcterms:provenance "ISO19115-1:2014"@en ;
+    skos:definition "complete metadata provided"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "completeMetadata"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:download
+    a skos:Concept ;
+    dcterms:provenance "ISO19115-1:2014"@en ;
+    skos:definition "online instructions for transferring data from one stor- age device or system to another"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "download"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:emailService
+    a skos:Concept ;
+    dcterms:contributor <http://editor.vocabs.ands.org.au/user/GA_Sedgmen.Lara_Admin> ;
+    dcterms:provenance "ISO19115-1:2014"@en ;
+    skos:definition "online email service provided"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "emailService"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:fileAccess
+    a skos:Concept ;
+    dcterms:provenance "ISO19115-1:2014"@en ;
+    skos:definition "online file access provided"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "fileAccess"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:offlineAccess
+    a skos:Concept ;
+    dcterms:provenance "ISO19115-1:2014"@en ;
+    skos:definition "online instructions for requesting the resource from the provider"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "offlineAccess"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:order
+    a skos:Concept ;
+    dcterms:provenance "ISO19115-1:2014"@en ;
+    skos:definition "online order process for obtaining the resource"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "order"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:provenanceQueryService
+    a skos:Concept ;
+    dcterms:provenance "Geoscience Australia / PROV-O"@en ;
+    skos:broader :information ;
+    skos:definition "an online service that allows querying for provenance records about the resource. The provenance records delivered are conformat to the W3C's PROV Data Model"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "provenanceQueryService"@en ;
+.
+
+:search
+    a skos:Concept ;
+    dcterms:provenance "ISO19115-1:2014"@en ;
+    skos:definition "online search interface for seeking out information about the resource"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "search"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:upload
+    a skos:Concept ;
+    dcterms:contributor <http://editor.vocabs.ands.org.au/user/GA_Sedgmen.Lara_Admin> ;
+    dcterms:modified "2018-12-12T03:07:36+00:00"^^xsd:dateTime ;
+    dcterms:provenance "ISO19115-1:2014"@en ;
+    skos:definition "online resource upload capability provided"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "upload"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://linked.data.gov.au/org/ga>
+    a sdo:Organization ;
+    sdo:description "Geoscience Australia is Australia's pre-eminent public sector geoscience organisation. It is the nation's trusted advisor on the geology and geography of Australia. It applies science and technology to describe and understand the Earth for the benefit of Australia."@en ;
+    sdo:name "Geoscience Australia" ;
+    sdo:url "https://www.ga.gov.au"^^xsd:anyURI ;
+.
+
+:information
+    a skos:Concept ;
+    dcterms:provenance "ISO19115-1:2014"@en ;
+    skos:definition "online information about the resource"@en ;
+    skos:inScheme cs: ;
+    skos:narrower :provenanceQueryService ;
+    skos:prefLabel "information"@en ;
+    skos:topConceptOf cs: ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    rdfs:label "OnLine Function Type"@en ;
+    dcterms:created "2017-05-11"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/ga> ;
+    dcterms:description "This vocabulary is an extension to the ISO19115-1 standard's OnLine Function Code list. It includes additional terms implemented by Geoscience Australia to allow for online functions not included in the original codelist. An example of an extension term in this vocabulary is \"provenance query service\" which, in the SKOS structure of this vocabulary, is given as a narrower concept of the \"information\" concept which is one of the original ISO19115-1 concepts. An object indicated as having an online function of a \"provenance query service\" should be understood to perform a specialised form of an \"information\" function by allowing provenance querying. Further details are given in the term's description. "@en ;
+    dcterms:issued "2018-12-12"^^xsd:date ;
+    dcterms:modified "2023-07-26"^^xsd:date ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    dcterms:subject "online functions"@en ;
+    dcterms:title "OnLine Function"@en ;
+    owl:versionInfo "v1.0" ;
+    skos:definition "OnLine Function Type"@en ;
+    skos:hasTopConcept
+        :browseGraphic ,
+        :browsing ,
+        :completeMetadata ,
+        :download ,
+        :emailService ,
+        :fileAccess ,
+        :information ,
+        :offlineAccess ,
+        :order ,
+        :search ,
+        :upload ;
+    skos:historyNote "ISO19115-1:2014"@en ;
+    skos:prefLabel "OnLine Function Type"@en ;
+.

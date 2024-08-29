@@ -1,0 +1,91 @@
+PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/BoreholeConstructionType/>
+PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/BoreholeConstructionType>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sdo: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+:annulusFill
+    a skos:Concept ;
+    dcterms:identifier "annulusFill"^^xsd:token ;
+    skos:definition "Fill within the annulus between the lining and the surrounding geological material (eg, gravel pack, seal and grout)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "annulus fill"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:inlet
+    a skos:Concept ;
+    dcterms:identifier "inlet"^^xsd:token ;
+    skos:definition "Part of a borehole construction that allows intake of groundwater (eg, screen and slotted casing)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "inlet"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:lining
+    a skos:Concept ;
+    dcterms:identifier "lining"^^xsd:token ;
+    skos:definition "Material inserted to line the inside of the void (eg, casing and pipe)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "lining"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:protection
+    a skos:Concept ;
+    dcterms:identifier "protection"^^xsd:token ;
+    skos:definition "Fittings used to protect the borehole from damage (eg, casing); recommended minimum casing standard."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "protection"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:void
+    a skos:Concept ;
+    dcterms:identifier "void"^^xsd:token ;
+    skos:definition "A hole excavated to intercept groundwater."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "void"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:voidFill
+    a skos:Concept ;
+    dcterms:identifier "voidFill"^^xsd:token ;
+    skos:definition "Material reinserted inside the void or existing lining (eg, backfill and packer)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "void fill"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://linked.data.gov.au/org/ga>
+    a sdo:Organization ;
+    sdo:description "Geoscience Australia is Australia's pre-eminent public sector geoscience organisation. It is the nation's trusted advisor on the geology and geography of Australia. It applies science and technology to describe and understand the Earth for the benefit of Australia."@en ;
+    sdo:name "Geoscience Australia" ;
+    sdo:url "https://www.ga.gov.au"^^xsd:anyURI ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    dcterms:created "2022-08-09"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/ga> ;
+    dcterms:modified "2022-08-09"^^xsd:date ;
+    dcterms:provenance "Geoscience Australia Borehole Construction Type database table (BOREHOLE. LU_CONSTRUCTION_TYPE)"@en ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    rdfs:seeAlso <https://pid.geoscience.gov.au/dataset/ga/148553> ;
+    owl:versionInfo "1" ;
+    skos:definition "These terms describe the type of downhole construction in a borehole (eg, inlet screen, protection casing)."@en ;
+    skos:hasTopConcept
+        :annulusFill ,
+        :inlet ,
+        :lining ,
+        :protection ,
+        :void ,
+        :voidFill ;
+    skos:prefLabel "Borehole Geology - Construction Type"@en ;
+    dcat:contactPoint "Team Lead - Information Services; Energy, Minerals and Groundwater Division" ;
+.

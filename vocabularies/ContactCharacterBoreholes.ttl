@@ -1,0 +1,66 @@
+PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/ContactCharacter/>
+PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/ContactCharacter>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX sdo: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+:gradational
+    a skos:Concept ;
+    skos:broader :diffuse ;
+    skos:definition "The contact from one geological unit to another is diffuse, by a gradual and consistent change generally in one direction of grainsize or composition, such that a sharp boundary cannot be defined."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "gradational"@en ;
+.
+
+:interfingering
+    a skos:Concept ;
+    skos:definition "A geological unit contact that is formed over some distance by interfingering of parts of one unit with the adjacent unit."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "interfingering"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:sharp
+    a skos:Concept ;
+    skos:definition "The contact between geological units is sharp or easily defined at a single interface."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "sharp"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://linked.data.gov.au/org/ga>
+    a sdo:Organization ;
+    sdo:description "Geoscience Australia is Australia's pre-eminent public sector geoscience organisation. It is the nation's trusted advisor on the geology and geography of Australia. It applies science and technology to describe and understand the Earth for the benefit of Australia."@en ;
+    sdo:name "Geoscience Australia" ;
+    sdo:url "https://www.ga.gov.au"^^xsd:anyURI ;
+.
+
+:diffuse
+    a skos:Concept ;
+    skos:definition "The contact between two geological units cannot be defined at a sharp interface.  The transition from one unit to another may be gradational (ie, exhibiting a consistent change in grainsize or composition), may involve irregular mixing of units, or may be obscured by alteration."@en ;
+    skos:inScheme cs: ;
+    skos:narrower :gradational ;
+    skos:prefLabel "diffuse"@en ;
+    skos:topConceptOf cs: ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    dcterms:created "2022-08-11"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/ga> ;
+    dcterms:modified "2022-08-11"^^xsd:date ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    owl:versionInfo "1" ;
+    skos:definition "Terms to describe the character of a contact between two geological units."@en ;
+    skos:hasTopConcept
+        :diffuse ,
+        :interfingering ,
+        :sharp ;
+    skos:historyNote "Geoscience Australia Contact Character (FGDM.LU_contact-character)"@en ;
+    skos:prefLabel "Field Geology - Contact Character"@en ;
+    dcat:contactPoint "Team Lead - Information Services; Energy, Minerals and Groundwater Division" ;
+.
+

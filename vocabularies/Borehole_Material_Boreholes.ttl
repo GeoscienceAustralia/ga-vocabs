@@ -1,0 +1,222 @@
+PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/BoreholeConstructionMaterial/>
+PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/BoreholeConstructionMaterial>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sdo: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+:aggregate
+    a skos:Concept ;
+    dcterms:identifier "aggregate"^^xsd:token ;
+    skos:definition "Mass of rock particles and or mineral grains "@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "aggregate"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:cement
+    a skos:Concept ;
+    dcterms:identifier "cement"^^xsd:token ;
+    skos:definition "Finely ground powder which when mixed with water makes a plastic mass that will harden "@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "cement"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:clay
+    a skos:Concept ;
+    dcterms:identifier "clay"^^xsd:token ;
+    skos:definition "Geological material consisting of particles having diameters less than 2-4 micrometres "@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "clay"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:concrete
+    a skos:Concept ;
+    dcterms:identifier "concrete"^^xsd:token ;
+    skos:definition "Mixture of cement, an aggregate and water which hardens to a rocklike consistency "@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "concrete"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:gravel
+    a skos:Concept ;
+    dcterms:identifier "gravel"^^xsd:token ;
+    skos:definition "Rock fragments typically rounded and dominated by particles larger than sand (>2mm) "@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "gravel"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:metal
+    a skos:Concept ;
+    dcterms:identifier "metal"^^xsd:token ;
+    skos:definition "An elemental substance usually with good strength, reflectivity and electrical and thermal conductivity properties "@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "metal"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:plastic
+    a skos:Concept ;
+    dcterms:identifier "plastic"^^xsd:token ;
+    skos:definition "A polymeric material of large molecular weight which can be shaped by flow "@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "plastic"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:rock
+    a skos:Concept ;
+    dcterms:identifier "rock"^^xsd:token ;
+    skos:definition "Undifferentiated mineral matter "@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "rock"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:sand
+    a skos:Concept ;
+    dcterms:identifier "sand"^^xsd:token ;
+    skos:definition "Rock or mineral particles having a diameter range of 1/16 to 2mm "@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "sand"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:spoilOrCuttings
+    a skos:Concept ;
+    dcterms:identifier "spoilOrCuttings"^^xsd:token ;
+    skos:definition "Geological material excavated from feature "@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "spoil or cuttings"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:stainlessSteel
+    a skos:Concept ;
+    dcterms:identifier "stainlessSteel"^^xsd:token ;
+    skos:definition "Corrosion resistant iron-chromium alloy "@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "stainless steel"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:steel
+    a skos:Concept ;
+    dcterms:identifier "steel"^^xsd:token ;
+    skos:definition "An iron base alloy with up to 2% carbon and malleable under proper conditions "@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "steel"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:uPVC
+    a skos:Concept ;
+    dcterms:identifier "uPVC"^^xsd:token ;
+    skos:definition "Unplasticised polyvinylchloride uPVC - thermoplastic polymer of vinyl chloride that is cheap, lightweight and chemically inert and typically used in molded rigid products "@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "uPVC"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:uPVC12
+    a skos:Concept ;
+    dcterms:identifier "uPVC12"^^xsd:token ;
+    skos:definition "Unplasticised polyvinylchloride uPVC with a moderate Class 12 pressure rating which is the "@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "uPVC12"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:uPVC18
+    a skos:Concept ;
+    dcterms:identifier "uPVC18"^^xsd:token ;
+    skos:definition "Unplasticised polyvinylchloride uPVC with a high Class 18 pressure rating "@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "uPVC18"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:uPVC6
+    a skos:Concept ;
+    dcterms:identifier "uPVC6"^^xsd:token ;
+    skos:definition "Unplasticised polyvinylchloride uPVC with a low Class 6 pressure rating that is typically used in drainage or sewage applications "@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "uPVC6"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:uPVC9
+    a skos:Concept ;
+    dcterms:identifier "uPVC9"^^xsd:token ;
+    skos:definition "Unplasticised polyvinylchloride uPVC with a Class 9 pressure rating which is the minimum class allowable for shallow bore casing "@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "uPVC9"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:uPVS15
+    a skos:Concept ;
+    dcterms:identifier "uPVS15"^^xsd:token ;
+    skos:definition "Unplasticised polyvinylchloride uPVC with a high Class 15 pressure rating"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "uPVC15"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:unknown
+    a skos:Concept ;
+    dcterms:identifier "unknown"^^xsd:token ;
+    skos:definition "Borehole construction material is unknown"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "unknown"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://linked.data.gov.au/org/ga>
+    a sdo:Organization ;
+    sdo:description "Geoscience Australia is Australia's pre-eminent public sector geoscience organisation. It is the nation's trusted advisor on the geology and geography of Australia. It applies science and technology to describe and understand the Earth for the benefit of Australia."@en ;
+    sdo:name "Geoscience Australia" ;
+    sdo:url "https://www.ga.gov.au"^^xsd:anyURI ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    dcterms:created "2022-08-09"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/ga> ;
+    dcterms:identifier "BoreholeConstructionMaterial"^^xsd:token ;
+    dcterms:modified "2022-08-09"^^xsd:date ;
+    dcterms:provenance "Geoscience Australia Borehole Material database table (BOREHOLE.LU_CONSTRUCTION_MATERIALS)"@en ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    rdfs:seeAlso <https://pid.geoscience.gov.au/dataset/ga/148553> ;
+    owl:versionInfo "1" ;
+    skos:definition "Describes the type of material used in downhole construction in a borehole (eg, PVC, steel, cement)."@en ;
+    skos:hasTopConcept
+        :aggregate ,
+        :cement ,
+        :clay ,
+        :concrete ,
+        :gravel ,
+        :metal ,
+        :plastic ,
+        :rock ,
+        :sand ,
+        :spoilOrCuttings ,
+        :stainlessSteel ,
+        :steel ,
+        :uPVC ,
+        :uPVC12 ,
+        :uPVC18 ,
+        :uPVC6 ,
+        :uPVC9 ,
+        :uPVS15 ,
+        :unknown ;
+    skos:prefLabel "Borehole Geology - Construction Material"@en ;
+    dcat:contactPoint "Team Lead - Information Services; Energy, Minerals and Groundwater Division" ;
+.

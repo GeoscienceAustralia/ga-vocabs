@@ -1,0 +1,52 @@
+PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyRecordingMode/>
+PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyRecordingMode>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sdo: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+:multiShot
+    a skos:Concept ;
+    dcterms:identifier "multiShot"^^xsd:token ;
+    skos:definition "Multi-shot recording mode of survey"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "multi-shot"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:singleShot
+    a skos:Concept ;
+    dcterms:identifier "singleShot"^^xsd:token ;
+    skos:definition "Single-shot recording mode of survey"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "single-shot"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://linked.data.gov.au/org/ga>
+    a sdo:Organization ;
+    sdo:description "Geoscience Australia is Australia's pre-eminent public sector geoscience organisation. It is the nation's trusted advisor on the geology and geography of Australia. It applies science and technology to describe and understand the Earth for the benefit of Australia."@en ;
+    sdo:name "Geoscience Australia" ;
+    sdo:url "https://www.ga.gov.au"^^xsd:anyURI ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    dcterms:created "2022-08-04"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/ga> ;
+    dcterms:identifier "DirectionalSurveyRecordingMode"^^xsd:token ;
+    dcterms:modified "2022-08-04"^^xsd:date ;
+    dcterms:provenance "Geoscience Australia Directional Survey Recording Mode (BOREHOLE.LU_DIR_SRVY_RECORD_MODE)"@en ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    rdfs:seeAlso <https://pid.geoscience.gov.au/dataset/ga/148553> ;
+    owl:versionInfo "1" ;
+    skos:definition "Terms to describe the recording mode of the survey (eg, single-shot, multi-shot)."@en ;
+    skos:hasTopConcept
+        :multiShot ,
+        :singleShot ;
+    skos:prefLabel "Borehole Geology - Directional Survey Recording Mode "@en ;
+    dcat:contactPoint "Team Lead - Information Services; Minerals, Energy and Groundwater Division" ;
+.

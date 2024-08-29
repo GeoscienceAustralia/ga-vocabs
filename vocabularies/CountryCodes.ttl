@@ -1,0 +1,5692 @@
+PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/>
+PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/CountryCodes>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sdo: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+:ABW
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:AW> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "533" ,
+        "ABW" ,
+        "AW" ;
+    skos:prefLabel "Aruba"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:AFG
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:AF> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "4" ,
+        "AF" ,
+        "AFG" ;
+    skos:prefLabel "Afghanistan"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:AGO
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:AO> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "24" ,
+        "AGO" ,
+        "AO" ;
+    skos:prefLabel "Angola"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:AIA
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:AI> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "660" ,
+        "AI" ,
+        "AIA" ;
+    skos:prefLabel "Anguilla"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:ALA
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:AX> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "248" ,
+        "ALA" ,
+        "AX" ;
+    skos:prefLabel "Aland Islands"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:ALB
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:AL> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "8" ,
+        "AL" ,
+        "ALB" ;
+    skos:prefLabel "Albania"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:AND
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:AD> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "20" ,
+        "AD" ,
+        "AND" ;
+    skos:prefLabel "Andorra"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:ARE
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:AE> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "784" ,
+        "AE" ,
+        "ARE" ;
+    skos:prefLabel "United Arab Emirates (the)"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:ARG
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:AR> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "32" ,
+        "AR" ,
+        "ARG" ;
+    skos:prefLabel "Argentina"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:ARM
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:AM> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "51" ,
+        "AM" ,
+        "ARM" ;
+    skos:prefLabel "Armenia"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:ASM
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:AS> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "16" ,
+        "AS" ,
+        "ASM" ;
+    skos:prefLabel "American Samoa"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:ATA
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:AQ> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "10" ,
+        "AQ" ,
+        "ATA" ;
+    skos:prefLabel "Antarctica"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:ATF
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:TF> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "260" ,
+        "ATF" ,
+        "TF" ;
+    skos:prefLabel "French Southern Territories (the)"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:ATG
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:AG> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "28" ,
+        "AG" ,
+        "ATG" ;
+    skos:prefLabel "Antigua and Barbuda"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:AU-ACT
+    a skos:Concept ;
+    skos:broader :AUS ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "AU-ACT" ;
+    skos:prefLabel "Australian Capital Territory"@en ;
+.
+
+:AU-NSW
+    a skos:Concept ;
+    skos:broader :AUS ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "AU-NSW" ;
+    skos:prefLabel "New South Wales"@en ;
+.
+
+:AU-NT
+    a skos:Concept ;
+    skos:broader :AUS ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "AU-NT" ;
+    skos:prefLabel "Northern Territory"@en ;
+.
+
+:AU-QLD
+    a skos:Concept ;
+    skos:broader :AUS ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "AU-QLD" ;
+    skos:prefLabel "Queensland"@en ;
+.
+
+:AU-SA
+    a skos:Concept ;
+    skos:broader :AUS ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "AU-SA" ;
+    skos:prefLabel "South Australia"@en ;
+.
+
+:AU-TAS
+    a skos:Concept ;
+    skos:broader :AUS ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "AU-TAS" ;
+    skos:prefLabel "Tasmania"@en ;
+.
+
+:AU-VIC
+    a skos:Concept ;
+    skos:broader :AUS ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "AU-VIC" ;
+    skos:prefLabel "Victoria"@en ;
+.
+
+:AU-WA
+    a skos:Concept ;
+    skos:broader :AUS ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "AU-WA" ;
+    skos:prefLabel "Western Australia"@en ;
+.
+
+:AUT
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:AT> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "40" ,
+        "AT" ,
+        "AUT" ;
+    skos:prefLabel "Austria"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:AZE
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:AZ> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "31" ,
+        "AZ" ,
+        "AZE" ;
+    skos:prefLabel "Azerbaijan"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:BDI
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:BI> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "108" ,
+        "BDI" ,
+        "BI" ;
+    skos:prefLabel "Burundi"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:BEL
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:BE> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "56" ,
+        "BE" ,
+        "BEL" ;
+    skos:prefLabel "Belgium"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:BEN
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:BJ> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "204" ,
+        "BEN" ,
+        "BJ" ;
+    skos:prefLabel "Benin"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:BES
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:BQ> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "535" ,
+        "BES" ,
+        "BQ" ;
+    skos:prefLabel "Bonaire, Sint Eustatius and Saba"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:BFA
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:BF> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "854" ,
+        "BF" ,
+        "BFA" ;
+    skos:prefLabel "Burkina Faso"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:BGD
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:BD> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "50" ,
+        "BD" ,
+        "BGD" ;
+    skos:prefLabel "Bangladesh"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:BGR
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:BG> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "100" ,
+        "BG" ,
+        "BGR" ;
+    skos:prefLabel "Bulgaria"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:BHR
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:BH> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "48" ,
+        "BH" ,
+        "BHR" ;
+    skos:prefLabel "Bahrain"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:BHS
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:BS> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "44" ,
+        "BHS" ,
+        "BS" ;
+    skos:prefLabel "Bahamas (the)"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:BIH
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:BA> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "70" ,
+        "BA" ,
+        "BIH" ;
+    skos:prefLabel "Bosnia and Herzegovina"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:BLM
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:BL> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "652" ,
+        "BL" ,
+        "BLM" ;
+    skos:prefLabel "Saint Barthelemy"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:BLR
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:BY> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "112" ,
+        "BLR" ,
+        "BY" ;
+    skos:prefLabel "Belarus"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:BLZ
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:BZ> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "84" ,
+        "BLZ" ,
+        "BZ" ;
+    skos:prefLabel "Belize"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:BMU
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:BM> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "60" ,
+        "BM" ,
+        "BMU" ;
+    skos:prefLabel "Bermuda"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:BOL
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:BO> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "68" ,
+        "BO" ,
+        "BOL" ;
+    skos:prefLabel "Bolivia (Plurinational State of)"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:BRA
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:BR> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "76" ,
+        "BR" ,
+        "BRA" ;
+    skos:prefLabel "Brazil"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:BRB
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:BB> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "52" ,
+        "BB" ,
+        "BRB" ;
+    skos:prefLabel "Barbados"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:BRN
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:BN> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "96" ,
+        "BN" ,
+        "BRN" ;
+    skos:prefLabel "Brunei Darussalam"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:BTN
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:BT> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "64" ,
+        "BT" ,
+        "BTN" ;
+    skos:prefLabel "Bhutan"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:BVT
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:BV> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "74" ,
+        "BV" ,
+        "BVT" ;
+    skos:prefLabel "Bouvet Island"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:BWA
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:BW> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "72" ,
+        "BW" ,
+        "BWA" ;
+    skos:prefLabel "Botswana"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:CA-AB
+    a skos:Concept ;
+    skos:altLabel "Alberta"@fra ;
+    skos:broader :CAN ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "CA-AB" ;
+    skos:prefLabel "Alberta"@en ;
+.
+
+:CA-BC
+    a skos:Concept ;
+    skos:altLabel "Colombie-Britannique"@fra ;
+    skos:broader :CAN ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "CA-BC" ;
+    skos:prefLabel "British Columbia"@en ;
+.
+
+:CA-MB
+    a skos:Concept ;
+    skos:altLabel "Manitoba"@fra ;
+    skos:broader :CAN ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "CA-MB" ;
+    skos:prefLabel "Manitoba"@en ;
+.
+
+:CA-NB
+    a skos:Concept ;
+    skos:altLabel "Nouveau-Brunswick"@fra ;
+    skos:broader :CAN ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "CA-NB" ;
+    skos:prefLabel "New Brunswick"@en ;
+.
+
+:CA-NL
+    a skos:Concept ;
+    skos:altLabel "Terre-Neuve-et-Labrador"@fra ;
+    skos:broader :CAN ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "CA-NL" ;
+    skos:prefLabel "Newfoundland and Labrador"@en ;
+.
+
+:CA-NS
+    a skos:Concept ;
+    skos:altLabel "Nouvelle-Ecosse"@fra ;
+    skos:broader :CAN ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "CA-NS" ;
+    skos:prefLabel "Nova Scotia"@en ;
+.
+
+:CA-NT
+    a skos:Concept ;
+    skos:altLabel "Territoires du Nord-Ouest"@fra ;
+    skos:broader :CAN ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "CA-NT" ;
+    skos:prefLabel "Northwest Territories"@en ;
+.
+
+:CA-NU
+    a skos:Concept ;
+    skos:altLabel "Nunavut"@fra ;
+    skos:broader :CAN ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "CA-NU" ;
+    skos:prefLabel "Nunavut"@en ;
+.
+
+:CA-ON
+    a skos:Concept ;
+    skos:altLabel "Ontario"@fra ;
+    skos:broader :CAN ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "CA-ON" ;
+    skos:prefLabel "Ontario"@en ;
+.
+
+:CA-PE
+    a skos:Concept ;
+    skos:altLabel "Île-du-Prince-Édouard"@fra ;
+    skos:broader :CAN ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "CA-PE" ;
+    skos:prefLabel "Prince Edward Island"@en ;
+.
+
+:CA-QC
+    a skos:Concept ;
+    skos:altLabel "Quebec"@fra ;
+    skos:broader :CAN ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "CA-QC" ;
+    skos:prefLabel "Quebec"@en ;
+.
+
+:CA-SK
+    a skos:Concept ;
+    skos:altLabel "Saskatchewan"@fra ;
+    skos:broader :CAN ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "CA-SK" ;
+    skos:prefLabel "Saskatchewan"@en ;
+.
+
+:CA-YT
+    a skos:Concept ;
+    skos:altLabel "Yukon"@fra ;
+    skos:broader :CAN ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "CA-YT" ;
+    skos:prefLabel "Yukon"@en ;
+.
+
+:CAF
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CF> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "140" ,
+        "CAF" ,
+        "CF" ;
+    skos:prefLabel "Central African Republic (the)"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:CCK
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CC> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "166" ,
+        "CC" ,
+        "CCK" ;
+    skos:prefLabel "Cocos (Keeling) Islands (the)"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:CHE
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CH> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "756" ,
+        "CH" ,
+        "CHE" ;
+    skos:prefLabel "Switzerland"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:CHN
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CN> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "156" ,
+        "CHN" ,
+        "CN" ;
+    skos:prefLabel "China"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:CIV
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CI> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "384" ,
+        "CI" ,
+        "CIV" ;
+    skos:prefLabel "Cote d'Ivoire"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:CL-AI
+    a skos:Concept ;
+    skos:altLabel "Aisen del General Carlos Ibanez del Campo"@spa ;
+    skos:broader :CHL ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "CL-AI" ;
+    skos:prefLabel "Aisen del General Carlos Ibanez del Campo"@en ;
+.
+
+:CL-AN
+    a skos:Concept ;
+    skos:altLabel "Antofagasta"@spa ;
+    skos:broader :CHL ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "CL-AN" ;
+    skos:prefLabel "Antofagasta"@en ;
+.
+
+:CL-AP
+    a skos:Concept ;
+    skos:altLabel "Arica y Parinacota"@spa ;
+    skos:broader :CHL ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "CL-AP" ;
+    skos:prefLabel "Arica y Parinacota"@en ;
+.
+
+:CL-AR
+    a skos:Concept ;
+    skos:altLabel "La Araucania"@spa ;
+    skos:broader :CHL ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "CL-AR" ;
+    skos:prefLabel "La Araucania"@en ;
+.
+
+:CL-AT
+    a skos:Concept ;
+    skos:altLabel "Atacama"@spa ;
+    skos:broader :CHL ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "CL-AT" ;
+    skos:prefLabel "Atacama"@en ;
+.
+
+:CL-BI
+    a skos:Concept ;
+    skos:altLabel "Biobío"@spa ;
+    skos:broader :CHL ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "CL-BI" ;
+    skos:prefLabel "Biobío"@en ;
+.
+
+:CL-CO
+    a skos:Concept ;
+    skos:altLabel "Coquimbo"@spa ;
+    skos:broader :CHL ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "CL-CO" ;
+    skos:prefLabel "Coquimbo"@en ;
+.
+
+:CL-LI
+    a skos:Concept ;
+    skos:altLabel "Libertador General Bernardo O'Higgins"@spa ;
+    skos:broader :CHL ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "CL-LI" ;
+    skos:prefLabel "Libertador General Bernardo O'Higgins"@en ;
+.
+
+:CL-LL
+    a skos:Concept ;
+    skos:altLabel "Los Lagos"@spa ;
+    skos:broader :CHL ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "CL-LL" ;
+    skos:prefLabel "Los Lagos"@en ;
+.
+
+:CL-LR
+    a skos:Concept ;
+    skos:altLabel "Los Rios"@spa ;
+    skos:broader :CHL ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "CL-LR" ;
+    skos:prefLabel "Los Rios"@en ;
+.
+
+:CL-MA
+    a skos:Concept ;
+    skos:altLabel "Magallanes"@spa ;
+    skos:broader :CHL ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "CL-MA" ;
+    skos:prefLabel "Magallanes"@en ;
+.
+
+:CL-ML
+    a skos:Concept ;
+    skos:altLabel "Maule"@spa ;
+    skos:broader :CHL ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "CL-ML" ;
+    skos:prefLabel "Maule"@en ;
+.
+
+:CL-NB
+    a skos:Concept ;
+    skos:altLabel "Nuble"@spa ;
+    skos:broader :CHL ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "CL-NB" ;
+    skos:prefLabel "Nuble"@en ;
+.
+
+:CL-RM
+    a skos:Concept ;
+    skos:altLabel "Region Metropolitana de Santiago"@spa ;
+    skos:broader :CHL ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "CL-RM" ;
+    skos:prefLabel "Region Metropolitana de Santiago"@en ;
+.
+
+:CL-TA
+    a skos:Concept ;
+    skos:altLabel "Tarapaca"@spa ;
+    skos:broader :CHL ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "CL-TA" ;
+    skos:prefLabel "Tarapaca"@en ;
+.
+
+:CL-VS
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CL> ;
+    skos:altLabel "Valparaiso"@spa ;
+    skos:broader :CHL ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "CL-VS" ;
+    skos:prefLabel "Valparaiso"@en ;
+.
+
+:CMR
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CM> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "120" ,
+        "CM" ,
+        "CMR" ;
+    skos:prefLabel "Cameroon"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:COD
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CD> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "180" ,
+        "CD" ,
+        "COD" ;
+    skos:prefLabel "Congo (the Democratic Republic of the)"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:COG
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CG> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "178" ,
+        "CG" ,
+        "COG" ;
+    skos:prefLabel "Congo (the Republic of the)"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:COK
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CK> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "184" ,
+        "CK" ,
+        "COK" ;
+    skos:prefLabel "Cook Islands (the)"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:COL
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CO> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "170" ,
+        "CO" ,
+        "COL" ;
+    skos:prefLabel "Colombia"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:COM
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:KM> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "174" ,
+        "COM" ,
+        "KM" ;
+    skos:prefLabel "Comoros (the)"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:CPV
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CV> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "132" ,
+        "CPV" ,
+        "CV" ;
+    skos:prefLabel "Cabo Verde"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:CRI
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CR> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "188" ,
+        "CR" ,
+        "CRI" ;
+    skos:prefLabel "Costa Rica"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:CUB
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CU> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "192" ,
+        "CU" ,
+        "CUB" ;
+    skos:prefLabel "Cuba"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:CUW
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CW> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "531" ,
+        "CUW" ,
+        "CW" ;
+    skos:prefLabel "Curacao"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:CXR
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CX> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "162" ,
+        "CX" ,
+        "CXR" ;
+    skos:prefLabel "Christmas Island"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:CYM
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:KY> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "136" ,
+        "CYM" ,
+        "KY" ;
+    skos:prefLabel "Cayman Islands (the)"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:CYP
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CY> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "196" ,
+        "CY" ,
+        "CYP" ;
+    skos:prefLabel "Cyprus"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:CZE
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CZ> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "203" ,
+        "CZ" ,
+        "CZE" ;
+    skos:prefLabel "Czechia"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:DEU
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:DE> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "276" ,
+        "DE" ,
+        "DEU" ;
+    skos:prefLabel "Germany"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:DJI
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:DJ> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "262" ,
+        "DJ" ,
+        "DJI" ;
+    skos:prefLabel "Djibouti"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:DMA
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:DM> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "212" ,
+        "DM" ,
+        "DMA" ;
+    skos:prefLabel "Dominica"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:DNK
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:DK> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "208" ,
+        "DK" ,
+        "DNK" ;
+    skos:prefLabel "Denmark"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:DOM
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:DO> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "214" ,
+        "DO" ,
+        "DOM" ;
+    skos:prefLabel "Dominican Republic (the)"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:DZA
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:DZ> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "12" ,
+        "DZ" ,
+        "DZA" ;
+    skos:prefLabel "Algeria"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:ECU
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:EC> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "218" ,
+        "EC" ,
+        "ECU" ;
+    skos:prefLabel "Ecuador"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:EGY
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:EG> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "818" ,
+        "EG" ,
+        "EGY" ;
+    skos:prefLabel "Egypt"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:ERI
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:ER> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "232" ,
+        "ER" ,
+        "ERI" ;
+    skos:prefLabel "Eritrea"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:ESH
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:EH> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "732" ,
+        "EH" ,
+        "ESH" ;
+    skos:prefLabel "Western Sahara"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:ESP
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:ES> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "724" ,
+        "ES" ,
+        "ESP" ;
+    skos:prefLabel "Spain"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:EST
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:EE> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "233" ,
+        "EE" ,
+        "EST" ;
+    skos:prefLabel "Estonia"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:ETH
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:ET> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "231" ,
+        "ET" ,
+        "ETH" ;
+    skos:prefLabel "Ethiopia"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:FIN
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:FI> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "246" ,
+        "FI" ,
+        "FIN" ;
+    skos:prefLabel "Finland"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:FJI
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:FJ> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "242" ,
+        "FJ" ,
+        "FJI" ;
+    skos:prefLabel "Fiji"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:FLK
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:FK> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "238" ,
+        "FK" ,
+        "FLK" ;
+    skos:prefLabel "Falkland Islands (the) [Malvinas]"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:FRA
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:FR> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "250" ,
+        "FR" ,
+        "FRA" ;
+    skos:prefLabel "France"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:FRO
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:FO> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "234" ,
+        "FO" ,
+        "FRO" ;
+    skos:prefLabel "Faroe Islands (the)"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:FSM
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:FM> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "583" ,
+        "FM" ,
+        "FSM" ;
+    skos:prefLabel "Micronesia (Federated States of)"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:GAB
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:GA> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "266" ,
+        "GA" ,
+        "GAB" ;
+    skos:prefLabel "Gabon"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:GBR
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:GB> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "826" ,
+        "GB" ,
+        "GBR" ;
+    skos:prefLabel "United Kingdom of Great Britain and Northern Ireland (the)"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:GEO
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:GE> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "268" ,
+        "GE" ,
+        "GEO" ;
+    skos:prefLabel "Georgia"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:GGY
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:GG> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "831" ,
+        "GG" ,
+        "GGY" ;
+    skos:prefLabel "Guernsey"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:GHA
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:GH> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "288" ,
+        "GH" ,
+        "GHA" ;
+    skos:prefLabel "Ghana"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:GIB
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:GI> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "292" ,
+        "GI" ,
+        "GIB" ;
+    skos:prefLabel "Gibraltar"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:GIN
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:GN> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "324" ,
+        "GIN" ,
+        "GN" ;
+    skos:prefLabel "Guinea"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:GLP
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:GP> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "312" ,
+        "GLP" ,
+        "GP" ;
+    skos:prefLabel "Guadeloupe"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:GMB
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:GM> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "270" ,
+        "GM" ,
+        "GMB" ;
+    skos:prefLabel "Gambia (the)"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:GNB
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:GW> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "624" ,
+        "GNB" ,
+        "GW" ;
+    skos:prefLabel "Guinea-Bissau"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:GNQ
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:GQ> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "226" ,
+        "GNQ" ,
+        "GQ" ;
+    skos:prefLabel "Equatorial Guinea"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:GRC
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:GR> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "300" ,
+        "GR" ,
+        "GRC" ;
+    skos:prefLabel "Greece"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:GRD
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:GD> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "308" ,
+        "GD" ,
+        "GRD" ;
+    skos:prefLabel "Grenada"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:GRL
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:GL> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "304" ,
+        "GL" ,
+        "GRL" ;
+    skos:prefLabel "Greenland"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:GTM
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:GT> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "320" ,
+        "GT" ,
+        "GTM" ;
+    skos:prefLabel "Guatemala"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:GUF
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:GF> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "254" ,
+        "GF" ,
+        "GUF" ;
+    skos:prefLabel "French Guiana"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:GUM
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:GU> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "316" ,
+        "GU" ,
+        "GUM" ;
+    skos:prefLabel "Guam"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:GUY
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:GY> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "328" ,
+        "GUY" ,
+        "GY" ;
+    skos:prefLabel "Guyana"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:HKG
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:HK> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "344" ,
+        "HK" ,
+        "HKG" ;
+    skos:prefLabel "Hong Kong"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:HMD
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:HM> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "334" ,
+        "HM" ,
+        "HMD" ;
+    skos:prefLabel "Heard Island and McDonald Islands"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:HND
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:HN> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "340" ,
+        "HN" ,
+        "HND" ;
+    skos:prefLabel "Honduras"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:HRV
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:HR> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "191" ,
+        "HR" ,
+        "HRV" ;
+    skos:prefLabel "Croatia"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:HTI
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:HT> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "332" ,
+        "HT" ,
+        "HTI" ;
+    skos:prefLabel "Haiti"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:HUN
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:HU> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "348" ,
+        "HU" ,
+        "HUN" ;
+    skos:prefLabel "Hungary"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:IDN
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:ID> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "360" ,
+        "ID" ,
+        "IDN" ;
+    skos:prefLabel "Indonesia"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:IMN
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:IM> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "833" ,
+        "IM" ,
+        "IMN" ;
+    skos:prefLabel "Isle of Man"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:IND
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:IN> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "356" ,
+        "IN" ,
+        "IND" ;
+    skos:prefLabel "India"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:IOT
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:IO> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "86" ,
+        "IO" ,
+        "IOT" ;
+    skos:prefLabel "British Indian Ocean Territory (the)"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:IRL
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:IE> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "372" ,
+        "IE" ,
+        "IRL" ;
+    skos:prefLabel "Ireland"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:IRN
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:IR> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "364" ,
+        "IR" ,
+        "IRN" ;
+    skos:prefLabel "Iran (Islamic Republic of)"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:IRQ
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:IQ> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "368" ,
+        "IQ" ,
+        "IRQ" ;
+    skos:prefLabel "Iraq"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:ISL
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:IS> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "352" ,
+        "IS" ,
+        "ISL" ;
+    skos:prefLabel "Iceland"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:ISR
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:IL> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "376" ,
+        "IL" ,
+        "ISR" ;
+    skos:prefLabel "Israel"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:ITA
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:IT> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "380" ,
+        "IT" ,
+        "ITA" ;
+    skos:prefLabel "Italy"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:JAM
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:JM> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "388" ,
+        "JAM" ,
+        "JM" ;
+    skos:prefLabel "Jamaica"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:JEY
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:JE> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "832" ,
+        "JE" ,
+        "JEY" ;
+    skos:prefLabel "Jersey"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:JOR
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:JO> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "400" ,
+        "JO" ,
+        "JOR" ;
+    skos:prefLabel "Jordan"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:JPN
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:JP> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "392" ,
+        "JP" ,
+        "JPN" ;
+    skos:prefLabel "Japan"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:KAZ
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:KZ> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "398" ,
+        "KAZ" ,
+        "KZ" ;
+    skos:prefLabel "Kazakhstan"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:KEN
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:KE> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "404" ,
+        "KE" ,
+        "KEN" ;
+    skos:prefLabel "Kenya"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:KGZ
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:KG> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "417" ,
+        "KG" ,
+        "KGZ" ;
+    skos:prefLabel "Kyrgyzstan"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:KHM
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:KH> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "116" ,
+        "KH" ,
+        "KHM" ;
+    skos:prefLabel "Cambodia"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:KIR
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:KI> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "296" ,
+        "KI" ,
+        "KIR" ;
+    skos:prefLabel "Kiribati"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:KNA
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:KN> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "659" ,
+        "KN" ,
+        "KNA" ;
+    skos:prefLabel "Saint Kitts and Nevis"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:KOR
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:KR> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "410" ,
+        "KOR" ,
+        "KR" ;
+    skos:prefLabel "Korea (the Republic of)"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:KWT
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:KW> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "414" ,
+        "KW" ,
+        "KWT" ;
+    skos:prefLabel "Kuwait"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:LAO
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:LA> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "418" ,
+        "LA" ,
+        "LAO" ;
+    skos:prefLabel "Lao People's Democratic Republic (the)"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:LBN
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:LB> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "422" ,
+        "LB" ,
+        "LBN" ;
+    skos:prefLabel "Lebanon"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:LBR
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:LR> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "430" ,
+        "LBR" ,
+        "LR" ;
+    skos:prefLabel "Liberia"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:LBY
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:LY> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "434" ,
+        "LBY" ,
+        "LY" ;
+    skos:prefLabel "Libya"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:LCA
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:LC> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "662" ,
+        "LC" ,
+        "LCA" ;
+    skos:prefLabel "Saint Lucia"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:LIE
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:LI> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "438" ,
+        "LI" ,
+        "LIE" ;
+    skos:prefLabel "Liechtenstein"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:LKA
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:LK> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "144" ,
+        "LK" ,
+        "LKA" ;
+    skos:prefLabel "Sri Lanka"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:LSO
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:LS> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "426" ,
+        "LS" ,
+        "LSO" ;
+    skos:prefLabel "Lesotho"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:LTU
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:LT> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "440" ,
+        "LT" ,
+        "LTU" ;
+    skos:prefLabel "Lithuania"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:LUX
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:LU> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "442" ,
+        "LU" ,
+        "LUX" ;
+    skos:prefLabel "Luxembourg"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:LVA
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:LV> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "428" ,
+        "LV" ,
+        "LVA" ;
+    skos:prefLabel "Latvia"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MAC
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MO> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "446" ,
+        "MAC" ,
+        "MO" ;
+    skos:prefLabel "Macao"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MAF
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MF> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "663" ,
+        "MAF" ,
+        "MF" ;
+    skos:prefLabel "Saint Martin (French part)"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MAR
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MA> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "504" ,
+        "MA" ,
+        "MAR" ;
+    skos:prefLabel "Morocco"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MCO
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MC> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "492" ,
+        "MC" ,
+        "MCO" ;
+    skos:prefLabel "Monaco"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MDA
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MD> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "498" ,
+        "MD" ,
+        "MDA" ;
+    skos:prefLabel "Moldova (the Republic of)"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MDG
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MG> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "450" ,
+        "MDG" ,
+        "MG" ;
+    skos:prefLabel "Madagascar"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MDV
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MV> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "462" ,
+        "MDV" ,
+        "MV" ;
+    skos:prefLabel "Maldives"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:ME-01
+    a skos:Concept ;
+    skos:altLabel "Andrijevica"@cnr ;
+    skos:broader :MNE ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "ME-01" ;
+    skos:prefLabel "Andrijevica"@en ;
+.
+
+:ME-02
+    a skos:Concept ;
+    skos:altLabel "Bar"@cnr ;
+    skos:broader :MNE ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "ME-02" ;
+    skos:prefLabel "Bar"@en ;
+.
+
+:ME-03
+    a skos:Concept ;
+    skos:altLabel "Berane"@cnr ;
+    skos:broader :MNE ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "ME-03" ;
+    skos:prefLabel "Berane"@en ;
+.
+
+:ME-04
+    a skos:Concept ;
+    skos:altLabel "Bijelo Polje"@cnr ;
+    skos:broader :MNE ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "ME-04" ;
+    skos:prefLabel "Bijelo Polje"@en ;
+.
+
+:ME-05
+    a skos:Concept ;
+    skos:altLabel "Budva"@cnr ;
+    skos:broader :MNE ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "ME-05" ;
+    skos:prefLabel "Budva"@en ;
+.
+
+:ME-06
+    a skos:Concept ;
+    skos:altLabel "Cetinje"@cnr ;
+    skos:broader :MNE ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "ME-06" ;
+    skos:prefLabel "Cetinje"@en ;
+.
+
+:ME-07
+    a skos:Concept ;
+    skos:altLabel "Danilovgrad"@cnr ;
+    skos:broader :MNE ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "ME-07" ;
+    skos:prefLabel "Danilovgrad"@en ;
+.
+
+:ME-08
+    a skos:Concept ;
+    skos:altLabel "Herceg-Novi"@cnr ;
+    skos:broader :MNE ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "ME-08" ;
+    skos:prefLabel "Herceg-Novi"@en ;
+.
+
+:ME-09
+    a skos:Concept ;
+    skos:altLabel "Kolasin"@cnr ;
+    skos:broader :MNE ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "ME-09" ;
+    skos:prefLabel "Kolasin"@en ;
+.
+
+:ME-10
+    a skos:Concept ;
+    skos:altLabel "Kotor"@cnr ;
+    skos:broader :MNE ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "ME-10" ;
+    skos:prefLabel "Kotor"@en ;
+.
+
+:ME-11
+    a skos:Concept ;
+    skos:altLabel "Mojkovac"@cnr ;
+    skos:broader :MNE ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "ME-11" ;
+    skos:prefLabel "Mojkovac"@en ;
+.
+
+:ME-12
+    a skos:Concept ;
+    skos:altLabel "Niksic"@cnr ;
+    skos:broader :MNE ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "ME-12" ;
+    skos:prefLabel "Niksic"@en ;
+.
+
+:ME-13
+    a skos:Concept ;
+    skos:altLabel "Plav"@cnr ;
+    skos:broader :MNE ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "ME-13" ;
+    skos:prefLabel "Plav"@en ;
+.
+
+:ME-14
+    a skos:Concept ;
+    skos:altLabel "Pljevlja"@cnr ;
+    skos:broader :MNE ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "ME-14" ;
+    skos:prefLabel "Pljevlja"@en ;
+.
+
+:ME-15
+    a skos:Concept ;
+    skos:altLabel "Pluzine"@cnr ;
+    skos:broader :MNE ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "ME-15" ;
+    skos:prefLabel "Pluzine"@en ;
+.
+
+:ME-16
+    a skos:Concept ;
+    skos:altLabel "Podgorica"@cnr ;
+    skos:broader :MNE ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "ME-16" ;
+    skos:prefLabel "Podgorica"@en ;
+.
+
+:ME-17
+    a skos:Concept ;
+    skos:altLabel "Rozaje"@cnr ;
+    skos:broader :MNE ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "ME-17" ;
+    skos:prefLabel "Rozaje"@en ;
+.
+
+:ME-18
+    a skos:Concept ;
+    skos:altLabel "Savnik"@cnr ;
+    skos:broader :MNE ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "ME-18" ;
+    skos:prefLabel "Savnik"@en ;
+.
+
+:ME-19
+    a skos:Concept ;
+    skos:altLabel "Tivat"@cnr ;
+    skos:broader :MNE ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "ME-19" ;
+    skos:prefLabel "Tivat"@en ;
+.
+
+:ME-20
+    a skos:Concept ;
+    skos:altLabel "Ulcinj"@cnr ;
+    skos:broader :MNE ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "ME-20" ;
+    skos:prefLabel "Ulcinj"@en ;
+.
+
+:ME-21
+    a skos:Concept ;
+    skos:altLabel "Zabljak"@cnr ;
+    skos:broader :MNE ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "ME-21" ;
+    skos:prefLabel "Zabljak"@en ;
+.
+
+:ME-22
+    a skos:Concept ;
+    skos:altLabel "Gusinje"@cnr ;
+    skos:broader :MNE ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "ME-22" ;
+    skos:prefLabel "Gusinje"@en ;
+.
+
+:ME-23
+    a skos:Concept ;
+    skos:altLabel "Petnjica"@cnr ;
+    skos:broader :MNE ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "ME-23" ;
+    skos:prefLabel "Petnjica"@en ;
+.
+
+:ME-24
+    a skos:Concept ;
+    skos:altLabel "Tuzi"@cnr ;
+    skos:broader :MNE ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "ME-24" ;
+    skos:prefLabel "Tuzi"@en ;
+.
+
+:MHL
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MH> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "584" ,
+        "MH" ,
+        "MHL" ;
+    skos:prefLabel "Marshall Islands (the)"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MKD
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MK> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "807" ,
+        "MK" ,
+        "MKD" ;
+    skos:prefLabel "North Macedonia"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MLI
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:ML> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "466" ,
+        "ML" ,
+        "MLI" ;
+    skos:prefLabel "Mali"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MLT
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MT> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "470" ,
+        "MLT" ,
+        "MT" ;
+    skos:prefLabel "Malta"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MMR
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MM> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "104" ,
+        "MM" ,
+        "MMR" ;
+    skos:prefLabel "Myanmar"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MNG
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MN> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "496" ,
+        "MN" ,
+        "MNG" ;
+    skos:prefLabel "Mongolia"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MNP
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MP> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "580" ,
+        "MNP" ,
+        "MP" ;
+    skos:prefLabel "Northern Mariana Islands (the)"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MOZ
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MZ> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "508" ,
+        "MOZ" ,
+        "MZ" ;
+    skos:prefLabel "Mozambique"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MRT
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MR> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "478" ,
+        "MR" ,
+        "MRT" ;
+    skos:prefLabel "Mauritania"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MSR
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MS> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "500" ,
+        "MS" ,
+        "MSR" ;
+    skos:prefLabel "Montserrat"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MTQ
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MQ> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "474" ,
+        "MQ" ,
+        "MTQ" ;
+    skos:prefLabel "Martinique"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MUS
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MU> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "480" ,
+        "MU" ,
+        "MUS" ;
+    skos:prefLabel "Mauritius"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MWI
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MW> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "454" ,
+        "MW" ,
+        "MWI" ;
+    skos:prefLabel "Malawi"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MX-AGU
+    a skos:Concept ;
+    skos:altLabel "Aguascalientes"@spa ;
+    skos:broader :MEX ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "MX-AGU" ;
+    skos:prefLabel "Aguascalientes"@en ;
+.
+
+:MX-BCN
+    a skos:Concept ;
+    skos:altLabel "Baja California"@spa ;
+    skos:broader :MEX ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "MX-BCN" ;
+    skos:prefLabel "Baja California"@en ;
+.
+
+:MX-BCS
+    a skos:Concept ;
+    skos:altLabel "Baja California Sur"@spa ;
+    skos:broader :MEX ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "MX-BCS" ;
+    skos:prefLabel "Baja California Sur"@en ;
+.
+
+:MX-CAM
+    a skos:Concept ;
+    skos:altLabel "Campeche"@spa ;
+    skos:broader :MEX ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "MX-CAM" ;
+    skos:prefLabel "Campeche"@en ;
+.
+
+:MX-CHH
+    a skos:Concept ;
+    skos:altLabel "Chihuahua"@spa ;
+    skos:broader :MEX ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "MX-CHH" ;
+    skos:prefLabel "Chihuahua"@en ;
+.
+
+:MX-CHP
+    a skos:Concept ;
+    skos:altLabel "Chiapas"@spa ;
+    skos:broader :MEX ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "MX-CHP" ;
+    skos:prefLabel "Chiapas"@en ;
+.
+
+:MX-CMX
+    a skos:Concept ;
+    skos:altLabel "Ciudad de Mexico"@spa ;
+    skos:broader :MEX ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "MX-CMX" ;
+    skos:prefLabel "Ciudad de Mexico"@en ;
+.
+
+:MX-COA
+    a skos:Concept ;
+    skos:altLabel "Coahuila de Zaragoza"@spa ;
+    skos:broader :MEX ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "MX-COA" ;
+    skos:prefLabel "Coahuila de Zaragoza"@en ;
+.
+
+:MX-COL
+    a skos:Concept ;
+    skos:altLabel "Colima"@spa ;
+    skos:broader :MEX ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "MX-COL" ;
+    skos:prefLabel "Colima"@en ;
+.
+
+:MX-DUR
+    a skos:Concept ;
+    skos:altLabel "Durango"@spa ;
+    skos:broader :MEX ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "MX-DUR" ;
+    skos:prefLabel "Durango"@en ;
+.
+
+:MX-GRO
+    a skos:Concept ;
+    skos:altLabel "Guerrero"@spa ;
+    skos:broader :MEX ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "MX-GRO" ;
+    skos:prefLabel "Guerrero"@en ;
+.
+
+:MX-GUA
+    a skos:Concept ;
+    skos:altLabel "Guanajuato"@spa ;
+    skos:broader :MEX ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "MX-GUA" ;
+    skos:prefLabel "Guanajuato"@en ;
+.
+
+:MX-HID
+    a skos:Concept ;
+    skos:altLabel "Hidalgo"@spa ;
+    skos:broader :MEX ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "MX-HID" ;
+    skos:prefLabel "Hidalgo"@en ;
+.
+
+:MX-JAL
+    a skos:Concept ;
+    skos:altLabel "Jalisco"@spa ;
+    skos:broader :MEX ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "MX-JAL" ;
+    skos:prefLabel "Jalisco"@en ;
+.
+
+:MX-MEX
+    a skos:Concept ;
+    skos:altLabel "Mexico"@spa ;
+    skos:broader :MEX ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "MX-MEX" ;
+    skos:prefLabel "Mexico"@en ;
+.
+
+:MX-MIC
+    a skos:Concept ;
+    skos:altLabel "Michoacan de Ocampo"@spa ;
+    skos:broader :MEX ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "MX-MIC" ;
+    skos:prefLabel "Michoacan de Ocampo"@en ;
+.
+
+:MX-MOR
+    a skos:Concept ;
+    skos:altLabel "Morelos"@spa ;
+    skos:broader :MEX ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "MX-MOR" ;
+    skos:prefLabel "Morelos"@en ;
+.
+
+:MX-NAY
+    a skos:Concept ;
+    skos:altLabel "Nayarit"@spa ;
+    skos:broader :MEX ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "MX-NAY" ;
+    skos:prefLabel "Nayarit"@en ;
+.
+
+:MX-NLE
+    a skos:Concept ;
+    skos:altLabel "Nuevo Leon"@spa ;
+    skos:broader :MEX ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "MX-NLE" ;
+    skos:prefLabel "Nuevo Leon"@en ;
+.
+
+:MX-OAX
+    a skos:Concept ;
+    skos:altLabel "Oaxaca"@spa ;
+    skos:broader :MEX ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "MX-OAX" ;
+    skos:prefLabel "Oaxaca"@en ;
+.
+
+:MX-PUE
+    a skos:Concept ;
+    skos:altLabel "Puebla"@spa ;
+    skos:broader :MEX ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "MX-PUE" ;
+    skos:prefLabel "Puebla"@en ;
+.
+
+:MX-QUE
+    a skos:Concept ;
+    skos:altLabel "Queretaro"@spa ;
+    skos:broader :MEX ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "MX-QUE" ;
+    skos:prefLabel "Queretaro"@en ;
+.
+
+:MX-ROO
+    a skos:Concept ;
+    skos:altLabel "Quintana Roo"@spa ;
+    skos:broader :MEX ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "MX-ROO" ;
+    skos:prefLabel "Quintana Roo"@en ;
+.
+
+:MX-SIN
+    a skos:Concept ;
+    skos:altLabel "Sinaloa"@spa ;
+    skos:broader :MEX ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "MX-SIN" ;
+    skos:prefLabel "Sinaloa"@en ;
+.
+
+:MX-SLP
+    a skos:Concept ;
+    skos:altLabel "San Luis Potosi"@spa ;
+    skos:broader :MEX ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "MX-SLP" ;
+    skos:prefLabel "San Luis Potosi"@en ;
+.
+
+:MX-SON
+    a skos:Concept ;
+    skos:altLabel "Sonora"@spa ;
+    skos:broader :MEX ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "MX-SON" ;
+    skos:prefLabel "Sonora"@en ;
+.
+
+:MX-TAB
+    a skos:Concept ;
+    skos:altLabel "Tabasco"@spa ;
+    skos:broader :MEX ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "MX-TAB" ;
+    skos:prefLabel "Tabasco"@en ;
+.
+
+:MX-TAM
+    a skos:Concept ;
+    skos:altLabel "Tamaulipas"@spa ;
+    skos:broader :MEX ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "MX-TAM" ;
+    skos:prefLabel "Tamaulipas"@en ;
+.
+
+:MX-TLA
+    a skos:Concept ;
+    skos:altLabel "Tlaxcala"@spa ;
+    skos:broader :MEX ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "MX-TLA" ;
+    skos:prefLabel "Tlaxcala"@en ;
+.
+
+:MX-VER
+    a skos:Concept ;
+    skos:altLabel "Veracruz de Ignacio de la Llave"@spa ;
+    skos:broader :MEX ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "MX-VER" ;
+    skos:prefLabel "Veracruz de Ignacio de la Llave"@en ;
+.
+
+:MX-YUC
+    a skos:Concept ;
+    skos:altLabel "Yucatan"@spa ;
+    skos:broader :MEX ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "MX-YUC" ;
+    skos:prefLabel "Yucatan"@en ;
+.
+
+:MX-ZAC
+    a skos:Concept ;
+    skos:altLabel "Zacatecas"@spa ;
+    skos:broader :MEX ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "MX-ZAC" ;
+    skos:prefLabel "Zacatecas"@en ;
+.
+
+:MYS
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MY> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "458" ,
+        "MY" ,
+        "MYS" ;
+    skos:prefLabel "Malaysia"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MYT
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:YT> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "175" ,
+        "MYT" ,
+        "YT" ;
+    skos:prefLabel "Mayotte"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:NAM
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:NA> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "516" ,
+        "NA" ,
+        "NAM" ;
+    skos:prefLabel "Namibia"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:NCL
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:NC> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "540" ,
+        "NC" ,
+        "NCL" ;
+    skos:prefLabel "New Caledonia"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:NER
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:NE> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "562" ,
+        "NE" ,
+        "NER" ;
+    skos:prefLabel "Niger (the)"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:NFK
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:NF> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "574" ,
+        "NF" ,
+        "NFK" ;
+    skos:prefLabel "Norfolk Island"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:NGA
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:NG> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "566" ,
+        "NG" ,
+        "NGA" ;
+    skos:prefLabel "Nigeria"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:NIC
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:NI> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "558" ,
+        "NI" ,
+        "NIC" ;
+    skos:prefLabel "Nicaragua"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:NIU
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:NU> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "570" ,
+        "NIU" ,
+        "NU" ;
+    skos:prefLabel "Niue"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:NLD
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:NL> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "528" ,
+        "NL" ,
+        "NLD" ;
+    skos:prefLabel "Netherlands (the)"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:NOR
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:NO> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "578" ,
+        "NO" ,
+        "NOR" ;
+    skos:prefLabel "Norway"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:NPL
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:NP> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "524" ,
+        "NP" ,
+        "NPL" ;
+    skos:prefLabel "Nepal"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:NRU
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:NR> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "520" ,
+        "NR" ,
+        "NRU" ;
+    skos:prefLabel "Nauru"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:NZ-AUK
+    a skos:Concept ;
+    skos:altLabel "Tamaki-makau-rau"@mri ;
+    skos:broader :NZL ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "NZ-AUK" ;
+    skos:prefLabel "Auckland"@en ;
+.
+
+:NZ-BOP
+    a skos:Concept ;
+    skos:altLabel "Te Moana a Toi Te Huatahi"@mri ;
+    skos:broader :NZL ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "NZ-BOP" ;
+    skos:prefLabel "Bay of Plenty"@en ;
+.
+
+:NZ-CAN
+    a skos:Concept ;
+    skos:altLabel "Waitaha"@mri ;
+    skos:broader :NZL ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "NZ-CAN" ;
+    skos:prefLabel "Canterbury"@en ;
+.
+
+:NZ-CIT
+    a skos:Concept ;
+    skos:altLabel "Wharekauri"@mri ;
+    skos:broader :NZL ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "NZ-CIT" ;
+    skos:prefLabel "Chatham Islands Territory"@en ;
+.
+
+:NZ-GIS
+    a skos:Concept ;
+    skos:altLabel "Turanga nui a Kiwa"@mri ;
+    skos:broader :NZL ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "NZ-GIS" ;
+    skos:prefLabel "Gisborne"@en ;
+.
+
+:NZ-HKB
+    a skos:Concept ;
+    skos:altLabel "Te Matau a Maui"@mri ;
+    skos:broader :NZL ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "NZ-HKB" ;
+    skos:prefLabel "Hawke's Bay"@en ;
+.
+
+:NZ-MBH
+    a skos:Concept ;
+    skos:altLabel "Te Tauihu-o-te-waka"@mri ;
+    skos:broader :NZL ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "NZ-MBH" ;
+    skos:prefLabel "Marlborough"@en ;
+.
+
+:NZ-MWT
+    a skos:Concept ;
+    skos:altLabel "Manawatu-Wanganui"@mri ;
+    skos:broader :NZL ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "NZ-MWT" ;
+    skos:prefLabel "Manawatu Whanganui"@en ;
+.
+
+:NZ-NSN
+    a skos:Concept ;
+    skos:altLabel "Whakatu"@mri ;
+    skos:broader :NZL ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "NZ-NSN" ;
+    skos:prefLabel "Nelson"@en ;
+.
+
+:NZ-NTL
+    a skos:Concept ;
+    skos:altLabel "Te Tai tokerau"@mri ;
+    skos:broader :NZL ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "NZ-NTL" ;
+    skos:prefLabel "Northland"@en ;
+.
+
+:NZ-OTA
+    a skos:Concept ;
+    skos:altLabel "O Takou"@mri ;
+    skos:broader :NZL ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "NZ-OTA" ;
+    skos:prefLabel "Otago"@en ;
+.
+
+:NZ-STL
+    a skos:Concept ;
+    skos:altLabel "Murihiku"@mri ;
+    skos:broader :NZL ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "NZ-STL" ;
+    skos:prefLabel "Southland"@en ;
+.
+
+:NZ-TAS
+    a skos:Concept ;
+    skos:altLabel "Te Tai-o-Aorere"@mri ;
+    skos:broader :NZL ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "NZ-TAS" ;
+    skos:prefLabel "Tasman"@en ;
+.
+
+:NZ-TKI
+    a skos:Concept ;
+    skos:altLabel "Taranaki"@mri ;
+    skos:broader :NZL ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "NZ-TKI" ;
+    skos:prefLabel "Taranaki"@en ;
+.
+
+:NZ-WGN
+    a skos:Concept ;
+    skos:altLabel "Te Whanga-nui-a-Tara"@mri ;
+    skos:broader :NZL ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "NZ-WGN" ;
+    skos:prefLabel "Wellington"@en ;
+.
+
+:NZ-WKO
+    a skos:Concept ;
+    skos:altLabel "Waikato"@mri ;
+    skos:broader :NZL ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "NZ-WKO" ;
+    skos:prefLabel "Waikato"@en ;
+.
+
+:NZ-WTC
+    a skos:Concept ;
+    skos:altLabel "Te Taihau a uru"@mri ;
+    skos:broader :NZL ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "NZ-WTC" ;
+    skos:prefLabel "West Coast"@en ;
+.
+
+:OMN
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:OM> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "512" ,
+        "OM" ,
+        "OMN" ;
+    skos:prefLabel "Oman"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:PAK
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:PK> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "586" ,
+        "PAK" ,
+        "PK" ;
+    skos:prefLabel "Pakistan"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:PAN
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:PA> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "591" ,
+        "PA" ,
+        "PAN" ;
+    skos:prefLabel "Panama"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:PCN
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:PN> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "612" ,
+        "PCN" ,
+        "PN" ;
+    skos:prefLabel "Pitcairn"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:PER
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:PE> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "604" ,
+        "PE" ,
+        "PER" ;
+    skos:prefLabel "Peru"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:PHL
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:PH> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "608" ,
+        "PH" ,
+        "PHL" ;
+    skos:prefLabel "Philippines (the)"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:PLW
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:PW> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "585" ,
+        "PLW" ,
+        "PW" ;
+    skos:prefLabel "Palau"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:PNG
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:PG> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "598" ,
+        "PG" ,
+        "PNG" ;
+    skos:prefLabel "Papua New Guinea"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:POL
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:PL> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "616" ,
+        "PL" ,
+        "POL" ;
+    skos:prefLabel "Poland"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:PRI
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:PR> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "630" ,
+        "PR" ,
+        "PRI" ;
+    skos:prefLabel "Puerto Rico"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:PRK
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:KP> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "408" ,
+        "KP" ,
+        "PRK" ;
+    skos:prefLabel "Korea (the Democratic People's Republic of)"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:PRT
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:PT> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "620" ,
+        "PRT" ,
+        "PT" ;
+    skos:prefLabel "Portugal"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:PRY
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:PY> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "600" ,
+        "PRY" ,
+        "PY" ;
+    skos:prefLabel "Paraguay"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:PSE
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:PS> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "275" ,
+        "PS" ,
+        "PSE" ;
+    skos:prefLabel "Palestine, State of"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:PYF
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:PF> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "258" ,
+        "PF" ,
+        "PYF" ;
+    skos:prefLabel "French Polynesia"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:QAT
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:QA> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "634" ,
+        "QA" ,
+        "QAT" ;
+    skos:prefLabel "Qatar"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:REU
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:RE> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "638" ,
+        "RE" ,
+        "REU" ;
+    skos:prefLabel "Reunion"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:ROU
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:RO> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "642" ,
+        "RO" ,
+        "ROU" ;
+    skos:prefLabel "Romania"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:RS-00
+    a skos:Concept ;
+    skos:altLabel "Beograd"@srp ;
+    skos:broader :SRB ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "RS-00" ;
+    skos:prefLabel "Beograd"@en ;
+.
+
+:RS-08
+    a skos:Concept ;
+    skos:altLabel "Macvanski okrug"@srp ;
+    skos:broader :SRB ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "RS-08" ;
+    skos:prefLabel "Macvanski okrug"@en ;
+.
+
+:RS-09
+    a skos:Concept ;
+    skos:altLabel "Kolubarski okrug"@srp ;
+    skos:broader :SRB ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "RS-09" ;
+    skos:prefLabel "Kolubarski okrug"@en ;
+.
+
+:RS-10
+    a skos:Concept ;
+    skos:altLabel "Podunavski okrug"@srp ;
+    skos:broader :SRB ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "RS-10" ;
+    skos:prefLabel "Podunavski okrug"@en ;
+.
+
+:RS-11
+    a skos:Concept ;
+    skos:altLabel "Branicevski okrug"@srp ;
+    skos:broader :SRB ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "RS-11" ;
+    skos:prefLabel "Branicevski okrug"@en ;
+.
+
+:RS-12
+    a skos:Concept ;
+    skos:altLabel "Sumadijski okrug"@srp ;
+    skos:broader :SRB ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "RS-12" ;
+    skos:prefLabel "Sumadijski okrug"@en ;
+.
+
+:RS-13
+    a skos:Concept ;
+    skos:altLabel "Pomoravski okrug"@srp ;
+    skos:broader :SRB ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "RS-13" ;
+    skos:prefLabel "Pomoravski okrug"@en ;
+.
+
+:RS-14
+    a skos:Concept ;
+    skos:altLabel "Borski okrug"@srp ;
+    skos:broader :SRB ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "RS-14" ;
+    skos:prefLabel "Borski okrug"@en ;
+.
+
+:RS-15
+    a skos:Concept ;
+    skos:altLabel "Zajecarski okrug"@srp ;
+    skos:broader :SRB ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "RS-15" ;
+    skos:prefLabel "Zajecarski okrug"@en ;
+.
+
+:RS-16
+    a skos:Concept ;
+    skos:altLabel "Zlatiborski okrug"@srp ;
+    skos:broader :SRB ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "RS-16" ;
+    skos:prefLabel "Zlatiborski okrug"@en ;
+.
+
+:RS-17
+    a skos:Concept ;
+    skos:altLabel "Moravicki okrug"@srp ;
+    skos:broader :SRB ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "RS-17" ;
+    skos:prefLabel "Moravicki okrug"@en ;
+.
+
+:RS-18
+    a skos:Concept ;
+    skos:altLabel "Raski okrug"@srp ;
+    skos:broader :SRB ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "RS-18" ;
+    skos:prefLabel "Raski okrug"@en ;
+.
+
+:RS-19
+    a skos:Concept ;
+    skos:altLabel "Rasinski okrug"@srp ;
+    skos:broader :SRB ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "RS-19" ;
+    skos:prefLabel "Rasinski okrug"@en ;
+.
+
+:RS-20
+    a skos:Concept ;
+    skos:altLabel "Nisavski okrug"@srp ;
+    skos:broader :SRB ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "RS-20" ;
+    skos:prefLabel "Nisavski okrug"@en ;
+.
+
+:RS-21
+    a skos:Concept ;
+    skos:altLabel "Toplicki okrug"@srp ;
+    skos:broader :SRB ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "RS-21" ;
+    skos:prefLabel "Toplicki okrug"@en ;
+.
+
+:RS-22
+    a skos:Concept ;
+    skos:altLabel "Pirotski okrug"@srp ;
+    skos:broader :SRB ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "RS-22" ;
+    skos:prefLabel "Pirotski okrug"@en ;
+.
+
+:RS-23
+    a skos:Concept ;
+    skos:altLabel "Jablanicki okrug"@srp ;
+    skos:broader :SRB ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "RS-23" ;
+    skos:prefLabel "Jablanicki okrug"@en ;
+.
+
+:RS-24
+    a skos:Concept ;
+    skos:altLabel "Pcinjski okrug"@srp ;
+    skos:broader :SRB ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "RS-24" ;
+    skos:prefLabel "Pcinjski okrug"@en ;
+.
+
+:RUS
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:RU> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "643" ,
+        "RU" ,
+        "RUS" ;
+    skos:prefLabel "Russian Federation (the)"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:RWA
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:RW> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "646" ,
+        "RW" ,
+        "RWA" ;
+    skos:prefLabel "Rwanda"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:SAU
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:SA> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "682" ,
+        "SA" ,
+        "SAU" ;
+    skos:prefLabel "Saudi Arabia"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:SDN
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:SD> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "729" ,
+        "SD" ,
+        "SDN" ;
+    skos:prefLabel "Sudan (the)"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:SEN
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:SN> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "686" ,
+        "SEN" ,
+        "SN" ;
+    skos:prefLabel "Senegal"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:SGP
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:SG> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "702" ,
+        "SG" ,
+        "SGP" ;
+    skos:prefLabel "Singapore"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:SGS
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:GS> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "239" ,
+        "GS" ,
+        "SGS" ;
+    skos:prefLabel "South Georgia and the South Sandwich Islands"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:SHN
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:SH> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "654" ,
+        "SH" ,
+        "SHN" ;
+    skos:prefLabel "Saint Helena, Ascension and Tristan da Cunha"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:SJM
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:SJ> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "744" ,
+        "SJ" ,
+        "SJM" ;
+    skos:prefLabel "Svalbard and Jan Mayen"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:SLB
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:SB> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "90" ,
+        "SB" ,
+        "SLB" ;
+    skos:prefLabel "Solomon Islands"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:SLE
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:SL> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "694" ,
+        "SL" ,
+        "SLE" ;
+    skos:prefLabel "Sierra Leone"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:SLV
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:SV> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "222" ,
+        "SLV" ,
+        "SV" ;
+    skos:prefLabel "El Salvador"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:SMR
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:SM> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "674" ,
+        "SM" ,
+        "SMR" ;
+    skos:prefLabel "San Marino"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:SOM
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:SO> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "706" ,
+        "SO" ,
+        "SOM" ;
+    skos:prefLabel "Somalia"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:SPM
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:PM> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "666" ,
+        "PM" ,
+        "SPM" ;
+    skos:prefLabel "Saint Pierre and Miquelon"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:SSD
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:SS> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "728" ,
+        "SS" ,
+        "SSD" ;
+    skos:prefLabel "South Sudan"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:STP
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:ST> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "678" ,
+        "ST" ,
+        "STP" ;
+    skos:prefLabel "Sao Tome and Principe"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:SUR
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:SR> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "740" ,
+        "SR" ,
+        "SUR" ;
+    skos:prefLabel "Suriname"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:SVK
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:SK> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "703" ,
+        "SK" ,
+        "SVK" ;
+    skos:prefLabel "Slovakia"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:SVN
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:SI> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "705" ,
+        "SI" ,
+        "SVN" ;
+    skos:prefLabel "Slovenia"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:SWE
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:SE> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "752" ,
+        "SE" ,
+        "SWE" ;
+    skos:prefLabel "Sweden"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:SWZ
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:SZ> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "748" ,
+        "SWZ" ,
+        "SZ" ;
+    skos:prefLabel "Eswatini"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:SXM
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:SX> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "534" ,
+        "SX" ,
+        "SXM" ;
+    skos:prefLabel "Sint Maarten (Dutch part)"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:SYC
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:SC> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "690" ,
+        "SC" ,
+        "SYC" ;
+    skos:prefLabel "Seychelles"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:SYR
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:SY> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "760" ,
+        "SY" ,
+        "SYR" ;
+    skos:prefLabel "Syrian Arab Republic"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:TCA
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:TC> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "796" ,
+        "TC" ,
+        "TCA" ;
+    skos:prefLabel "Turks and Caicos Islands (the)"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:TCD
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:TD> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "148" ,
+        "TCD" ,
+        "TD" ;
+    skos:prefLabel "Chad"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:TGO
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:TG> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "768" ,
+        "TG" ,
+        "TGO" ;
+    skos:prefLabel "Togo"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:THA
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:TH> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "764" ,
+        "TH" ,
+        "THA" ;
+    skos:prefLabel "Thailand"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:TJK
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:TJ> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "762" ,
+        "TJ" ,
+        "TJK" ;
+    skos:prefLabel "Tajikistan"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:TKL
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:TK> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "772" ,
+        "TK" ,
+        "TKL" ;
+    skos:prefLabel "Tokelau"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:TKM
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:TM> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "795" ,
+        "TKM" ,
+        "TM" ;
+    skos:prefLabel "Turkmenistan"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:TLS
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:TL> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "626" ,
+        "TL" ,
+        "TLS" ;
+    skos:prefLabel "Timor-Leste"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:TON
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:TO> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "776" ,
+        "TO" ,
+        "TON" ;
+    skos:prefLabel "Tonga"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:TTO
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:TT> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "780" ,
+        "TT" ,
+        "TTO" ;
+    skos:prefLabel "Trinidad and Tobago"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:TUN
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:TN> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "788" ,
+        "TN" ,
+        "TUN" ;
+    skos:prefLabel "Tunisia"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:TUR
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:TR> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "792" ,
+        "TR" ,
+        "TUR" ;
+    skos:prefLabel "Turkiye"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:TUV
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:TV> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "798" ,
+        "TUV" ,
+        "TV" ;
+    skos:prefLabel "Tuvalu"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:TWN
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:TW> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "158" ,
+        "TW" ,
+        "TWN" ;
+    skos:prefLabel "Taiwan (Province of China)"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:TZA
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:TZ> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "834" ,
+        "TZ" ,
+        "TZA" ;
+    skos:prefLabel "Tanzania, the United Republic of"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:UGA
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:UG> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "800" ,
+        "UG" ,
+        "UGA" ;
+    skos:prefLabel "Uganda"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:UKR
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:UA> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "804" ,
+        "UA" ,
+        "UKR" ;
+    skos:prefLabel "Ukraine"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:UMI
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:UM> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "581" ,
+        "UM" ,
+        "UMI" ;
+    skos:prefLabel "United States Minor Outlying Islands (the)"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:URY
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:UY> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "858" ,
+        "URY" ,
+        "UY" ;
+    skos:prefLabel "Uruguay"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:US-AK
+    a skos:Concept ;
+    skos:broader :USA ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "US-AK" ;
+    skos:prefLabel "Alaska"@en ;
+.
+
+:US-AL
+    a skos:Concept ;
+    skos:broader :USA ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "US-AL" ;
+    skos:prefLabel "Alabama"@en ;
+.
+
+:US-AR
+    a skos:Concept ;
+    skos:broader :USA ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "US-AR" ;
+    skos:prefLabel "Arkansas"@en ;
+.
+
+:US-AS
+    a skos:Concept ;
+    skos:broader :USA ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "US-AS" ;
+    skos:prefLabel "American Samoa"@en ;
+.
+
+:US-AZ
+    a skos:Concept ;
+    skos:broader :USA ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "US-AZ" ;
+    skos:prefLabel "Arizona"@en ;
+.
+
+:US-CA
+    a skos:Concept ;
+    skos:broader :USA ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "US-CA" ;
+    skos:prefLabel "California"@en ;
+.
+
+:US-CO
+    a skos:Concept ;
+    skos:broader :USA ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "US-CO" ;
+    skos:prefLabel "Colorado"@en ;
+.
+
+:US-CT
+    a skos:Concept ;
+    skos:broader :USA ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "US-CT" ;
+    skos:prefLabel "Connecticut"@en ;
+.
+
+:US-DC
+    a skos:Concept ;
+    skos:broader :USA ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "US-DC" ;
+    skos:prefLabel "District of Columbia"@en ;
+.
+
+:US-DE
+    a skos:Concept ;
+    skos:broader :USA ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "US-DE" ;
+    skos:prefLabel "Delaware"@en ;
+.
+
+:US-FL
+    a skos:Concept ;
+    skos:broader :USA ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "US-FL" ;
+    skos:prefLabel "Florida"@en ;
+.
+
+:US-GA
+    a skos:Concept ;
+    skos:broader :USA ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "US-GA" ;
+    skos:prefLabel "Georgia"@en ;
+.
+
+:US-GU
+    a skos:Concept ;
+    skos:broader :USA ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "US-GU" ;
+    skos:prefLabel "Guam"@en ;
+.
+
+:US-HI
+    a skos:Concept ;
+    skos:broader :USA ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "US-HI" ;
+    skos:prefLabel "Hawaii"@en ;
+.
+
+:US-IA
+    a skos:Concept ;
+    skos:broader :USA ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "US-IA" ;
+    skos:prefLabel "Iowa"@en ;
+.
+
+:US-ID
+    a skos:Concept ;
+    skos:broader :USA ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "US-ID" ;
+    skos:prefLabel "Idaho"@en ;
+.
+
+:US-IL
+    a skos:Concept ;
+    skos:broader :USA ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "US-IL" ;
+    skos:prefLabel "Illinois"@en ;
+.
+
+:US-IN
+    a skos:Concept ;
+    skos:broader :USA ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "US-IN" ;
+    skos:prefLabel "Indiana"@en ;
+.
+
+:US-KS
+    a skos:Concept ;
+    skos:broader :USA ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "US-KS" ;
+    skos:prefLabel "Kansas"@en ;
+.
+
+:US-KY
+    a skos:Concept ;
+    skos:broader :USA ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "US-KY" ;
+    skos:prefLabel "Kentucky"@en ;
+.
+
+:US-LA
+    a skos:Concept ;
+    skos:broader :USA ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "US-LA" ;
+    skos:prefLabel "Louisiana"@en ;
+.
+
+:US-MA
+    a skos:Concept ;
+    skos:broader :USA ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "US-MA" ;
+    skos:prefLabel "Massachusetts"@en ;
+.
+
+:US-MD
+    a skos:Concept ;
+    skos:broader :USA ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "US-MD" ;
+    skos:prefLabel "Maryland"@en ;
+.
+
+:US-ME
+    a skos:Concept ;
+    skos:broader :USA ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "US-ME" ;
+    skos:prefLabel "Maine"@en ;
+.
+
+:US-MI
+    a skos:Concept ;
+    skos:broader :USA ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "US-MI" ;
+    skos:prefLabel "Michigan"@en ;
+.
+
+:US-MN
+    a skos:Concept ;
+    skos:broader :USA ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "US-MN" ;
+    skos:prefLabel "Minnesota"@en ;
+.
+
+:US-MO
+    a skos:Concept ;
+    skos:broader :USA ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "US-MO" ;
+    skos:prefLabel "Missouri"@en ;
+.
+
+:US-MP
+    a skos:Concept ;
+    skos:broader :USA ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "US-MP" ;
+    skos:prefLabel "Northern Mariana Islands"@en ;
+.
+
+:US-MS
+    a skos:Concept ;
+    skos:broader :USA ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "US-MS" ;
+    skos:prefLabel "Mississippi"@en ;
+.
+
+:US-MT
+    a skos:Concept ;
+    skos:broader :USA ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "US-MT" ;
+    skos:prefLabel "Montana"@en ;
+.
+
+:US-NC
+    a skos:Concept ;
+    skos:broader :USA ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "US-NC" ;
+    skos:prefLabel "North Carolina"@en ;
+.
+
+:US-ND
+    a skos:Concept ;
+    skos:broader :USA ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "US-ND" ;
+    skos:prefLabel "North Dakota"@en ;
+.
+
+:US-NE
+    a skos:Concept ;
+    skos:broader :USA ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "US-NE" ;
+    skos:prefLabel "Nebraska"@en ;
+.
+
+:US-NH
+    a skos:Concept ;
+    skos:broader :USA ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "US-NH" ;
+    skos:prefLabel "New Hampshire"@en ;
+.
+
+:US-NJ
+    a skos:Concept ;
+    skos:broader :USA ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "US-NJ" ;
+    skos:prefLabel "New Jersey"@en ;
+.
+
+:US-NM
+    a skos:Concept ;
+    skos:broader :USA ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "US-NM" ;
+    skos:prefLabel "New Mexico"@en ;
+.
+
+:US-NV
+    a skos:Concept ;
+    skos:broader :USA ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "US-NV" ;
+    skos:prefLabel "Nevada"@en ;
+.
+
+:US-NY
+    a skos:Concept ;
+    skos:broader :USA ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "US-NY" ;
+    skos:prefLabel "New York"@en ;
+.
+
+:US-OH
+    a skos:Concept ;
+    skos:broader :USA ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "US-OH" ;
+    skos:prefLabel "Ohio"@en ;
+.
+
+:US-OK
+    a skos:Concept ;
+    skos:broader :USA ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "US-OK" ;
+    skos:prefLabel "Oklahoma"@en ;
+.
+
+:US-OR
+    a skos:Concept ;
+    skos:broader :USA ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "US-OR" ;
+    skos:prefLabel "Oregon"@en ;
+.
+
+:US-PA
+    a skos:Concept ;
+    skos:broader :USA ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "US-PA" ;
+    skos:prefLabel "Pennsylvania"@en ;
+.
+
+:US-PR
+    a skos:Concept ;
+    skos:broader :USA ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "US-PR" ;
+    skos:prefLabel "Puerto Rico"@en ;
+.
+
+:US-RI
+    a skos:Concept ;
+    skos:broader :USA ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "US-RI" ;
+    skos:prefLabel "Rhode Island"@en ;
+.
+
+:US-SC
+    a skos:Concept ;
+    skos:broader :USA ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "US-SC" ;
+    skos:prefLabel "South Carolina"@en ;
+.
+
+:US-SD
+    a skos:Concept ;
+    skos:broader :USA ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "US-SD" ;
+    skos:prefLabel "South Dakota"@en ;
+.
+
+:US-TN
+    a skos:Concept ;
+    skos:broader :USA ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "US-TN" ;
+    skos:prefLabel "Tennessee"@en ;
+.
+
+:US-TX
+    a skos:Concept ;
+    skos:broader :USA ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "US-TX" ;
+    skos:prefLabel "Texas"@en ;
+.
+
+:US-UM
+    a skos:Concept ;
+    skos:broader :USA ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "US-UM" ;
+    skos:prefLabel "United States Minor Outlying Islands"@en ;
+.
+
+:US-UT
+    a skos:Concept ;
+    skos:broader :USA ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "US-UT" ;
+    skos:prefLabel "Utah"@en ;
+.
+
+:US-VA
+    a skos:Concept ;
+    skos:broader :USA ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "US-VA" ;
+    skos:prefLabel "Virginia"@en ;
+.
+
+:US-VI
+    a skos:Concept ;
+    skos:broader :USA ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "US-VI" ;
+    skos:prefLabel "Virgin Islands, U.S."@en ;
+.
+
+:US-VT
+    a skos:Concept ;
+    skos:broader :USA ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "US-VT" ;
+    skos:prefLabel "Vermont"@en ;
+.
+
+:US-WA
+    a skos:Concept ;
+    skos:broader :USA ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "US-WA" ;
+    skos:prefLabel "Washington"@en ;
+.
+
+:US-WI
+    a skos:Concept ;
+    skos:broader :USA ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "US-WI" ;
+    skos:prefLabel "Wisconsin"@en ;
+.
+
+:US-WV
+    a skos:Concept ;
+    skos:broader :USA ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "US-WV" ;
+    skos:prefLabel "West Virginia"@en ;
+.
+
+:US-WY
+    a skos:Concept ;
+    skos:broader :USA ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "US-WY" ;
+    skos:prefLabel "Wyoming"@en ;
+.
+
+:UZB
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:UZ> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "860" ,
+        "UZ" ,
+        "UZB" ;
+    skos:prefLabel "Uzbekistan"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:VAT
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:VA> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "336" ,
+        "VA" ,
+        "VAT" ;
+    skos:prefLabel "Holy See (the)"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:VCT
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:VC> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "670" ,
+        "VC" ,
+        "VCT" ;
+    skos:prefLabel "Saint Vincent and the Grenadines"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:VEN
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:VE> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "862" ,
+        "VE" ,
+        "VEN" ;
+    skos:prefLabel "Venezuela (Bolivarian Republic of)"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:VGB
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:VG> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "92" ,
+        "VG" ,
+        "VGB" ;
+    skos:prefLabel "Virgin Islands (British)"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:VIR
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:VI> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "850" ,
+        "VI" ,
+        "VIR" ;
+    skos:prefLabel "Virgin Islands (U.S.)"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:VNM
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:VN> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "704" ,
+        "VN" ,
+        "VNM" ;
+    skos:prefLabel "Viet Nam"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:VUT
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:VU> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "548" ,
+        "VU" ,
+        "VUT" ;
+    skos:prefLabel "Vanuatu"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:WLF
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:WF> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "876" ,
+        "WF" ,
+        "WLF" ;
+    skos:prefLabel "Wallis and Futuna"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:WSM
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:WS> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "882" ,
+        "WS" ,
+        "WSM" ;
+    skos:prefLabel "Samoa"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:YEM
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:YE> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "887" ,
+        "YE" ,
+        "YEM" ;
+    skos:prefLabel "Yemen"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:ZAF
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:ZA> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "710" ,
+        "ZA" ,
+        "ZAF" ;
+    skos:prefLabel "South Africa"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:ZMB
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:ZM> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "894" ,
+        "ZM" ,
+        "ZMB" ;
+    skos:prefLabel "Zambia"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:ZWE
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:ZW> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation
+        "716" ,
+        "ZW" ,
+        "ZWE" ;
+    skos:prefLabel "Zimbabwe"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://linked.data.gov.au/org/ga>
+    a sdo:Organization ;
+    sdo:description "Geoscience Australia is Australia's pre-eminent public sector geoscience organisation. It is the nation's trusted advisor on the geology and geography of Australia. It applies science and technology to describe and understand the Earth for the benefit of Australia."@en ;
+    sdo:name "Geoscience Australia" ;
+    sdo:url "https://www.ga.gov.au"^^xsd:anyURI ;
+.
+
+:RS-01
+    a skos:Concept ;
+    skos:altLabel "Severnobacki okrug"@srp ;
+    skos:broader
+        :RS-VO ,
+        :SRB ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "RS-01" ;
+    skos:prefLabel "Severnobacki okrug"@en ;
+.
+
+:RS-02
+    a skos:Concept ;
+    skos:altLabel "Srednjebanatski okrug"@srp ;
+    skos:broader
+        :RS-VO ,
+        :SRB ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "RS-02" ;
+    skos:prefLabel "Srednjebanatski okrug"@en ;
+.
+
+:RS-03
+    a skos:Concept ;
+    skos:altLabel "Severnobanatski okrug"@srp ;
+    skos:broader
+        :RS-VO ,
+        :SRB ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "RS-03" ;
+    skos:prefLabel "Severnobanatski okrug"@en ;
+.
+
+:RS-04
+    a skos:Concept ;
+    skos:altLabel "Juznobanatski okrug"@srp ;
+    skos:broader
+        :RS-VO ,
+        :SRB ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "RS-04" ;
+    skos:prefLabel "Juznobanatski okrug"@en ;
+.
+
+:RS-05
+    a skos:Concept ;
+    skos:altLabel "Zapadnobacki okrug"@srp ;
+    skos:broader
+        :RS-VO ,
+        :SRB ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "RS-05" ;
+    skos:prefLabel "Zapadnobacki okrug"@en ;
+.
+
+:RS-06
+    a skos:Concept ;
+    skos:altLabel "Juznobacki okrug"@srp ;
+    skos:broader
+        :RS-VO ,
+        :SRB ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "RS-06" ;
+    skos:prefLabel "Juznobacki okrug"@en ;
+.
+
+:RS-07
+    a skos:Concept ;
+    skos:altLabel "Sremski okrug"@srp ;
+    skos:broader
+        :RS-VO ,
+        :SRB ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "RS-07" ;
+    skos:prefLabel "Sremski okrug"@en ;
+.
+
+:RS-25
+    a skos:Concept ;
+    skos:altLabel "Kosovski okrug"@srp ;
+    skos:broader
+        :RS-KM ,
+        :SRB ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "RS-25" ;
+    skos:prefLabel "Kosovski okrug"@en ;
+.
+
+:RS-26
+    a skos:Concept ;
+    skos:altLabel "Pecki okrug"@srp ;
+    skos:broader
+        :RS-KM ,
+        :SRB ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "RS-26" ;
+    skos:prefLabel "Pecki okrug"@en ;
+.
+
+:RS-27
+    a skos:Concept ;
+    skos:altLabel "Prizrenski okrug"@srp ;
+    skos:broader
+        :RS-KM ,
+        :SRB ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "RS-27" ;
+    skos:prefLabel "Prizrenski okrug"@en ;
+.
+
+:RS-28
+    a skos:Concept ;
+    skos:altLabel "Kosovsko-Mitrovacki okrug"@srp ;
+    skos:broader
+        :RS-KM ,
+        :SRB ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "RS-28" ;
+    skos:prefLabel "Kosovsko-Mitrovacki okrug"@en ;
+.
+
+:RS-29
+    a skos:Concept ;
+    skos:altLabel "Kosovsko-Pomoravski okrug"@srp ;
+    skos:broader
+        :RS-KM ,
+        :SRB ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:notation "RS-29" ;
+    skos:prefLabel "Kosovsko-Pomoravski okrug"@en ;
+.
+
+:RS-KM
+    a skos:Concept ;
+    skos:altLabel "Kosovo-Metohija"@srp ;
+    skos:broader :SRB ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :RS-25 ,
+        :RS-26 ,
+        :RS-27 ,
+        :RS-28 ,
+        :RS-29 ;
+    skos:notation "RS-KM" ;
+    skos:prefLabel "Kosovo-Metohija"@en ;
+.
+
+:RS-VO
+    a skos:Concept ;
+    skos:altLabel "Vojvodina"@srp ;
+    skos:broader :SRB ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :RS-01 ,
+        :RS-02 ,
+        :RS-03 ,
+        :RS-04 ,
+        :RS-05 ,
+        :RS-06 ,
+        :RS-07 ;
+    skos:notation "RS-VO" ;
+    skos:prefLabel "Vojvodina"@en ;
+.
+
+:AUS
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:AU> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :AU-ACT ,
+        :AU-NSW ,
+        :AU-NT ,
+        :AU-QLD ,
+        :AU-SA ,
+        :AU-TAS ,
+        :AU-VIC ,
+        :AU-WA ;
+    skos:notation
+        "36" ,
+        "AU" ,
+        "AUS" ;
+    skos:prefLabel "Australia"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:CAN
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CA> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :CA-AB ,
+        :CA-BC ,
+        :CA-MB ,
+        :CA-NB ,
+        :CA-NL ,
+        :CA-NS ,
+        :CA-NT ,
+        :CA-NU ,
+        :CA-ON ,
+        :CA-PE ,
+        :CA-QC ,
+        :CA-SK ,
+        :CA-YT ;
+    skos:notation
+        "124" ,
+        "CA" ,
+        "CAN" ;
+    skos:prefLabel "Canada"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:CHL
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:CL> ;
+    skos:altLabel "Chile"@spa ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :CL-AI ,
+        :CL-AN ,
+        :CL-AP ,
+        :CL-AR ,
+        :CL-AT ,
+        :CL-BI ,
+        :CL-CO ,
+        :CL-LI ,
+        :CL-LL ,
+        :CL-LR ,
+        :CL-MA ,
+        :CL-ML ,
+        :CL-NB ,
+        :CL-RM ,
+        :CL-TA ,
+        :CL-VS ;
+    skos:notation
+        "152" ,
+        "CHL" ,
+        "CL" ;
+    skos:prefLabel "Chile"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:NZL
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:NZ> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :NZ-AUK ,
+        :NZ-BOP ,
+        :NZ-CAN ,
+        :NZ-CIT ,
+        :NZ-GIS ,
+        :NZ-HKB ,
+        :NZ-MBH ,
+        :NZ-MWT ,
+        :NZ-NSN ,
+        :NZ-NTL ,
+        :NZ-OTA ,
+        :NZ-STL ,
+        :NZ-TAS ,
+        :NZ-TKI ,
+        :NZ-WGN ,
+        :NZ-WKO ,
+        :NZ-WTC ;
+    skos:notation
+        "554" ,
+        "NZ" ,
+        "NZL" ;
+    skos:prefLabel "New Zealand (Aotearoa)"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MNE
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:ME> ;
+    skos:altLabel "Montenegro"@cnr ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :ME-01 ,
+        :ME-02 ,
+        :ME-03 ,
+        :ME-04 ,
+        :ME-05 ,
+        :ME-06 ,
+        :ME-07 ,
+        :ME-08 ,
+        :ME-09 ,
+        :ME-10 ,
+        :ME-11 ,
+        :ME-12 ,
+        :ME-13 ,
+        :ME-14 ,
+        :ME-15 ,
+        :ME-16 ,
+        :ME-17 ,
+        :ME-18 ,
+        :ME-19 ,
+        :ME-20 ,
+        :ME-21 ,
+        :ME-22 ,
+        :ME-23 ,
+        :ME-24 ;
+    skos:notation
+        "499" ,
+        "ME" ,
+        "MNE" ;
+    skos:prefLabel "Montenegro"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:MEX
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:MX> ;
+    skos:altLabel "Mexico"@spa ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :MX-AGU ,
+        :MX-BCN ,
+        :MX-BCS ,
+        :MX-CAM ,
+        :MX-CHH ,
+        :MX-CHP ,
+        :MX-CMX ,
+        :MX-COA ,
+        :MX-COL ,
+        :MX-DUR ,
+        :MX-GRO ,
+        :MX-GUA ,
+        :MX-HID ,
+        :MX-JAL ,
+        :MX-MEX ,
+        :MX-MIC ,
+        :MX-MOR ,
+        :MX-NAY ,
+        :MX-NLE ,
+        :MX-OAX ,
+        :MX-PUE ,
+        :MX-QUE ,
+        :MX-ROO ,
+        :MX-SIN ,
+        :MX-SLP ,
+        :MX-SON ,
+        :MX-TAB ,
+        :MX-TAM ,
+        :MX-TLA ,
+        :MX-VER ,
+        :MX-YUC ,
+        :MX-ZAC ;
+    skos:notation
+        "484" ,
+        "MEX" ,
+        "MX" ;
+    skos:prefLabel "Mexico"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:SRB
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:RS> ;
+    skos:altLabel "Serbia"@srp ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :RS-00 ,
+        :RS-01 ,
+        :RS-02 ,
+        :RS-03 ,
+        :RS-04 ,
+        :RS-05 ,
+        :RS-06 ,
+        :RS-07 ,
+        :RS-08 ,
+        :RS-09 ,
+        :RS-10 ,
+        :RS-11 ,
+        :RS-12 ,
+        :RS-13 ,
+        :RS-14 ,
+        :RS-15 ,
+        :RS-16 ,
+        :RS-17 ,
+        :RS-18 ,
+        :RS-19 ,
+        :RS-20 ,
+        :RS-21 ,
+        :RS-22 ,
+        :RS-23 ,
+        :RS-24 ,
+        :RS-25 ,
+        :RS-26 ,
+        :RS-27 ,
+        :RS-28 ,
+        :RS-29 ,
+        :RS-KM ,
+        :RS-VO ;
+    skos:notation
+        "688" ,
+        "RS" ,
+        "SRB" ;
+    skos:prefLabel "Serbia"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:USA
+    a skos:Concept ;
+    rdfs:isDefinedBy <https://www.iso.org/obp/ui/#iso:code:3166:US> ;
+    skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :US-AK ,
+        :US-AL ,
+        :US-AR ,
+        :US-AS ,
+        :US-AZ ,
+        :US-CA ,
+        :US-CO ,
+        :US-CT ,
+        :US-DC ,
+        :US-DE ,
+        :US-FL ,
+        :US-GA ,
+        :US-GU ,
+        :US-HI ,
+        :US-IA ,
+        :US-ID ,
+        :US-IL ,
+        :US-IN ,
+        :US-KS ,
+        :US-KY ,
+        :US-LA ,
+        :US-MA ,
+        :US-MD ,
+        :US-ME ,
+        :US-MI ,
+        :US-MN ,
+        :US-MO ,
+        :US-MP ,
+        :US-MS ,
+        :US-MT ,
+        :US-NC ,
+        :US-ND ,
+        :US-NE ,
+        :US-NH ,
+        :US-NJ ,
+        :US-NM ,
+        :US-NV ,
+        :US-NY ,
+        :US-OH ,
+        :US-OK ,
+        :US-OR ,
+        :US-PA ,
+        :US-PR ,
+        :US-RI ,
+        :US-SC ,
+        :US-SD ,
+        :US-TN ,
+        :US-TX ,
+        :US-UM ,
+        :US-UT ,
+        :US-VA ,
+        :US-VI ,
+        :US-VT ,
+        :US-WA ,
+        :US-WI ,
+        :US-WV ,
+        :US-WY ;
+    skos:notation
+        "840" ,
+        "US" ,
+        "USA" ;
+    skos:prefLabel "United States of America (the)"@en ;
+    skos:topConceptOf cs: ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    dcterms:created "2020-11-04"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/ga> ;
+    dcterms:modified "2023-09-27"^^xsd:date ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    rdfs:seeAlso <https://pid.geoscience.gov.au/dataset/ga/146414> ;
+    owl:versionInfo "1.6" ;
+    skos:definition "GA Country Codes are the ISO3166 compliant country codes used by GA database custodians for reference. This list is NOT complete and is maintained semi-regularly so there will be updates made in the ISO3166 that will not be reflected in this vocabulary. The controlled ISO3166 list is found here https://www.iso.org/obp/ui "@en ;
+    skos:hasTopConcept
+        :ABW ,
+        :AFG ,
+        :AGO ,
+        :AIA ,
+        :ALA ,
+        :ALB ,
+        :AND ,
+        :ARE ,
+        :ARG ,
+        :ARM ,
+        :ASM ,
+        :ATA ,
+        :ATF ,
+        :ATG ,
+        :AUS ,
+        :AUT ,
+        :AZE ,
+        :BDI ,
+        :BEL ,
+        :BEN ,
+        :BES ,
+        :BFA ,
+        :BGD ,
+        :BGR ,
+        :BHR ,
+        :BHS ,
+        :BIH ,
+        :BLM ,
+        :BLR ,
+        :BLZ ,
+        :BMU ,
+        :BOL ,
+        :BRA ,
+        :BRB ,
+        :BRN ,
+        :BTN ,
+        :BVT ,
+        :BWA ,
+        :CAF ,
+        :CAN ,
+        :CCK ,
+        :CHE ,
+        :CHL ,
+        :CHN ,
+        :CIV ,
+        :CMR ,
+        :COD ,
+        :COG ,
+        :COK ,
+        :COL ,
+        :COM ,
+        :CPV ,
+        :CRI ,
+        :CUB ,
+        :CUW ,
+        :CXR ,
+        :CYM ,
+        :CYP ,
+        :CZE ,
+        :DEU ,
+        :DJI ,
+        :DMA ,
+        :DNK ,
+        :DOM ,
+        :DZA ,
+        :ECU ,
+        :EGY ,
+        :ERI ,
+        :ESH ,
+        :ESP ,
+        :EST ,
+        :ETH ,
+        :FIN ,
+        :FJI ,
+        :FLK ,
+        :FRA ,
+        :FRO ,
+        :FSM ,
+        :GAB ,
+        :GBR ,
+        :GEO ,
+        :GGY ,
+        :GHA ,
+        :GIB ,
+        :GIN ,
+        :GLP ,
+        :GMB ,
+        :GNB ,
+        :GNQ ,
+        :GRC ,
+        :GRD ,
+        :GRL ,
+        :GTM ,
+        :GUF ,
+        :GUM ,
+        :GUY ,
+        :HKG ,
+        :HMD ,
+        :HND ,
+        :HRV ,
+        :HTI ,
+        :HUN ,
+        :IDN ,
+        :IMN ,
+        :IND ,
+        :IOT ,
+        :IRL ,
+        :IRN ,
+        :IRQ ,
+        :ISL ,
+        :ISR ,
+        :ITA ,
+        :JAM ,
+        :JEY ,
+        :JOR ,
+        :JPN ,
+        :KAZ ,
+        :KEN ,
+        :KGZ ,
+        :KHM ,
+        :KIR ,
+        :KNA ,
+        :KOR ,
+        :KWT ,
+        :LAO ,
+        :LBN ,
+        :LBR ,
+        :LBY ,
+        :LCA ,
+        :LIE ,
+        :LKA ,
+        :LSO ,
+        :LTU ,
+        :LUX ,
+        :LVA ,
+        :MAC ,
+        :MAF ,
+        :MAR ,
+        :MCO ,
+        :MDA ,
+        :MDG ,
+        :MDV ,
+        :MEX ,
+        :MHL ,
+        :MKD ,
+        :MLI ,
+        :MLT ,
+        :MMR ,
+        :MNE ,
+        :MNG ,
+        :MNP ,
+        :MOZ ,
+        :MRT ,
+        :MSR ,
+        :MTQ ,
+        :MUS ,
+        :MWI ,
+        :MYS ,
+        :MYT ,
+        :NAM ,
+        :NCL ,
+        :NER ,
+        :NFK ,
+        :NGA ,
+        :NIC ,
+        :NIU ,
+        :NLD ,
+        :NOR ,
+        :NPL ,
+        :NRU ,
+        :NZL ,
+        :OMN ,
+        :PAK ,
+        :PAN ,
+        :PCN ,
+        :PER ,
+        :PHL ,
+        :PLW ,
+        :PNG ,
+        :POL ,
+        :PRI ,
+        :PRK ,
+        :PRT ,
+        :PRY ,
+        :PSE ,
+        :PYF ,
+        :QAT ,
+        :REU ,
+        :ROU ,
+        :RUS ,
+        :RWA ,
+        :SAU ,
+        :SDN ,
+        :SEN ,
+        :SGP ,
+        :SGS ,
+        :SHN ,
+        :SJM ,
+        :SLB ,
+        :SLE ,
+        :SLV ,
+        :SMR ,
+        :SOM ,
+        :SPM ,
+        :SRB ,
+        :SSD ,
+        :STP ,
+        :SUR ,
+        :SVK ,
+        :SVN ,
+        :SWE ,
+        :SWZ ,
+        :SXM ,
+        :SYC ,
+        :SYR ,
+        :TCA ,
+        :TCD ,
+        :TGO ,
+        :THA ,
+        :TJK ,
+        :TKL ,
+        :TKM ,
+        :TLS ,
+        :TON ,
+        :TTO ,
+        :TUN ,
+        :TUR ,
+        :TUV ,
+        :TWN ,
+        :TZA ,
+        :UGA ,
+        :UKR ,
+        :UMI ,
+        :URY ,
+        :USA ,
+        :UZB ,
+        :VAT ,
+        :VCT ,
+        :VEN ,
+        :VGB ,
+        :VIR ,
+        :VNM ,
+        :VUT ,
+        :WLF ,
+        :WSM ,
+        :YEM ,
+        :ZAF ,
+        :ZMB ,
+        :ZWE ;
+    skos:historyNote "These codes are sourced from https://www.iso.org/obp/"@en ;
+    skos:prefLabel "GA Country Codes"@en ;
+    dcat:contactPoint "DPI" ;
+.

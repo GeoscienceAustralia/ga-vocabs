@@ -1,0 +1,131 @@
+PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/ConfidenceLevel/>
+PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/ConfidenceLevel>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sdo: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+:definite
+    a skos:Concept ;
+    dcterms:identifier "definite"^^xsd:token ;
+    skos:altLabel "D"@en ;
+    skos:definition "Confidence level is highest."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "definite"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:high
+    a skos:Concept ;
+    dcterms:identifier "high"^^xsd:token ;
+    skos:altLabel "H"@en ;
+    skos:definition "Confidence level is high."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "high"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:highModerate
+    a skos:Concept ;
+    dcterms:identifier "highModerate"^^xsd:token ;
+    skos:altLabel "HM"@en ;
+    skos:definition "Confidence level is from moderate to high."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "high-moderate"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:low
+    a skos:Concept ;
+    dcterms:identifier "low"^^xsd:token ;
+    skos:altLabel "L"@en ;
+    skos:definition "Confidence level is low."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "low"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:lowModerate
+    a skos:Concept ;
+    dcterms:identifier "lowModerate"^^xsd:token ;
+    skos:altLabel "ML"@en ;
+    skos:definition "Confidence level is from low to moderate."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "low-moderate"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:moderate
+    a skos:Concept ;
+    dcterms:identifier "moderate"^^xsd:token ;
+    skos:altLabel "M"@en ;
+    skos:definition "Confidence level is moderate."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "moderate"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:none
+    a skos:Concept ;
+    dcterms:identifier "none"^^xsd:token ;
+    skos:altLabel "N"@en ;
+    skos:definition "There is no confidence provided."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "none"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:veryHigh
+    a skos:Concept ;
+    dcterms:identifier "veryHigh"^^xsd:token ;
+    skos:altLabel "VH"@en ;
+    skos:definition "Confidence level is very high."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "very high"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:veryLow
+    a skos:Concept ;
+    dcterms:identifier "veryLow"^^xsd:token ;
+    skos:altLabel "VL"@en ;
+    skos:definition "Confidence level is very low."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "very low"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://linked.data.gov.au/org/ga>
+    a sdo:Organization ;
+    sdo:description "Geoscience Australia is Australia's pre-eminent public sector geoscience organisation. It is the nation's trusted advisor on the geology and geography of Australia. It applies science and technology to describe and understand the Earth for the benefit of Australia."@en ;
+    sdo:name "Geoscience Australia" ;
+    sdo:url "https://www.ga.gov.au"^^xsd:anyURI ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    dcterms:created "2022-08-11"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/ga> ;
+    dcterms:identifier "ConfidenceLevel"^^xsd:token ;
+    dcterms:modified "2022-08-11"^^xsd:date ;
+    dcterms:provenance "Geoscience Australia Confidence Level (VOCABULARY.CONFIDENCE"@en ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    rdfs:seeAlso <https://pid.geoscience.gov.au/dataset/ga/148553> ;
+    owl:versionInfo "1" ;
+    skos:definition "A generic list of confidence levels."@en ;
+    skos:hasTopConcept
+        :definite ,
+        :high ,
+        :highModerate ,
+        :low ,
+        :lowModerate ,
+        :moderate ,
+        :none ,
+        :veryHigh ,
+        :veryLow ;
+    skos:prefLabel "General Geology - Confidence Level "@en ;
+    dcat:contactPoint "Team Lead - Information Services; Energy, Minerals and Groundwater Division" ;
+.

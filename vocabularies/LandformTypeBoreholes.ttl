@@ -1,0 +1,840 @@
+PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/LandformTypes/>
+PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/LandformTypes>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sdo: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+:aeolian-dunes
+    a skos:Concept ;
+    dcterms:provenance "PDF pg 60, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
+    skos:altLabel "DU10"@en ;
+    skos:broader :aeolian-landforms ;
+    skos:definition "Low mounds, ridges, banks, or hills of loose, windblown granular material (generally sand; in some places volcanic ash), either bare or covered with vegetation, capable of being moved from place to place by wind, but always retaining their own characteristic shape."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "aeolian dunes"@en ;
+.
+
+:aeolian-sheet
+    a skos:Concept ;
+    dcterms:provenance "PDF pg 60, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
+    skos:altLabel "DU20"@en ;
+    skos:broader :aeolian-landforms ;
+    skos:definition "A sheet of aeolian material- generally sand - formed when wind moulding of the surface is prevented either by vegetation or, more usually, because the sand grains are too coarse. They are commonly associated with sources that give rise to coarse sand grains, such as alluvial plains, or the weathering of coarse-grained granite, as occurs in the Yilgarn of Western Australia."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "aeolian sheet"@en ;
+.
+
+:alluvial-fan
+    a skos:Concept ;
+    dcterms:provenance "PDF pg 63, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
+    skos:altLabel "FA01"@en ;
+    skos:broader :fan ;
+    skos:definition "A level (<1 percent slope) to very gently inclined complex landform pattern of extremely low relief with a generally fan-shaped plan form. The rapidly migrating alluvial stream channels are shallow to moderately deep, locally numerous, but elsewhere widely spaced. The channels form a centrifugal to divergent, integrated, reticulated to distributary pattern. The landform pattern includes areas that are bar plains - being aggraded or eroded by frequently active channelled stream flow - and other areas comprising terraces or stagnant alluvial plains with slopes that are greater than usual, formed by channelled stream flow but now relict. Incision in the up-slope area may give rise to an erosional stream bed between scarps."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "alluvial fan"@en ;
+.
+
+:alluvial-plain
+    a skos:Concept ;
+    dcterms:provenance "PDF pg 56, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
+    skos:altLabel "AL10"@en ;
+    skos:broader :alluvial-landforms ;
+    skos:definition "A level, gently sloping or slightly undulating land surface produced by extensive deposition of alluvium, generally adjacent to a river that periodically overflows its banks; it may be situated on a flood plain, a delta, or an alluvial fan."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "alluvial plain"@en ;
+.
+
+:alluvial-swamp
+    a skos:Concept ;
+    dcterms:provenance "PDF pg 58, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
+    skos:altLabel "AL50"@en ;
+    skos:broader :alluvial-landforms ;
+    skos:definition "An almost level, closed, or almost closed, depression with a seasonal or permanent water table at or above the surface, commonly aggraded by over-bank stream flow and sometimes biological (peat) accumulation."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "alluvial swamp"@en ;
+.
+
+:alluvial-terrace
+    a skos:Concept ;
+    dcterms:provenance "PDF pg 57, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
+    skos:altLabel "AL20"@en ;
+    skos:broader :alluvial-landforms ;
+    skos:definition "A former flood plain on which erosion and aggradation by channelled and over-bank stream flow is slightly active or inactive because of deepening or enlargement of the stream channel has lowered the level of flooding. A pattern that includes a significant active flood plain, or former flood plains at more than one level, becomes terraced land."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "alluvial terrace"@en ;
+.
+
+:anastomatic-plain
+    a skos:Concept ;
+    dcterms:provenance "PDF pg 56, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
+    skos:altLabel "AL12"@en ;
+    skos:broader :alluvial-landforms ;
+    skos:definition "A flood plain on which the stream channels join and divide, as do the veins on a leaf. Flood plain with slowly migrating, deep alluvial channels, usually moderately spaced, forming a divergent to unidirectional integrated reticulated network. There is frequently active aggradation by over-bank and channelled stream flow."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "anastomatic plain"@en ;
+.
+
+:ash-plain
+    a skos:Concept ;
+    dcterms:provenance "PDF pg 67, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
+    skos:altLabel "VO04"@en ;
+    skos:broader :volcano ;
+    skos:definition "A level to undulating landform pattern of very low to extremely low relief typically with widely spaced fixed stream channels that form an integrated or interrupted tributary pattern. The landform pattern is aggraded by volcanism (ash fall) that is generally relict; it is subject to erosion by continuously active sheet flow, creep and channelled stream flow."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ash plain"@en ;
+.
+
+:badlands
+    a skos:Concept ;
+    dcterms:provenance "PDF pg 63, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
+    skos:altLabel "ER70"@en ;
+    skos:broader :erosional-landforms ;
+    skos:definition "A landform pattern of low to extremely low relief (<9 m) and steep to precipitous slopes, typically with numerous fixed erosional stream channels that form a dendritic to parallel integrated tributary network. There is continuously active erosion by collapse, landslide, sheet flow, creep and channelled stream flow."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "badlands"@en ;
+.
+
+:bar-plain
+    a skos:Concept ;
+    dcterms:provenance "PDF pg 56, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
+    skos:altLabel "AL13"@en ;
+    skos:broader :alluvial-landforms ;
+    skos:definition "A flood plain having sub-parallel stream channels that both aggrade and erode so as to develop a generally corrugated surface with numerous bars. Flood plain with numerous rapidly migrating shallow alluvial channels forming a unidirectional integrated reticulated network. There is frequently active aggradation and erosion by channelled stream flow."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "bar plain"@en ;
+.
+
+:beach
+    a skos:Concept ;
+    dcterms:provenance "PDF pg 59, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
+    skos:altLabel "CO08"@en ;
+    skos:broader :coastal-lands ;
+    skos:definition "A short, low, very wide slope, gently or moderately inclined, built up or eroded by waves, forming the shore of a lake or sea."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "beach"@en ;
+.
+
+:beach-ridge
+    a skos:Concept ;
+    dcterms:provenance "PDF pg 58, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
+    skos:altLabel "CO01"@en ;
+    skos:broader :coastal-lands ;
+    skos:definition "A level to gently undulating landform pattern of extremely low relief on which stream channels are absent or very rare; it consists of relict parallel linear ridges built up by waves and modified by wind."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "beach ridge plain"@en ;
+.
+
+:caldera
+    a skos:Concept ;
+    dcterms:provenance "PDF pg 66, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
+    skos:altLabel "VO01"@en ;
+    skos:broader :volcano ;
+    skos:definition "A rare landform pattern typically of very high relief and steep to precipitous slopes. It has no stream channels or has fixed erosional channels forming a centripetal integrated tributary pattern. The landform has subsided or was excavated as a result of volcanism."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "caldera"@en ;
+.
+
+:chenier-plain
+    a skos:Concept ;
+    dcterms:provenance "PDF pg 58, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
+    skos:altLabel "CO02"@en ;
+    skos:broader :coastal-lands ;
+    skos:definition "A level to gently undulating landform pattern of extremely low relief on which stream channels are very rare. The pattern consists of relict, parallel linear ridges built by waves, separated by, and built over, flats aggraded by tides or over-bank stream flow."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "chenier plain"@en ;
+.
+
+:coastal-dunes
+    a skos:Concept ;
+    dcterms:provenance "PDF pg 59, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
+    skos:altLabel "CO06"@en ;
+    skos:broader :coastal-lands ;
+    skos:definition "A level to rolling landform pattern of very low to extremely low relief - without stream channels - built up or locally excavated, eroded or aggraded by wind. This landform pattern occurs in usually restricted coastal locations."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "coastal dunes"@en ;
+.
+
+:coastal-plain
+    a skos:Concept ;
+    dcterms:provenance "PDF pg 59, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
+    skos:altLabel "CO07"@en ;
+    skos:broader :coastal-lands ;
+    skos:definition "A level landform pattern with extremely low relief either with or without stream channels, built up by coastal - usually tidal - processes."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "coastal plain"@en ;
+.
+
+:colluvial-fan
+    a skos:Concept ;
+    dcterms:provenance "PDF pg 64, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
+    skos:altLabel "FA02"@en ;
+    skos:broader :fan ;
+    skos:definition "A very gently to moderately inclined complex landform pattern of extremely low relief with a generally fan-shaped plan form. Divergent stream channels are commonly present, but the dominant process is colluvial deposition of materials. The pattern is usually steeper than an alluvial fan."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "colluvial fan"@en ;
+.
+
+:cone-volcanic
+    a skos:Concept ;
+    dcterms:provenance "PDF pg 66, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
+    skos:altLabel "VO02"@en ;
+    skos:broader :volcano ;
+    skos:definition "A typically low to high relief and very steep landform pattern without stream channels, or with erosional rills forming a radial tributary pattern. The landform is built up by volcanism and slightly modified by erosional agents."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "cone (volcanic)"@en ;
+.
+
+:coral-reef
+    skos:broader :coastal-lands ;
+.
+
+:covered-plain
+    a skos:Concept ;
+    dcterms:provenance "PDF pg 57, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
+    skos:altLabel "AL14"@en ;
+    skos:broader :alluvial-landforms ;
+    skos:definition "A flood plain with a number of alluvial channels that are widely-spaced (i.e. a little under 1 km), migrating, more or less parallel, and deep (i.e. width-depth ratio <20:1). Aggradation by over-bank stream flow occurs at least once every 50 years, providing further alluvial cover."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "covered plain"@en ;
+.
+
+:delta
+    a skos:Concept ;
+    dcterms:provenance "PDF pg 59, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
+    skos:altLabel "DE00"@en ;
+    skos:definition "A flood plain projecting into a sea or lake, with slowly migrating deep alluvial channels, usually moderately spaced, typically forming a divergent distributary network. This landform is aggraded by frequently active overbank and channelled stream flow that is modified by tides."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "delta"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:depostional-glacial-features
+    a skos:Concept ;
+    dcterms:provenance "PDF pg 64, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
+    skos:altLabel "GL10"@en ;
+    skos:broader :glacial-features ;
+    skos:definition "Also called Depositional glacial landforms. This collective term includes features such as moraines of various kinds, as well as irregular landforms made up of glacial deposits. "@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "depositional glacial features"@en ;
+.
+
+:depostional-plain
+    a skos:Concept ;
+    dcterms:provenance "PDF pg 65, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
+    skos:altLabel "PL01"@en ;
+    skos:broader :plain ;
+    skos:definition "A level to undulating or, rarely, rolling landform pattern of extremely low relief (<9 m). Some types of plains are described under alluvial landforms and some are also described under erosional landforms."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "depositional plain"@en ;
+.
+
+:drainage-depression
+    a skos:Concept ;
+    dcterms:provenance "PDF pg 63, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
+    skos:altLabel "ER80"@en ;
+    skos:broader :erosional-landforms ;
+    skos:definition """A depression cut into a surface by erosional processes. This term should be used only in cases where a single  depression or valley is incised into a plateau or other surface, and where the scale of mapping does not allow\r
+the depression to be subdivided into its component parts (e.g. rises, floodplain). """@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "drainage depression"@en ;
+.
+
+:erosional-glacial-features
+    a skos:Concept ;
+    dcterms:provenance "PDF pg 64, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
+    skos:altLabel "GL20"@en ;
+    skos:broader :glacial-features ;
+    skos:definition "Also called Erosional glacial landforms. Glacial erosion produces a variety of streamlined forms such as cirques and U-shaped valleys."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "erosional glacial features"@en ;
+.
+
+:erosional-plain
+    a skos:Concept ;
+    dcterms:provenance "PDF pg 61, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
+    skos:altLabel "ER10"@en ;
+    skos:broader :erosional-landforms ;
+    skos:definition "A level to undulating or, rarely, rolling landform pattern of extremely low relief (< 9 m) eroded by continuously active to slightly active or inactive geomorphic processes."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "erosional plain"@en ;
+.
+
+:escarpment
+    a skos:Concept ;
+    dcterms:provenance "PDF pg 63, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
+    skos:altLabel "ER60"@en ;
+    skos:broader :erosional-landforms ;
+    skos:definition "A steep to precipitous landform pattern forming a linearly extensive, straight or sinuous inclined surface that separates terrains at different altitudes, that above the escarpment commonly being a plateau. Relief within the landform pattern may be high (hilly) or low (planar). An included cliff or scarp often marks the upper margin of the scarp."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "escarpment"@en ;
+.
+
+:etchplain
+    a skos:Concept ;
+    dcterms:provenance "PDF pg 61, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
+    skos:altLabel "ER14"@en ;
+    skos:broader :erosional-landforms ;
+    skos:definition """A level to undulating or, rarely, rolling landform pattern of extremely low relief, initially formed by deep weathering and then erosion of the resulting weathered regolith. Removal of the weathered material may be\r
+either partial or complete."""@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "etchplain"@en ;
+.
+
+:flood-plain
+    a skos:Concept ;
+    dcterms:provenance "PDF pg 56, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
+    skos:altLabel "AL11"@en ;
+    skos:broader :alluvial-landforms ;
+    skos:definition "An alluvial plain characterised by frequently active aggradation by overbank stream flow (i.e. by flooding more often than every 50 years) and erosion by channelled stream flow."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "flood plain"@en ;
+.
+
+:floodout
+    a skos:Concept ;
+    dcterms:provenance "PDF pg 57, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
+    skos:altLabel "AL16"@en ;
+    skos:broader :alluvial-landforms ;
+    skos:definition "A flat inclined radially away from a point on the margin, or at the end, of a stream channel, aggraded by over-bank stream flow, or by channelled stream flow associated with channels developed within the over-bank part."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "floodout"@en ;
+.
+
+:hills
+    a skos:Concept ;
+    dcterms:provenance "PDF pg 62, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
+    skos:altLabel "ER40"@en ;
+    skos:broader :erosional-landforms ;
+    skos:definition "A landform pattern of high relief (90 - 300 m) with gently sloping to precipitous slopes. Fixed, shallow erosional stream channels are closely to very widely spaced and form a dendritic or convergent integrated tributary network. There is continuously active erosion by wash and creep and, in some cases, rarely active erosion by landslides."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "hills"@en ;
+.
+
+:irregular-dune-field
+    a skos:Concept ;
+    dcterms:provenance "PDF pg 60, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
+    skos:altLabel "DU13"@en ;
+    skos:broader :aeolian-landforms ;
+    skos:definition "A dune field with a mixture of longitudinal and transverse dunes, as well as other more complicated forms."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "irregular dune field"@en ;
+.
+
+:karst
+    a skos:Concept ;
+    dcterms:provenance "PDF pg 64, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
+    skos:altLabel "KA00"@en ;
+    skos:definition "A landform pattern of unspecified relief and slope (for specification use terms such as ‘karst rolling hills’) typically with fixed deep erosional stream channels forming a non-directional disintegrated tributary pattern and many closed depressions without stream channels. It is eroded by continuously active solution and rarely active collapse, with the products being removed through underground channels."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "karst"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:lacustrine-plain
+    a skos:Concept ;
+    dcterms:provenance "PDF pg 65, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
+    skos:altLabel "PL02"@en ;
+    skos:broader :plain ;
+    skos:definition "A level landform pattern with extremely low relief formerly occupied by a lake, but now partly or completely dry. It is relict after aggradation by waves and by deposition of material from suspension and solution in standing water. The landform pattern is usually bounded by wave-formed cliffs, rock platforms, beaches, berms and lunettes that may be included or excluded."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "lacustrine plain"@en ;
+.
+
+:lava-flow
+    a skos:Concept ;
+    dcterms:provenance "PDF pg 67, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
+    skos:altLabel "VO05"@en ;
+    skos:broader :volcano ;
+    skos:definition "A landform produced on the land surface by flowing magma. It is generally relict and subject to erosion by continuously active sheet flow, creep and channelled stream flow."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "lava flow"@en ;
+.
+
+:lava-plain
+    a skos:Concept ;
+    dcterms:provenance "PDF pg 66, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
+    skos:altLabel "VO03"@en ;
+    skos:broader :volcano ;
+    skos:definition "A level to undulating landform pattern of very low to extremely low relief, typically with widely spaced fixed stream channels that form a non-directional integrated or interrupted tributary pattern. The landform pattern is aggraded by volcanism (lava flow) that is generally relict; it is subject to erosion by continuously active sheet flow, creep and channelled stream flow."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "lava plain"@en ;
+.
+
+:lava-plateau
+    a skos:Concept ;
+    dcterms:provenance "PDF pg 67, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
+    skos:altLabel "VO06"@en ;
+    skos:broader :volcano ;
+    skos:definition "A plateau aggraded by volcanism (lava flow) that is generally relict and subject to erosion by continuously active sheet flow, creep and channelled stream flow."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "lava plateau"@en ;
+.
+
+:longitudinal-dune-field
+    a skos:Concept ;
+    dcterms:provenance "PDF pg 60, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
+    skos:altLabel "DU11"@en ;
+    skos:broader :aeolian-landforms ;
+    skos:definition "A dune field characterised by long narrow sand dunes and wide flat swales. The dunes are oriented parallel with the direction of the prevailing wind and, in cross section, one slope is typically steeper than the other."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "longitudinal dune field"@en ;
+.
+
+:low-hills
+    a skos:Concept ;
+    dcterms:provenance "PDF pg 62, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
+    skos:altLabel "ER30"@en ;
+    skos:broader :erosional-landforms ;
+    skos:definition """A landform pattern of low relief (30 - 90 m) and gentle to very steep slopes, typically with fixed erosional stream channels that are closely to very widely spaced and form a dendritic or convergent integrated tributary\r
+pattern. There is continuously active sheet flow, creep and channelled stream flow."""@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "low hills"@en ;
+.
+
+:lunette
+    a skos:Concept ;
+    dcterms:provenance "PDF pg 60, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
+    skos:altLabel "DU15"@en ;
+    skos:broader :aeolian-landforms ;
+    skos:definition "An elongated, gently curved, low ridge built up by wind on the margin of a playa, typically with a moderate, wave-modified slope towards the playa and a gentle outer slope."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "lunette"@en ;
+.
+
+:made-land
+    a skos:Concept ;
+    dcterms:provenance "PDF pg 65, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
+    skos:altLabel "MA00"@en ;
+    skos:definition "A landform pattern typically of very low or extremely low relief and with slopes in the classes level and very steep. Sparse, fixed deep artificial steam channels form a non-directional interrupted tributary pattern. The landform pattern is eroded and aggraded, and locally built up or excavated, by rarely active human agency."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "made land"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:marine-plain
+    a skos:Concept ;
+    dcterms:provenance "PDF pg 59, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
+    skos:altLabel "CO04"@en ;
+    skos:broader :coastal-lands ;
+    skos:definition "A plain eroded or aggraded by waves, tides or submarine currents, and aggraded by deposition of material from suspension and solution in sea water, elevated above sea level by earth movements or eustacy, and little modified by subaerial agents such as stream flow or wind."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "marine plain"@en ;
+.
+
+:meander-plain
+    a skos:Concept ;
+    dcterms:provenance "PDF pg 57, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
+    skos:altLabel "AL15"@en ;
+    skos:broader :alluvial-landforms ;
+    skos:definition "A flood plain aggraded and eroded by meandering streams. Flood plain with widely spaced, rapidly migrating, moderately deep alluvial stream channels that form a unidirectional integrated non-tributary network. There is frequently active aggradation and erosion by channelled stream flow, with subordinate aggradation by over-bank stream flow."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "meander plain"@en ;
+.
+
+:meteor-crater
+    a skos:Concept ;
+    dcterms:provenance "PDF pg 65, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
+    skos:altLabel "ME00"@en ;
+    skos:definition "A rare landform pattern comprising a circular closed depression with a raised margin; it is typically of low to high relief and has a large range of slope values, without stream channels, or with a peripheral integrated pattern of centrifugal tributary streams. The pattern is excavated, heaved up and built up by a meteor impact and now relict."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "meteor crater"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:mountains
+    a skos:Concept ;
+    dcterms:provenance "PDF pg 62, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
+    skos:altLabel "ER50"@en ;
+    skos:broader :erosional-landforms ;
+    skos:definition "A landform pattern of very high relief (>300 m) with moderate to precipitous slopes and fixed erosional stream channels that are closely to very widely spaced and form a dendritic of diverging integrated tributary network. There is continuously active erosion by collapse, landslide, sheet flow, creep and channelled stream flow."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "mountains"@en ;
+.
+
+:pediment
+    a skos:Concept ;
+    dcterms:provenance "PDF pg 61, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
+    skos:altLabel "ER11"@en ;
+    skos:broader :erosional-landforms ;
+    skos:definition """A gently inclined to level (<1 percent slope) landform pattern of extremely low relief, typically with numerous rapidly migrating, very shallow incipient stream channels that form a centrifugal to diverging integrated reticulated pattern. It is eroded, and locally aggraded, by frequently active channelled stream flow or sheet flow, with subordinate wind erosion. Pediments characteristically lie down-slope from adjacent hills with markedly steeper\r
+slopes."""@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "pediment"@en ;
+.
+
+:pediplain
+    a skos:Concept ;
+    dcterms:provenance "PDF pg 61, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
+    skos:altLabel "ER12"@en ;
+    skos:broader :erosional-landforms ;
+    skos:definition """A level to very gently inclined landform pattern with extremely low relief and no stream channels, eroded by slightly active sheet flow and wind. Largely relict from more effective erosion by stream flow in incipient\r
+channels as on a pediment."""@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "pediplain"@en ;
+.
+
+:peneplain
+    a skos:Concept ;
+    dcterms:provenance "PDF pg 61, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
+    skos:altLabel "ER13"@en ;
+    skos:broader :erosional-landforms ;
+    skos:definition "A level to gently undulating landform pattern with extremely low relief and sparse slowly migrating alluvial stream channels that form a nondirectional integrated tributary pattern. It is eroded by slightly active sheet flow, creep and channelled and over-bank stream flow."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "peneplain"@en ;
+.
+
+:plateau-edge
+    a skos:Concept ;
+    dcterms:provenance "PDF pg 66, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
+    skos:altLabel "PT01"@en ;
+    skos:broader :plateau ;
+    skos:definition "The cliff, scarp or escarpment that extends around a large part of the perimeter of a plateau."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "plateau edge"@en ;
+.
+
+:plateau-surface
+    a skos:Concept ;
+    dcterms:provenance "PDF pg 66, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
+    skos:altLabel "PT02"@en ;
+    skos:broader :plateau ;
+    skos:definition "The low relief surface of a plateau."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "plateau surface"@en ;
+.
+
+:playa-plain
+    a skos:Concept ;
+    dcterms:provenance "PDF pg 65, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
+    skos:altLabel "PL03"@en ;
+    skos:broader :plain ;
+    skos:definition "A level landform pattern with extremely low relief, typically without stream channels, aggraded by rarely active sheet flow and modified by wind, waves and soil phenomena. Playa plains are sediment sinks and are the lowest parts of the landscape."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "playa plain"@en ;
+.
+
+:reef
+    a skos:Concept ;
+    dcterms:provenance "PDF pg 58, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
+    skos:altLabel "CO03"@en ;
+    skos:definition "A continuously active or relict landform pattern built up to the present sea level, or that of a former time, by corals and other organisms. It is mainly level, with moderately inclined to precipitous slopes below sea level. Stream channels are generally absent, but there may occasionally be fixed deep erosional tidal stream channels forming a disintegrated non-tributary pattern."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "reef"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:residual-low-hills
+    a skos:Concept ;
+    dcterms:provenance "PDF pg 62, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
+    skos:altLabel "ER31"@en ;
+    skos:broader :erosional-landforms ;
+    skos:definition "A landform of low relief (30-90 m) and gentle to very steep slopes. This term is used to refer to an isolated low hill surrounded by other landforms."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "residual low hills"@en ;
+.
+
+:residual-rise
+    a skos:Concept ;
+    dcterms:provenance "PDF pg 62, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
+    skos:altLabel "ER21"@en ;
+    skos:broader :erosional-landforms ;
+    skos:definition "A landform facet of very low relief (9 - 30 m) and very gentle to steep slopes. This term is used to refer to an isolated rise surrounded by other landforms."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "residual rise"@en ;
+.
+
+:rises
+    a skos:Concept ;
+    dcterms:provenance "PDF pg 62, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
+    skos:altLabel "ER20"@en ;
+    skos:broader :erosional-landforms ;
+    skos:definition "A landform pattern of very low relief (9 - 30 m) and very gentle to steep slopes. Fixed erosional stream channels are closely to very widely spaced and form a dendritic to convergent, integrated or interrupted tributary pattern. The pattern is eroded by continuously active to slightly active creep and sheet flow."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "rises"@en ;
+.
+
+:sand-plain
+    a skos:Concept ;
+    dcterms:provenance "PDF pg 66, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
+    skos:altLabel "PL04"@en ;
+    skos:broader :plain ;
+    skos:definition "A level landform pattern with extremely low relief - typically without stream channels - aggraded by active wind deposition and rarely active sheet flow."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "sand plain"@en ;
+.
+
+:sheet-flood-fan
+    a skos:Concept ;
+    dcterms:provenance "PDF pg 64, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
+    skos:altLabel "FA03"@en ;
+    skos:broader :fan ;
+    skos:definition "A level (<1 percent slope) to very gently inclined landform pattern of extremely low relief with numerous rapidly migrating very shallow incipient stream channels forming a divergent to unidirectional, integrated or interrupted reticulated pattern. Frequently active sheet flow and channelled stream flow, with subordinate wind erosion aggrade the landform pattern."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "sheet-flood fan"@en ;
+.
+
+:source-bordering-dune
+    a skos:Concept ;
+    dcterms:provenance "PDF pg 60, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
+    skos:altLabel "DU14"@en ;
+    skos:broader :aeolian-landforms ;
+    skos:definition "A dune formed adjacent to the source of the wind-blown material. Most commonly the source is a river or floodplain that supplies aeolian sediment during periods of low or no flow."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "source bordering dune"@en ;
+.
+
+:stagnant-alluvial-plain
+    a skos:Concept ;
+    dcterms:provenance "PDF pg 58, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
+    skos:altLabel "AL30"@en ;
+    skos:broader :alluvial-landforms ;
+    skos:definition "An alluvial plain on which erosion and aggradation by channelled and over-bank stream flow is slightly active or inactive because of reduced water supply, without apparent incision or channel enlargement that would lower the level of stream action."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "stagnant alluvial plain"@en ;
+.
+
+:stream-channel
+    a skos:Concept ;
+    dcterms:provenance "PDF pg 57, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
+    skos:altLabel "AL17"@en ;
+    skos:broader :alluvial-landforms ;
+    skos:definition "A linear, generally sinuous open depression - eroded in parts - excavated, built up and aggraded by channelled stream flow. This element comprises stream beds and banks."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "stream channel"@en ;
+.
+
+:terraced-land
+    a skos:Concept ;
+    dcterms:provenance "PDF pg 58, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
+    skos:altLabel "AL40"@en ;
+    skos:broader :alluvial-landforms ;
+    skos:definition "A landform pattern including one or more terraces and often a flood plain. Relief is low or very low (9-90 m). Terrace plains or terrace flats occur at stated heights above the top of the stream bank."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "terraced land"@en ;
+.
+
+:tidal-flat
+    a skos:Concept ;
+    dcterms:provenance "PDF pg 59, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
+    skos:altLabel "CO05"@en ;
+    skos:broader :coastal-lands ;
+    skos:definition "A level landform pattern with extremely low relief and slowly migrating deep alluvial stream channels that form dendritic tributary patterns; it is aggraded by frequently active tides."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "tidal flat"@en ;
+.
+
+:transverse-dune-field
+    a skos:Concept ;
+    dcterms:provenance "PDF pg 60, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
+    skos:altLabel "DU12"@en ;
+    skos:broader :aeolian-landforms ;
+    skos:definition "A dune field characterised by long narrow sand dunes and wide flat swales. The dunes are oriented normal to the direction of the prevailing wind and, in cross section, the windward slope is typically steeper than the lee slope."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "transverse dune field"@en ;
+.
+
+:unknown
+    a skos:Concept ;
+    skos:definition "The method by which the site was located is unknown."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "unknown"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://linked.data.gov.au/org/ga>
+    a sdo:Organization ;
+    sdo:description "Geoscience Australia is Australia's pre-eminent public sector geoscience organisation. It is the nation's trusted advisor on the geology and geography of Australia. It applies science and technology to describe and understand the Earth for the benefit of Australia."@en ;
+    sdo:name "Geoscience Australia" ;
+    sdo:url "https://www.ga.gov.au"^^xsd:anyURI ;
+.
+
+:glacial-features
+    a skos:Concept ;
+    dcterms:provenance "PDF pg 64, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
+    skos:altLabel "GL00"@en ;
+    skos:definition "Also called Glacial landforms. This term covers a wide range of landforms that are produced by glacial processes. In Australia most landforms of this type are all relict, with the exception of Heard Island."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :depostional-glacial-features ,
+        :erosional-glacial-features ;
+    skos:prefLabel "glacial features"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:plateau
+    a skos:Concept ;
+    dcterms:provenance "PDF pg 66, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
+    skos:altLabel "PT00"@en ;
+    skos:definition "A level to rolling landform pattern of plains, rises or low hills standing above a cliff, scarp or escarpment that extends around a large part of its perimeter. A bounding scarp or cliff may be included or excluded; a bounding escarpment would be an adjacent landform pattern."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :plateau-edge ,
+        :plateau-surface ;
+    skos:prefLabel "plateau"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:fan
+    a skos:Concept ;
+    dcterms:provenance "PDF pg 63, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
+    skos:altLabel "FA00"@en ;
+    skos:definition "A level (<1 percent slope) to moderately inclined complex landform pattern of extremely low relief with a generally fan-shaped plan form. The channels form a centrifugal to divergent, integrated, reticulated to distributary pattern."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :alluvial-fan ,
+        :colluvial-fan ,
+        :sheet-flood-fan ;
+    skos:prefLabel "fan"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:plain
+    a skos:Concept ;
+    dcterms:provenance "PDF pg 65, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
+    skos:altLabel "PL00"@en ;
+    skos:definition "A level to undulating or, rarely, rolling landform pattern of extremely low relief (<9 m). Some types of plains are described under alluvial landforms and some are also described under erosional landforms."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :depostional-plain ,
+        :lacustrine-plain ,
+        :playa-plain ,
+        :sand-plain ;
+    skos:prefLabel "plain"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:volcano
+    a skos:Concept ;
+    dcterms:provenance "PDF pg 66, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
+    skos:altLabel "VO00"@en ;
+    skos:definition "A typically very high and very steep landform pattern without stream channels, or with erosional stream channels forming a centrifugal or radial tributary pattern. The landform is built up by volcanism and modified by erosional agents."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :ash-plain ,
+        :caldera ,
+        :cone-volcanic ,
+        :lava-flow ,
+        :lava-plain ,
+        :lava-plateau ;
+    skos:prefLabel "volcano"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:aeolian-landforms
+    a skos:Concept ;
+    dcterms:provenance "PDF pg 59, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
+    skos:altLabel "DU00"@en ;
+    skos:definition "A landform pattern built up or locally excavated, eroded or aggraded by wind. Mabbutt (1977) provides a useful summary of the variety of aeolian landforms found in arid climates."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :aeolian-dunes ,
+        :aeolian-sheet ,
+        :irregular-dune-field ,
+        :longitudinal-dune-field ,
+        :lunette ,
+        :source-bordering-dune ,
+        :transverse-dune-field ;
+    skos:prefLabel "aeolian landforms"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:coastal-lands
+    a skos:Concept ;
+    dcterms:provenance "PDF pg 58, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
+    skos:altLabel "CO00"@en ;
+    skos:definition "A level to gently undulating landform pattern of extremely low relief eroded or aggraded by waves, tides, over-bank or channel flow, or wind. The landform pattern may be either active or relict."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :beach ,
+        :beach-ridge ,
+        :chenier-plain ,
+        :coastal-dunes ,
+        :coastal-plain ,
+        :coral-reef ,
+        :marine-plain ,
+        :tidal-flat ;
+    skos:prefLabel "coastal lands"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:alluvial-landforms
+    a skos:Concept ;
+    dcterms:provenance "PDF pg 56, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
+    skos:altLabel "AL00"@en ;
+    skos:definition "A complex landform pattern on valley floors, with active, inactive or relict erosion and aggradation by channelled and over-bank stream flow."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :alluvial-plain ,
+        :alluvial-swamp ,
+        :alluvial-terrace ,
+        :anastomatic-plain ,
+        :bar-plain ,
+        :covered-plain ,
+        :flood-plain ,
+        :floodout ,
+        :meander-plain ,
+        :stagnant-alluvial-plain ,
+        :stream-channel ,
+        :terraced-land ;
+    skos:prefLabel "alluvial landforms"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:erosional-landforms
+    a skos:Concept ;
+    dcterms:provenance "PDF pg 61, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf"@en ;
+    skos:altLabel "ER00"@en ;
+    skos:definition "A landform pattern of very low to high relief and very gentle to steep slopes. The pattern is eroded by continuously active to slightly active or inactive geomorphic processes."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :badlands ,
+        :drainage-depression ,
+        :erosional-plain ,
+        :escarpment ,
+        :etchplain ,
+        :hills ,
+        :low-hills ,
+        :mountains ,
+        :pediment ,
+        :pediplain ,
+        :peneplain ,
+        :residual-low-hills ,
+        :residual-rise ,
+        :rises ;
+    skos:prefLabel "erosional landforms"@en ;
+    skos:topConceptOf cs: ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    dcterms:created "2022-08-09"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/ga> ;
+    dcterms:modified "2022-08-09"^^xsd:date ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    rdfs:seeAlso <https://pid.geoscience.gov.au/dataset/ga/148553> ;
+    owl:versionInfo "1" ;
+    skos:definition "A vocabulary of landform types used in GA Boreholes database. Reference Pain CF, 2008. Field Guide for Describing Regolith and Landforms. ISBN 978-0-9806030-0-2."@en ;
+    skos:hasTopConcept
+        :aeolian-landforms ,
+        :alluvial-landforms ,
+        :coastal-lands ,
+        :delta ,
+        :erosional-landforms ,
+        :fan ,
+        :glacial-features ,
+        :karst ,
+        :made-land ,
+        :meteor-crater ,
+        :plain ,
+        :plateau ,
+        :reef ,
+        :unknown ,
+        :volcano ;
+    skos:historyNote "Geoscience Australia Landform type (FGDM. LU_landform_type)"@en ;
+    skos:prefLabel "Field Geology - Landform Type"@en ;
+    dcat:contactPoint "Team Lead - Information Services; Energy, Minerals and Groundwater Divison " ;
+.

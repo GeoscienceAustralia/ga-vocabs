@@ -1,0 +1,49 @@
+PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/QaStatusCode/>
+PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/QaStatusCode>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sdo: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+:c
+    a skos:Concept ;
+    skos:definition "This data has been checked. The data was entered by an Internal user."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "C"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:u
+    a skos:Concept ;
+    skos:definition "This data has not been checked. The data was entered by an Internal user."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "U"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://linked.data.gov.au/org/ga>
+    a sdo:Organization ;
+    sdo:description "Geoscience Australia is Australia's pre-eminent public sector geoscience organisation. It is the nation's trusted advisor on the geology and geography of Australia. It applies science and technology to describe and understand the Earth for the benefit of Australia."@en ;
+    sdo:name "Geoscience Australia" ;
+    sdo:url "https://www.ga.gov.au"^^xsd:anyURI ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    dcterms:created "2022-08-09"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/ga> ;
+    dcterms:modified "2022-08-09"^^xsd:date ;
+    dcterms:provenance "Geoscience Australia QA Status Code (A.QA_STATUS_CODES)"@en ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    rdfs:seeAlso <https://pid.geoscience.gov.au/dataset/ga/148553> ;
+    owl:versionInfo "1" ;
+    skos:definition "Indicates the status of whether or not QA of the data for this record has been undertaken (C - Checked, U - Unchecked)."@en ;
+    skos:hasTopConcept
+        :c ,
+        :u ;
+    skos:prefLabel "General Geology - QA Status Code"@en ;
+    dcat:contactPoint "Team Lead - Information Services; Energy, Minerals and Groundwater" ;
+.

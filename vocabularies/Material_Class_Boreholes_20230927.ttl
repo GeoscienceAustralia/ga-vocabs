@@ -1,0 +1,673 @@
+PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/materialtype/>
+PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/materialtype>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sdo: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+:adsorbed_phase
+    a skos:Concept ;
+    skos:definition "An ion attached to the surface of a mineral"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "adsorbed phase"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:air
+    a skos:Concept ;
+    skos:broader :inorganic_gas ;
+    skos:definition "The composite gas comprising the Earth's atmosphere."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "air"@en ;
+.
+
+:animalTissue
+    a skos:Concept ;
+    skos:broader :animal_material ;
+    skos:definition "Material of an animal's body"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "animal tissue"@en ;
+.
+
+:atmospheric_dust
+    a skos:Concept ;
+    skos:definition "Fine-grained solid material collected or filtered from the atmosphere"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "atmospheric dust"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:bark
+    a skos:Concept ;
+    skos:broader :vegetation ;
+    skos:definition "Outermost layers of stems and roots of woody plants"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "bark"@en ;
+.
+
+:bitumen
+    a skos:Concept ;
+    skos:broader :hydrocarbon_material ;
+    skos:definition "Solid organic material that forms part of a rock. It can usually be extracted from the rock with organic solvent."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "bitumen"@en ;
+.
+
+:catchment_outlet_sediment
+    a skos:Concept ;
+    skos:broader :sediment ;
+    skos:definition "Terrestrial sediment deposited on a low-lying or flat landscape adjacent to a stream but outside its banks and close to the lower boundary of a hydrologic catchment; may have an aeolian component mixed in with fluvial sediments."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "catchment outlet sediment"@en ;
+.
+
+:coal
+    a skos:Concept ;
+    skos:broader :organic_material ;
+    skos:definition "A readily combustible organic rock containing more than 50 percent by weight and more than 70 percent by volume of carbonaceous material."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "coal"@en ;
+.
+
+:coke
+    a skos:Concept ;
+    skos:broader :organic_material ;
+    skos:definition "A solid of carbonaceous material derived from the destructive distillation of low-ash, low-sulphur bituminous coal."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "coke"@en ;
+.
+
+:condensate
+    a skos:Concept ;
+    skos:broader :fluid_hydrocarbon ;
+    skos:definition "A material that exists as gas in the subsurface but condenses into liquid at the surface."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "condensate"@en ;
+.
+
+:coral
+    a skos:Concept ;
+    skos:broader :rock ;
+    skos:definition "Hard stony substance secreted by certain marine coelenterates as an external skeleton, typically forming large reefs in warm seas"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "coral"@en ;
+.
+
+:crude_oil_with_water
+    a skos:Concept ;
+    skos:broader :fluid_hydrocarbon ;
+    skos:definition "A mixture of oil and water where oil is the main phase."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "crude oil with water"@en ;
+.
+
+:distilled_water
+    a skos:Concept ;
+    skos:broader :water ;
+    skos:definition "Water from which impurities, as dissolved salts and colloidal particles, have been removed by one or more processes of distillation; chemically pure water."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "distilled water"@en ;
+.
+
+:drilling_fluid
+    a skos:Concept ;
+    skos:broader :fluid ;
+    skos:definition "Fluid used for drill bit lubrication and return of ground rock material from the drill bit, e.g. mud."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "drilling fluid"@en ;
+.
+
+:estuarine_water
+    a skos:Concept ;
+    skos:broader :water ;
+    skos:definition "Water from an estuary. Depending on the nature of the estuary, the salinity may vary spatially and temporally and range from fresh, brackish, sea_water or hypersaline."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "estuarine water"@en ;
+.
+
+:faeces
+    a skos:Concept ;
+    skos:broader :animal_material ;
+    skos:definition "Waste material excreted from an animal"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "faeces"@en ;
+.
+
+:foliage
+    a skos:Concept ;
+    skos:broader :vegetation ;
+    skos:definition "Plant leaves, especially tree leaves, considered as a group"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "foliage"@en ;
+.
+
+:gas_in_solution
+    a skos:Concept ;
+    skos:broader :hydrocarbon_gas ;
+    skos:definition "A gas that that is exsolved from a liquid, such as water or oil, at the surface or under experimental conditions."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "gas in solution"@en ;
+.
+
+:groundwater
+    a skos:Concept ;
+    skos:altLabel "formation water"@en ;
+    skos:broader :water ;
+    skos:definition "Synonym: formation water.  Part of the subsurface water that is in the zone of saturation, i.e., below the water table.  Can be located in one or several aquifers, aquicludes or aquitards."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "groundwater"@en ;
+.
+
+:groundwater_with_oil
+    a skos:Concept ;
+    skos:definition "A sample containing a mixture of water and oil and may be an immulsion. Water is the main phase and hydrocarbons - e.g. benzene, toluene - are dissolved within the water. Synonym: formation water with oil"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "groundwater with oil"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:hair
+    a skos:Concept ;
+    skos:broader :animal_material ;
+    skos:definition "Hair or fur from an animal"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "hair"@en ;
+.
+
+:ice
+    a skos:Concept ;
+    skos:definition "Frozen, solid water."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ice"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:kerogen
+    a skos:Concept ;
+    skos:broader :hydrocarbon_material ;
+    skos:definition "Immobile organic matter that forms part of a rock. Kerogen cannot be extracted from the rock with organic solvents. Kerogen is concentrated in a pure form by removal of the mineral matter with strong acids - ie., HCl, HF."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "kerogen"@en ;
+.
+
+:lag
+    a skos:Concept ;
+    skos:broader :regolith ;
+    skos:definition "Deposit, commonly thin, or fragments of larger than sand size, spread over the land surface.  Its most common origin is as the coarse material left behind after fine material has been transported away by wind, or less commonly, sheet flow."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "lag"@en ;
+.
+
+:lake_sediment
+    a skos:Concept ;
+    skos:broader :sediment ;
+    skos:definition "A sediment deposited in a body of standing fresh water"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "lake sediment"@en ;
+.
+
+:manufactured_material
+    a skos:Concept ;
+    skos:definition "Anthropogenic materials used for scientific analysis or observation, e.g., plastic, paint, metal, wood, fibre, glass etc"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "manufactured material"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:marine_sediment_overlying_sea_water
+    a skos:Concept ;
+    skos:broader :marine_sediment ;
+    skos:definition "A marine sediment core that is collected together with the overlying water, as in a core incubation experiment, or a known area of seafloor and overlying water column, as in a chamber incubation experiment."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "marine sediment and overlying sea_water"@en ;
+.
+
+:meteorite
+    a skos:Concept ;
+    skos:broader :rock ;
+    skos:definition "A rock that landed on Earth from an extraterrestrial source"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "meteorite"@en ;
+.
+
+:mine_seep_water
+    a skos:Concept ;
+    skos:broader :water ;
+    skos:definition "Water seeping from mine workings."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "mine seep water"@en ;
+.
+
+:mineral
+    a skos:Concept ;
+    skos:definition "A naturally occurring inorganic, crystalline, element or compound"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "mineral"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:mixed_rock_and_sediment
+    a skos:Concept ;
+    skos:broader :regolith ;
+    skos:definition "A sample containing a mixture of rock and unconsolidated sediment."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "mixed rock and sediment"@en ;
+.
+
+:mud_gas
+    a skos:Concept ;
+    skos:broader :hydrocarbon_gas ;
+    skos:definition "Small amounts of hydrocarbon gases in air that are collected from the circulating mud stream during drilling."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "mud gas"@en ;
+.
+
+:overbank_sediment
+    a skos:Concept ;
+    skos:broader :sediment ;
+    skos:definition "Alluvium that is deposited outside an alluvial channel from flowing water which has overflowed from the channel.  It includes levees and back swamp deposits."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "overbank sediment"@en ;
+.
+
+:pitch
+    a skos:Concept ;
+    skos:broader :hydrocarbon_material ;
+    skos:definition "Any of the various dark heavy viscous and resinous substances obtained as a residue from the distillation of coal-tar or crude oil."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "pitch"@en ;
+.
+
+:plant_stem
+    a skos:Concept ;
+    skos:broader :vegetation ;
+    skos:definition "Stem, trunk, branch and twig material from a plant"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "plant stem"@en ;
+.
+
+:pore_water
+    a skos:Concept ;
+    skos:broader :water ;
+    skos:definition "Subsurface water in an interstice between grains in a marine sediment."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "pore water"@en ;
+.
+
+:rain_water
+    a skos:Concept ;
+    skos:broader :water ;
+    skos:definition "Rain water, collected before it hits the Earth's surface."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "rain water"@en ;
+.
+
+:refined_oil
+    a skos:Concept ;
+    skos:broader :fluid_hydrocarbon ;
+    skos:definition "Oil that has been processed in an oil refinery."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "refined oil"@en ;
+.
+
+:resin
+    a skos:Concept ;
+    skos:broader :hydrocarbon_material ;
+    skos:definition "Solid organic material that forms part of a rock. It is usually associated with coal and derived from the resinous material exuded from land plants."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "resin"@en ;
+.
+
+:river_water
+    a skos:Concept ;
+    skos:altLabel "stream water"@en ;
+    skos:broader :surface_water ;
+    skos:definition "Water sampled from a river."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "river water"@en ;
+.
+
+:root
+    a skos:Concept ;
+    skos:broader :vegetation ;
+    skos:definition "The part of a plant that bears no leaves and typically, but not always, lies below the surface of the soil and is used for absorption of water and inorganic nutrients"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "root"@en ;
+.
+
+:sea_water
+    a skos:Concept ;
+    skos:altLabel
+        "ocean water"@en ,
+        "sea_water"@en ;
+    skos:broader :water ;
+    skos:definition "Saline water from the Earth's seas and oceans"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "sea water"@en ;
+.
+
+:seep_gas
+    a skos:Concept ;
+    skos:broader :hydrocarbon_gas ;
+    skos:definition "Gas that seeps at the Earths surface and recovered without the need for drilling."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "seep gas"@en ;
+.
+
+:seep_oil
+    a skos:Concept ;
+    skos:broader :crude_oil ;
+    skos:definition "Crude oil that seeps at the Earths surface and recovered without the need for drilling."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "seep oil"@en ;
+.
+
+:seep_oil_and_gas
+    a skos:Concept ;
+    skos:broader :fluid_hydrocarbon ;
+    skos:definition "Crude oil and gas that seeps at the Earths surface and recovered without the need for drilling."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "seep oil and gas"@en ;
+.
+
+:snow
+    a skos:Concept ;
+    skos:definition "Atmospheric water vapour frozen into ice crystals and falling in light white flakes or lying on the ground as a white layer."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "snow"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:soil
+    a skos:Concept ;
+    skos:broader :regolith ;
+    skos:definition "Unconsolidated mineral or organic material on the Earth's surface that serves as a natural medium for the growth of land plants."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "soil"@en ;
+.
+
+:spring_water
+    a skos:Concept ;
+    skos:broader :water ;
+    skos:definition "Water sampled from a spring."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "spring water"@en ;
+.
+
+:stream_sediment
+    a skos:Concept ;
+    skos:definition "A sediment deposited in the bed of an active or perennial stream"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "stream sediment"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:suspended_solids
+    a skos:Concept ;
+    skos:definition "Sediment and biological particles collected from a water column that are separated by filtration and are not dissolved."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "suspended solids"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:unknown
+    a skos:Concept ;
+    skos:definition "Material type is unknown"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "unknown"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:unspecified_seabed_materials
+    a skos:Concept ;
+    skos:definition "A sample that contains a mixture of materials from the seabed, possibly animal, vegetable, and mineral material."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "unspecified seabed materials"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:wax
+    a skos:Concept ;
+    skos:broader :hydrocarbon_material ;
+    skos:definition "A light coloured solid precipitated from either a hydrocarbon gas or oil"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "wax"@en ;
+.
+
+<https://linked.data.gov.au/org/ga>
+    a sdo:Organization ;
+    sdo:description "Geoscience Australia is Australia's pre-eminent public sector geoscience organisation. It is the nation's trusted advisor on the geology and geography of Australia. It applies science and technology to describe and understand the Earth for the benefit of Australia."@en ;
+    sdo:name "Geoscience Australia" ;
+    sdo:url "https://www.ga.gov.au"^^xsd:anyURI ;
+.
+
+:crude_oil
+    a skos:Concept ;
+    skos:broader :fluid_hydrocarbon ;
+    skos:definition "A naturally occurring complex liquid hydrocarbon, typically found as part of drilling activity, which after distillation and removal of impurities yields a range of combustible fuels, petrochemicals and lubricants."@en ;
+    skos:inScheme cs: ;
+    skos:narrower :seep_oil ;
+    skos:prefLabel "crude oil"@en ;
+.
+
+:fluid
+    a skos:Concept ;
+    skos:definition "Unspecified fluid material."@en ;
+    skos:inScheme cs: ;
+    skos:narrower :drilling_fluid ;
+    skos:prefLabel "fluid"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:inorganic_gas
+    a skos:Concept ;
+    skos:definition "Any non-hydrocarbon-based gas."@en ;
+    skos:inScheme cs: ;
+    skos:narrower :air ;
+    skos:prefLabel "inorganic gas"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:solid_phase
+    a skos:Concept ;
+    skos:broader
+        :marine_sediment ,
+        :sediment ;
+    skos:definition "The solid material left over after the pore water has been extracted from a sediment sample."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "solid phase"@en ;
+.
+
+:surface_water
+    a skos:Concept ;
+    skos:broader :water ;
+    skos:definition "Fresh or brackish water which occurs on the surface of a land mass.  e.g., rivers, creeks, lakes"@en ;
+    skos:inScheme cs: ;
+    skos:narrower :river_water ;
+    skos:prefLabel "surface water"@en ;
+.
+
+:marine_sediment
+    a skos:Concept ;
+    skos:definition "A sediment, including pore_water, deposited in a submarine or coastal, brackish or saline environment."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :marine_sediment_overlying_sea_water ,
+        :solid_phase ;
+    skos:prefLabel "marine sediment"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:rock
+    a skos:Concept ;
+    skos:definition "A consolidated aggregate of one or more minerals or other rocks"@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :coral ,
+        :meteorite ;
+    skos:prefLabel "rock"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:animal_material
+    a skos:Concept ;
+    skos:altLabel "organism"@en ;
+    skos:broader :organic_material ;
+    skos:definition "Any material of or excreted from an animal.  e.g., animal tissue, faeces, hair"@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :animalTissue ,
+        :faeces ,
+        :hair ;
+    skos:prefLabel "animal material"@en ;
+.
+
+:hydrocarbon_gas
+    a skos:Concept ;
+    skos:broader :fluid_hydrocarbon ;
+    skos:definition "A fluid hydrocarbon that is a gas at the surface. In the subsurface this sample maybe be free of liquid hydrocarbons, contain dissolved liquid hydrocarbons, or be dissolved in oil. "@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :gas_in_solution ,
+        :mud_gas ,
+        :seep_gas ;
+    skos:prefLabel "hydrocarbon gas"@en ;
+.
+
+:regolith
+    a skos:Concept ;
+    skos:definition "Typically unconsolidated or fragmental material, either transported or residual origin, which covers bedrock. Includes surficial duricrusts that cap bedrock."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :lag ,
+        :mixed_rock_and_sediment ,
+        :sediment ,
+        :soil ;
+    skos:prefLabel "regolith"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:sediment
+    a skos:Concept ;
+    skos:broader :regolith ;
+    skos:definition "Unconsolidated sedimentary material."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :catchment_outlet_sediment ,
+        :lake_sediment ,
+        :overbank_sediment ,
+        :solid_phase ;
+    skos:prefLabel "sediment"@en ;
+.
+
+:vegetation
+    a skos:Concept ;
+    skos:altLabel "plant material"@en ;
+    skos:broader :organic_material ;
+    skos:definition "Any part of a plant whether it be moss, grass, sedge, or the roots, bark, twigs or leaves of trees and shrubs."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :bark ,
+        :foliage ,
+        :plant_stem ,
+        :root ;
+    skos:prefLabel "vegetation"@en ;
+.
+
+:organic_material
+    a skos:Concept ;
+    skos:definition "Any carbon-based material."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :animal_material ,
+        :coal ,
+        :coke ,
+        :hydrocarbon_material ,
+        :vegetation ;
+    skos:prefLabel "organic material"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:fluid_hydrocarbon
+    a skos:Concept ;
+    skos:broader :hydrocarbon_material ;
+    skos:definition "Any carbon-hydrogen fluid material"@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :condensate ,
+        :crude_oil ,
+        :crude_oil_with_water ,
+        :hydrocarbon_gas ,
+        :refined_oil ,
+        :seep_oil_and_gas ;
+    skos:prefLabel "fluid hydrocarbon"@en ;
+.
+
+:hydrocarbon_material
+    a skos:Concept ;
+    skos:broader :organic_material ;
+    skos:definition "Any carbon-hydrogen based material."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :bitumen ,
+        :fluid_hydrocarbon ,
+        :kerogen ,
+        :pitch ,
+        :resin ,
+        :wax ;
+    skos:prefLabel "hydrocarbon material"@en ;
+.
+
+:water
+    a skos:Concept ;
+    skos:definition "Undivided saline, brackish, or fresh water."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :distilled_water ,
+        :estuarine_water ,
+        :groundwater ,
+        :mine_seep_water ,
+        :pore_water ,
+        :rain_water ,
+        :sea_water ,
+        :spring_water ,
+        :surface_water ;
+    skos:prefLabel "water"@en ;
+    skos:topConceptOf cs: ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    dcterms:created "2022-08-09"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/ga> ;
+    dcterms:modified "2024-05-02"^^xsd:date ;
+    dcterms:provenance "Geoscience Australia Mineral Class (A.LU_MATERIAL_CLASS)"@en ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    rdfs:seeAlso <https://pid.geoscience.gov.au/dataset/ga/148553> ;
+    owl:versionInfo "1.3" ;
+    skos:definition "Broad categories of earth materials (eg, rock, sediment, water, vegetation) that may be observed or sampled."@en ;
+    skos:hasTopConcept
+        :adsorbed_phase ,
+        :atmospheric_dust ,
+        :fluid ,
+        :groundwater_with_oil ,
+        :ice ,
+        :inorganic_gas ,
+        :manufactured_material ,
+        :marine_sediment ,
+        :mineral ,
+        :organic_material ,
+        :regolith ,
+        :rock ,
+        :snow ,
+        :stream_sediment ,
+        :suspended_solids ,
+        :unknown ,
+        :unspecified_seabed_materials ,
+        :water ;
+    skos:prefLabel "General Geology - Sample Material Class"@en ;
+    dcat:contactPoint "Team Lead - Information Services; Energy, Minerals and Groundwater Division" ;
+.

@@ -1,0 +1,70 @@
+PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyPathComputeMethod>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sdo: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyPathComputeMethod/gpsSection>
+    a skos:Concept ;
+    skos:altLabel "GPS"@en ;
+    skos:definition "Borehole path calculated from triplets of GPS coordinates  (either lat/long/ellip_elev or easting/northing/zone/sl_elev).  This routine assumes straight-line segments between stations, so is not a particularly accurate interpolation method between stations."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "GPS section"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyPathComputeMethod/linearSegment>
+    a skos:Concept ;
+    skos:altLabel "LINEAR"@en ;
+    skos:definition "Borehole path calculated assuming linear segments between survey stations.  Also known as tangential method. Not a very accurate interpolation method. Not preferred by industry."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "linear segment"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyPathComputeMethod/minimumCurvature>
+    a skos:Concept ;
+    skos:altLabel "MINCURV"@en ;
+    skos:definition "Calculation using minimum curvature interpolation method to generate a smooth arc borehole path."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "minimum curvature"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyPathComputeMethod/offsetSurvey>
+    a skos:Concept ;
+    skos:altLabel "OFFSET"@en ;
+    skos:definition "Calculates borehole path from triplets of offset x,y,z values."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "offset survey"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://linked.data.gov.au/org/ga>
+    a sdo:Organization ;
+    sdo:description "Geoscience Australia is Australia's pre-eminent public sector geoscience organisation. It is the nation's trusted advisor on the geology and geography of Australia. It applies science and technology to describe and understand the Earth for the benefit of Australia."@en ;
+    sdo:name "Geoscience Australia" ;
+    sdo:url "https://www.ga.gov.au"^^xsd:anyURI ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    dcterms:created "2202-08-04"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/ga> ;
+    dcterms:modified "2202-08-04"^^xsd:date ;
+    dcterms:provenance "Geoscience Australia Directional Survey Path Computing Method Terms (BOREHOLE.LU_DIR_SRVY_COMPUTE_METHOD)"@en ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    rdfs:seeAlso <https://pid.geoscience.gov.au/dataset/ga/148553> ;
+    owl:versionInfo "1" ;
+    skos:definition "Terms to describe the geometric method used to calculate the survey path from the measured survey stations (eg, minimum curvature, offset survey)."@en ;
+    skos:hasTopConcept
+        <https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyPathComputeMethod/gpsSection> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyPathComputeMethod/linearSegment> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyPathComputeMethod/minimumCurvature> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyPathComputeMethod/offsetSurvey> ;
+    skos:prefLabel "Borehole Geology - Directional Survey Path Computing Method"@en ;
+    dcat:contactPoint "Team Lead - Information Services; Minerals, Energy and Groundwater Division" ;
+.

@@ -1,0 +1,921 @@
+PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence/>
+PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sdo: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+:akmolith
+    a skos:Concept ;
+    skos:broader :intrusion ;
+    skos:definition "an intrusion along a decollement zone, with or without tonguelike extensions into the surrounding rock"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "akmolith"@en ;
+.
+
+:amygdale
+    a skos:Concept ;
+    skos:broader :volcanic-feature ;
+    skos:definition "a gas cavity or vesicle in an igneous rock which is filled with secondary minerals"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "amygdale"@en ;
+.
+
+:apophysis
+    a skos:Concept ;
+    skos:broader :intrusion ;
+    skos:definition "an offshoot from a larger intrusive body"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "apophysis"@en ;
+.
+
+:batholith
+    a skos:Concept ;
+    skos:definition "a discordant magma body with exposed surface area of more than 100 square kilometres; typically consists of multiple intrusions."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "batholith"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:bioclast
+    a skos:Concept ;
+    skos:broader :clast ;
+    skos:definition "a fragment or clast in a rock composed of the remains of organisms"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "bioclast"@en ;
+.
+
+:block
+    a skos:Concept ;
+    skos:broader :pyroclast ;
+    skos:definition "an angular pyroclast > 64 mm"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "block"@en ;
+.
+
+:bomb
+    a skos:Concept ;
+    skos:broader :pyroclast ;
+    skos:definition "a clot of lava, usually mafic-ultramafic, ejected from a volcanic vent while viscous, and which assumes a rounded shape as it solidifies in flight"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "bomb"@en ;
+.
+
+:cactolith
+    a skos:Concept ;
+    skos:broader :intrusion ;
+    skos:definition "an obscurely cactus-shaped intrusion."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "cactolith"@en ;
+.
+
+:chonolith
+    a skos:Concept ;
+    skos:broader :intrusion ;
+    skos:definition "an intrusion so irregular as to defy description"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "chonolith"@en ;
+.
+
+:concretion
+    a skos:Concept ;
+    skos:definition "a hard, compact mass or aggregate of mineral matter, normally subsperical but commonly oblate, disc-shaped or irregular.  Formed from precipitation from solution about a nucleus or centre"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "concretion"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:cone-sheet
+    a skos:Concept ;
+    skos:broader :ring-complex ;
+    skos:definition "an arcuate dyke that dips 30-45 degrees towards the centre of the arc; occur in concentric sets, presumably converging at a magmatic centre"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "cone sheet"@en ;
+.
+
+:cooling-column
+    a skos:Concept ;
+    skos:broader :volcanic-feature ;
+    skos:definition "a cooling unit in a volcanic rock defined by polygonal jointing perpendicular to the flow surface"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "cooling column"@en ;
+.
+
+:cryptoexplosive
+    a skos:Concept ;
+    skos:broader :volcanic-feature ;
+    skos:definition "a volcanic body of rock formed by subsurface explosive activity"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "cryptoexplosive"@en ;
+.
+
+:cumulate-mineral
+    a skos:Concept ;
+    skos:broader :crystal ;
+    skos:definition "a crystal formed during accumulation of early-formed crystals from a magma"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "cumulate mineral"@en ;
+.
+
+:cupola
+    a skos:Concept ;
+    skos:broader :intrusion ;
+    skos:definition "a large upward projection of the roof of an igneous intrusion into the country rock above."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "cupola"@en ;
+.
+
+:ductolith
+    a skos:Concept ;
+    skos:broader :intrusion ;
+    skos:definition "a concordant intrusion, teardrop-shaped in cross section"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ductolith"@en ;
+.
+
+:dyke
+    a skos:Concept ;
+    skos:broader :intrusion ;
+    skos:definition "a tabular igneous intrusion that cuts across the bedding or foliation of the country rock"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "dyke"@en ;
+.
+
+:dyke-swarm
+    a skos:Concept ;
+    skos:broader :intrusion ;
+    skos:definition "a set of dykes, generally subparallel, with a common origin"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "dyke swarm"@en ;
+.
+
+:enclave
+    a skos:Concept ;
+    skos:broader :inclusion ;
+    skos:definition "an inclusion within an igneous rock to which it may or may not be genetically related"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "enclave"@en ;
+.
+
+:ethmolith
+    a skos:Concept ;
+    skos:broader :intrusion ;
+    skos:definition "a discordant, funnel-shaped intrusion, tapers downward"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ethmolith"@en ;
+.
+
+:extrusive-dome
+    a skos:Concept ;
+    skos:broader :volcanic-feature ;
+    skos:definition "an extrusion forming a bulbous dome above and around a volcanic vent"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "extrusion dome"@en ;
+.
+
+:facies
+    a skos:Concept ;
+    skos:definition "a lateral variant of a lithostratigraphic or metamorphic unit"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "facies"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:fissure
+    a skos:Concept ;
+    skos:broader :intrusion ;
+    skos:definition "a volcanic conduit having the form of a crack or fissure."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "fissure"@en ;
+.
+
+:floor-ascendant
+    a skos:Concept ;
+    skos:definition "a upward projection of country rock into an igneous intrusion"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "floor ascendant"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:glomerocryst
+    a skos:Concept ;
+    skos:broader :crystal ;
+    skos:definition "an aggregate of crystals of the same mineral"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "glomerocryst"@en ;
+.
+
+:gneissic-band
+    a skos:Concept ;
+    skos:broader :band-layer ;
+    skos:definition "a compositional band or layer in a gneiss mineralogically distinct from the surrounding material"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "gneissic band"@en ;
+.
+
+:graphic-intergrowth
+    a skos:Concept ;
+    skos:definition "a regular poikilitic intergrowth of triangular or linear-angular shaped grains of one mineral within a larger other mineral, typically quartz with alkali feldspar"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "graphic intergrowth"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:harpolith
+    a skos:Concept ;
+    skos:broader :phacolith ;
+    skos:definition "a phacolith with a vertical axis; indicates multiple deformations"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "harpolith"@en ;
+.
+
+:high-level-pluton
+    a skos:Concept ;
+    skos:broader :intrusion ;
+    skos:definition "a pluton emplaced at a high or subvolcanic level in the crust"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "high-level pluton"@en ;
+.
+
+:holoblast
+    a skos:Concept ;
+    skos:broader :crystalloblast ;
+    skos:definition "a crystalloblast that is newly and completely formed during metamorphism"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "holoblast"@en ;
+.
+
+:hydrothermal-alteration
+    a skos:Concept ;
+    skos:definition "a rock or mineral derived from hydrothermal alteration of a rock"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "hydrothermal alteration"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:hypidioblast
+    a skos:Concept ;
+    skos:broader :crystalloblast ;
+    skos:definition "a crystalloblast that is formed during metamorphism and is bounded in part by its characteristic crystal faces"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "hypidioblast"@en ;
+.
+
+:idioblast
+    a skos:Concept ;
+    skos:broader :crystalloblast ;
+    skos:definition "a crystalloblast that is formed during metamorphism and is bounded by its characteristic crystal faces"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "idioblast"@en ;
+.
+
+:igneous-band
+    a skos:Concept ;
+    skos:broader :band-layer ;
+    skos:definition "a compositional band or layer in an igneous rock mineralogically distict from the surrounding material"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "igneous band"@en ;
+.
+
+:intraclast
+    a skos:Concept ;
+    skos:broader :clast ;
+    skos:definition "a clast or fragment in a sedimentary rock of another penecontemporaneous sedimentary rock that has been eroded within the basin of deposition"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "intraclast"@en ;
+.
+
+:irregular-vein
+    a skos:Concept ;
+    skos:broader :vein ;
+    skos:definition "a vein with no obvious form."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "irregular vein"@en ;
+.
+
+:laccolith
+    a skos:Concept ;
+    skos:broader :intrusion ;
+    skos:definition "a concordant, flat-based, convex-up intrusion"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "laccolith"@en ;
+.
+
+:lens
+    a skos:Concept ;
+    skos:broader :band-layer ;
+    skos:definition "a discontinuous layer or bed within a sedimentary rock"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "lens"@en ;
+.
+
+:leucosome
+    a skos:Concept ;
+    skos:definition "the light coloured part of a migmatite or other rock with compositional segregations, usually rich in quartz and feldspar"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "leucosome"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:lopolith
+    a skos:Concept ;
+    skos:broader :intrusion ;
+    skos:definition "a large, concordant, typically layered igneous intrusion whose floor is convex-down and whose roof may be convex-down or flat."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "lopolith"@en ;
+.
+
+:marker-bed
+    a skos:Concept ;
+    skos:broader :bed ;
+    skos:definition "a laterally continuous stratigraphic marker within another unit."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "marker bed"@en ;
+.
+
+:melanosome
+    a skos:Concept ;
+    skos:definition "the dark coloured part of a migmatite or other rock with compositional segregations, rich in mafic minerals"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "melanosome"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:microlite
+    a skos:Concept ;
+    skos:broader :crystal ;
+    skos:definition "a microscopic crystal that polarises light and has some determinable optical properties"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "microlite"@en ;
+.
+
+:nodule
+    a skos:Concept ;
+    skos:definition "A small rounded mass of a mineral or mineral aggregate, usually with a contrasting composition from the enclosing sediment or rock matrix in which it is embedded. A fragment of a coarse grained igneous rock occurring within a finer grained rock."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "nodule"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:oikocryst
+    a skos:Concept ;
+    skos:broader :crystalloblast ;
+    skos:definition "the enclosing crystal in a poikolitic texture"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "oikocryst"@en ;
+.
+
+:oncolite
+    a skos:Concept ;
+    skos:broader :grain ;
+    skos:definition "a variously shaped, concentrically laminated, calcareous sedimentary structure, usually less than 10 cm in diameter, formed by the accretion of successive layered masses of blue-green algae"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "oncolite"@en ;
+.
+
+:ooid
+    a skos:Concept ;
+    skos:broader :grain ;
+    skos:definition "a small round or ovate accretionary particle in an oolitic rock, formed of concentric carbonate layers around a nucleus in shallow, wave-agitated water"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ooid"@en ;
+.
+
+:pellet
+    a skos:Concept ;
+    skos:broader :grain ;
+    skos:definition "a small, usually rounded aggregate of clay-sized calcareous (micritic) material, devoid of internal structure, and contained within a well sorted carbonate rock"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "pellet"@en ;
+.
+
+:phenocryst
+    a skos:Concept ;
+    skos:broader :crystal ;
+    skos:definition "a relatively large, conspicuous crystal in a porphyrytic igneous rock"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "phenocryst"@en ;
+.
+
+:pillow
+    a skos:Concept ;
+    skos:broader :lava-flow ;
+    skos:definition "a pillow-like lava body extruded beneath water"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "pillow"@en ;
+.
+
+:pipe
+    a skos:Concept ;
+    skos:broader :intrusion ;
+    skos:definition "a vertical conduit through the Earth's crust below a volcano, through which magmatic materials have passed; usually filled with volcanic breccia and fragments of older rock."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "pipe"@en ;
+.
+
+:pisolite
+    a skos:Concept ;
+    skos:broader :grain ;
+    skos:definition "a small round or ovate accretionary particle, larger and less regular than an ooid, formed by concentric precipitation around a nucleus typically of carbonate (limestone) or iron oxides (laterite)"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "pisolite"@en ;
+.
+
+:planar-vein
+    a skos:Concept ;
+    skos:broader :vein ;
+    skos:definition "a vein with length and width significantly greater than its thickness, giving the vein a tabular form."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "planar vein"@en ;
+.
+
+:plug
+    a skos:Concept ;
+    skos:broader :volcanic-feature ;
+    skos:definition "a roughly cylindrical mass of congealed magma that fills the conduit of an inactive volcano"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "plug"@en ;
+.
+
+:pluton
+    a skos:Concept ;
+    skos:broader :intrusion ;
+    skos:definition "a deep-seated igneous intrusion"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "pluton"@en ;
+.
+
+:pod
+    a skos:Concept ;
+    skos:broader :intrusion ;
+    skos:definition "an intrusion of elongate or lenticular form"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "pod"@en ;
+.
+
+:poikiloblast
+    a skos:Concept ;
+    skos:broader :crystalloblast ;
+    skos:definition "a crystal formed by recrystallisation during metamorphism with numerous inclusions of smaller grains"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "poikiloblast"@en ;
+.
+
+:porphyroblast
+    a skos:Concept ;
+    skos:broader :crystalloblast ;
+    skos:definition "a pseudoporphyritic crystal in a rock produced by metamorphic recrystallisation"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "porphyroblast"@en ;
+.
+
+:porphyroclast
+    a skos:Concept ;
+    skos:broader :crystal ;
+    skos:definition "a paleoblast within a finer grained recrystalllised and/or pulverised matrix"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "porphyroclast"@en ;
+.
+
+:pseudomorph
+    a skos:Concept ;
+    skos:definition "a secondary mineral whose outward crystal form has been inherited from the orignal mineral it has replaced"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "pseudomorph"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:reaction-rim
+    a skos:Concept ;
+    skos:broader :corona ;
+    skos:definition "a peripheral zone around a mineral composed of the products of the reaction of an early solidified mineral with a surrounding melt"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "reaction rim"@en ;
+.
+
+:righ-dyke
+    a skos:Concept ;
+    skos:broader :ring-complex ;
+    skos:definition "an arcuate or subcircular dyke, generally associated with a volcanic centre."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ring dyke"@en ;
+.
+
+:roof-pendant
+    a skos:Concept ;
+    skos:definition "a downward projection of country rock into an igneous intrusion"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "roof pendant"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:sedimentry-dyke
+    a skos:Concept ;
+    skos:definition "a tabular sedimentary intrusion that cuts across the bedding or foliation of the host rock"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "sedimentary dyke"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:sheet
+    a skos:Concept ;
+    skos:broader :intrusion ;
+    skos:definition "a tabular intrusion, concordant or slightly discordant."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "sheet"@en ;
+.
+
+:sigmoidal-vein
+    a skos:Concept ;
+    skos:broader :vein ;
+    skos:definition "a vein is curved so as to resemble the letter S in section."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "sigmoidal vein"@en ;
+.
+
+:sill
+    a skos:Concept ;
+    skos:broader :intrusion ;
+    skos:definition "a tabular igneous intrusion that parallels the bedding or foliation of the country rock."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "sill"@en ;
+.
+
+:sphenolith
+    a skos:Concept ;
+    skos:broader :intrusion ;
+    skos:definition "a wedge-like intrusion, partly concordant, partly discordant."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "sphenolith"@en ;
+.
+
+:spherulite
+    a skos:Concept ;
+    skos:broader :volcanic-feature ;
+    skos:definition "a rounded or spherical mass of acicular crystals, commonly of feldspar radiating from a central point.  Commonly formed from devitrification of volcanic glass"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "spherulite"@en ;
+.
+
+:stock
+    a skos:Concept ;
+    skos:broader :intrusion ;
+    skos:definition "a discordant magma body with exposed surface area of less than 100 square kilometres; may represent exposed portion of a much larger intrusion."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "stock"@en ;
+.
+
+:symplectic-intergrowth
+    a skos:Concept ;
+    skos:definition "an intimate wormlike or irregular intergrowth of two different minerals"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "symplectic intergrowth"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:unkown
+    a skos:Concept ;
+    skos:definition "mode of occurrence is unknown"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "unknown"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:weathering-product
+    a skos:Concept ;
+    skos:definition "a secondary mineral or material derived from weathering of a rock"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "weathering product"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:xenoblast
+    a skos:Concept ;
+    skos:broader :crystalloblast ;
+    skos:definition "a mineral that has grown during metamorphism without development of its characteristic crystal faces"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "xenoblast"@en ;
+.
+
+:xenocryst
+    a skos:Concept ;
+    skos:broader :crystal ;
+    skos:definition "a crystal that resembles a phenocryst in an igneous rock, but that is foreign to the rock in which it occurs"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "xenocryst"@en ;
+.
+
+:xenolith
+    a skos:Concept ;
+    skos:broader :inclusion ;
+    skos:definition "a foreign inclusion in an igneous rock; a fragment of an earlier-formed part of the igneous rock that has a different composition from that of the host rock"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "xenolith"@en ;
+.
+
+<https://linked.data.gov.au/org/ga>
+    a sdo:Organization ;
+    sdo:description "Geoscience Australia is Australia's pre-eminent public sector geoscience organisation. It is the nation's trusted advisor on the geology and geography of Australia. It applies science and technology to describe and understand the Earth for the benefit of Australia."@en ;
+    sdo:name "Geoscience Australia" ;
+    sdo:url "https://www.ga.gov.au"^^xsd:anyURI ;
+.
+
+:bed
+    a skos:Concept ;
+    skos:broader :band-layer ;
+    skos:definition "a layer of sedimentary material bounded above and below by more or less well-defined bedding surfaces"@en ;
+    skos:inScheme cs: ;
+    skos:narrower :marker-bed ;
+    skos:prefLabel "bed"@en ;
+.
+
+:cement
+    a skos:Concept ;
+    skos:definition "chemically precipitated material occuring in the space between grains or clasts of a sedimentary rock"@en ;
+    skos:inScheme cs: ;
+    skos:narrower :interstitial-material ;
+    skos:prefLabel "cement"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:corona
+    a skos:Concept ;
+    skos:broader :mineral-overgrowth ;
+    skos:definition "a zone of minerals, commonly with radial arrangement, around another mineral"@en ;
+    skos:inScheme cs: ;
+    skos:narrower :reaction-rim ;
+    skos:prefLabel "corona"@en ;
+.
+
+:detritus
+    a skos:Concept ;
+    skos:definition "sedimentary material derived from the waethering and/or erosion"@en ;
+    skos:inScheme cs: ;
+    skos:narrower :clast ;
+    skos:prefLabel "detritus"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:groundmass
+    a skos:Concept ;
+    skos:definition "the finer grained material between the phenocrysts of a porphyritic igneous rock"@en ;
+    skos:inScheme cs: ;
+    skos:narrower :interstitial-material ;
+    skos:prefLabel "groundmass"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:lava-flow
+    a skos:Concept ;
+    skos:broader :volcanic-feature ;
+    skos:definition "a tabular extrusive igneous body."@en ;
+    skos:inScheme cs: ;
+    skos:narrower :pillow ;
+    skos:prefLabel "lava flow"@en ;
+.
+
+:matrix
+    a skos:Concept ;
+    skos:definition "the finer grained material between the larger grains or clasts of a sedimentary rock"@en ;
+    skos:inScheme cs: ;
+    skos:narrower :interstitial-material ;
+    skos:prefLabel "matrix"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:mineral-overgrowth
+    a skos:Concept ;
+    skos:definition "growth of one mineral around the margin of a pre-existing mineral grain"@en ;
+    skos:inScheme cs: ;
+    skos:narrower :corona ;
+    skos:prefLabel "mineral overgrowth"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:phacolith
+    a skos:Concept ;
+    skos:broader :intrusion ;
+    skos:definition "a concordant, lenticular intrusion, emplaced along a fold axis"@en ;
+    skos:inScheme cs: ;
+    skos:narrower :harpolith ;
+    skos:prefLabel "phacolith"@en ;
+.
+
+:clast
+    a skos:Concept ;
+    skos:broader :detritus ;
+    skos:definition "a fragment of pre-existing rocks which have been produced by the processes of weathering and/or erosion, and in general transported to a point of deposition."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :bioclast ,
+        :intraclast ;
+    skos:prefLabel "clast"@en ;
+.
+
+:inclusion
+    a skos:Concept ;
+    skos:definition "a fragment of older material within an igneous rock to which it may or may not be genetically related"@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :enclave ,
+        :xenolith ;
+    skos:prefLabel "inclusion"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:interstitial-material
+    a skos:Concept ;
+    skos:broader
+        :cement ,
+        :groundmass ,
+        :matrix ;
+    skos:definition "the finer grained material that occurs between coarser grains or particles in a rock"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "interstitial material"@en ;
+.
+
+:pyroclast
+    a skos:Concept ;
+    skos:broader :volcanic-feature ;
+    skos:definition "a particle ejected during a volcanic eruption"@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :block ,
+        :bomb ;
+    skos:prefLabel "pyroclast"@en ;
+.
+
+:ring-complex
+    a skos:Concept ;
+    skos:broader :intrusion ;
+    skos:definition "an association of ring dykes and cone sheets."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :cone-sheet ,
+        :righ-dyke ;
+    skos:prefLabel "ring complex"@en ;
+.
+
+:vein
+    a skos:Concept ;
+    skos:definition "an epigenetic mineral filling of a fault or fracture in a host rock, in tabular or sheetlike form, often with associated host rock replacement."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :irregular-vein ,
+        :planar-vein ,
+        :sigmoidal-vein ;
+    skos:prefLabel "vein"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:band-layer
+    a skos:Concept ;
+    skos:definition "a thin layer, compositionally distinct from the surrounding material"@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :bed ,
+        :gneissic-band ,
+        :igneous-band ,
+        :lens ;
+    skos:prefLabel "band, layer"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:grain
+    a skos:Concept ;
+    skos:definition "a mineral or rock particle, generally lacking crystal faces, commonly in relation to sedimentary rocks"@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :oncolite ,
+        :ooid ,
+        :pellet ,
+        :pisolite ;
+    skos:prefLabel "grain"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:crystal
+    a skos:Concept ;
+    skos:definition "a homogeneous, solid body of a mineral or element having a regular repeating atomic arrangement"@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :crystalloblast ,
+        :cumulate-mineral ,
+        :glomerocryst ,
+        :microlite ,
+        :phenocryst ,
+        :porphyroclast ,
+        :xenocryst ;
+    skos:prefLabel "crystal"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:crystalloblast
+    a skos:Concept ;
+    skos:broader :crystal ;
+    skos:definition "a crystal of a mineral produced entirely by metamorphic processes"@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :holoblast ,
+        :hypidioblast ,
+        :idioblast ,
+        :oikocryst ,
+        :poikiloblast ,
+        :porphyroblast ,
+        :xenoblast ;
+    skos:prefLabel "crystalloblast"@en ;
+.
+
+:volcanic-feature
+    a skos:Concept ;
+    skos:definition "a rock derived from igneous processes at or just below the Earth's surface"@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :amygdale ,
+        :cooling-column ,
+        :cryptoexplosive ,
+        :extrusive-dome ,
+        :lava-flow ,
+        :plug ,
+        :pyroclast ,
+        :spherulite ;
+    skos:prefLabel "volcanic feature"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:intrusion
+    a skos:Concept ;
+    skos:definition "a body of igneous rock formed by the process of emplacement of magma in pre-existing rock"@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :akmolith ,
+        :apophysis ,
+        :cactolith ,
+        :chonolith ,
+        :cupola ,
+        :ductolith ,
+        :dyke ,
+        :dyke-swarm ,
+        :ethmolith ,
+        :fissure ,
+        :high-level-pluton ,
+        :laccolith ,
+        :lopolith ,
+        :phacolith ,
+        :pipe ,
+        :pluton ,
+        :pod ,
+        :ring-complex ,
+        :sheet ,
+        :sill ,
+        :sphenolith ,
+        :stock ;
+    skos:prefLabel "intrusion"@en ;
+    skos:topConceptOf cs: ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    dcterms:created "2022-08-09"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/ga> ;
+    dcterms:modified "2022-08-09"^^xsd:date ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    rdfs:seeAlso <https://pid.geoscience.gov.au/dataset/ga/148553> ;
+    owl:versionInfo "1" ;
+    skos:definition "Mode of occurrence of geological units and samples (eg: dyke, bed, phenocryst)."@en ;
+    skos:hasTopConcept
+        :band-layer ,
+        :batholith ,
+        :cement ,
+        :concretion ,
+        :crystal ,
+        :detritus ,
+        :facies ,
+        :floor-ascendant ,
+        :grain ,
+        :graphic-intergrowth ,
+        :groundmass ,
+        :hydrothermal-alteration ,
+        :inclusion ,
+        :intrusion ,
+        :leucosome ,
+        :matrix ,
+        :melanosome ,
+        :mineral-overgrowth ,
+        :nodule ,
+        :pseudomorph ,
+        :roof-pendant ,
+        :sedimentry-dyke ,
+        :symplectic-intergrowth ,
+        :unkown ,
+        :vein ,
+        :volcanic-feature ,
+        :weathering-product ;
+    skos:historyNote "Geoscience Australia Mode of Occurrence (FGDM.MODE_OCCURENCES)"@en ;
+    skos:prefLabel "Field Geology - Mode of Occurrence"@en ;
+    dcat:contactPoint "Team Lead - Information Services; Energy, Minerals and Groundwater Division " ;
+.
+

@@ -1,0 +1,259 @@
+PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods/>
+PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sdo: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+:auger
+    a skos:Concept ;
+    skos:definition "Specimens collected by hand or mechanical auger which enable samples to be taken at intervals down profile. For example regolith, soil or sediment."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "auger"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:cableToolDrilling
+    a skos:Concept ;
+    skos:broader :percussionDrilling ;
+    skos:definition "A percussion drilling method that uses a heavy drilling tool that is raised and lowered with enough force to pulverise the rock, with the debris removed by a bailer."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "cable tool drilling"@en ;
+.
+
+:coreAir
+    a skos:Concept ;
+    skos:definition "Rock or sediment core is derived from a dry, air-cooled diamond drilling method."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "core air"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:coreBox
+    a skos:Concept ;
+    skos:definition "A sampling method that obtains a large volume or large surface area core with shallow penetration and minimum disturbance. Commonly uses a double spade system."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "core box"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:coreConventional
+    a skos:Concept ;
+    skos:broader :coreDiamond ;
+    skos:definition "Core drilling using a diamond or tungsten carbide bit and a core barrel with fibreglass inner sleeves. Used in the oil industry."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "core conventional"@en ;
+.
+
+:coreGeoprobe
+    a skos:Concept ;
+    skos:definition "High quality core extracted by hydraulic power. Used in rough terrain, soft sand, mud, shallow water, or tight, congested areas. Long high quality cores."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "core geoprobe"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:coreGravity
+    a skos:Concept ;
+    skos:definition "Used only where short cores are required. Core barrel is gravity forced into poorly consolidated material, producing near surface high quality core."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "core gravity"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:coreKasten
+    a skos:Concept ;
+    skos:definition "Large volume, relatively undisturbed sediment core (~3m long) from a Kasten Corer. The corer is constructed of stainless steel and is square in cross-section. A weight of several hundred kilograms on top of the corer pushes it 2-3 metres into the seabed. It is designed for sedimentological and geochemical sampling of fine-grained sediments. This type of corer obtains relatively undisturbed cores and can preserve the sediment/water interface. This type of core is useful for determining sediment accumulation rates."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "core Kasten"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:coreMackereth
+    a skos:Concept ;
+    skos:definition "Mackereth is a complex coring system utilizing compressed gas to penetrate and recover single-drive moderate (up to 12 m) cores from lakes of diverse depths.  Mackereth cores can be deployed on virtually any small craft and  can be used in water depths up to 80 m."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "core Mackereth"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:corePiston
+    a skos:Concept ;
+    skos:definition "A drilling method that uses a piston to drive the core barrel. Produces high quality long cores."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "core piston"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:corePush
+    a skos:Concept ;
+    skos:definition "A pipe that is pushed into the sediment to gain a core that is no longer than 2m long. Can be used in up to 5m of water. Core pipe has a valve on top that is used to create a vacuum  at the top of the core when pulling the core out of the sediment."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "core push"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:coreRov
+    a skos:Concept ;
+    skos:definition "A core drilled from a remotely operated vehicle"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "core ROV"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:coreSonic
+    a skos:Concept ;
+    skos:definition "Similar to the vibrocore technique, the drill stem and barrel are vibrated vertically at frequencies between 50Hz and 180Hz such that the sampler barrel advances by slicing through poorly consolidated material."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "core sonic"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:coreUnspecified
+    a skos:Concept ;
+    skos:definition "Sampling of a core of sediment, soil, or rock by an unspecified drilling method"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "core unspecified"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:coreVibro
+    a skos:Concept ;
+    skos:definition "A core tube is attached to a source of mechanical vibration (the power head) and lowered into  sediment. The vibrations provide energy for rearranging the particles within the sediment in such a way that the core tube penetrates under the static weight of the vibracoring apparatus. Samples include stiff and stony clays, soft rock and sands, and saturated sediments which can not be sampled using gravity or piston corers. Also know as VIBRA."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "core vibro"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:rabDrilling
+    a skos:Concept ;
+    skos:broader :percussionDrilling ;
+    skos:definition "A  percussion drilling method where rock or sediment chips are derived by using a drag bit or a down-hole hammer, and the cuttings are blown up the outside of the drill rods and collected at surface, using air or a combination of air and foam to lift the cuttings.  This inexpensive technique can be useful in preliminary exploration, but samples are susceptible to being contaminated by material from the borehole wall above the sample depth."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "RAB drilling"@en ;
+.
+
+:reverseCirculationDrilling
+    a skos:Concept ;
+    skos:definition "A drilling technique similar to rotary drilling except that drilling fluid flow down the annular space between the drilling stem and the wall of the hole forcing cuttings up through the inside of the drill stem ."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "reverse circulation drilling"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:rotaryDrilling
+    a skos:Concept ;
+    skos:definition "A drilling method using a drill stem equipped with a bit that is rotated to cut and grind the rock with a fluid pumped down the stem to force cuttings up through the annular space between the stem and the wall of the hole"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "rotary drilling"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:rotaryHammerDrilling
+    a skos:Concept ;
+    skos:broader :percussionDrilling ;
+    skos:definition "A percussion drilling method using a cutting tool powered by compressed air that creates a rapid percussion effect coupled with rotary action to drill hard rocks."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "rotary hammer drilling"@en ;
+.
+
+:sidewallCoreBullet
+    a skos:Concept ;
+    skos:broader :sidewallCore ;
+    skos:definition "Percussion cores are taken by firing hollow bullets into the formation. The bullets are attached to the tool by fasteners, and are retrieved, along with the core inside, by pulling up the tool and the fasteners. Percussion coring tools typically hold 20 to 30 bullets, but two or three tools can be combined on one run in the hole."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "sidewall core bullet"@en ;
+.
+
+:sidewallCoreMechanical
+    a skos:Concept ;
+    skos:broader :sidewallCore ;
+    skos:definition "Mechanical tools use hollow rotary drills to cut and then pull out core plugs. Up to 75 plugs can be recovered on one run. With full recovery, cores from typical percussion tools are 1 in. [2.5 cm] in diameter by 1 3/4 in. [4.4 cm] long, while those from mechanical tools are 0.91 in. [2.3 cm] in diameter by 2 in. [5 cm] long. The latter are also known as rotary sidewall cores."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "sidewall core mechanical"@en ;
+.
+
+:unknown
+    a skos:Concept ;
+    dcterms:provenance "http://www.opengis.net/def/nil/OGC/0/unknown"@en ;
+    skos:definition "The method of drilling is unknown"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "unknown"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://linked.data.gov.au/org/ga>
+    a sdo:Organization ;
+    sdo:description "Geoscience Australia is Australia's pre-eminent public sector geoscience organisation. It is the nation's trusted advisor on the geology and geography of Australia. It applies science and technology to describe and understand the Earth for the benefit of Australia."@en ;
+    sdo:name "Geoscience Australia" ;
+    sdo:url "https://www.ga.gov.au"^^xsd:anyURI ;
+.
+
+:coreDiamond
+    a skos:Concept ;
+    skos:definition "Rock or sediment core drilling using a liquid-cooled, diamond or tungsten carbide bit."@en ;
+    skos:inScheme cs: ;
+    skos:narrower :coreConventional ;
+    skos:prefLabel "core diamond"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:sidewallCore
+    a skos:Concept ;
+    skos:definition "A method to extract a core or plug from the sidewall of a borehole."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :sidewallCoreBullet ,
+        :sidewallCoreMechanical ;
+    skos:prefLabel "sidewall core"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:percussionDrilling
+    a skos:Concept ;
+    skos:definition "Rock or sediment chips or fragments are derived from a percussion (hammer) method."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :cableToolDrilling ,
+        :rabDrilling ,
+        :rotaryHammerDrilling ;
+    skos:prefLabel "percussion drilling"@en ;
+    skos:topConceptOf cs: ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    dcterms:created "2022-08-04"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/ga> ;
+    dcterms:modified "2022-08-04"^^xsd:date ;
+    dcterms:provenance "Geoscience Australia Drilling Methods (BOREHOLE.LU_DRILLING_METHODS)"@en ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    rdfs:seeAlso <https://pid.geoscience.gov.au/dataset/ga/148553> ;
+    owl:versionInfo "1" ;
+    skos:definition "Method of drilling."@en ;
+    skos:hasTopConcept
+        :auger ,
+        :coreAir ,
+        :coreBox ,
+        :coreDiamond ,
+        :coreGeoprobe ,
+        :coreGravity ,
+        :coreKasten ,
+        :coreMackereth ,
+        :corePiston ,
+        :corePush ,
+        :coreRov ,
+        :coreSonic ,
+        :coreUnspecified ,
+        :coreVibro ,
+        :percussionDrilling ,
+        :reverseCirculationDrilling ,
+        :rotaryDrilling ,
+        :sidewallCore ,
+        :unknown ;
+    skos:prefLabel "Borehole Geology - Drilling Methods"@en ;
+    dcat:contactPoint "Team Lead - Information Services; Minerals, Energy and Groundwater Division" ;
+.

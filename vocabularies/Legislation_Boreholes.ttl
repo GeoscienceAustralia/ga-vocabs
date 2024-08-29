@@ -1,0 +1,141 @@
+PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/Legislation/>
+PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/Legislation>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sdo: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+:anpm
+    a skos:Concept ;
+    dcterms:provenance "http://www.anpm.tl/"@en ;
+    skos:definition "Autoridade Nacional do Petróleo e Minerais (ANPM)"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ANPM"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:dsdp
+    a skos:Concept ;
+    skos:definition "Deep Sea Drilling Project, 1968 - 1983"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "DSDP"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:jpda
+    a skos:Concept ;
+    skos:definition "Joint Petroleum Development Area. Established by The Timor Sea Treaty 2002 agreement between Timor-Leste and Australia."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "JPDA"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:odp
+    a skos:Concept ;
+    skos:definition "Ocean Drilling Program, 1985 - 2003 (Continuation of DSDP).  ODP replaced by Integrated Ocean Drilling Program (IODP). "@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ODP"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:opggsa
+    a skos:Concept ;
+    skos:definition "Offshore Petroleum and Greenhouse Gas Storage Act 2006. Applies from 22 November 2008 "@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "OPGGSA"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:prePsla
+    a skos:Concept ;
+    skos:definition "Drilling conducted prior to the Petroleum (Submerged Lands) ACT 1967, 22 November."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "pre-PSLA"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:psla
+    a skos:Concept ;
+    skos:definition "Petroleum (Submerged Lands) ACT 1967. Applies from 22 Novermber 1967 to 30 June 2008 "@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "PSLA"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:scientificInvestigationConsents
+    a skos:Concept ;
+    skos:definition "Consent may be given to organisations undertaking scientific research into the physical or biological characteristics of the continental shelf to undertake activities related to petroleum exploration (including the drilling of stratigraphic holes, but excluding the drilling of petroleum exploration wells as part of that research)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Scientific investigation consents"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:stateOnshore
+    a skos:Concept ;
+    skos:definition "Onshore drilling activities under various State/Territory Acts."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "State onshore"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:stateWater
+    a skos:Concept ;
+    skos:definition "Marine jurisdition of the various States/Territories. Approx. 3m from Territorial Sea Baseline."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "State waters"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:unknown
+    a skos:Concept ;
+    dcterms:provenance "http://www.opengis.net/def/nil/OGC/0/unknown"@en ;
+    skos:definition "The legislation under which the drilling was conducted is not known."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "unknown"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:zoc
+    a skos:Concept ;
+    skos:definition "Petroleum (Australia-Indonesia Zone of Cooperation) Act, 1990"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ZOC"@en ;
+    skos:topConceptOf cs: ;
+.
+
+<https://linked.data.gov.au/org/ga>
+    a sdo:Organization ;
+    sdo:description "Geoscience Australia is Australia's pre-eminent public sector geoscience organisation. It is the nation's trusted advisor on the geology and geography of Australia. It applies science and technology to describe and understand the Earth for the benefit of Australia."@en ;
+    sdo:name "Geoscience Australia" ;
+    sdo:url "https://www.ga.gov.au"^^xsd:anyURI ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    dcterms:created "2022-08-09"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/ga> ;
+    dcterms:modified "2022-08-09"^^xsd:date ;
+    dcterms:provenance "Geoscience Australia Legislation (BOREHOLE.LU_LEGISLATION)"@en ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    rdfs:seeAlso <https://pid.geoscience.gov.au/dataset/ga/148553> ;
+    owl:versionInfo "1" ;
+    skos:definition "Legislative or administrative frameworks under which drilling is performed."@en ;
+    skos:hasTopConcept
+        :anpm ,
+        :dsdp ,
+        :jpda ,
+        :odp ,
+        :opggsa ,
+        :prePsla ,
+        :psla ,
+        :scientificInvestigationConsents ,
+        :stateOnshore ,
+        :stateWater ,
+        :unknown ,
+        :zoc ;
+    skos:prefLabel "Borehole Geology - Legislation"@en ;
+    dcat:contactPoint "Team Lead - Information Services; Energy, Minerals and Groundwater Division " ;
+.

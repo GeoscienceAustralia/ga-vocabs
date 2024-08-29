@@ -1,0 +1,792 @@
+PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty/>
+PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX sdo: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+:K
+    a skos:Concept ;
+    skos:altLabel
+        "POTA"@en ,
+        "potassium"@en ;
+    skos:broader :naturalGamma ;
+    skos:definition "Potassium abundance measured by a spectral gamma-ray emission spectrometric method"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "K"@en ;
+.
+
+:T1
+    a skos:Concept ;
+    skos:altLabel "longitudinal NMR relaxation time"@en ;
+    skos:broader :nmrRelaxation ;
+    skos:definition "The longitudinal (spin-lattice) relaxation time, the decay constant for the recovery of the z component of the nuclear spin magnetisation towards its thermal equilibrium value."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "T1"@en ;
+.
+
+:T2
+    a skos:Concept ;
+    skos:broader :nmrRelaxation ;
+    skos:definition "The time it takes for the magnetic resonance signal to irreversibly decay to 37% (1/e) of its initial value after its generation by tipping the longitudinal magnetisation towards the magnetic transverse plane."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "T2"@en ;
+.
+
+:T2star
+    a skos:Concept ;
+    skos:altLabel
+        "FID"@en ,
+        "Free Induction Decay"@en ;
+    skos:broader :nmrRelaxation ;
+    skos:definition "The FID (Free Induction Decay) is the transient NMR signal resulting from the stimulation of the nuclei at the Larmor frequency. The characteristic time constant for a FID signal decay is called T2* (T-two-star)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "T-2-star"@en ;
+.
+
+:Th
+    a skos:Concept ;
+    skos:altLabel
+        "THOR"@en ,
+        "thorium"@en ;
+    skos:broader :naturalGamma ;
+    skos:definition "Thorium abundance measured by a spectral gamma-ray emission spectrometric method"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Th"@en ;
+.
+
+:U
+    a skos:Concept ;
+    skos:altLabel
+        "URA"@en ,
+        "uranium"@en ;
+    skos:broader :naturalGamma ;
+    skos:definition "Uranium abundance measured by a spectral gamma-ray emission spectrometric method"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "U"@en ;
+.
+
+:acousticPorosity
+    a skos:Concept ;
+    skos:altLabel "acoustic borehole logging"@en ;
+    skos:broader :porosity ;
+    skos:definition "Porosity determined by acoustic logging as a function of the difference in acoustic travel time between interstitial fluids and the rock matrix"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "acoustic porosity"@en ;
+.
+
+:airPermeability
+    a skos:Concept ;
+    skos:broader :permeability ;
+    skos:definition "Permeability measured with air"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "air permeability"@en ;
+.
+
+:apparentGrainDensity
+    a skos:Concept ;
+    skos:broader :massDensity ;
+    skos:definition "Grain density calculated by an unknown method"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "apparent grain density"@en ;
+.
+
+:apparentMassDensity
+    a skos:Concept ;
+    skos:altLabel "bagged mass density"@en ;
+    skos:broader :massDensity ;
+    skos:definition "Apparent mass density determined by a vacuum bagging method"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "apparent mass density"@en ;
+.
+
+:apparentPorosity
+    a skos:Concept ;
+    skos:altLabel "water absorption"@en ;
+    skos:broader :porosity ;
+    skos:definition "Apparent porosity is the ratio of interconnected void spaces only, is derived determining the fluid volume of interconnecting pores and dividing by the bulk volume. This may be performed by gravimetry using water or gas pycnometry."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "apparent porosity"@en ;
+.
+
+:boundWaterContent
+    a skos:Concept ;
+    skos:broader :waterContent ;
+    skos:definition "Water in the pore space that does not flow under normal reservoir conditions. When used in connection with a nuclear magnetic resonance measurement, the term refers to all the water that is not free to move. This includes capillary-bound water and clay-bound water."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "bound water content"@en ;
+.
+
+:caliper
+    a skos:Concept ;
+    skos:altLabel "borehole diameter"@en ;
+    skos:definition "Borehole internal diameter (caliper) associated with gamma-gamma density borehole tools, units in mm"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "caliper"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:capillaryBoundWaterContent
+    a skos:Concept ;
+    skos:broader :waterContent ;
+    skos:definition "Water that is not free to move due to capillary tension. When used to describe NMR results, capillary-bound water is defined as the water signal between certain cutoffs, typically above 3 ms and below 33 ms."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "capillary-bound water content"@en ;
+.
+
+:chargeability
+    a skos:Concept ;
+    skos:definition "Chargeability is the ability of the Earth to hold a direct current (DC) charge, with decay time measured in milliseconds (ms). This is most commonly measured using time-domain induced polarization (IP) equipment."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "chargeability"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:clayBoundWaterContent
+    a skos:Concept ;
+    skos:broader :waterContent ;
+    skos:definition "Water that is not free to move due to being bound to clays. When used to describe NMR results, clay-bound water is defined as the water signal below a certain cutoff, typically 3 ms."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "clay-bound water content"@en ;
+.
+
+:deltaT
+    a skos:Concept ;
+    skos:altLabel "Delta T"@en ;
+    skos:broader :temperature ;
+    skos:definition "The difference of temperature between two measuring points. The temperature differs either in time and/or position. Differential temperature is expressed in Kelvin. No matter if the value is measured in °Celsius or in Fahrenheit. Therefore the values can be compared easily. The units are expressed in Kelvin(K) The lowest temperature is 0 K. No negative numbers exist in the Kelvin scale."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "delta T"@en ;
+.
+
+:densityPorosity
+    a skos:Concept ;
+    skos:altLabel
+        "gamma density porosity"@en ,
+        "gamma porosity"@en ;
+    skos:broader :porosity ;
+    skos:definition "Density porosity is determined by emission of gamma-rays into the borehole wall and measurement of their interaction. Density porosity is then derived using other data to inform on the rock matrix density"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "density porosity"@en ;
+.
+
+:dryBulkMassDensity
+    a skos:Concept ;
+    skos:altLabel
+        "dry bulk density"@en ,
+        "particle density on a dry basis"@en ;
+    skos:broader :massDensity ;
+    skos:definition "Ratio of the dry rock mass to the total volumes of the rock material and pores (ie, the bulk volume of the sample)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "dry bulk mass density"@en ;
+.
+
+:dynamicBulkModulus
+    a skos:Concept ;
+    skos:altLabel "K"@en ;
+    skos:definition "Dynamic Bulk Modulus calculated from laboratory measured ultrasonic properties"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Dynamic Bulk Modulus"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:dynamicPoissonsRatio
+    a skos:Concept ;
+    skos:altLabel "v"@en ;
+    skos:broader :poissonsRatio ;
+    skos:definition "Dynamic Poisson's Ratio calculated from laboratory measured ultrasonic properties"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Dynamic Poisson's Ratio"@en ;
+.
+
+:dynamicShearModulus
+    a skos:Concept ;
+    skos:altLabel "G"@en ;
+    skos:definition "Dynamic Shear Modulus"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Dynamic Shear Modulus"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:dynamicYoungsModulus
+    a skos:Concept ;
+    skos:altLabel "E"@en ;
+    skos:broader :youngsModulus ;
+    skos:definition "Dynamic Young's Modulus calculated from laboratory measured ultrasonic properties"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Dynamic Young's Modulus"@en ;
+.
+
+:electricalConductivity
+    a skos:Concept ;
+    skos:altLabel "specific conductance"@en ;
+    skos:definition "The ability of a rock mass to conduct an electrical current, determined by electromagnetic induction"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "electrical conductivity"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:electricalPotential
+    a skos:Concept ;
+    skos:definition "The spontaneous potential probe measures the differences in natural electrical potential between the surface electrode and an electrode in the drillhole, and so measures the differences in natural electrical potential between the drillhole fluid and the surrounding rock material. The spontaneous potential log is used to determine bed thicknesses, the nature of the formations, identify porous and permeable beds and indicate the salinity of the groundwater in the formation."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "electrical potential"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:electricalResistance
+    a skos:Concept ;
+    skos:definition "resistance between two points, measuring resistivity of different lithological units"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "electrical resistance"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:electricalResistivity
+    a skos:Concept ;
+    skos:altLabel "resistivity"@en ;
+    skos:definition "The ability of a rock volume to impede an electrical current"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "electrical resistivity"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:freeWaterContent
+    a skos:Concept ;
+    skos:altLabel "mobile water content"@en ;
+    skos:broader :waterContent ;
+    skos:definition "Water that is mobile, available to flow, and not bound to surfaces of grains or minerals in rock. When used in connection with nuclear magnetic resonance (NMR) measurements, free water is all the water that is not clay bound, capillary bound or in mineral hydrates."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "free water content"@en ;
+.
+
+:gammaDifferentialDensity
+    a skos:Concept ;
+    skos:altLabel "DRHOB"@en ;
+    skos:broader :gammaBulkDensity ;
+    skos:definition "Incremental change in bulk density measured by a bore hole gamma density tool"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "gamma differential density"@en ;
+.
+
+:gammaLongSpacedDensity
+    a skos:Concept ;
+    skos:altLabel "LSD"@en ;
+    skos:broader :gammaBulkDensity ;
+    skos:definition "Bulk density determined by a bore hole long spaced gamma density tool"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "gamma long spaced density"@en ;
+.
+
+:gammaShortSpacedDensity
+    a skos:Concept ;
+    skos:altLabel
+        "HRD"@en ,
+        "SSD"@en ;
+    skos:broader :gammaBulkDensity ;
+    skos:definition "Bulk density determined by a bore hole short-spaced gamma density tool. Also referred to as high resolution density."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "gamma short spaced density"@en ;
+.
+
+:gasPermeability
+    a skos:Concept ;
+    skos:broader :permeability ;
+    skos:definition "Gas Permeability measure of ultra low permeability samples that are below limit of detection for standard poroperm tests"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "gas permeability"@en ;
+.
+
+:grainMassDensity
+    a skos:Concept ;
+    skos:altLabel
+        "apparent particle d"@en ,
+        "grain density"@en ,
+        "matrix density"@en ;
+    skos:broader :massDensity ;
+    skos:definition "The density of a rock or mineral with no porosity, also known as matrix density, commonly in units of g/cm3."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "grain mass density"@en ;
+.
+
+:heatFlow
+    a skos:Concept ;
+    skos:altLabel "Q"@en ;
+    skos:broader :temperature ;
+    skos:definition "The rate at which a rock mass conducts heat"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "heat flow"@en ;
+.
+
+:heatProduction
+    a skos:Concept ;
+    skos:broader :temperature ;
+    skos:definition "Calculated heat production of a rock derived from its K, Th and U radioisotopic composition, density and age"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "heat production"@en ;
+.
+
+:hydraulicConductivity
+    a skos:Concept ;
+    skos:definition "The capacity of a rock to transmit water"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "hydraulic conductivity"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:indirectTensileStrength
+    a skos:Concept ;
+    skos:definition "Indirect tensile strength"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "indirect tensile strength"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:koenigsbergerRatio
+    a skos:Concept ;
+    skos:altLabel "Q ratio"@en ;
+    skos:definition "The Koenigsberger ratio (Q ratio) is defined as the ratio in a rock of remanent magnetization to the induced magnetization in the Earth's field. Q = NRM (in A/m) / (K (in SI) * H (in A/m), where K is the magnetic susceptibility in SI units and H is the local geomagnetic field (generally based on the International Geomagnetic Reference Field value at the sample site and at the sampling date)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Koenigsberger ratio"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:magneticSusceptibility
+    a skos:Concept ;
+    skos:altLabel
+        "MS"@en ,
+        "magsus"@en ;
+    skos:definition "The degree to which a material can be magnetized in an external magnetic field, measured a dimensionless proportionality constant."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "magnetic susceptibility"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:meanLogT2
+    a skos:Concept ;
+    skos:altLabel "mlT2"@en ;
+    skos:broader :nmrRelaxation ;
+    skos:definition "The geometric mean of the T2 NMR distribution. T2 is the transverse (or spin-spin) relaxation time."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "mean log T2"@en ;
+.
+
+:neutronPorosity
+    a skos:Concept ;
+    skos:broader :porosity ;
+    skos:definition "Neutron porosity is determined by measuring the ability of wall rocks to slow fast neutrons to the slow thermal neutron state. The number of thermal neutrons created is proportional to the amount of hydrogen present, in the form of oil or water, in pore"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "neutron porosity"@en ;
+.
+
+:nmrClayBoundWaterPorosity
+    a skos:Concept ;
+    skos:altLabel "MCBW"@en ;
+    skos:broader :porosity ;
+    skos:definition "Nuclear Magnetic Resonance (NMR) Porosity is determined by  measuring the relaxation of hydrogen nuclei after alignment by the strong magnetic field generated by the NMR tool. Values may include Effective Porosity (MPHI), Total Porosity (MSIG) and Clay-Bound Water Porosity (MCBW), normally quoted as MSIG"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "NMR clay-bound water porosity"@en ;
+.
+
+:nmrEffectivePorosity
+    a skos:Concept ;
+    skos:altLabel "MPHI"@en ;
+    skos:broader :porosity ;
+    skos:definition "Nuclear Magnetic Resonance (NMR) Porosity is determined by  measuring the relaxation of hydrogen nuclei after alignment by the strong magnetic field generated by the NMR tool. Values may include Effective Porosity (MPHI), Total Porosity (MSIG) and Clay-Bound Water Porosity (MCBW), normally quoted as MSIG"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "NMR effective porosity"@en ;
+.
+
+:nmrTotalPorosity
+    a skos:Concept ;
+    skos:altLabel "MSIG"@en ;
+    skos:broader :porosity ;
+    skos:definition "Nuclear Magnetic Resonance (NMR) Porosity is determined by  measuring the relaxation of hydrogen nuclei after alignment by the strong magnetic field generated by the NMR tool. Values may include Effective Porosity (MPHI), Total Porosity (MSIG) and Clay-Bound Water Porosity (MCBW), normally quoted as MSIG"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "NMR total porosity"@en ;
+.
+
+:pWaveAxialVelocity
+    a skos:Concept ;
+    skos:broader :sonicVelocity ;
+    skos:definition "P-wave velocity of a rock core measured parallel to the core axis"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "P-wave axial velocity"@en ;
+.
+
+:pWaveSlowness
+    a skos:Concept ;
+    skos:broader :sonicVelocity ;
+    skos:definition "P-Wave slowness measured at a single stress point during Unconfined Compressive Strength testing"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "P-wave slowness"@en ;
+.
+
+:pWaveVelocity
+    a skos:Concept ;
+    skos:altLabel "Vp"@en ;
+    skos:broader :sonicVelocity ;
+    skos:definition "P-Wave velocity measured at a single stress point during Unconfined Compressive Strength testing"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "P-wave velocity"@en ;
+.
+
+:permeabilityKlinkenbergCorrected
+    a skos:Concept ;
+    skos:broader :permeability ;
+    skos:definition "Klinkenberg correction is applied to reduce air permeability to an equivalent liquid permeability"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "permeability (Klinkenberg corrected)"@en ;
+.
+
+:remanentMagnetisation
+    a skos:Concept ;
+    skos:altLabel
+        "NRM"@en ,
+        "RM"@en ;
+    skos:definition "Remanent magnetisation (here assumed to be the natural remanent magnetisation) is the permanent magnetisation of a rock material, attained over the material's lifetime."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "remanent magnetisation"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:sWaveAxialVelocity
+    a skos:Concept ;
+    skos:broader :sonicVelocity ;
+    skos:definition "First arrival S-wave velocity measured parallel to core axis"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "S-wave axial velocity"@en ;
+.
+
+:sWaveSlowness
+    a skos:Concept ;
+    skos:broader :sonicVelocity ;
+    skos:definition "S-Wave slowness measured at a single stress point during Unconfined Compressive Strength testing"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "S-wave slowness"@en ;
+.
+
+:sWaveVelocity
+    a skos:Concept ;
+    skos:altLabel "Vs"@en ;
+    skos:broader :sonicVelocity ;
+    skos:definition "S-Wave velocity measured at a single stress point during Unconfined Compressive Strength testing"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "S-wave velocity"@en ;
+.
+
+:strikeParallelRadialPWaveVelocity
+    a skos:Concept ;
+    skos:altLabel "Radial sonic velocity"@en ;
+    skos:broader :sonicVelocity ;
+    skos:definition "P-wave velocity measured perpendicular to the core axis (radial), parallel to foliation strike"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "strike-parallel radial P-wave velocity"@en ;
+.
+
+:strikeParallelSWaveVelocity
+    a skos:Concept ;
+    skos:altLabel "Radial S-wave velocity"@en ;
+    skos:broader :sonicVelocity ;
+    skos:definition "First arrival S-wave velocity measured perpendicular to core axis (radial), parallel to foliation strike"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "strike-parallel radial S-wave velocity"@en ;
+.
+
+:strikePerpendicularPWaveVelocity
+    a skos:Concept ;
+    skos:altLabel "Perpendicular radial sonic velocity"@en ;
+    skos:broader :sonicVelocity ;
+    skos:definition "P-wave velocity, measured perpendicular to core axis (radial), perpendicular to foliation strike"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "strike-perpendicular radial P-wave velocity"@en ;
+.
+
+:strikePerpendicularRadialSWaveVelocity
+    a skos:Concept ;
+    skos:altLabel "Perpendicular radial S-wave velocity"@en ;
+    skos:broader :sonicVelocity ;
+    skos:definition "First arrival S-wave velocity, measured perpendicular to core axis (radial), perpendicular to foliation strike"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "strike-perpendicular radial S-wave velocity"@en ;
+.
+
+:thermalAnisotropy
+    a skos:Concept ;
+    skos:broader :temperature ;
+    skos:definition "The directional dependance of heat flow in a rock mass"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "thermal anisotropy"@en ;
+.
+
+:thermalConductivity
+    a skos:Concept ;
+    skos:altLabel
+        "k"@en ,
+        "k-value (US)"@en ,
+        "lamda"@en ,
+        "lamda-value (Europe)"@en ;
+    skos:broader :temperature ;
+    skos:definition "A material's ability to conduct heat"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "thermal conductivity"@en ;
+.
+
+:thinSectionPorosity
+    a skos:Concept ;
+    skos:broader :porosity ;
+    skos:definition "Porosity determined by automated optical scanning or point-counting methods on thin-sectioned material"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "thin section porosity"@en ;
+.
+
+:totalPorosity
+    a skos:Concept ;
+    skos:broader :porosity ;
+    skos:definition "Total porosity is the ratio of sealed-off and interconnected pores to rock volume, is derived from the excess of the bulk volume over grain volume as part of Archimedes density determinations. This may be performed by gravimetry using water or gas pycnometry."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "total porosity"@en ;
+.
+
+:unconfinedCompressiveStrength
+    a skos:Concept ;
+    skos:altLabel "UCS"@en ;
+    skos:definition "Unconfined compressive strength"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "unconfined compressive strength"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:wetBulkMassDensity
+    a skos:Concept ;
+    skos:altLabel
+        "in situ bulk density"@en ,
+        "particloe dr"@en ,
+        "saturated"@en ,
+        "wet"@en ;
+    skos:broader :massDensity ;
+    skos:definition "The saturated density of a sample. The saturating fluid may be water (determine density by gravimetry in water) or a gas (determine density by gas pycnometry)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "wet bulk mass density"@en ;
+.
+
+:xctAverageBulkDensity
+    a skos:Concept ;
+    skos:broader :massDensity ;
+    skos:definition "Rock bulk density as measured by XCT scanner"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "XCT average bulk density"@en ;
+.
+
+:xctTotalPorosity
+    a skos:Concept ;
+    skos:altLabel "X-Ray tomography porosity"@en ;
+    skos:broader :porosity ;
+    skos:definition "Computed (X-ray) tomography porosity is derived in the laboratory using X-ray tomography (XCT) to measure mineral grains, saturated and unsaturated pore spaces in undisturbed samples"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "XCT total porosity"@en ;
+.
+
+<https://linked.data.gov.au/org/ga>
+    a sdo:Organization ;
+    sdo:description "Geoscience Australia is Australia's pre-eminent public sector geoscience organisation. It is the nation's trusted advisor on the geology and geography of Australia. It applies science and technology to describe and understand the Earth for the benefit of Australia."@en ;
+    sdo:name "Geoscience Australia" ;
+    sdo:url "https://www.ga.gov.au"^^xsd:anyURI ;
+.
+
+:poissonsRatio
+    a skos:Concept ;
+    skos:definition "Poisson's Ratio"@en ;
+    skos:inScheme cs: ;
+    skos:narrower :dynamicPoissonsRatio ;
+    skos:prefLabel "Poisson's Ratio"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:youngsModulus
+    a skos:Concept ;
+    skos:definition "Young's Modulus"@en ;
+    skos:inScheme cs: ;
+    skos:narrower :dynamicYoungsModulus ;
+    skos:prefLabel "Young's Modulus"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:gammaBulkDensity
+    a skos:Concept ;
+    skos:altLabel
+        "RHOB"@en ,
+        "gamma-gamma"@en ;
+    skos:definition "Bulk density (combined minerals and pore fluids) derived using a bore hole gamma bulk density tool"@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :gammaDifferentialDensity ,
+        :gammaLongSpacedDensity ,
+        :gammaShortSpacedDensity ;
+    skos:prefLabel "gamma bulk density"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:naturalGamma
+    a skos:Concept ;
+    skos:altLabel "GRDE"@en ;
+    skos:definition "A measure of the natural gamma-ray emission of a material, related to the radioelements K, Th and U and/or their daughter products."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :K ,
+        :Th ,
+        :U ;
+    skos:prefLabel "natural gamma"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:permeability
+    a skos:Concept ;
+    skos:altLabel "fluid flow"@en ;
+    skos:definition "A measure of the ability of a fluid to flow through a material. Units are normally expressed as darcy or millidarcy, but can also be expressed as the SI unit m^2 or cm^2"@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :airPermeability ,
+        :gasPermeability ,
+        :permeabilityKlinkenbergCorrected ;
+    skos:prefLabel "permeability"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:nmrRelaxation
+    a skos:Concept ;
+    skos:definition "The decay characteristics of signals emitted in a polarising field by populations of certain atomic nuclei following removal of an external magnetic field."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :T1 ,
+        :T2 ,
+        :T2star ,
+        :meanLogT2 ;
+    skos:prefLabel "NMR relaxation"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:waterContent
+    a skos:Concept ;
+    skos:definition "The amount of water contained in a geologic material such as soil, sediments, or rock."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :boundWaterContent ,
+        :capillaryBoundWaterContent ,
+        :clayBoundWaterContent ,
+        :freeWaterContent ;
+    skos:prefLabel "water content"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:temperature
+    a skos:Concept ;
+    skos:definition "The temperature of bore hole wall rocks as measure using a bore hole temperature probe"@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :deltaT ,
+        :heatFlow ,
+        :heatProduction ,
+        :thermalAnisotropy ,
+        :thermalConductivity ;
+    skos:prefLabel "temperature"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:massDensity
+    a skos:Concept ;
+    skos:altLabel "density"@en ;
+    skos:definition "\"Density\" as a generic description is the mass per unit volume of a material where a more accurate description, or the method of determination (e.g. dry bulk, wet bulk, grain ) is not given."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :apparentGrainDensity ,
+        :apparentMassDensity ,
+        :dryBulkMassDensity ,
+        :grainMassDensity ,
+        :wetBulkMassDensity ,
+        :xctAverageBulkDensity ;
+    skos:prefLabel "mass density"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:porosity
+    a skos:Concept ;
+    skos:definition "Porosity is the ratio of pore spaces to rock volume. May be determined as either total or apparent porosity."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :acousticPorosity ,
+        :apparentPorosity ,
+        :densityPorosity ,
+        :neutronPorosity ,
+        :nmrClayBoundWaterPorosity ,
+        :nmrEffectivePorosity ,
+        :nmrTotalPorosity ,
+        :thinSectionPorosity ,
+        :totalPorosity ,
+        :xctTotalPorosity ;
+    skos:prefLabel "porosity"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:sonicVelocity
+    a skos:Concept ;
+    skos:altLabel "acoustic velocity"@en ;
+    skos:definition "Generic velocity of sound in rock, P- or S-wave unknown"@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :pWaveAxialVelocity ,
+        :pWaveSlowness ,
+        :pWaveVelocity ,
+        :sWaveAxialVelocity ,
+        :sWaveSlowness ,
+        :sWaveVelocity ,
+        :strikeParallelRadialPWaveVelocity ,
+        :strikeParallelSWaveVelocity ,
+        :strikePerpendicularPWaveVelocity ,
+        :strikePerpendicularRadialSWaveVelocity ;
+    skos:prefLabel "sonic velocity"@en ;
+    skos:topConceptOf cs: ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    dcterms:created "2022-08-09"^^xsd:date ;
+    dcterms:creator <https://linked.data.gov.au/org/ga> ;
+    dcterms:modified "2022-08-09"^^xsd:date ;
+    dcterms:provenance "Geoscience Australia Petrophysical Properties (ROCKPROPS.LU_ROCKPROPERTY)"@en ;
+    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    rdfs:seeAlso <https://pid.geoscience.gov.au/dataset/ga/148553> ;
+    owl:versionInfo "1" ;
+    skos:definition "A vocabulary of terms defining petrophysical properties (eg, density, porosity, magnetic susceptibility, remanent magnetisation)."@en ;
+    skos:hasTopConcept
+        :caliper ,
+        :chargeability ,
+        :dynamicBulkModulus ,
+        :dynamicShearModulus ,
+        :electricalConductivity ,
+        :electricalPotential ,
+        :electricalResistance ,
+        :electricalResistivity ,
+        :gammaBulkDensity ,
+        :hydraulicConductivity ,
+        :indirectTensileStrength ,
+        :koenigsbergerRatio ,
+        :magneticSusceptibility ,
+        :massDensity ,
+        :naturalGamma ,
+        :nmrRelaxation ,
+        :permeability ,
+        :poissonsRatio ,
+        :porosity ,
+        :remanentMagnetisation ,
+        :sonicVelocity ,
+        :temperature ,
+        :unconfinedCompressiveStrength ,
+        :waterContent ,
+        :youngsModulus ;
+    skos:prefLabel "Geology Rock Properties - Petrophysical"@en ;
+    dcat:contactPoint "Team Lead - Information Services; Energy, Minerals and Groundwater Division" ;
+.
