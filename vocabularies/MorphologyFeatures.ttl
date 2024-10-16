@@ -372,7 +372,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 cs:
     a skos:ConceptScheme ;
     owl:versionIRI :1.0 ;
-    skos:definition """A glossary of seabed morphology features, which forms Part 1 of the two- part seabed geomorphology classification scheme.This vocabulary is the product of a collaboration between marine geoscientists from marine mapping programmes/networks in Norway (MAREANO), Ireland (INFOMAR), UK (MAREMAP), and Australia (Geoscience Australia). 
+    skos:definition """A glossary of seabed morphology features, which forms <I>Part 1</I> of the two- part seabed geomorphology classification scheme.This vocabulary is the product of a collaboration between marine geoscientists from marine mapping programmes/networks in Norway (MAREANO), Ireland (INFOMAR), UK (MAREMAP), and Australia (Geoscience Australia). 
 Definitions in this vocabulary are subject to intermittent review and versioning."""@en ;
     skos:hasTopConcept
         :apron ,
@@ -415,7 +415,7 @@ Definitions in this vocabulary are subject to intermittent review and versioning
         :trench ,
         :trough ,
         :valley ;
-    skos:historyNote "This vocabulary describes the glossary in <I>Part 1</I> of the two-part seabed geomorphology classification scheme. DOI: 10.5281/zenodo4075248"@en ;
+    skos:historyNote "This vocabulary describes the glossary in Part 1 of the two-part seabed geomorphology classification scheme. DOI: 10.5281/zenodo4075248"@en ;
     skos:prefLabel "Marine Geomorphology - Morphology (Part 1)"@en ;
     prov:qualifiedAttribution
         [
