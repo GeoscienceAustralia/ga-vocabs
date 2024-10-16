@@ -3863,7 +3863,7 @@ cs:
     a skos:ConceptScheme ;
     reg:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
     owl:versionIRI :1.2 ;
-    skos:definition "This glossary presents definitions for individual BGU and BGU-T that are described and illustrated in each Setting and Process chapter of Part 2 of the Geomorphology Classification scheme (https://zenodo.org/records/7804019)."@en ;
+    skos:definition "This glossary presents definitions for individual BGU and BGU-T that are described and illustrated in each Setting and Process chapter of Part 2 of the Geomorphology Classification scheme [https://zenodo.org/records/7804019](https://zenodo.org/records/7804019)."@en ;
     skos:hasTopConcept
         :Anthropogenic_Process ,
         :Biogenic_Process ,
