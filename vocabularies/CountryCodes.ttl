@@ -1,10 +1,9 @@
 PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/>
 PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/CountryCodes>
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
-PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX sdo: <https://schema.org/>
+PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
@@ -4928,10 +4927,10 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <https://linked.data.gov.au/org/ga>
-    a sdo:Organization ;
-    sdo:description "Geoscience Australia is Australia's pre-eminent public sector geoscience organisation. It is the nation's trusted advisor on the geology and geography of Australia. It applies science and technology to describe and understand the Earth for the benefit of Australia."@eng ;
-    sdo:name "Geoscience Australia" ;
-    sdo:url "https://www.ga.gov.au"^^xsd:anyURI ;
+    a schema:Organization ;
+    schema:description "Geoscience Australia is Australia's pre-eminent public sector geoscience organisation. It is the nation's trusted advisor on the geology and geography of Australia. It applies science and technology to describe and understand the Earth for the benefit of Australia."@eng ;
+    schema:name "Geoscience Australia" ;
+    schema:url "https://www.ga.gov.au"^^xsd:anyURI ;
 .
 
 :RS-01
@@ -5429,12 +5428,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 cs:
     a skos:ConceptScheme ;
-    dcterms:created "2020-11-04"^^xsd:date ;
-    dcterms:creator <https://linked.data.gov.au/org/ga> ;
-    dcterms:modified "2023-09-27"^^xsd:date ;
-    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
-    rdfs:seeAlso <https://pid.geoscience.gov.au/dataset/ga/146414> ;
+    rdfs:seeAlso "https://pid.geoscience.gov.au/dataset/ga/146414" ;
     owl:versionInfo "1.6" ;
+    skos:changeNote "2024-10-16 NJC: update to be VocPub 4.10 valid"@en ;
     skos:definition "GA Country Codes are the ISO3166 compliant country codes used by GA database custodians for reference. This list is NOT complete and is maintained semi-regularly so there will be updates made in the ISO3166 that will not be reflected in this vocabulary. The controlled ISO3166 list is found here https://www.iso.org/obp/ui "@eng ;
     skos:hasTopConcept
         :ABW ,
@@ -5689,4 +5685,8 @@ cs:
     skos:historyNote "These codes are sourced from https://www.iso.org/obp/"@eng ;
     skos:prefLabel "GA Country Codes"@eng ;
     dcat:contactPoint "DPI" ;
+    schema:creator <https://linked.data.gov.au/org/ga> ;
+    schema:dateCreated "2020-11-04"^^xsd:date ;
+    schema:dateModified "2024-10-16"^^xsd:date ;
+    schema:publisher <https://linked.data.gov.au/org/ga> ;
 .

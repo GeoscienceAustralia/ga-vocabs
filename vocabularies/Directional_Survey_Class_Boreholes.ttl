@@ -1,10 +1,9 @@
 PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyClass/>
 PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyClass>
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
-PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX sdo: <https://schema.org/>
+PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
@@ -25,25 +24,26 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <https://linked.data.gov.au/org/ga>
-    a sdo:Organization ;
-    sdo:description "Geoscience Australia is Australia's pre-eminent public sector geoscience organisation. It is the nation's trusted advisor on the geology and geography of Australia. It applies science and technology to describe and understand the Earth for the benefit of Australia."@en ;
-    sdo:name "Geoscience Australia" ;
-    sdo:url "https://www.ga.gov.au"^^xsd:anyURI ;
+    a schema:Organization ;
+    schema:description "Geoscience Australia is Australia's pre-eminent public sector geoscience organisation. It is the nation's trusted advisor on the geology and geography of Australia. It applies science and technology to describe and understand the Earth for the benefit of Australia."@en ;
+    schema:name "Geoscience Australia" ;
+    schema:url "https://www.ga.gov.au"^^xsd:anyURI ;
 .
 
 cs:
     a skos:ConceptScheme ;
-    dcterms:created "2022-08-04"^^xsd:date ;
-    dcterms:creator <https://linked.data.gov.au/org/ga> ;
-    dcterms:modified "2022-08-04"^^xsd:date ;
-    dcterms:provenance "Geoscience Australia Directional Survey Class (BOREHOLE.LU_DIR_SRVY_CLASS)"@en ;
-    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
-    rdfs:seeAlso <https://pid.geoscience.gov.au/dataset/ga/148553> ;
+    rdfs:seeAlso "https://pid.geoscience.gov.au/dataset/ga/148553" ;
     owl:versionInfo "1" ;
+    skos:changeNote "2024-10-16 NJC: update to be VocPub 4.10 valid"@en ;
+    schema:citation "Geoscience Australia Directional Survey Class (BOREHOLE.LU_DIR_SRVY_CLASS)" ;
     skos:definition "Terms to denote whether the directional survey is comprised of azimuth and inclination measurements, or only inclination measurements."@en ;
     skos:hasTopConcept
         :azimuthAndInclination ,
         :inclinationOnly ;
     skos:prefLabel "Borehole Geology - Directional Survey Class"@en ;
     dcat:contactPoint "Team Lead - Information Services; Minerals, Energy and Groundwater Division" ;
+    schema:creator <https://linked.data.gov.au/org/ga> ;
+    schema:dateCreated "2022-08-04"^^xsd:date ;
+    schema:dateModified "2024-10-16"^^xsd:date ;
+    schema:publisher <https://linked.data.gov.au/org/ga> ;
 .

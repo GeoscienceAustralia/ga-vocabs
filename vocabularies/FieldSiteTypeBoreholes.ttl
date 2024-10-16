@@ -1,16 +1,14 @@
 PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/FieldSiteTypes/>
 PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/FieldSiteTypes>
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
-PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX sdo: <https://schema.org/>
+PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :open-cut-mine
     a skos:Concept ;
-    dcterms:identifier "open-cut-mine"^^xsd:token ;
     skos:broader :mine ;
     skos:definition "Open cut (open pit, open cast) mine workings."@en ;
     skos:inScheme cs: ;
@@ -19,7 +17,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :outcrop
     a skos:Concept ;
-    dcterms:identifier "outcrop"^^xsd:token ;
     skos:broader :natural-land-surface ;
     skos:definition "An exposure of rock at the Earth surface."@en ;
     skos:inScheme cs: ;
@@ -28,7 +25,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :regolith-site
     a skos:Concept ;
-    dcterms:identifier "regolith-site"^^xsd:token ;
     skos:broader :natural-land-surface ;
     skos:definition "A field site for observation or sampling of unconsolidated regolith material."@en ;
     skos:inScheme cs: ;
@@ -37,7 +33,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :sea-floor
     a skos:Concept ;
-    dcterms:identifier "sea-floor"^^xsd:token ;
     skos:definition "A location on the sea floor."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "sea floor"@en ;
@@ -46,7 +41,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :spring
     a skos:Concept ;
-    dcterms:identifier "spring"^^xsd:token ;
     skos:definition "A natural site where water flows from an aquifer to the Earth's surface."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "spring"@en ;
@@ -55,7 +49,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :underground-mine
     a skos:Concept ;
-    dcterms:identifier "underground-mine"^^xsd:token ;
     skos:broader :mine ;
     skos:definition "Underground mine workings."@en ;
     skos:inScheme cs: ;
@@ -64,7 +57,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :unknown
     a skos:Concept ;
-    dcterms:identifier "unknown"^^xsd:token ;
     skos:definition "The type of field site is unknown or unspecified."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "unknown"@en ;
@@ -73,7 +65,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :water-site
     a skos:Concept ;
-    dcterms:identifier "water-site"^^xsd:token ;
     skos:definition "A field site where water is collected at the Earth surface. The origin of the water may be unclear."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "water site"@en ;
@@ -82,7 +73,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :watercourse
     a skos:Concept ;
-    dcterms:identifier "watercourse"^^xsd:token ;
     skos:definition "A field site located in a stream or river course, either as a dry bed or with running water."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "watercourse"@en ;
@@ -90,15 +80,14 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <https://linked.data.gov.au/org/ga>
-    a sdo:Organization ;
-    sdo:description "Geoscience Australia is Australia's pre-eminent public sector geoscience organisation. It is the nation's trusted advisor on the geology and geography of Australia. It applies science and technology to describe and understand the Earth for the benefit of Australia."@en ;
-    sdo:name "Geoscience Australia" ;
-    sdo:url "https://www.ga.gov.au"^^xsd:anyURI ;
+    a schema:Organization ;
+    schema:description "Geoscience Australia is Australia's pre-eminent public sector geoscience organisation. It is the nation's trusted advisor on the geology and geography of Australia. It applies science and technology to describe and understand the Earth for the benefit of Australia."@en ;
+    schema:name "Geoscience Australia" ;
+    schema:url "https://www.ga.gov.au"^^xsd:anyURI ;
 .
 
 :mine
     a skos:Concept ;
-    dcterms:identifier "mine"^^xsd:token ;
     skos:definition "An exposure at an open cut or underground mine site."@en ;
     skos:inScheme cs: ;
     skos:narrower
@@ -110,7 +99,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :natural-land-surface
     a skos:Concept ;
-    dcterms:identifier "natural-land-surface"^^xsd:token ;
     skos:definition "Natural land surface"@en ;
     skos:inScheme cs: ;
     skos:narrower
@@ -122,12 +110,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 cs:
     a skos:ConceptScheme ;
-    dcterms:created "2022-08-04"^^xsd:date ;
-    dcterms:creator <https://linked.data.gov.au/org/ga> ;
-    dcterms:modified "2022-08-04"^^xsd:date ;
-    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
-    rdfs:seeAlso <https://pid.geoscience.gov.au/dataset/ga/148553> ;
+    rdfs:seeAlso "https://pid.geoscience.gov.au/dataset/ga/148553" ;
     owl:versionInfo "1" ;
+    skos:changeNote "2024-10-16 NJC: update to be VocPub 4.10 valid"@en ;
     skos:definition "A site on the Earth, generally visited in the field from a particular geoscientific perspective. A field site type is defined by the information collected regarding rock, regolith, water, landform, or vegetation."@en ;
     skos:hasTopConcept
         :mine ,
@@ -140,4 +125,8 @@ cs:
     skos:historyNote "Geoscience Australia Field Site Types (FGMD. LU-FIELDSITE-TYPE)"@en ;
     skos:prefLabel "Field Geology - Field Site Type"@en ;
     dcat:contactPoint "Team Lead - Information Services; Minerals, Energy and Groundwater Division " ;
+    schema:creator <https://linked.data.gov.au/org/ga> ;
+    schema:dateCreated "2022-08-04"^^xsd:date ;
+    schema:dateModified "2024-10-16"^^xsd:date ;
+    schema:publisher <https://linked.data.gov.au/org/ga> ;
 .

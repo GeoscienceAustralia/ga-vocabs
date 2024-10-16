@@ -1,16 +1,14 @@
 PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/BoreholePurpose/>
 PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/BoreholePurpose>
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
-PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX sdo: <https://schema.org/>
+PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :appraisal
     a skos:Concept ;
-    dcterms:identifier "appraisal"^^xsd:token ;
     skos:definition "Borehole drilled into a formation shown to be potentially productive, and is used to obtain more information a resource."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "appraisal"@en ;
@@ -19,7 +17,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :coalQuality
     a skos:Concept ;
-    dcterms:identifier "coalQuality"^^xsd:token ;
     skos:definition "Borehole drilled to obtain samples for laboratory testing and coal analysis. "@en ;
     skos:inScheme cs: ;
     skos:prefLabel "coal quality"@en ;
@@ -28,7 +25,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :development
     a skos:Concept ;
-    dcterms:identifier "development"^^xsd:token ;
     skos:definition "Borehole drilled into an area or zone already proven to be productive, in order to assist in the recovery of a resource (eg, oil, gas, water). Includes service wells for hydrocarbon recovery, and CSG methane release wells."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "development"@en ;
@@ -37,7 +33,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :environmental
     a skos:Concept ;
-    dcterms:identifier "environmental"^^xsd:token ;
     skos:definition "Borehole drilled to obtain samples of or from strata for laboratory analysis of parameters which may impact on the environment, including water quality."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "environmental"@en ;
@@ -46,7 +41,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :exploration
     a skos:Concept ;
-    dcterms:identifier "exploration"^^xsd:token ;
     skos:definition "A borehole drilled primarily for the purpose of exploration for natural resources. ie, into an unproven area to determine and evaluate the resource potential and production capabilities of a previously undeveloped area or zone."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "exploration"@en ;
@@ -55,7 +49,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :gasAnalysis
     a skos:Concept ;
-    dcterms:identifier "gasAnalysis"^^xsd:token ;
     skos:definition "Borehole drilled for gas analysis. Typical applications include exploration, compliance and greenhouse gas emissions. "@en ;
     skos:inScheme cs: ;
     skos:prefLabel "gas analysis"@en ;
@@ -64,7 +57,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :geochemistry
     a skos:Concept ;
-    dcterms:identifier "geochemistry"^^xsd:token ;
     skos:definition "A borehole drilled primarily for the purpose of collecting samples for geochemical analysis."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "geochemistry"@en ;
@@ -73,7 +65,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :geothermal
     a skos:Concept ;
-    dcterms:identifier "geothermal"^^xsd:token ;
     skos:definition "Borehole drilled to investigate the geotechnical properties of the strata and provide samples for mechanical testing. "@en ;
     skos:inScheme cs: ;
     skos:prefLabel "geotechnical"@en ;
@@ -82,7 +73,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :hydrological
     a skos:Concept ;
-    dcterms:identifier "hydrological"^^xsd:token ;
     skos:definition "Borehole drilled to investigate water level, or piezometer installation. "@en ;
     skos:inScheme cs: ;
     skos:prefLabel "hydrological"@en ;
@@ -91,7 +81,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :lox
     a skos:Concept ;
-    dcterms:identifier "lox"^^xsd:token ;
     skos:definition "Borehole drilled to obtain samples to determine the amount of oxidation of any coal seam by either visual and tactile or coal analysis methods. "@en ;
     skos:inScheme cs: ;
     skos:prefLabel "lox"@en ;
@@ -100,7 +89,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :monitoring
     a skos:Concept ;
-    dcterms:identifier "monitoring"^^xsd:token ;
     skos:definition "A groundwater borehole used for the purpose of monitoring. (eg, groundwater levels)"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "monitoring"@en ;
@@ -109,7 +97,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :research
     a skos:Concept ;
-    dcterms:identifier "research"^^xsd:token ;
     skos:definition "A generic term to cover boreholes drilled primarily for the purpose of scientific research."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "research"@en ;
@@ -118,7 +105,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :scientificInvestigationConstents
     a skos:Concept ;
-    dcterms:identifier "scientificInvestigationConstents"^^xsd:token ;
     skos:definition "Borehole drilled under a scientific investigation consent granted under the OPGGS Act 2006 (amended 2012) or of the repealed Petroleum (Submerged Lands) Act 1967."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Scientific Investigation Consents"@en ;
@@ -127,7 +113,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :sequestration
     a skos:Concept ;
-    dcterms:identifier "sequestration"^^xsd:token ;
     skos:definition "A borehole drilled for the purpose of underground storage of a commodity (eg, CO2 sequestration, aquifer storage and recovery)"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "sequestration"@en ;
@@ -136,7 +121,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :service
     a skos:Concept ;
-    dcterms:identifier "service"^^xsd:token ;
     skos:definition "Borehole drilled to provide a conduit or access to and from mine workings for equipment or materials. "@en ;
     skos:inScheme cs: ;
     skos:prefLabel "service"@en ;
@@ -145,7 +129,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :stratigraphicInvestigation
     a skos:Concept ;
-    dcterms:identifier "stratigraphicInvestigation"^^xsd:token ;
     skos:definition "A borehole drilled primarily for the purpose of stratigraphic investigation."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "stratigraphic investigation"@en ;
@@ -154,7 +137,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :structure
     a skos:Concept ;
-    dcterms:identifier "structure"^^xsd:token ;
     skos:definition "Borehole drilled to investigate the attitude of strata and the impact of any tectonic features. "@en ;
     skos:inScheme cs: ;
     skos:prefLabel "structure"@en ;
@@ -163,7 +145,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :unknown
     a skos:Concept ;
-    dcterms:identifier "unknown"^^xsd:token ;
     skos:definition "The purpose for drilling the borehole is not known."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "unknown"@en ;
@@ -172,7 +153,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :watersupply
     a skos:Concept ;
-    dcterms:identifier "watersupply"^^xsd:token ;
     skos:definition "A groundwater borehole drilled for the primary purpose of water supply. The bores may supply water for irrigation, stock, domestic use, or industrial use."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "water supply"@en ;
@@ -180,22 +160,18 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <https://linked.data.gov.au/org/ga>
-    a sdo:Organization ;
-    sdo:description "Geoscience Australia is Australia's pre-eminent public sector geoscience organisation. It is the nation's trusted advisor on the geology and geography of Australia. It applies science and technology to describe and understand the Earth for the benefit of Australia."@en ;
-    sdo:name "Geoscience Australia" ;
-    sdo:url "https://www.ga.gov.au"^^xsd:anyURI ;
+    a schema:Organization ;
+    schema:description "Geoscience Australia is Australia's pre-eminent public sector geoscience organisation. It is the nation's trusted advisor on the geology and geography of Australia. It applies science and technology to describe and understand the Earth for the benefit of Australia."@en ;
+    schema:name "Geoscience Australia" ;
+    schema:url "https://www.ga.gov.au"^^xsd:anyURI ;
 .
 
 cs:
     a skos:ConceptScheme ;
-    dcterms:created "2022-08-09"^^xsd:date ;
-    dcterms:creator <https://linked.data.gov.au/org/ga> ;
-    dcterms:identifier "BoreholePurpose"^^xsd:token ;
-    dcterms:modified "2022-08-09"^^xsd:date ;
-    dcterms:provenance "Geoscience Australia Borehole Purpose (BOREHOLE.LU_BOREHOLE_PURPOSES)"@en ;
-    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
-    rdfs:seeAlso <https://pid.geoscience.gov.au/dataset/ga/148553> ;
+    rdfs:seeAlso "https://pid.geoscience.gov.au/dataset/ga/148553" ;
     owl:versionInfo "1" ;
+    skos:changeNote "2024-10-16 NJC: update to be VocPub 4.10 valid"@en ;
+    schema:citation "Geoscience Australia Borehole Purpose (BOREHOLE.LU_BOREHOLE_PURPOSES)" ;
     skos:definition "Purpose or intention for which the borehole was drilled. eg, exploration, development or production, geotechnical. Equivalent to PPDM Business Intention."@en ;
     skos:hasTopConcept
         :appraisal ,
@@ -219,4 +195,8 @@ cs:
         :watersupply ;
     skos:prefLabel "Borehole Geology - Purpose"@en ;
     dcat:contactPoint "Team Lead - Information Services; Energy, Minerals and Groundwater Division" ;
+    schema:creator <https://linked.data.gov.au/org/ga> ;
+    schema:dateCreated "2022-08-09"^^xsd:date ;
+    schema:dateModified "2024-10-16"^^xsd:date ;
+    schema:publisher <https://linked.data.gov.au/org/ga> ;
 .

@@ -1,17 +1,16 @@
 PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/AssociationType/>
 PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/AssociationType>
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
-PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX sdo: <https://schema.org/>
+PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :StereoMate
     a skos:Concept ;
-    dcterms:provenance "https://schemas.isotc211.org/19115/resources/Codelist/cat/codelists.xml#id=DS_AssociationTypeCode"@en ;
     skos:altLabel "Stereo Mate"@en ;
+    schema:citation "https://schemas.isotc211.org/19115/resources/Codelist/cat/codelists.xml#id=DS_AssociationTypeCode" ;
     skos:definition "part of a set of imagery that when used together, provides three-dimensional images"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "StereoMate"@en ;
@@ -20,8 +19,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :collectiveTitle
     a skos:Concept ;
-    dcterms:provenance "https://schemas.isotc211.org/19115/resources/Codelist/cat/codelists.xml#id=DS_AssociationTypeCode"@en ;
     skos:altLabel "collective Title"@en ;
+    schema:citation "https://schemas.isotc211.org/19115/resources/Codelist/cat/codelists.xml#id=DS_AssociationTypeCode" ;
     skos:definition "common title for a collection of resources. NOTE: Title identifies elements of a series collectively, combined with information about what volumes are available at the source cite. "@en ;
     skos:inScheme cs: ;
     skos:prefLabel "collectiveTitle"@en ;
@@ -30,8 +29,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :crossreference
     a skos:Concept ;
-    dcterms:provenance "https://schemas.isotc211.org/19115/resources/Codelist/cat/codelists.xml#id=DS_AssociationTypeCode"@en ;
     skos:altLabel "Cross Reference"@en ;
+    schema:citation "https://schemas.isotc211.org/19115/resources/Codelist/cat/codelists.xml#id=DS_AssociationTypeCode" ;
     skos:definition "reference from one resource to another"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "crossReference"@en ;
@@ -40,8 +39,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :dependency
     a skos:Concept ;
-    dcterms:provenance "https://schemas.isotc211.org/19115/resources/Codelist/cat/codelists.xml#id=DS_AssociationTypeCode"@en ;
     skos:altLabel "dependency"@en ;
+    schema:citation "https://schemas.isotc211.org/19115/resources/Codelist/cat/codelists.xml#id=DS_AssociationTypeCode" ;
     skos:definition "associated through a common heritage such as produced to a common product specification"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "dependency"@en ;
@@ -50,8 +49,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :generated
     a skos:Concept ;
-    dcterms:provenance "https://pid.geoscience.gov.au/dataset/ga/122551"@en ;
     skos:altLabel "generated"@en ;
+    schema:citation "https://pid.geoscience.gov.au/dataset/ga/122551" ;
     skos:definition "inverse of wasGeneratedBy where the domain resource generated the range resource implying that the domain resource is a temporal event, such as a data processing action, and the range resource is an entity"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "generated"@en ;
@@ -60,8 +59,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :hadDerivation
     a skos:Concept ;
-    dcterms:provenance "https://pid.geoscience.gov.au/dataset/ga/122551"@en ;
     skos:altLabel "had Derivation"@en ;
+    schema:citation "https://pid.geoscience.gov.au/dataset/ga/122551" ;
     skos:definition "inverse of wasDerivedFrom where the range resource was derived from the domain resource"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "hadDerivation"@en ;
@@ -70,8 +69,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :informed
     a skos:Concept ;
-    dcterms:provenance "https://pid.geoscience.gov.au/dataset/ga/122551"@en ;
     skos:altLabel "informed"@en ;
+    schema:citation "https://pid.geoscience.gov.au/dataset/ga/122551" ;
     skos:definition "inverse of wasInformedBy "@en ;
     skos:inScheme cs: ;
     skos:prefLabel "informed"@en ;
@@ -80,8 +79,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :isComposedOf
     a skos:Concept ;
-    dcterms:provenance "https://schemas.isotc211.org/19115/resources/Codelist/cat/codelists.xml#id=DS_AssociationTypeCode"@en ;
     skos:altLabel "is Composed Of"@en ;
+    schema:citation "https://schemas.isotc211.org/19115/resources/Codelist/cat/codelists.xml#id=DS_AssociationTypeCode" ;
     skos:definition "reference to resources that are parts of this resource"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "isComposedOf"@en ;
@@ -90,8 +89,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :largerWorkCitation
     a skos:Concept ;
-    dcterms:provenance "https://schemas.isotc211.org/19115/resources/Codelist/cat/codelists.xml#id=DS_AssociationTypeCode"@en ;
     skos:altLabel "Larger Work Citation"@en ;
+    schema:citation "https://schemas.isotc211.org/19115/resources/Codelist/cat/codelists.xml#id=DS_AssociationTypeCode" ;
     skos:definition "reference to a master resource of which this one is a part"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "largerWorkCitation"@en ;
@@ -100,8 +99,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :operatedOnBy
     a skos:Concept ;
-    dcterms:provenance "https://pid.geoscience.gov.au/dataset/ga/122551"@en ;
     skos:altLabel "operated On By"@en ;
+    schema:citation "https://pid.geoscience.gov.au/dataset/ga/122551" ;
     skos:definition "inverse of operatesOn where the domain resource is, or can be, operated on (i.e.queried) by the range resource which must be an agent (i.e. is something that bears some form of responsibility for the operation taking place) "@en ;
     skos:inScheme cs: ;
     skos:prefLabel "operatedOnBy"@en ;
@@ -110,8 +109,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :operatesOn
     a skos:Concept ;
-    dcterms:provenance "https://pid.geoscience.gov.au/dataset/ga/122551"@en ;
     skos:altLabel "operates On"@en ;
+    schema:citation "https://pid.geoscience.gov.au/dataset/ga/122551" ;
     skos:definition "an equivalent relationship to srv:operatesOn from a Service to a Dataset"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "operatesOn"@en ;
@@ -120,8 +119,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :partOfSeamlessDatabase
     a skos:Concept ;
-    dcterms:provenance "https://schemas.isotc211.org/19115/resources/Codelist/cat/codelists.xml#id=DS_AssociationTypeCode"@en ;
     skos:altLabel "part Of Seamless Database"@en ;
+    schema:citation "https://schemas.isotc211.org/19115/resources/Codelist/cat/codelists.xml#id=DS_AssociationTypeCode" ;
     skos:definition "part of same structured set of data held in a computer"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "partOfSeamlessDatabase"@en ;
@@ -130,8 +129,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :revisionOf
     a skos:Concept ;
-    dcterms:provenance "https://schemas.isotc211.org/19115/resources/Codelist/cat/codelists.xml#id=DS_AssociationTypeCode"@en ;
     skos:altLabel "revision Of"@en ;
+    schema:citation "https://schemas.isotc211.org/19115/resources/Codelist/cat/codelists.xml#id=DS_AssociationTypeCode" ;
     skos:definition "resource is a revision of associated resource"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "revisionOf"@en ;
@@ -140,8 +139,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :series
     a skos:Concept ;
-    dcterms:provenance "https://schemas.isotc211.org/19115/resources/Codelist/cat/codelists.xml#id=DS_AssociationTypeCode"@en ;
     skos:altLabel "series"@en ;
+    schema:citation "https://schemas.isotc211.org/19115/resources/Codelist/cat/codelists.xml#id=DS_AssociationTypeCode" ;
     skos:definition "associated through a common heritage such as produced to a common product specification"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "series"@en ;
@@ -150,8 +149,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :wasDerivedFrom
     a skos:Concept ;
-    dcterms:provenance "https://pid.geoscience.gov.au/dataset/ga/122551"@en ;
     skos:altLabel "was Derived From"@en ;
+    schema:citation "https://pid.geoscience.gov.au/dataset/ga/122551" ;
     skos:definition "the domain resource was derived from the range resource which must be an entity (i.e. not an actor with agency or a temporal event) "@en ;
     skos:inScheme cs: ;
     skos:prefLabel "wasDerivedFrom"@en ;
@@ -160,8 +159,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :wasGeneratedBy
     a skos:Concept ;
-    dcterms:provenance "https://pid.geoscience.gov.au/dataset/ga/122551"@en ;
     skos:altLabel "was Generated By"@en ;
+    schema:citation "https://pid.geoscience.gov.au/dataset/ga/122551" ;
     skos:definition "the domain resource was generated by the range resource which must have been a temporal event such as a data processing action or a field survey"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "wasGeneratedBy"@en ;
@@ -170,8 +169,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :wasInformedBy
     a skos:Concept ;
-    dcterms:provenance "https://pid.geoscience.gov.au/dataset/ga/122551"@en ;
     skos:altLabel "was Informed By"@en ;
+    schema:citation "https://pid.geoscience.gov.au/dataset/ga/122551" ;
     skos:definition "The domain resource was informed by the range resource which must have been an Entity (i.e. not an Agent with agency or an Activity temporal event). This is a looser association than wasDerivedFrom and does not indicate direct derivation, as wasDerivedFrom does."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "wasInformedBy"@en ;
@@ -179,20 +178,17 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <https://linked.data.gov.au/org/ga>
-    a sdo:Organization ;
-    sdo:description "Geoscience Australia is Australia's pre-eminent public sector geoscience organisation. It is the nation's trusted advisor on the geology and geography of Australia. It applies science and technology to describe and understand the Earth for the benefit of Australia."@en ;
-    sdo:name "Geoscience Australia" ;
-    sdo:url "https://www.ga.gov.au"^^xsd:anyURI ;
+    a schema:Organization ;
+    schema:description "Geoscience Australia is Australia's pre-eminent public sector geoscience organisation. It is the nation's trusted advisor on the geology and geography of Australia. It applies science and technology to describe and understand the Earth for the benefit of Australia."@en ;
+    schema:name "Geoscience Australia" ;
+    schema:url "https://www.ga.gov.au"^^xsd:anyURI ;
 .
 
 cs:
     a skos:ConceptScheme ;
-    dcterms:created "2019-11-01"^^xsd:date ;
-    dcterms:creator <https://linked.data.gov.au/org/ga> ;
-    dcterms:modified "2023-04-06"^^xsd:date ;
-    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
-    rdfs:seeAlso <https://pid.geoscience.gov.au/dataset/ga/147628> ;
+    rdfs:seeAlso "https://pid.geoscience.gov.au/dataset/ga/147628" ;
     owl:versionInfo "1.5" ;
+    skos:changeNote "2024-10-16 NJC: update to be VocPub 4.10 valid"@en ;
     skos:definition "This is a SKOS vocabulary version of the ISO19115-1 standard's AssociationType code list with code list extensions described in the GA Profile document http://pid.geoscience.gov.au/dataset/ga/122551."@en ;
     skos:hasTopConcept
         :StereoMate ,
@@ -215,4 +211,8 @@ cs:
     skos:historyNote "https://pid.geoscience.gov.au/dataset/ga/122551"@en ;
     skos:prefLabel "Associated Resource Type"@en ;
     dcat:contactPoint "DPI" ;
+    schema:creator <https://linked.data.gov.au/org/ga> ;
+    schema:dateCreated "2019-11-01"^^xsd:date ;
+    schema:dateModified "2024-10-16"^^xsd:date ;
+    schema:publisher <https://linked.data.gov.au/org/ga> ;
 .

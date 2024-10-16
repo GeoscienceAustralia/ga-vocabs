@@ -1,16 +1,14 @@
 PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/LocationMethod/>
 PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/LocationMethod>
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
-PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX sdo: <https://schema.org/>
+PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :1000000Map
     a skos:Concept ;
-    dcterms:identifier "1000000Map"^^xsd:token ;
     skos:definition "Location estimated from a printed map at 1:1 000 000 scale"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "1:1 000 000 map"@en ;
@@ -19,7 +17,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :100000Map
     a skos:Concept ;
-    dcterms:identifier "100000Map"^^xsd:token ;
     skos:definition "Location estimated from a printed map at 1:100 000 scale"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "1:100 000 map"@en ;
@@ -28,7 +25,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :250000Map
     a skos:Concept ;
-    dcterms:identifier "250000Map"^^xsd:token ;
     skos:definition "Location estimated from a printed map at 1:250 000 scale"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "1:250 000 map"@en ;
@@ -37,7 +33,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :25000Map
     a skos:Concept ;
-    dcterms:identifier "25000Map"^^xsd:token ;
     skos:definition "Location estimated from a printed map at 1:25 000 scale"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "1:25 000 map"@en ;
@@ -46,7 +41,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :25000Orthophoto
     a skos:Concept ;
-    dcterms:identifier "25000Orthophoto"^^xsd:token ;
     skos:definition "Location estimated from an orthophoto at 1:25 000 scale"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "1:25 000 orthophoto"@en ;
@@ -55,7 +49,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :500000Map
     a skos:Concept ;
-    dcterms:identifier "500000Map"^^xsd:token ;
     skos:definition "Location estimated from a printed map at 1:500 000 scale"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "1:500 000 map"@en ;
@@ -64,7 +57,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :50000Map
     a skos:Concept ;
-    dcterms:identifier "50000Map"^^xsd:token ;
     skos:definition "Location estimated from a printed map at 1:50 000 scale"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "1:50 000 map"@en ;
@@ -73,7 +65,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :aerialPhotographUnrectified
     a skos:Concept ;
-    dcterms:identifier "aerialPhotographUnrectified"^^xsd:token ;
     skos:definition "Location estimated from an aerial photograph that has not been rectified to a known geographical datum or projection"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "aerial photograph, unrectified"@en ;
@@ -82,7 +73,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :astronomicalObservation
     a skos:Concept ;
-    dcterms:identifier "astronomicalObservation"^^xsd:token ;
     skos:definition "Location is estimated from an astronomical observation"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "astronomical observation"@en ;
@@ -91,7 +81,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :astronomicalObservationAndDeadReckoningBetweenFixes
     a skos:Concept ;
-    dcterms:identifier "astronomicalObservationAndDeadReckoningBetweenFixes"^^xsd:token ;
     skos:definition "Location is estimated from an astronomical observation and dead reckoning between fixes."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "astronomical observation and dead reckoning between fixes"@en ;
@@ -100,7 +89,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :companySuppliedLocationMethodUnknown
     a skos:Concept ;
-    dcterms:identifier "companySuppliedLocationMethodUnknown"^^xsd:token ;
     skos:definition "The location is supplied by a private company. The location method is not known."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "company supplied location, method unknown"@en ;
@@ -109,7 +97,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :deadReckoning
     a skos:Concept ;
-    dcterms:identifier "deadReckoning"^^xsd:token ;
     skos:definition "Location estimated from a dead reckoning observation"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "dead reckoning"@en ;
@@ -118,7 +105,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :deadReckoningTiedToTransitSatelliteFixes
     a skos:Concept ;
-    dcterms:identifier "deadReckoningTiedToTransitSatelliteFixes"^^xsd:token ;
     skos:definition "Location estimated from a dead reckoning observation tied to transit satellite fixes"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "dead reckoning tied to transit satellite fixes"@en ;
@@ -127,7 +113,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :deadReckoningTiedToTransitSatelliteFixesAndDifferentialGPS
     a skos:Concept ;
-    dcterms:identifier "deadReckoningTiedToTransitSatelliteFixesAndDifferentialGPS"^^xsd:token ;
     skos:definition "Location estimated from a dead reckoning observation tied to transit satellite fixes and differential GPS"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "dead reckoning tied to transit satellite fixes and differential GPS"@en ;
@@ -136,7 +121,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :deadReckoningTiedToTransitSatelliteFixesAndStandAloneGPS
     a skos:Concept ;
-    dcterms:identifier "deadReckoningTiedToTransitSatelliteFixesAndStandAloneGPS"^^xsd:token ;
     skos:definition "Location estimated from a dead reckoning observation tied to transit satellite fixes and stand alone GPS"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "dead reckoning tied to transit satellite fixes and stand-alone GPS"@en ;
@@ -145,7 +129,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :digitalElevationModel
     a skos:Concept ;
-    dcterms:identifier "digitalElevationModel"^^xsd:token ;
     skos:definition "Location estimated from a digital elevation model or image"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "digital elevation model"@en ;
@@ -154,7 +137,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :digitalElevationModel90mSRTM
     a skos:Concept ;
-    dcterms:identifier "digitalElevationModel90mSRTM"^^xsd:token ;
     skos:definition "Location estimated from a 90 metre resolution digital elevation model or image of data from the Shuttle Radar Topography Mission"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "digital elevation model, 90m SRTM"@en ;
@@ -163,7 +145,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :digitalElevationModel9second
     a skos:Concept ;
-    dcterms:identifier "digitalElevationModel9second"^^xsd:token ;
     skos:definition "Location estimated from a 9 second resolution digital elevation model or image"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "digital elevation model, 9 second"@en ;
@@ -172,7 +153,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :gpsAveragedObservations
     a skos:Concept ;
-    dcterms:identifier "gpsAveragedObservations"^^xsd:token ;
     skos:definition "Location estimated from averaging a number of Global Positioning System observations"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "GPS averaged observations"@en ;
@@ -181,7 +161,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :gpsDifferentialObservation
     a skos:Concept ;
-    dcterms:identifier "gpsDifferentialObservation"^^xsd:token ;
     skos:definition "Location estimated using DGPS, an enhancement to Global Positioning System which uses a network of fixed, ground-based reference stations to broadcast the difference between the positions indicated by the satellite systems and the known fixed positions."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "GPS differential observation"@en ;
@@ -190,7 +169,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :gpsDifferentialObservationSurveyQuality
     a skos:Concept ;
-    dcterms:identifier "gpsDifferentialObservationSurveyQuality"^^xsd:token ;
     skos:definition "Location determined using DGPS, an enhancement to Global Positioning System which uses a network of fixed, ground-based reference stations to broadcast the difference between the positions indicated by the satellite systems and the known fixed positions."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "GPS differential observation, survey quality"@en ;
@@ -199,7 +177,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :gpsObservation
     a skos:Concept ;
-    dcterms:identifier "gpsObservation"^^xsd:token ;
     skos:definition "Location estimated from a Global Positioning System satellite navigation system"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "GPS observation"@en ;
@@ -208,7 +185,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :gpsObservationSubjectToSelectiveAvailability
     a skos:Concept ;
-    dcterms:identifier "gpsObservationSubjectToSelectiveAvailability"^^xsd:token ;
     skos:definition "Location estimated from a Global Positioning System prior to May 2000 before when the US government commonly degraded the accuracy of GPS signals by adding intentional, time varying errors of up to 100 meters to the publicly available navigation signal."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "GPS observation subject to union all selective availability"@en ;
@@ -217,7 +193,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :gpsObservationWithPcodeAccess
     a skos:Concept ;
-    dcterms:identifier "gpsObservationWithPcodeAccess"^^xsd:token ;
     skos:definition "Location estimated from GPS observation with P-Code access"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "GPS observation with P-Code access"@en ;
@@ -226,7 +201,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :map
     a skos:Concept ;
-    dcterms:identifier "map"^^xsd:token ;
     skos:definition "Location estimated from a printed topographic, geological, or other map"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "map"@en ;
@@ -235,7 +209,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :orthophoto
     a skos:Concept ;
-    dcterms:identifier "orthophoto"^^xsd:token ;
     skos:definition "Location estimated from an aerial photograph geometrically corrected (\"orthorectified\") such that the scale across the image is uniform"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "orthophoto"@en ;
@@ -244,7 +217,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :otherMethod
     a skos:Concept ;
-    dcterms:identifier "otherMethod"^^xsd:token ;
     skos:definition "The location method is known, but is not specified in this vocabulary"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "other method"@en ;
@@ -253,7 +225,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :personalCommunicationMethodUnknown
     a skos:Concept ;
-    dcterms:identifier "personalCommunicationMethodUnknown"^^xsd:token ;
     skos:definition "The location is supplied via personal communication.  The location method is not known."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "personal communication, method unknown"@en ;
@@ -262,7 +233,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :publishedReportMethodUnknown
     a skos:Concept ;
-    dcterms:identifier "publishedReportMethodUnknown"^^xsd:token ;
     skos:definition "The location is taken from a published report or article.  The location method is not known."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "published report, method unknown"@en ;
@@ -271,7 +241,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :radioNavigation
     a skos:Concept ;
-    dcterms:identifier "radioNavigation"^^xsd:token ;
     skos:definition "Location estimated from radio navigation"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "radio navigation"@en ;
@@ -280,7 +249,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :satelliteDopplerAndAVLFRadioNavigation
     a skos:Concept ;
-    dcterms:identifier "satelliteDopplerAndAVLFRadioNavigation"^^xsd:token ;
     skos:definition "Location estimated from satellite Doppler and AVLF radio navigation"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "satellite Doppler and AVLF radio navigation"@en ;
@@ -289,7 +257,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :satelliteImage
     a skos:Concept ;
-    dcterms:identifier "satelliteImage"^^xsd:token ;
     skos:definition "Location estimated from a satellite image"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "satellite image"@en ;
@@ -298,7 +265,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :satelliteImageGoogle
     a skos:Concept ;
-    dcterms:identifier "satelliteImageGoogle"^^xsd:token ;
     skos:definition "Location estimated from a satellite image provided by Google Earth or Google Maps"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "satellite image, Google"@en ;
@@ -307,7 +273,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :stateOrNTAgencySuppliedLocationMethodUnknown
     a skos:Concept ;
-    dcterms:identifier "stateOrNTAgencySuppliedLocationMethodUnknown"^^xsd:token ;
     skos:definition "The location is supplied by a State or Territory government agency. The location method is not known."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "State or NT agency supplied location, method unknown"@en ;
@@ -316,7 +281,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :surveyedFromGroundControl
     a skos:Concept ;
-    dcterms:identifier "surveyedFromGroundControl"^^xsd:token ;
     skos:definition "Location estimated using survey from ground control"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "surveyed from ground control"@en ;
@@ -325,7 +289,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :unknown
     a skos:Concept ;
-    dcterms:identifier "unknown"^^xsd:token ;
     skos:definition "The location method is unknown. However, the correct value probably exists."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "unknown"@en ;
@@ -334,7 +297,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :unpublishedReportMethodUnknown
     a skos:Concept ;
-    dcterms:identifier "unpublishedReportMethodUnknown"^^xsd:token ;
     skos:definition "The location is taken from an unpublished report.  The location method is not known."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "unpublished report, method unknown"@en ;
@@ -342,22 +304,18 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <https://linked.data.gov.au/org/ga>
-    a sdo:Organization ;
-    sdo:description "Geoscience Australia is Australia's pre-eminent public sector geoscience organisation. It is the nation's trusted advisor on the geology and geography of Australia. It applies science and technology to describe and understand the Earth for the benefit of Australia."@en ;
-    sdo:name "Geoscience Australia" ;
-    sdo:url "https://www.ga.gov.au"^^xsd:anyURI ;
+    a schema:Organization ;
+    schema:description "Geoscience Australia is Australia's pre-eminent public sector geoscience organisation. It is the nation's trusted advisor on the geology and geography of Australia. It applies science and technology to describe and understand the Earth for the benefit of Australia."@en ;
+    schema:name "Geoscience Australia" ;
+    schema:url "https://www.ga.gov.au"^^xsd:anyURI ;
 .
 
 cs:
     a skos:ConceptScheme ;
-    dcterms:created "2022-08-09"^^xsd:date ;
-    dcterms:creator <https://linked.data.gov.au/org/ga> ;
-    dcterms:identifier "LocationMethod"^^xsd:token ;
-    dcterms:modified "2022-08-09"^^xsd:date ;
-    dcterms:provenance "Geoscience Australia Loaction Method (BOREHOLE.LU_LOCATION_METHODS)"@en ;
-    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
-    rdfs:seeAlso <https://pid.geoscience.gov.au/dataset/ga/148553> ;
+    rdfs:seeAlso "https://pid.geoscience.gov.au/dataset/ga/148553" ;
     owl:versionInfo "1" ;
+    skos:changeNote "2024-10-16 NJC: update to be VocPub 4.10 valid"@en ;
+    schema:citation "Geoscience Australia Loaction Method (BOREHOLE.LU_LOCATION_METHODS)" ;
     skos:definition "Method used to estimate the location of a point. eg, satellite navigation, estimation from printed maps or aerial photography."@en ;
     skos:hasTopConcept
         :1000000Map ,
@@ -399,4 +357,8 @@ cs:
         :unpublishedReportMethodUnknown ;
     skos:prefLabel "Borehole Geology - Location Method"@en ;
     dcat:contactPoint "Team Lead - Information Services; Energy, Minerals and Groundwater Division" ;
+    schema:creator <https://linked.data.gov.au/org/ga> ;
+    schema:dateCreated "2022-08-09"^^xsd:date ;
+    schema:dateModified "2024-10-16"^^xsd:date ;
+    schema:publisher <https://linked.data.gov.au/org/ga> ;
 .

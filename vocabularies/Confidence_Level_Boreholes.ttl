@@ -1,16 +1,14 @@
 PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/ConfidenceLevel/>
 PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/ConfidenceLevel>
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
-PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX sdo: <https://schema.org/>
+PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :definite
     a skos:Concept ;
-    dcterms:identifier "definite"^^xsd:token ;
     skos:altLabel "D"@en ;
     skos:definition "Confidence level is highest."@en ;
     skos:inScheme cs: ;
@@ -20,7 +18,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :high
     a skos:Concept ;
-    dcterms:identifier "high"^^xsd:token ;
     skos:altLabel "H"@en ;
     skos:definition "Confidence level is high."@en ;
     skos:inScheme cs: ;
@@ -30,7 +27,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :highModerate
     a skos:Concept ;
-    dcterms:identifier "highModerate"^^xsd:token ;
     skos:altLabel "HM"@en ;
     skos:definition "Confidence level is from moderate to high."@en ;
     skos:inScheme cs: ;
@@ -40,7 +36,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :low
     a skos:Concept ;
-    dcterms:identifier "low"^^xsd:token ;
     skos:altLabel "L"@en ;
     skos:definition "Confidence level is low."@en ;
     skos:inScheme cs: ;
@@ -50,7 +45,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :lowModerate
     a skos:Concept ;
-    dcterms:identifier "lowModerate"^^xsd:token ;
     skos:altLabel "ML"@en ;
     skos:definition "Confidence level is from low to moderate."@en ;
     skos:inScheme cs: ;
@@ -60,7 +54,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :moderate
     a skos:Concept ;
-    dcterms:identifier "moderate"^^xsd:token ;
     skos:altLabel "M"@en ;
     skos:definition "Confidence level is moderate."@en ;
     skos:inScheme cs: ;
@@ -70,7 +63,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :none
     a skos:Concept ;
-    dcterms:identifier "none"^^xsd:token ;
     skos:altLabel "N"@en ;
     skos:definition "There is no confidence provided."@en ;
     skos:inScheme cs: ;
@@ -80,7 +72,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :veryHigh
     a skos:Concept ;
-    dcterms:identifier "veryHigh"^^xsd:token ;
     skos:altLabel "VH"@en ;
     skos:definition "Confidence level is very high."@en ;
     skos:inScheme cs: ;
@@ -90,7 +81,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :veryLow
     a skos:Concept ;
-    dcterms:identifier "veryLow"^^xsd:token ;
     skos:altLabel "VL"@en ;
     skos:definition "Confidence level is very low."@en ;
     skos:inScheme cs: ;
@@ -99,22 +89,18 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <https://linked.data.gov.au/org/ga>
-    a sdo:Organization ;
-    sdo:description "Geoscience Australia is Australia's pre-eminent public sector geoscience organisation. It is the nation's trusted advisor on the geology and geography of Australia. It applies science and technology to describe and understand the Earth for the benefit of Australia."@en ;
-    sdo:name "Geoscience Australia" ;
-    sdo:url "https://www.ga.gov.au"^^xsd:anyURI ;
+    a schema:Organization ;
+    schema:description "Geoscience Australia is Australia's pre-eminent public sector geoscience organisation. It is the nation's trusted advisor on the geology and geography of Australia. It applies science and technology to describe and understand the Earth for the benefit of Australia."@en ;
+    schema:name "Geoscience Australia" ;
+    schema:url "https://www.ga.gov.au"^^xsd:anyURI ;
 .
 
 cs:
     a skos:ConceptScheme ;
-    dcterms:created "2022-08-11"^^xsd:date ;
-    dcterms:creator <https://linked.data.gov.au/org/ga> ;
-    dcterms:identifier "ConfidenceLevel"^^xsd:token ;
-    dcterms:modified "2022-08-11"^^xsd:date ;
-    dcterms:provenance "Geoscience Australia Confidence Level (VOCABULARY.CONFIDENCE"@en ;
-    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
-    rdfs:seeAlso <https://pid.geoscience.gov.au/dataset/ga/148553> ;
+    rdfs:seeAlso "https://pid.geoscience.gov.au/dataset/ga/148553" ;
     owl:versionInfo "1" ;
+    skos:changeNote "2024-10-16 NJC: update to be VocPub 4.10 valid"@en ;
+    schema:citation "Geoscience Australia Confidence Level (VOCABULARY.CONFIDENCE" ;
     skos:definition "A generic list of confidence levels."@en ;
     skos:hasTopConcept
         :definite ,
@@ -128,4 +114,8 @@ cs:
         :veryLow ;
     skos:prefLabel "General Geology - Confidence Level "@en ;
     dcat:contactPoint "Team Lead - Information Services; Energy, Minerals and Groundwater Division" ;
+    schema:creator <https://linked.data.gov.au/org/ga> ;
+    schema:dateCreated "2022-08-11"^^xsd:date ;
+    schema:dateModified "2024-10-16"^^xsd:date ;
+    schema:publisher <https://linked.data.gov.au/org/ga> ;
 .

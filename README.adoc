@@ -1,0 +1,37 @@
+= Geoscience Australia's Vocabularies
+
+This repository contains the source files of Geoscience Australia (GA)'s public vocabularies. 
+
+All these vocabularies - from multiple sources, not just from GA itself - are presented as [Simple Knowledge Organization System (SKOS)](https://www.w3.org/TR/skos-reference/) vocabularies and are delivered online at:
+
+https://vocabs.ga.gov.au/
+
+== License
+Geoscience Australia's vocabularies in this repository are licensed using the https://creativecommons.org/licenses/by/4.0/[CC BY 4.0] licence. See the [LICENSE file](LICENSE) for the deed.
+
+Other vocabularies reproduced by GA may have other licensing arrangements. See the individual vocabulary files for details.
+
+
+== Custodian
+https://www.ga.gov.au[Geoscience Australia]'s Data Catalogue Team
+
+== Contact
+Manager Client Services +
+Geoscience Australia +
+clientservices@ga.gov.au +
+ph: 1800 800 173 +
+Cnr Jerrabomberra Ave and Hindmarsh Dr GPO Box 378, Canberra, ACT, 2601, Australia
+
+
+== Prez resources
+
+This listing of the resources in this repository is used by the https://kurrawong.ai/products/prez/[Prez System] to display the vocabularies correctly.
+
+|===
+| Resource | Location | Notes
+
+| Catalogue Definition | `catalogue.ttl` |
+| Items | `./vocabularies/*.ttl` | Multiple ttl files
+| Profile Definition | https://github.com/RDFLib/prez/blob/main/prez/reference_data/profiles/ogc_records_profile.ttl[Prez Records Profile] | Default Prez profile for Records API
+| Context Resources | `_background/*.ttl` | Multiple labels files for ontologies, licenses & agents
+|===

@@ -1,16 +1,14 @@
 PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/DateQualifier/>
 PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/DateQualifier>
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
-PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX sdo: <https://schema.org/>
+PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :dateUnknown
     a skos:Concept ;
-    dcterms:identifier "dateUnknown"^^xsd:token ;
     rdfs:isDefinedBy <http://www.opengis.net/def/nil/OGC/0/unknown> ;
     skos:definition "The recorded date is unknown"@en ;
     skos:inScheme cs: ;
@@ -20,7 +18,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :estimatedEarliest
     a skos:Concept ;
-    dcterms:identifier "estimatedEarliest"^^xsd:token ;
     skos:broader :estimated ;
     skos:definition "The recorded date is the earliest known date, but it is possible the true date is earlier than what is recorded."@en ;
     skos:inScheme cs: ;
@@ -29,7 +26,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :estimatedLatest
     a skos:Concept ;
-    dcterms:identifier "estimatedLatest"^^xsd:token ;
     skos:broader :estimated ;
     skos:definition "The recorded date is the latest known date, but it is possible the true date is later than what is recorded."@en ;
     skos:inScheme cs: ;
@@ -38,7 +34,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :known
     a skos:Concept ;
-    dcterms:identifier "known"^^xsd:token ;
     skos:definition "The recorded date is known"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "known"@en ;
@@ -46,15 +41,14 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 <https://linked.data.gov.au/org/ga>
-    a sdo:Organization ;
-    sdo:description "Geoscience Australia is Australia's pre-eminent public sector geoscience organisation. It is the nation's trusted advisor on the geology and geography of Australia. It applies science and technology to describe and understand the Earth for the benefit of Australia."@en ;
-    sdo:name "Geoscience Australia" ;
-    sdo:url "https://www.ga.gov.au"^^xsd:anyURI ;
+    a schema:Organization ;
+    schema:description "Geoscience Australia is Australia's pre-eminent public sector geoscience organisation. It is the nation's trusted advisor on the geology and geography of Australia. It applies science and technology to describe and understand the Earth for the benefit of Australia."@en ;
+    schema:name "Geoscience Australia" ;
+    schema:url "https://www.ga.gov.au"^^xsd:anyURI ;
 .
 
 :estimated
     a skos:Concept ;
-    dcterms:identifier "estimated"^^xsd:token ;
     skos:definition "The recorded date is estimated"@en ;
     skos:inScheme cs: ;
     skos:narrower
@@ -66,14 +60,10 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 cs:
     a skos:ConceptScheme ;
-    dcterms:created "2022-08-04"^^xsd:date ;
-    dcterms:creator <https://linked.data.gov.au/org/ga> ;
-    dcterms:identifier "DateQualifier"^^xsd:token ;
-    dcterms:modified "2022-08-04"^^xsd:date ;
-    dcterms:provenance "Geoscience Australia Date Qualifer Terms (BOREHOLE.LU_DATE_QUALIFIERS)"@en ;
-    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
-    rdfs:seeAlso <https://pid.geoscience.gov.au/dataset/ga/148553> ;
+    rdfs:seeAlso "https://pid.geoscience.gov.au/dataset/ga/148553" ;
     owl:versionInfo "1" ;
+    skos:changeNote "2024-10-16 NJC: update to be VocPub 4.10 valid"@en ;
+    schema:citation "Geoscience Australia Date Qualifer Terms (BOREHOLE.LU_DATE_QUALIFIERS)" ;
     skos:definition "Terms to describe the confidence or quality in a recorded date "@en ;
     skos:hasTopConcept
         :dateUnknown ,
@@ -81,4 +71,8 @@ cs:
         :known ;
     skos:prefLabel "Borehole Geology - Date Qualifier"@en ;
     dcat:contactPoint "Team Lead - Information Services; Minerals, Energy and Groundwater Division" ;
+    schema:creator <https://linked.data.gov.au/org/ga> ;
+    schema:dateCreated "2022-08-04"^^xsd:date ;
+    schema:dateModified "2024-10-16"^^xsd:date ;
+    schema:publisher <https://linked.data.gov.au/org/ga> ;
 .

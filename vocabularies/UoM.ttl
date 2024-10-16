@@ -1,18 +1,23 @@
 PREFIX cs: <http://qudt.org/community/ga/voc>
-PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX sdo: <https://schema.org/>
+PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX unit: <http://qudt.org/vocab/unit/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
+<http://qudt.org>
+    a schema:Organization ;
+    schema:description "QUDT is a non-profit organization that governs the QUDT ontologies."@en ;
+    schema:name "QUDT" ;
+    schema:url "http://www.qudt.org"^^xsd:anyURI ;
+.
 
 unit:GM
     a skos:Concept ;
     rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
     skos:definition "A unit of mass in the metric system. The name comes from the Greek gramma, a small weight identified in later Roman and Byzantine times with the Latin scripulum or scruple (the English scruple is equal to about 1.3 grams). The gram was originally defined to be the mass of one cubic centimeter of pure water, but to provide precise standards it was necessary to construct physical objects of specified mass. One gram is now defined to be 1/1000 of the mass of the standard kilogram, a platinum-iridium bar carefully guarded by the International Bureau of Weights and Measures in Paris for more than a century. (The kilogram, rather than the gram, is considered the base unit of mass in the SI.) The gram is a small mass, equal to about 15.432 grains or 0.035 273 966 ounce."@en ;
-    skos:inScheme cs: ;
     skos:historyNote "This is a SKOS Concept profile of the more detailed QUDT Unit of Measure object"@en ;
+    skos:inScheme cs: ;
     skos:notation "kg" ;
     skos:prefLabel "Gram"@en ;
     skos:topConceptOf cs: ;
@@ -23,8 +28,8 @@ unit:KiloGM
     rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
     skos:altLabel "Kilogramme"@en ;
     skos:definition "The kilogram or kilogramme (SI symbol: kg), also known as the kilo, is the base unit of mass in the International System of Units and is defined as being equal to the mass of the International Prototype Kilogram (IPK), which is almost exactly equal to the mass of one liter of water. The avoirdupois (or international) pound, used in both the Imperial system and U.S. customary units, is defined as exactly 0.45359237 kg, making one kilogram approximately equal to 2.2046 avoirdupois pounds."@en ;
-    skos:inScheme cs: ;
     skos:historyNote "This is a SKOS Concept profile of the more detailed QUDT Unit of Measure object"@en ;
+    skos:inScheme cs: ;
     skos:notation "kg" ;
     skos:prefLabel "Kilogram"@en ;
     skos:topConceptOf cs: ;
@@ -34,8 +39,8 @@ unit:KiloGM-PER-M2
     a skos:Concept ;
     rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
     skos:definition "Kilogram Per Square Meter (kg/m2) is a unit in the category of Surface density. It is also known as kilograms per square meter, kilogram per square metre, kilograms per square metre, kilogram/square meter, kilogram/square metre. This unit is commonly used in the SI unit system. Kilogram Per Square Meter (kg/m2) has a dimension of ML-2 where M is mass, and L is length. This unit is the standard SI unit in this category."@en ;
-    skos:inScheme cs: ;
     skos:historyNote "This is a SKOS Concept profile of the more detailed QUDT Unit of Measure object"@en ;
+    skos:inScheme cs: ;
     skos:notation "kg/m2" ;
     skos:prefLabel "Kilogram per Square Metre"@en ;
     skos:topConceptOf cs: ;
@@ -46,8 +51,8 @@ unit:M
     rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
     skos:altLabel "Metre" ;
     skos:definition "The metric and SI base unit of distance.  The 17th General Conference on Weights and Measures in 1983 defined the meter as that distance that makes the speed of light in a vacuum equal to exactly 299 792 458 meters per second. The speed of light in a vacuum, \\(c\\), is one of the fundamental constants of nature. The meter is equal to approximately 1.093 613 3 yards, 3.280 840 feet, or 39.370 079 inches."@en ;
-    skos:inScheme cs: ;
     skos:historyNote "This is a SKOS Concept profile of the more detailed QUDT Unit of Measure object"@en ;
+    skos:inScheme cs: ;
     skos:notation
         "M" ,
         "m" ;
@@ -60,8 +65,8 @@ unit:MegaYR
     rdfs:isDefinedBy <http://qudt.org/2.1/vocab/unit> ;
     skos:altLabel "Mega Year"@en ;
     skos:definition "1,000,000-fold of the derived unit year." ;
-    skos:inScheme cs: ;
     skos:historyNote "This is a SKOS Concept profile of the more detailed QUDT Unit of Measure object"@en ;
+    skos:inScheme cs: ;
     skos:notation
         "Myr" ,
         "ma" ;
@@ -69,27 +74,16 @@ unit:MegaYR
     skos:topConceptOf cs: ;
 .
 
-<http://qudt.org>
-    a sdo:Organization ;
-    dcterms:description "QUDT is a non-profit organization that governs the QUDT ontologies."@en ;
-    sdo:name "QUDT" ;
-    sdo:url "http://www.qudt.org"^^xsd:anyURI ;
-.
-
 <https://linked.data.gov.au/org/ga>
-    a sdo:Organization ;
-    sdo:description "Geoscience Australia is Australia's pre-eminent public sector geoscience organisation. It is the nation's trusted advisor on the geology and geography of Australia. It applies science and technology to describe and understand the Earth for the benefit of Australia."@en ;
-    sdo:name "Geoscience Australia" ;
-    sdo:url "https://www.ga.gov.au"^^xsd:anyURI ;
+    a schema:Organization ;
+    schema:description "Geoscience Australia is Australia's pre-eminent public sector geoscience organisation. It is the nation's trusted advisor on the geology and geography of Australia. It applies science and technology to describe and understand the Earth for the benefit of Australia."@en ;
+    schema:name "Geoscience Australia" ;
+    schema:url "https://www.ga.gov.au"^^xsd:anyURI ;
 .
 
 cs:
     a skos:ConceptScheme ;
-    dcterms:contributor <http://qudt.org> ;
-    dcterms:created "2021-12-14"^^xsd:date ;
-    dcterms:creator <https://linked.data.gov.au/org/ga> ;
-    dcterms:modified "2022-02-11"^^xsd:date ;
-    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    skos:changeNote "2024-10-16 NJC: update to be VocPub 4.10 valid"@en ;
     skos:definition "A vocabulary of Units from the QUDT ontology used by Geoscience Australia."@en ;
     skos:hasTopConcept
         unit:GM ,
@@ -99,5 +93,9 @@ cs:
         unit:MegaYR ;
     skos:historyNote "This vocabulary is a subset of the QUDT Units of Measure at http://www.qudt.org/doc/DOC_VOCAB-UNITS.html"@en ;
     skos:prefLabel "Geoscience Australia Profile of QUDT Units"@en ;
+    schema:contributor <http://qudt.org> ;
+    schema:creator <https://linked.data.gov.au/org/ga> ;
+    schema:dateCreated "2021-12-14"^^xsd:date ;
+    schema:dateModified "2024-10-16"^^xsd:date ;
+    schema:publisher <https://linked.data.gov.au/org/ga> ;
 .
-
