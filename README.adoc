@@ -2,7 +2,7 @@
 
 This repository contains the source files of Geoscience Australia (GA)'s public vocabularies. 
 
-All these vocabularies - from multiple sources, not just from GA itself - are presented as [Simple Knowledge Organization System (SKOS)](https://www.w3.org/TR/skos-reference/) vocabularies and are delivered online at:
+All these vocabularies - from multiple sources, not just from GA itself - are presented as https://www.w3.org/TR/skos-reference/[Simple Knowledge Organization System (SKOS)] vocabularies and are delivered online at:
 
 https://vocabs.ga.gov.au/
 
