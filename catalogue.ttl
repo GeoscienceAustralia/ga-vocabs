@@ -4,7 +4,7 @@ PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-<http://resource.geosciml.org/cgi-vocabs>
+<http://pid.geoscience.gov.au/catalogue/ga-vocabs>
     a dcat:Catalog ;
     dcterms:hasPart
         <https://pid.geoscience.gov.au/def/voc/ga/AssociationType> ,
