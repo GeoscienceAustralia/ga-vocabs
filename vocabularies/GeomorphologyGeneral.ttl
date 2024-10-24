@@ -19,7 +19,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/GeomorphologyGeneral/BGU-sub-type>
+:BGU-sub-type
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel "BGU-sT"@en ;
@@ -105,8 +105,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel "BGU"@en ;
-    skos:definition """BGU are the broadest geomorphic terms used to classify Part 1 (MORPHOLOGY) FEATURE 
-shapes and can always be simplified up to their SETTING/PROCESS categories (Nanson et al., 2023)."""@en ;
+    skos:definition "BGU are the broadest geomorphic terms used to classify Part 1 (MORPHOLOGY) FEATURE shapes and can always be simplified up to their SETTING/PROCESS categories (Nanson et al., 2023)."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Basic Geomorphic Unit"@en ;
     skos:topConceptOf cs: ;
@@ -169,11 +168,7 @@ shapes and can always be simplified up to their SETTING/PROCESS categories (Nans
 :feature
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:definition """A list of terms that are used to define seafloor MORPHOLOGY; these were primarily sourced 
-from the list of terms and definitions provided in the IHO (International Hydrographic 
-Organization, 2019) list of undersea Feature Names which were subsequently updated and 
-illustrated in Dove et al., (2020: Part 1). MORPHOLOGY FEATURE terms (e.g. Ridge, Canyon) are capitalised as proper nouns to help distinguish them from more general morphological 
-descriptors (e.g. upper canyon, canyon wall, crests; Dove et al., 2020)"""@en ;
+    skos:definition "A list of terms that are used to define seafloor MORPHOLOGY; these were primarily sourced from the list of terms and definitions provided in the IHO (International Hydrographic Organization, 2019) list of undersea Feature Names which were subsequently updated and illustrated in Dove et al., (2020: Part 1). MORPHOLOGY FEATURE terms (e.g. Ridge, Canyon) are capitalised as proper nouns to help distinguish them from more general morphological descriptors (e.g. upper canyon, canyon wall, crests; Dove et al., 2020)"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Feature"@en ;
     skos:topConceptOf cs: ;
@@ -272,8 +267,7 @@ descriptors (e.g. upper canyon, canyon wall, crests; Dove et al., 2020)"""@en ;
 :morphology
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:definition """The shape of the seafloor surface. Where capitalised, “Morphology” is used in specific 
-reference to Part 1 MORPHOLOGY (Dove et al., 2020) and the FEATURES defined therein"""@en ;
+    skos:definition "The shape of the seafloor surface. Where capitalised, “Morphology” is used in specific reference to Part 1 MORPHOLOGY (Dove et al., 2020) and the FEATURES defined therein"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Morphology"@en ;
     skos:topConceptOf cs: ;
@@ -282,8 +276,7 @@ reference to Part 1 MORPHOLOGY (Dove et al., 2020) and the FEATURES defined ther
 :morphometrics
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:definition """Quantitative analysis of the external shape and size of morphological features. Terrain 
-derivatives such as: bathymetric position index (BPI), terrain ruggedness index, slope, aspect, curvature and rugosity are widely used as morphometric parameters with the help of geographic information systems."""@en ;
+    skos:definition "Quantitative analysis of the external shape and size of morphological features. Terrain derivatives such as: bathymetric position index (BPI), terrain ruggedness index, slope, aspect, curvature and rugosity are widely used as morphometric parameters with the help of geographic information systems."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "morphometrics"@en ;
     skos:topConceptOf cs: ;
@@ -310,8 +303,7 @@ derivatives such as: bathymetric position index (BPI), terrain ruggedness index,
 :process
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:definition """The term PROCESS is used herein to group geomorphic units formed by similar processes and 
-are the broadest (alongside SETTING) Part 2 terms for classifying Part 1 Morphology FEATURES."""@en ;
+    skos:definition "The term PROCESS is used herein to group geomorphic units formed by similar processes and are the broadest (alongside SETTING) Part 2 terms for classifying Part 1 Morphology FEATURES."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Process"@en ;
     skos:topConceptOf cs: ;
@@ -347,9 +339,7 @@ are the broadest (alongside SETTING) Part 2 terms for classifying Part 1 Morphol
 :setting
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:definition """Used herein, the term SETTING is used to group geomorphic units formed in specific 
-environments and are the broadest (alongside PROCESS) Part 2 terms for classifying Part 1 
-Morphology FEATURES."""@en ;
+    skos:definition "Used herein, the term SETTING is used to group geomorphic units formed in specific environments and are the broadest (alongside PROCESS) Part 2 terms for classifying Part 1 Morphology FEATURES."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Setting"@en ;
     skos:topConceptOf cs: ;
@@ -367,11 +357,10 @@ Morphology FEATURES."""@en ;
 cs:
     a skos:ConceptScheme ;
     owl:versionIRI :1.0 ;
-    skos:definition """A vocabulary of general terms used to support the application of the two-part seabed geomorphology classification scheme. This vocabulary is the product of a collaboration between marine geoscientists from marine mapping programmes/networks in Norway (MAREANO), Ireland (INFOMAR), UK (MAREMAP), and Australia (Geoscience Australia). 
-Definitions in this vocabulary are subject to intermittent review and versioning. """@en ;
+    skos:definition "A vocabulary of general terms used to support the application of the two-part seabed geomorphology classification scheme. This vocabulary is the product of a collaboration between marine geoscientists from marine mapping programmes/networks in Norway (MAREANO), Ireland (INFOMAR), UK (MAREMAP), and Australia (Geoscience Australia). Definitions in this vocabulary are subject to intermittent review and versioning."@en ;
     skos:hasTopConcept
         :BGU-Type ,
-        <https://pid.geoscience.gov.au/def/voc/ga/GeomorphologyGeneral/BGU–sub-type> ,
+        :BGU–sub-type ,
         :abyssal_plain ,
         :accretionary_prism ,
         :age_relative_modern ,
