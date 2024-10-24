@@ -360,7 +360,7 @@ cs:
     skos:definition "A vocabulary of general terms used to support the application of the two-part seabed geomorphology classification scheme. This vocabulary is the product of a collaboration between marine geoscientists from marine mapping programmes/networks in Norway (MAREANO), Ireland (INFOMAR), UK (MAREMAP), and Australia (Geoscience Australia). Definitions in this vocabulary are subject to intermittent review and versioning."@en ;
     skos:hasTopConcept
         :BGU-Type ,
-        :BGU–sub-type ,
+        :BGU-sub-type ,
         :abyssal_plain ,
         :accretionary_prism ,
         :age_relative_modern ,
