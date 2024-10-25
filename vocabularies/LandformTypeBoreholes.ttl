@@ -187,10 +187,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "cone (volcanic)"@en ;
 .
 
-:coral-reef
-    skos:broader :coastal-lands ;
-.
-
 :covered-plain
     a skos:Concept ;
     skos:altLabel "AL14"@en ;
@@ -521,7 +517,9 @@ channels as on a pediment."""@en ;
     skos:altLabel "CO03"@en ;
     schema:citation "PDF pg 58, http://crcleme.org.au/Pubs/guides/regolith-description-methods.pdf" ;
     skos:definition "A continuously active or relict landform pattern built up to the present sea level, or that of a former time, by corals and other organisms. It is mainly level, with moderately inclined to precipitous slopes below sea level. Stream channels are generally absent, but there may occasionally be fixed deep erosional tidal stream channels forming a disintegrated non-tributary pattern."@en ;
+    skos:broader :coastal-lands ;
     skos:inScheme cs: ;
+    skos:altLabel "coral reef"@en ;
     skos:prefLabel "reef"@en ;
     skos:topConceptOf cs: ;
 .
@@ -753,7 +751,7 @@ channels as on a pediment."""@en ;
         :chenier-plain ,
         :coastal-dunes ,
         :coastal-plain ,
-        :coral-reef ,
+        :reef ,
         :marine-plain ,
         :tidal-flat ;
     skos:prefLabel "coastal lands"@en ;
@@ -827,7 +825,6 @@ cs:
         :meteor-crater ,
         :plain ,
         :plateau ,
-        :reef ,
         :unknown ,
         :volcano ;
     skos:historyNote "Geoscience Australia Landform type (FGDM. LU_landform_type)"@en ;
