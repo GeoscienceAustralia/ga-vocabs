@@ -223,7 +223,7 @@ Cf. MORPHOMETRICS."""@en ;
 
 <https://pid/geoscience.gov.au/def/voc/ga/GeomorphologyGeneral/grain_size>
     a skos:Concept ;
-    skos:definition "Based on Wnetworth Scheme involves categorising sediment particles by their size and texture. This characterisation helps in describing sediment properties and depositional environments."@en ;
+    skos:definition "Based on the Wentworth Scheme grain size involves categorising sediment particles by their size and texture. This characterisation helps in describing sediment properties and depositional environments."@en ;
     skos:inScheme cs: ;
     skos:narrower
         <https://pid/geoscience.gov.au/def/voc/ga/GeomorphologyGeneral/particle_size> ,
