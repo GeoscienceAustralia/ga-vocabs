@@ -1,6 +1,7 @@
 {
     "WasteStorageType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/WasteStorageType",
     "RoleCodeType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/roleCodeType",
+    "MarineGeomorphSettingProcess.ttl": "https://pid.geoscience.gov.au/def/voc/ga/GeomorphologySettings",
     "ProtocolType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype",
     "ServiceType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/servicetype",
     "GeomorphologyGeneral.ttl": "https://pid.geoscience.gov.au/def/voc/ga/GeomorphologyGeneral",
