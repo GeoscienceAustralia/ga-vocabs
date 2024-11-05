@@ -2,6 +2,7 @@
     "WasteStorageType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/WasteStorageType",
     "RoleCodeType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/roleCodeType",
     "ProtocolType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype",
-    "ServiceType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/servicetype"
+    "ServiceType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/servicetype", 
+    "GeomorphologyGeneral.ttl": "https://pid.geoscience.gov.au/def/voc/ga/GeomorphologyGeneral"
 }
 
