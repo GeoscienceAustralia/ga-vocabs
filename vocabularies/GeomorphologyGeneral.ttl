@@ -10,7 +10,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://pid/geoscience.gov.au/def/voc/ga/GeomorphologyGeneral/BGU-Type_BGU-T>
     a skos:Concept ;
-    skos:definition "BGU-T are defined for commonly used sub-categories of BGU, and can always be simplified up to their BGU and SETTING/PROCESS categories ([Part 2 Geomorphology](https://doi.org/10.5281/zenodo.7804019))."@en ;
+    skos:definition "BGU-T are defined for commonly used sub-categories of BGU, and can always be simplified up to their BGU and SETTING/PROCESS categories (Part 2 Geomorphology [https://doi.org/10.5281/zenodo.7804019](https://doi.org/10.5281/zenodo.7804019))."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "BGU - Type (BGU-T)"@en ;
     skos:topConceptOf cs: ;
