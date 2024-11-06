@@ -34,7 +34,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://pid/geoscience.gov.au/def/voc/ga/GeomorphologyGeneral/basic_geomorphic_unit_BGU>
     a skos:Concept ;
-    skos:definition "BGU are the broadest geomorphic terms used to classify Part 1 (MORPHOLOGY) FEATURE shapes and can always be simplified up to their SETTING/PROCESS categories ([Part 2 Geomorphology](https://doi.org/10.5281/zenodo.7804019))."@en ;
+    skos:definition "BGU are the broadest geomorphic terms used to classify Part 1 (MORPHOLOGY) FEATURE shapes and can always be simplified up to their SETTING/PROCESS categories [Part 2 Geomorphology](https://doi.org/10.5281/zenodo.7804019)."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Basic Geomorphic Unit (BGU)"@en ;
     skos:topConceptOf cs: ;
