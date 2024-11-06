@@ -5,6 +5,7 @@
     "ServiceType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/servicetype", 
     "GeomorphologyGeneral.ttl": "https://pid.geoscience.gov.au/def/voc/ga/GeomorphologyGeneral", 
     "MorphologyFeatures.ttl": "https://pid.geoscience.gov.au/def/voc/ga/MorphologyFeatures",
+    "GeomorphologySettings.ttl": "https://pid.geoscience.gov.au/def/voc/ga/GeomorphologySettings",
     "GeomorphologyPhysiography.ttl": "https://pid.geoscience.gov.au/def/voc/ga/GeomorphologyPhysiography"
 }
 
