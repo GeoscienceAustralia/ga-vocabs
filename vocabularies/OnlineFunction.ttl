@@ -49,7 +49,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "emailService"@en ;
     skos:topConceptOf cs: ;
-    schema:contributor <http://editor.vocabs.ands.org.au/user/GA_Sedgmen.Lara_Admin> ;
 .
 
 :fileAccess
@@ -104,7 +103,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "upload"@en ;
     skos:topConceptOf cs: ;
-    schema:contributor <http://editor.vocabs.ands.org.au/user/GA_Sedgmen.Lara_Admin> ;
     schema:dateModified "2018-12-12T03:07:36+00:00"^^xsd:dateTime ;
 .
 

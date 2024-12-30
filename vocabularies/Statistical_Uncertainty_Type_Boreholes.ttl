@@ -81,7 +81,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:altLabel "95% angular confidence"@en ;
     skos:definition "A circular 95 % confidence estimate for directional data. An angular estimate of the circle of 95% confidence (p = 0.05) about the mean direction."@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "alpha95"@en ;
+    skos:prefLabel "alpha 95"@en ;
     skos:topConceptOf cs: ;
 .
 
