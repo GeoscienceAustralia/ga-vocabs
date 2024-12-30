@@ -47,7 +47,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:creator <https://linked.data.gov.au/org/ga> ;
     schema:dateCreated "2017"^^xsd:gYear ;
     schema:dateModified "2024-12-30"^^xsd:date ;
-    schema:description "Geoscience Australia's's vocabularies of controlled terms" ;
+    schema:description "Geoscience Australia's vocabularies of controlled terms" ;
     schema:name "GA Vocabularies" ;
     schema:publisher <https://linked.data.gov.au/org/ga> ;
 .
