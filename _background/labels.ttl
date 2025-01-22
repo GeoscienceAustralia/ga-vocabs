@@ -3,6 +3,14 @@ PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://linked.data.gov.au/org/ga>
+    a schema:Organization ;
+    schema:description "Geoscience Australia is Australia's pre-eminent public sector geoscience organisation. It is the nation's trusted advisor on the geology and geography of Australia. It applies science and technology to describe and understand the Earth for the benefit of Australia."@en ;
+    schema:name "Geoscience Australia" ;
+    schema:url "https://www.ga.gov.au"^^xsd:anyURI ;
+.
 
 rdfs:isDefinedBy
     rdfs:label "is defined by" ;

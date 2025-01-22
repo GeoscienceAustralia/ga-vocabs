@@ -40,7 +40,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <https://pid.geoscience.gov.au/def/voc/ga/SampleMaterialClass> ,
         <https://pid.geoscience.gov.au/def/voc/ga/SourceRockQuality> ,
         <https://pid.geoscience.gov.au/def/voc/ga/StatisticalResultQualifier> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/StatisticalUncertaintyTypes> ;
+        <https://pid.geoscience.gov.au/def/voc/ga/StatisticalUncertaintyTypes> ,
+        <http://qudt.org/community/ga/voc> ;
     skos:historyNote "This catalogue was was created in 2024 from pre-existing vocabularies"@en ;
     schema:codeRepository "https://github.com/GeoscienceAustralia/ga-vocabs" ;
     schema:contributor <https://kurrawong.ai> ;

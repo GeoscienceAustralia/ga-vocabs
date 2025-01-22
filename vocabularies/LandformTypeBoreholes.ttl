@@ -642,13 +642,6 @@ channels as on a pediment."""@en ;
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/org/ga>
-    a schema:Organization ;
-    schema:description "Geoscience Australia is Australia's pre-eminent public sector geoscience organisation. It is the nation's trusted advisor on the geology and geography of Australia. It applies science and technology to describe and understand the Earth for the benefit of Australia."@en ;
-    schema:name "Geoscience Australia" ;
-    schema:url "https://www.ga.gov.au"^^xsd:anyURI ;
-.
-
 :glacial-features
     a skos:Concept ;
     skos:altLabel "GL00"@en ;
