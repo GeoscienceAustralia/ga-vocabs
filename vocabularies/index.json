@@ -2,7 +2,6 @@
     "WasteStorageType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/WasteStorageType",
     "RoleCodeType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/roleCodeType",
     "ProtocolType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype",
-    "ServiceType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/servicetype",
-    "MorphologyFeatures.ttl": "https://pid.geoscience.gov.au/def/voc/ga/MorphologyFeatures"
+    "ServiceType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/servicetype"
 }
 
