@@ -4,6 +4,7 @@
     "ProtocolType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype",
     "ServiceType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/servicetype",
     "SeabedGeomorphologyGeneral.ttl": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral",
-    "SeabedGeomorphologyMorphology.ttl": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology"
+    "SeabedGeomorphologyMorphology.ttl": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology",
+    "SeabedGeomorphologyPhysiography.ttl": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyPhysiography"
 }
 
