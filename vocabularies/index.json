@@ -7,6 +7,7 @@
     "SeabedGeomorphologyMorphology.ttl": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology", 
     "SeabedGeomorphologyPhysiography.ttl": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyPhysiography", 
     "SeabedGeomorphologySettings.ttl": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings",
-    "WasteType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/WasteType"
+    "WasteType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/WasteType",
+    "WasteStructureTypes.ttl": "https://pid.geoscience.gov.au/def/voc/ga/WasteStructureTypes"
 }
 
