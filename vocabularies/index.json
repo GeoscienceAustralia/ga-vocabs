@@ -9,6 +9,7 @@
     "SeabedGeomorphologySettings.ttl": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings",
     "WasteType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/WasteType",
     "WasteStructureTypes.ttl": "https://pid.geoscience.gov.au/def/voc/ga/WasteStructureTypes",
+    "MiningWasteStatus.ttl": "https://pid.geoscience.gov.au/def/voc/ga/MiningWasteStatus"
     "WasteStorageType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/WasteStorageType"
 }
 
