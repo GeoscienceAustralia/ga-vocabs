@@ -1,15 +1,13 @@
 {
-    "WasteStorageType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/WasteStorageType",
-    "RoleCodeType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/roleCodeType",
-    "ProtocolType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype",
-    "ServiceType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/servicetype", 
-    "SeabedGeomorphologyGeneral.ttl": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral",
-    "SeabedGeomorphologyMorphology.ttl": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology", 
-    "SeabedGeomorphologyPhysiography.ttl": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyPhysiography", 
-    "SeabedGeomorphologySettings.ttl": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings",
-    "MiningWasteType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/MiningWasteType",
+    "MiningWasteStorageType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/MiningWasteStorageType",
     "MiningWasteStructureType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/MiningWasteStructureType",
-    "MiningWasteStatus.ttl": "https://pid.geoscience.gov.au/def/voc/ga/MiningWasteStatus"
-    "MiningWasteStorageType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/MiningWasteStorageType"
+    "MiningWasteType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/MiningWasteType",
+    "ProtocolType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype",
+    "RoleCodeType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/roleCodeType",
+    "SeabedGeomorphologyGeneral.ttl": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral",
+    "SeabedGeomorphologyMorphology.ttl": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology",
+    "SeabedGeomorphologyPhysiography.ttl": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyPhysiography",
+    "SeabedGeomorphologySettings.ttl": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings",
+    "ServiceType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/servicetype"
 }
 
