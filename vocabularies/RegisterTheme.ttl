@@ -15,7 +15,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:definition "To be confirmed."@en ;
     skos:historyNote "This concept is taken from https://linked.data.gov.au/def/anzsrc-for/2020/3703"@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "Geochemistry"@en ;
+    skos:prefLabel "geochemistry"@en ;
     skos:topConceptOf cs: ;
 .
 
@@ -45,6 +45,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :marine_geoscience
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
+    skos:broader :geology ;
     skos:definition "To be confirmed."@en ;
     skos:historyNote "This concept is taken from https://linked.data.gov.au/def/anzsrc-for/2020/370504"@en ;
     skos:inScheme cs: ;
@@ -55,6 +56,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :palaeontology
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
+    skos:broader :geology ;
     skos:definition "To be confirmed."@en ;
     skos:historyNote "This concept is taken from https://linked.data.gov.au/def/anzsrc-for/2020/370506"@en ;
     skos:inScheme cs: ;
@@ -69,7 +71,7 @@ cs:
     skos:hasTopConcept
         :geochemistry ,
         :geoinformatics ,
-		:geology ;
+	:geology ;
     skos:historyNote """This vocabulary is drawn from the [Australian and New Zealand Research Classification 2020: Fields of Research](https://linked.data.gov.au/def/anzsrc-for/2020/)"""@en ;
     skos:prefLabel "GA Vocabulary Register Theme"@en ;
     prov:qualifiedAttribution
