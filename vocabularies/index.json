@@ -4,6 +4,7 @@
     "MiningWasteStructureType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/MiningWasteStructureType",
     "MiningWasteType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/MiningWasteType",
     "ProtocolType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype",
+    "RegisterTheme.ttl": "https://pid.geoscience.gov.au/def/voc/ga/RegisterTheme",
     "RoleCodeType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/roleCodeType",
     "SeabedGeomorphologyGeneral.ttl": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral",
     "SeabedGeomorphologyMorphology.ttl": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology",
