@@ -1,0 +1,77 @@
+PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/RegisterTheme/>
+PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/RegisterTheme>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX isoroles: <https://linked.data.gov.au/def/data-roles/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+:geochemistry
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "To be confirmed."@en ;
+    skos:historyNote "This concept is taken from https://linked.data.gov.au/def/anzsrc-for/2020/3703" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Geochemistry"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:geoinformatics
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "To be confirmed."@en ;
+    skos:historyNote "This concept is taken from https://linked.data.gov.au/def/anzsrc-for/2020/3704" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "not in use"@en ;
+    skos:topConceptOf cs: ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    owl:versionIRI :1 ;
+    skos:definition "The GA Vocabulary Register applies a sub-set of concepts from the Australian and New Zealand Fields of Research (FoR) to improve search of the register."@en ;
+    skos:hasTopConcept
+        :geochemistry ,
+        :geoinformatics ;
+    skos:historyNote "This vocabulary is drawn from the [Australian and New Zealand Research Classification 2020: Fields of Research](https://linked.data.gov.au/def/anzsrc-for/2020/)"@en ;
+    skos:prefLabel "GA Vocabulary Register Theme"@en ;
+    prov:qualifiedAttribution
+        [
+            dcat:hadRole isoroles:custodian ;
+            prov:agent
+                [
+                    a schema:Person ;
+                    schema:email ""^^xsd:anyURI ;
+                    schema:name "EDD" ;
+                ] ;
+        ] ,
+        [
+            dcat:hadRole isoroles:custodian ;
+            prov:agent
+                [
+                    a schema:Person ;
+                    schema:email ""^^xsd:anyURI ;
+                    schema:name "Team Lead   Data Catalaogue Team" ;
+                ] ;
+        ] ;
+    schema:creator
+        [
+            a schema:Organization ;
+            schema:name "Ga" ;
+            schema:url ""^^xsd:anyURI ;
+        ] ;
+    schema:dateCreated "2025-03-4"^^xsd:date ;
+    schema:dateModified "2025-03-6"^^xsd:date ;
+    schema:keywords
+        "Theme" ;
+    schema:publisher
+        [
+            a schema:Organization ;
+            schema:name "Ga" ;
+            schema:url ""^^xsd:anyURI ;
+        ] ;
+    schema:version "1" ;
+.
