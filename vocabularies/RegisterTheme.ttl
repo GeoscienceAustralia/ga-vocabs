@@ -15,7 +15,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:definition "To be confirmed."@en ;
     skos:historyNote "This concept is taken from https://linked.data.gov.au/def/anzsrc-for/2020/3703" ;
     skos:inScheme cs: ;
-    skos:prefLabel "Geochemistry"@en ;
+    skos:prefLabel "geochemistry"@en ;
     skos:topConceptOf cs: ;
 .
 
@@ -25,7 +25,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:definition "To be confirmed."@en ;
     skos:historyNote "This concept is taken from https://linked.data.gov.au/def/anzsrc-for/2020/3704" ;
     skos:inScheme cs: ;
-    skos:prefLabel "not in use"@en ;
+    skos:prefLabel "geoinformatics"@en ;
     skos:topConceptOf cs: ;
 .
 
