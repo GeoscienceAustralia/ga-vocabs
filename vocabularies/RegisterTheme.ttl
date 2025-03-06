@@ -13,9 +13,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "To be confirmed."@en ;
-    skos:historyNote "This concept is taken from https://linked.data.gov.au/def/anzsrc-for/2020/3703" ;
+    skos:historyNote "This concept is taken from https://linked.data.gov.au/def/anzsrc-for/2020/3703"@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "geochemistry"@en ;
+    skos:prefLabel "Geochemistry"@en ;
     skos:topConceptOf cs: ;
 .
 
@@ -23,20 +23,54 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "To be confirmed."@en ;
-    skos:historyNote "This concept is taken from https://linked.data.gov.au/def/anzsrc-for/2020/3704" ;
+    skos:historyNote "This concept is taken from https://linked.data.gov.au/def/anzsrc-for/2020/3704"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "geoinformatics"@en ;
     skos:topConceptOf cs: ;
 .
 
+:geology
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "To be confirmed."@en ;
+    skos:historyNote "This concept is taken from https://linked.data.gov.au/def/anzsrc-for/2020/3705"@en ;
+    skos:inScheme cs: ;
+	skos:narrower
+		:marine_geoscience ,
+		:palaeontology ;
+    skos:prefLabel "geology"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:marine_geoscience
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "To be confirmed."@en ;
+    skos:historyNote "This concept is taken from https://linked.data.gov.au/def/anzsrc-for/2020/370504"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "marine geoscience"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:palaeontology
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "To be confirmed."@en ;
+    skos:historyNote "This concept is taken from https://linked.data.gov.au/def/anzsrc-for/2020/370506"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "palaeontology"@en ;
+    skos:topConceptOf cs: ;
+.
+
 cs:
     a skos:ConceptScheme ;
-    owl:versionIRI :1 ;
-    skos:definition "The GA Vocabulary Register applies a sub-set of concepts from the Australian and New Zealand Fields of Research (FoR) to improve search of the register."@en ;
+    owl:versionIRI :1.0 ;
+    skos:definition """The GA Vocabulary Register applies a sub-set of concepts from the Australian and New Zealand Fields of Research (FoR) to improve search of the register."""@en ;
     skos:hasTopConcept
         :geochemistry ,
-        :geoinformatics ;
-    skos:historyNote "This vocabulary is drawn from the [Australian and New Zealand Research Classification 2020: Fields of Research](https://linked.data.gov.au/def/anzsrc-for/2020/)"@en ;
+        :geoinformatics ,
+		:geology ;
+    skos:historyNote """This vocabulary is drawn from the [Australian and New Zealand Research Classification 2020: Fields of Research](https://linked.data.gov.au/def/anzsrc-for/2020/)"""@en ;
     skos:prefLabel "GA Vocabulary Register Theme"@en ;
     prov:qualifiedAttribution
         [
@@ -73,5 +107,5 @@ cs:
             schema:name "Ga" ;
             schema:url ""^^xsd:anyURI ;
         ] ;
-    schema:version "1" ;
+    schema:version "1.0" ;
 .
