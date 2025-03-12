@@ -13,7 +13,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Containment walls are constructed, usually in a series of stages, in a hybrid of upstream and downstream building methods. Construction begins with a starter dam, which forms the foundation for subsequent levels as the dam is raised. The dam wall remains fixed relative to upstream and downstream directions as the dam is sequentially built."@en ;
-    skos:historyNote "This concept is used in a Geoscience Australia Commodities database table (OZMIN.LU_WASTE_STRUCTURE_TYPES)" ;
+    skos:historyNote "This concept is used in a Geoscience Australia Mineral Resources database table (OZMIN.LU_WASTE_STRUCTURE_TYPES)" ;
     skos:inScheme cs: ;
     skos:prefLabel "centreline dam"@en ;
     skos:topConceptOf cs: ;
@@ -23,7 +23,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Containment walls are constructed, usually in a series of stages, in a downstream direction. Construction begins with a starter dam which forms the foundation for subsequent levels as the dam is raised. Each new dam level built on and supported by on the outside or ‘downstream’ slope of the previous dam wall."@en ;
-    skos:historyNote "This concept is used in a Geoscience Australia Commodities database table (OZMIN.LU_WASTE_STRUCTURE_TYPES)" ;
+    skos:historyNote "This concept is used in a Geoscience Australia Mineral Resources database table (OZMIN.LU_WASTE_STRUCTURE_TYPES)" ;
     skos:inScheme cs: ;
     skos:prefLabel "downstream dam"@en ;
     skos:topConceptOf cs: ;
@@ -33,7 +33,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Tailings that have been dewatered to below saturation point and, typically, deposited in piles to form a dense and stable ‘dry-stack’. Typically used to return water to the processing circuit, often recovering spent reagents or chemicals for re-use in processing."@en ;
-    skos:historyNote "This concept is used in a Geoscience Australia Commodities database table (OZMIN.LU_WASTE_STRUCTURE_TYPES)" ;
+    skos:historyNote "This concept is used in a Geoscience Australia Mineral Resources database table (OZMIN.LU_WASTE_STRUCTURE_TYPES)" ;
     skos:inScheme cs: ;
     skos:prefLabel "dry-stacked"@en ;
     skos:topConceptOf cs: ;
@@ -43,7 +43,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "A shallow dam or structure designed to maximise evaporation of water to concentrate dissolved salts."@en ;
-    skos:historyNote "This concept is used in a Geoscience Australia Commodities database table (OZMIN.LU_WASTE_STRUCTURE_TYPES)" ;
+    skos:historyNote "This concept is used in a Geoscience Australia Mineral Resources database table (OZMIN.LU_WASTE_STRUCTURE_TYPES)" ;
     skos:inScheme cs: ;
     skos:prefLabel "evaporation pond"@en ;
     skos:topConceptOf cs: ;
@@ -53,7 +53,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "An open-cut mine backfilled with waste material. Dam walls may or may not be built around the edge to increase capacity."@en ;
-    skos:historyNote "This concept is used in a Geoscience Australia Commodities database table (OZMIN.LU_WASTE_STRUCTURE_TYPES)" ;
+    skos:historyNote "This concept is used in a Geoscience Australia Mineral Resources database table (OZMIN.LU_WASTE_STRUCTURE_TYPES)" ;
     skos:inScheme cs: ;
     skos:prefLabel "in-pit"@en ;
     skos:topConceptOf cs: ;
@@ -63,7 +63,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Excavated rock, clay or soil, deposited and shaped to resemble a natural landform such as a hill. Typically shaped to minimise erosion."@en ;
-    skos:historyNote "This concept is used in a Geoscience Australia Commodities database table (OZMIN.LU_WASTE_STRUCTURE_TYPES)" ;
+    skos:historyNote "This concept is used in a Geoscience Australia Mineral Resources database table (OZMIN.LU_WASTE_STRUCTURE_TYPES)" ;
     skos:inScheme cs: ;
     skos:prefLabel "landform"@en ;
     skos:topConceptOf cs: ;
@@ -73,7 +73,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "A single-stage dam is built to full height in one stage with no further additions."@en ;
-    skos:historyNote "This concept is used in a Geoscience Australia Commodities database table (OZMIN.LU_WASTE_STRUCTURE_TYPES)" ;
+    skos:historyNote "This concept is used in a Geoscience Australia Mineral Resources database table (OZMIN.LU_WASTE_STRUCTURE_TYPES)" ;
     skos:inScheme cs: ;
     skos:prefLabel "single stage dam"@en ;
     skos:topConceptOf cs: ;
@@ -83,7 +83,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Used where there is insufficient information available to determine the structure type."@en ;
-    skos:historyNote "This concept is used in a Geoscience Australia Commodities database table (OZMIN.LU_WASTE_STRUCTURE_TYPES)" ;
+    skos:historyNote "This concept is used in a Geoscience Australia Mineral Resources database table (OZMIN.LU_WASTE_STRUCTURE_TYPES)" ;
     skos:inScheme cs: ;
     skos:prefLabel "unknown"@en ;
     skos:topConceptOf cs: ;
@@ -93,7 +93,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Containment walls are constructed, usually in a series of stages, in an upstream direction. Construction begins with a starter dam which forms the foundation for subsequent levels as the dam is raised. Each new dam level is built on the inside or ‘upstream’ of the previous dam wall."@en ;
-    skos:historyNote "This concept is used in a Geoscience Australia Commodities database table (OZMIN.LU_WASTE_STRUCTURE_TYPES)" ;
+    skos:historyNote "This concept is used in a Geoscience Australia Mineral Resources database table (OZMIN.LU_WASTE_STRUCTURE_TYPES)" ;
     skos:inScheme cs: ;
     skos:prefLabel "upstream dam"@en ;
     skos:topConceptOf cs: ;
@@ -103,7 +103,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Rock excavated from a mine and deposited in engineered locations. Also known as mullock heaps, rock dumps and rock piles."@en ;
-    skos:historyNote "This concept is used in a Geoscience Australia Commodities database table (OZMIN.LU_WASTE_STRUCTURE_TYPES)" ;
+    skos:historyNote "This concept is used in a Geoscience Australia Mineral Resources database table (OZMIN.LU_WASTE_STRUCTURE_TYPES)" ;
     skos:inScheme cs: ;
     skos:prefLabel "waste rock dump"@en ;
     skos:topConceptOf cs: ;
@@ -124,7 +124,7 @@ cs:
         :unknown ,
         :upstream_dam ,
         :waste_rock_dump ;
-    skos:historyNote "This vocabulary is drawn from a Geoscience Australia Commodities database table (OZMIN.LU_WASTE_STRUCTURE_TYPES)"@en ;
+    skos:historyNote "This vocabulary is drawn from a Geoscience Australia Mineral Resources database table (OZMIN.LU_WASTE_STRUCTURE_TYPES)"@en ;
     skos:prefLabel "Mineral Resources - Mining Waste Structure Type"@en ;
     prov:qualifiedAttribution
         [
