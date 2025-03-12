@@ -905,8 +905,8 @@ The FoR classification allows research and development activity to be categorise
         :370510 ,
         :44 ,
         :46 ;
-    skos:historyNote "This vocabulary is drawn from the Australian and New Zealand Research Classification 2020: Fields of Research  "@en ;
-    skos:prefLabel "GA Vocabulary Register Vocabulary Themes"@en ;
+    skos:historyNote "This vocabulary is drawn from the Australian and New Zealand Research Classification 2020: Fields of Research. Definitions are drawn from various sources as referenced in the History Notes."@en ;
+    skos:prefLabel "GA Vocabulary Register - Themes"@en ;
     prov:qualifiedAttribution
         [
             dcat:hadRole isoroles:custodian ;
