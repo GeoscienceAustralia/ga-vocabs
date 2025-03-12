@@ -13,7 +13,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Site was in operation at the time of data entry."@en ;
-    skos:historyNote "This concept is used in a Geoscience Australia Commodities database table (OZMIN.LU_WASTE_STATUS)" ;
+    skos:historyNote "This concept is used in a Geoscience Australia Mineral Resources database table (OZMIN.LU_WASTE_STATUS)" ;
     skos:inScheme cs: ;
     skos:prefLabel "currently used"@en ;
     skos:topConceptOf cs: ;
@@ -23,7 +23,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Site was not in operation at the time of data entry. This includes, but is not limited to, sites under care and maintenance, decommissioned sites, sites being rehabilitated and rehabilitated sites."@en ;
-    skos:historyNote "This concept is used in a Geoscience Australia Commodities database table (OZMIN.LU_WASTE_STATUS)" ;
+    skos:historyNote "This concept is used in a Geoscience Australia Mineral Resources database table (OZMIN.LU_WASTE_STATUS)" ;
     skos:inScheme cs: ;
     skos:prefLabel "not in use"@en ;
     skos:topConceptOf cs: ;
@@ -36,7 +36,7 @@ cs:
     skos:hasTopConcept
         :currently_used ,
         :not_in_use ;
-    skos:historyNote "This vocabulary is drawn from a Geoscience Australia Commodities database table (OZMIN.LU_WASTE_STATUS)"@en ;
+    skos:historyNote "This vocabulary is drawn from a Geoscience Australia Mineral Resources database table (OZMIN.LU_WASTE_STATUS)"@en ;
     skos:prefLabel "Mineral Resources - Mining Waste Status Types"@en ;
     prov:qualifiedAttribution
         [
