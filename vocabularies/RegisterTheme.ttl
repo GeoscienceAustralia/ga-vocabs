@@ -9,71 +9,904 @@ PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-:geochemistry
+:370301
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:definition "To be confirmed."@en ;
-    skos:historyNote "This concept is taken from https://linked.data.gov.au/def/anzsrc-for/2020/3703"@en ;
+    skos:altLabel "370301"@en ;
+    skos:broader :3703 ;
+    skos:definition "To be confirmed"@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "geochemistry"@en ;
-    skos:topConceptOf cs: ;
+    skos:prefLabel "Exploration geochemistry"@en ;
+    schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/370301"^^xsd:anyURI ;
 .
 
-:geoinformatics
+:370302
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:definition "To be confirmed."@en ;
-    skos:historyNote "This concept is taken from https://linked.data.gov.au/def/anzsrc-for/2020/3704"@en ;
-    skos:inScheme cs: ;
-    skos:prefLabel "geoinformatics"@en ;
-    skos:topConceptOf cs: ;
+    skos:altLabel "370302"@en ;
+    skos:broader :3703 ;
+    skos:definition "Describing a substance not derived from a living organism and/or not composed of carbon and hydrogen (a hydrocarbon)."@en ;
+    skos:historyNote "This concept is drawn from the Legacy GA Corporate Data Classification Scheme (https://pid.geoscience.gov.au/def/voc/ga/CDCS)." ;
+	skos:inScheme cs: ;
+    skos:prefLabel "Inorganic geochemistry"@en ;
+    schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/370302"^^xsd:anyURI ;
 .
 
-:geology
+:370303
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:definition "To be confirmed."@en ;
-    skos:historyNote "This concept is taken from https://linked.data.gov.au/def/anzsrc-for/2020/3705"@en ;
+    skos:altLabel "370303"@en ;
+    skos:broader :3703 ;
+    skos:definition """The study of the abundance ratios of isotopes (both stable and radioactive) of major and trace elements in rocks (e.g. Rb/Sr, Pb/U, etc.), to elucidate a number of geologic problems and processes. These include the age relationships of rocks, and the age of the Earth itself (see geochronology; isotopic dating; and radiometric dating); palaeotemperatures and geothermometry (see oxygen-isotope analysis; and geothermometer); and the provenance of natural waters, ore-forming fluids, and magmas (see isotope fractionation; smow; d/h ratio; oxygen-isotope ratio; and stable-isotope studies)."""@en ;
+	skos:historyNote "This definition is drawn from Oxford Reference (https://www.oxfordreference.com/display/10.1093/oi/authority.20110803100013355)." ;
     skos:inScheme cs: ;
-	skos:narrower
-		:marine_geoscience ,
-		:palaeontology ;
-    skos:prefLabel "geology"@en ;
-    skos:topConceptOf cs: ;
+    skos:prefLabel "Isotope geochemistry"@en ;
+    schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/370303"^^xsd:anyURI ;
 .
 
-:marine_geoscience
+:370304
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :geology ;
-    skos:definition "To be confirmed."@en ;
-    skos:historyNote "This concept is taken from https://linked.data.gov.au/def/anzsrc-for/2020/370504"@en ;
+    skos:altLabel "370304"@en ;
+    skos:broader :3703 ;
+    skos:definition "Organic geochemistry entails the application of chemical techniques to the study of organic matter and the processes which transform organic matter in the geosphere."@en ;
+	skos:historyNote "This definition is drawn from Oxford Reference (https://www.oxfordreference.com/display/10.1093/oi/authority.20110803100253730)." ;
     skos:inScheme cs: ;
-    skos:prefLabel "marine geoscience"@en ;
-    skos:topConceptOf cs: ;
+    skos:prefLabel "Organic geochemistry"@en ;
+    schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/370304"^^xsd:anyURI ;
 .
 
-:palaeontology
+:370399
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :geology ;
-    skos:definition "To be confirmed."@en ;
-    skos:historyNote "This concept is taken from https://linked.data.gov.au/def/anzsrc-for/2020/370506"@en ;
+    skos:altLabel "370399"@en ;
+    skos:broader :3703 ;
+    skos:definition "Geochemistry not elsewhere classified."@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "palaeontology"@en ;
+    skos:prefLabel "Geochemistry not elsewhere classified"@en ;
+    schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/370399"^^xsd:anyURI ;
+.
+
+:370401
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "370401"@en ;
+    skos:broader :3704 ;
+    skos:definition "To be confirmed"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Computational modelling and simulation in earth sciences"@en ;
+    schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/370401"^^xsd:anyURI ;
+.
+
+:370402
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "370402"@en ;
+    skos:broader :3704 ;
+    skos:definition "To be confirmed"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Earth and space science informatics"@en ;
+    schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/370402"^^xsd:anyURI ;
+.
+
+:370403
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "370403"@en ;
+    skos:broader :3704 ;
+    skos:definition "To be confirmed"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Geoscience data visualisation"@en ;
+    schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/370403"^^xsd:anyURI ;
+.
+
+:370499
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "370499"@en ;
+    skos:broader :3704 ;
+    skos:definition "Geoinformatics not elsewhere classified."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Geoinformatics not elsewhere classified"@en ;
+    schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/370499"^^xsd:anyURI ;
+.
+
+:370501
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "370501"@en ;
+    skos:broader :3705 ;
+    skos:definition "To be confirmed"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Biomineralisation"@en ;
+    schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/370501"^^xsd:anyURI ;
+.
+
+:370502
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "370502"@en ;
+    skos:broader :3705 ;
+    skos:definition "Age approximations of earth materials such as rocks, sediments and minerals. Age data resulting from scientific techniques such as radio isotopes and chemical dating."@en ;
+	skos:historyNote "This concept is drawn from the Legacy GA Corporate Data Classification Scheme (https://pid.geoscience.gov.au/def/voc/ga/CDCS)." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Geochronology"@en ;
+    schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/370502"^^xsd:anyURI ;
+.
+
+:370503
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "370503"@en ;
+    skos:broader :3705 ;
+    skos:definition "To be confirmed"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Igneous and metamorphic petrology"@en ;
+    schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/370503"^^xsd:anyURI ;
+.
+
+:370504
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "370504"@en ;
+    skos:broader :3705 ;
+    skos:definition "To be confirmed"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Marine geoscience"@en ;
+    schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/370504"^^xsd:anyURI ;
+.
+
+:370505
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "370505"@en ;
+    skos:broader :3705 ;
+    skos:definition "To be confirmed"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Mineralogy and crystallography"@en ;
+    schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/370505"^^xsd:anyURI ;
+.
+
+:370506
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "370506"@en ;
+    skos:broader :3705 ;
+    skos:definition "The study of life in past geologic time, based on fossil plants and animals. Chronology of the Earth's history."@en ;
+	skos:historyNote "This concept is drawn from the Legacy GA Corporate Data Classification Scheme (https://pid.geoscience.gov.au/def/voc/ga/CDCS)." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Palaeontology (incl. palynology)"@en ;
+    schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/370506"^^xsd:anyURI ;
+.
+
+:370507
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "370507"@en ;
+    skos:broader :3705 ;
+    skos:definition "To be confirmed"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Planetary geology"@en ;
+    schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/370507"^^xsd:anyURI ;
+.
+
+:370508
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "370508"@en ;
+    skos:broader :3705 ;
+    skos:definition "Data on resource production and/or commodity potential or information. Examples include minerals and petroleum potential, oil and gas fields information, resource and production tonnage and grade information, deposit types and mineralisation styles."@en ;
+	skos:historyNote "This concept is drawn from the Legacy GA Corporate Data Classification Scheme (https://pid.geoscience.gov.au/def/voc/ga/CDCS)." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Resource geoscience"@en ;
+    schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/370508"^^xsd:anyURI ;
+.
+
+:370509
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "370509"@en ;
+    skos:definition "To be confirmed"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Sedimentology"@en ;
     skos:topConceptOf cs: ;
+    schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/370509"^^xsd:anyURI ;
+.
+
+<https://pid.geoscience.gov.au/def/voc/ga/RegisterTheme/370509 https://pid.geoscience.gov.au/def/voc/ga/RegisterTheme/370510>
+    skos:broader :3705 ;
+.
+
+:370510
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "370510"@en ;
+    skos:definition "To be confirmed"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Stratigraphy (incl. biostratigraphy, sequence stratigraphy and basin analysis)"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/370510"^^xsd:anyURI ;
+.
+
+:370511
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "370511"@en ;
+    skos:broader :3705 ;
+    skos:definition "To be confirmed"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Structural geology and tectonics"@en ;
+    schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/370511"^^xsd:anyURI ;
+.
+
+:370512
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "370512"@en ;
+    skos:broader :3705 ;
+    skos:definition "To be confirmed"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Volcanology"@en ;
+    schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/370512"^^xsd:anyURI ;
+.
+
+:370599
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "370599"@en ;
+    skos:broader :3705 ;
+    skos:definition "Geology not elsewhere classified."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Geology not elsewhere classified"@en ;
+    schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/370599"^^xsd:anyURI ;
+.
+
+:370601
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "370601"@en ;
+    skos:broader :3706 ;
+    skos:definition "To be confirmed"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Applied geophysics"@en ;
+    schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/370601"^^xsd:anyURI ;
+.
+
+:370602
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "370602"@en ;
+    skos:broader :3706 ;
+    skos:definition "To be confirmed"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Electrical and electromagnetic methods in geophysics"@en ;
+    schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/370602"^^xsd:anyURI ;
+.
+
+:370603
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "370603"@en ;
+    skos:broader :3706 ;
+    skos:definition "Measurements and representation of the earth, its gravitational field and geodynamic phenomena (polar motion, earth tides, and crustal motion) in three-dimensional time varying space."@en ;
+	skos:historyNote "This concept is drawn from the Legacy GA Corporate Data Classification Scheme (https://pid.geoscience.gov.au/def/voc/ga/CDCS)." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Geodesy"@en ;
+    schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/370603"^^xsd:anyURI ;
+.
+
+:370604
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "370604"@en ;
+    skos:broader :3706 ;
+    skos:definition "To be confirmed"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Geodynamics"@en ;
+    schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/370604"^^xsd:anyURI ;
+.
+
+:370605
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "370605"@en ;
+    skos:broader :3706 ;
+    skos:definition "To be confirmed"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Geothermics and radiometrics"@en ;
+    schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/370605"^^xsd:anyURI ;
+.
+
+:370606
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "370606"@en ;
+    skos:broader :3706 ;
+    skos:definition "To be confirmed"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Gravimetrics"@en ;
+    schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/370606"^^xsd:anyURI ;
+.
+
+:370607
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "370607"@en ;
+    skos:broader :3706 ;
+    skos:definition "To be confirmed"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Magnetism and palaeomagnetism"@en ;
+    schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/370607"^^xsd:anyURI ;
+.
+
+:370608
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "370608"@en ;
+    skos:broader :3706 ;
+    skos:definition "To be confirmed"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Petrophysics and rock mechanics"@en ;
+    schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/370608"^^xsd:anyURI ;
+.
+
+:370609
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "370609"@en ;
+    skos:broader :3706 ;
+    skos:definition "To be confirmed"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Seismology and seismic exploration"@en ;
+    schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/370609"^^xsd:anyURI ;
+.
+
+:370699
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "370699"@en ;
+    skos:broader :3706 ;
+    skos:definition "Geophysics not elsewhere classified."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Geophysics not elsewhere classified"@en ;
+    schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/370699"^^xsd:anyURI ;
+.
+
+:370701
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "370701"@en ;
+    skos:broader :3707 ;
+    skos:definition "To be confirmed"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Contaminant hydrology"@en ;
+    schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/370701"^^xsd:anyURI ;
+.
+
+:370702
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "370702"@en ;
+    skos:broader :3707 ;
+    skos:definition "To be confirmed"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Ecohydrology"@en ;
+    schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/370702"^^xsd:anyURI ;
+.
+
+:370703
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "370703"@en ;
+    skos:broader :3707 ;
+    skos:definition "To be confirmed"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Groundwater hydrology"@en ;
+    schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/370703"^^xsd:anyURI ;
+.
+
+:370704
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "370704"@en ;
+    skos:broader :3707 ;
+    skos:definition "To be confirmed"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Surface water hydrology"@en ;
+    schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/370704"^^xsd:anyURI ;
+.
+
+:370705
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "370705"@en ;
+    skos:broader :3707 ;
+    skos:definition "To be confirmed"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Urban hydrology"@en ;
+    schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/370705"^^xsd:anyURI ;
+.
+
+:370799
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "370799"@en ;
+    skos:broader :3707 ;
+    skos:definition "Hydrology not elsewhere classified."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Hydrology not elsewhere classified"@en ;
+    schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/370799"^^xsd:anyURI ;
+.
+
+:370801
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "370801"@en ;
+    skos:broader :3708 ;
+    skos:definition "To be confirmed"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Biological oceanography"@en ;
+    schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/370801"^^xsd:anyURI ;
+.
+
+:370802
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "370802"@en ;
+    skos:broader :3708 ;
+    skos:definition "To be confirmed"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Chemical oceanography"@en ;
+    schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/370802"^^xsd:anyURI ;
+.
+
+:370803
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "370803"@en ;
+    skos:broader :3708 ;
+    skos:definition "To be confirmed"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Physical oceanography"@en ;
+    schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/370803"^^xsd:anyURI ;
+.
+
+:370899
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "370899"@en ;
+    skos:broader :3708 ;
+    skos:definition "To be confirmed"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Oceanography not elsewhere classified"@en ;
+    schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/370899"^^xsd:anyURI ;
+.
+
+:370901
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "370901"@en ;
+    skos:broader :3709 ;
+    skos:definition "To be confirmed"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Geomorphology and earth surface processes"@en ;
+    schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/370901"^^xsd:anyURI ;
+.
+
+:370902
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "370902"@en ;
+    skos:broader :3709 ;
+    skos:definition "To be confirmed"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Glaciology"@en ;
+    schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/370902"^^xsd:anyURI ;
+.
+
+:370903
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "370903"@en ;
+    skos:broader :3709 ;
+    skos:definition "To be confirmed"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Natural hazards"@en ;
+    schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/370903"^^xsd:anyURI ;
+.
+
+:370904
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "370904"@en ;
+    skos:broader :3709 ;
+    skos:definition "To be confirmed"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Palaeoclimatology"@en ;
+    schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/370904"^^xsd:anyURI ;
+.
+
+:370905
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "370905"@en ;
+    skos:broader :3709 ;
+    skos:definition "To be confirmed"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Quaternary environments"@en ;
+    schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/370905"^^xsd:anyURI ;
+.
+
+:370906
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "370906"@en ;
+    skos:broader :3709 ;
+    skos:definition "To be confirmed"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Regolith and landscape evolution"@en ;
+    schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/370906"^^xsd:anyURI ;
+.
+
+:370999
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "370999"@en ;
+    skos:broader :3709 ;
+    skos:definition "To be confirmed"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Physical geography and environmental geoscience not elsewhere classified"@en ;
+    schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/370999"^^xsd:anyURI ;
+.
+
+:440704
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "440704"@en ;
+    skos:broader :4407 ;
+    skos:definition "To be confirmed"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Environment policy"@en ;
+    schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/440704"^^xsd:anyURI ;
+.
+
+:440708
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "440708"@en ;
+    skos:broader :4407 ;
+    skos:definition "To be confirmed"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Public administration"@en ;
+    schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/440708"^^xsd:anyURI ;
+.
+
+:440709
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "440709"@en ;
+    skos:broader :4407 ;
+    skos:definition "To be confirmed"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Public policy"@en ;
+    schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/440709"^^xsd:anyURI ;
+.
+
+:440710
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "440710"@en ;
+    skos:broader :4407 ;
+    skos:definition "To be confirmed"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Research, science and technology policy"@en ;
+    schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/440710"^^xsd:anyURI ;
+.
+
+:440714
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "440714"@en ;
+    skos:broader :4407 ;
+    skos:definition "To be confirmed"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Urban policy"@en ;
+    schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/440714"^^xsd:anyURI ;
+.
+
+:440799
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "440799"@en ;
+    skos:broader :4407 ;
+    skos:definition "To be confirmed"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Policy and administration not elsewhere classified"@en ;
+    schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/440799"^^xsd:anyURI ;
+.
+
+:460599
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "460599"@en ;
+    skos:broader :4605 ;
+    skos:definition "To be confirmed"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Data management and data science not elsewhere classified"@en ;
+    schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/460599"^^xsd:anyURI ;
+.
+
+:461001
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "461001"@en ;
+    skos:broader :4610 ;
+    skos:definition "To be confirmed"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Digital curation and preservation"@en ;
+    schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/461001"^^xsd:anyURI ;
+.
+
+:461004
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "461004"@en ;
+    skos:broader :4610 ;
+    skos:definition "To be confirmed"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Information governance, policy and ethics"@en ;
+    schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/461004"^^xsd:anyURI ;
+.
+
+:461008
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "461008"@en ;
+    skos:broader :4610 ;
+    skos:definition "To be confirmed"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Organisation of information and knowledge resources"@en ;
+    schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/461008"^^xsd:anyURI ;
+.
+
+:44
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "44"@en ;
+    skos:definition "To be confirmed"@en ;
+    skos:inScheme cs: ;
+    skos:narrower :4407 ;
+    skos:prefLabel "Human Society"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/44"^^xsd:anyURI ;
+.
+
+:4605
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "4605"@en ;
+    skos:broader :46 ;
+    skos:definition "To be confirmed"@en ;
+    skos:inScheme cs: ;
+    skos:narrower :460599 ;
+    skos:prefLabel "Data management and data science"@en ;
+    schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/4605"^^xsd:anyURI ;
+.
+
+:46
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "46"@en ;
+    skos:definition "To be confirmed"@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :4605 ,
+        :4610 ;
+    skos:prefLabel "Information and Computing Sciences"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/46"^^xsd:anyURI ;
+.
+
+:4610
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "4610"@en ;
+    skos:broader :46 ;
+    skos:definition "To be confirmed"@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :461001 ,
+        :461004 ,
+        :461008 ;
+    skos:prefLabel "Library and information studies"@en ;
+    schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/4610"^^xsd:anyURI ;
+.
+
+:3704
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "3704"@en ;
+    skos:broader :37 ;
+    skos:definition "To be confirmed"@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :370401 ,
+        :370402 ,
+        :370403 ,
+        :370499 ;
+    skos:prefLabel "Geoinformatics"@en ;
+    schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/3704"^^xsd:anyURI ;
+.
+
+:3708
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "3708"@en ;
+    skos:broader :37 ;
+    skos:definition "To be confirmed"@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :370801 ,
+        :370802 ,
+        :370803 ,
+        :370899 ;
+    skos:prefLabel "Oceanography"@en ;
+    schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/3708"^^xsd:anyURI ;
+.
+
+:3703
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "3703"@en ;
+    skos:broader :37 ;
+    skos:definition "Pertaining to the study of the chemical composition of the various phases of the earth, and the physical and chemical processes which have produced the observed distribution of the elements and the nuclides in these phases."@en ;
+    skos:historyNote "This definition is drawn from GCMD (https://gcmd.earthdata.nasa.gov/)." ;
+	skos:inScheme cs: ;
+    skos:narrower
+        :370301 ,
+        :370302 ,
+        :370303 ,
+        :370304 ,
+        :370399 ;
+    skos:prefLabel "Geochemistry"@en ;
+    schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/3703"^^xsd:anyURI ;
+.
+
+:3707
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "3707"@en ;
+    skos:broader :37 ;
+    skos:definition "To be confirmed"@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :370701 ,
+        :370702 ,
+        :370703 ,
+        :370704 ,
+        :370705 ,
+        :370799 ;
+    skos:prefLabel "Hydrology"@en ;
+    schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/3707"^^xsd:anyURI ;
+.
+
+:4407
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "4407"@en ;
+    skos:broader :44 ;
+    skos:definition "To be confirmed"@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :440704 ,
+        :440708 ,
+        :440709 ,
+        :440710 ,
+        :440714 ,
+        :440799 ;
+    skos:prefLabel "Policy and administration"@en ;
+    schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/4407"^^xsd:anyURI ;
+.
+
+:37
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "37"@en ;
+    skos:definition "To be confirmed"@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :3703 ,
+        :3704 ,
+        :3705 ,
+        :3706 ,
+        :3707 ,
+        :3708 ,
+        :3709 ;
+    skos:prefLabel "Earth Sciences"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/37"^^xsd:anyURI ;
+.
+
+:3709
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "3709"@en ;
+    skos:broader :37 ;
+    skos:definition "To be confirmed"@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :370901 ,
+        :370902 ,
+        :370903 ,
+        :370904 ,
+        :370905 ,
+        :370906 ,
+        :370999 ;
+    skos:prefLabel "Physical geography and environmental geoscience"@en ;
+    schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/3709"^^xsd:anyURI ;
+.
+
+:3706
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "3706"@en ;
+    skos:broader :37 ;
+    skos:definition "To be confirmed"@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :370601 ,
+        :370602 ,
+        :370603 ,
+        :370604 ,
+        :370605 ,
+        :370606 ,
+        :370607 ,
+        :370608 ,
+        :370609 ,
+        :370699 ;
+    skos:prefLabel "Geophysics"@en ;
+    schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/3706"^^xsd:anyURI ;
+.
+
+:3705
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "3705"@en ;
+    skos:broader :37 ;
+    skos:definition "To be confirmed"@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :370501 ,
+        :370502 ,
+        :370503 ,
+        :370504 ,
+        :370505 ,
+        :370506 ,
+        :370507 ,
+        :370508 ,
+		:370509 ,
+		:370510 ,
+        :370511 ,
+        :370512 ,
+        :370599 ;
+    skos:prefLabel "Geology"@en ;
+    schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/3705"^^xsd:anyURI ;
 .
 
 cs:
     a skos:ConceptScheme ;
-    owl:versionIRI :1.0 ;
-    skos:definition """The GA Vocabulary Register applies a sub-set of concepts from the Australian and New Zealand Fields of Research (FoR) to improve search of the register."""@en ;
+    owl:versionIRI :3 ;
+    skos:definition """The GA Vocabulary Register applies a sub-set of concepts from the Australian and New Zealand Fields of Research (FoR) to improve search of the register as it grows. 
+
+The FoR classification allows research and development activity to be categorised according to the methodology used in the research and development activity, rather than the activity of the unit performing the research and development or the purpose of the research and development activity. The categories in the classification include major fields and related sub-fields of research and emerging areas of study investigated by businesses, universities, tertiary institutions, national research institutions and other organisations. This classification allows the categorisation of fields of research activity within Australia and New Zealand."""@en ;
     skos:hasTopConcept
-        :geochemistry ,
-        :geoinformatics ,
-	:geology ;
-    skos:historyNote """This vocabulary is drawn from the [Australian and New Zealand Research Classification 2020: Fields of Research](https://linked.data.gov.au/def/anzsrc-for/2020/)"""@en ;
-    skos:prefLabel "GA Vocabulary Register Theme"@en ;
+        :37 ,
+        :370509 ,
+        :370510 ,
+        :44 ,
+        :46 ;
+    skos:historyNote "This vocabulary is drawn from the Australian and New Zealand Research Classification 2020: Fields of Research  "@en ;
+    skos:prefLabel "GA Vocabulary Register Vocabulary Themes"@en ;
     prov:qualifiedAttribution
         [
             dcat:hadRole isoroles:custodian ;
@@ -81,33 +914,24 @@ cs:
                 [
                     a schema:Person ;
                     schema:email ""^^xsd:anyURI ;
-                    schema:name "EDD" ;
-                ] ;
-        ] ,
-        [
-            dcat:hadRole isoroles:custodian ;
-            prov:agent
-                [
-                    a schema:Person ;
-                    schema:email ""^^xsd:anyURI ;
-                    schema:name "Team Lead   Data Catalaogue Team" ;
+                    schema:name "ABS" ;
                 ] ;
         ] ;
     schema:creator
         [
             a schema:Organization ;
-            schema:name "Ga" ;
+            schema:name "ABS,Stats NZ,ARC,MBIE" ;
             schema:url ""^^xsd:anyURI ;
         ] ;
-    schema:dateCreated "2025-03-4"^^xsd:date ;
-    schema:dateModified "2025-03-6"^^xsd:date ;
-    schema:keywords
-        "Theme" ;
+    schema:dateCreated "2020-06-30"^^xsd:date ;
+    schema:dateModified "2021-04-29"^^xsd:date ;
+    schema:keywords "None" ;
     schema:publisher
         [
             a schema:Organization ;
-            schema:name "Ga" ;
+            schema:name "GA" ;
             schema:url ""^^xsd:anyURI ;
         ] ;
-    schema:version "1.0" ;
+    schema:version "3" ;
 .
+
