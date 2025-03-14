@@ -35,7 +35,7 @@
     "Statistical_Uncertainty_Type_Boreholes.ttl": "https://pid.geoscience.gov.au/def/voc/ga/StatisticalUncertaintyTypes",
     "UoM.ttl": "http://qudt.org/community/ga/voc", 
     "MiningWasteStatus.ttl": "https://pid.geoscience.gov.au/def/voc/ga/MiningWasteStatus", 
-    "MiningWasteStorage.ttl": "https://pid.geoscience.gov.au/def/voc/ga/MiningWasteStorage"
+    "MiningWasteStorageType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/MiningWasteStorageType"
 }
 
 
