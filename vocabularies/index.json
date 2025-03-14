@@ -36,8 +36,7 @@
     "UoM.ttl": "http://qudt.org/community/ga/voc", 
     "MiningWasteStatus.ttl": "https://pid.geoscience.gov.au/def/voc/ga/MiningWasteStatus", 
     "MiningWasteStorageType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/MiningWasteStorageType", 
-    "MiningWasteStructureType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/MiningWasteStructureType", 
-    "MiningWasteType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/MiningWasteType"
+    "MiningWasteStructureType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/MiningWasteStructureType"
 }
 
 
