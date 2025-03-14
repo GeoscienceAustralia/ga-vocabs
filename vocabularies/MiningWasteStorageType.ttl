@@ -1,0 +1,115 @@
+PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/MiningWasteStorageType/>
+PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/MiningWasteStorageType>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX isoroles: <https://linked.data.gov.au/def/data-roles/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+:underground
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Mining waste storage in an underground environment."@en ;
+    skos:historyNote "This concept is used in a Geoscience Australia Mineral Resources database table (OZMIN.LU_STORAGE_TYPE)" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "underground"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "http://resource.geosciml.org/classifier/cgi/waste-storage/underground"^^xsd:anyURI ;
+.
+
+:underwater
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Mining waste deposited below a natural water body."@en ;
+    skos:historyNote "This concept is used in a Geoscience Australia Mineral Resources database table (OZMIN.LU_STORAGE_TYPE)" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "underwater"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "http://resource.geosciml.org/classifier/cgi/waste-storage/underwater"^^xsd:anyURI ;
+.
+
+:water_cover
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :covered ;
+    skos:definition "Mining waste covered by an engineered water body - (e.g. engineered tailing storage facility (TSF) with a water cover, in-pit tailings with a water cover)."@en ;
+    skos:historyNote "This concept is used in a Geoscience Australia Mineral Resources database table (OZMIN.LU_STORAGE_TYPE)" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "water cover"@en ;
+.
+
+:covered
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :surface ;
+    skos:definition "Covered mining waste storage, with covers typically comprising soil, rock, geosynthetics, plastics or other materials."@en ;
+    skos:historyNote "This concept is used in a Geoscience Australia Mineral Resources database table (OZMIN.LU_STORAGE_TYPE)" ;
+    skos:inScheme cs: ;
+    skos:narrower :water_cover ;
+    skos:prefLabel "covered"@en ;
+    schema:citation "http://resource.geosciml.org/classifier/cgi/waste-storage/covered"^^xsd:anyURI ;
+.
+
+:surface
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Uncovered mining waste storage."@en ;
+    skos:historyNote "This concept is used in a Geoscience Australia Mineral Resources database table (OZMIN.LU_STORAGE_TYPE)" ;
+    skos:inScheme cs: ;
+    skos:narrower :covered ;
+    skos:prefLabel "surface"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "http://resource.geosciml.org/classifier/cgi/waste-storage/surface"^^xsd:anyURI ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    owl:versionIRI :1 ;
+    skos:definition "Terms that describe the storage type a mining waste feature may have."@en ;
+    skos:hasTopConcept
+        :surface ,
+        :underground ,
+        :underwater ;
+    skos:historyNote "This vocabulary is drawn from a Geoscience Australia Mineral Resources database table (OZMIN.LU_STORAGE_TYPE)"@en ;
+    skos:prefLabel "Mineral Resources - Mining Waste Storage Types"@en ;
+    prov:qualifiedAttribution
+        [
+            dcat:hadRole isoroles:custodian ;
+            prov:agent
+                [
+                    a schema:Person ;
+                    schema:email ""^^xsd:anyURI ;
+                    schema:name "Energy And Groundwater Division" ;
+                ] ;
+        ] ,
+        [
+            dcat:hadRole isoroles:custodian ;
+            prov:agent
+                [
+                    a schema:Person ;
+                    schema:email ""^^xsd:anyURI ;
+                    schema:name "Team Lead   Information Services; Minerals" ;
+                ] ;
+        ] ;
+    schema:creator
+        [
+            a schema:Organization ;
+            schema:name "Ga" ;
+            schema:url ""^^xsd:anyURI ;
+        ] ;
+    schema:dateCreated "2022-04-13"^^xsd:date ;
+    schema:dateModified "2024-02-22"^^xsd:date ;
+    schema:keywords
+        "Geology" ,
+        "Mineral Resources" ;
+    schema:publisher
+        [
+            a schema:Organization ;
+            schema:name "Ga" ;
+            schema:url ""^^xsd:anyURI ;
+        ] ;
+    schema:version "1" ;
+.
