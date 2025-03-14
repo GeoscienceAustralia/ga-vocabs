@@ -33,7 +33,8 @@
     "Source_Rock_Quality_Boreholes.ttl": "https://pid.geoscience.gov.au/def/voc/ga/SourceRockQuality",
     "Statistical_Result_Qualifier_Boreholes.ttl": "https://pid.geoscience.gov.au/def/voc/ga/StatisticalResultQualifier",
     "Statistical_Uncertainty_Type_Boreholes.ttl": "https://pid.geoscience.gov.au/def/voc/ga/StatisticalUncertaintyTypes",
-    "UoM.ttl": "http://qudt.org/community/ga/voc"
+    "UoM.ttl": "http://qudt.org/community/ga/voc", 
+    "MiningWasteStatus.ttl": "https://pid.geoscience.gov.au/def/voc/ga/MiningWasteStatus"
 }
 
 
