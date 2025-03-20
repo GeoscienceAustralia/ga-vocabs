@@ -1,0 +1,178 @@
+PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/MiningWasteType/>
+PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/MiningWasteType>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX isoroles: <https://linked.data.gov.au/def/data-roles/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+:cobbing_waste
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :tailings ;
+    skos:definition "Waste resulting from the sorting of a coarse material, (e.g., through beneficiation)."@en ;
+    skos:historyNote "This concept is used in a Geoscience Australia Mineral Resources database table (OZMIN.LU_WASTE_TYPE)" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "cobbing waste"@en ;
+.
+
+:flotation_tailings
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :tailings ;
+    skos:definition "Waste resulting from flotation, a process in which mineralised particles are separated according to their tendency to adhere more or less to air bubbles to form a mineralised oil-based froth (this feature is linked to the natural or designed hydrophobic property of the particle surface)."@en ;
+    skos:historyNote "This concept is used in a Geoscience Australia Mineral Resources database table (OZMIN.LU_WASTE_TYPE)" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "flotation tailings"@en ;
+.
+
+:fly_ash
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Waste from coal-fired power stations."@en ;
+    skos:historyNote "This concept is used in a Geoscience Australia Mineral Resources database table (OZMIN.LU_WASTE_TYPE)" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "fly ash"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:general_mine_waste
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Waste that may be from a combination of waste rock, tailings, heap leach residues, milling artefacts or hydro- or pyrometallurgical processes. May also be used where the specific waste type is unknown."@en ;
+    skos:historyNote "This concept is used in a Geoscience Australia Mineral Resources database table (OZMIN.LU_WASTE_TYPE)" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "general mine waste"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:leach_residues
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :tailings ;
+    skos:definition "Waste resulting from the action of chemical reagents on a material, such as ore or low-grade ore, resulting in the dissolution of some of its elements (e.g., Au, Cu, Al). The hydrometallurgical process is often referred to as heap leaching (and sometimes dump leaching). Waste from aluminium processing commonly referred to as red mud is included as a leach residue."@en ;
+    skos:historyNote "This concept is used in a Geoscience Australia Mineral Resources database table (OZMIN.LU_WASTE_TYPE)" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "leach residues"@en ;
+.
+
+:magnetic-separation_tailings
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :tailings ;
+    skos:definition "Waste resulting from magnetic separation, a process based on the difference in magnetic susceptibility between minerals."@en ;
+    skos:historyNote "This concept is used in a Geoscience Australia Mineral Resources database table (OZMIN.LU_WASTE_TYPE)" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "magnetic-separation tailings"@en ;
+.
+
+:milling
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Waste that results from the process of milling or ore processing. May also include milling artefacts (e.g., spent grinding media, catalysts, chemicals, etc)."@en ;
+    skos:historyNote "This concept is used in a Geoscience Australia Mineral Resources database table (OZMIN.LU_WASTE_TYPE)" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "milling"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:slag
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Waste resulting from smelting or other pyrometallurgical processes."@en ;
+    skos:historyNote "This concept is used in a Geoscience Australia Mineral Resources database table (OZMIN.LU_WASTE_TYPE)" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "slag"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:wash_tailings
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :tailings ;
+    skos:definition "Waste resulting from washing which allows the upgrade of a material through a wet process, usually gravimetry (typically from a coal washery to upgrade raw coal to saleable coal)."@en ;
+    skos:historyNote "This concept is used in a Geoscience Australia Mineral Resources database table (OZMIN.LU_WASTE_TYPE)" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "wash tailings"@en ;
+.
+
+:waste_from_mineral_excavation
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Mine/quarry by-products and waste rock (unprocessed), including overburden, as well as low-grade ore with subeconomic concentrations of metals or minerals. Sometimes known as mullock heaps, rock dumps or rock piles."@en ;
+    skos:historyNote "This concept is used in a Geoscience Australia Mineral Resources database table (OZMIN.LU_WASTE_TYPE)" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "wastes from mineral excavation"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:tailings
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Waste or residue produced from a mineral processing plant."@en ;
+    skos:historyNote "This concept is used in a Geoscience Australia Mineral Resources database table (OZMIN.LU_WASTE_TYPE)" ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :cobbing_waste ,
+        :flotation_tailings ,
+        :leach_residues ,
+        :magnetic-separation_tailings ,
+        :wash_tailings ;
+    skos:prefLabel "tailings"@en ;
+    skos:topConceptOf cs: ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    owl:versionIRI :1 ;
+    skos:definition "Terms that describe the storage type a mining waste feature may have."@en ;
+    skos:hasTopConcept
+        :fly_ash ,
+        :general_mine_waste ,
+        :milling ,
+        :slag ,
+        :tailings ,
+        :waste_from_mineral_excavation ;
+    skos:historyNote "This vocabulary is drawn from a Geoscience Australia Mineral Resources database table (OZMIN.LU_WASTE_TYPE)"@en ;
+    skos:prefLabel "Mineral Resources - Mining Waste Type"@en ;
+    prov:qualifiedAttribution
+        [
+            dcat:hadRole isoroles:custodian ;
+            prov:agent
+                [
+                    a schema:Person ;
+                    schema:email ""^^xsd:anyURI ;
+                    schema:name "Energy And Groundwater Division" ;
+                ] ;
+        ] ,
+        [
+            dcat:hadRole isoroles:custodian ;
+            prov:agent
+                [
+                    a schema:Person ;
+                    schema:email ""^^xsd:anyURI ;
+                    schema:name "Team Lead   Information Services; Minerals" ;
+                ] ;
+        ] ;
+    schema:creator
+        [
+            a schema:Organization ;
+            schema:name "Ga" ;
+            schema:url ""^^xsd:anyURI ;
+        ] ;
+    schema:dateCreated "2022-04-13"^^xsd:date ;
+    schema:dateModified "2024-02-22"^^xsd:date ;
+    schema:keywords
+        "Geology" ,
+        "Mineral Resources" ;
+    schema:publisher
+        [
+            a schema:Organization ;
+            schema:name "Ga" ;
+            schema:url ""^^xsd:anyURI ;
+        ] ;
+    schema:version "1" ;
+.
