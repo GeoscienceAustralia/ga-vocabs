@@ -223,6 +223,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Stratigraphy (incl. biostratigraphy, sequence stratigraphy and basin analysis)"@en ;
     skos:topConceptOf cs: ;
     schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/370510"^^xsd:anyURI ;
+    skos:broader :3705 ;	
 .
 
 :370511
