@@ -211,9 +211,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Sedimentology"@en ;
     skos:topConceptOf cs: ;
     schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/370509"^^xsd:anyURI ;
-.
-
-<https://pid.geoscience.gov.au/def/voc/ga/RegisterTheme/370509 https://pid.geoscience.gov.au/def/voc/ga/RegisterTheme/370510>
     skos:broader :3705 ;
 .
 
