@@ -623,6 +623,17 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/440799"^^xsd:anyURI ;
 .
 
+:460503
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "460503"@en ;
+    skos:broader :4605 ;
+    skos:definition "To be confirmed"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Data models, storage and indexing"@en ;
+    schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/460503"^^xsd:anyURI ;
+.
+
 :460599
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
@@ -686,7 +697,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:broader :46 ;
     skos:definition "To be confirmed"@en ;
     skos:inScheme cs: ;
-    skos:narrower :460599 ;
+    skos:narrower 
+	:460599 ,
+	:460503 ;
     skos:prefLabel "Data management and data science"@en ;
     schema:citation "https://linked.data.gov.au/def/anzsrc-for/2020/4605"^^xsd:anyURI ;
 .
@@ -904,7 +917,7 @@ The FoR classification allows research and development activity to be categorise
         :44 ,
         :46 ;
     skos:historyNote "This vocabulary is drawn from the Australian and New Zealand Research Classification 2020: Fields of Research. Definitions are drawn from various sources as referenced in the History Notes."@en ;
-    skos:prefLabel "GA Vocabulary Register - Themes"@en ;
+    skos:prefLabel "GA Vocabulary Register Themes"@en ;
     prov:qualifiedAttribution
         [
             dcat:hadRole isoroles:custodian ;
@@ -922,7 +935,7 @@ The FoR classification allows research and development activity to be categorise
             schema:url ""^^xsd:anyURI ;
         ] ;
     schema:dateCreated "2020-06-30"^^xsd:date ;
-    schema:dateModified "2021-04-29"^^xsd:date ;
+    schema:dateModified "2025-03-20"^^xsd:date ;
     schema:keywords "None" ;
     schema:publisher
         [
