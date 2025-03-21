@@ -1,0 +1,476 @@
+PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/>
+PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX isoroles: <https://linked.data.gov.au/def/data-roles/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+:apron
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition """A gently dipping surface, occurring at the base of a bathymetric high, that is elevated relative to the adjacent seafloor.
+Cf. "fan/apron" in Harris et al., (2014)."""@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Apron"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "http://resource.geosciml.org/classifier/cgi/waste-storage/covered"^^xsd:anyURI ;
+.
+
+:bank
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "An elevation of the seafloor, often found in water depths less than 200 m (adapted from IHO, 2019). BANKS are lower than SEAMOUNTS and tend to occur in shallower water."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Bank"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "http://resource.geosciml.org/classifier/cgi/waste-storage/surface"^^xsd:anyURI ;
+.
+
+:block
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A discrete, usually angular mass comprising at least two relatively flat surfaces."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Block"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "http://resource.geosciml.org/classifier/cgi/waste-storage/underground"^^xsd:anyURI ;
+.
+
+:break_in_slope
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A marked and/or abrupt change in slope. BREAK IN SLOPE can be used to define the limit of other features (e.g. SHELF, PLATFORM, ESCARPMENT)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Break in Slope"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "http://resource.geosciml.org/classifier/cgi/waste-storage/underwater"^^xsd:anyURI ;
+.
+
+:canyon
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A typically elongated, steep-sided bathymetric low that generally deepens down-slope (modified from IHO, 2019). CANYONS tend to be higher gradient and more complex features than CHANNELS and are larger and more sinuous than GULLIES. VALLEYS tend to have a more limited depth range than CANYONS."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Canyon"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:centreline
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A line that represents the mid-line long axis of a feature. Contrast CENTRELINE with THALWEG and CREST, which define the lines of lowest and highest elevation, respectively, along an elongate feature."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Centreline"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:channel
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A general term for an elongated bathymetric low (adapted from IHO, 2019). CHANNELS tend to have flatter and lower gradient FLOORS than GULLIES and CANYONS, and usually have more variable cross-sections than TROUGHS."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Channel"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:cone
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A topographic high of generally conical shape, which may have a truncated peak. CONES have more pointed peaks and are more symmetrical than KNOLLS."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Cone"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:crest
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A line of highest elevation along a bathymetric high, the lateral position of which can vary longitudinally. CRESTS contrast with CENTRELINES, which define mid-line axes along elongated features."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Crest"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:crevice
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "An elongated narrow opening (adapted from Goudie,  2014). Unlike CANYONS, CREVICES do not necessarily deepen downslope, and unlike TROUGHS, they are not flat bottomed."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Crevice"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:depression
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A general term for a closed-contour bathymetric low. DEPRESSIONS vary in scale from small local features to larger basins. They generally have lower gradient sides than HOLES."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Depression"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:escarpment
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition """A steep slope, separating areas of relatively lower slope (modified from IHO, 2019).
+Cf. "escarpment" in Harris et al., (2014)."""@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Escarpment"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:fan
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "An elevated feature which expands (and typically descends) from a locus to a commonly curved outer margin."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Fan"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:floor
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A relatively broad and lower gradient feature within a bathymetric low, flanked by higher and steeper gradient features."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Floor"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:gap
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A narrow break in an elevated feature (modified from IHO, 2019). GAPS are generally narrower than SADDLES."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Gap"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:groove
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "An elongated, narrow and relatively shallow bathymetric low which commonly occurs in parallel or sub-parallel groups. Unlike GAPS, GROOVES are elongated features, that often occur in groups. GROOVES tend to have higher length/width ratios than CREVICES."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Groove"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:gully
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A steep-sided, low sinuosity, relatively high-gradient channel. GULLIES are typically smaller than CANYONS."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Gully"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:hill
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A distinct elevation generally of irregular shape, less than 1000 m above the surrounding relief as measured from the deepest isobath that surrounds most of the feature (IHO, 2019). HILLS have more irregular profiles than KNOLLS and their length generally exceeds their height (contrast with PEAKS). They are also smaller than SEAMOUNT, and larger than individual HUMMOCKS."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Hill"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:hole
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A sub-circular (in planform) bathymetric low with steep walls and a generally flat Floor (modified from IHO, 2019). HOLES generally have steeper sides than DEPRESSIONS."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Hole"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:hummocks
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A small KNOLL or MOUND, which commonly occurs in groups. HUMMOCKS are generally smaller than KNOLLS and HILLS."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Hummock(s)"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:knoll
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A distinct elevation with a smooth, commonly rounded profile, less than 1000 m above the surrounding relief (modified from IHO, 2019). KNOLLS have more regular profiles than HILLS, and their width generally exceeds their height (contrast with PEAKS). They are also smaller than SEAMOUNTS, and larger than individual HUMMOCKS."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Knoll"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:lineament
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A linear to curvilinear topographic feature of positive, negative or indeterminate relief. May be discontinuous with variable relief (positive to negative) along its length."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Lineament"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:moat
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "An annular or partially annular bathymetric low typically located at the base of isolated raised features (modified from IHO, 2019)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Moat"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:mound
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A distinct elevation with a variable, sometimes rounded profile which is generally less than 500 m above the surrounding seafloor (modified from IHO, 2019)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Mound"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:peak
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A prominent, commonly pointed elevation rising from a larger feature (modified from IHO, 2019)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Peak"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:pinnacle
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A spire-shaped pillar, either isolated or rising from a larger feature (IHO, 2019)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Pinnacle"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:plane
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A flat, or sub-horizontal surface."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Plane"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:plateau
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition """A generally closed-contoured, relatively flat-topped bathymetric high with one or more relatively steep sides (modified from IHO, 2019).
+Cf. "plateau" in Harris et al., (2014)."""@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Plateau"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:platform
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A generally broad, planar surface that is at least partially elevated, and lower gradient, than the surrounding areas (adapted from Goudie, 2014)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Platform"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:promontory
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A protrusion extending from a bathymetric high into deeper water (adapted from IHO, 2019)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Promontory"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:ridge
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition """An elongated elevation of varying complexity, size and gradient (length > width) (modified from IHO, 2019).
+Cf."bridge" and "ridge" in Harris et al., (2014)."""@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Ridge"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:saddle
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A broad pass in an elevated feature (modified from IHO, 2019). SADDLES are generally broader (relative to their height) than GAPS."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Saddle"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:seamount
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition """A prominent feature rising more than 1000 m above the surrounding relief (modified from IHO, 2019). SEAMOUNTS are larger than KNOLLS and HILLS (>1000 m) and may incorporate PEAKS (and other features).
+Cf. "seamount" and "abyss-mountains" in Harris et al., (2014)."""@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Seamount"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:sill
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition """A relatively shallow elevated feature between (or adjacent to) bathymetric lows (e.g. DEPRESSIONS) (modified from IHO, 2019).
+Cf. "sill" in Harris et al., (2014)."""@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Sill"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:slope
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "An inclined surface."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Slope"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:terrace
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition """A generally elongated and planar feature consisting of an upper planar surface, and relatively steeper descending slope. The planar surface is bounded on one side by a steeper ascending slope (modified from IHO, 2019). A TERRACE is not closed-contoured like a PLATEAU, and its lower-gradient surface can be mapped as a PLATFORM.
+Cf "terrace" in Harris et al., (2014)."""@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Terrace"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:thalweg
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A line of lowest elevation along an elongate bathymetric low, the lateral position of which can vary longitudinally. THALWEGS contrast with CENTRELINES, which define mid-line axes along bathymetric lows."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Thalweg"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:trench
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A long, deep, asymmetrical bathymetric low with relatively steep sides (adapted from IHO, 2019). Unlike TROUGHS, TRENCHS are typically asymmetric in cross-section."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Trench"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:trough
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition """An elongated bathymetric low, generally wide and flat bottomed with symmetrical and sub-parallel sides (modified from IHO, 2019). Unlike DEPRESSIONS, TROUGHS are not necessarily closed-contoured, and unlike VALLEYS, they do not always deepen down-slope. Unlike TRENCHS, TROUGHS are typically symmetrical in cross-section.
+Cf. "trough" in Harris et al., (2014)."""@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Trough"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:valley
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "An elongated bathymetric low, typically occurring between prominent bathymetric highs, which generally widens and deepens down-slope (modified from IHO, 2019). VALLEYS have more limited depth-ranges than CANYONS."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Valley"@en ;
+    skos:topConceptOf cs: ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    owl:versionIRI :1.0 ;
+    skos:definition """A vocabulary of MORPHOLOGY FEATURE (Part 1) terms used in the two-part marine and coastal geomorphology classification scheme (International Seabed Geomorphology Mapping Working Group - ISGM-WG: Part 1 Morphology: [https://doi.org/10.5281/zenodo.4071940](https://doi.org/10.5281/zenodo.4071940); Part 2 Geomorphology: [https://doi.org/10.5281/zenodo.7804019](https://doi.org/10.5281/zenodo.7804019)) to describe the shape of the seabed.
+
+This is one of four linked ISGM-WG vocabularies. Definitions in this vocabulary are subject to intermittent review and versioning. Unless otherwise stated, all definitions are derived from the Part 1 Morphology report (Version 2.0 [https://doi.org/10.5281/zenodo.4071940](https://doi.org/10.5281/zenodo.4071940))."""@en ;
+    skos:hasTopConcept
+        :apron ,
+        :bank ,
+        :block ,
+        :break_in_slope ,
+        :canyon ,
+        :centreline ,
+        :channel ,
+        :cone ,
+        :crest ,
+        :crevice ,
+        :depression ,
+        :escarpment ,
+        :fan ,
+        :floor ,
+        :gap ,
+        :groove ,
+        :gully ,
+        :hill ,
+        :hole ,
+        :hummocks ,
+        :knoll ,
+        :lineament ,
+        :moat ,
+        :mound ,
+        :peak ,
+        :pinnacle ,
+        :plane ,
+        :plateau ,
+        :platform ,
+        :promontory ,
+        :ridge ,
+        :saddle ,
+        :seamount ,
+        :sill ,
+        :slope ,
+        :terrace ,
+        :thalweg ,
+        :trench ,
+        :trough ,
+        :valley ;
+    skos:historyNote "This vocabulary describes the glossary in Part 1 of the two-part seabed geomorphology classification scheme. DOI: 10.5281/zenodo4075248"@en ;
+    skos:prefLabel "Seabed geomorphology - Part 1 Morphology"@en ;
+    prov:qualifiedAttribution
+        [
+            dcat:hadRole isoroles:custodian ;
+            prov:agent
+                [
+                    a schema:Person ;
+                    schema:email ""^^xsd:anyURI ;
+                    schema:name "Marine And Coastal Geoscience" ;
+                ] ;
+        ] ,
+        [
+            dcat:hadRole isoroles:custodian ;
+            prov:agent
+                [
+                    a schema:Person ;
+                    schema:email ""^^xsd:anyURI ;
+                    schema:name "Orca Branch" ;
+                ] ;
+        ] ,
+        [
+            dcat:hadRole isoroles:custodian ;
+            prov:agent
+                [
+                    a schema:Person ;
+                    schema:email ""^^xsd:anyURI ;
+                    schema:name "Poc: Rachel Nanson" ;
+                ] ;
+        ] ;
+    schema:creator
+        [
+            a schema:Organization ;
+            schema:name "Isgm Wg" ;
+            schema:url ""^^xsd:anyURI ;
+        ] ;
+    schema:dateCreated "2024-05-22"^^xsd:date ;
+    schema:dateModified "2024-10-18"^^xsd:date ;
+    schema:publisher
+        [
+            a schema:Organization ;
+            schema:name "Ga" ;
+            schema:url ""^^xsd:anyURI ;
+        ] ;
+    schema:version "1.0" ;
+.
