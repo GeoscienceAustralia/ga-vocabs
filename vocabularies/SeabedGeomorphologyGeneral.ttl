@@ -1,0 +1,373 @@
+PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/>
+PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX isoroles: <https://linked.data.gov.au/def/data-roles/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+:BGU-Type_BGU-T
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "BGU-T are defined for commonly used sub-categories of BGU, and can always be simplified up to their BGU and SETTING/PROCESS categories (PART 2 - GEOMORPHOLOGY vocabulary)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "BGU - Type (BGU-T)"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:BGU-subType_BGU-sT
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "BGU-sT provide more granular classification of BGU-T, but can always be simplified up to their BGU-T, BGU and SETTING/PROCESS categories (PART 2 - GEOMORPHOLOGY vocabulary). BGU-sT definitions are not included in this glossary."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "BGU – sub-Type (BGU-sT)"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:Field_of_units
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Delineation of groups of smaller geomorphic units that may or may not be individually and / or partially mapped (e.g. a polygon defining a field of partially mapped DUNES; a polygon defining a field of submarine GULLIES)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Field (of units)"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:basic_geomorphic_unit_BGU
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "BGU are the broadest geomorphic terms used to classify Part 1 (MORPHOLOGY) FEATURE shapes and can always be simplified up to their SETTING/PROCESS categories (PART 2 - GEOMORPHOLOGY vocabulary)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Basic Geomorphic Unit (BGU)"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:buried
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :relative_depth ;
+    skos:definition "Units that have been mapped either at the surface or in the sub-surface (e.g. using sub-bottom imagery) and have minimal surface expression (e.g. a buried FLUVIAL VALLEY visible in sub-bottom data)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "buried"@en ;
+.
+
+:feature
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A list of terms that are used to define seafloor MORPHOLOGY; these were primarily sourced from the list of terms and definitions provided in the International Hydrographic Organization (2019) list of undersea Feature Names which were subsequently updated and illustrated in Dove et al., (2020: Part 1). MORPHOLOGY FEATURE terms (e.g. Ridge, Canyon) are capitalised as proper nouns to help distinguish them from more general morphological descriptors (e.g. upper canyon, canyon wall, crests; Dove et al., 2020)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Feature"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:geomorphology
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition """The study of the shape of the Earth's surface and its formative processes (modified from Harris and Baker, 2011). This may include, but is distinct from, geomorphometry - the science of quantitative terrain characterisation, which encompasses acquisition and processing of topographic data as well as analyses and applications related to geomorphology (see Lecours et al., 2016). “Marine Geomorphology” is used in specific reference to Part 2 GEOMORPHOLOGY (Nanson et al., 2023) and the UNITS defined therein.
+Cf. MORPHOMETRICS."""@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Geomorphology"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "http://resource.geosciml.org/classifier/cgi/waste-storage/covered"^^xsd:anyURI ;
+.
+
+:landform
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "One of the central study objects in the field of geomorphology (the other objects being special linear or point features, like break lines, thalwegs or peaks), a feature of the land surface with conspicuous shape and distinct characteristics (Evans, 2012; MacMillan and Shary, 2009)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "landform"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "http://resource.geosciml.org/classifier/cgi/waste-storage/surface"^^xsd:anyURI ;
+.
+
+:lithology
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Categories for defining the composition of geomorphic units may include, but are not limited to: siliclastic, carbonate, beach rock or bedrock."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "lithology"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:marginal_marine_process
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "The relative contribution of wave, tide and fluvial processes that have formed a unit. E.g. A mapped MOUTHBAR may be fluvial-dominated, tide-influenced and wave-affected (Ft<I>w</I> Ainsworth et al., 2011)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "marginal marine process"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:modern
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :relative_age ;
+    skos:definition "Units formed by active processes, typically more recently than the Late Holocene."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "modern"@en ;
+.
+
+:morphology
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "The shape of the seafloor surface. Where capitalised, “Morphology” is used in specific reference to Part 1 MORPHOLOGY (Dove et al., 2020) and the FEATURES defined therein."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Morphology"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:morphometrics
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Quantitative analysis of the external shape and size of morphological features. Terrain derivatives such as: bathymetric position index (BPI), terrain ruggedness index, slope, aspect, curvature and rugosity are widely used as morphometric parameters with the help of geographic information systems."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "morphometrics"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:palimpsest
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :relative_age ;
+    skos:definition "Units that are relict in origin but which are still undergoing modification by modern processes."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "palimpsest"@en ;
+.
+
+:partially-buried
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :relative_depth ;
+    skos:definition "Geomorphic units that have clear, though partial, seafloor expression (e.g. coarser-grained BEDFORMS amongst muddier PLANE BED)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "partially-buried"@en ;
+.
+
+:particle_size
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :grain_size ;
+    skos:definition "The size distribution of a unit sample, described using the Wentworth (1922) scheme."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "particle size"@en ;
+.
+
+:physiography
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Terms that are used to describe the macroscale physical expression of the seafloor (e.g. CONTINENTAL SHELF). Physiographic terms were primarily derived from Harris et al (2014) global seafloor geomorphology map, however, their complete list of terms have been split between PHYSIOGRAPHIC, Part 1 (MORPHOLOGY) and Part 2 (GEOMORPHOLOGY) vocabularies."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "physiography"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "http://resource.geosciml.org/classifier/cgi/waste-storage/underground"^^xsd:anyURI ;
+.
+
+:process
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "The term PROCESS is used herein to group geomorphic units formed by similar processes and are the broadest (alongside SETTING) Part 2 terms for classifying Part 1 Morphology FEATURES."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Process"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:regressive
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :sea_level ;
+    skos:definition "Units formed during a shoreline regression (seaward advance) associated with a relative sea-level fall (forced or normal; Muto and Steel, 1997)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "regressive"@en ;
+.
+
+:relict
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :relative_age ;
+    skos:definition "Units that formed prior to the Late Holocene under a different process regime to the present, and which are no longer active."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "relict"@en ;
+.
+
+:setting
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Used herein, the term SETTING is used to group geomorphic units formed in specific environments and are the broadest (alongside PROCESS) Part 2 terms for classifying Part 1 Morphology FEATURES."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Setting"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "http://resource.geosciml.org/classifier/cgi/waste-storage/underwater"^^xsd:anyURI ;
+.
+
+:stillsand
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :sea_level ;
+    skos:definition "Units formed during a relative sea-level stillstand (Muto and Steel, 1997)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "stillstand"@en ;
+.
+
+:surface
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :relative_depth ;
+    skos:definition "Units that have been mapped at the surface and have minimal discernible buried component."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "surface"@en ;
+.
+
+:texture
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :grain_size ;
+    skos:definition "The proportion of mud, sand and gravel that comprise a sample, described using the Folk (1954) classification scheme."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "texture"@en ;
+.
+
+:transgressive
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :sea_level ;
+    skos:definition "Units formed during a shoreline transgression (landward migration) associated with a relative sea-level rise (Muto and Steel, 1997)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "transgressive"@en ;
+.
+
+:unit
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Used herein, the term UNIT refers to a three-dimensional geomorphic interpretation of (Part 1: MORPHOLOGY) FEATURES, and usually incorporate both sub-surface (stratigraphic) and formative process interpretations."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "unit"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:grain_size
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "The size of the grains of sediment that comprise a sample can be described in two ways. The relative proportions of mud, sand and gravel are used to describe the TEXTURE (Folk, 1954), and the PARTICLE SIZE distribution of each fraction can be subdivided using the Wentworth (1922) scale of size classes."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :particle_size ,
+        :texture ;
+    skos:prefLabel "grain size"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:relative_age
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Absolute ages for most geomorphic units are unlikely to be available, or necessary; relative ages can be used to indicate their likely age origin."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :modern ,
+        :palimpsest ,
+        :relict ;
+    skos:prefLabel "relative age"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:relative_depth
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Additional burial depth  attributes that can be applied to Part 2 Geomorphology interpretations below the seafloor.  Relative depth helps in understanding the superposition relationships  and burial state of features."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :buried ,
+        :partially-buried ,
+        :surface ;
+    skos:prefLabel "relative depth"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:sea_level
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Refers to the sea level position or trajectory of change during the deposition of geomorphic UNITS."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :regressive ,
+        :stillsand ,
+        :transgressive ;
+    skos:prefLabel "sea level"@en ;
+    skos:topConceptOf cs: ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    owl:versionIRI :1.0 ;
+    skos:definition """A vocabulary of general terms used in the two-part marine and coastal geomorphology classification scheme (International Seabed Geomorphology Mapping Working Group - ISGM-WG: Part 1 Morphology: [https://doi.org/10.5281/zenodo.4071940](https://doi.org/10.5281/zenodo.4071940); Part 2 Geomorphology: [https://doi.org/10.5281/zenodo.7804019](https://doi.org/10.5281/zenodo.7804019)).
+
+This is one of four linked ISGM-WG vocabularies. Definitions in this vocabulary are subject to intermittent review and versioning."""@en ;
+    skos:hasTopConcept
+        :BGU-Type_BGU-T ,
+        :BGU-subType_BGU-sT ,
+        :Field_of_units ,
+        :basic_geomorphic_unit_BGU ,
+        :feature ,
+        :geomorphology ,
+        :grain_size ,
+        :landform ,
+        :lithology ,
+        :marginal_marine_process ,
+        :morphology ,
+        :morphometrics ,
+        :physiography ,
+        :process ,
+        :relative_age ,
+        :relative_depth ,
+        :sea_level ,
+        :setting ,
+        :unit ;
+    skos:historyNote "This vocabulary describes the glossary in Part 2 of the two-part seabed geomorphology classification scheme DOI: 10.5281/zenodo.7804019"@en ;
+    skos:prefLabel "Seabed geomorphology - Method Terms"@en ;
+    prov:qualifiedAttribution
+        [
+            dcat:hadRole isoroles:custodian ;
+            prov:agent
+                [
+                    a schema:Person ;
+                    schema:email ""^^xsd:anyURI ;
+                    schema:name "Orca Branch" ;
+                ] ;
+        ] ,
+        [
+            dcat:hadRole isoroles:custodian ;
+            prov:agent
+                [
+                    a schema:Person ;
+                    schema:email ""^^xsd:anyURI ;
+                    schema:name "Marine And Coastal Geoscience" ;
+                ] ;
+        ] ,
+        [
+            dcat:hadRole isoroles:custodian ;
+            prov:agent
+                [
+                    a schema:Person ;
+                    schema:email ""^^xsd:anyURI ;
+                    schema:name "Poc: Rachel Nanson" ;
+                ] ;
+        ] ;
+    schema:creator
+        [
+            a schema:Organization ;
+            schema:name "Isgm Wg" ;
+            schema:url ""^^xsd:anyURI ;
+        ] ;
+    schema:dateCreated "2024-05-22"^^xsd:date ;
+    schema:dateModified "2024-10-11"^^xsd:date ;
+    schema:publisher
+        [
+            a schema:Organization ;
+            schema:name "Ga" ;
+            schema:url ""^^xsd:anyURI ;
+        ] ;
+    schema:version "1.0" ;
+.
