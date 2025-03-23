@@ -1,0 +1,196 @@
+PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyPhysiography/>
+PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyPhysiography>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX isoroles: <https://linked.data.gov.au/def/data-roles/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyPhysiography//continental_slope>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition """Geological boundary marking the transition between continental and oceanic crust. It is located seaward from the shelf edge to the upper edge of a CONTINENTAL RISE or the point where there is a general reduction in slope. There are two kinds of CONTINENTAL SLOPE, one associated with passive continental margins, the other with active margins (Harff et al., 2016).
+Cf. "slope" in Harris et al., (2014)."""@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "continental slope"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "http://resource.geosciml.org/classifier/cgi/waste-storage/surface"^^xsd:anyURI ;
+.
+
+<https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyPhysiography//continetal_rise>
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition """A gentle slope rising from the oceanic depths towards the foot of a CONTINENTAL SLOPE, created by the accumulation of sediments at the foot of CONTINENTAL SLOPES (Harris et al., 2014).
+Cf. "rise" in Harris et al., (2014)."""@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "continental rise"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "http://resource.geosciml.org/classifier/cgi/waste-storage/underground"^^xsd:anyURI ;
+.
+
+:abyssal_plain
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition """An extensive, flat or gently sloping region, usually found at depths greater than 4 km, covered by up to 1 km sediment thicknesses consisting of fine-grained erosional detritus and biogenic particles (Harff et al., 2016).
+Cf. "abyss - plains" in Harris et al., (2014)."""@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "abyssal plain"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:accretionary_prism
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Sedimentary wedge at a convergent plate margin above a subduction zone created by material of the subducting lower plate scraped off and transferred to the overriding upper plate (modified after Harff et al., 2016)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "accretionary prism"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:axial_high
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition """Elongated ridge up to 15–20 km wide and 500 m high relative to nearby ABYSSAL PLAIN with the shallowest points around neovolcanic zone. The presence of AXIAL HIGHS is due to the upwelling of hot mantle beneath fast spreading centres (Harff et al., 2016).
+Cf. "rift valley" in Harris et al., (2014; Cf. AXIAL VALLEY)."""@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "axial high"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:axial_valley
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition """The axial depression of a MID-OCEAN RIDGE, characteristic of slow spreading centers (Harff et al., 2016).
+Cf. "rift valley" in Harris et al., (2014; Cf. AXIAL HIGH)."""@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "axial valley"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:back-arc_basin
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "An oceanic basin behind a volcanic arc associated with an intraoceanic subduction zone (modified after Harff et al., 2016)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "back-arc basin"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:continental_shelf
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition """The seabed region adjacent to a continent (or around an island), composed of continental crust, and extending from the low-water line to a depth at which there is usually a marked increase of slope towards oceanic depths (modified after Harris et al., 2014).
+Cf. "shelf" in Harris et al., (2014)."""@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "continental shelf"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "http://resource.geosciml.org/classifier/cgi/waste-storage/covered"^^xsd:anyURI ;
+.
+
+:fore-arc_basin
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "An oceanic basin in forearc regions between the OCEANIC TRENCH and the volcanic front (modified after Harff et al., 2016)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "fore-arc basin"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:island_arc
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Marine subset of currently active or formerly active VOLCANOES located near the boundary between two converging tectonic plates. The VOLCANOES are located 150–350 km away from the OCEANIC TRENCH on the overlying plate and define an arc in plan view (modified after Harff et al., 2016)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "island arc"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:mid-ocean_ridge
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition """A linear, narrow volcanic and tectonic region which marks the constructive boundary between two tectonic plates. It is divided into segments by transform FAULTS and other offsets. Depending on the speed of the spreading centre, AXIAL HIGHS or AXIAL VALLEYS can form (Harff et al., 2016).
+Translated from "spreading ridge" Harris et al., (2014)."""@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "mid-ocean ridge"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "http://resource.geosciml.org/classifier/cgi/waste-storage/underwater"^^xsd:anyURI ;
+.
+
+:oceanic_trench
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition """Elongated, deep and narrow trench between the ABYSSAL PLAINS and the border of the upper plate where oceanic lithosphere is bent downward under the margin of the upper plate and dives into the asthenosphere. An OCEANIC TRENCH is about 2 km deeper than the surrounding ocean floor (Harff et al., 2016).
+Cf. "trench" in Harris et al., (2014)."""@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "oceanic trench"@en ;
+    skos:topConceptOf cs: ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    owl:versionIRI :1.0 ;
+    skos:definition """A vocabulary of physiographic terms used by Harris et al (2014:[https://doi.org/10.1016/j.margeo.2014.01.011](https://doi.org/10.1016/j.margeo.2014.01.011)) to map the macroscale shape and geology of the seabed. Many of these terms have been retained by the International Seabed Geomorphology Mapping Working Group (ISGM-WG)  in this PHYISOGRAPHY vocabulary, and some have been shifted into either Part 1 Morphology or Part 2 Geomorphology vocabularies, as indicated (Part 1 Morphology: [https://doi.org/10.5281/zenodo.4071940](https://doi.org/10.5281/zenodo.4071940); Part 2 Geomorphology:[https://doi.org/10.5281/zenodo.7804019](https://doi.org/10.5281/zenodo.7804019)).
+
+This vocabulary comprises one of four linked ISGM-WG vocabularies. """@en ;
+    skos:hasTopConcept
+        <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyPhysiography//continental_slope> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyPhysiography//continetal_rise> ,
+        :abyssal_plain ,
+        :accretionary_prism ,
+        :axial_high ,
+        :axial_valley ,
+        :back-arc_basin ,
+        :continental_shelf ,
+        :fore-arc_basin ,
+        :island_arc ,
+        :mid-ocean_ridge ,
+        :oceanic_trench ;
+    skos:historyNote "This vocabulary describes the glossary in Part 2 of the two-part seabed geomorphology classification scheme DOI: 10.5281/zenodo.7804019"@en ;
+    skos:prefLabel "Seabed geomorphology - Physiography"@en ;
+    prov:qualifiedAttribution
+        [
+            dcat:hadRole isoroles:custodian ;
+            prov:agent
+                [
+                    a schema:Person ;
+                    schema:email ""^^xsd:anyURI ;
+                    schema:name "Marine And Coastal Geoscience" ;
+                ] ;
+        ] ,
+        [
+            dcat:hadRole isoroles:custodian ;
+            prov:agent
+                [
+                    a schema:Person ;
+                    schema:email ""^^xsd:anyURI ;
+                    schema:name "Poc: Rachel Nanson" ;
+                ] ;
+        ] ,
+        [
+            dcat:hadRole isoroles:custodian ;
+            prov:agent
+                [
+                    a schema:Person ;
+                    schema:email ""^^xsd:anyURI ;
+                    schema:name "Orca Branch" ;
+                ] ;
+        ] ;
+    schema:creator
+        [
+            a schema:Organization ;
+            schema:name "Isgm Wg" ;
+            schema:url ""^^xsd:anyURI ;
+        ] ;
+    schema:dateCreated "2024-05-22"^^xsd:date ;
+    schema:dateModified "2024-10-18"^^xsd:date ;
+    schema:publisher
+        [
+            a schema:Organization ;
+            schema:name "Ga" ;
+            schema:url ""^^xsd:anyURI ;
+        ] ;
+    schema:version "1.0" ;
+.
