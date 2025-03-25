@@ -37,7 +37,11 @@
     "MiningWasteStatus.ttl": "https://pid.geoscience.gov.au/def/voc/ga/MiningWasteStatus", 
     "MiningWasteStorageType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/MiningWasteStorageType", 
     "MiningWasteStructureType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/MiningWasteStructureType",
-    "MiningWasteType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/MiningWasteType"
+    "MiningWasteType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/MiningWasteType",
+    "SeabedGeomorphologyGeneral.ttl": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral",
+    "SeabedGeomorphologyMorphology.ttl": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology",
+    "SeabedGeomorphologyPhysiography.ttl": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyPhysiography",
+    "SeabedGeomorphologySettings.ttl": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings"
 }
 
 

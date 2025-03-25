@@ -1,0 +1,3902 @@
+PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/>
+PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX isoroles: <https://linked.data.gov.au/def/data-roles/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+:De_Geer_moraine
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :moraine ;
+    skos:definition "<I>A moraine transverse to the direction of ice flow, formed of a succession of low, relatively narrow, regularly spaced ridges. It forms in shallow bodies of water at the glacier terminus</I> (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "De Geer moraine (BGU-T)"@en ;
+.
+
+:MDAC_chimney
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :MDAC ;
+    skos:definition "OUTCROPPING MDAC pillars that can reach several metres in height and ~1.5 m width. They consist of poorly cemented vertical pipe structures (Judd and Hovland, 2007)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "MDAC chimney (BGU-T)"@en ;
+.
+
+:MDAC_mounds
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :MDAC ;
+    skos:definition "OUTCROPPING MDAC structures in the form of large mounds or hillocks (O’Reilly et al., 2014)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "MDAC mounds (BGU-T)"@en ;
+.
+
+:MDAC_pavements
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :MDAC ;
+    skos:definition "OUTCROPPING MDAC structures in the form of low relief (tens of centimetres thick or less) pavements (Judd and Hovland, 2007)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "MDAC pavements (BGU-T)"@en ;
+.
+
+:MDAC_slab
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :MDAC ;
+    skos:definition "OUTCROPPING MDAC structures in the form of ‘high relief’ slabs (up to a few metres in thickness) (Judd and Hovland, 2007)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "MDAC slab (BGU-T)"@en ;
+.
+
+:abyssal_hill
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Solid_Earth_Setting ;
+    skos:definition """An isolated (or tract of) small elevation(s) on the deep seafloor parallel to a mid ocean ridge and formed by volcanism and block faulting.
+Cf. "abyss - hills" in Harris et al., (2014)."""@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "abyssal hill (BGU)"@en ;
+.
+
+:agglutinating
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :bioherm ;
+    skos:definition "Organic binding of inorganic sediment providing structural support; no skeletal component and limited topographic relief (Riding, 2002) (e.g. <I>Sabellaria</I> polychaete bioherm/mound). Usually allochthonous."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "agglutinating (BGU-T)"@en ;
+.
+
+:anchor_drag
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :disturbance ;
+    skos:definition "Narrow and often sinuous groove left by a dragging anchour on the seafloor (Watson et al., 2022)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "anchor drag (BGU-T)"@en ;
+.
+
+:annulate
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :bioherm ;
+    skos:definition "Three-dimensional structure with ring-like shape/pattern."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "annulate/annular (BGU-T)"@en ;
+.
+
+:arch
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :rocky_coast ;
+    skos:definition "An erosional unit that forms a sea opening (or tunnel) through a rocky headland but with a land connection maintained, forming the roof (Woodroffe, 2002)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "arch (BGU-T)"@en ;
+.
+
+:artificial_reef
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :structure ;
+    skos:definition "Anthropogenic benthic structures built to defend, boost or restore components of the marine ecosystems (Seaman and Lindberg, 2009)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "artificial reef (BGU-T)"@en ;
+.
+
+:atoll
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :biogenic_reef ;
+    skos:definition "Annular mid-ocean REEFS; the REEF rim supports isolated, or near-continuous, reef islands composed of unlithified or poorly consolidated sand or gravel, and encloses a central lagoon (Harris and Baker, 2020; Woodroffe and Biribo, 2011)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "atoll (BGU-T)"@en ;
+.
+
+:axial_volcanic_ridge
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Solid_Earth_Setting ;
+    skos:definition "Composite volcanic edifices, comprising an elongate, typically spreading normal orientated topographic high, produced within the inner valleys of mid-ocean ridges, usually those that are slow spreading  (modified after Harff et al., 2016)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "axial volcanic ridge (BGU)"@en ;
+.
+
+:back-tilted_fault_block
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :tectonic_high ;
+    skos:definition "Section of tilted seabed between two FAULTS. The tilting may produce high relief and intervening basins (modified after Huggett, 2017)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "back-tilted fault block (BGU-T)"@en ;
+.
+
+:back_barrier
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Coastal_Setting ;
+    skos:definition "A relatively protected area between the BARRIER and the mainland, which may be occupied by FLATS or a LAGOON (modified from Davis Jr and FitzGerald, 2009)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "back barrier (BGU)"@en ;
+.
+
+:back_reef
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Biogenic_Process ;
+    skos:definition "Wide (up to kms) zone extending back from the REEF FLAT, mainly found in linear-shaped reefs. BACK REEF zone supports scattered small submerged PATCH REEFS and extensive sand bank development (Maxwell, 1968)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "back reef (BGU)"@en ;
+.
+
+:bank-attached
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :barform ;
+    skos:definition "Any kind of bank-attached BARFORM in SUBAERIAL or SUBMARINE CHANNELS. Tend to form in channels that are well adjusted to their supplied sediment load (Goudie, 2006)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "bank-attached (BGU-T)"@en ;
+.
+
+:barrier_island
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :barrier ;
+    skos:definition "A type of BARRIER that is generally narrow, parallel with, and detached from the main shoreline. Tend to occur in chains that may extend for hundreds of kilometres (modified from Davis Jr and FitzGerald, 2009)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "barrier island (BGU-T)"@en ;
+.
+
+:barrier_reef
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :biogenic_reef ;
+    skos:definition "A REEF that is separated from the main coast by a deep CHANNEL (MORPHOLOGY) or LAGOON (COASTAL SETTING). Initial formation occurs on the offshore edge in open water, with subsequent growth parallel to or toward the coast (Brodie and Cohn, 2021; Maxwell, 1968)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "barrier reef (BGU-T)"@en ;
+.
+
+:barrier_spit
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :barrier ;
+    skos:definition "Types of BARRIERS that tend to form on irregular coasts where relatively high rates of longshore sediment supply promote spit building across embayments and effectively straighten the coast, or in the case of flying spits where the shoreline is protected and BARRIER SPITS extend into deep water. Subtypes (BGU-sT) include flying spits, continuation, constrained bay-mouth and cuspate foreland spits (modified from Davis Jr and FitzGerald, 2009)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "barrier spit (BGU-T)"@en ;
+.
+
+:bay-mouth_barrier
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :barrier ;
+    skos:definition "A type of BARRIER that blocks a bays entrance; are commonly backed by shallow bays and LAGOONS. Often found along microtidal coasts where there is insufficient tidal energy to maintain an open TIDAL INLET (modified from Davis Jr and FitzGerald, 2009)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "bay-mouth barrier (BGU-T)"@en ;
+.
+
+:bayhead
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :coastal_delta ;
+    skos:definition "A type of DELTA located in the landward zone of an embayment, comprising terrigenous sediment sourced from the catchment (Dalrymple et al., 1992)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "bayhead (BGU-T)"@en ;
+.
+
+:beach_cusp
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :coastal_barform ;
+    skos:definition "A rhythmic shoreline unit that forms by wave swash action on sand or gravel BEACHES. Crescentic shape in planform comprising a gently sloping embayment (erosional) flanked by steeper cusp horns (depositional). Typically present as sets of evenly spaced multiple cusps (Masselink and Hughes, 2014)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "beach cusp (BGU-T)"@en ;
+.
+
+:beach_ridge
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Coastal_Setting ;
+    skos:definition "Relict ridges of wave origin, sub to parallel to the open coastline, possibly including wind deposits that collectively form STRANDPLAINS. Active BEACH and shore ridge forms (cf. CURRENT-INDUCED PROCESSES: DUNES –foredune BGU-sT), regardless of their dimensions, shape or origin, are not considered to be BEACH RIDGES by most authors (e.g. Otvos, 2020, modified from 2000)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "beach ridge (BGU)"@en ;
+.
+
+:beachface
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "foreshore"@en ;
+    skos:broader :Coastal_Setting ;
+    skos:definition "The coastal area between the low-tide shoreline (SHOREFACE) and the maximum height of wave effect."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "beachface (BGU)"@en ;
+.
+
+:bedded
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :bedrock_outcrop_undef ;
+    skos:definition "A BEDROCK OUTCROP whose texture shows bedding or sedimentary stratification."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "bedded (BGU-T)"@en ;
+.
+
+:bench
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :barform ;
+    skos:definition "A channelised, bank attached BARFORM. A distinctly stepped, elongate, straight to gently curved unit that is inset along one or both banks, usually over other BARFORMS and are formed by oblique and vertical accretion in overwidened channels (modified from: Brierley and Fryirs, 2013)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "bench (BGU-T)"@en ;
+.
+
+:berm
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :coastal_barform ;
+    skos:definition "A bench of sand, gravel or cobble sediment formed directly landward of the high-tide level on a BEACH, incorporating a berm crest that defines a steepening of the beach seaward (Otvos, 2000)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "berm (BGU-T)"@en ;
+.
+
+:black_smokers
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :hydrothermal_vent ;
+    skos:definition "One to five metre tall chimney or stack-like edifices composed of mixtures of copper-, iron-, and zinc sulfide minerals and calcium- and barium-sulfate minerals. They form as very hot (>350°C) fluid with dark-colored (black) precipitates suspended within exits on very young seafloor and mix with cold seawater (modified after Harff et al., 2016)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "black smokers (BGU-T)"@en ;
+.
+
+:blind_valley
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :carbonate_karst ;
+    skos:definition "Karst valley that terminates abruptly where its stream sinks; the water disappears underground into a doline (modified after Field, 2002)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "blind valley (BGU-T)"@en ;
+.
+
+:blow-out_crater
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Fluid_Flow_Process ;
+    skos:definition "Large circular or irregular Depression created by the release of gas from decomposed hydrate accumulations. Gas decomposition creates hydrofractures through the overburden rocks and sediment, triggering abrupt gas expulsions which blow out the overlying seafloor and collapse of GAS HYDRATE PINGOS (modified after Andreassen et al., 2017)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "blow-out crater (BGU)"@en ;
+.
+
+:bottom_trawl
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :disturbance ;
+    skos:definition "Penetrates the seabed and the resulting FURROWS temporarily remain in the sediment."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "bottom trawl (BGU-T)"@en ;
+.
+
+:bundle_structure
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :streamlined_landform ;
+    skos:definition "An elongated sediment body consisting of groups of mega-scale glacial lineations (MSGLs) (Canals and Amblas 2016 In: Dowdeswell et al., 2016)"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "bundle structure (BGU-T)"@en ;
+.
+
+:cable
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :structure ;
+    skos:definition "A submarine cable laid at the seabed."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "cable (BGU-T)"@en ;
+.
+
+:caldera
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Fluid_Flow_Process ;
+    skos:definition "A circular Depression at the summit of a MUD VOLCANO, where the central conduit crops out at the surface. These structures are related to fluid-rich seeps generally associated passive margins (Ceramicola et al., 2018)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "caldera (mud volcano) (BGU)"@en ;
+.
+
+:canyon_head
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Marine_Setting ;
+    skos:definition "The upslope start or boundary of a SUBMARINE CANYON (Amblas et al., 2018)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "canyon head (BGU)"@en ;
+.
+
+:canyon_mouth
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Marine_Setting ;
+    skos:definition "The downslope terminus or boundary of a SUBMARINE CANYON."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "canyon mouth (BGU)"@en ;
+.
+
+:carbonate_doline
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :carbonate_karst ;
+    skos:definition "Funnel-shaped (dissolution) or steep-sided (collapse) subcircular closed surface depression in a carbonate karst terrain; also called sinkhole."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "carbonate doline (BGU-T)"@en ;
+.
+
+:cave
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :rocky_coast ;
+    skos:definition "A large erosional indentation in a CLIFF face that forms around mean high tide level. May extends tens of metres into the cliff face, particularly in less resistant lithologies such as limestone or sandstone. Typically the product of wave action."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "cave (BGU-T)"@en ;
+.
+
+:channel_ledge
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Coastal_Setting ;
+    skos:definition "Distinctly stepped, flat-topped, elongate, bank-attached units. Have straight to gently curved planforms and flank one or both banks. Composed of the same materials as the adjacent FLOODPLAIN (i.e. sediments are laterally continuous from the CHANNEL LEDGE into their adjacent FLOODPLAIN) and are formed by channel expansion processes where flows selectively erode the upper units of the adjacent surface as the channel incises and expands (Brierley and Fryirs, 2013)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "channel ledge (BGU)"@en ;
+.
+
+:chenier_plain
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :barrier_complex ;
+    skos:definition "Assemblages of CHENIER RIDGES and the FLATS or marsh that separate them (modified from Griffin et al., 2012)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "chenier plain (BGU-T)"@en ;
+.
+
+:chenier_ridge
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Coastal_Setting ;
+    skos:definition "Sandy or shelly elongate RIDGES (MORPHOLOGY), differentiated from other sand or shell BEACH RIDGES by the fact that they are perched over fine grained, muddy (or sometimes marshy) sediments and are separated from one another by these finer-grained deposits (modified from Goudie, 2006)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "chenier ridge (BGU)"@en ;
+.
+
+:chute_channel
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Current-induced_Process ;
+    skos:definition "A channel with typically more rapid flow that cuts through constrictive material and so short-cuts the main flow (e.g. through a BARFORM in a SUBAERIAL CHANNEL; between BARRIER ISLANDS; Goudie, 2006)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "chute channel (BGU)"@en ;
+.
+
+:circular_volcanic_depression
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :magmatic_outcrop ;
+    skos:definition "Roughly circular, cauldron-like depression generally characterized by steep sides and formed during or after a volcanic eruption by volcanic or structural processes (modified after Huggett, 2017)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "circular volcanic depression (BGU-T)"@en ;
+.
+
+:cliff
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :rocky_coast ;
+    skos:definition "A steep slope, or ESCARPMENT formed in rock, ranging in height from tens to hundreds of metres."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "cliff (BGU-T)"@en ;
+.
+
+:closed_lagoon
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :lagoon ;
+    skos:definition "A LAGOON that is isolated from the sea by a BARRIER."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "closed lagoon (BGU-T)"@en ;
+.
+
+:coastal_delta-front
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :coastal_delta ;
+    skos:definition """The subaqueous portion of the delta between the subaerial delta and its associated MOUTHBARS and above wave base, where relatively coarse material is deposited (Postma, 1984; Suter, 1994).
+Cf. FLUVIAL DELTA-FRONT"""@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "coastal delta-front (BGU-T)"@en ;
+.
+
+:coastal_fjord
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :coastal_subaerial_valley ;
+    skos:definition "A type of SUBAERIAL VALLEY; a glacial valley that is drowned by seawater. Cf. GLACIAL SETTING: FJORD; USHAPED VALLEY."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "coastal fjord (BGU-T)"@en ;
+.
+
+:coastal_incised_valley
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :coastal_subaerial_valley ;
+    skos:definition """A type of SUBAERIAL VALLEY; fluvially-eroded, elongate paleotopographic lows that are generally larger than a single channel, and usually develop during a fall in relative sea level and so display abrupt basinward shift of facies at their base. INCISED VALLEY fills typically begin to accumulate during base-level rise (Zaitlin et al., 1994). Cross-shelf and coastal plain (BGU-sT) INCISED VALLEY fills have relatively distinct facies (Wang et al., 2020).
+Cf. FLUVIAL INCISED VALLEY"""@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "coastal incised valley (BGU-T)"@en ;
+.
+
+:coastal_management_structure
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :structure ;
+    skos:definition "A coastal structure (usually of rock, sediment, concrete or wood) projecting into the sea or aligned to the coast, that either protects a shore area by reducing the wave energy or reduces the longshore drift and traps sediment, or delimits and protects a navigation channel and enables the docking of ships (Bulleri and Chapman, 2010; Masselink et al., 2014)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "coastal management structure (BGU-T)"@en ;
+.
+
+:coastal_pro-delta
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :coastal_delta ;
+    skos:definition """The relatively low gradient, subaqueous portion of a delta below wave base, where relatively fine material is deposited.
+Cf. FLUVIAL PRO-DELTA"""@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "coastal pro-delta (BGU-T)"@en ;
+.
+
+:cold-water-coral-reef
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :biogenic_reef ;
+    skos:definition "Framework REEF constructed by azooxanthellate coral, commonly <I>Lophelia pertusa</I> and <I>Madrepora oculata</I> (Lo Iacono et al., 2018), plus sediment trapping/baffling interspersed with dead framework rubble. Other organisms from the cool-water carbonate factory (Schlager, 2003) contribute to build-ups (Lo Iacono et al., 2018)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "cold-water-coral-reef (BGU-T)"@en ;
+.
+
+:complex
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Mass_Movement_Process ;
+    skos:definition "A mass movement where one form of failure develops into a second form of movement i.e. a change of behaviour downslope by the same material."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "complex (BGU)"@en ;
+.
+
+:complex_pockmark
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :pockmark ;
+    skos:definition "A cluster of ’NORMAL’ POCKMARKS or amalgamations of larger POCKMARKS."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "'complex' pockmark (BGU-T)"@en ;
+.
+
+:cone_karst
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :carbonate_karst ;
+    skos:definition "Karst landscape dominated by uniform conical hills separated by star-shaped dolines; narrow steeply walled valleys may also be present (modified after Field, 2002)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "cone karst (BGU-T)"@en ;
+.
+
+:contourite_drift
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :marine_barform ;
+    skos:definition "A type of SEDIMENT DRIFT associated with contourite deposition. CONTOURITE DRIFTS are commonly formed on continental rise to lower slope settings, and produced primarily by thermohaline-induced deepwater bottom currents though may be influenced by wind or tidal forces. The geomorphology of contourite deposits is mainly influenced by the bottom-current velocity, sediment supply, and seafloor topography, and the morphology of the drifts can be variable (Heezen and Hollister, 1964; Rebesco et al., 2014; Stow et al., 2002)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "contourite drift (BGU-T)"@en ;
+.
+
+:coralligène
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :biogenic_reef ;
+    skos:definition "Calcareous algal-invertebrate build-ups mainly produced by generations of calcareous red algae, common in the temperate Mediterranean region, with relatively low relief (cm to m) (Basso et al., 2022; Laborel, 1961; Lo Iacono et al., 2018). May be further classified as bank or rim (Pérès and Picard, 1964)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "coralligène (BGU-T)"@en ;
+.
+
+:corrugation_ridges
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Glacial_Setting ;
+    skos:definition "Small, regularly spaced ridges formed by tidal-induced movement of icebergs or a glacier grounding line during retreat (Bell et al. 2016; Dowdeswell et al. 2020). Ridge spacing indicates the rate of iceberg drift and grounding line retreat (Batchelor et al. 2023)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "corrugation ridges (BGU)"@en ;
+.
+
+:corrugation_ridges_within_ploughmarks
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Glacial_Setting ;
+    skos:definition "<I>Small, parallel ridges formed within ice-berg ploughmarks by icebergs moving up and down in response to tides while ploughing the seafloor</I> (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "corrugation ridges within ploughmarks (BGU)"@en ;
+.
+
+:counterpoint_bar
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :barform ;
+    skos:definition "Occur downstream or distal to bends in SUBAERIAL and SUBMARINE CHANNELS and are preserved as concave-shaped SCROLL BAR patterns. In preserved deposits COUNTERPOINT BARS are superficially similar to POINTBARS (modified from: Smith et al., 2009)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "counterpoint bar (BGU-T)"@en ;
+.
+
+:creek
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :subaerial_channel ;
+    skos:definition "A relatively minor SUBAERIAL CHANNEL, which may be a tributary to a RIVER or DISTRIBUTARY or may flow directly into a BACKBARRIER or the open coast."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "creek (BGU-T)"@en ;
+.
+
+:crevasse-filling
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "crevasse-squeeze ridge"@en ;
+    skos:broader :Glacial_Setting ;
+    skos:definition "<I>A relatively straight ridge of stratified sand and gravel, till or other sediments, formed by the filling of a (surface or basal) crevasse in a stagnant glacier which later melted</I> (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "crevasse-filling (BGU)"@en ;
+.
+
+:crevasse_splay
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :barform ;
+    skos:definition "Generally fan-shaped deposits that accumulate downstream of breaches in subaerial and submarine LEVEES."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "crevasse splay (BGU-T)"@en ;
+.
+
+:crown_crack
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "tension cracks"@en ;
+    skos:broader :Mass_Movement_Process ;
+    skos:definition "A type of open fracture found within partically undisplaced material upslope the EVACUATION AREA and generally parallel to the HEAD SCARP."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "crown crack (BGU)"@en ;
+.
+
+:cuesta
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :bedding_ridge ;
+    skos:definition "Gently dipping BEDDED BEDROCK OUTCROP with an asymmetrical cross-section of escarpment and dip slope (modified after Huggett, 2017)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "cuesta (BGU-T)"@en ;
+.
+
+:cultural_site
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :archaeological ;
+    skos:definition "Any human-made site of archaeological, historical, cultural or ceremonial significance."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "cultural site (BGU-T)"@en ;
+.
+
+:cupola_hill
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Glacial_Setting ;
+    skos:definition "CUPOLA HILLS are THRUST-BLOCK MORAINES or HILL HOLE PAIRS that have been overridden by glaciers (Benn and Evans, 2010)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "cupola hill (BGU)"@en ;
+.
+
+:current-induced_channel
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Current-induced_Process ;
+    skos:definition "A channel of any scale that has been formed by any type of flow."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "current-induced channel (BGU)"@en ;
+.
+
+:current-induced_crag_and_tail
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :bedform ;
+    skos:definition "The elongate mound (tail or shadow) deposited immediately downstream of an obstacle (crag) in the path of flow (tail length centimeter to decimeter). They begin to appear on muddy and sandy substrates in association with surface lineation (0.1–0.3 m/s). They become more prominent and widespread, and occur in association with comet scour and erosional pluck marks, at slightly higher velocities (<0.4 m/s). Mound and tail is the term used for similar structures where the obstacle is a biogenic (or other) mud mound. There may also be a genetic link with rhomboid ripples or rill marks, which develop on generally planar beds at flow velocities slightly greater than those required for surface lineation (Stow et al., 2009)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "current-induced crag and tail (BGU-T)"@en ;
+.
+
+:current-induced_furrow
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :bedform ;
+    skos:definition "Elongate, primarily erosional BEDFORMS, with regular to irregular spacing and a parallel to slightly sinuous planform. They are characterized by incision into the seafloor and are relatively large in scale (width 5–150 m, length 1–10 km). Once established they may develop BEDFORMS within them, in contrast to finer-grained deposition between FURROWS (modified from: Stow et al., 2009)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "current-induced furrow (BGU-T)"@en ;
+.
+
+:cyclic_step
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :bedform ;
+    skos:definition "Supercritical net-accretionary units which accumulate over multiple turbidity current events (Slootman and Cartigny, 2020)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "cyclic step (BGU-T)"@en ;
+.
+
+:debris_apron
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Mass_Movement_Process ;
+    skos:definition "An Apron formed by the accumulation of debris at the base of a steep slope as the result of multiple mass movement events. These are not typically developed within the marine environment but can be found associated with nearshore slope instability."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "debris apron (BGU)"@en ;
+.
+
+:debris_fall
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :fall ;
+    skos:definition "A type of FALL where debris break away from a steep slope and fall, bounce or roll downslope."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "debris fall (BGU-T)"@en ;
+.
+
+:debris_fan
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Mass_Movement_Process ;
+    skos:definition "A Fan formed by the accumulation of debris at the base of a steep slope, as the result of multiple mass movement events, in particular, DEBRIS FLOWS."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "debris fan (BGU)"@en ;
+.
+
+:debris_flow
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :flow ;
+    skos:definition "A FLOW where the mobilised material is a mixture of fine material (sand, silt and clay) and coarse material (gravel and boulders), with a variable quantity of water, forming a muddy slurry which moves downslope (see GLACIOGENIC DEBRIS FLOW within the GLACIAL SETTING)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "debris flow (BGU-T)"@en ;
+.
+
+:debris_topple
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :topple ;
+    skos:definition "A type of TOPPLE where a block of cohesive material, separated by vertical joints, rotates forward."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "debris topple (BGU-T)"@en ;
+.
+
+:depositional_zone
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "Accumulation zone"@en ,
+        "compressional domain"@en ;
+    skos:broader :Mass_Movement_Process ;
+    skos:definition "The most downslope zone of a mass movement, within which the displaced material lies above the original ground surface (modified from: Cruden, 1993). Its lower limit is set by the geometry of the TOE. The DEPOSITIONAL ZONE of SLIDES tends to be dominated by a compressional regime (e.g. thrust and fold systems), whereas for FLOWS the material tends to disperse forming fans or aprons at the base of the slope."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "depositional zone (BGU)"@en ;
+.
+
+:detached_block
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :translated_block ;
+    skos:definition "A TRANSLATED BLOCK that shows minimal transport and, when elongated, aligned with their long axis parallel to the nearest upslope scarp."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "detached block (BGU-T)"@en ;
+.
+
+:dip_slope
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Solid_Earth_Setting ;
+    skos:definition "A natural/gradual slope on the surface of the seabed which is parallel to the dip of the underlying strata (modified after Huggett, 2017)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "dip slope (BGU)"@en ;
+.
+
+:dissipative
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :beach ;
+    skos:definition "A gently sloping sand or gravel deposit, comprising a flat to concave beachface and shallow nearshore trough with no longshore variability (Short, 1999)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "dissipative (BGU-T)"@en ;
+.
+
+:distributary
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :subaerial_channel ;
+    skos:definition "DISTRIBUTARY channels radiate from a parent SUBAERIAL CHANNEL, which they may re-join, and tend to decrease in capacity and sediment calibre, and increase in heterogeneity, downstream as they become increasingly influenced by coastal processes (e.g. tides, waves, backwater effects: Nichols and Fisher, 2007; cf. Lane et al., 2017)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "distributary (BGU-T)"@en ;
+.
+
+:drainage_basin
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Fluvial_Setting ;
+    skos:definition "Includes the DRAINAGE NETWORK and all surfaces draining to them (modified from Goudie, 2006)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "drainage basin (BGU)"@en ;
+    schema:citation "http://resource.geosciml.org/classifier/cgi/waste-storage/surface"^^xsd:anyURI ;
+.
+
+:drainage_network
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Fluvial_Setting ;
+    skos:definition "A collection of SUBAERIAL CHANNELS joined together (modified from Goudie, 2006). Can be sub-classified by their planform pattern, which are frequently used to infer their processes and development (BGU-T: dendritic; parallel; radial; centrifugal; centripetal; distributary; angular; trellis; or annular: Twidale, 2004)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "drainage network (BGU)"@en ;
+    schema:citation "http://resource.geosciml.org/classifier/cgi/waste-storage/underground"^^xsd:anyURI ;
+.
+
+:dredge_scour
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :disturbance ;
+    skos:definition "Any deep and wide mark, depression or scour, caused by the dredging or removal of material from the seabed."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "dredge scour (BGU-T)"@en ;
+.
+
+:dredge_spoil
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :disturbance ;
+    skos:definition "Any type of mound, hillock or bank created by the discharge of sediment or dredged material onto the seafloor."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "dredge spoil (BGU-T)"@en ;
+.
+
+:drumlin
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :streamlined_landform ;
+    skos:definition "<I>A low, smoothly rounded and streamlined overall hill or mound, commonly elongated parallel to the former ice-flow direction with a blunter up-ice face, composed of till or stratified drift, and sometimes having a bedrock core; formed by either erosion or deposition beneath an actively flowing glacier</I> (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "drumlin (BGU-T)"@en ;
+.
+
+:dune
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "megaripple"@en ,
+        "sediment ridge"@en ,
+        "sediment wave"@en ;
+    skos:broader :bedform ;
+    skos:definition "Dunes have a broad range of morphologies and represent larger transverse bedforms (wavelength 0.6–10 m, height 0.1–1 m) than RIPPLES (modified from: Stow et al., 2009). Used herein, DUNES include typically large sand waves and megaripples, as well as coastal foredunes (BGU-sT)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "dune (BGU-T)"@en ;
+.
+
+:erratic
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Glacial_Setting ;
+    skos:definition "<I>A large rock or boulder carried by a glacier or by floating ice and deposited when the ice melted, well away from its place of origin and therefore contrasting with the country rock</I> (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "erratic (BGU)"@en ;
+.
+
+:esker
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Glacial_Setting ;
+    skos:definition "<I>A long, narrow, sinuous ridge of stratified glacifluvial material (generally sand and gravel) deposited by a stream normally flowing beneath a stagnant or retreating glacier in an ice tunnel or subglacial stream bed, and left behind after the disappearance of the glacier</I> (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "esker (BGU)"@en ;
+.
+
+:evacuation_zone
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Mass_Movement_Process ;
+    skos:definition "The most upslope zone of a mass movement, within which the remobilized material lies below the original ground surface (modified from: Cruden, 1993). Its upper limit is set by the geometry of the HEAD SCARP and this zone is normally dominated by extension features such as Blocks or elongated Ridges (Nissen et al., 1999)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "evacuation zone (BGU)"@en ;
+.
+
+:excavation
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Biogenic_Process ;
+    skos:definition "A mappable unit representing sediment transport or reworking by the activity of living benthic infauna and epifauna (bioturbation) (modified from Kristensen et al., 2012). Often mapped as a FIELD, rather than individual components, including (not limited to) feeding trace, nest, burrow, boring, resting site, track, trail, mound."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "excavation (BGU)"@en ;
+.
+
+:extensional_ridge
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Mass_Movement_Process ;
+    skos:definition "An elongated Ridge separated by normal faults, typically observed close to the head scarp."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "extensional ridge (BGU)"@en ;
+.
+
+:fault
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :tectonic_lineament ;
+    skos:definition "A discrete surface, or zone of discrete surfaces, expressed as fractures at seabed, separating two rock masses across which one mass has slid past the other (Asch et al., 2021)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "fault (BGU-T)"@en ;
+.
+
+:fault_valley
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :tectonic_depression ;
+    skos:definition "A linear depression produced by faulting; e.g. a small, narrow valley created within a major FAULT zone by relative depression of narrow slices (modified after Huggett, 2017)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "fault valley (BGU-T)"@en ;
+.
+
+:fish_farm
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :structure ;
+    skos:definition "Enclosures where fish are bred for commercial purposes."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "fish farm (BGU-T)"@en ;
+.
+
+:fish_trap
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :structure ;
+    skos:definition "A device for catching fish that consists of a net or other structure which diverts the fish into an enclosure."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "fish trap (BGU-T)"@en ;
+.
+
+:flute
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :streamlined_landform ;
+    skos:definition "<I>Narrow, elongate, straight, parallel ridge generally consisting of till but sometimes composed of sand or silt/clay</I> (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "flute (BGU-T)"@en ;
+.
+
+:fluvial_delta-front
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :fluvial_delta ;
+    skos:definition """The subaqueous portion of the delta between the subaerial delta and its associated MOUTHBARS and above wave base, where relatively coarse material is deposited (Postma, 1984; Suter, 1994).
+Cf. COASTAL DELTA-FRONT"""@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "fluvial delta-front (BGU-T)"@en ;
+.
+
+:fluvial_fan
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Fluvial_Setting ;
+    skos:definition "Usually cone-shaped forms with surface slopes radiating away from an apex located at the point where the feeder SUBAERIAL CHANNEL splits to form DISTRIBUTARY CHANNELS. Their fan-like geometry can be modified by the confinement of neighbouring fans or valley walls (modified from Goudie, 2006)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "fluvial fan (BGU)"@en ;
+    schema:citation "http://resource.geosciml.org/classifier/cgi/waste-storage/underwater"^^xsd:anyURI ;
+.
+
+:fluvial_fan_lobe
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Fluvial_Setting ;
+    skos:definition "FLUVIAL FAN sedimentation is usually restricted to one part of the fan surface at a time, and the sedimentology of these FAN LOBES are typically internally consistent. FLUVIAL FAN LOBES are abandoned, and new ones are initiated, by channel avulsion."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "fluvial fan lobe (BGU)"@en ;
+.
+
+:fluvial_incised_valley
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :fluvial_subaerial_valley ;
+    skos:definition """A type of SUBAERIAL VALLEY; fluvially-eroded, elongate paleotopographic lows that are generally larger than a single channel, and usually develop during a fall in relative sea level and so display abrupt basinward shift of facies at their base. INCISED VALLEY fills typically begin to accumulate during base-level rise (Zaitlin et al., 1994). Cross-shelf and coastal plain (BGU-sT) INCISED VALLEY fills have relatively distinct facies (Wang et al., 2020).
+Cf. COASTAL INCISED VALLEY"""@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "fluvial incised valley (BGU-T)"@en ;
+.
+
+:fluvial_pro-delta
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :fluvial_delta ;
+    skos:definition """The relatively low gradient, subaqueous portion of a delta below wave base, where relatively fine material is deposited.
+Cf. COASTAL PRO-DELTA"""@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "fluvial pro-delta (BGU-T)"@en ;
+.
+
+:foliated
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :bedrock_outcrop_undef ;
+    skos:definition "A BEDROCK OUTCROP showing a foliated texture, indicative of a metamorphosed nature."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "foliated (BGU-T)"@en ;
+.
+
+:fore-reef
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Biogenic_Process ;
+    skos:definition "The outside slope of a coral REEF seaward of the REEF CREST (or reef edge) facing open sea (Cabioch, 2011; Maxwell, 1968)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "fore-reef (BGU)"@en ;
+.
+
+:foundations_and_moorings
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :structure ;
+    skos:definition "The lowest load-bearing part of any permanent structure to which marine infrastructure may be secured (Randolph and Gourvenec, 2017)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "foundations and moorings (BGU-T)"@en ;
+.
+
+:fracture_zone
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :tectonic_lineament ;
+    skos:definition "Linear units on the ocean floor - often hundreds, even thousands of kilometers long - resulting from the action of offset MID-OCEAN RIDGE axis segments (Harff et al., 2016)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "fracture zone (BGU-T)"@en ;
+.
+
+:fringing_reef
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :biogenic_reef ;
+    skos:definition "REEFS that grow very close to the shore on mainland or high island (continental shelf or volcanic mid ocean island) coasts. Generally shore-attached, although BACK-REEF areas can be shallowly submerged (Maxwell, 1968; Smithers, 2011)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "fringing reef (BGU-T)"@en ;
+.
+
+:frontally_confined_slide
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :slide ;
+    skos:definition "A SLIDE where the compressional TOE region was buttressed by a ramp separating their fill from their foreland. This type of SLIDE does not show a prominent bathymetric expression compared to their total thickening and implies a relatively modest downslope transfer of sediment (Frey-Martínez et al., 2006)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "frontally confined slide (BGU-T)"@en ;
+.
+
+:frontally_emergent_slide
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :slide ;
+    skos:definition "A SLIDE where the compressional TOE region develops above the downslope undisturbed strata, having overridden their ramps. This type of SLIDE shows major bathymetric expressions and involves the downslope transport of significant volumes of material (Frey-Martínez et al., 2006)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "frontally emergent slide (BGU-T)"@en ;
+.
+
+:furrow_rocky_coast
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :rocky_coast ;
+    skos:definition "A narrow incision across the surface of a subhorizontal SHORE PLATFORM, in some cases extending the width of the platform to low tide line (Sunamura, 1992)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "furrow (rocky coast) BGU-T)"@en ;
+.
+
+:gas_hydrate_pingo
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "gas hydrate mound"@en ;
+    skos:broader :pingo ;
+    skos:definition "PINGO formed by volume expansion of existing bedrock or sediment caused by the accumulation and regrowth of gas hydrate within the subsurface (modified after Andreassen et al., 2017)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "gas hydrate pingo (BGU-T)"@en ;
+.
+
+:giant_pockmark
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :pockmark ;
+    skos:definition "A POCKMARK measuring more than 250 m in diameter. This large-scale seepage structures, that may reach diameters >500 m and up to 1–1.5 km across, have been described as the result of very long period of seepage (e.g. Wenau et al., 2017)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "giant pockmark (BGU-T)"@en ;
+.
+
+:glacial_basin
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Glacial_Setting ;
+    skos:definition "<I>In marine geology, a more or less equi-dimensional depression in the seafloor...</I> (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016). Basins ranging from small depressions to trough width basins may be formed in bedrock and/or soft sediments, by glacier erosion, glacitectonic thrusting and/or sediment deformation on soft beds (Benn and Evans, 2010)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "glacial basin (BGU)"@en ;
+.
+
+:glacial_crag_and_tail
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :streamlined_landform ;
+    skos:definition "<I>An elongate hill or ridge in which a resistant mass of bedrock (the crag) has withstood the passage of an ice sheet or glacier, thereby either protecting, or causing the deposition in a lee-side cavity, of an elongate ridge (the tail) of more easily eroded sedimentary debris, often till, on its ice-distal side</I> (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "glacial crag and tail (BGU-T)"@en ;
+.
+
+:glacial_fjord
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Glacial_Setting ;
+    skos:definition "<I>A U-shaped glacial trough whose floor is occupied by the sea. Typically, fjords are steep-sided, overdeepened rock basins with shallow thresholds at the coast. Their form is characteristic of erosion by ice streams, outlet glaciers or valley glaciers which exploited either pre-existing river valleys or underlying weaknesses in the bedrock</I> (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "glacial fjord (BGU)"@en ;
+.
+
+:glacifluvial_delta
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "glacier-fed delta"@en ;
+    skos:broader :Glacial_Setting ;
+    skos:definition "<I>The typical GLACIFLUVIAL DELTA usually consists of coarser-grained sediments, and their front slopes are steep with foreset beds generally dipping 10-30°</I> (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016). GLACIFLUVIAL DELTAS are also referred to as glacier-fed deltas as terrestrial proglacial meltwater streams/rivers carry sediments from a glacier to the marine/lacustrine environment (Benn and Evans, 2010)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "glacifluvial delta (BGU)"@en ;
+.
+
+:glacifluvial_outwash_plain
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "sandur"@en ;
+    skos:broader :Glacial_Setting ;
+    skos:definition "<I>Laterally extensive flat plain of sand and gravel with braided streams of glacial meltwater flowing across them when active. It is an Icelandic term meaning ‘sand’</I> (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "glacifluvial outwash plain (BGU)"@en ;
+.
+
+:glacigenic_debris_flow
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Glacial_Setting ;
+    skos:definition "GLACIGENIC DEBRIS FLOWS are consecutive mass-flows that deposit prograding lobes/wedges of sediment beyond a glacier grounding-line (King et al., 1998; Laberg and Vorren, 1996)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "glacigenic debris flow/lobe (BGU)"@en ;
+.
+
+:glacitectonic_hill
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :hill-hole_pair ;
+    skos:definition "See definition of HILL-HOLE PAIR."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "glacitectonic hill (BGU-T)"@en ;
+.
+
+:glacitectonic_hole
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :hill-hole_pair ;
+    skos:definition "See definition of HILL-HOLE PAIR."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "glacitectonic hole (BGU-T)"@en ;
+.
+
+:glacitectonic_raft
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Glacial_Setting ;
+    skos:definition "<I>Dislocated slab of unconsolidated sediment or rock that has been entrained and transported from its original position by subglacial processes. Large rafts are sometimes referred to as megablocks</I> (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016). See also HILL-HOLE PAIR."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "glacitectonic raft (BGU)"@en ;
+.
+
+:graben
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :tectonic_depression ;
+    skos:definition "A long and narrow valley formed by subsidence between two parallel FAULTS (modified after Huggett, 2017)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "graben (BGU-T)"@en ;
+.
+
+:groove
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :streamlined_landform ;
+    skos:definition "An elongate, ice flow-parallel furrow cut in bedrock (Benn and Evans, 2010; Krabbendam et al., 2016)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "groove (BGU-T)"@en ;
+.
+
+:grounding_zone_wedge
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Glacial_Setting ;
+    skos:definition "<I>A sedimentary depocentre formed at the grounding zone of an ice sheet/ice-shelf system, formed of dipping diamicton beds overlain by horizontal sheets of diamicton, mainly subglacial till. Till emerging from beneath the glacier along a line-source is redistributed by subaqueous debris flows, producing diamicton beds that dip away from the margin. GZWs are usually asymmetrical in long-profile, steeper in the ice-distal direction</I> (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "grounding zone wedge (BGU)"@en ;
+.
+
+:gryphon
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Fluid_Flow_Process ;
+    skos:definition "A steep-sided Cone formed at gas-mud vents. These small-scale Cones (<3-4 m high) generally occur at the flanks or on the summit of MUD VOLCANO DOMES and can be characterised by intense and continuous degassing or more periodic emissions (Etiope, 2015)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "gryphon (mud volcano) (BGU)"@en ;
+.
+
+:gully
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :subaerial_channel ;
+    skos:definition "Though diverse in form, GULLIES tend to be relatively small (though larger than RILLS), steep, narrow, deeply incised SUBAERIAL CHANNELS that are carved into unconsolidated regolith (modified from Goudie, 2006)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "gully (BGU-T)"@en ;
+.
+
+:guyot
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Solid_Earth_Setting ;
+    skos:definition "Flat-topped SEAMOUNTS or PLEATEAUS, usually former VOLCANOES, are formed by gradual subsidence through different stages. In many cases, they are capped by drowned atoll REEFS and pelagic sediment (modified after Harff et al., 2016)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "guyot (BGU-T)"@en ;
+.
+
+:half_graben
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :tectonic_depression ;
+    skos:definition "A GRABEN-like structure bounded by a major FAULT only on one side (modified after Huggett, 2017)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "half graben (BGU-T)"@en ;
+.
+
+:hanging_valley
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :u-shaped_valley ;
+    skos:definition "<I>A tributary glacial valley opening at a relatively high level on the steep side of a larger glacial-cut valley occupied, or formerly occupied, by a trunk glacier. The height drop between the floors of the two valleys is due to the greater erosive power of the trunk glacier</I> (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "hanging valley (BGU-T)"@en ;
+.
+
+:head_scarp
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Mass_Movement_Process ;
+    skos:definition "The upslope boundary of a mass movement, set between undisturbed and remobilised material. It is the visible part of the surface of rupture and can be defined as an extensional failure surface linked at depth to the basal shear surface. In plan-view, head scarps are typified by an arcuate geometry well-defined continuous scarp, particularly in mass movements associated with a higher degree of desegregation (e.g., SLIDES, FLOWS). However, a head scarp can also present a sinuous geometry due to localised retrogressive erosion of the scarp (Bull et al., 2009)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "head scarp (BGU)"@en ;
+.
+
+:high-energy_confined_floodplain
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :floodplain ;
+    skos:definition "Develop in steep-walled, high energy (>300 W/m^2) VALLEYS, can be comprised of poorly sorted or vertically accreted alluvium, and typically erode and deposit during catastrophic flows (Nanson and Croke, 1992)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "high-energy confined floodplain (BGU-T)"@en ;
+.
+
+:historical_wreck
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :archaeological ;
+    skos:definition "As a WRECK but with archaeological or historical value."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "historical wreck (BGU-T)"@en ;
+.
+
+:hogback
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :bedding_ridge ;
+    skos:definition "Steeply dipping BEDDED BEDROCK OUTCROP with symmetrical cross-section (modified after Huggett, 2017)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "hogback (BGU-T)"@en ;
+.
+
+:homoclinal_ridge
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :bedding_ridge ;
+    skos:definition "Moderately dipping BEDDED BEDROCK OUTCROP ridge with asymmetrical cross-section (modified after Huggett, 2017)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "homoclinal ridge (BGU-T)"@en ;
+.
+
+:horst
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :tectonic_high ;
+    skos:definition "Long and fairly narrow section of seabed raised by upthrust between two FAULTS (modified after Huggett, 2017)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "horst (BGU-T)"@en ;
+.
+
+:hummocky_terrain
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Glacial_Setting ;
+    skos:definition "A glacial landscape with a highly irregular surface, characterised by a series of small mounds, ridges and depressions. Associated with glacier/ice sheet grounding zones (Ottesen and Dowdeswell, 2009)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "hummocky terrain (BGU)"@en ;
+.
+
+:hydrothermal_mound
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Fluid_Flow_Process ;
+    skos:definition "Circular or irregular mounding structures formed by the precipitated minerals that accumulate at hydrothermal vent sites (modified after Harff et al., 2016)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "hydrothermal mound (BGU)"@en ;
+.
+
+:ice-contact_delta
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Glacial_Setting ;
+    skos:definition "ICE-CONTACT DELTAS form at glacier margins and develop from e.g. ice proximal grounding line fans or other submerged depositional units (Benn and Evans, 2010)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ice-contact delta (BGU)"@en ;
+.
+
+:ice-proximal_fan
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "grounding zone fan"@en ,
+        "grounding-line fan"@en ,
+        "ice-contact fan"@en ;
+    skos:broader :Glacial_Setting ;
+    skos:definition "<I>Fan-shaped sediments produced by deposition from sediment-laden meltwater as it exits from subglacial meltwater tunnels, ususally at the base of tidewater glacier terminal ice CLIFFS</I> (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ice-proximal fan (BGU)"@en ;
+.
+
+:iceberg_grounding_pit
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Glacial_Setting ;
+    skos:definition "<I>A discrete, usually roughly circular depression in seafloor sediment caused by the impact of the keel of an iceberg</I> (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "iceberg grounding pit (BGU)"@en ;
+.
+
+:impact_crater
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Solid_Earth_Setting ;
+    skos:definition "Remains of an ancient meteorite-impact structure on the Earth's surface, generally in the form of a circular scar of crushed and deformed bedrock (modified after Huggett, 2017)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "impact crater (BGU)"@en ;
+.
+
+:intermediate
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :beach ;
+    skos:definition "A low gradient sand or gravel deposit comprising a berm of variable width and height, BEACH CUSPS, and nearshore trough and bar of variable planform (straight, crescentic, transverse); may also feature a SHOREFACE TERRACE or RIDGE AND RUNNEL attached to the beachface (Short, 1999)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "intermediate (BGU-T)"@en ;
+.
+
+:intermittently_closed_and_open_lagoon
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :lagoon ;
+    skos:definition "A LAGOON that switches from being open and closed to tidal exchange, due to flucutations in freshwater input."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "intermittently closed and open lagoon (BGU-T)"@en ;
+.
+
+:intertidal_bar
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "ridgebar"@en ;
+    skos:broader :coastal_barform ;
+    skos:definition "A low gradient sand bar that forms in the intertidal zone of BEACHES. On macrotidal coasts, multiple bars typically form into a RIDGE AND RUNNEL system (Masselink and Hughes, 2014)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "intertidal bar (BGU-T)"@en ;
+.
+
+:intertidal_flat
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :tidal_flat ;
+    skos:definition "A low gradient surface that emerges at low tide and is inundated at high tide. Typically occupied by mangrove and saltmarsh communities."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "intertidal flat (BGU-T)"@en ;
+.
+
+:joint
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :tectonic_lineament ;
+    skos:definition "Small-scale fractures along which no movement has taken place, or at least no differential movement (Huggett, 2017)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "joint (BGU-T)"@en ;
+.
+
+:karst_plain
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :carbonate_karst ;
+    skos:definition "Limestone plain with karst units, most commonly CARBONATE DOLINES and caves (modified after Field, 2002)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "karst plain (BGU-T)"@en ;
+.
+
+:kettle_hole
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Glacial_Setting ;
+    skos:definition "<I>Steep-sided hollow produced by the melt-out of an original deposit which also contained finer materials that were removed by wind or water action</I> (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "kettle hole (BGU)"@en ;
+.
+
+:knickpoint
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Current-induced_Process ;
+    skos:definition "A KNICKPOINT is a substantially steepened section of a long profile (modified from Goudie, 2006), usually measured along the thalweg or centreline of a CHANNEL, VALLEY or CANYON."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "knickpoint (BGU)"@en ;
+.
+
+:lag
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :bedform ;
+    skos:definition "Relatively coarse sediment that remains after finer material has been winnowed away by flows. Often forms a protective layer over mixed / finer grained sediment below, but may also occur over unrelated hard substrate."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "lag (BGU-T)"@en ;
+.
+
+:lateral_moraine
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :moraine ;
+    skos:definition "<I>A ridge of glacial debris flanking a glacier side or lying along the sides of a valley formerly occupied by a glacier</I> (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "lateral moraine (BGU-T)"@en ;
+.
+
+:lateral_scarp
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Mass_Movement_Process ;
+    skos:definition "A scarp, normally parallel to the main direction of transport, which represents the lateral confining boundary to a mass movement. Depending on the overall structure and type of collapse, a lateral scarp may only have a minor superficial expression or be associated with a steep relief."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "lateral scarp (BGU)"@en ;
+.
+
+:lateral_spread
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Mass_Movement_Process ;
+    skos:definition "A mass movement produced by the lateral extension of a cohesive rock or debris over a deforming mass of softer underlying material (modified from Goudie, 2006). They usually occur on very gentle slopes or flat terrain and the failure is caused by liquefaction, the process whereby saturated, loose, cohesionless sediments (usually sands and silts) are transformed from a solid into a liquefied state."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "lateral spread (BGU)"@en ;
+.
+
+:ledge
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :barform ;
+    skos:definition "An erosional channelised BARFORM that develops through flow erosion into a channel bank. LEDGE stratigraphy is continuous with the adjacent channel margin (usually FLOODPLAIN or TERRACE) into which the channel flow has eroded. Unpaired LEDGES reflect lateral flow shift during incision, whereas paired ledges indicate incision only (modified from: Brierley and Fryirs, 2013). Cf FLOODPLAIN TERRACE."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ledge (BGU-T)"@en ;
+.
+
+:lenticular
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :bioherm ;
+    skos:definition "Three-dimensional structure with convex lens-like shape."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "lenticular (BGU-T)"@en ;
+.
+
+:levee
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :barform ;
+    skos:definition "A typically wedge-shaped BARFORM formed of channel-derived, suspended sediment that fines upwards and also away from the channel source. LEVEES vary markedly in scale, though Marine LEVEES tend to be much larger than their terrestrial counterparts (modified from: Goudie, 2006)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "levee (BGU-T)"@en ;
+.
+
+:lineation
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :bedform ;
+    skos:definition "Thin and narrow linear accumulations of sediment that may develop downstream of OBSTACLE AND SCOUR or CRAG AND TAIL, or elsewhere under relatively low flow velocities and independent of other BEDFORMS (cf. Stow et al., 2009)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "lineation (BGU-T)"@en ;
+.
+
+:low-energy_cohesive_floodplain
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :floodplain ;
+    skos:definition "Develop in low energy (<10 W/m^2), low gradient settings by overbank accretion of coarse to more typically fine sediment, deposited by anastomosing or laterally-stable meandering channels (Nanson and Croke, 1992)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "low-energy cohesive floodplain (BGU-T)"@en ;
+.
+
+:lower
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :coastal_delta ;
+    skos:definition "The portion of a DELTA directly affected by tides."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "lower (BGU-T)"@en ;
+.
+
+:magmatic_dome
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :magmatic_outcrop ;
+    skos:definition "Dome-shaped magmatic structures formed by intrusive forces that are found within the lithosphere (modified after Huggett, 2017)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "magmatic dome (BGU-T)"@en ;
+.
+
+:magmatic_sheet
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :magmatic_outcrop ;
+    skos:definition "Tabular, sheet-like magmatic intrusions into crustal structural weaknesses (Harff et al., 2016)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "magmatic sheet (BGU-T)"@en ;
+.
+
+:marine_reef
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Marine_Setting ;
+    skos:definition "A general term for an occurrence of rock, biogenic, or other stable material that lies at or near the sea surface, and is elevated at least partially above the surrounding seabed. REEFS may be further classified by BIOGENIC PROCESSES."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "marine reef (BGU)"@en ;
+.
+
+:mass-movement_compressional_ridge
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "transverse ridge"@en ;
+    skos:broader :Mass_Movement_Process ;
+    skos:definition "An elongated ridge perpendicular to the main direction of transport, typically found in the distal parts of slides with the deformation front limiting the downslope extent of the slide."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "mass-movement compressional ridge (BGU)"@en ;
+.
+
+:mass-movement_toe
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Mass_Movement_Process ;
+    skos:definition "The lower boundary of a mass movement, set between the remobilised and undisturbed material. In FRONTALLY CONFINED SLIDES this usually curved margin coincides with the intersection between the lower part of the surface of rupture of a landslide and the original ground surface. Where remobilised material is moved beyond the lower part of the surface of rupture the boundary may be diffuse and have limited bathymetric expression."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "mass-movement toe (BGU)"@en ;
+.
+
+:massive
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :bedrock_outcrop_undef ;
+    skos:definition "A BEDROCK OUTCROP showing a massive texture, often indicative of a magmatic nature."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "massive (BGU-T)"@en ;
+.
+
+:mat
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Biogenic_Process ;
+    skos:definition "A sheet-like organic and detrital-rich accumulation generated from baffling and trapping (± binding) by macrophytes (e.g. seagrass), filamentous algae and cyanobacteria to form an organo-sedimentary build-up. Examples include ‘algal mat’ and ‘seagrass bed’. Usually allochthonous."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "mat (BGU)"@en ;
+.
+
+:medial_moraine
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Glacial_Setting ;
+    skos:definition "<I>Moraine formed at the confluence of two glaciers, where debris can be entrained at the glacier bed and surface. Entrained debris can be a shallow unit or extend to the base of the glacier, depending on the detailed mechanisms of formation</I> (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "medial moraine (BGU)"@en ;
+.
+
+:medium-energy_unconfined_floodplain
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :floodplain ;
+    skos:definition "Develop in medium energy (10 – 300 W/m^2) and generally unconfined settings by both lateral migration and overbank accretion during regular flow events, and usually have coarser-grained (high permeability) basal strata (Nanson and Croke, 1992)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "medium-energy unconfined floodplain (BGU-T)"@en ;
+.
+
+:mega-scale_glacial_lineation
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :streamlined_landform ;
+    skos:definition "<I>Elongate landforms, produced typically in subglacial sediments, which reflect fast ice flow of an ice sheet and thought to be indicative of ice streaming. MSGLs characteristically have length:width ratios greater than 15:1 and have a convergent flow pattern. MSGLs typically have a large zone of convergence feeding into a main trunk, which may then diverge again near the ice margin</I> (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "mega-scale glacial lineation (BGU-T)"@en ;
+.
+
+:meltwater_channel
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Glacial_Setting ;
+    skos:definition "<I>A channel produced by the flow of glacial meltwater. Where the channel is subglacial, pressurized water may flow upslope as well as downslope, producing an undulating channel long-profile</I> (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016)"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "meltwater channel (BGU)"@en ;
+.
+
+:mid-channel_bar
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :barform ;
+    skos:definition "Most common in actively meandering channels and tend to develop in steeper channel sections downstream of rapidly eroding bends where the channel is overwidened, and though they have lower preservation potential (Goudie, 2006) they may evolve towards bank attachment (Hooke, 1986; Alabyan and Chalov, 1998). Cf BANK-ATTACHED BARS."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "mid-channel bar (BGU-T)"@en ;
+.
+
+:mine
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :structure ;
+    skos:definition "A self-contained explosive device placed in water to damage or destroy surface ships or submarines."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "mine (BGU-T)"@en ;
+.
+
+:mine_tailings
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :disturbance ;
+    skos:definition "Erosion or accumulation areas produced by the discharge of ground rock and process effluents that are generated in a mine processing plant."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "mine tailings (BGU-T)"@en ;
+.
+
+:minor_scarp
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "secondary escarpment"@en ;
+    skos:broader :Mass_Movement_Process ;
+    skos:definition "A scarp that can appear morphologically similar to a HEAD SCARP but is fully located within the EVACUATION ZONE and downslope of the HEAD SCARP."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "minor scarp (BGU)"@en ;
+.
+
+:moat
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "subsidence rim"@en ;
+    skos:broader :Fluid_Flow_Process ;
+    skos:definition "An annular lowland around the base of a MUD VOLCANO. Kopf (2002) suggested these types of Depressions form after mud-volcano activity has ceased and dewatering occurs, resulting in subsidence around the structure. Alternatively, Somoza et al., (2002) proposed they could also be caused by erosional bottom currents that are deflected by the mud volcano cone."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "moat (mud volcano) (BGU)"@en ;
+.
+
+:mouthbar
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :barform ;
+    skos:definition "Form where coarse sediment is delivered to the mouth of SUBAERIAL (Wright et al., 1974) and SUBMARINE CHANNELS (Hodgson et al., 2022)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "mouthbar (BGU-T)"@en ;
+.
+
+:mud_dome
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "cone"@en ;
+    skos:broader :mud_volcano ;
+    skos:definition "A MUD VOLCANO (a mean surface slope of >10°) formed when the upwelling mud remains plastic (Lance et al., 1998)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "mud dome (BGU-T)"@en ;
+.
+
+:mud_pie
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :mud_volcano ;
+    skos:definition "This type of MUD VOLCANO is characterised by a mean surface slope of <5°. The feeder, or conduit, is the central feature through which mud extrusion is facilitated (Kopf, 2002) and is usually wider."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "mud pie (BGU-T)"@en ;
+.
+
+:mudflow
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :flow ;
+    skos:definition "A FLOW where the mobilised material is of single and fine grain size and coarse clasts are rare."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "mudflow (BGU-T)"@en ;
+.
+
+:mudflow_fan
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Mass_Movement_Process ;
+    skos:definition "A Fan formed by the accumulation of sediments as the result of multiple MUD FLOW events. These will be smaller and less complex than SUBMARINE FAN."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "mudflow fan (BGU)"@en ;
+.
+
+:mudflow_gully
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Mass_Movement_Process ;
+    skos:definition "A narrow, incised SUBMARINE GULLY formed by a single or multiple mudflows events. Mudflow gullies of varying scales exert different influences on the distribution of the associated DEPOSITIONAL ZONE and influence the connectivity of continuity reservoirs."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "mudflow gully (BGU)"@en ;
+.
+
+:mudflow_mud-volcano
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Fluid_Flow_Process ;
+    skos:definition "A type of FLOW where the sediments (mud) fluidised by gas and water form a muddy slurry which moves downslope from the flanks of a MUD VOLCANO. The composition of the mudflows can be highly variable and usually corresponds directly to the nature of the conduit and the lithology of the mobilised sediments, although it may also include loose conduit wall rock fragments removed by the ascending mud at the initial phase of an eruptive cycle."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "mudflow (mud volcano) (BGU)"@en ;
+.
+
+:multi-keeled_ploughmark
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :iceberg_ploughmark ;
+    skos:definition "An ICEBERG PLOUGHMARK characterised by several parallel grooves ploughed simultaneously by multiple iceberg keels (Lien et al., 1989)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "multi-keeled ploughmark (BGU-T)"@en ;
+.
+
+:nearshore_bar
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :coastal_barform ;
+    skos:definition "A deposit of sand or gravel that forms in the nearshore (subtidal) zone of a BEACH. Variable in planform, ranging from straight to cresentic to transverse (oblique to shoreline). May be continuous alongshore or discontinuous with rip channels separating adjacent bars (Short, 1999)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "nearshore bar (BGU-T)"@en ;
+.
+
+:normal_pockmark
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :pockmark ;
+    skos:definition "A POCKMARK, typically measuring from 10 m up to a few hundred meter in diameter, and from 1 m to 25 m deep. Hovland et al. (2010), suggested that these could manifest periodic or intermittent gas bursts (eruptions), with extended intervening periods of slow, diffusive, and cyclic pore-water seepage."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "'normal' pockmark (BGU-T)"@en ;
+.
+
+:notch
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :rocky_coast ;
+    skos:definition "A shallow erosional indentation in a CLIFF face that forms around mean high tide level. More common in rocks less resistant to weathering, notably limestone (Masselink and Hughes, 2014)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "notch (BGU-T)"@en ;
+.
+
+:obstacle_and_comet_scour
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :bedform ;
+    skos:definition "OBSTACLE (aka. crag) AND COMET SCOUR refers to the crescentic to elongate scour marks around and extending downstream from an obstacle in the path of flow. Although these may include depositional tails, they occur at relatively high flow velocities (0.4 to >1 m/s) and are principally erosional in origin. Scour length varies from meters to hundreds of meters. Forms transitional to CRAG AND TAIL structures with small-sized obstacles and less well developed SCOUR marks (decimeter scale) occur at the lower end of this velocity spectrum. Erosional SCOUR crescents, irregular pluck marks, and tool marks may all occur without an associated obstacle (Stow et al., 2009)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "obstacle and comet scour (BGU-T)"@en ;
+.
+
+:oceanic_core_complex
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Solid_Earth_Setting ;
+    skos:definition "The uplifted footwalls of oceanic detachment FAULTS. They are elevated, dome-shaped massifs, typically with prominent spreading-parallel corrugations on smoothly curved upper surfaces. These surfaces represent exposed now-inactive low-angle FAULT planes that have been directly responsible for the exhumation of mantle and plutonic lithologies onto the seafloor (Maffione et al., 2013; Tucholke et al., 1998)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "oceanic core complex (BGU)"@en ;
+.
+
+:open_lagoon
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :lagoon ;
+    skos:definition "A LAGOON that is open to tidal exchange via a narrow tidal inlet, or channel through a BARRIER."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "open lagoon (BGU-T)"@en ;
+.
+
+:other_archaeological
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :archaeological ;
+    skos:definition "Any other marine unit of archaeological or cultural value."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "other archaeological  (BGU-T)"@en ;
+.
+
+:other_disturbance
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :disturbance ;
+    skos:definition "Any other anthropogenic disturbance."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "other disturbance (BGU-T)"@en ;
+.
+
+:other_structure
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :structure ;
+    skos:definition "Any other human marine-based structure."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "other structure (BGU-T)"@en ;
+.
+
+:outcrop
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :rocky_coast ;
+    skos:definition "A general term to describe coast and seafloor that is composed of undifferentiated ROCKY OUTCROP."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "outcrop (BGU-T)"@en ;
+.
+
+:outrunner_block
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :translated_block ;
+    skos:definition "A TRANSLATED BLOCK that glided beyond the main body of a mass movement, in some cases over sufficient distances to become aligned with their long axis parallel to the direction of flow (Nissen et al., 1999)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "outrunner block (BGU-T)"@en ;
+.
+
+:oxbow
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Current-induced_Process ;
+    skos:definition "An abandoned channel reach, typically meandering in plan view, formed as a result of channel cut-off and channel adjustment (Reineck and Singh, 2012)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "oxbow (BGU)"@en ;
+.
+
+:patch_reef
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :biogenic_reef ;
+    skos:definition "Often found nearby or within other REEF types. Characterised by isolated patches of reef that are physically separated from other reef patches by the surrounding substrate (Brodie and Cohn, 2021; Maxwell, 1968)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "patch reef (BGU-T)"@en ;
+.
+
+:permafrost_pingo
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :pingo ;
+    skos:definition "PINGO with an ice-core formed by either the intrusion of water under pressure which freezes or by the growth of segregated ice lenses (adapted from Bell et al. 1997. In: Dowdeswell et al., 2016)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "permafrost pingo (BGU-T)"@en ;
+.
+
+:permafrost_pingo_depression
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Fluid_Flow_Process ;
+    skos:definition "An irregularly shaped, steep-sided depression that is formed when the ice core of a submarine permafrost pingo thaws. An ‘inverted landform’ originating as a PINGO (Paull et al., 2022)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "permafrost pingo depression (BGU)"@en ;
+.
+
+:pipeline
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :structure ;
+    skos:definition "A pipeline that is laid on the seabed or below it inside a trench (Randolph and Gourvenec, 2017)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "pipeline (BGU-T)"@en ;
+.
+
+:plane_bed
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :bedform ;
+    skos:definition "Can develop during opposing ends of flow energy spectrum, via limited to no sediment movement (sub-critical flow) or by excess flow velocity relative to sediment supply (supercritical flow) (Simons and Richardson, 1966). Alternatively, PLANE BEDS can accumulate via passive fallout of suspended sediment (e.g. biogenic accumulation)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "plane bed (BGU-T)"@en ;
+.
+
+:platform_reef
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :biogenic_reef ;
+    skos:definition "A flat or nearly flat area of live or dead coral REEF elevated above the surrounding seafloor and dropping off in depth abruptly on one or more sides (Harris and Baker, 2020). PLATFORM REEFS tend to grow in all directions, and can reach sea level (Maxwell, 1968), forming islands which then may form FRINGING REEF around them (Brodie and Cohn, 2021)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "platform reef (BGU-T)"@en ;
+.
+
+:plunge_pool
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Current-induced_Process ;
+    skos:definition "Depressions situated downstream of steep reaches of SUBAERIAL and SUBMARINE CHANNELS, VALLEYS and GULLIES, and CANYONS, and downstream of escarpments where flows either excavate basement material (e.g. downstream of indurated sediment in SUBAERIAL CHANNELS or CANYONS) or maintain depth and deposit material further downstream."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "plunge pool (BGU)"@en ;
+.
+
+:plunging_cliff
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :rocky_coast ;
+    skos:definition "A near-vertical slope that continues below the water line, typically greater than 100 m high and formed in resistant lithology."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "plunging cliff (BGU-T)"@en ;
+.
+
+:pointbar
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :barform ;
+    skos:definition "Are situated along the convex banks of bends in SUBAERIAL and SUBMARINE CHANNELS. They typically have an arcuate shape that reflects the radius of curvature of the bend. The cross-sectional slope of the bar is inclined towards the centre of the channel, reflecting the asymmetrical channel geometry at the bend apex. Textural attributes of the bar reflect patterns of secondary helical flow over the bar surface, which vary between SETTINGS (e.g. MARINE, FLUVIAL, COASTAL; Modified from: Goudie, 2006) and POINTBARS may develop into SCROLL BARS. In preserved deposits POINTBARS may appear to be superficially similar to COUNTERPOINT BARS."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "pointbar (BGU-T)"@en ;
+.
+
+:pool
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "lapies"@en ,
+        "marine karren"@en ;
+    skos:broader :rocky_coast ;
+    skos:definition "A shallow (< 3 m) depression formed in the intertidal zone of SHORE PLATFORM, typically resulting from solution of rock by standing water and are enclosed by small ridges (Guilcher, 1988)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "pool (BGU-T)"@en ;
+.
+
+:pothole
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :rocky_coast ;
+    skos:definition "A deep POOL formed in the intertidal zone of a SHORE PLATFORM, typically formed by the gouging action of loose boulders (Woodroffe, 2002)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "pothole (BGU-T)"@en ;
+.
+
+:proglacial_meltwater_channel
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Glacial_Setting ;
+    skos:definition "<I>Meltwater channel (see definition further up), occurring in area immediately beyond the limits of a glacier</I> (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "proglacial meltwater channel (BGU)"@en ;
+.
+
+:push_moraine
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :moraine ;
+    skos:definition "<I>An end moraine formed by the ‘bulldozing’ of sediment by an advancing ice front</I> (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "push moraine (BGU-T)"@en ;
+.
+
+:rafted_block
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :translated_block ;
+    skos:definition "A TRANSLATED BLOCK of undisturbed material which have been transported within the main body of a mass movement."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "rafted block (BGU-T)"@en ;
+.
+
+:raised_beach
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Coastal_Setting ;
+    skos:definition "A relict landform comprising mostly wave-transported sedimentary material preserved above and landward of the active shoreline. RAISED BEACHES are distinguished here from raised SHOREFACE TERRACES on the basis that the former are solely the product of physical depositional mechanisms, whereas the latter have a broader genesis that may incorporate depositional, erosional and/or BIOGENIC PROCESSES (modified from Goudie, 2006)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "raised beach (BGU)"@en ;
+.
+
+:ramp
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :rocky_coast ;
+    skos:definition "A seaward sloping steeper section of a sub-horizontal SHORE PLATFORM, typically abutting the TOE of a CLIFF (Sunamura, 1992)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ramp (BGU-T)"@en ;
+.
+
+:rampart
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :rocky_coast ;
+    skos:definition "A slightly raised edge that forms at the seaward margin of sub-horizontal SHORE PLATFORMS, possibly associated with a more resistant lithology."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "rampart (BGU-T)"@en ;
+.
+
+:recessional_moraine
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :moraine ;
+    skos:definition "<I>An end moraine built during a temporary but significant pause in the final retreat of a glacier</I> (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "recessional moraine (BGU-T)"@en ;
+.
+
+:reef_crest
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Biogenic_Process ;
+    skos:definition "Reef top behind the FORE-REEF, comprising an elevated rim and hard coralgal pavement which attenuates wave energy (Maxwell, 1968)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "reef crest (BGU)"@en ;
+.
+
+:reef_flat
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Biogenic_Process ;
+    skos:definition "The most recent expression of coral growth at sea level, extending back from the FORE-REEF. There are two forms of REEF FLATS: (1) coral dominated and (2) rubble-dominated, modulated by the ambient energy conditions as the growing reef approaches sea-level (Maxwell, 1968; Thornborough and Davies, 2011)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "reef flat (BGU)"@en ;
+.
+
+:reef_lagoon
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Biogenic_Process ;
+    skos:definition "Fully or partly enclosed shallow depressions in coral REEFs (Hopley, 2011; Maxwell, 1968)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "reef lagoon (BGU)"@en ;
+.
+
+:reef_or_rock_affected_beach
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :beach ;
+    skos:definition "A steep (reflective) BEACH fronted by exposed rock that extends seaward as an intertidal rock platform or rock flat (Short, 2006)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "reef or rock affected beach (BGU-T)"@en ;
+.
+
+:reflective
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :beach ;
+    skos:definition "A relatively steep sand or gravel deposit comprising a wide and high berm, steep beachface, subtidal step and low gradient nearshore zone (Short, 1999)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "reflective (BGU-T)"@en ;
+.
+
+:remnant_block
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Mass_Movement_Process ;
+    skos:definition "A Block of undisturbed, coherent sediment, found within the remobilised material but which has not been displaced during the mass movement. This type of in situ block can be recognised in seismic profiles by the contrast between areas of lateral concordant and continuous seismic facies and the often chaotic facies of the remoulded material."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "remnant block (BGU)"@en ;
+.
+
+:reticulate
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :bioherm ;
+    skos:definition "Three-dimensional structure with net-like or honeycomb-like shape/pattern."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "reticulate (BGU-T)"@en ;
+.
+
+:ria
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :coastal_subaerial_valley ;
+    skos:definition "A type of SUBAERIAL VALLEY; a coastal inlet resulting from the drowning of a former SUBAERIAL VALLEY (modified from Goudie, 2006)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ria (BGU-T)"@en ;
+.
+
+:ribbon
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :biostrome ;
+    skos:definition "Biostrome geometry may be further classified as ‘ribbon’ or ‘sheet’ (Kershaw, 1994)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ribbon (BGU-T)"@en ;
+.
+
+:ridge_and_runnel
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :coastal_barform ;
+    skos:definition "A low gradient sand bar and trough that forms alongshore in the intertidal zone of a BEACH. On macrotidal beaches, multiple ridges (Cf. INTERTIDAL BARS) and runnels may form across the intertidal zone spanning tens to hundreds of metres (Masselink and Hughes, 2014)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ridge and runnel (BGU-T)"@en ;
+.
+
+:riffle_and_pool
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :barform ;
+    skos:definition "A type of channelised BARFORM that alternates with POOLS, characterised by higher velocity flow over their surfaces. Develop in alluvial and bedrock channels and are most common in meandering channels with moderate gradients (modified from: Goudie, 2006)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "riffle (and pool) (BGU-T)"@en ;
+.
+
+:rill
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :subaerial_channel ;
+    skos:definition "Very small (< 30 cm depth and width) SUBAERIAL CHANNELS caused by runoff from rainsplash puddles. RILLS sometimes extend downslope where they can flow into GULLIES (modified from Goudie, 2006)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "rill (BGU-T)"@en ;
+.
+
+:ring_fault
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Fluid_Flow_Process ;
+    skos:definition "A semi-circular scarp interpreted as extensional fault, around the crater of a MUD VOLCANO."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ring fault (BGU)"@en ;
+.
+
+:ripple
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :bedform ;
+    skos:definition "Ripples are the smallest-scale transverse bedforms (wavelength 0.1–0.6 m, height 0.02–0.1 m), representing lower flow velocity (0.1–0.6 m/s) over a fine to medium sandy substrate. In planform, there are straight-crested, undulatory (sinuous crested), and linguoid (3-D) types. In profile, most are asymmetrical with sharp to rounded crestlines (Stow et al., 2009)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ripple (BGU-T)"@en ;
+.
+
+:river
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :subaerial_channel ;
+    skos:definition "A relatively large SUBAERIAL CHANNEL."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "river (BGU-T)"@en ;
+.
+
+:river_valley
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :fluvial_subaerial_valley ;
+    skos:definition "A type of SUBAERIAL VALLEY formed by fluvial processes upstream of any tidal limit (though can be affected by base-level changes; cf. INCISED VALLEY)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "river valley (BGU-T)"@en ;
+.
+
+:roche_moutonnee
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "whaleback"@en ;
+    skos:broader :streamlined_landform ;
+    skos:definition "<I>A bedrock landform is streamlined by subglacial that erosion in the direction of ice flow. The landform is often asymmetrical in long profile, with a smooth up ice end produced by ice abrasion and a rougher down-ice termination produced by plucking associated with lee-side subglacial cavities. Whalebacks are also elongate streamlined bedrock landforms but are usually symmetrical in form</I> (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "roche moutonnee (BGU-T)"@en ;
+.
+
+:rock_avalanche
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :flow ;
+    skos:definition "A FLOW where rocks break away from the source area, disintegrates and propagates as a flow of cohesionless rock fragments, blocks and clasts with high mobility."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "rock avalanche (BGU-T)"@en ;
+.
+
+:rock_fall
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :fall ;
+    skos:definition "A type of FALL where rocks break away from the CLIFF face and fall bounce or roll downslope. The rock normally breaks along discontinuities such as fractures, joints, and bedding planes."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "rock fall  (BGU-T)"@en ;
+.
+
+:rock_topple
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :topple ;
+    skos:definition "Forward rotation and overturning of rock columns or plates (one or many) separated by closely-spaced, steeply-dipping joints."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "rock topple (BGU-T)"@en ;
+.
+
+:rogen_moraine
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Glacial_Setting ;
+    skos:definition "<I>A moraine transverse to the direction of ice flow, formed of large transverse ridges, giving the overall appearance of an animal’s ribs. The ridges, consisting of till for the most part are generally steep-sided. In plan view, they appear slightly curved and wavy, and their ends merge to form poorly defined ridges which intersect at different angles</I> (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "rogen (ribbed) moraine (BGU)"@en ;
+.
+
+:rotational_slide
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :slide ;
+    skos:definition "A type of SLIDE characterised by a rotational movement on a circular or spoon-shaped shear surface."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "rotational slide (BGU-T)"@en ;
+.
+
+:rubbish_discharge
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :structure ;
+    skos:definition "Any type of mound, hillock or bank created by the discharge of anthropogenic material onto the seafloor."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "rubbish discharge (BGU-T)"@en ;
+.
+
+:ruiniform
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :sandstone_karst ;
+    skos:definition "Rock-cut landscapes consisting of closely spaced residual rock blocks separated by narrow criss crossing crevices or passages (modified after Migoń et al., 2017)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "ruiniform (BGU-T)"@en ;
+.
+
+:salient_tombolo
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :barrier ;
+    skos:definition "A type of BARRIER that joins an island to the mainland or other islands, and are the result of longshore sediment drift or the migration of an offshore bar toward the coast. Salients are the subtidal version of tombolos (modified from Goudie, 2006)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "salient / tombolo (BGU-T)"@en ;
+.
+
+:salt_doline
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :salt_karst ;
+    skos:definition "Funnel-shaped subcircular closed surface depression in a SALT KARST terrain (modified after Field, 2002)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "salt doline (BGU-T)"@en ;
+.
+
+:sandstone_doline
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :sandstone_karst ;
+    skos:definition "Funnel-shaped subcircular closed surface depression in a sandstone terrain."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "sandstone doline (BGU-T)"@en ;
+.
+
+:scarp_slope
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Solid_Earth_Setting ;
+    skos:definition "A relatively steep face of a scarp created by a resistant cap rock overlying a relatively weak and erodible stratum (modified after Huggett, 2017)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "scarp slope (BGU)"@en ;
+.
+
+:scour
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :bedform ;
+    skos:definition "An erosive BEDFORM depression, aligned with the flow direction; can form at a large range of scales, and may be associated with a forcing unit (e.g. OBSTACLE AND COMET SCOUR)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "scour (BGU-T)"@en ;
+.
+
+:scroll_bar
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :barform ;
+    skos:definition "Quasi-regularly spaced ridges that form over POINT BARS, which continue subsurface as laterally accreted heterolithic strata that fine upwards. Their development may be related to episodes of channel widening and, in SUBAERIAL CHANNELS, may form in association with vegetation growth on the POINTBAR (modified from: Nanson, 1980; van de Lageweg et al., 2014)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "scroll bar (BGU-T)"@en ;
+.
+
+:seamount
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :volcano_island ;
+    skos:definition """Any geographically isolated topographic unit on the seafloor taller than 1000 m. Most seamounts are formed by igneous activity close to mid-ocean ridges, island arcs, or in mid-plate settings, although blocks of continental crust, stranded during the opening of ocean basins, can form nonvolcanic seamounts (Harff et al., 2016; Harris and Baker, 2020).
+Cf. "seamount" in Harris et al., (2014)."""@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "seamount (BGU-T)"@en ;
+.
+
+:sediment_apron
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :marine_barform ;
+    skos:definition "A typically smooth-surfaced, gently-dipping accumulation of sediment (of variable spatial-scale), connected to a separate bathymetric high, that is at least partially elevated relative to the adjacent seafloor (Gardner, 1970)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "sediment apron (BGU-T)"@en ;
+.
+
+:sediment_bank
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "sediment ridge"@en ;
+    skos:broader :marine_barform ;
+    skos:definition "Formed by interactions between current instabilities (commonly generating cyclonic flows) and unconsolidated sediment at the seabed. SEDIMENT BANKS are the largest Current-induced BEDFORMS within the MARINE SETTING and require sufficiently rapid current flows and high rates of sediment supply. Their morphology, orientation, and potential mobility depends on local hydrodynamic and physiographic conditions (Belderson et al., 1982; Dyer and Huntley, 1999; Kenyon and Cooper, 2005)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "sediment bank (BGU-T)"@en ;
+.
+
+:sediment_drift
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :marine_barform ;
+    skos:definition "Typically longitudinal unit (i.e., aligned with dominant current flow) of variable sediment thickness, sometimes observed in the lee of another large unit (Belderson et al., 1982)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "sediment drift (BGU-T)"@en ;
+.
+
+:sediment_lobe
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :marine_barform ;
+    skos:definition "SEDIMENT LOBES, together with channels, are a major component of turbiditic SUBMARINE FAN systems and deposits. Lobate in plan-view and mounded in cross-section, depositional lobes are expected to be connected to feeder channels. SEDIMENT LOBES are commonly sand-rich, exhibiting coarsening upwards grain size trends (David M. Hodgson et al., 2022; Shanmugam and Moiola, 1988)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "sediment lobe (BGU-T)"@en ;
+.
+
+:sediment_ribbon
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :bedform ;
+    skos:definition "Ribbon marks are elongate mounded filaments of sand (and/or gravel), mostly regularly spaced, with parallel to slightly sinuous plan-form. They may show gentle curvature in parallel with the flow pattern, and merge into or diverge from broad sand sheets. Most of those reported are large-scale bedforms (width 10–100 m, length 5–50 km), although smaller-scale units (width of a few meters) have been referred to as narrow ribbons, sand streamers and sand streaks. They are high-velocity bedforms (generally 0.7–1.5 m/s) that involve winnowing and erosion of a sand or sand and gravel substrate coupled with redeposition of the material into elongate ribbon mound (Stow et al., 2009)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "sediment ribbon (BGU-T)"@en ;
+.
+
+:sediment_streak
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :bedform ;
+    skos:definition "Linear BEDFORMS elongated sub- to parallel to the flow direction, which may merge laterally or longitudinally, and vary greatly in scale and grain size. Form in velocity ranges from 0.1 to 0.2 m/s on mud, up to 0.3 m/s on sand, and 0.5 m/s on sand and/or gravel (modified from: Stow et al., 2009)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "sediment streak (BGU-T)"@en ;
+.
+
+:shear-margin_moraine
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :moraine ;
+    skos:definition "<I>Elongate ridges found on the edges of shallow banks at CROSS-SHELF TROUGH lateral margins, formed subglacially at ice-stream shear zones with surrounding slower-moving ice</I> (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "shear-margin moraine (BGU-T)"@en ;
+.
+
+:sheet
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :biostrome ;
+    skos:definition "Biostrome geometry may be further classified as ‘ribbon’ or ‘sheet’ (Kershaw, 1994)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "sheet (BGU-T)"@en ;
+.
+
+:shelf-incising_canyon
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :submarine_canyon ;
+    skos:definition "SUBMARINE CANYONS that extend up from the CONTINENTAL SLOPE and are incised into CONTINENTAL SHELF towards the coast, where they are potentially associated with a terrestrial fluvial system (Harris and Whiteway, 2011)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "shelf-incising canyon (BGU-T)"@en ;
+.
+
+:shelf_edge
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :coastal_delta ;
+    skos:definition "A DELTA located at the continental shelf break and extending onto the slope that forms during a lowstand of sea level and subsequent sea level rise, resulting in (partial) preservation (Steel et al., 2013)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "shelf edge (BGU-T)"@en ;
+.
+
+:shield_volcano
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :volcano_island ;
+    skos:definition "Very large, broad, shield-like VOLCANOES that have a low aspect ratio caused by low viscosity lava eruptions that spread far from the source (modified after Huggett, 2017)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "shield volcano (BGU-T)"@en ;
+.
+
+:shore_platform
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :rocky_coast ;
+    skos:definition "A horizontal or gently sloping rock surface located in the intertidal zone and typically extending from the base of a CLIFF. Also termed wave-cut platforms, but this term is no longer used in recognition that platforms are the product of the combined effects of mechanical, chemical and biological processes (Trenhaile, 1987)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "shore platform (BGU-T)"@en ;
+.
+
+:shoreface
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Coastal_Setting ;
+    skos:definition "The relatively steep surface between the low-tide shoreline and the inner shelf. The lower boundary of the SHOREFACE commences where ocean swell waves begin to shoal towards the shore (modified from Boak and Turner, 2005; Woodroffe, 2002)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "shoreface (BGU)"@en ;
+.
+
+:shoreface_terrace
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :coastal_barform ;
+    skos:definition """SHOREFACE TERRACES are formed by subaerial weathering during lowstand exposure and wave erosion that drove the coastline landward during subsequent sea-level rise (Micallef et al., 2017).
+Cf. RAISED BEACH"""@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "shoreface terrace (BGU-T)"@en ;
+.
+
+:sill
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Glacial_Setting ;
+    skos:definition "<I>A relatively shallow ridge or rise separating one basin from another. Sills are common in fjords where they consist of a sub-marine barrier of rock or moraine that occurs at the mouth of, or between, basins</I> (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "sill/threshold (BGU)"@en ;
+.
+
+:single-keeled_ploughmark
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :iceberg_ploughmark ;
+    skos:definition "An ICEBERG PLOUGHMARK characterised by one groove ploughed by an iceberg with a singular keel (Lien et al., 1989)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "single-keeled ploughmark (BGU-T)"@en ;
+.
+
+:slope-confined_canyon
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :submarine_canyon ;
+    skos:definition "SUBMARINE CANYONS that are restricted to the CONTINENTAL SLOPE, and are not geometrically connected to the CONTINENTAL SHELF (Harris and Whiteway, 2011)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "slope-confined canyon (BGU-T)"@en ;
+.
+
+:solid-earth_compressional_ridge
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :tectonic_high ;
+    skos:definition "A topographic ridge produced by compression caused by tectonic and/or volcanic processes."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "solid earth compressional ridge (BGU-T)"@en ;
+.
+
+:spring
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :carbonate_karst ;
+    skos:definition "Karst aquifer conduits with outlets in COASTAL and submarine settings (modified after Field, 2002)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "spring (BGU-T)"@en ;
+.
+
+:spur-and-groove
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Biogenic_Process ;
+    skos:definition "Best developed on the windward side of coral REEFS, the spur-and-grooves consists of parallel elongate CHANNELS (MORPHOLOGY) or GROOVES (MORPHOLOGY), a few metres wide and deep, separated by seaward extending coral RIDGES (MORPHOLOGY) or spurs (Harris and Baker, 2020; Maxwell, 1968; Shinn, 2011)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "spur-and-groove (BGU)"@en ;
+.
+
+:stack
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :rocky_coast ;
+    skos:definition "A free-standing, isolated pillar of rock located seaward of low tide line, typically formed in more resistant lithology and defining the former position of a CLIFF line."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "stack (BGU-T)"@en ;
+.
+
+:strandplain
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :barrier_complex ;
+    skos:definition "Assemblages of multiple BEACH RIDGES and BARRIERS. Small CREEKS (Fluvial) draining the immediate hinterland may exist within a STRANDPLAIN, however, they are usually associated with negligible river input (Heap, 2001)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "strandplain (BGU-T)"@en ;
+.
+
+:strath
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :floodplain_terrace ;
+    skos:definition "STRATH are FLOODPLAIN TERRACES that are comprised of bedrock; their elevation can be used as indicators of palaeo sea levels (modified from Goudie, 2006)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "strath (BGU-T)"@en ;
+.
+
+:stratovolcano
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :volcano_island ;
+    skos:definition "A conical VOLCANO built up by many layers of hardened lava and tephra (modified after Huggett, 2017)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "stratovolcano (BGU-T)"@en ;
+.
+
+:strings_of_pockmarks
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :pockmark ;
+    skos:definition "UNIT POCKMARKS or small NORMAL POCKMARKS arranged in curvilinear chains or strings, that may be kilometres in length. They are suspected to be a result of fluid focusing along near-vertical FAULTS, flexures, or weakness zones in the upper sedimentary layer (Hovland et al., 2002)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "strings of pockmarks (BGU-T)"@en ;
+.
+
+:sub-ice_shelf_keel_scour_mark
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Glacial_Setting ;
+    skos:definition "Sub-ice shelf keel scour marks consist of highly linear splayed lineations, occasionally cross-cutting, that display low parallel conformity. They record the transition from a grounded to a sub-ice shelf environment and form an intermediary landform between curvilinear iceberg ploughmarks and glacial lineations. They are hypothesised to form where ice reaches flotation in newly opened ice shelf cavities (Smith et al., 2019)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "sub-ice shelf keel scour mark (BGU)"@en ;
+.
+
+:submarine_channel
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Marine_Setting ;
+    skos:definition "Formed by sediment-laden turbidity currents and other sediment-rich gravity currents (Klaucke and Hesse, 1996; Peakall et al., 2000; Peakall and Sumner, 2015)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "submarine channel (BGU)"@en ;
+.
+
+:submarine_channel_belt
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Marine_Setting ;
+    skos:definition "A coherent package of channel-related deposits that may incorporate both vertical and/or lateral accretion components Their planform morphology may include linear, sinuous, or meandering channels (Janocko et al., 2013; Jobe et al., 2016)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "submarine channel belt (BGU)"@en ;
+.
+
+:submarine_fan
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Marine_Setting ;
+    skos:definition """Develop on the CONTINENTAL SLOPE, RISE and ABYSSAL PLAIN, normally at the mouths of SUBMARINE CANYONS. They are constructed principally from the deposits of sediment gravity flows (mainly turbidity currents and debris flows) as terrigenous and shallow marine sediment is redistributed into deeper water (Clark et al., 1992; Covault, 2011; Deptuck and Sylvester, 2018; Shanmugam, 2016).
+Cf. "fan/apron" in Harris et al., (2014), cf. APRON (MORPHOLOGY)."""@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "submarine fan (BGU)"@en ;
+.
+
+:submarine_gully
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Marine_Setting ;
+    skos:definition "Small-scale (<10 km) confined channels, generally on the order of tens of meters deep and often low sinuosity in planform. SUBMARINE GULLIES are commonly found within or alongside SUBMARINE CANYONS on the continental slope and may represent an incipient stage of canyon development (Amblas et al., 2018; Gales et al., 2013; Izumi, 2004; Micallef and Mountjoy, 2011; Pratson et al., 2007)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "submarine gully (BGU)"@en ;
+.
+
+:submarine_terrace
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Marine_Setting ;
+    skos:definition "Form within SUBMARINE VALLEYS and SUBMARINE CANYONS as a result of the incision of their adjacent SUBMARINE CHANNEL, which causes the decoupling of their surfaces from the active channel."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "submarine terrace (BGU)"@en ;
+.
+
+:submarine_tributary_canyon
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Marine_Setting ;
+    skos:definition "Secondary or subordinate components of SUBMARINE CANYONS that are directed towards a typically larger primary SUBMARINE CANYON. They have their own CANYON HEAD."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "submarine tributary canyon (BGU)"@en ;
+.
+
+:submarine_valley
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Marine_Setting ;
+    skos:definition "Smaller than SUBMARINE CANYONS and generally located on more gentle slopes. SUBMARINE VALLEYS may be associated with internal and/or external LEVEES and SUBMARINE TERRACES and, in contrast to SUBMARINE CHANNELS, they are shaped by supplementary processes including channel entrenchment, lateral migration, and aggradation (Harris et al., 2014; Lemay et al., 2020)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "submarine valley (BGU)"@en ;
+.
+
+:subtidal_flat
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :tidal_flat ;
+    skos:definition "A low gradient surface formed below mean low tide level. Typically located seaward of saltmarsh and mangrove communities."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "subtidal flat (BGU-T)"@en ;
+.
+
+:supratidal_flat
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :tidal_flat ;
+    skos:definition "A near-horizontal depositional surface formed above mean high water spring tide level. Typically located on the landward margins of saltmarshes and along estuary and LAGOON shorelines."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "supratidal flat (BGU-T)"@en ;
+.
+
+:talus_apron
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Mass_Movement_Process ;
+    skos:definition "An Apron formed by the accumulation of broken rock fragments at the base of a steep slope as the result of multiple mass movement events. These are not typically developed within the marine environment but can be found associated with nearshore slope instability."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "talus apron (BGU)"@en ;
+.
+
+:talus_fan
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Mass_Movement_Process ;
+    skos:definition "A Fan formed by the accumulation of broken rock fragments at the base of a steep slope as the result of multiple mass movement events. These are not typically developed within the marine environment but can be found associated to nearshore slope instability."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "talus fan (BGU)"@en ;
+.
+
+:tectonic_basin
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :tectonic_depression ;
+    skos:definition "A depression or basin of variable size and shape formed by tectonic processes."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "tectonic basin (BGU-T)"@en ;
+.
+
+:tectonic_dome
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :tectonic_high ;
+    skos:definition "A dome-like unit of variable size formed by tectonic processes."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "tectonic dome (BGU-T)"@en ;
+.
+
+:tectonic_escarpment
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Solid_Earth_Setting ;
+    skos:definition "An escarpment that forms as a result of unspecified faulting activity (Huggett, 2017)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "tectonic escarpment (BGU)"@en ;
+.
+
+:terminal_moraine
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :moraine ;
+    skos:definition "<I>An end moraine that marks the furthest advance of a glacier</I> (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "terminal moraine (BGU-T)"@en ;
+.
+
+:thrust-block_moraine
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Glacial_Setting ;
+    skos:definition "THRUST-BLOCK MORAINES (composite ridges) are heavily glacitectonised ridges formed by thrusting of blocks/slabs of sediments in front of a glacier (Benn and Evans, 2010)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "thrust-block moraine (BGU)"@en ;
+.
+
+:tidal_bar
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :coastal_barform ;
+    skos:definition "Discontinuous COASTAL BARS that typically form in tide-dominated SUBAERIAL CHANNELS, which are aligned to the dominant flow direction (Dalrymple et al., 1992)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "tidal bar (BGU-T)"@en ;
+.
+
+:tidal_delta
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :coastal_delta ;
+    skos:definition "Ebb- and flood-TIDAL DELTAS are comprised of intertidal and subtidal deposits that accumulate where tidal flows expand after passing through a tidal inlet. Ebb-tidal deltas form seaward and flood-tidal deltas form landward of an inlet (Hayes, 1980)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "tidal delta (BGU-T)"@en ;
+.
+
+:tidal_inlet
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :subaerial_channel ;
+    skos:definition "An opening in the shoreline through which water penetrates the land, thereby providing a connection between the open ocean and the BACK-BARRIER that is maintained by tidal currents (modified from Davis Jr and FitzGerald, 2009)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "tidal inlet (BGU-T)"@en ;
+.
+
+:toe_rocky_coast
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :rocky_coast ;
+    skos:definition "The base of a CLIFF defined by a marked change in gradient, typically associated with deposits of rock debris or talus."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "toe (rocky coast) (BGU-T)"@en ;
+.
+
+:tower_karst
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :carbonate_karst ;
+    skos:definition "Karst landscape dominated by steep or vertical-sided limestone towers, that may have flat tops; separated by areas of alluvium; may form as isolated hills or in groups (modified after Field, 2002)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "tower karst (BGU-T)"@en ;
+.
+
+:translational_slide
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :slide ;
+    skos:definition "A type of SLIDE characterised by a non-circular failure which involves translational motion on a near planar slip surface. The movement is largely controlled by surfaces of weakness within the structure of the slope-forming material."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "translational slide (BGU-T)"@en ;
+.
+
+:transverse_crack
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Mass_Movement_Process ;
+    skos:definition "A type of open fracture, perpendicular to the main direction of transport, they tend to be found either at the EVACUATION ZONE or overlying the intersection between the lower part of the surface of rupture and the original ground surface (Cruden and Varnes, 1996)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "transverse crack (BGU)"@en ;
+.
+
+:trough-mouth_fan
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Glacial_Setting ;
+    skos:definition "<I>A large fan-shaped depositional body located at the seaward end, or mouth, of a CROSS-SHELF TRUOGH that has been largely eroded by grounded ice-sheets. The fan is built mainly from sediments carried by the ice sheets, and especially by fast-flowing ice streams within it. Some authors restrict the term to fans built principally of glacigenic debris-flows</I> (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "trough-mouth fan (BGU)"@en ;
+.
+
+:tunnel_valley
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Glacial_Setting ;
+    skos:definition "<I>A large subglacial, steep-sided channel cut into unconsolidated sediment or bedrock by meltwater. The channel may have a reverse gradient in places</I> (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "tunnel valley (BGU)"@en ;
+.
+
+:turbidite_fan
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Mass_Movement_Process ;
+    skos:definition "A Fan formed by the accumulation of sediment as the result of multiple TURBIDITY CURRENTS. These will be smaller and less complex than SUBMARINE FANS."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "turbidite fan (BGU)"@en ;
+.
+
+:turbidite_levee
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Mass_Movement_Process ;
+    skos:definition "An elongated Ridge flanking the margins of a turbidity channel, formed by sediments overtopping a TURBIDITY CHANNEL."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "turbidite levee (BGU)"@en ;
+.
+
+:turbidity_channel
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Mass_Movement_Process ;
+    skos:definition "A SUBMARINE CHANNEL formed by the interaction of TURBIDITY CURRENTS with an erodible seabed."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "turbidity channel (BGU)"@en ;
+.
+
+:turbidity_current
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :flow ;
+    skos:definition "As fluid content increases due to continued downslope movement, a debris flow can evolve into a turbulent flow such as a turbidity current where the mobilised material is supported by a fluid. Turbidity currents can travel up to thousands of kilometres over very gentle slopes (Bagnold, 1962) before their dissipation and deposition."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "turbidity current (BGU-T)"@en ;
+.
+
+:unit_pockmark
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :pockmark ;
+    skos:definition "A very small POCKMARK (typically 1–10 m across and up to 0.5 m deep). This type of Pockmark can be found in isolation, in groups, or in association with larger Pockmark (Hovland and Judd, 1988). Hovland et al., (2010) suggested that unit pockmarks likely manifest cyclic pore-water seepage."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "unit pockmark (BGU-T)"@en ;
+.
+
+:upper
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :coastal_delta ;
+    skos:definition "The portion of a DELTA that is situated between the backwater and tidal limits."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "upper (BGU-T)"@en ;
+.
+
+:valley_head
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :cross-shelf_trough ;
+    skos:definition "A valley/trough head is the upper end of a valley/trough, formed at the upper part of a valley glacier or ice stream (Benn and Evans, 2010)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "valley/trough head (BGU-T)"@en ;
+.
+
+:volcanic_fissure
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :magmatic_outcrop ;
+    skos:definition "Elongate fracture or crack at the surface of a volcanic unit from which lava erupts (modified after Huggett, 2017)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "volcanic fissure (BGU-T)"@en ;
+.
+
+:volcanic_flow
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :magmatic_outcrop ;
+    skos:definition "Lobate or fan-like low-relief and rugged unit representing a submarine lava flow (Casalbore, 2018)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "volcanic flow (BGU-T)"@en ;
+.
+
+:volcanic_plateau
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :magmatic_outcrop ;
+    skos:definition "Large areas of elevated, over-thickened basaltic ocean floor, formed either as the result of seafloor spreading processes and melting of ambient upper mantle or by decompression melting of hot mantle plumes (Harff et al., 2016)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "volcanic plateau (BGU-T)"@en ;
+.
+
+:volcanic_plug
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :magmatic_outcrop ;
+    skos:definition "Pinnacle or knoll formed by magma solidified within a volcanic vent or magma chamber (modified after Huggett, 2017)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "volcanic plug/neck (BGU-T)"@en ;
+.
+
+:washover_bar
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :coastal_barform ;
+    skos:definition "A low gradient sandy to gravelly deposit located on the landward side of a BARRIER deposited over a BACK-BARRIER FLAT or LAGOON facies, formed by storm surge or tsunami run-up. Typically fan shaped in plan view (Reineck and Singh, 2012)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "washover bar (BGU-T)"@en ;
+.
+
+:white_smokers
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :hydrothermal_vent ;
+    skos:definition "Bulbous chimney or stack-like edifices composed of mixtures of copper-, iron-, and zinc-sulfide minerals and calcium- and barium-sulfate minerals. WHITE SMOKERS emit cooler (<330°C) fluids at slower flow rates compared to BLACK SMOKERS, with light colored precipitates suspended within exiting waters (modified after Harff et al., 2016)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "white smokers (BGU-T)"@en ;
+.
+
+:wreck
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :structure ;
+    skos:definition "Derelict found in or on the shores of the sea or any tidal water (UK GOV, 1995)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "wreck (BGU-T)"@en ;
+.
+
+:channel_belt
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader
+        :Coastal_Setting ,
+        :Fluvial_Setting ;
+    skos:definition "A conglomeration of relatively coarser-grained sediment comprised of amalgamated SUBAERIAL CHANNEL, BEDFORM and BARFORM deposits (modified from Bridge and Tye, 2000; cf. Marine SUBMARINE CHANNEL BELT versus Fluvial CHANNEL BELT geometries: Jobe et al., 2016)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "channel belt (BGU)"@en ;
+.
+
+:cross-shelf_trough
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Glacial_Setting ;
+    skos:definition """<I>A wide (several to tens of kilometres) elongate depression of the seafloor, usually a few hundred metres deep, extending across the continental shelf between shallower banks; commonly eroded by grounded ice-sheets over successive full-glacial periods. See transverse channel/trough</I> (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016).
+Cf."glacial trough" in Harris et al., (2014)."""@en ;
+    skos:inScheme cs: ;
+    skos:narrower :valley_head ;
+    skos:prefLabel "cross-shelf trough (BGU)"@en ;
+.
+
+:delta_lobe
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader
+        :Coastal_Setting ,
+        :Fluvial_Setting ;
+    skos:definition "Discrete accumulations of sediment that form at the distal end of relatively confined river channels and may represent distinct avulsion events (Chatanantavet et al., 2012). Multiple DELTA LOBES sum to comprise entire DELTAS."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "delta lobe (BGU)"@en ;
+.
+
+:salt_karst
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Karst_Process ;
+    skos:definition "Landscape where the dominant geomorphic process is dissolution of salt (halite); characterised by distinctive rough terrain and landforms, e.g. dolines (modified after Field, 2002)."@en ;
+    skos:inScheme cs: ;
+    skos:narrower :salt_doline ;
+    skos:prefLabel "salt karst (BGU)"@en ;
+.
+
+:u-shaped_valley
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Glacial_Setting ;
+    skos:definition "<I>A valley having a pronounced parabolic cross-profile suggesting the form of a broad letter ‘U’ with steep parallel walls and a broad, nearly flat floor; specifically a valley carved by glacial erosion, such as a glacial trough or fjord</I> (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016)."@en ;
+    skos:inScheme cs: ;
+    skos:narrower :hanging_valley ;
+    skos:prefLabel "U-shaped valley (BGU)"@en ;
+.
+
+:barrier_complex
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Coastal_Setting ;
+    skos:definition "Amalgamated, shore-parallel sand bodies incorporating BEACH, coastal dunes (DUNE - foredune BGU-sT), WASHOVER and backbarrier FLAT deposits. May comprise multiple shorelines to form a PLAIN (STRAND- or CHENIER) (modified from Griffin et al., 2012)."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :chenier_plain ,
+        :strandplain ;
+    skos:prefLabel "barrier complex (BGU)"@en ;
+.
+
+:biostrome
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Biogenic_Process ;
+    skos:definition "Build-ups lacking the lens-like positive relief that would otherwise classify the unit as a bioherm (Cumings, 1932); bedded or unbedded (Kershaw, 1994) with variable skeletal and matrix components. Synonym ‘bed’ (Kershaw, 1994). Usually parautochthonous to allochthonous."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :ribbon ,
+        :sheet ;
+    skos:prefLabel "biostrome (BGU)"@en ;
+.
+
+:fall
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Mass_Movement_Process ;
+    skos:definition "A relatively free-falling abrupt movement of newly detached material from steep slopes or CLIFFS. The source area of a fall is not usually directly identified in bathymetry data, being only indirectly mapped, by identifying the cliff face associated with debris or rock fragments accumulation at the base of the slope. Different types of FALLS can be described by the nature of the material remobilized."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :debris_fall ,
+        :rock_fall ;
+    skos:prefLabel "fall (BGU)"@en ;
+.
+
+:floodplain_terrace
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader
+        :Coastal_Setting ,
+        :Fluvial_Setting ;
+    skos:definition "Planar-surfaced units that remain after the adjacent channel has incised and abandoned the surface (Brierley and Fryirs, 2013) and can be comprised of alluvial material (cf. FLOODPLAINS) or rock (cf. STRATH; modified from Goudie, 2006)."@en ;
+    skos:inScheme cs: ;
+    skos:narrower :strath ;
+    skos:prefLabel "floodplain terrace (BGU)"@en ;
+.
+
+:fluvial_delta
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Fluvial_Setting ;
+    skos:definition """A discrete shoreline sedimentary protuberance formed where a river enters a body of water and supplies sediment more rapidly than it can be redistributed by basinal processes (modified from: Elliott, 1986).
+Cf. COASTAL DELTA"""@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :fluvial_delta-front ,
+        :fluvial_pro-delta ;
+    skos:prefLabel "fluvial delta (BGU)"@en ;
+.
+
+:fluvial_subaerial_valley
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Fluvial_Setting ;
+    skos:definition "Form via combinations of fluvial and coastal processes (see Additional Attributes: Marginal marine process classification); they widen by lateral SUBAERIAL CHANNEL erosion and weathering, and lengthen by both headward erosion and progradation in their lower reaches. SUBAERIAL VALLEYS can form networks with a variety of drainage patterns (see DRAINAGE NETWORK; modified from Goudie, 2006). Cf. RIVER VALLEY; INCISED VALLEY; RIA; FJORD, COASTAL SUBAERIAL VALLEY."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :fluvial_incised_valley ,
+        :river_valley ;
+    skos:prefLabel "fluvial subaerial valley (BGU)"@en ;
+.
+
+:hill-hole_pair
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Glacial_Setting ;
+    skos:definition "<I>A discrete hill of ice-thrust material, often slightly deformed, situated downglacier from a depression of approximately the same size and shape. Either pre-existing drift or bedrock may be contained in the dislocated hill</I> (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016)."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :glacitectonic_hill ,
+        :glacitectonic_hole ;
+    skos:prefLabel "hill-hole pair (BGU)"@en ;
+.
+
+:hydrothermal_vent
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Fluid_Flow_Process ;
+    skos:definition "Fissures on the oceanic crust in volcanically active sites (e.g. mid-ocean ridges, back-arc spreading centers, and hot-spot or arc-related submarine volcanoes), from which geothermally heated water is released. Circulating seawater is heated by a heat source such as a magma chamber or associated hot rock and, during heating and chemical reaction with the surrounding rock, undergoes a suite of chemical modifications (modified after Harff et al., 2016)."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :black_smokers ,
+        :white_smokers ;
+    skos:prefLabel "hydrothermal vent (BGU)"@en ;
+.
+
+:iceberg_ploughmark
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Glacial_Setting ;
+    skos:definition "<I>Groove or furrow caused by the impact and movement of grounded icebergs along the sea or lake floor</I> (Excerpt from Bell et al. 2016 In: Dowdeswell et al., 2016)."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :multi-keeled_ploughmark ,
+        :single-keeled_ploughmark ;
+    skos:prefLabel "iceberg ploughmark (BGU)"@en ;
+.
+
+:mud_volcano
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Fluid_Flow_Process ;
+    skos:definition "A positive topographic unit, usually conical, formed by the periodic upwelling of sediments (mud) fluidised by gas and water (Etiope, 2015). It can develop as a single isolated cone (that can be several hundreds of meters high) or, more frequently, as groups of cones. MUD VOLCANOES can be classified by their morphologies, with the key distinction made on the grounds of angle of the flanks."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :mud_dome ,
+        :mud_pie ;
+    skos:prefLabel "mud volcano (BGU)"@en ;
+.
+
+:pingo
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Fluid_Flow_Process ;
+    skos:definition "A conical Mound up to a few tens of metres in height and a few hundred metres in diameter, which has been domed up from beneath. PINGOS can be either PERMAFROST PINGO or GAS HYDRATE PINGOS."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :gas_hydrate_pingo ,
+        :permafrost_pingo ;
+    skos:prefLabel "pingo (BGU)"@en ;
+.
+
+:sandstone_karst
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Karst_Process ;
+    skos:definition "Landscape where the dominant geomorphic processes are a combination of chemical weathering and other erosional processes of sandstone (quartz); characterised by distinctive rough terrain and landforms, e.g. ruiniform."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :ruiniform ,
+        :sandstone_doline ;
+    skos:prefLabel "sandstone karst (BGU)"@en ;
+.
+
+:submarine_canyon
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Marine_Setting ;
+    skos:definition """Steep-sided, GENERALLY V-shaped valleys with heads at or near the CONTINENTAL SHELF edge. They extend across the CONTINENTAL SLOPE and are commonly linked to numerous tributaries, similar to unglaciated river-cut canyons on land (Amblas et al., 2018; Covault, 2011; Harris and Baker, 2011; Huang et al., 2014; Pratson et al., 2007; Puig et al., 2014).
+Cf. "canyon" in Harris et al., (2014)."""@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :shelf-incising_canyon ,
+        :slope-confined_canyon ;
+    skos:prefLabel "submarine canyon (BGU)"@en ;
+.
+
+:topple
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Mass_Movement_Process ;
+    skos:definition "A mass movement produced by forward rotation around a pivot or hinge on a slope below the centre of gravity of the displaced mass. Different types of FALLS are described by the nature of the material remobilized."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :debris_topple ,
+        :rock_topple ;
+    skos:prefLabel "topple (BGU)"@en ;
+.
+
+:Anthropogenic_Process
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A PROCESS grouping in which geomorphic units are primarily the result of Anthropogenic activity (e.g. PYLONS; BEDFORMS and SCOURS around infrastructure)."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :archaeological ,
+        :disturbance ,
+        :structure ;
+    skos:prefLabel "Anthropogenic Process"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:Karst_Process
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A PROCESS grouping in which geomorphic UNITS are primarily formed by the chemical dissolution of soluble rocks (carbonate, salt and sandstone)."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :carbonate_karst ,
+        :salt_karst ,
+        :sandstone_karst ;
+    skos:prefLabel "Karst Process"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:archaeological
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Anthropogenic_Process ;
+    skos:definition "Any anthropogenic unit of archaeological, historical, cultural or ceremonial significance."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :cultural_site ,
+        :historical_wreck ,
+        :other_archaeological ;
+    skos:prefLabel "archaeological (BGU)"@en ;
+.
+
+:bedding_ridge
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Solid_Earth_Setting ;
+    skos:definition "A positive relief generated by bedrock bedding (modified after Huggett, 2017)."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :cuesta ,
+        :hogback ,
+        :homoclinal_ridge ;
+    skos:prefLabel "bedding ridge (BGU)"@en ;
+.
+
+:bedrock_outcrop_undef
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Solid_Earth_Setting ;
+    skos:definition "A relief formed by bedrock of unspecified lithology and genesis cropping out of the surrounding seabed."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :bedded ,
+        :foliated ,
+        :massive ;
+    skos:prefLabel "bedrock outcrop (undefined) (BGU)"@en ;
+.
+
+:coastal_subaerial_valley
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Coastal_Setting ;
+    skos:definition """Form via combinations of fluvial and coastal processes (see Additional Attributes: Marginal marine process classification); they widen by lateral SUBAERIAL CHANNEL erosion and weathering, and lengthen by both headward erosion and progradation in their lower reaches. SUBAERIAL VALLEYS can form networks with a variety of drainage patterns (see DRAINAGE NETWORK; modified from Goudie, 2006). Cf. RIVER VALLEY; INCISED VALLEY; RIA; FJORD.
+Cf. FLUVIAL SUBAERIAL VALLEY"""@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :coastal_fjord ,
+        :coastal_incised_valley ,
+        :ria ;
+    skos:prefLabel "coastal subaerial valley (BGU)"@en ;
+.
+
+:lagoon
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Coastal_Setting ;
+    skos:definition "A stretch of usually saline water separated from the sea by a low BARRIER or coral REEF (Cf. REEF LAGOON - Biogenic; Goudie, 2006)."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :closed_lagoon ,
+        :intermittently_closed_and_open_lagoon ,
+        :open_lagoon ;
+    skos:prefLabel "lagoon (BGU)"@en ;
+.
+
+:tectonic_lineament
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Solid_Earth_Setting ;
+    skos:definition "A lineament that forms as a result of unspecified tectonic/structural activity (modified after Huggett, 2017)."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :fault ,
+        :fracture_zone ,
+        :joint ;
+    skos:prefLabel "tectonic lineament (BGU)"@en ;
+.
+
+:tidal_flat
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Coastal_Setting ;
+    skos:definition "Low gradient intertidal to supratidal surfaces formed in fine-grained sediment (Woodroffe, 2002)."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :intertidal_flat ,
+        :subtidal_flat ,
+        :supratidal_flat ;
+    skos:prefLabel "tidal flat (BGU)"@en ;
+.
+
+:translated_block
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Mass_Movement_Process ;
+    skos:definition "A Block of undisturbed, coherent sediment, which has been displaced by a mass movement, preserving at least two relatively flat surfaces."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :detached_block ,
+        :outrunner_block ,
+        :rafted_block ;
+    skos:prefLabel "translated block (BGU)"@en ;
+.
+
+:volcano_island
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Solid_Earth_Setting ;
+    skos:definition "A mountain or hill, typically conical, having a crater or vent through which lava, rock fragments, hot vapour, and gas are or have been erupted from the earth's crust (modified after Huggett, 2017)."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :seamount ,
+        :shield_volcano ,
+        :stratovolcano ;
+    skos:prefLabel "volcano (island or submarine) (BGU)"@en ;
+.
+
+:MDAC
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Fluid_Flow_Process ;
+    skos:definition "Exposed authigenic carbonate structures, mostly in the form of hardground with positive relief, associated with the seepage of methane rich fluids as a result of the anaerobic methane oxidation coupled with sulphate reduction by associations of archaea and bacteria (Hovland et al., 1987)."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :MDAC_chimney ,
+        :MDAC_mounds ,
+        :MDAC_pavements ,
+        :MDAC_slab ;
+    skos:prefLabel "outcropping methane-derived authigenic carbonate (MDAC) (BGU)"@en ;
+.
+
+:barrier
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Coastal_Setting ;
+    skos:definition "Elongate accumulations of sand or coarser sediment primarily deposited by waves and longshore currents, rising above the formative sea level, often impounding terrestrial drainage or blocking off a LAGOON in the BACKBARRIER (modified from Griffin et al., 2012; Woodroffe, 2002). Can be sub-classified using their number of attachment points to the mainland (cf. SALIENT/TOMBOLO; BAY-MOUTH; SPIT)."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :barrier_island ,
+        :barrier_spit ,
+        :bay-mouth_barrier ,
+        :salient_tombolo ;
+    skos:prefLabel "barrier (BGU)"@en ;
+.
+
+:beach
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Coastal_Setting ;
+    skos:definition "A wave-deposited body of sand or gravel formed along open coast (marine), estuarine and lacustrine shorelines."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :dissipative ,
+        :intermediate ,
+        :reef_or_rock_affected_beach ,
+        :reflective ;
+    skos:prefLabel "beach (BGU)"@en ;
+.
+
+:bioherm
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Biogenic_Process ;
+    skos:definition "Build-ups with lens-like positive relief (Cumings, 1932), with variable skeletal and matrix components (± binding); skeletal components are adjacent and some may be in contact, but are mostly disarticulated (modified from Riding, 2002). (e.g., <I>Halimeda</I> bioherm). Synonym ‘mound’; includes carbonate ‘mud mound’ (modified from Riding, 2002). Usually parautochthonous to allochthonous."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :agglutinating ,
+        :annulate ,
+        :lenticular ,
+        :reticulate ;
+    skos:prefLabel "bioherm (BGU)"@en ;
+.
+
+:floodplain
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader
+        :Coastal_Setting ,
+        :Fluvial_Setting ;
+    skos:definition "The relatively flat area of land between the banks of the parent stream and the confining valley walls, over which water from the parent stream flows at times of high discharge. The sediment that comprises a FLOODPLAIN is mainly alluvium derived from the parent stream (modified from Goudie, 2006) and can be comprised of confined/cut-and-fill, braided, lateral migration or anabranching floodplain deposits (Nanson and Croke, 1992)."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :high-energy_confined_floodplain ,
+        :low-energy_cohesive_floodplain ,
+        :medium-energy_unconfined_floodplain ;
+    skos:prefLabel "floodplain (BGU)"@en ;
+.
+
+:flow
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Mass_Movement_Process ;
+    skos:definition "A mass movement where the individual particles travel separately within a moving mass. They involve highly fractured rock, clastic debris in a fine matrix or small grain sizes."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :debris_flow ,
+        :mudflow ,
+        :rock_avalanche ,
+        :turbidity_current ;
+    skos:prefLabel "flow (BGU)"@en ;
+.
+
+:slide
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Mass_Movement_Process ;
+    skos:definition "A slide consists of the movement of a coherent mass of material along a distinct shear surface (modified from Goudie, 2006)."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :frontally_confined_slide ,
+        :frontally_emergent_slide ,
+        :rotational_slide ,
+        :translational_slide ;
+    skos:prefLabel "slide (BGU)"@en ;
+.
+
+:tectonic_depression
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Solid_Earth_Setting ;
+    skos:definition "A depression generated by an unspecified tectonic/structural process."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :fault_valley ,
+        :graben ,
+        :half_graben ,
+        :tectonic_basin ;
+    skos:prefLabel "tectonic depression (BGU)"@en ;
+.
+
+:tectonic_high
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Solid_Earth_Setting ;
+    skos:definition "A positive relief generated by an unspecified tectonic/structural process."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :back-tilted_fault_block ,
+        :horst ,
+        :solid-earth_compressional_ridge ,
+        :tectonic_dome ;
+    skos:prefLabel "tectonic high (BGU)"@en ;
+.
+
+:marine_barform
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Marine_Setting ;
+    skos:definition "Tend to be larger than CURRENT-INDUCED BEDFORMS (e.g. Venditti, 2013), are often forced by macro-scale topography (e.g. channels – point bar; headlands - banner), and develop over longer periods of time (e.g. Dury, 1970)."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :contourite_drift ,
+        :sediment_apron ,
+        :sediment_bank ,
+        :sediment_drift ,
+        :sediment_lobe ;
+    skos:prefLabel "marine barform (BGU)"@en ;
+.
+
+:pockmark
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Fluid_Flow_Process ;
+    skos:definition "A concave crater-like Depression formed by gas and/or fluid expulsion, typically one to tens of meters in diameter but can be up to a few hundred meters wide (Hovland et al., 1987). Pockmarks tend to be characteristic V shaped Depressions, with circular, or elliptical geometry. However, they can also present a W-shaped profile or more complex geometries."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :complex_pockmark ,
+        :giant_pockmark ,
+        :normal_pockmark ,
+        :strings_of_pockmarks ,
+        :unit_pockmark ;
+    skos:prefLabel "pockmark (BGU)"@en ;
+.
+
+:carbonate_karst
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Karst_Process ;
+    skos:definition "Landscape where the dominant geomorphic process is dissolution of carbonate rocks; characterised by distinctive landforms, e.g. caves, CARBONATE DOLINES, underground drainage (modified after Field, 2002)."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :blind_valley ,
+        :carbonate_doline ,
+        :cone_karst ,
+        :karst_plain ,
+        :spring ,
+        :tower_karst ;
+    skos:prefLabel "carbonate karst (BGU)"@en ;
+.
+
+:disturbance
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Anthropogenic_Process ;
+    skos:definition "All anthropogenic seabed alteration or erosional units placed into the nearshore or marine environment (Watson et al., 2020)."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :anchor_drag ,
+        :bottom_trawl ,
+        :dredge_scour ,
+        :dredge_spoil ,
+        :mine_tailings ,
+        :other_disturbance ;
+    skos:prefLabel "disturbance (BGU)"@en ;
+.
+
+:moraine
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Glacial_Setting ;
+    skos:definition "<I>A mound, ridge or other distinct accumulation of generally unsorted, unstratified glacigenic sediment, predominantly till, deposited chiefly by direct contact with glacier ice, commonly subglacial. See De Geer moraine, end moraine, fluted moraine, interlobate moraine, kame moraine, lateral moraine</I> (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016)."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :De_Geer_moraine ,
+        :lateral_moraine ,
+        :push_moraine ,
+        :recessional_moraine ,
+        :shear-margin_moraine ,
+        :terminal_moraine ;
+    skos:prefLabel "moraine (BGU)"@en ;
+.
+
+:Current-induced_Process
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A PROCESS grouping that includes a broad suite of geomorphic UNITS that are primarily formed by air and water currents by modern or former processes. Where the formative process is known (e.g. MARINE, ANTHROPOGENIC) these units can be reclassified into their formative SETTING or PROCESS (e.g. a CURRENT-INDUCED DUNE that is submerged on the continental shelf can be reclassed as a COASTAL DUNE)."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :barform ,
+        :bedform ,
+        :chute_channel ,
+        :current-induced_channel ,
+        :knickpoint ,
+        :oxbow ,
+        :plunge_pool ;
+    skos:prefLabel "Current-induced Process"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:biogenic_reef
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Biogenic_Process ;
+    skos:definition "In-situ, positive relief, persistent build-ups of primarily skeleton-supported framework (+ internal binding), that influence the local sedimentary environment (Klement, 1967), and supports (or supported) living communities during active accretion. Definition modified from a range of sources: (Cumings, 1932; Goudie, 2006; Harris and Baker, 2020; Klement, 1967; Lo Iacono et al., 2018).Cf. REEF (MARINE SETTING)."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :atoll ,
+        :barrier_reef ,
+        :cold-water-coral-reef ,
+        :coralligène ,
+        :fringing_reef ,
+        :patch_reef ,
+        :platform_reef ;
+    skos:prefLabel "biogenic reef (BGU)"@en ;
+.
+
+:coastal_delta
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Coastal_Setting ;
+    skos:definition """A discrete shoreline sedimentary protuberance formed where a river enters a body of water and supplies sediment more rapidly than it can be redistributed by basinal processes (modified from: Elliott, 1986).
+Cf. FLUVIAL DELTA"""@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :bayhead ,
+        :coastal_delta-front ,
+        :coastal_pro-delta ,
+        :lower ,
+        :shelf_edge ,
+        :tidal_delta ,
+        :upper ;
+    skos:prefLabel "coastal delta (BGU)"@en ;
+.
+
+:magmatic_outcrop
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Solid_Earth_Setting ;
+    skos:definition "A magmatic bedrock outcrop of unspecified lithology (modified after Huggett, 2017)."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :circular_volcanic_depression ,
+        :magmatic_dome ,
+        :magmatic_sheet ,
+        :volcanic_fissure ,
+        :volcanic_flow ,
+        :volcanic_plateau ,
+        :volcanic_plug ;
+    skos:prefLabel "magmatic outcrop (BGU)"@en ;
+.
+
+:streamlined_landform
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Glacial_Setting ;
+    skos:definition "Streamlined landforms have been sculpted and moulded by glacier ice, moving in a coherent direction. These landforms can consist of bedrock, unconsolidated sediments or both. They are formed parallel to the ice flow direction and are considered good palaeo-flow indicators. Elongation is considered to be positively correlated with higher ice flow velocities (Stokes and Clark, 1999, 2002; Krabbendam et al., 2016)."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :bundle_structure ,
+        :drumlin ,
+        :flute ,
+        :glacial_crag_and_tail ,
+        :groove ,
+        :mega-scale_glacial_lineation ,
+        :roche_moutonnee ;
+    skos:prefLabel "streamlined landform (BGU)"@en ;
+.
+
+:subaerial_channel
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader
+        :Coastal_Setting ,
+        :Fluvial_Setting ;
+    skos:definition "Formed of alluvium, usually have mobile boundaries and are self-adjusting in response to changing conditions. Commonly parabolic or trapezoid in cross section with adjacent, roughly horizontal FLOODPLAINS that are inundated when the channel exceeds bankfull capacity (modified from Goudie, 2006)."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :creek ,
+        :distributary ,
+        :gully ,
+        :rill ,
+        :river ,
+        :tidal_inlet ;
+    skos:prefLabel "subaerial channel (BGU)"@en ;
+.
+
+:coastal_barform
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Coastal_Setting ;
+    skos:definition "Any type of BARFORM formed in a COASTAL SETTING; the exact BGU-T or BGU-sT may be unknown or may exceed classification requirements."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :beach_cusp ,
+        :berm ,
+        :intertidal_bar ,
+        :nearshore_bar ,
+        :ridge_and_runnel ,
+        :shoreface_terrace ,
+        :tidal_bar ,
+        :washover_bar ;
+    skos:prefLabel "coastal barform (BGU)"@en ;
+.
+
+:Biogenic_Process
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A PROCESS grouping in which geomorphic UNITS are biogenic landforms (bioconstructions and build-ups) that can predominantly be attributed to the activity of organisms at or below highest astronomical tides."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :back_reef ,
+        :biogenic_reef ,
+        :bioherm ,
+        :biostrome ,
+        :excavation ,
+        :fore-reef ,
+        :mat ,
+        :reef_crest ,
+        :reef_flat ,
+        :reef_lagoon ,
+        :spur-and-groove ;
+    skos:prefLabel "Biogenic Process"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:Fluvial_Setting
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A SETTING in which geomorphic UNITS are primarily formed by fluvial processes (rivers) on modern or formerly subaerial portions of CONTINENTAL SHELVES (PHYSIOGRAPHY)."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :channel_belt ,
+        :delta_lobe ,
+        :drainage_basin ,
+        :drainage_network ,
+        :floodplain ,
+        :floodplain_terrace ,
+        :fluvial_delta ,
+        :fluvial_fan ,
+        :fluvial_fan_lobe ,
+        :fluvial_subaerial_valley ,
+        :subaerial_channel ;
+    skos:prefLabel "Fluvial Setting"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "http://resource.geosciml.org/classifier/cgi/waste-storage/covered"^^xsd:anyURI ;
+.
+
+:barform
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Current-induced_Process ;
+    skos:definition "Tend to be larger than BEDFORMS (e.g. Venditti, 2013), are often forced by macro-scale topography (e.g. CHANNELS - POINTBAR; HEADLANDS - BANNER), and develop over longer periods of time (e.g. Dury, 1970)."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :bank-attached ,
+        :bench ,
+        :counterpoint_bar ,
+        :crevasse_splay ,
+        :ledge ,
+        :levee ,
+        :mid-channel_bar ,
+        :mouthbar ,
+        :pointbar ,
+        :riffle_and_pool ,
+        :scroll_bar ;
+    skos:prefLabel "barform (BGU)"@en ;
+.
+
+:structure
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Anthropogenic_Process ;
+    skos:definition "All anthropogenic structures or units placed into the nearshore or marine environment (Watson et al., 2020)."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :artificial_reef ,
+        :cable ,
+        :coastal_management_structure ,
+        :fish_farm ,
+        :fish_trap ,
+        :foundations_and_moorings ,
+        :mine ,
+        :other_structure ,
+        :pipeline ,
+        :rubbish_discharge ,
+        :wreck ;
+    skos:prefLabel "structure (BGU)"@en ;
+.
+
+:Marine_Setting
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A SETTING in which geomorphic UNITS are primarily formed below lowest astronomical tide by marine processes (waves, tides, oceanic and density currents, cumulative MASS MOVEMENT PROCESSES – e.g. SUBMARINE CANYONS)."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :canyon_head ,
+        :canyon_mouth ,
+        :marine_barform ,
+        :marine_reef ,
+        :submarine_canyon ,
+        :submarine_channel ,
+        :submarine_channel_belt ,
+        :submarine_fan ,
+        :submarine_gully ,
+        :submarine_terrace ,
+        :submarine_tributary_canyon ,
+        :submarine_valley ;
+    skos:prefLabel "Marine Setting"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:bedform
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Current-induced_Process ;
+    skos:definition "Quasi-rhythmic, erosional or depositional units formed at the interface between sediment and a lower-density medium (e.g. water, air, ice or pyroclastic flows). BEDFORMS constitute the bulk of sediment transport (Robert, 2014) and scale to changing flow properties (e.g. Simons and Richardson, 1966). BEDFORMS often develop over BARFORMS in response to changing flow conditions (Simons and Richardson, 1966)."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :current-induced_crag_and_tail ,
+        :current-induced_furrow ,
+        :cyclic_step ,
+        :dune ,
+        :lag ,
+        :lineation ,
+        :obstacle_and_comet_scour ,
+        :plane_bed ,
+        :ripple ,
+        :scour ,
+        :sediment_ribbon ,
+        :sediment_streak ;
+    skos:prefLabel "bedform (BGU)"@en ;
+.
+
+:Fluid_Flow_Process
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A PROCESS grouping in which geomorphic UNITS are primarily formed by the migration of fluids (liquids and gasses) that are driven by pressure gradients."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :MDAC ,
+        :blow-out_crater ,
+        :caldera ,
+        :gryphon ,
+        :hydrothermal_mound ,
+        :hydrothermal_vent ,
+        :moat ,
+        :mud_volcano ,
+        :mudflow_mud-volcano ,
+        :permafrost_pingo_depression ,
+        :pingo ,
+        :pockmark ,
+        :ring_fault ;
+    skos:prefLabel "Fluid Flow Process"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:rocky_coast
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Coastal_Setting ;
+    skos:definition "Any length of coast that is predominantly characterised by rock (rather than sediment or vegetation)."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :arch ,
+        :cave ,
+        :cliff ,
+        :furrow_rocky_coast ,
+        :notch ,
+        :outcrop ,
+        :plunging_cliff ,
+        :pool ,
+        :pothole ,
+        :ramp ,
+        :rampart ,
+        :shore_platform ,
+        :stack ,
+        :toe_rocky_coast ;
+    skos:prefLabel "rocky coast (BGU)"@en ;
+.
+
+:Solid_Earth_Setting
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A SETTING in which bedrock UNITS are related to the configuration of the bedrock geology itself; these UNITS represent a broad range of scales and lithologies and can be the product of tectonic deformation and volcanic activity. The SOLID EARTH SETTING excludes UNITS formed by other processes (e.g. FLUVIAL - SUBAERIAL CHANNELS incised into bedrock) and is not intended to span the spectrum of geological terminology that is traditionally applied during terrestrial geology mapping."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :abyssal_hill ,
+        :axial_volcanic_ridge ,
+        :bedding_ridge ,
+        :bedrock_outcrop_undef ,
+        :dip_slope ,
+        :guyot ,
+        :impact_crater ,
+        :magmatic_outcrop ,
+        :oceanic_core_complex ,
+        :scarp_slope ,
+        :tectonic_depression ,
+        :tectonic_escarpment ,
+        :tectonic_high ,
+        :tectonic_lineament ,
+        :volcano_island ;
+    skos:prefLabel "Solid Earth Setting"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:Coastal_Setting
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A SETTING in which geomorphic UNITS are primarily formed by coastal processes (waves, tides, rivers and winds) on modern or former CONTINENTAL SHELVES (PHYSIOGRAPHY)."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :back_barrier ,
+        :barrier ,
+        :barrier_complex ,
+        :beach ,
+        :beach_ridge ,
+        :beachface ,
+        :channel_belt ,
+        :channel_ledge ,
+        :chenier_ridge ,
+        :coastal_barform ,
+        :coastal_delta ,
+        :coastal_subaerial_valley ,
+        :delta_lobe ,
+        :floodplain ,
+        :floodplain_terrace ,
+        :lagoon ,
+        :raised_beach ,
+        :rocky_coast ,
+        :shoreface ,
+        :subaerial_channel ,
+        :tidal_flat ;
+    skos:prefLabel "Coastal Setting"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:Mass_Movement_Process
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A PROCESS grouping in which geomorphic UNITS are primarily formed by downslope gravity-driven transport."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :complex ,
+        :crown_crack ,
+        :debris_apron ,
+        :debris_fan ,
+        :depositional_zone ,
+        :evacuation_zone ,
+        :extensional_ridge ,
+        :fall ,
+        :flow ,
+        :head_scarp ,
+        :lateral_scarp ,
+        :lateral_spread ,
+        :mass-movement_compressional_ridge ,
+        :mass-movement_toe ,
+        :minor_scarp ,
+        :mudflow_fan ,
+        :mudflow_gully ,
+        :remnant_block ,
+        :slide ,
+        :talus_apron ,
+        :talus_fan ,
+        :topple ,
+        :translated_block ,
+        :transverse_crack ,
+        :turbidite_fan ,
+        :turbidite_levee ,
+        :turbidity_channel ;
+    skos:prefLabel "Mass-Movement Process"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:Glacial_Setting
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A SETTING in which geomorphic UNITS are primarily formed by glacial, periglacial and proglacial processes on modern or previously glaciated coasts or on the CONTINENTAL SHELF (PHYSIOGRAPHY)."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :corrugation_ridges ,
+        :corrugation_ridges_within_ploughmarks ,
+        :crevasse-filling ,
+        :cross-shelf_trough ,
+        :cupola_hill ,
+        :erratic ,
+        :esker ,
+        :glacial_basin ,
+        :glacial_fjord ,
+        :glacifluvial_delta ,
+        :glacifluvial_outwash_plain ,
+        :glacigenic_debris_flow ,
+        :glacitectonic_raft ,
+        :grounding_zone_wedge ,
+        :hill-hole_pair ,
+        :hummocky_terrain ,
+        :ice-contact_delta ,
+        :ice-proximal_fan ,
+        :iceberg_grounding_pit ,
+        :iceberg_ploughmark ,
+        :kettle_hole ,
+        :medial_moraine ,
+        :meltwater_channel ,
+        :moraine ,
+        :proglacial_meltwater_channel ,
+        :rogen_moraine ,
+        :sill ,
+        :streamlined_landform ,
+        :sub-ice_shelf_keel_scour_mark ,
+        :thrust-block_moraine ,
+        :trough-mouth_fan ,
+        :tunnel_valley ,
+        :u-shaped_valley ;
+    skos:prefLabel "Glacial Setting"@en ;
+    skos:topConceptOf cs: ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    owl:versionIRI :1.0 ;
+    skos:definition """A vocabulary of GEOMORPHIC UNIT terms (Part 2) used in the two-part marine and coastal geomorphology classification scheme (International Seabed Geomorphology Mapping Working Group - ISGM-WG: Part 1 Morphology: [https://doi.org/10.5281/zenodo.4071940](https://doi.org/10.5281/zenodo.4071940); Part 2 Geomorphology: [https://doi.org/10.5281/zenodo.7804019](https://doi.org/10.5281/zenodo.7804019) to classify MORPHOLOGY FEATURES (Part 1) with their process interpretation. These UNIT terms are structured within a consistent framework design that is replicated between eleven SETTING and PROCESS categories.
+
+This is one of four linked ISGM-WG vocabularies. Definitions in this vocabulary are subject to intermittent review and versioning. Unless otherwise stated, all definitions are derived from the Part 2 Geomorphology report (Version 1.0) [https://doi.org/10.5281/zenodo.7804019](https://doi.org/10.5281/zenodo.7804019))."""@en ;
+    skos:hasTopConcept
+        :Anthropogenic_Process ,
+        :Biogenic_Process ,
+        :Coastal_Setting ,
+        :Current-induced_Process ,
+        :Fluid_Flow_Process ,
+        :Fluvial_Setting ,
+        :Glacial_Setting ,
+        :Karst_Process ,
+        :Marine_Setting ,
+        :Mass_Movement_Process ,
+        :Solid_Earth_Setting ;
+    skos:historyNote "This vocabulary describes the glossary in Part 2 of the two-part seabed geomorphology classification scheme DOI: 10.5281/zenodo.7804019"@en ;
+    skos:prefLabel "Seabed geomorphology - Part 2 Geomorphology"@en ;
+    prov:qualifiedAttribution
+        [
+            dcat:hadRole isoroles:custodian ;
+            prov:agent
+                [
+                    a schema:Person ;
+                    schema:email ""^^xsd:anyURI ;
+                    schema:name "Marine And Coastal Geoscience" ;
+                ] ;
+        ] ,
+        [
+            dcat:hadRole isoroles:custodian ;
+            prov:agent
+                [
+                    a schema:Person ;
+                    schema:email ""^^xsd:anyURI ;
+                    schema:name "Orca Branch" ;
+                ] ;
+        ] ,
+        [
+            dcat:hadRole isoroles:custodian ;
+            prov:agent
+                [
+                    a schema:Person ;
+                    schema:email ""^^xsd:anyURI ;
+                    schema:name "Poc: Rachel Nanson" ;
+                ] ;
+        ] ;
+    schema:creator
+        [
+            a schema:Organization ;
+            schema:name "Isgm Wg" ;
+            schema:url ""^^xsd:anyURI ;
+        ] ;
+    schema:dateCreated "2024-06-17"^^xsd:date ;
+    schema:dateModified "2024-10-18"^^xsd:date ;
+    schema:publisher
+        [
+            a schema:Organization ;
+            schema:name "Ga" ;
+            schema:url ""^^xsd:anyURI ;
+        ] ;
+    schema:version "1.0" ;
+.
