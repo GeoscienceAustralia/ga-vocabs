@@ -320,6 +320,7 @@ Cf. "abyss - hills" in Harris et al., (2014)."""@en ;
 :caldera
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
+    skos:altLabel "crater"@en ;
     skos:broader :Fluid_Flow_Process ;
     skos:definition "A circular Depression at the summit of a MUD VOLCANO, where the central conduit crops out at the surface. These structures are related to fluid-rich seeps generally associated passive margins (Ceramicola et al., 2018)."@en ;
     skos:inScheme cs: ;
@@ -518,6 +519,24 @@ Cf. FLUVIAL PRO-DELTA"""@en ;
     skos:prefLabel "contourite drift (BGU-T)"@en ;
 .
 
+:coralligene_bank
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :biogenic_reef ;
+    skos:definition "Currently under working group consultation"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "coralligene bank (BGU-T)"@en ;
+.
+
+:coralligene_rim
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :biogenic_reef ;
+    skos:definition "Currently under working group consultation"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "coralligene rim (BGU-T)"@en ;
+.
+
 :coralligène
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
@@ -530,6 +549,7 @@ Cf. FLUVIAL PRO-DELTA"""@en ;
 :corrugation_ridges
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
+    skos:altLabel "ribs"@en ;
     skos:broader :Glacial_Setting ;
     skos:definition "Small, regularly spaced ridges formed by tidal-induced movement of icebergs or a glacier grounding line during retreat (Bell et al. 2016; Dowdeswell et al. 2020). Ridge spacing indicates the rate of iceberg drift and grounding line retreat (Batchelor et al. 2023)."@en ;
     skos:inScheme cs: ;
@@ -561,6 +581,15 @@ Cf. FLUVIAL PRO-DELTA"""@en ;
     skos:definition "A relatively minor SUBAERIAL CHANNEL, which may be a tributary to a RIVER or DISTRIBUTARY or may flow directly into a BACKBARRIER or the open coast."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "creek (BGU-T)"@en ;
+.
+
+:crescentic_reef-mature
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :biogenic_reef ;
+    skos:definition "Currently under working group consultation"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "crescentic reef - mature (BGU-T)"@en ;
 .
 
 :crevasse-filling
@@ -724,6 +753,7 @@ Cf. FLUVIAL PRO-DELTA"""@en ;
 :dip_slope
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
+    skos:altLabel "bench"@en ;
     skos:broader :Solid_Earth_Setting ;
     skos:definition "A natural/gradual slope on the surface of the seabed which is parallel to the dip of the underlying strata (modified after Huggett, 2017)."@en ;
     skos:inScheme cs: ;
@@ -751,6 +781,7 @@ Cf. FLUVIAL PRO-DELTA"""@en ;
 :drainage_basin
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
+    skos:altLabel "catchment"@en ;
     skos:broader :Fluvial_Setting ;
     skos:definition "Includes the DRAINAGE NETWORK and all surfaces draining to them (modified from Goudie, 2006)."@en ;
     skos:inScheme cs: ;
@@ -829,6 +860,10 @@ Cf. FLUVIAL PRO-DELTA"""@en ;
 :evacuation_zone
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "depletion zone"@en ,
+        "extensional domain"@en ,
+        "headwall domain"@en ;
     skos:broader :Mass_Movement_Process ;
     skos:definition "The most upslope zone of a mass movement, within which the remobilized material lies below the original ground surface (modified from: Cruden, 1993). Its upper limit is set by the geometry of the HEAD SCARP and this zone is normally dominated by extension features such as Blocks or elongated Ridges (Nissen et al., 1999)."@en ;
     skos:inScheme cs: ;
@@ -1196,6 +1231,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
 :head_scarp
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
+    skos:altLabel "headwall"@en ;
     skos:broader :Mass_Movement_Process ;
     skos:definition "The upslope boundary of a mass movement, set between undisturbed and remobilised material. It is the visible part of the surface of rupture and can be defined as an extensional failure surface linked at depth to the basal shear surface. In plan-view, head scarps are typified by an arcuate geometry well-defined continuous scarp, particularly in mass movements associated with a higher degree of desegregation (e.g., SLIDES, FLOWS). However, a head scarp can also present a sinuous geometry due to localised retrogressive erosion of the scarp (Bull et al., 2009)."@en ;
     skos:inScheme cs: ;
@@ -1299,6 +1335,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
 :impact_crater
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
+    skos:altLabel "astrobleme"@en ;
     skos:broader :Solid_Earth_Setting ;
     skos:definition "Remains of an ancient meteorite-impact structure on the Earth's surface, generally in the form of a circular scar of crushed and deformed bedrock (modified after Huggett, 2017)."@en ;
     skos:inScheme cs: ;
@@ -1351,6 +1388,33 @@ Cf. COASTAL PRO-DELTA"""@en ;
     skos:prefLabel "joint (BGU-T)"@en ;
 .
 
+:juvenile_reef-irregular_patch_reefs
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :biogenic_reef ;
+    skos:definition "Currently under working group consultation"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "juvenile reef - irregular patch reefs (BGU-T)"@en ;
+.
+
+:juvenile_reef-submerged_shoals
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :biogenic_reef ;
+    skos:definition "Currently under working group consultation"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "juvenile reef - submerged shoals (BGU-T)"@en ;
+.
+
+:juvenile_reef-unmodified_antecedent_platform
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :biogenic_reef ;
+    skos:definition "Currently under working group consultation"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "juvenile reef - unmodified antecedent platform (BGU-T)"@en ;
+.
+
 :karst_plain
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
@@ -1387,6 +1451,15 @@ Cf. COASTAL PRO-DELTA"""@en ;
     skos:prefLabel "lag (BGU-T)"@en ;
 .
 
+:lagoonal_reef-mature
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :biogenic_reef ;
+    skos:definition "Currently under working group consultation"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "lagoonal reef - mature (BGU-T)"@en ;
+.
+
 :lateral_moraine
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
@@ -1399,6 +1472,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
 :lateral_scarp
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
+    skos:altLabel "sidewall"@en ;
     skos:broader :Mass_Movement_Process ;
     skos:definition "A scarp, normally parallel to the main direction of transport, which represents the lateral confining boundary to a mass movement. Depending on the overall structure and type of collapse, a lateral scarp may only have a minor superficial expression or be associated with a steep relief."@en ;
     skos:inScheme cs: ;
@@ -1832,6 +1906,15 @@ Cf. COASTAL PRO-DELTA"""@en ;
     skos:prefLabel "pipeline (BGU-T)"@en ;
 .
 
+:planar_reef-senile
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :biogenic_reef ;
+    skos:definition "Currently under working group consultation"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "planar reef - senile (BGU-T)"@en ;
+.
+
 :plane_bed
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
@@ -2154,6 +2237,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
 :rotational_slide
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
+    skos:altLabel "slump"@en ;
     skos:broader :slide ;
     skos:definition "A type of SLIDE characterised by a rotational movement on a circular or spoon-shaped shear surface."@en ;
     skos:inScheme cs: ;
@@ -2208,6 +2292,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
 :scarp_slope
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
+    skos:altLabel "cliff"@en ;
     skos:broader :Solid_Earth_Setting ;
     skos:definition "A relatively steep face of a scarp created by a resistant cap rock overlying a relatively weak and erodible stratum (modified after Huggett, 2017)."@en ;
     skos:inScheme cs: ;
@@ -2363,6 +2448,9 @@ Cf. "seamount" in Harris et al., (2014)."""@en ;
 :shoreface_terrace
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "intertidal terrace"@en ,
+        "marine terrace"@en ;
     skos:broader :coastal_barform ;
     skos:definition """SHOREFACE TERRACES are formed by subaerial weathering during lowstand exposure and wave erosion that drove the coastline landward during subsequent sea-level rise (Micallef et al., 2017).
 Cf. RAISED BEACH"""@en ;
@@ -2391,6 +2479,7 @@ Cf. RAISED BEACH"""@en ;
 :slope-confined_canyon
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
+    skos:altLabel "blind canyon"@en ;
     skos:broader :submarine_canyon ;
     skos:definition "SUBMARINE CANYONS that are restricted to the CONTINENTAL SLOPE, and are not geometrically connected to the CONTINENTAL SHELF (Harris and Whiteway, 2011)."@en ;
     skos:inScheme cs: ;
@@ -2886,6 +2975,7 @@ Cf."glacial trough" in Harris et al., (2014)."""@en ;
 :barrier_complex
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
+    skos:altLabel "barrier system"@en ;
     skos:broader :Coastal_Setting ;
     skos:definition "Amalgamated, shore-parallel sand bodies incorporating BEACH, coastal dunes (DUNE - foredune BGU-sT), WASHOVER and backbarrier FLAT deposits. May comprise multiple shorelines to form a PLAIN (STRAND- or CHENIER) (modified from Griffin et al., 2012)."@en ;
     skos:inScheme cs: ;
@@ -3419,23 +3509,6 @@ Cf. FLUVIAL SUBAERIAL VALLEY"""@en ;
     skos:topConceptOf cs: ;
 .
 
-:biogenic_reef
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:broader :Biogenic_Process ;
-    skos:definition "In-situ, positive relief, persistent build-ups of primarily skeleton-supported framework (+ internal binding), that influence the local sedimentary environment (Klement, 1967), and supports (or supported) living communities during active accretion. Definition modified from a range of sources: (Cumings, 1932; Goudie, 2006; Harris and Baker, 2020; Klement, 1967; Lo Iacono et al., 2018).Cf. REEF (MARINE SETTING)."@en ;
-    skos:inScheme cs: ;
-    skos:narrower
-        :atoll ,
-        :barrier_reef ,
-        :cold-water-coral-reef ,
-        :coralligène ,
-        :fringing_reef ,
-        :patch_reef ,
-        :platform_reef ;
-    skos:prefLabel "biogenic reef (BGU)"@en ;
-.
-
 :coastal_delta
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
@@ -3725,6 +3798,31 @@ Cf. FLUVIAL DELTA"""@en ;
     skos:topConceptOf cs: ;
 .
 
+:biogenic_reef
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Biogenic_Process ;
+    skos:definition "In-situ, positive relief, persistent build-ups of primarily skeleton-supported framework (+ internal binding), that influence the local sedimentary environment (Klement, 1967), and supports (or supported) living communities during active accretion. Definition modified from a range of sources: (Cumings, 1932; Goudie, 2006; Harris and Baker, 2020; Klement, 1967; Lo Iacono et al., 2018).Cf. REEF (MARINE SETTING)."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :atoll ,
+        :barrier_reef ,
+        :cold-water-coral-reef ,
+        :coralligene_bank ,
+        :coralligene_rim ,
+        :coralligène ,
+        :crescentic_reef-mature ,
+        :fringing_reef ,
+        :juvenile_reef-irregular_patch_reefs ,
+        :juvenile_reef-submerged_shoals ,
+        :juvenile_reef-unmodified_antecedent_platform ,
+        :lagoonal_reef-mature ,
+        :patch_reef ,
+        :planar_reef-senile ,
+        :platform_reef ;
+    skos:prefLabel "biogenic reef (BGU)"@en ;
+.
+
 :Coastal_Setting
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
@@ -3838,7 +3936,7 @@ Cf. FLUVIAL DELTA"""@en ;
 
 cs:
     a skos:ConceptScheme ;
-    owl:versionIRI :1.0 ;
+    owl:versionIRI :1.1 ;
     skos:definition """A vocabulary of GEOMORPHIC UNIT terms (Part 2) used in the two-part marine and coastal geomorphology classification scheme (International Seabed Geomorphology Mapping Working Group - ISGM-WG: Part 1 Morphology: [https://doi.org/10.5281/zenodo.4071940](https://doi.org/10.5281/zenodo.4071940); Part 2 Geomorphology: [https://doi.org/10.5281/zenodo.7804019](https://doi.org/10.5281/zenodo.7804019) to classify MORPHOLOGY FEATURES (Part 1) with their process interpretation. These UNIT terms are structured within a consistent framework design that is replicated between eleven SETTING and PROCESS categories.
 
 This is one of four linked ISGM-WG vocabularies. Definitions in this vocabulary are subject to intermittent review and versioning. Unless otherwise stated, all definitions are derived from the Part 2 Geomorphology report (Version 1.0) [https://doi.org/10.5281/zenodo.7804019](https://doi.org/10.5281/zenodo.7804019))."""@en ;
@@ -3891,12 +3989,12 @@ This is one of four linked ISGM-WG vocabularies. Definitions in this vocabulary 
             schema:url ""^^xsd:anyURI ;
         ] ;
     schema:dateCreated "2024-06-17"^^xsd:date ;
-    schema:dateModified "2024-10-18"^^xsd:date ;
+    schema:dateModified "2025-04-02"^^xsd:date ;
     schema:publisher
         [
             a schema:Organization ;
             schema:name "Ga" ;
             schema:url ""^^xsd:anyURI ;
         ] ;
-    schema:version "1.0" ;
+    schema:version "1.1" ;
 .
