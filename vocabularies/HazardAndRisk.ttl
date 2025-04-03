@@ -1,0 +1,1921 @@
+PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/>
+PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX isoroles: <https://linked.data.gov.au/def/data-roles/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+:abnormally_high_tide
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Abnormally high sea levels caused by high astronomical tides exacerbated by sea level rise and/or storm surge."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Abnormally high tide"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:adaptive_capacity
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "The ability of a system to modify or change its characteristics and behaviours to cope with actual or anticipated stresses. These factors enable the adjustment of responses and behaviours through learning, adaptation and transformation."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Adaptive capacity"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "[https://knowledge.aidr.org.au/resources/ajem-apr-2017-the-australian-natural-disaster-resilience-index/](https://knowledge.aidr.org.au/resources/ajem-apr-2017-the-australian-natural-disaster-resilience-index/)"^^xsd:anyURI ;
+.
+
+:administrative_data
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Administrative data is the set of units and data derived from an administrative source. (e.g. tax records or Medicare transactions)"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Administrative data"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "[OECD Glossary of Statistical Terms - Administrative data Definition](https://doi.org/10.1787/9789264055087-en)"^^xsd:anyURI ;
+.
+
+:aftershock
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :earthquake ;
+    skos:definition "Smaller earthquake following the largest earthquake of a series concentrated in a restricted crustal volume."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Aftershock"@en ;
+    schema:citation "[https://knowledge.aidr.org.au/glossary/](https://knowledge.aidr.org.au/glossary/)"^^xsd:anyURI ;
+.
+
+:agricultural
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Relating to cultivation of plants and livestock for consumption and economic benefit."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Agricultural"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:analysis
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "Data analysis"@en ;
+    skos:definition "Data analysis is the process of transforming raw data into usable information, often presented in the form of a published analytical article, in order to add value to the statistical output."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Analysis"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "[OECD Glossary of Statistical Terms - Data analysis Definition](https://doi.org/10.1787/9789264055087-en)"^^xsd:anyURI ;
+.
+
+:bathymetry
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "Seabed topography"@en ;
+    skos:definition "Underwater depth of ocean floors, lake floors, or river floors."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Bathymetry"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:biological_hazard
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Hazards of an organic origin: pathogenic microorganisms, toxins and bioactive substances that occur either naturally or are deliberately or unintentionally released."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Biological hazard"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "https://www.undrr.org/terminology"^^xsd:anyURI ;
+.
+
+:built
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Human-made surroundings, structures and supporting infrastructure to facilitate life, health, work and play."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Built (domain)"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "[National Climate Resilience and Adaptation Strategy](https://www.dcceew.gov.au/climate-change/policy/adaptation/strategy/ncras-2021-25)"^^xsd:anyURI ;
+.
+
+:burn_scar
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "fire scar"@en ;
+    skos:definition "Visibly blackened land surface left after a fire has burned through vegetation."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Burn scar"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "https://www.qld.gov.au/environment/land/management/mapping/statewide-monitoring/firescar/firescar-explained"^^xsd:anyURI ;
+.
+
+:bushfire
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Unplanned vegetation fire. A generic term which includes grass fires, forest fires and scrub fires both with and without a suppression objective."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Bushfire"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "https://knowledge.aidr.org.au/glossary/"^^xsd:anyURI ;
+.
+
+:census
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A census is a survey conducted on the full set of observation objects belonging to a given population or universe. (e.g. the Australian Census of Population and Housing)"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Census"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "[OECD Glossary of Statistical Terms - Census Definition](https://doi.org/10.1787/9789264055087-en)"^^xsd:anyURI ;
+.
+
+:climate
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "The climate of a locality is the synthesis of the day-to-day values of the meteorological elements that affect the locality. Climatic data are usually expressed in terms of an individual calendar month or season and are determined over a period (usually about 30 years) long enough to ensure that representative values for the month or season are obtained. This may include the future expectation of long term weather, in the order of weeks, months or years ahead."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Climate"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "http://www.bom.gov.au/climate/glossary/"^^xsd:anyURI ;
+.
+
+:climate_projections
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "The simulated response of the climate system to a scenario of future emission or concentration of greenhouse gases (GHGs) and aerosols, generally derived using climate models."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Climate projections"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation
+        "WG 1 Glossary](https://www.ipcc.ch/site/assets/uploads/2018/02/WG1AR5_AnnexIII_FINAL.pdf)"^^xsd:anyURI ,
+        "[IPCC 5th Assessment Report"^^xsd:anyURI ;
+.
+
+:coastal
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "The transition zone between the land and the sea."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Coastal"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:communities
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "Community"@en ;
+    skos:definition """A community, like a family, can contribute to a person's wellbeing e.g. support and care for individuals or by helping give a sense of identity and security. Like 'family', a definition of 'community' can vary greatly. A community can be based on:
+- location
+- where you live or work
+- those who you have immediate family ties with (by blood and/or marriage)
+- shared values
+- traditions
+- interests
+- lifestyles
+- religious groups
+- school communities
+
+The boundary of a community extends beyond a physical location."""@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Communities"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "[Family and Community - Frameworks for Australian Social Statistics ](https://www.abs.gov.au/ausstats/abs@.nsf/Lookup/by%20Subject/4160.0.55.001~Jun%202015~Main%20Features~Family%20and%20community~10014)"^^xsd:anyURI ;
+.
+
+:consequences
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "Secondary impacts"@en ;
+    skos:definition "The issues arising from the impact of an event. For example, the consequences of road closures due to a flood event include lack of access to residences or blockage in supply lines. A single form of impact may have multiple consequences across different domains."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Consequence"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:convection
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "The process generally associated with warm rising air and the formation of cloud. Local breezes, wind and thunderstorms are a result of convection in the atmosphere."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Convection"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "http://www.bom.gov.au/lam/glossary/"^^xsd:anyURI ;
+.
+
+:convective_cloud
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Cloud formed through convection, particularly cumulonimbus* and cumulus* clouds."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Convective cloud"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:coping_capacity
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "The ability of people, organizations and systems, using available skills and resources, to manage adverse conditions, risk or disasters. The capacity to cope requires continuing awareness, resources and good management, both in normal times as well as during disasters or adverse conditions. Coping capacities contribute to the reduction of disaster risks."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Coping capacity"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "https://www.undrr.org/terminology"^^xsd:anyURI ;
+.
+
+:critical_infrastructure
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "Essential services"@en ,
+        "Lifelines"@en ;
+    skos:definition "The physical structures, facilities, networks, lifelines and other assets which provide services that are essential to the social and economic functioning of a community or society."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Critical infrastructure"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "https://www.undrr.org/terminology"^^xsd:anyURI ;
+.
+
+:damage_ratio
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "Damage index"@en ,
+        "Loss ratio"@en ;
+    skos:definition "Level of damage expressed as the ratio of repair cost to total replacement cost. Typically used to describe physical or structural losses for assets."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Damage ratio"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:damaging_waves
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "Dangerous surf"@en ;
+    skos:definition "Waves that may lead to significant beach erosion or damage to property."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Damaging waves"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "[Bureau of Meteorology](http://www.bom.gov.au/)"^^xsd:anyURI ;
+.
+
+:damaging_winds
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Sustained winds of gale force (63 km/h) or more, or wind gusts of 90 km/h or more (100 km/h or more in Tasmania)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Damaging Winds"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "[Bureau of Meteorology](http://www.bom.gov.au/)"^^xsd:anyURI ;
+.
+
+:data
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Data are measurements or observations that are collected as a source of information. There are a variety of different types of data, and different ways to represent data."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Data"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "[Statistical Language - What are Data? (abs.gov.au)](https://www.abs.gov.au/statistics/understanding-statistics/statistical-terms-and-concepts/data)"^^xsd:anyURI ;
+.
+
+:data_visualisation
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Visual presentation of data to communicate the stories contained in the dataset."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Data visualisation"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "[Statistical Language - Statistical Language Glossary (abs.gov.au)](https://www.abs.gov.au/statistics/understanding-statistics/statistical-terms-and-concepts/statistical-terms-and-concepts-glossary)"^^xsd:anyURI ;
+.
+
+:dataset
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A complete collection of all observations."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Dataset"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "[Statistical Language - What are Data? (abs.gov.au)](https://www.abs.gov.au/statistics/understanding-statistics/statistical-terms-and-concepts/data)"^^xsd:anyURI ;
+.
+
+:demographics
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Statistical data relating to the population and particular groups within it."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Demographics"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:destructive_winds
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Sustained winds of storm force (89 km/h) or more, or wind gusts of 125 km/h or more."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Destructive Winds"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "[Bureau of Meteorology](http://www.bom.gov.au/)"^^xsd:anyURI ;
+.
+
+:direct_economic_loss
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :economic_loss ;
+    skos:definition "The monetary value of total or partial destruction of physical assets existing in the affected area. Direct economic loss is nearly equivalent to physical damage."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Direct economic loss"@en ;
+    schema:citation "https://www.undrr.org/terminology"^^xsd:anyURI ;
+.
+
+:disaster
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "catastrophe"@en ,
+        "crisis"@en ;
+    skos:definition "Serious disruption of the functioning of a community or a society at any scale due to hazardous events interacting with conditions of exposure, vulnerability and capacity, leading to one or more of the following: human, material, economic and environmental losses and impacts."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Disaster"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation
+        "2020](https://www.undrr.org/media/47681/download?startDownload=20250328)"^^xsd:anyURI ,
+        "UNDRR"^^xsd:anyURI ,
+        "[Hazard Definition and Classification Review: Technical Report"^^xsd:anyURI ;
+.
+
+:disaster_risk
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "The potential loss of life, injury, or destroyed or damaged assets which could occur to a system, society or a community in a specific period of time, determined probabilistically as a function of hazard, exposure, vulnerability and capacity."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Disaster risk"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "[UN Disaster Related Statistics Framework](https://stat-confluence.escap.un.org/display/TWG/DRSF%3A+Disaster-related+Statistics+Framework)"^^xsd:anyURI ;
+.
+
+:disaster_risk_mitigation
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Activities and measures to reduce or lessen existing disaster risk or to limit the adverse impacts of a hazardous event. Mitigation differs from prevention in that it is reactive to an identified and currently existing risk or impending threat. Thus, the activities mitigate for specific threats, instead of general risk prevention."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Disaster risk mitigation"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "[UN Disaster Related Statistics Framework](https://stat-confluence.escap.un.org/display/TWG/DRSF%3A+Disaster-related+Statistics+Framework)"^^xsd:anyURI ;
+.
+
+:disaster_risk_prevention
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "Prevention"@en ;
+    skos:definition "Activities with an intention to avoid potential adverse impacts of hazardous events. While certain disaster risks cannot be eliminated, prevention aims at reducing vulnerability and exposure in such contexts where, as a result, the risk of disaster is removed."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Disaster risk prevention"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "[UN Disaster Related Statistics Framework](https://stat-confluence.escap.un.org/display/TWG/DRSF%3A+Disaster-related+Statistics+Framework)"^^xsd:anyURI ;
+.
+
+:disaster_risk_reduction
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "Reduction"@en ;
+    skos:definition "Disaster risk reduction is aimed at preventing new and reducing existing disaster risk and managing residual risk, all of which contribute to strengthening resilience and therefore to the achievement of sustainable development."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Disaster risk reduction"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "https://www.undrr.org/terminology"^^xsd:anyURI ;
+.
+
+:displacement
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Movement of the population as a direct result of a hazard, including evacuations and permanent relocations of people due to a disaster."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Displacement"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "[UN Disaster Related Statistics Framework](https://stat-confluence.escap.un.org/display/TWG/DRSF%3A+Disaster-related+Statistics+Framework)"^^xsd:anyURI ;
+.
+
+:distribution_electricity
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Local, low-voltage electricity network to transport electricity from transmission networks to end users (households and businesses). This includes powerlines and power poles."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Distribution (electricity)"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:domain
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "The social, economic, natural and built domains for information."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Domain"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:domain_modelling
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Geographic extent of a weather or climate modelling system where the variables of a model are calculated."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Domain (modelling)"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:drought
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Prolonged absence or marked deficiency of precipitation (rain)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Drought"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "[Bureau of Meteorology](http://www.bom.gov.au/)"^^xsd:anyURI ;
+.
+
+:dust_storm
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A dust storm happens when strong wind picks up dust and dirt from the ground, raises it into the atmosphere and carries it over an extensive area. Dust storms can trigger health problems for some people and cause disruption to transport due to poor visibility."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Dust storm"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "https://wmo.int/"^^xsd:anyURI ;
+.
+
+:dwelling
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "Home"@en ;
+    skos:broader :residential_building ;
+    skos:definition "A dwelling is considered to be a suite of rooms contained within a building intended for long-term residential use, possessing cooking and bathing/shower facilities as building fixtures. A house is considered to be a detached residential building containing a single dwelling."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Dwelling"@en ;
+    schema:citation
+        "January 2021 | Australian Bureau of Statistics (abs.gov.au)](https://www.abs.gov.au/statistics/classifications/functional-classification-buildings/jan-2021)"^^xsd:anyURI ,
+        "[Functional Classification of Buildings"^^xsd:anyURI ;
+.
+
+:dynamical_downscaling
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A method that derives local- to regional-scale (10 to 100 km) information from larger-scale models or data analyses, using the output of regional climate models, global models with variable spatial resolution or high-resolution global models."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Dynamical downscaling"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation
+        "WG 1 Glossary](https://www.ipcc.ch/site/assets/uploads/2018/02/WG1AR5_AnnexIII_FINAL.pdf)"^^xsd:anyURI ,
+        "[IPCC 5th Assessment Report"^^xsd:anyURI ;
+.
+
+:economic_domain
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Production and consumption of goods and services - productivity, financial systems and the economy."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Economic (domain)"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "[National Climate Resilience and Adaptation Strategy](https://www.dcceew.gov.au/climate-change/policy/adaptation/strategy/ncras-2021-25)"^^xsd:anyURI ;
+.
+
+:elevation
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Height of the ground above or below a fixed reference point, most commonly a reference geoid or mean sea level."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Elevation"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:environmental_assets
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "The naturally occurring living and non-living components of the earth, together constituting the biophysical environment, which may provide benefits to humanity."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Environmental assets"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "[UN Disaster Related Statistics Framework](https://stat-confluence.escap.un.org/display/TWG/DRSF%3A+Disaster-related+Statistics+Framework)"^^xsd:anyURI ;
+.
+
+:environmental_hazards
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Hazards that arise through degradation of the natural systems and ecosystem services upon which humanity depends."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Environmental hazards"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "https://www.undrr.org/terminology"^^xsd:anyURI ;
+.
+
+:essential_services
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "Critical services"@en ,
+        "critical infrastructure"@en ,
+        "essential lifelines"@en ;
+    skos:definition "The physical structures, facilities, networks, lifelines and other assets which provide services that are essential to the social and economic functioning of a community or society."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Essential Services"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:estimate
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "An estimate is a value that is inferred for a population based on data collected from a sample of units from that population."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Estimate"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "[Statistical Language - Estimate and Projection (abs.gov.au)](https://www.abs.gov.au/statistics/understanding-statistics/statistical-terms-and-concepts/estimate-and-projection)"^^xsd:anyURI ;
+.
+
+:event
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "An incident or situation, which occurs in a particular place during a particular interval of time."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Event"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "https://knowledge.aidr.org.au/glossary/"^^xsd:anyURI ;
+.
+
+:exceedance_probability
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "Annual exceedance probability"@en ;
+    skos:definition "The probability that an event of a given magnitude, or any greater magnitude, will occur. Exceedance probability relates to a given time period, commonly one year."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Exceedance probability"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "https://knowledge.aidr.org.au/glossary/"^^xsd:anyURI ;
+.
+
+:exposure
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "The location and characteristics of assets: people, infrastructure, buildings, agriculture, environmental assets, production capacities and other tangible human assets that may be at risk from a hazard across the natural, social, economic and built domains."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Exposure"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "https://www.undrr.org/terminology/exposure"^^xsd:anyURI ;
+.
+
+:families
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "Family"@en ;
+    skos:definition "Family is often thought of as a group of people who are related through blood or marriage, and often live together. However, the definition of what a family is, and the way it is structured and functions, can vary greatly depending on the individual, community and culture. Family can range from the people living together in the same dwelling, to an extended network which crosses state and country boundaries. The structure can also vary. Family can be made up of intact, blended, one parent, and step families."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Families"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "[Family and Community - Frameworks for Australian Social Statistics](https://www.abs.gov.au/ausstats/abs@.nsf/Lookup/by%20Subject/4160.0.55.001~Jun%202015~Main%20Features~Family%20and%20community~10014)"^^xsd:anyURI ;
+.
+
+:flash_flood
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :hydrometeorological_hazard ;
+    skos:definition "A flood that rises quite rapidly with little or no advance warning, usually as a result of an intense rainfall over a small area or, possibly, an ice jam, a dam failure, etc."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Flash flood"@en ;
+    schema:citation "https://knowledge.aidr.org.au/glossary/"^^xsd:anyURI ;
+.
+
+:flood_extent
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "The geographic extent of land that has been, or might be, flooded."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Flood extent"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:forecast_weather
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A statement of prediction of weather variables based on a combination of computer generated materials and forecaster-input. Usually on a time scale of hours to days."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Forecast (weather)"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "[Glossary - NOAA's National Weather Service](https://forecast.weather.gov/glossary.php)"^^xsd:anyURI ;
+.
+
+:forecasts_data
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Forecasts speculate future values for the population with a certain level of confidence, based on current and past values as an expectation (prediction) of what will happen."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Forecasts (data)"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "[Statistical Language - Estimate and Projection (abs.gov.au)](https://www.abs.gov.au/statistics/understanding-statistics/statistical-terms-and-concepts/estimate-and-projection)"^^xsd:anyURI ;
+.
+
+:granularity
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "The level of detail at which data has been collected (e.g. temporal or spatial). Granularity of data refers to the size in which data fields are sub-divided, where 'granular data, fine granularity, high granularity, small granularity' would refer to highly detailed data which may be more useful for drawing insights about specific events by time or place."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Granularity"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:hail
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Precipitation that originates in convective clouds, such as cumulonimbus, in the form of balls or irregular pieces of ice."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Hail"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "[Bureau of Meteorology](http://www.bom.gov.au/)"^^xsd:anyURI ;
+.
+
+:hazard
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "Peril"@en ;
+    skos:definition "A process, phenomenon or human activity that may cause loss of life, injury or other health impacts, property damage, social and economic disruption or environmental degradation."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Hazard"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "https://www.undrr.org/drr-glossary/terminology"^^xsd:anyURI ;
+.
+
+:hazardous_surf
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Surf that creates unsafe conditions for swimmers, rock fishers and boaters. The thresholds for hazardous surf are based on wave height, swell direction and swell period and vary regionally"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Hazardous surf"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "[Bureau of Meteorology](http://www.bom.gov.au/)"^^xsd:anyURI ;
+.
+
+:heatwave
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A period of abnormally hot weather lasting several days."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Heatwave"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "[Bureau of Meteorology](http://www.bom.gov.au/)"^^xsd:anyURI ;
+.
+
+:highest_astronomical_tide
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :astronomical_tide ;
+    skos:definition "The highest level of water that can be predicted to occur under average meteorological conditions and any combination of astronomical conditions. This level may not be reached every year."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Highest astronomical tide"@en ;
+.
+
+:household
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition """A household is defined as one or more persons, at least one of whom is at least 15 years of age, usually resident in the same private dwelling.
+Note: a household does not necessarily represent a family."""@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Household"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation
+        "2016 (abs.gov.au)](https://www.abs.gov.au/ausstats/abs@.nsf/Lookup/2901.0Chapter34902016)"^^xsd:anyURI ,
+        "[2901.0 - Census of Population and Housing: Census Dictionary"^^xsd:anyURI ;
+.
+
+:housing
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "Residential building"@en ;
+    skos:definition "A rigid, fixed and permanent structure which has a roof intended primarily to house people."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Housing"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:impact_forecast
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "Impact-based forecasts"@en ;
+    skos:definition "Impact forecasting combines a forecast of a weather or climate hazard and an assessment of possible impacts, including when, where and how likely the impacts are."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Impact forecast"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "[UNDRR The Future of Forecasts: Impact-based Forecasting for Early Action ](https://globalplatform.undrr.org/sites/default/files/2022-02/The%20future%20of%20forecasts%20-%20Impact%20based%20forecasting%20for%20early%20action.pdf?startDownload=true)"^^xsd:anyURI ;
+.
+
+:indirect_economic_loss
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :economic_loss ;
+    skos:definition "A decline in economic value added as a consequence of direct economic loss and/or human and environmental impacts. This includes micro- meso- and macroeconomic impacts. Indirect losses can occur inside or outside the hazard area and often have a time lag."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Indirect economic loss"@en ;
+    schema:citation "https://www.undrr.org/terminology"^^xsd:anyURI ;
+.
+
+:indirect_impact
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "Indirect economic loss"@en ;
+    skos:broader :impact ;
+    skos:definition "The impacts of a disaster that are not due to the direct, physical outcomes of a hazard event (including declines in output or revenue, and impact on wellbeing of people), and generally arise from disruptions to the flow of goods and services as a result of a disaster e.g. business interruption, lost income."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Indirect impact"@en ;
+    schema:citation
+        "2014)](https://www.gfdrr.org/sites/default/files/publication/Understanding_Risk-Web_Version-rev_1.8.0.pdf) and [The UNDRR Global Assessment Report 2015](https://www.undrr.org/quick/11404)"^^xsd:anyURI ,
+        "[Understanding Risk: Evolution of Disaster Risk Assessment (GFDRR"^^xsd:anyURI ;
+.
+
+:industrial
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Activities relating to the production of goods, services and materials. Typically covers agriculture, forestry and fishing, mining, manufacturing, electricity, gas, water and waste services, construction, wholesale trade and retail trade."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Industrial"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "[Australian and New Zealand Standard Industrial Classification (ANZSIC)] (https://www.abs.gov.au/statistics/classifications/australian-and-new-zealand-standard-industrial-classification-anzsic/latest-release)"^^xsd:anyURI ;
+.
+
+:infrastructure
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "Engineered Construction"@en ;
+    skos:definition "Any fixed-in-place constructed physical asset that does not have a roof. This includes road, bridges, rail lines, harbours, mine facilities, pipelines, sewerage, drainage, telecommunications, water storage and supply, recreation facilities, other heavy industry and electircity generation, transmission and distribution lines."@en ;
+    skos:historyNote "Modified from the ABS Engineering Construction Glossary; [Glossary]  (https://www.abs.gov.au/methodologies/engineering-construction-activity-australia-methodology/dec-2021#glossary)" ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Infrastructure"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:integration_data
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Integration is a statistical process whereby units or industries are combined to a larger unit under consideration of the flows of intermediate deliveries that may exist between the individual units."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Integration (data)"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "[OECD Glossary of Statistical Terms - Integration Definition](https://doi.org/10.1787/9789264055087-en)"^^xsd:anyURI ;
+.
+
+:intelligence
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Value-added analysis, supported by further interpretation to make the analysis more digestible for users (e.g. through visual aids like story maps, dashboards and mapping)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Intelligence"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:inundation
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "The result of water covering land that would normally remain dry. This can be caused by riverine flooding, flash flooding, tsunami, storm tide, astronomical tides or other hydrometeorological events."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Inundation"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:lahar
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A mudslide induced by volcanic eruption either at the time of the eruption (by the mixing of hot gases, melted ice or water, and ash) or years later (by the failure of volcanic ash deposits in the presence of heavy rain)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Lahar"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "https://knowledge.aidr.org.au/glossary/"^^xsd:anyURI ;
+.
+
+:land_cover
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Land cover refers to the observed physical and biological cover of the Earth’s surface and includes natural vegetation and abiotic (non-living) surfaces."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Land cover"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation
+        "2016 | Australian Bureau of Statistics (abs.gov.au)](https://www.abs.gov.au/methodologies/national-land-account-experimental-estimates-methodology/2016)"^^xsd:anyURI ,
+        "Experimental Estimates methodology"^^xsd:anyURI ,
+        "[National Land Account"^^xsd:anyURI ;
+.
+
+:land_tenure
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Land tenure is the manner in which a party holds or occupies an area of land. It is a way of identifying who has the right to use and occupy land in accordance with the different types of ownership."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Land tenure"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation
+        "2016 | Australian Bureau of Statistics (abs.gov.au)](https://www.abs.gov.au/methodologies/national-land-account-experimental-estimates-methodology/2016)"^^xsd:anyURI ,
+        "Experimental Estimates methodology"^^xsd:anyURI ,
+        "[National Land Account"^^xsd:anyURI ;
+.
+
+:land_use
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Land use reflects both (i) the activities undertaken and (ii) the institutional arrangements put in place; for a given area for the purposes of economic production, or the maintenance and restoration of environmental functions."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Land use"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation
+        "2016 | Australian Bureau of Statistics (abs.gov.au)](https://www.abs.gov.au/methodologies/national-land-account-experimental-estimates-methodology/2016)"^^xsd:anyURI ,
+        "Experimental Estimates methodology"^^xsd:anyURI ,
+        "[National Land Account"^^xsd:anyURI ;
+.
+
+:large_hail
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Hail larger than 2 cm in diameter."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Large hail"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "[Bureau of Meteorology](http://www.bom.gov.au/)"^^xsd:anyURI ;
+.
+
+:legacy_system
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Out-dated system that continues to be used by an organisation because it still performs the functions it was initially intended to do. Legacy systems often no longer have support or maintenance and have limited opportunities for development."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Legacy system"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:liquefaction
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :geophysical_hazards ;
+    skos:definition "Process of soil and sand behaving like a dense fluid rather than a wet solid mass during an earthquake."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Liquefaction"@en ;
+    schema:citation "https://knowledge.aidr.org.au/glossary/"^^xsd:anyURI ;
+.
+
+:local_government_area
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Local Government Areas cover legally designated parts of a State or Territory for which incorporated local governing bodies have responsibility. Local Government Areas are an ABS Mesh Block approximation of gazetted local government boundaries as defined by each state and territory. ABS approximations of administrative boundaries do not match official legal boundaries and should only be used for statistical purposes."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Local Government Area"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation
+        "Australian Statistical Geography Standard (ASGS) Edition 3](https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs-edition-3/jul2021-jun2026/non-abs-structures/local-government-areas)"^^xsd:anyURI ,
+        "[Local Government Areas"^^xsd:anyURI ;
+.
+
+:loss
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "Impact"@en ;
+    skos:definition "Quantified impact of a disaster event. Can be monetary, physical or intangible. Can relate to losses in a single element or across domains. For example, the loss associated with a flood event may include insured losses to residential, commercial and industrial assets, losses associated with business interruption."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Loss"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:lowest_astronomical_tide
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :astronomical_tide ;
+    skos:definition "The lowest tide level that can be predicted to occur under average meteorological conditions and any combination of astronomical conditions. This level may not be reached every year."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Lowest astronomical tide"@en ;
+.
+
+:major_flooding
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :flood ;
+    skos:definition "In addition to Moderate flooding, extensive rural areas and/or urban areas are inundated. Many buildings may be affected above the floor level. Properties and towns are likely to be isolated and major rail and traffic routes closed. Evacuation of flood affected areas may be required. Utility services may be impacted."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Major flooding"@en ;
+    schema:citation "[Flood Warning Services: National flood forecasting and warning service: Water Information: Bureau of Meteorology (bom.gov.au)](http://www.bom.gov.au/water/floods/floodWarningServices.shtml)"^^xsd:anyURI ;
+.
+
+:marine
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Relating to the sea or ocean."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Marine"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:metadata
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Metadata is the information that defines and describes data. It is often referred to as data about data or information about data because it provides data users with information about the purpose, processes, and methods involved in the data collection."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Metadata"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "[Statistical Language - What is Metadata? (abs.gov.au)](https://www.abs.gov.au/statistics/understanding-statistics/statistical-terms-and-concepts/metadata)"^^xsd:anyURI ;
+.
+
+:methodology_statistical
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Theory and methods of data collection, processing and analysis."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Methodology (statistical)"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "[OECD Glossary of Statistical Terms](https://doi.org/10.1787/9789264055087-en)"^^xsd:anyURI ;
+.
+
+:minor_flooding
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :flood ;
+    skos:definition "Flooding that causes inconvenience. Low-lying areas next to water courses are inundated. Minor roads may be closed and low-level bridges submerged. In urban areas inundation may affect some backyards and buildings below the floor level as well as bicycle and pedestrian paths. In rural areas removal of stock and equipment may be required."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Minor flooding"@en ;
+    schema:citation "[Flood Warning Services: National flood forecasting and warning service: Water Information: Bureau of Meteorology (bom.gov.au)](http://www.bom.gov.au/water/floods/floodWarningServices.shtml)"^^xsd:anyURI ;
+.
+
+:modelling
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "Models"@en ,
+        "modelled data"@en ;
+    skos:definition "The construction of physical, conceptual or mathematical simulations of the real world. Models help to show relationships between processes (physical, economic or social) and may be used to predict the effects of changes in land use. (Note utility is much broader than land use)"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Modelling"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "[OECD Glossary of Statistical Terms](https://doi.org/10.1787/9789264055087-en)"^^xsd:anyURI ;
+.
+
+:moderate_flooding
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :flood ;
+    skos:definition "In addition to Minor flooding, the area of inundation is more substantial. Main traffic routes may be affected. Some buildings may be affected above the floor level. Evacuation of flood affected areas may be required. In rural areas removal of stock is required."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Moderate flooding"@en ;
+    schema:citation "[Flood Warning Services: National flood forecasting and warning service: Water Information: Bureau of Meteorology (bom.gov.au)](http://www.bom.gov.au/water/floods/floodWarningServices.shtml)"^^xsd:anyURI ;
+.
+
+:multi-hazard
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "The specific contexts where hazardous events may occur simultaneously, cascadingly or cumulatively over time, and taking into account the potential interrelated effects."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Multi-hazard"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "https://www.undrr.org/terminology"^^xsd:anyURI ;
+.
+
+:multispectral_imagery
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Multispectral imaging combines a number of spectral imaging bands of relatively large bandwidth into a single optical system to enable extraction of additional details."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Multispectral imagery"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:natural
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "Environmental"@en ;
+    skos:definition "Landscapes, seascapes, ecosystems, agricultural lands and animal life."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Natural"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:neap_tide
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :astronomical_tide ;
+    skos:definition "The tides when the moon and sun are at right angles to each other (in relation to the earth), the effect of the attraction is somewhat reduced leading to a smaller tidal range."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Neap tide"@en ;
+.
+
+:observation_weather
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "The record of the measurement or assessment of a particular meteorological variable obtained at a specific time."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Observation (weather)"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "[Oxford Dictionary of Weather (2ed)] (https://www.oxfordreference.com/display/10.1093/acref/9780199541447.001.0001/acref-9780199541447)"^^xsd:anyURI ;
+.
+
+:observed_data
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "Observation (data)"@en ;
+    skos:definition "In statistics an observation would mean a single data point within a dataset."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Observed data"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:observed_river_height
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Depth of water (in metres) at a river height measuring gauge located along the river. In most cases, a zero reading is the lowest water level that is reached during dry conditions. In many tidal areas, as well as a few inland areas, river levels are expressed in metres above mean sea level or Australian Height Datum (AHD)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Observed River Height"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "[Flood Warning Services: National flood forecasting and warning service: Water Information: Bureau of Meteorology (bom.gov.au)](http://www.bom.gov.au/water/floods/floodWarningServices.shtml)"^^xsd:anyURI ;
+.
+
+:oceanography
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "The study of the physical, chemical, and biological features of the ocean."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Oceanography"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:peak_river_height
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Highest river height (in metres) observed during a flood event at the specified site on the river."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Peak River Height"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "[Flood Warning Services: National flood forecasting and warning service: Water Information: Bureau of Meteorology (bom.gov.au)](http://www.bom.gov.au/water/floods/floodWarningServices.shtml)"^^xsd:anyURI ;
+.
+
+:physical_vulnerability
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Physical characteristics of an asset that influence the structural performance of that asset in a hazard event."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Physical vulnerability"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:population
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition """Australia's estimated resident population (ERP) includes all people who usually live in Australia (regardless of nationality, citizenship or visa status), with the exception of people present for foreign military, consular or diplomatic reasons.
+Note: not to be confused with statistical population which has a different meaning."""@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Population"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation
+        "September 2021 | Australian Bureau of Statistics (abs.gov.au)](https://www.abs.gov.au/methodologies/national-state-and-territory-population-methodology/sep-2021#glossary)"^^xsd:anyURI ,
+        "[National"^^xsd:anyURI ,
+        "state and territory population methodology"^^xsd:anyURI ;
+.
+
+:predicted_river_height
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Height (in metres) to which the river is predicted to rise at the river gauge referred to in the warning. The actual depth of flood water will vary across the floodplain. Knowledge of past flood events, as well as estimates of flood levels from flood studies, are used by local Councils, emergency services and landowners to determine which areas are likely to be flooded from the predicted river height. The accuracy of these predictions will depend on a number of factors, including the type of flood forecasting model and its input data. Predicted river heights are subject to forecasting error and are regularly updated as more information becomes available during a flood event."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Predicted River Height"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "[Flood Warning Services: National flood forecasting and warning service: Water Information: Bureau of Meteorology (bom.gov.au)](http://www.bom.gov.au/water/floods/floodWarningServices.shtml)"^^xsd:anyURI ;
+.
+
+:preparedness
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Arrangements to ensure that, should a crisis occur, the required resources, capabilities and services can be efficiently mobilised and deployed"@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Preparedness"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:prevention
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Measures to eliminate or reduce the severity of a hazard or crisis."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Prevention"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:projection
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A projection indicates what the future changes in a population would be if the assumptions about future trends actually occur. These assumptions are often based on patterns of change which have previously occurred. A projection is not making a prediction or forecast about what is going to happen, it is indicating what would happen if the assumptions which underpin the projection actually occur."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Projection"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "[Statistical Language - Estimate and Projection (abs.gov.au)](https://www.abs.gov.au/statistics/understanding-statistics/statistical-terms-and-concepts/estimate-and-projection)"^^xsd:anyURI ;
+.
+
+:qualitative_data
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Qualitative data are measures of 'types' and may be represented by a name, symbol, or a number code."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Qualitative data"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "[Statistical Language - Quantitative and Qualitative Data (abs.gov.au)](https://www.abs.gov.au/statistics/understanding-statistics/statistical-terms-and-concepts/quantitative-and-qualitative-data)"^^xsd:anyURI ;
+.
+
+:quantitative_data
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Quantitative data are measures of values or counts and are expressed as numbers."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Quantitative data"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "[Statistical Language - Quantitative and Qualitative Data (abs.gov.au)](https://www.abs.gov.au/statistics/understanding-statistics/statistical-terms-and-concepts/quantitative-and-qualitative-data)"^^xsd:anyURI ;
+.
+
+:reconstruction
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "The medium- and long-term rebuilding and restoration of critical infrastructure, services, housing, facilities and livelihoods required for the full functioning of a community, or a society affected by a disaster."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Reconstruction"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:recovery
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Short and medium-term measures to restore or improve the livelihoods, health, economic, physical, social, cultural and environmental assets, systems and activities, of a disaster-affected community or society, aligning with the principles of sustainable development and ‘build back better’ to avoid or reduce future disaster risk."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Recovery"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:recurrence_interval
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "Average recurrence interval"@en ,
+        "Return period"@en ;
+    skos:definition "The average time interval at which events equal to or greater than a certain magnitude would recur if existing natural regimes continued without change. Recurrence interval is a function of exceedance probability."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Recurrence interval"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "https://knowledge.aidr.org.au/glossary/"^^xsd:anyURI ;
+.
+
+:relief
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Meeting the essential needs of food, water, shelter and medicines for people affected by a crisis event."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Relief"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:residential
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Intended to provide accommodation to people."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Residential"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:resilience
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "The ability of a system, community or society exposed to hazards to resist, absorb, accommodate, adapt to, transform and recover from the effects of a hazard in a timely and efficient manner, including through the preservation and restoration of its essential basic structures and functions through risk management."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Resilience"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "https://www.undrr.org/terminology"^^xsd:anyURI ;
+.
+
+:response
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Actions taken in anticipation of, during, and immediately after an emergency to ensure that its effects are minimised, and that people affected are given immediate relief and support."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Response"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "https://knowledge.aidr.org.au/glossary/"^^xsd:anyURI ;
+.
+
+:risk
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "Disaster risk"@en ;
+    skos:definition "Probability of a defined level of impact determined as a function of hazard, exposure, vulnerability and coping capacity. Metrics may include average annualised loss or return period loss levels."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Risk"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "[2009 UNISDR Terminology on Disaster Risk Reduxtion](https://www.preventionweb.net/files/7817_UNISDRTerminologyEnglish.pdf)"^^xsd:anyURI ;
+.
+
+:river_alert_level
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Water level rises to this level may cause the isolation of stock in very low-lying areas. Typically below the minor flood class level, this is the level at which a river alert is issued (where available)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "River alert level"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "[Flood Warning Services: National flood forecasting and warning service: Water Information: Bureau of Meteorology (bom.gov.au)](http://www.bom.gov.au/water/floods/floodWarningServices.shtml)"^^xsd:anyURI ;
+.
+
+:river_height_bulletin
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A summary of observed river heights (metres) at selected locations and specified times within river basins."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "River height bulletin"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "[Flood Warning Services: National flood forecasting and warning service: Water Information: Bureau of Meteorology (bom.gov.au)](http://www.bom.gov.au/water/floods/floodWarningServices.shtml)"^^xsd:anyURI ;
+.
+
+:satellite_imagery
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Images of the Earth captured by a satellite which orbits about the Earth. Data captured through various radiation frequencies (eg. Visible and Infrared), and used to observe (amongst others) the development of weather systems, the landscape and landforms."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Satellite imagery"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "[Satellite - Glossary of Meteorology (ametsoc.org)](https://glossary.ametsoc.org/wiki/Satellite)"^^xsd:anyURI ;
+.
+
+:satellite_observations
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "The record of the measurement or assessment of a particular variable derived from satellite data."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Satellite observations"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:scenario
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A hypothetical set of circumstances that describe a disaster event and the related consequences."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Scenario"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:sea_level_rise
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "The increase in the mean level of the world’s oceans due to the effects of global warming. Relative sea level change refers to how the height of the ocean rises or falls relative to the land at a particular location. In contrast, absolute sea level change refers to the height of the ocean surface above the center of the earth, without regard to whether nearby land is rising or falling."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Sea level rise"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "[Bureau of Meteorology](http://www.bom.gov.au/)"^^xsd:anyURI ;
+.
+
+:secondary_impact
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "Consequence"@en ;
+    skos:broader :impact ;
+    skos:definition "Impacts arising as a result of the direct impact of a hazard event. For example, fires triggered by ruptured gas mains after an earthquake."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Secondary impact"@en ;
+    schema:citation "[Bureau of Meteorology](http://www.bom.gov.au/)"^^xsd:anyURI ;
+.
+
+:severe_thunderstorm
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A thunderstorm with winds measuring 48 knots (90 km/h) or greater, 2 cm hail or larger, tornadoes or heavy rain which may lead to flash flooding. Severe thunderstorms may also produce torrential rain and frequent lightning."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Severe thunderstorm"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "[Bureau of Meteorology](http://www.bom.gov.au/)"^^xsd:anyURI ;
+.
+
+:severe_tropical_cyclone
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A tropical cyclone with maximum 10-minute mean winds of 118 km/h or higher."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Severe tropical cyclone"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "[Bureau of Meteorology](http://www.bom.gov.au/)"^^xsd:anyURI ;
+.
+
+:skill
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "An estimate of how well a forecast performs relative to some well-defined reference forecast (baseline) over repeated forecast trials. A skillful forecast system is usually consistently better than the baseline. There are a variety of different methods that can be used to 'score' the level of skill, which highlight different attributes of the forecast."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Skill"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:small_area_estimation
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Estimates produced by modelling larger scale (e.g. state or national level) survey estimates for smaller areas."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Small area estimation"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:social_vulnerability
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Characteristics of a person or group in terms of capacity to anticipate, cope with, resist and recover from impacts of a hazard event."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Social vulnerability"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation
+        "[UNDP Introduction to Social Vulnerability](https://understandrisk.org/wp-content/uploads/Intro-to-social-vulnerability.pdf)"^^xsd:anyURI ,
+        "[UNDRR Disaster Risk Reduction Terminology] (https://www.undrr.org/terminology)"^^xsd:anyURI ;
+.
+
+:space_weather
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Events triggered beyond the Earth's atmosphere that impact upon the near-Earth space environment, our technology, and on Earth itself. The primary source of space weather is the Sun, with the greatest disturbances usually caused by solar flares, coronal mass ejections and associated geomagnetic storms."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Space weather"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "[Bureau of Meteorology] (https://www.sws.bom.gov.au/Educational/1/2)"^^xsd:anyURI ;
+.
+
+:spatial
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Relating to or occupying space - location. Spatially enabled data, or data with detailed location information, enables the integration of geospatial and statistical information."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Spatial"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "Adapted from [ABS Statistical Goegraphy](https://www.abs.gov.au/websitedbs/D3310114.nsf/home/geography)"^^xsd:anyURI ;
+.
+
+:spring_tide
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :astronomical_tide ;
+    skos:definition "The tides when the moon, sun and earth are in line, their combined attraction is stronger, leading to a larger tidal range."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Spring tide"@en ;
+.
+
+:statistic
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A statistic is a value that has been produced from a data collection, such as a summary measure, an estimate or projection. Statistical information is data that has been organised to serve a useful purpose."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Statistic"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "[Statistical Language - Statistical Language Glossary (abs.gov.au)](https://www.abs.gov.au/statistics/understanding-statistics/statistical-terms-and-concepts/statistical-terms-and-concepts-glossary)"^^xsd:anyURI ;
+.
+
+:statistical_area_level_1
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "SA1s"@en ;
+    skos:broader :statistical_area ;
+    skos:definition "Statistical Areas Level 1 (SA1s) are designed to maximise the geographic detail available for Census of Population and Housing data while maintaining confidentiality. Most SA1s have a population of between 200 to 800 people."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Statistical Area Level 1"@en ;
+    schema:citation "[Australian Statistical Geography Standard (ASGS) Edition 3](https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs-edition-3/jul2021-jun2026)"^^xsd:anyURI ;
+.
+
+:statistical_area_level_2
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "SA2s"@en ;
+    skos:broader :statistical_area ;
+    skos:definition "Statistical Areas Level 2 (SA2s) are medium-sized general purpose areas built to represent communities that interact together socially and economically. Most SA2s have a population range of 3,000 to 25,000 people."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Statistical Area Level 2"@en ;
+    schema:citation "[Australian Statistical Geography Standard (ASGS) Edition 3](https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs-edition-3/jul2021-jun2026)"^^xsd:anyURI ;
+.
+
+:statistical_area_level_3
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "SA3s"@en ;
+    skos:broader :statistical_area ;
+    skos:definition "Statistical Areas Level 3 (SA3s) are designed for the output of regional data and most have populations between 30,000 and 130,000 people."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Statistical Area Level 3"@en ;
+    schema:citation "[Australian Statistical Geography Standard (ASGS) Edition 3](https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs-edition-3/jul2021-jun2026)"^^xsd:anyURI ;
+.
+
+:statistical_area_level_4
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "SA4s"@en ;
+    skos:broader :statistical_area ;
+    skos:definition "Statistical Areas Level 4 (SA4s) are designed for the output of a variety of regional data, and represent labour markets and the functional area of Australian capital cities. Most SA4s have a population of over 100,000 people."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Statistical Area Level 4"@en ;
+    schema:citation "[Australian Statistical Geography Standard (ASGS) Edition 3](https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs-edition-3/jul2021-jun2026)"^^xsd:anyURI ;
+.
+
+:statistical_literacy
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Statistical literacy refers to the knowledge and skills that enable data users and producers to understand, evaluate and communicate statistical data and information."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Statistical Literacy"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "[Statistical Language - Statistical Language Glossary (abs.gov.au)](https://www.abs.gov.au/statistics/understanding-statistics/statistical-terms-and-concepts/statistical-terms-and-concepts-glossary)"^^xsd:anyURI ;
+.
+
+:storm_surge
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :hydrometeorological_hazard ;
+    skos:definition "An abnormal rise in sea level over and above the normal (astronomical) tide levels. It can be thought of as the change in the water level due to the presence of a storm. These powerful ocean movements are caused by strong winds piling water up against the coast as a cyclone approaches."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Storm Surge"@en ;
+    schema:citation "[Bureau of Meteorology](http://www.bom.gov.au/)"^^xsd:anyURI ;
+.
+
+:storm_tide
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "The water level that results from the combination of the storm surge and the normal (astronomical) tide. If the storm surge arrives at the same time as the high tide, the potential risk of inundation, flooding and erosion is greater than at a lower tide. An additional threat at this time could come from the presence of very high waves (wave run-up)."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Storm tide"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "[Bureau of Meteorology](http://www.bom.gov.au/)"^^xsd:anyURI ;
+.
+
+:submarine_landslide
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :landslide ;
+    skos:definition "A landslide that occurs under water."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Submarine landslide"@en ;
+.
+
+:survey
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A survey is an investigation about the characteristics of a given population by means of collecting data from a sample of that population and estimating their characteristics through the systematic use of statistical methodology."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Survey"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "[OECD Glossary of Statistical Terms - Survey Definition](https://doi.org/10.1787/9789264055087-en)"^^xsd:anyURI ;
+.
+
+:technological_hazard
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Originate from technological or industrial conditions, dangerous procedures, infrastructure failures or specific human activities. Examples include industrial pollution, nuclear radiation, toxic wastes, dam failures, transport accidents, factory explosions, fires and chemical spills. Technological hazards also may arise directly as a result of the impacts of a natural hazard event."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Technological hazard"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "https://www.undrr.org/terminology"^^xsd:anyURI ;
+.
+
+:thunderstorm
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "Convective storm"@en ;
+    skos:broader :hydrometeorological_hazard ;
+    skos:definition "Sudden electrical discharges manifested by a flash of light (lightning) and a sharp rumbling sound. Thunderstorms are associated with convective clouds (Cumulonimbus) and are more often accompanied by precipitation such as rain, hail or snow. They are usually shortlived and hit on only a small area."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Thunderstorm"@en ;
+    schema:citation "[Bureau of Meteorology](http://www.bom.gov.au/)"^^xsd:anyURI ;
+.
+
+:time_series
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A time series is a collection of observations of well-defined data items obtained through repeated measurements over time."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Time series"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "[Statistical Language - Statistical Language Glossary (abs.gov.au)](https://www.abs.gov.au/statistics/understanding-statistics/statistical-terms-and-concepts/statistical-terms-and-concepts-glossary)"^^xsd:anyURI ;
+.
+
+:transmission_electricity
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Networks that allow the bulk transport of electricity at high voltages (220 kilovolts and above) from generators to major demand centres."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Transmission (electricity)"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "[Australian Energy Market Commission] (https://www.aemc.gov.au/energy-system/electricity/electricity-system/electricity-supply-chain)"^^xsd:anyURI ;
+.
+
+:tropical_cyclone
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :hydrometeorological_hazard ;
+    skos:definition "Intense low pressure systems which form over warm ocean waters at low latitudes. Tropical cyclones are associated with strong winds, torrential rain and storm surges (in coastal areas). Gale force winds (greater than 63 km/h) must extend more than halfway around the storm near the centre, and winds must persist for at least 6 hours."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Tropical Cyclone"@en ;
+    schema:citation "[Bureau of Meteorology](http://www.bom.gov.au/)"^^xsd:anyURI ;
+.
+
+:tsunami
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :geophysical_hazards ;
+    skos:definition "A Japanese word for 'harbour wave'. It is used to define a water wave generated by a sudden change in the sea bed resulting from an earthquake, volcanic eruption or submarine landslide."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Tsunami"@en ;
+    schema:citation "AIDR (https://knowledge.aidr.org.au/glossary/)"^^xsd:anyURI ;
+.
+
+:volcano
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :geophysical_hazards ;
+    skos:definition "An opening in the crust of the Earth that allows hot lava, volcanic ash and gases to reach the surface."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Volcano"@en ;
+    schema:citation "AIDR (https://knowledge.aidr.org.au/glossary/)"^^xsd:anyURI ;
+.
+
+:vulnerability
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "The conditions determined by physical, social, economic and environmental factors or processes which increase the susceptibility of an individual, a community, assets or systems to the impacts of hazards."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Vulnerability"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "https://knowledge.aidr.org.au/glossary/"^^xsd:anyURI ;
+.
+
+:warning
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Dissemination of message signalling imminent hazard which may include advice on protective measures."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Warning"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "https://knowledge.aidr.org.au/glossary/"^^xsd:anyURI ;
+.
+
+:wave_run-up
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "The rush of water up a beach after a wave reaches the shoreline. The amount of wave run-up is the vertical distance between the maximum height the rush of water reaches on the beach and the still water level. Wave run-up depends on many factors including wave height, wave period, and the slope and composition of the beach."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Wave run-up"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "https://www.qld.gov.au/environment/coasts-waterways/beach/storm/storm-glossary#runup"^^xsd:anyURI ;
+.
+
+:weather
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "The atmospheric variables (temperature, rainfall, humidity, wind speed, etc.) at a particular place and time."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Weather"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "http://www.bom.gov.au/climate/glossary/"^^xsd:anyURI ;
+.
+
+:building
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A building is a rigid, fixed and permanent structure which has a roof. Its intended purpose is primarily to house people, plant, machinery, vehicles, goods or livestock. An integral feature of a building's design is the provision for regular access by persons in order to satisfy its intended use. This includes residential buidlings, commerical buildings, industrial buildings and other non-residential buildings."@en ;
+    skos:inScheme cs: ;
+    skos:narrower :residential_building ;
+    skos:prefLabel "Building"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation
+        "January 2021 | Australian Bureau of Statistics (abs.gov.au)](https://www.abs.gov.au/statistics/classifications/functional-classification-buildings/jan-2021)"^^xsd:anyURI ,
+        "[Functional Classification of Buildings"^^xsd:anyURI ;
+.
+
+:earthquake
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :geophysical_hazards ;
+    skos:definition "The vibrations of the Earth caused by the passage of seismic waves radiating from some source of elastic energy."@en ;
+    skos:inScheme cs: ;
+    skos:narrower :aftershock ;
+    skos:prefLabel "Earthquake"@en ;
+    schema:citation "https://knowledge.aidr.org.au/glossary/"^^xsd:anyURI ;
+.
+
+:landslide
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :geophysical_hazards ;
+    skos:definition "The general term given to movement of material downslope in a mass."@en ;
+    skos:inScheme cs: ;
+    skos:narrower :submarine_landslide ;
+    skos:prefLabel "Landslide"@en ;
+    schema:citation "https://knowledge.aidr.org.au/glossary/"^^xsd:anyURI ;
+.
+
+:residential_building
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "Housing"@en ;
+    skos:broader :building ;
+    skos:definition """Buildings that contain one or more dwellings, intended for the provision of long-term accommodation. This includes detached houses, semi-detached houses, townhouses and apartments. Ancillary outbuildings not containing dwellings built adjacent to existing residential buildings, such as garden sheds, gazebos and free standing garages, are treated as residential buildings.
+Other types of accommodation such as hotels, holiday rentals, hospitals and aged care facilities (excluding retirement villages) are classified as non-residential."""@en ;
+    skos:inScheme cs: ;
+    skos:narrower :dwelling ;
+    skos:prefLabel "Residential building"@en ;
+    schema:citation
+        "January 2021 | Australian Bureau of Statistics (abs.gov.au)](https://www.abs.gov.au/statistics/classifications/functional-classification-buildings/latest-release)"^^xsd:anyURI ,
+        "[Functional Classification of Buildings"^^xsd:anyURI ;
+.
+
+:tephra
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Fragments of rock ejected into the air by an erupting volcano."@en ;
+    skos:inScheme cs: ;
+    skos:narrower :volcanic_ash ;
+    skos:prefLabel "Tephra"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "https://knowledge.aidr.org.au/glossary/"^^xsd:anyURI ;
+.
+
+:volcanic_ash
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader
+        :geophysical_hazards ,
+        :tephra ;
+    skos:definition "Volcanic ash consists of fragments of rock, mineral crystals, and volcanic glass, created during volcanic eruptions and measuring less than 2 mm in diameter."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "Volcanic ash"@en ;
+    schema:citation "[https://doi.org/10.1016/j.jvolgeores.2009.01.010](https://doi.org/10.1016/j.jvolgeores.2009.01.010)"^^xsd:anyURI ;
+.
+
+:economic_loss
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Total economic impact that consists of direct economic loss and indirect economic loss."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :direct_economic_loss ,
+        :indirect_economic_loss ;
+    skos:prefLabel "Economic loss"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "https://www.undrr.org/terminology"^^xsd:anyURI ;
+.
+
+:impact
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "Consequence"@en ;
+    skos:definition "The direct, adverse outcomes of a hazard event on an asset, such as the amount of damage to a building due to the effects of wind, water, fire or ground shaking."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :indirect_impact ,
+        :secondary_impact ;
+    skos:prefLabel "Impact"@en ;
+    skos:topConceptOf cs: ;
+.
+
+:flood
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :hydrometeorological_hazard ;
+    skos:definition "The overflowing by water of the normal confines of a stream or other body of water, or the accumulation of water by drainage over areas which are not normally submerged."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :major_flooding ,
+        :minor_flooding ,
+        :moderate_flooding ;
+    skos:prefLabel "Flood"@en ;
+    schema:citation "https://knowledge.aidr.org.au/glossary/"^^xsd:anyURI ;
+.
+
+:astronomical_tide
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "Tide"@en ;
+    skos:definition "The periodic rise and fall of water along the coast due to gravitational interactions between the moon, sun and the earth."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :highest_astronomical_tide ,
+        :lowest_astronomical_tide ,
+        :neap_tide ,
+        :spring_tide ;
+    skos:prefLabel "Astronomical tide"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "[Queensland Government Coastal Impacts Unit](https://www.qld.gov.au/environment/coasts-waterways/beach/storm/storm-glossary#astro)"^^xsd:anyURI ;
+.
+
+:statistical_area
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Hierarchical geographical areas used to release and analyse a range of social, demographic and economic statistics."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :statistical_area_level_1 ,
+        :statistical_area_level_2 ,
+        :statistical_area_level_3 ,
+        :statistical_area_level_4 ;
+    skos:prefLabel "Statistical Area"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "[Australian Statistical Geography Standard (ASGS) Edition 3](https://www.abs.gov.au/statistics/standards/australian-statistical-geography-standard-asgs-edition-3/jul2021-jun2026)"^^xsd:anyURI ;
+.
+
+:hydrometeorological_hazard
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Hazards resulting from the state and behaviour of the Earth's atmosphere, its interaction with the land and oceans, the weather and climate it produces and the resulting distribution of water resources."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :flash_flood ,
+        :flood ,
+        :storm_surge ,
+        :thunderstorm ,
+        :tropical_cyclone ;
+    skos:prefLabel "Hydrometeorological hazard"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "https://www.undrr.org/terminology"^^xsd:anyURI ;
+.
+
+:geophysical_hazards
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:altLabel "Geological hazards"@en ;
+    skos:definition "Hazards with a geological origin, including seismogenic (earthquake-related), volcanogenic (lava flow, ash fall, lahars, pyroclastic flows) and near-surface processes (e.g. mass movement, landslides, sinkholes)."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :earthquake ,
+        :landslide ,
+        :liquefaction ,
+        :tsunami ,
+        :volcanic_ash ,
+        :volcano ;
+    skos:prefLabel "Geophysical hazards"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "https://www.undrr.org/drr-glossary/terminology"^^xsd:anyURI ;
+.
+
+cs:
+    a skos:ConceptScheme ;
+    owl:versionIRI :1.0 ;
+    skos:definition "This vocabulary is used to describe terms used for climate and disaster risk themes, covering hazard, exposure, vulnerability, impact, climate, weather and geophysical disasters"@en ;
+    skos:hasTopConcept
+        :abnormally_high_tide ,
+        :adaptive_capacity ,
+        :administrative_data ,
+        :agricultural ,
+        :analysis ,
+        :astronomical_tide ,
+        :bathymetry ,
+        :biological_hazard ,
+        :building ,
+        :built ,
+        :burn_scar ,
+        :bushfire ,
+        :census ,
+        :climate ,
+        :climate_projections ,
+        :coastal ,
+        :communities ,
+        :consequences ,
+        :convection ,
+        :convective_cloud ,
+        :coping_capacity ,
+        :critical_infrastructure ,
+        :damage_ratio ,
+        :damaging_waves ,
+        :damaging_winds ,
+        :data ,
+        :data_visualisation ,
+        :dataset ,
+        :demographics ,
+        :destructive_winds ,
+        :disaster ,
+        :disaster_risk ,
+        :disaster_risk_mitigation ,
+        :disaster_risk_prevention ,
+        :disaster_risk_reduction ,
+        :displacement ,
+        :distribution_electricity ,
+        :domain ,
+        :domain_modelling ,
+        :drought ,
+        :dust_storm ,
+        :dynamical_downscaling ,
+        :economic_domain ,
+        :economic_loss ,
+        :elevation ,
+        :environmental_assets ,
+        :environmental_hazards ,
+        :essential_services ,
+        :estimate ,
+        :event ,
+        :exceedance_probability ,
+        :exposure ,
+        :families ,
+        :flood_extent ,
+        :forecast_weather ,
+        :forecasts_data ,
+        :geophysical_hazards ,
+        :granularity ,
+        :hail ,
+        :hazard ,
+        :hazardous_surf ,
+        :heatwave ,
+        :household ,
+        :housing ,
+        :hydrometeorological_hazard ,
+        :impact ,
+        :impact_forecast ,
+        :industrial ,
+        :infrastructure ,
+        :integration_data ,
+        :intelligence ,
+        :inundation ,
+        :lahar ,
+        :land_cover ,
+        :land_tenure ,
+        :land_use ,
+        :large_hail ,
+        :legacy_system ,
+        :local_government_area ,
+        :loss ,
+        :marine ,
+        :metadata ,
+        :methodology_statistical ,
+        :modelling ,
+        :multi-hazard ,
+        :multispectral_imagery ,
+        :natural ,
+        :observation_weather ,
+        :observed_data ,
+        :observed_river_height ,
+        :oceanography ,
+        :peak_river_height ,
+        :physical_vulnerability ,
+        :population ,
+        :predicted_river_height ,
+        :preparedness ,
+        :prevention ,
+        :projection ,
+        :qualitative_data ,
+        :quantitative_data ,
+        :reconstruction ,
+        :recovery ,
+        :recurrence_interval ,
+        :relief ,
+        :residential ,
+        :resilience ,
+        :response ,
+        :risk ,
+        :river_alert_level ,
+        :river_height_bulletin ,
+        :satellite_imagery ,
+        :satellite_observations ,
+        :scenario ,
+        :sea_level_rise ,
+        :severe_thunderstorm ,
+        :severe_tropical_cyclone ,
+        :skill ,
+        :small_area_estimation ,
+        :social_vulnerability ,
+        :space_weather ,
+        :spatial ,
+        :statistic ,
+        :statistical_area ,
+        :statistical_literacy ,
+        :storm_tide ,
+        :survey ,
+        :technological_hazard ,
+        :tephra ,
+        :time_series ,
+        :transmission_electricity ,
+        :vulnerability ,
+        :warning ,
+        :wave_run-up ,
+        :weather ;
+    skos:historyNote "Combination of WMO, UNDRR and AIDR definitions agreed between GA, BoM, ABS and CSIRO"@en ;
+    skos:prefLabel "GA Hazard and Risk Glossary"@en ;
+    prov:qualifiedAttribution
+        [
+            dcat:hadRole isoroles:custodian ;
+            prov:agent
+                [
+                    a schema:Person ;
+                    schema:email ""^^xsd:anyURI ;
+                    schema:name "Impacts Lead Natural Hazards & Impacts" ;
+                ] ;
+        ] ,
+        [
+            dcat:hadRole isoroles:custodian ;
+            prov:agent
+                [
+                    a schema:Person ;
+                    schema:email ""^^xsd:anyURI ;
+                    schema:name "Poc: Rikki Weber" ;
+                ] ;
+        ] ;
+    schema:creator
+        [
+            a schema:Organization ;
+            schema:name "Ga" ;
+            schema:url ""^^xsd:anyURI ;
+        ] ;
+    schema:dateCreated "2022-05-25"^^xsd:date ;
+    schema:dateModified "2022-05-25"^^xsd:date ;
+    schema:publisher
+        [
+            a schema:Organization ;
+            schema:name "Ga" ;
+            schema:url ""^^xsd:anyURI ;
+        ] ;
+    schema:version "1.0" ;
+.
