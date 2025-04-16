@@ -2,7 +2,6 @@
     "ProtocolType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/protocoltype",
     "RegisterTheme.ttl": "https://pid.geoscience.gov.au/def/voc/ga/RegisterTheme",
     "RoleCodeType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/roleCodeType",
-    "SeabedGeomorphologySettings.ttl": "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings",
     "ServiceType.ttl": "https://pid.geoscience.gov.au/def/voc/ga/servicetype"
 }
 
