@@ -19,6 +19,7 @@
     "Entity_Type_or_Feature_Boreholes.ttl": "https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature",
     "FieldSitePurposeBoreholes.ttl": "https://pid.geoscience.gov.au/def/voc/ga/FieldSitePurpose",
     "FieldSiteTypeBoreholes.ttl": "https://pid.geoscience.gov.au/def/voc/ga/FieldSiteTypes",
+    "HazardAndRisk.ttl": "https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk",
     "LandformTypeBoreholes.ttl": "https://pid.geoscience.gov.au/def/voc/ga/LandformTypes",
     "Legislation_Boreholes.ttl": "https://pid.geoscience.gov.au/def/voc/ga/Legislation",
     "LocationMethodBoreholes.ttl": "https://pid.geoscience.gov.au/def/voc/ga/LocationMethod",
