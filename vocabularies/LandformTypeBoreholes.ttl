@@ -189,7 +189,11 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 .
 
 :coral-reef
+    a skos:Concept ;
     skos:broader :coastal-lands ;
+    skos:definition "A coral reef is an underwater ecosystem characterized by reef-building corals." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "coral reef"@en ;
 .
 
 :covered-plain
