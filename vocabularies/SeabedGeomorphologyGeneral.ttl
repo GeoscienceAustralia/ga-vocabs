@@ -299,6 +299,8 @@ Cf. MORPHOMETRICS."""@en ;
     skos:topConceptOf cs: ;
 .
 
+:1.0 schema:name "1.0" .
+
 cs:
     a skos:ConceptScheme ;
     owl:versionIRI :1.0 ;

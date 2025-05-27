@@ -3934,6 +3934,8 @@ Cf. FLUVIAL DELTA"""@en ;
     skos:topConceptOf cs: ;
 .
 
+:1.1 schema:name "1.1" .
+
 cs:
     a skos:ConceptScheme ;
     owl:versionIRI :1.1 ;

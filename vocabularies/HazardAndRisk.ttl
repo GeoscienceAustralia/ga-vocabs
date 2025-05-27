@@ -1743,6 +1743,8 @@ Other types of accommodation such as hotels, holiday rentals, hospitals and aged
     schema:citation "https://www.undrr.org/drr-glossary/terminology"^^xsd:anyURI ;
 .
 
+:1.0 schema:name "1.0" .
+
 cs:
     a skos:ConceptScheme ;
     owl:versionIRI :1.0 ;

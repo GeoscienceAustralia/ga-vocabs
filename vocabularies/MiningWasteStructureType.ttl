@@ -109,9 +109,11 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
+:1.0 schema:name "1.0" .
+
 cs:
     a skos:ConceptScheme ;
-    owl:versionIRI :1 ;
+    owl:versionIRI :1.0 ;
     skos:definition "Terms that describe the mining waste structure."@en ;
     skos:hasTopConcept
         :centreline_dam ,
