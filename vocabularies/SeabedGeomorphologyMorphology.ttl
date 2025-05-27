@@ -1,6 +1,5 @@
 PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology/>
 PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology>
-PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX isoroles: <https://linked.data.gov.au/def/data-roles/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX prov: <http://www.w3.org/ns/prov#>
@@ -434,7 +433,7 @@ This is one of four linked ISGM-WG vocabularies. Definitions in this vocabulary 
     skos:prefLabel "Seabed geomorphology - Part 1 Morphology"@en ;
     prov:qualifiedAttribution
         [
-            dcat:hadRole isoroles:custodian ;
+            prov:hadRole isoroles:custodian ;
             prov:agent
                 [
                     a schema:Person ;
@@ -443,7 +442,7 @@ This is one of four linked ISGM-WG vocabularies. Definitions in this vocabulary 
                 ] ;
         ] ,
         [
-            dcat:hadRole isoroles:custodian ;
+            prov:hadRole isoroles:custodian ;
             prov:agent
                 [
                     a schema:Person ;
@@ -452,27 +451,22 @@ This is one of four linked ISGM-WG vocabularies. Definitions in this vocabulary 
                 ] ;
         ] ,
         [
-            dcat:hadRole isoroles:custodian ;
+            prov:hadRole isoroles:pointOfContact ;
             prov:agent
                 [
                     a schema:Person ;
                     schema:email ""^^xsd:anyURI ;
-                    schema:name "Poc: Rachel Nanson" ;
+                    schema:name "Rachel Nanson" ;
                 ] ;
         ] ;
     schema:creator
         [
             a schema:Organization ;
-            schema:name "Isgm Wg" ;
+            schema:name "ISGM WG" ;
             schema:url ""^^xsd:anyURI ;
         ] ;
     schema:dateCreated "2024-05-22"^^xsd:date ;
     schema:dateModified "2024-10-18"^^xsd:date ;
-    schema:publisher
-        [
-            a schema:Organization ;
-            schema:name "Ga" ;
-            schema:url ""^^xsd:anyURI ;
-        ] ;
+    schema:publisher <https://linked.data.gov.au/org/ga> ;
     schema:version "1.0" ;
 .

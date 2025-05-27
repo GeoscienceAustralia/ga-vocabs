@@ -1,6 +1,5 @@
 PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/>
 PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk>
-PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX isoroles: <https://linked.data.gov.au/def/data-roles/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX prov: <http://www.w3.org/ns/prov#>
@@ -1888,36 +1887,26 @@ cs:
     skos:prefLabel "GA Hazard and Risk Glossary"@en ;
     prov:qualifiedAttribution
         [
-            dcat:hadRole isoroles:custodian ;
+            prov:hadRole isoroles:custodian ;
             prov:agent
                 [
-                    a schema:Person ;
-                    schema:email ""^^xsd:anyURI ;
+                    a schema:Organization ;
+                    schema:url ""^^xsd:anyURI ;
                     schema:name "Impacts Lead Natural Hazards & Impacts" ;
                 ] ;
         ] ,
         [
-            dcat:hadRole isoroles:custodian ;
+            prov:hadRole isoroles:pointOfContact ;
             prov:agent
                 [
                     a schema:Person ;
                     schema:email ""^^xsd:anyURI ;
-                    schema:name "Poc: Rikki Weber" ;
+                    schema:name "Rikki Weber" ;
                 ] ;
         ] ;
-    schema:creator
-        [
-            a schema:Organization ;
-            schema:name "Ga" ;
-            schema:url ""^^xsd:anyURI ;
-        ] ;
+    schema:creator <https://linked.data.gov.au/org/ga> ;
     schema:dateCreated "2022-05-25"^^xsd:date ;
     schema:dateModified "2022-05-25"^^xsd:date ;
-    schema:publisher
-        [
-            a schema:Organization ;
-            schema:name "Ga" ;
-            schema:url ""^^xsd:anyURI ;
-        ] ;
+    schema:publisher <https://linked.data.gov.au/org/ga> ;
     schema:version "1.0" ;
 .

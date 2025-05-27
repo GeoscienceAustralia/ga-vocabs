@@ -31,13 +31,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/org/ga>
-    a sdo:Organization ;
-    sdo:description "Geoscience Australia is Australia's pre-eminent public sector geoscience organisation. It is the nation's trusted advisor on the geology and geography of Australia. It applies science and technology to describe and understand the Earth for the benefit of Australia."@en ;
-    sdo:name "Geoscience Australia" ;
-    sdo:url "https://www.ga.gov.au"^^xsd:anyURI ;
-.
-
 :diffuse
     a skos:Concept ;
     skos:definition "The contact between two geological units cannot be defined at a sharp interface.  The transition from one unit to another may be gradational (ie, exhibiting a consistent change in grainsize or composition), may involve irregular mixing of units, or may be obscured by alteration."@en ;

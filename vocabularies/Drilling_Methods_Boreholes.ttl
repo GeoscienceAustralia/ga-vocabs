@@ -185,13 +185,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-<https://linked.data.gov.au/org/ga>
-    a sdo:Organization ;
-    sdo:description "Geoscience Australia is Australia's pre-eminent public sector geoscience organisation. It is the nation's trusted advisor on the geology and geography of Australia. It applies science and technology to describe and understand the Earth for the benefit of Australia."@en ;
-    sdo:name "Geoscience Australia" ;
-    sdo:url "https://www.ga.gov.au"^^xsd:anyURI ;
-.
-
 :coreDiamond
     a skos:Concept ;
     skos:definition "Rock or sediment core drilling using a liquid-cooled, diamond or tungsten carbide bit."@en ;

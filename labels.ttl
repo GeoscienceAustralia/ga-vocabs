@@ -7,7 +7,7 @@ PREFIX prov: <http://www.w3.org/ns/prov#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
-
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 
 dcterms:Agent
@@ -626,3 +626,24 @@ schema:url
     schema:name "Associated Resource Type" ;
 .
 
+<https://linked.data.gov.au/org/isgm-wg>
+    a schema:Organization ;
+    schema:description """The International Seabed Geomorphology Mapping Working Group (ISGM) is a collaboration between geoscience agencies in the United Kingdom, Norway, Ireland and Australia. The group have been collaborating since 2016 to develop a novel marine and coastal system that supports standardised geomorphic classification and mapping by a broad range of geoscientists. Users can download open-access reports and GIS tools or use the online vocabularies to apply the method to their own datasets.""" ;
+    schema:isPartOf <https://linked.data.gov.au/org/un> ;
+    schema:name "International Seabed Geomorphology Mapping Working Group" ;
+    schema:url "https://www.geomorph.org/international-seabed-geomorphology-mapping-working-group/"^^xsd:anyURI ;
+.
+
+<https://linked.data.gov.au/org/iag>
+    a schema:Organization ;
+    schema:description """International Association of Geomorphologists (IAG/AIG) is a scientific, non-governmental and non-profit organisation, whose principal objectives are development and promotion of geomorphology as a science through international co-operation and dissemination of knowledge of geomorphology. The IAG/AIG was founded at the Second International Conference on Geomorphology in Frankfurt/Main (Germany) in 1989 in order to strengthen international geomorphology. IAG/AIG fulfils its aims through the establishment of working groups and task forces, organisation of international and regional conferences, publication activity and information exchange. Membership of the IAG/AIG is normally by countries. At present, 63 countries are affiliated to the IAG/AIG through their National Scientific Members. The activity of the IAG/AIG is steered by its Executive Committee.""" ;
+    schema:name "International Association of Geomorphologists" ;
+    schema:url "https://www.geomorph.org"^^xsd:anyURI ;
+.
+
+<https://linked.data.gov.au/org/ga>
+    a schema:Organization ;
+    schema:description "Australia's pre-eminent public sector geoscience organisation. We are the nation's trusted advisor on the geology and geography of Australia. We apply science and technology to describe and understand the Earth for the benefit of Australia." ;
+    schema:name "Geoscience Australia" ;
+    schema:url "http://www.ga.gov.au"^^xsd:anyURI ;
+.
