@@ -1,0 +1,65 @@
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+<http://pid.geoscience.gov.au/catalogue/ga-vocabs>
+    a schema:DataCatalog ;
+    schema:hasPart
+        <http://qudt.org/community/ga/voc> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/BoreholeConstructionMaterial> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/BoreholeConstructionType> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/BoreholePurpose> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/BoreholeStatus> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/BoreholesSamplingMethod> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/CDCS> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/ConfidenceLevel> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/ContactCharacter> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/ContactType> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/CountryCodes> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/DateQualifier> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyAzimuth> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyClass> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyMethod> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyPathComputeMethod> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyRecordingMode> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/DrillingMethods> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/EntityTypeOrFeature> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/FieldSitePurpose> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/FieldSiteTypes> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/LandformTypes> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/Legislation> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/LocationMethod> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/MiningWasteStatus> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/MiningWasteStorageType> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/MiningWasteStructureType> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/MiningWasteType> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/ModesOfOccurence> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/OnlineFunctions> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/PetrophysicalProperty> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/ProportionTerms> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/QaStatusCode> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyPhysiography> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/SourceRockQuality> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/StatisticalResultQualifier> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/StatisticalUncertaintyTypes> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/associationtype> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/materialtype> ;
+    skos:historyNote "This catalogue was was created in 2024 from pre-existing vocabularies"@en ;
+    schema:codeRepository "https://github.com/GeoscienceAustralia/ga-vocabs" ;
+    schema:contributor <https://kurrawong.ai> ;
+    schema:creator <https://linked.data.gov.au/org/ga> ;
+    schema:dateCreated "2017"^^xsd:gYear ;
+    schema:dateModified "2024-12-30"^^xsd:date ;
+    schema:description """Geoscience Australia's vocabularies of controlled terms.
+
+Geoscience Australia uses domain standards that are openly available, to provide a common language for communicating ideas and provide consistency of meaning of the data collected, research undertaken and products created. Part of the use of standards is the use of controlled terms - vocabularies - and this system contains those vocabularies created by Geosceince Australia.
+
+These vocabularies must be used in concert with international geo-domain vocabularies from the Commission for Geoscience Information (CGI), the Open Geospatial Consortium (OGC) and the International Organization for Standardization (ISO) and with Australian national vocabularies from the Government Geoscience Information Committee (GGIC) and the Intergovernmental Committee on Surveying and Mapping (ICSM).""" ;
+    schema:name "GA Vocabularies" ;
+    schema:publisher <https://linked.data.gov.au/org/ga> ;
+.

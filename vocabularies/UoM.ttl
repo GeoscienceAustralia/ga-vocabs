@@ -76,13 +76,6 @@ unit:MegaYR
     sdo:url "http://www.qudt.org"^^xsd:anyURI ;
 .
 
-<https://linked.data.gov.au/org/ga>
-    a sdo:Organization ;
-    sdo:description "Geoscience Australia is Australia's pre-eminent public sector geoscience organisation. It is the nation's trusted advisor on the geology and geography of Australia. It applies science and technology to describe and understand the Earth for the benefit of Australia."@en ;
-    sdo:name "Geoscience Australia" ;
-    sdo:url "https://www.ga.gov.au"^^xsd:anyURI ;
-.
-
 cs:
     a skos:ConceptScheme ;
     dcterms:contributor <http://qudt.org> ;
