@@ -356,12 +356,7 @@ This is one of four linked ISGM-WG vocabularies. Definitions in this vocabulary 
                     schema:name "Rachel Nanson" ;
                 ] ;
         ] ;
-    schema:creator
-        [
-            a schema:Organization ;
-            schema:name "ISGM WG" ;
-            schema:url ""^^xsd:anyURI ;
-        ] ;
+    schema:creator <https://linked.data.gov.au/org/isgm-wg> ;
     schema:dateCreated "2024-05-22"^^xsd:date ;
     schema:dateModified "2024-10-11"^^xsd:date ;
     schema:publisher <https://linked.data.gov.au/org/ga> ;

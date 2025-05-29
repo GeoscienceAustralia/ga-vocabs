@@ -179,12 +179,7 @@ This vocabulary comprises one of four linked ISGM-WG vocabularies. """@en ;
                     schema:name "Orca Branch" ;
                 ] ;
         ] ;
-    schema:creator
-        [
-            a schema:Organization ;
-            schema:name "ISGM WG" ;
-            schema:url ""^^xsd:anyURI ;
-        ] ;
+    schema:creator <https://linked.data.gov.au/org/isgm-wg>;
     schema:dateCreated "2024-05-22"^^xsd:date ;
     schema:dateModified "2024-10-18"^^xsd:date ;
     schema:publisher <https://linked.data.gov.au/org/ga> ;
