@@ -11,7 +11,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :1Sigma
     a skos:Concept ;
-    rdfs:isDefinedBy <http://resource.geoscience.gov.au/classifier/ga/uncertaintytype/1sigma> ;
+    schema:citation <http://resource.geoscience.gov.au/classifier/ga/uncertaintytype/1sigma> ;
     skos:altLabel "standard deviation"@en ;
     skos:definition "The value of the \"sample standard deviation\" of a set of measurements used to derive a mean value. Used to illustrate the extent of \"dispersion\" of the measurements from the mean. For data conforming to a normal distribution, 1 sigma encompasses about 68% of the expected values."@en ;
     skos:inScheme cs: ;
@@ -21,7 +21,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :1StandardError
     a skos:Concept ;
-    rdfs:isDefinedBy <https://en.wikipedia.org/wiki/Standard_error> ;
+    schema:citation "https://en.wikipedia.org/wiki/Standard_error"^^xsd:anyURI ;
     skos:altLabel "1 standard error"@en ;
     skos:definition "An estimate of 1 standard deviation of the sampling distribution of the mean, derived from a particular sample of analysed data."@en ;
     skos:inScheme cs: ;
@@ -31,7 +31,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :2Sigma
     a skos:Concept ;
-    rdfs:isDefinedBy <http://resource.geoscience.gov.au/classifier/ga/uncertaintytype/2sigma> ;
+    schema:citation <http://resource.geoscience.gov.au/classifier/ga/uncertaintytype/2sigma> ;
     skos:altLabel "twice standard deviation"@en ;
     skos:definition "The value corresponding to double the \"sample standard deviation\" of a set of measurements used to derive a mean value. Used to illustrate the extent of \"dispersion\" of the measurements from the mean. For data conforming to a normal distribution, 2 sigma encompasses about 95% of the expected values."@en ;
     skos:inScheme cs: ;
@@ -41,7 +41,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :2StandardError
     a skos:Concept ;
-    rdfs:isDefinedBy <https://en.wikipedia.org/wiki/Standard_error> ;
+    schema:citation "https://en.wikipedia.org/wiki/Standard_error"^^xsd:anyURI ;
     skos:altLabel "2 standard error"@en ;
     skos:definition "An estimate of 2 standard deviations of the sampling distribution of the mean, derived from a particular sample of analysed data."@en ;
     skos:inScheme cs: ;
@@ -51,7 +51,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :3Sigma
     a skos:Concept ;
-    rdfs:isDefinedBy <http://resource.geoscience.gov.au/classifier/ga/uncertaintytype/3sigma> ;
+    schema:citation <http://resource.geoscience.gov.au/classifier/ga/uncertaintytype/3sigma> ;
     skos:altLabel "thrice standard deviation"@en ;
     skos:definition "The value corresponding to three times the \"sample standard deviation\" of a set of measurements used to derive a mean value. Used to illustrate the extent of \"dispersion\" of the measurements from the mean. For data conforming to a normal distribution, 3 sigma encompasses about 99.7% of the expected values."@en ;
     skos:inScheme cs: ;
@@ -61,7 +61,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :95pcConfidence
     a skos:Concept ;
-    rdfs:isDefinedBy <http://resource.geoscience.gov.au/classifier/ga/uncertaintytype/95pc_confidence> ;
+    schema:citation <http://resource.geoscience.gov.au/classifier/ga/uncertaintytype/95pc_confidence> ;
     skos:definition "The interval, expressed as a deviation centered on the mean value (and calculated directly from the population observations), which will encompass the true value of the measured parameter 95% of the time, if the underlying statistical model is correct."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "95% confidence"@en ;
@@ -70,7 +70,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :99pcConfidence
     a skos:Concept ;
-    rdfs:isDefinedBy <http://resource.geoscience.gov.au/classifier/ga/uncertaintytype/95pc_confidence_asymmetric> ;
+    schema:citation <http://resource.geoscience.gov.au/classifier/ga/uncertaintytype/95pc_confidence_asymmetric> ;
     skos:definition "The interval, expressed as a deviation centered on the mean value (and calculated directly from the population observations), which will encompass the true value of the measured parameter 99% of the time, if the underlying statistical model is correct."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "99% confidence"@en ;
@@ -79,7 +79,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :alpha95
     a skos:Concept ;
-    rdfs:isDefinedBy <http://resource.geoscience.gov.au/classifier/ga/uncertaintytype/alpha95> ;
+    schema:citation <http://resource.geoscience.gov.au/classifier/ga/uncertaintytype/alpha95> ;
     skos:altLabel "95% angular confidence"@en ;
     skos:definition "A circular 95 % confidence estimate for directional data. An angular estimate of the circle of 95% confidence (p = 0.05) about the mean direction."@en ;
     skos:inScheme cs: ;
@@ -89,7 +89,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :delta
     a skos:Concept ;
-    rdfs:isDefinedBy <http://resource.geoscience.gov.au/classifier/ga/uncertaintytype/delta> ;
+    schema:citation <http://resource.geoscience.gov.au/classifier/ga/uncertaintytype/delta> ;
     skos:definition "A dispersion parameter for directional data. \"Delta\" decreases as the directions become less dispersed. In practice, when the number of samples is greater than 10 - 20, delta is approximately equal to the circular (or angular) standard deviation."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "delta"@en ;
@@ -98,7 +98,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :kappa
     a skos:Concept ;
-    rdfs:isDefinedBy <http://resource.geoscience.gov.au/classifier/ga/uncertaintytype/kappa> ;
+    schema:citation <http://resource.geoscience.gov.au/classifier/ga/uncertaintytype/kappa> ;
     skos:definition "A precision parameter for directional data, measuring the concentration of the distribution about the true mean direction. The larger the value of Kappa, the more concentrated the direction; Kappa is 0 for a distribution of directions that is uniform over the sphere and approaches infinite for directions concentrated at a point."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "kappa"@en ;
@@ -107,7 +107,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :plusMinus
     a skos:Concept ;
-    rdfs:isDefinedBy <http://resource.geoscience.gov.au/classifier/ga/uncertaintytype/plus_minus> ;
+    schema:citation <http://resource.geoscience.gov.au/classifier/ga/uncertaintytype/plus_minus> ;
     skos:altLabel
         "+/-"@en ,
         "plus or minus"@en ;
@@ -119,7 +119,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :unknown
     a skos:Concept ;
-    rdfs:isDefinedBy <http://www.opengis.net/def/nil/OGC/0/unknown> ;
+    schema:citation <http://www.opengis.net/def/nil/OGC/0/unknown> ;
     skos:definition "The type of uncertainty associated with the measurement is unknown."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "unknown"@en ;
@@ -149,7 +149,7 @@ cs:
         :kappa ,
         :plusMinus ,
         :unknown ;
-    skos:prefLabel "Geology Rock Properties - Statisitical Uncertainty Type "@en ;
+    skos:prefLabel "Geology Rock Properties - Statistical Uncertainty Type "@en ;
     dcat:contactPoint "Team Lead - Information Services; Energy, Minerals and Groundwater Division" ;
     schema:status astatus:experimental ;
 .

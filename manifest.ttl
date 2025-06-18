@@ -18,13 +18,7 @@ PREFIX schema: <https://schema.org/>
             prof:hasRole mrr:ResourceData ;
             schema:description "skos:ConceptsScheme objects in RDF (Turtle) files in the vocabs/ folder" ;
             schema:name "Resource Data" ;
-            dcterms:conformsTo <https://w3id.org/profile/vocpub> ;
-        ] ,
-        [
-            prof:hasArtifact "https://github.com/RDFLib/prez/blob/main/prez/reference_data/profiles/ogc_records_profile.ttl" ;
-            prof:hasRole mrr:CatalogueAndResourceModel ;
-            schema:description "The default Prez profile for Records API" ;
-            schema:name "Profile Definition" ;
+            dcterms:conformsTo "scripts/vocpub-5.1.ttl" ;
         ] ,
         [
             prof:hasArtifact "labels.ttl" ;
