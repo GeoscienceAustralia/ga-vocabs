@@ -1,4 +1,5 @@
 PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/>
+PREFIX astatus: <https://linked.data.gov.au/def/reg-statuses/>
 PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings>
 PREFIX isoroles: <https://linked.data.gov.au/def/data-roles/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
@@ -3987,5 +3988,6 @@ This is one of four linked ISGM-WG vocabularies. Definitions in this vocabulary 
     schema:dateCreated "2024-06-17"^^xsd:date ;
     schema:dateModified "2025-04-02"^^xsd:date ;
     schema:publisher <https://linked.data.gov.au/org/ga> ;
+    schema:status astatus:experimental ;
     schema:version "1.1" ;
 .
