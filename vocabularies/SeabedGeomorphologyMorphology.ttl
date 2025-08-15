@@ -17,7 +17,6 @@ Cf. "fan/apron" in Harris et al., (2014)."""@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Apron"@en ;
     skos:topConceptOf cs: ;
-    schema:citation "http://resource.geosciml.org/classifier/cgi/waste-storage/covered"^^xsd:anyURI ;
 .
 
 :bank
@@ -27,7 +26,6 @@ Cf. "fan/apron" in Harris et al., (2014)."""@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Bank"@en ;
     skos:topConceptOf cs: ;
-    schema:citation "http://resource.geosciml.org/classifier/cgi/waste-storage/surface"^^xsd:anyURI ;
 .
 
 :block
@@ -37,7 +35,6 @@ Cf. "fan/apron" in Harris et al., (2014)."""@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Block"@en ;
     skos:topConceptOf cs: ;
-    schema:citation "http://resource.geosciml.org/classifier/cgi/waste-storage/underground"^^xsd:anyURI ;
 .
 
 :break_in_slope
@@ -47,7 +44,6 @@ Cf. "fan/apron" in Harris et al., (2014)."""@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Break in Slope"@en ;
     skos:topConceptOf cs: ;
-    schema:citation "http://resource.geosciml.org/classifier/cgi/waste-storage/underwater"^^xsd:anyURI ;
 .
 
 :canyon
