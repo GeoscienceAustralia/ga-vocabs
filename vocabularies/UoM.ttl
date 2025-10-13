@@ -1,7 +1,7 @@
 PREFIX cs: <http://qudt.org/community/ga/voc>
 PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX sdo: <https://schema.org/>
+PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX unit: <http://qudt.org/vocab/unit/>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
@@ -70,17 +70,10 @@ unit:MegaYR
 .
 
 <http://qudt.org>
-    a sdo:Organization ;
+    a schema:Organization ;
     dcterms:description "QUDT is a non-profit organization that governs the QUDT ontologies."@en ;
-    sdo:name "QUDT" ;
-    sdo:url "http://www.qudt.org"^^xsd:anyURI ;
-.
-
-<https://linked.data.gov.au/org/ga>
-    a sdo:Organization ;
-    sdo:description "Geoscience Australia is Australia's pre-eminent public sector geoscience organisation. It is the nation's trusted advisor on the geology and geography of Australia. It applies science and technology to describe and understand the Earth for the benefit of Australia."@en ;
-    sdo:name "Geoscience Australia" ;
-    sdo:url "https://www.ga.gov.au"^^xsd:anyURI ;
+    schema:name "QUDT" ;
+    schema:url "http://www.qudt.org"^^xsd:anyURI ;
 .
 
 cs:
