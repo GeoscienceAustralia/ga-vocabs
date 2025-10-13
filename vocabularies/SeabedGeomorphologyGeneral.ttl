@@ -71,7 +71,6 @@ Cf. MORPHOMETRICS."""@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Geomorphology"@en ;
     skos:topConceptOf cs: ;
-    schema:citation "http://resource.geosciml.org/classifier/cgi/waste-storage/covered"^^xsd:anyURI ;
 .
 
 :landform
@@ -81,7 +80,6 @@ Cf. MORPHOMETRICS."""@en ;
     skos:inScheme cs: ;
     skos:prefLabel "landform"@en ;
     skos:topConceptOf cs: ;
-    schema:citation "http://resource.geosciml.org/classifier/cgi/waste-storage/surface"^^xsd:anyURI ;
 .
 
 :lithology
@@ -163,7 +161,6 @@ Cf. MORPHOMETRICS."""@en ;
     skos:inScheme cs: ;
     skos:prefLabel "physiography"@en ;
     skos:topConceptOf cs: ;
-    schema:citation "http://resource.geosciml.org/classifier/cgi/waste-storage/underground"^^xsd:anyURI ;
 .
 
 :process
@@ -200,7 +197,6 @@ Cf. MORPHOMETRICS."""@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Setting"@en ;
     skos:topConceptOf cs: ;
-    schema:citation "http://resource.geosciml.org/classifier/cgi/waste-storage/underwater"^^xsd:anyURI ;
 .
 
 :stillsand

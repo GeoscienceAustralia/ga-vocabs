@@ -17,7 +17,6 @@ Cf. "slope" in Harris et al., (2014)."""@en ;
     skos:inScheme cs: ;
     skos:prefLabel "continental slope"@en ;
     skos:topConceptOf cs: ;
-    schema:citation "http://resource.geosciml.org/classifier/cgi/waste-storage/surface"^^xsd:anyURI ;
 .
 
 <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyPhysiography//continetal_rise>
@@ -28,7 +27,6 @@ Cf. "rise" in Harris et al., (2014)."""@en ;
     skos:inScheme cs: ;
     skos:prefLabel "continental rise"@en ;
     skos:topConceptOf cs: ;
-    schema:citation "http://resource.geosciml.org/classifier/cgi/waste-storage/underground"^^xsd:anyURI ;
 .
 
 :abyssal_plain
@@ -87,7 +85,6 @@ Cf. "shelf" in Harris et al., (2014)."""@en ;
     skos:inScheme cs: ;
     skos:prefLabel "continental shelf"@en ;
     skos:topConceptOf cs: ;
-    schema:citation "http://resource.geosciml.org/classifier/cgi/waste-storage/covered"^^xsd:anyURI ;
 .
 
 :fore-arc_basin
@@ -116,7 +113,6 @@ Translated from "spreading ridge" Harris et al., (2014)."""@en ;
     skos:inScheme cs: ;
     skos:prefLabel "mid-ocean ridge"@en ;
     skos:topConceptOf cs: ;
-    schema:citation "http://resource.geosciml.org/classifier/cgi/waste-storage/underwater"^^xsd:anyURI ;
 .
 
 :oceanic_trench
