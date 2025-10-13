@@ -1,21 +1,13 @@
 PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/OnlineFunctions/>
+PREFIX astatus: <https://linked.data.gov.au/def/reg-statuses/>
 PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/OnlineFunctions>
 PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX foaf: <http://xmlns.com/foaf/0.1/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-PREFIX sdo: <https://schema.org/>
+PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
-
-<http://editor.vocabs.ands.org.au/user/Geoscience-Australia>
-    a
-        dcterms:Agent ,
-        rdfs:Resource ;
-    dcterms:contributor <http://editor.vocabs.ands.org.au/user/GA_Car.Nicholas> ;
-    dcterms:modified "2017-10-24T01:58:50+00:00"^^xsd:dateTime ;
-    foaf:name "Geoscience Australia" ;
-.
 
 :browseGraphic
     a skos:Concept ;
@@ -55,7 +47,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :emailService
     a skos:Concept ;
-    dcterms:contributor <http://editor.vocabs.ands.org.au/user/GA_Sedgmen.Lara_Admin> ;
     dcterms:provenance "ISO19115-1:2014"@en ;
     skos:definition "online email service provided"@en ;
     skos:inScheme cs: ;
@@ -110,20 +101,12 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :upload
     a skos:Concept ;
-    dcterms:contributor <http://editor.vocabs.ands.org.au/user/GA_Sedgmen.Lara_Admin> ;
     dcterms:modified "2018-12-12T03:07:36+00:00"^^xsd:dateTime ;
     dcterms:provenance "ISO19115-1:2014"@en ;
     skos:definition "online resource upload capability provided"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "upload"@en ;
     skos:topConceptOf cs: ;
-.
-
-<https://linked.data.gov.au/org/ga>
-    a sdo:Organization ;
-    sdo:description "Geoscience Australia is Australia's pre-eminent public sector geoscience organisation. It is the nation's trusted advisor on the geology and geography of Australia. It applies science and technology to describe and understand the Earth for the benefit of Australia."@en ;
-    sdo:name "Geoscience Australia" ;
-    sdo:url "https://www.ga.gov.au"^^xsd:anyURI ;
 .
 
 :information
@@ -163,4 +146,5 @@ cs:
         :upload ;
     skos:historyNote "ISO19115-1:2014"@en ;
     skos:prefLabel "OnLine Function Type"@en ;
+    schema:status astatus:experimental ;
 .

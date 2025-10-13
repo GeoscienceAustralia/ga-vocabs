@@ -1,6 +1,6 @@
 PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/MiningWasteStorageType/>
+PREFIX astatus: <https://linked.data.gov.au/def/reg-statuses/>
 PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/MiningWasteStorageType>
-PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX isoroles: <https://linked.data.gov.au/def/data-roles/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX prov: <http://www.w3.org/ns/prov#>
@@ -65,9 +65,11 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:citation "http://resource.geosciml.org/classifier/cgi/waste-storage/surface"^^xsd:anyURI ;
 .
 
+:1.0 schema:name "1.0" .
+
 cs:
     a skos:ConceptScheme ;
-    owl:versionIRI :1 ;
+    owl:versionIRI :1.0 ;
     skos:definition "Terms that describe the storage type a mining waste feature may have."@en ;
     skos:hasTopConcept
         :surface ,
@@ -77,39 +79,30 @@ cs:
     skos:prefLabel "Mineral Resources - Mining Waste Storage Types"@en ;
     prov:qualifiedAttribution
         [
-            dcat:hadRole isoroles:custodian ;
+            prov:hadRole isoroles:custodian ;
             prov:agent
                 [
-                    a schema:Person ;
-                    schema:email ""^^xsd:anyURI ;
+                    a schema:Organization ;
+                    schema:url ""^^xsd:anyURI ;
                     schema:name "Energy And Groundwater Division" ;
                 ] ;
         ] ,
         [
-            dcat:hadRole isoroles:custodian ;
+            prov:hadRole isoroles:custodian ;
             prov:agent
                 [
                     a schema:Person ;
                     schema:email ""^^xsd:anyURI ;
-                    schema:name "Team Lead   Information Services; Minerals" ;
+                    schema:name "Team Lead, Information Services; Minerals" ;
                 ] ;
         ] ;
-    schema:creator
-        [
-            a schema:Organization ;
-            schema:name "Ga" ;
-            schema:url ""^^xsd:anyURI ;
-        ] ;
+    schema:creator <https://linked.data.gov.au/org/ga> ;
     schema:dateCreated "2022-04-13"^^xsd:date ;
     schema:dateModified "2024-02-22"^^xsd:date ;
     schema:keywords
         "Geology" ,
         "Mineral Resources" ;
-    schema:publisher
-        [
-            a schema:Organization ;
-            schema:name "Ga" ;
-            schema:url ""^^xsd:anyURI ;
-        ] ;
+    schema:publisher <https://linked.data.gov.au/org/ga> ;
     schema:version "1" ;
+    schema:status astatus:experimental ;
 .

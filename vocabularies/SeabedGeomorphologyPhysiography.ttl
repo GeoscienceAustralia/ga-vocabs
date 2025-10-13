@@ -1,6 +1,6 @@
 PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyPhysiography/>
+PREFIX astatus: <https://linked.data.gov.au/def/reg-statuses/>
 PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyPhysiography>
-PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX isoroles: <https://linked.data.gov.au/def/data-roles/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX prov: <http://www.w3.org/ns/prov#>
@@ -17,7 +17,6 @@ Cf. "slope" in Harris et al., (2014)."""@en ;
     skos:inScheme cs: ;
     skos:prefLabel "continental slope"@en ;
     skos:topConceptOf cs: ;
-    schema:citation "http://resource.geosciml.org/classifier/cgi/waste-storage/surface"^^xsd:anyURI ;
 .
 
 <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyPhysiography//continetal_rise>
@@ -28,7 +27,6 @@ Cf. "rise" in Harris et al., (2014)."""@en ;
     skos:inScheme cs: ;
     skos:prefLabel "continental rise"@en ;
     skos:topConceptOf cs: ;
-    schema:citation "http://resource.geosciml.org/classifier/cgi/waste-storage/underground"^^xsd:anyURI ;
 .
 
 :abyssal_plain
@@ -87,7 +85,6 @@ Cf. "shelf" in Harris et al., (2014)."""@en ;
     skos:inScheme cs: ;
     skos:prefLabel "continental shelf"@en ;
     skos:topConceptOf cs: ;
-    schema:citation "http://resource.geosciml.org/classifier/cgi/waste-storage/covered"^^xsd:anyURI ;
 .
 
 :fore-arc_basin
@@ -116,7 +113,6 @@ Translated from "spreading ridge" Harris et al., (2014)."""@en ;
     skos:inScheme cs: ;
     skos:prefLabel "mid-ocean ridge"@en ;
     skos:topConceptOf cs: ;
-    schema:citation "http://resource.geosciml.org/classifier/cgi/waste-storage/underwater"^^xsd:anyURI ;
 .
 
 :oceanic_trench
@@ -128,6 +124,8 @@ Cf. "trench" in Harris et al., (2014)."""@en ;
     skos:prefLabel "oceanic trench"@en ;
     skos:topConceptOf cs: ;
 .
+
+:1.0 schema:name "1.0" .
 
 cs:
     a skos:ConceptScheme ;
@@ -152,7 +150,7 @@ This vocabulary comprises one of four linked ISGM-WG vocabularies. """@en ;
     skos:prefLabel "Seabed geomorphology - Physiography"@en ;
     prov:qualifiedAttribution
         [
-            dcat:hadRole isoroles:custodian ;
+            prov:hadRole isoroles:custodian ;
             prov:agent
                 [
                     a schema:Person ;
@@ -161,16 +159,16 @@ This vocabulary comprises one of four linked ISGM-WG vocabularies. """@en ;
                 ] ;
         ] ,
         [
-            dcat:hadRole isoroles:custodian ;
+            prov:hadRole isoroles:pointOfContact ;
             prov:agent
                 [
                     a schema:Person ;
                     schema:email ""^^xsd:anyURI ;
-                    schema:name "Poc: Rachel Nanson" ;
+                    schema:name "Rachel Nanson" ;
                 ] ;
         ] ,
         [
-            dcat:hadRole isoroles:custodian ;
+            prov:hadRole isoroles:custodian ;
             prov:agent
                 [
                     a schema:Person ;
@@ -178,19 +176,10 @@ This vocabulary comprises one of four linked ISGM-WG vocabularies. """@en ;
                     schema:name "Orca Branch" ;
                 ] ;
         ] ;
-    schema:creator
-        [
-            a schema:Organization ;
-            schema:name "Isgm Wg" ;
-            schema:url ""^^xsd:anyURI ;
-        ] ;
+    schema:creator <https://linked.data.gov.au/org/isgm-wg>;
     schema:dateCreated "2024-05-22"^^xsd:date ;
     schema:dateModified "2024-10-18"^^xsd:date ;
-    schema:publisher
-        [
-            a schema:Organization ;
-            schema:name "Ga" ;
-            schema:url ""^^xsd:anyURI ;
-        ] ;
+    schema:publisher <https://linked.data.gov.au/org/ga> ;
+    schema:status astatus:experimental ;
     schema:version "1.0" ;
 .

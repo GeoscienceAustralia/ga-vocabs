@@ -1,6 +1,6 @@
 PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/>
+PREFIX astatus: <https://linked.data.gov.au/def/reg-statuses/>
 PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings>
-PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX isoroles: <https://linked.data.gov.au/def/data-roles/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX prov: <http://www.w3.org/ns/prov#>
@@ -786,7 +786,6 @@ Cf. FLUVIAL PRO-DELTA"""@en ;
     skos:definition "Includes the DRAINAGE NETWORK and all surfaces draining to them (modified from Goudie, 2006)."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "drainage basin (BGU)"@en ;
-    schema:citation "http://resource.geosciml.org/classifier/cgi/waste-storage/surface"^^xsd:anyURI ;
 .
 
 :drainage_network
@@ -796,7 +795,6 @@ Cf. FLUVIAL PRO-DELTA"""@en ;
     skos:definition "A collection of SUBAERIAL CHANNELS joined together (modified from Goudie, 2006). Can be sub-classified by their planform pattern, which are frequently used to infer their processes and development (BGU-T: dendritic; parallel; radial; centrifugal; centripetal; distributary; angular; trellis; or annular: Twidale, 2004)."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "drainage network (BGU)"@en ;
-    schema:citation "http://resource.geosciml.org/classifier/cgi/waste-storage/underground"^^xsd:anyURI ;
 .
 
 :dredge_scour
@@ -950,7 +948,6 @@ Cf. COASTAL DELTA-FRONT"""@en ;
     skos:definition "Usually cone-shaped forms with surface slopes radiating away from an apex located at the point where the feeder SUBAERIAL CHANNEL splits to form DISTRIBUTARY CHANNELS. Their fan-like geometry can be modified by the confinement of neighbouring fans or valley walls (modified from Goudie, 2006)."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "fluvial fan (BGU)"@en ;
-    schema:citation "http://resource.geosciml.org/classifier/cgi/waste-storage/underwater"^^xsd:anyURI ;
 .
 
 :fluvial_fan_lobe
@@ -3637,7 +3634,6 @@ Cf. FLUVIAL DELTA"""@en ;
         :subaerial_channel ;
     skos:prefLabel "Fluvial Setting"@en ;
     skos:topConceptOf cs: ;
-    schema:citation "http://resource.geosciml.org/classifier/cgi/waste-storage/covered"^^xsd:anyURI ;
 .
 
 :barform
@@ -3934,6 +3930,8 @@ Cf. FLUVIAL DELTA"""@en ;
     skos:topConceptOf cs: ;
 .
 
+:1.1 schema:name "1.1" .
+
 cs:
     a skos:ConceptScheme ;
     owl:versionIRI :1.1 ;
@@ -3956,7 +3954,7 @@ This is one of four linked ISGM-WG vocabularies. Definitions in this vocabulary 
     skos:prefLabel "Seabed geomorphology - Part 2 Geomorphology"@en ;
     prov:qualifiedAttribution
         [
-            dcat:hadRole isoroles:custodian ;
+            prov:hadRole isoroles:custodian ;
             prov:agent
                 [
                     a schema:Person ;
@@ -3965,7 +3963,7 @@ This is one of four linked ISGM-WG vocabularies. Definitions in this vocabulary 
                 ] ;
         ] ,
         [
-            dcat:hadRole isoroles:custodian ;
+            prov:hadRole isoroles:custodian ;
             prov:agent
                 [
                     a schema:Person ;
@@ -3974,27 +3972,18 @@ This is one of four linked ISGM-WG vocabularies. Definitions in this vocabulary 
                 ] ;
         ] ,
         [
-            dcat:hadRole isoroles:custodian ;
+            prov:hadRole isoroles:pointOfContact ;
             prov:agent
                 [
                     a schema:Person ;
                     schema:email ""^^xsd:anyURI ;
-                    schema:name "Poc: Rachel Nanson" ;
+                    schema:name "Rachel Nanson" ;
                 ] ;
         ] ;
-    schema:creator
-        [
-            a schema:Organization ;
-            schema:name "Isgm Wg" ;
-            schema:url ""^^xsd:anyURI ;
-        ] ;
+    schema:creator <https://linked.data.gov.au/org/isgm-wg> ;
     schema:dateCreated "2024-06-17"^^xsd:date ;
     schema:dateModified "2025-04-02"^^xsd:date ;
-    schema:publisher
-        [
-            a schema:Organization ;
-            schema:name "Ga" ;
-            schema:url ""^^xsd:anyURI ;
-        ] ;
+    schema:publisher <https://linked.data.gov.au/org/ga> ;
+    schema:status astatus:experimental ;
     schema:version "1.1" ;
 .

@@ -1,0 +1,649 @@
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX prof: <http://www.w3.org/ns/dx/prof/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX schema: <https://schema.org/>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+dcterms:Agent
+    schema:description "A resource that acts or has the power to act."@en ;
+    schema:name "Agent"@en ;
+.
+
+dcterms:conformsTo
+    schema:description "An established standard to which the described resource conforms."@en ;
+    schema:name "Conforms To"@en ;
+.
+
+dcterms:contributor
+    schema:description "An entity responsible for making contributions to the resource."@en ;
+    schema:name "Contributor"@en ;
+.
+
+dcterms:created
+    schema:description "Date of creation of the resource."@en ;
+    schema:name "Date Created"@en ;
+.
+
+dcterms:creator
+    schema:description "An entity responsible for making the resource."@en ;
+    schema:name "Creator"@en ;
+.
+
+dcterms:description
+    schema:description "An account of the resource."@en ;
+    schema:name "Description"@en ;
+.
+
+dcterms:identifier
+    schema:description "An unambiguous reference to the resource within a given context."@en ;
+    schema:name "Identifier"@en ;
+.
+
+dcterms:issued
+    schema:description "Date of formal issuance of the resource."@en ;
+    schema:name "Date Issued"@en ;
+.
+
+dcterms:modified
+    schema:description "Date on which the resource was changed."@en ;
+    schema:name "Date Modified"@en ;
+.
+
+dcterms:provenance
+    schema:description "A statement of any changes in ownership and custody of the resource since its creation that are significant for its authenticity, integrity, and interpretation."@en ;
+    schema:name "Provenance"@en ;
+.
+
+dcterms:publisher
+    schema:description "An entity responsible for making the resource available."@en ;
+    schema:name "Publisher"@en ;
+.
+
+dcterms:subject
+    schema:description "A topic of the resource."@en ;
+    schema:name "Subject"@en ;
+.
+
+dcterms:title
+    schema:description "A name given to the resource."@en ;
+    schema:name "Title"@en ;
+.
+
+rdfs:Resource
+    schema:description "The class resource, everything" ;
+    schema:name "Resource" ;
+.
+
+owl:versionIRI
+    schema:description "The property that identifies the version IRI of an ontology." ;
+    schema:name "versionIRI" ;
+.
+
+dcat:hadRole
+    schema:description "The function of an entity or agent with respect to another entity or resource."@en ;
+    schema:name "hadRole"@en ;
+.
+
+prof:hasArtifact
+    schema:description "The URL of a downloadable file with particulars such as its format and role indicated by the Resource Descriptor"@en ;
+    schema:name "has artifact" ;
+.
+
+prof:hasResource
+    schema:description "A resource which describes the nature of an artifact and the role it plays in relation to the Profile"@en ;
+    schema:name "has resource"@en ;
+.
+
+prof:hasRole
+    schema:description "The function of an artifact described by a Resource Descriptor, such as specification, guidance etc."@en ;
+    schema:name "has role" ;
+.
+
+prov:agent
+    schema:description "A thing with agency - the ability to do work" ;
+    schema:name "agent" ;
+.
+
+prov:qualifiedAttribution
+    schema:description "If this Entity prov:wasAttributedTo Agent :ag, then it can qualify how it was influenced using prov:qualifiedAttribution [ a prov:Attribution;  prov:agent :ag; :foo :bar ]."@en ;
+    schema:name "qualified attribution" ;
+.
+
+foaf:name
+    schema:description "A name for some thing." ;
+    schema:name "name" ;
+.
+
+<https://kurrawong.ai>
+    schema:description """KurrawongAI is a small, Australian-based company enabling organisations to take control of their data.
+
+We use data modelling, data governance and data systems implementation expertise all based on Semantic Web and Knowledge Graph principles to ensure data is in the richest, most open and most extensible form it can be.
+
+We use knowledge graphs for data storage, as a transfer format, when serialised, and as inputs to advanced reasoning and data processing tasks, such as for Machine Learning and Artificial Intelligence applications.""" ;
+    schema:name "KurrawongAI" ;
+.
+
+<https://linked.data.gov.au/def/data-roles/custodian>
+    schema:description "party that accepts accountability and responsibility for the resource and ensures appropriate care and maintenance of the resource" ;
+    schema:name "custodian"@en ;
+.
+
+<https://prez.dev/Manifest>
+    schema:name "Manifest" ;
+.
+
+<https://prez.dev/ManifestResourceRoles/CatalogueAndResourceModel>
+    schema:description "The default model for the container and the content. Must be a set of SHACL Shapes" ;
+    schema:name "Catalogue & Resource Model" ;
+.
+
+<https://prez.dev/ManifestResourceRoles/CatalogueData>
+    schema:description "Data for the container, usually a Catalogue, including the identity of it and each item fo content" ;
+    schema:name "Catalogue Data" ;
+.
+
+<https://prez.dev/ManifestResourceRoles/CompleteCatalogueAndResourceLabels>
+    schema:description "All the labels - possibly including names, descriptions & seeAlso links - for the Catalogue and Resource objects" ;
+    schema:name "Complete Catalogue and Resource Labels" ;
+.
+
+<https://prez.dev/ManifestResourceRoles/ResourceData>
+    schema:description "Data for the content of the container" ;
+    schema:name "Resource Data" ;
+.
+
+schema:DataCatalog
+    schema:description "A collection of datasets" ;
+    schema:name "Data catalog" ;
+.
+
+schema:Person
+    schema:description "A person (alive, dead, undead, or fictional)" ;
+    schema:name "Person" ;
+.
+
+schema:codeRepository
+    schema:description "Link to the repository where the un-compiled, human readable code and related code is located (SVN, GitHub, CodePlex)" ;
+    schema:name "code repository" ;
+.
+
+schema:email
+    schema:description "Email address" ;
+    schema:name "email" ;
+.
+
+schema:hasPart
+    schema:description "Indicates a Resource that is part of this item" ;
+    schema:name "has part" ;
+.
+
+schema:version
+    schema:description "The version of the CreativeWork embodied by a specified resource" ;
+    schema:name "version" ;
+.
+
+
+
+<http://resource.geoscience.gov.au/classifier/ga/directional_survey_azimuth_north_type/grid_north> rdfs:label "grid north" .
+<http://resource.geoscience.gov.au/classifier/ga/directional_survey_azimuth_north_type/magnetic_north> rdfs:label "magnetic north" .
+<http://resource.geoscience.gov.au/classifier/ga/directional_survey_azimuth_north_type/true_north> rdfs:label "true north" .
+
+<http://resource.geosciml.org/classifier/cgi/proportionterm/all> rdfs:label "all" .
+<http://resource.geosciml.org/classifier/cgi/proportionterm/dominant> rdfs:label "dominant" .
+<http://resource.geosciml.org/classifier/cgi/proportionterm/major> rdfs:label "major" .
+<http://resource.geosciml.org/classifier/cgi/proportionterm/minor> rdfs:label "minor" .
+<http://resource.geosciml.org/classifier/cgi/proportionterm/rare> rdfs:label "rare" .
+<http://resource.geosciml.org/classifier/cgi/proportionterm/subordinate> rdfs:label "subordinate" .
+<http://resource.geosciml.org/classifier/cgi/proportionterm/trace> rdfs:label "trace" .
+<http://resource.geosciml.org/classifier/cgi/proportionterm/variable> rdfs:label "variable" .
+
+
+<http://resource.geoscience.gov.au/classifier/ga/uncertaintytype/1sigma> rdfs:label "1 sigma" .
+<http://resource.geoscience.gov.au/classifier/ga/uncertaintytype/2sigma> rdfs:label "2 sigma" .
+<http://resource.geoscience.gov.au/classifier/ga/uncertaintytype/3sigma> rdfs:label "3 sigma" .
+<http://resource.geoscience.gov.au/classifier/ga/uncertaintytype/95pc_confidence> rdfs:label "95% confidence" .
+<http://resource.geoscience.gov.au/classifier/ga/uncertaintytype/95pc_confidence_asymmetric> rdfs:label "95% confidence, asymetric" .
+<http://resource.geoscience.gov.au/classifier/ga/uncertaintytype/alpha95> rdfs:label "alpha 95" .
+<http://resource.geoscience.gov.au/classifier/ga/uncertaintytype/delta> rdfs:label "delta" .
+<http://resource.geoscience.gov.au/classifier/ga/uncertaintytype/kappa> rdfs:label "kappa" .
+<http://resource.geoscience.gov.au/classifier/ga/uncertaintytype/plus_minus> rdfs:label "plus/minus" .
+
+<http://qudt.org/2.1/vocab/unit> rdfs:label "QUDT Units Version 2.1 Vocabulary" .
+
+<http://www.opengis.net/def/nil/OGC/0/unknown> rdfs:label "unknown" .
+
+<https://en.wikipedia.org/wiki/Standard_error> rdfs:label "Standard Error" .
+
+<https://www.iso.org/obp/ui/#iso:code:3166:AD> rdfs:label "ISO 3166 code AD" .
+<https://www.iso.org/obp/ui/#iso:code:3166:AE> rdfs:label "ISO 3166 code AE" .
+<https://www.iso.org/obp/ui/#iso:code:3166:AF> rdfs:label "ISO 3166 code AF" .
+<https://www.iso.org/obp/ui/#iso:code:3166:AG> rdfs:label "ISO 3166 code AG" .
+<https://www.iso.org/obp/ui/#iso:code:3166:AI> rdfs:label "ISO 3166 code AI" .
+<https://www.iso.org/obp/ui/#iso:code:3166:AL> rdfs:label "ISO 3166 code AL" .
+<https://www.iso.org/obp/ui/#iso:code:3166:AM> rdfs:label "ISO 3166 code AM" .
+<https://www.iso.org/obp/ui/#iso:code:3166:AO> rdfs:label "ISO 3166 code AO" .
+<https://www.iso.org/obp/ui/#iso:code:3166:AQ> rdfs:label "ISO 3166 code AQ" .
+<https://www.iso.org/obp/ui/#iso:code:3166:AR> rdfs:label "ISO 3166 code AR" .
+<https://www.iso.org/obp/ui/#iso:code:3166:AS> rdfs:label "ISO 3166 code AS" .
+<https://www.iso.org/obp/ui/#iso:code:3166:AT> rdfs:label "ISO 3166 code AT" .
+<https://www.iso.org/obp/ui/#iso:code:3166:AU> rdfs:label "ISO 3166 code AU" .
+<https://www.iso.org/obp/ui/#iso:code:3166:AW> rdfs:label "ISO 3166 code AW" .
+<https://www.iso.org/obp/ui/#iso:code:3166:AX> rdfs:label "ISO 3166 code AX" .
+<https://www.iso.org/obp/ui/#iso:code:3166:AZ> rdfs:label "ISO 3166 code AZ" .
+<https://www.iso.org/obp/ui/#iso:code:3166:BA> rdfs:label "ISO 3166 code BA" .
+<https://www.iso.org/obp/ui/#iso:code:3166:BB> rdfs:label "ISO 3166 code BB" .
+<https://www.iso.org/obp/ui/#iso:code:3166:BD> rdfs:label "ISO 3166 code BD" .
+<https://www.iso.org/obp/ui/#iso:code:3166:BE> rdfs:label "ISO 3166 code BE" .
+<https://www.iso.org/obp/ui/#iso:code:3166:BF> rdfs:label "ISO 3166 code BF" .
+<https://www.iso.org/obp/ui/#iso:code:3166:BG> rdfs:label "ISO 3166 code BG" .
+<https://www.iso.org/obp/ui/#iso:code:3166:BH> rdfs:label "ISO 3166 code BH" .
+<https://www.iso.org/obp/ui/#iso:code:3166:BI> rdfs:label "ISO 3166 code BI" .
+<https://www.iso.org/obp/ui/#iso:code:3166:BJ> rdfs:label "ISO 3166 code BJ" .
+<https://www.iso.org/obp/ui/#iso:code:3166:BL> rdfs:label "ISO 3166 code BL" .
+<https://www.iso.org/obp/ui/#iso:code:3166:BM> rdfs:label "ISO 3166 code BM" .
+<https://www.iso.org/obp/ui/#iso:code:3166:BN> rdfs:label "ISO 3166 code BN" .
+<https://www.iso.org/obp/ui/#iso:code:3166:BO> rdfs:label "ISO 3166 code BO" .
+<https://www.iso.org/obp/ui/#iso:code:3166:BQ> rdfs:label "ISO 3166 code BQ" .
+<https://www.iso.org/obp/ui/#iso:code:3166:BR> rdfs:label "ISO 3166 code BR" .
+<https://www.iso.org/obp/ui/#iso:code:3166:BS> rdfs:label "ISO 3166 code BS" .
+<https://www.iso.org/obp/ui/#iso:code:3166:BT> rdfs:label "ISO 3166 code BT" .
+<https://www.iso.org/obp/ui/#iso:code:3166:BV> rdfs:label "ISO 3166 code BV" .
+<https://www.iso.org/obp/ui/#iso:code:3166:BW> rdfs:label "ISO 3166 code BW" .
+<https://www.iso.org/obp/ui/#iso:code:3166:BY> rdfs:label "ISO 3166 code BY" .
+<https://www.iso.org/obp/ui/#iso:code:3166:BZ> rdfs:label "ISO 3166 code BZ" .
+<https://www.iso.org/obp/ui/#iso:code:3166:CA> rdfs:label "ISO 3166 code CA" .
+<https://www.iso.org/obp/ui/#iso:code:3166:CC> rdfs:label "ISO 3166 code CC" .
+<https://www.iso.org/obp/ui/#iso:code:3166:CD> rdfs:label "ISO 3166 code CD" .
+<https://www.iso.org/obp/ui/#iso:code:3166:CF> rdfs:label "ISO 3166 code CF" .
+<https://www.iso.org/obp/ui/#iso:code:3166:CG> rdfs:label "ISO 3166 code CG" .
+<https://www.iso.org/obp/ui/#iso:code:3166:CH> rdfs:label "ISO 3166 code CH" .
+<https://www.iso.org/obp/ui/#iso:code:3166:CI> rdfs:label "ISO 3166 code CI" .
+<https://www.iso.org/obp/ui/#iso:code:3166:CK> rdfs:label "ISO 3166 code CK" .
+<https://www.iso.org/obp/ui/#iso:code:3166:CL> rdfs:label "ISO 3166 code CL" .
+<https://www.iso.org/obp/ui/#iso:code:3166:CM> rdfs:label "ISO 3166 code CM" .
+<https://www.iso.org/obp/ui/#iso:code:3166:CN> rdfs:label "ISO 3166 code CN" .
+<https://www.iso.org/obp/ui/#iso:code:3166:CO> rdfs:label "ISO 3166 code CO" .
+<https://www.iso.org/obp/ui/#iso:code:3166:CR> rdfs:label "ISO 3166 code CR" .
+<https://www.iso.org/obp/ui/#iso:code:3166:CU> rdfs:label "ISO 3166 code CU" .
+<https://www.iso.org/obp/ui/#iso:code:3166:CV> rdfs:label "ISO 3166 code CV" .
+<https://www.iso.org/obp/ui/#iso:code:3166:CW> rdfs:label "ISO 3166 code CW" .
+<https://www.iso.org/obp/ui/#iso:code:3166:CX> rdfs:label "ISO 3166 code CX" .
+<https://www.iso.org/obp/ui/#iso:code:3166:CY> rdfs:label "ISO 3166 code CY" .
+<https://www.iso.org/obp/ui/#iso:code:3166:CZ> rdfs:label "ISO 3166 code CZ" .
+<https://www.iso.org/obp/ui/#iso:code:3166:DE> rdfs:label "ISO 3166 code DE" .
+<https://www.iso.org/obp/ui/#iso:code:3166:DJ> rdfs:label "ISO 3166 code DJ" .
+<https://www.iso.org/obp/ui/#iso:code:3166:DK> rdfs:label "ISO 3166 code DK" .
+<https://www.iso.org/obp/ui/#iso:code:3166:DM> rdfs:label "ISO 3166 code DM" .
+<https://www.iso.org/obp/ui/#iso:code:3166:DO> rdfs:label "ISO 3166 code DO" .
+<https://www.iso.org/obp/ui/#iso:code:3166:DZ> rdfs:label "ISO 3166 code DZ" .
+<https://www.iso.org/obp/ui/#iso:code:3166:EC> rdfs:label "ISO 3166 code EC" .
+<https://www.iso.org/obp/ui/#iso:code:3166:EE> rdfs:label "ISO 3166 code EE" .
+<https://www.iso.org/obp/ui/#iso:code:3166:EG> rdfs:label "ISO 3166 code EG" .
+<https://www.iso.org/obp/ui/#iso:code:3166:EH> rdfs:label "ISO 3166 code EH" .
+<https://www.iso.org/obp/ui/#iso:code:3166:ER> rdfs:label "ISO 3166 code ER" .
+<https://www.iso.org/obp/ui/#iso:code:3166:ES> rdfs:label "ISO 3166 code ES" .
+<https://www.iso.org/obp/ui/#iso:code:3166:ET> rdfs:label "ISO 3166 code ET" .
+<https://www.iso.org/obp/ui/#iso:code:3166:FI> rdfs:label "ISO 3166 code FI" .
+<https://www.iso.org/obp/ui/#iso:code:3166:FJ> rdfs:label "ISO 3166 code FJ" .
+<https://www.iso.org/obp/ui/#iso:code:3166:FK> rdfs:label "ISO 3166 code FK" .
+<https://www.iso.org/obp/ui/#iso:code:3166:FM> rdfs:label "ISO 3166 code FM" .
+<https://www.iso.org/obp/ui/#iso:code:3166:FO> rdfs:label "ISO 3166 code FO" .
+<https://www.iso.org/obp/ui/#iso:code:3166:FR> rdfs:label "ISO 3166 code FR" .
+<https://www.iso.org/obp/ui/#iso:code:3166:GA> rdfs:label "ISO 3166 code GA" .
+<https://www.iso.org/obp/ui/#iso:code:3166:GB> rdfs:label "ISO 3166 code GB" .
+<https://www.iso.org/obp/ui/#iso:code:3166:GD> rdfs:label "ISO 3166 code GD" .
+<https://www.iso.org/obp/ui/#iso:code:3166:GE> rdfs:label "ISO 3166 code GE" .
+<https://www.iso.org/obp/ui/#iso:code:3166:GF> rdfs:label "ISO 3166 code GF" .
+<https://www.iso.org/obp/ui/#iso:code:3166:GG> rdfs:label "ISO 3166 code GG" .
+<https://www.iso.org/obp/ui/#iso:code:3166:GH> rdfs:label "ISO 3166 code GH" .
+<https://www.iso.org/obp/ui/#iso:code:3166:GI> rdfs:label "ISO 3166 code GI" .
+<https://www.iso.org/obp/ui/#iso:code:3166:GL> rdfs:label "ISO 3166 code GL" .
+<https://www.iso.org/obp/ui/#iso:code:3166:GM> rdfs:label "ISO 3166 code GM" .
+<https://www.iso.org/obp/ui/#iso:code:3166:GN> rdfs:label "ISO 3166 code GN" .
+<https://www.iso.org/obp/ui/#iso:code:3166:GP> rdfs:label "ISO 3166 code GP" .
+<https://www.iso.org/obp/ui/#iso:code:3166:GQ> rdfs:label "ISO 3166 code GQ" .
+<https://www.iso.org/obp/ui/#iso:code:3166:GR> rdfs:label "ISO 3166 code GR" .
+<https://www.iso.org/obp/ui/#iso:code:3166:GS> rdfs:label "ISO 3166 code GS" .
+<https://www.iso.org/obp/ui/#iso:code:3166:GT> rdfs:label "ISO 3166 code GT" .
+<https://www.iso.org/obp/ui/#iso:code:3166:GU> rdfs:label "ISO 3166 code GU" .
+<https://www.iso.org/obp/ui/#iso:code:3166:GW> rdfs:label "ISO 3166 code GW" .
+<https://www.iso.org/obp/ui/#iso:code:3166:GY> rdfs:label "ISO 3166 code GY" .
+<https://www.iso.org/obp/ui/#iso:code:3166:HK> rdfs:label "ISO 3166 code HK" .
+<https://www.iso.org/obp/ui/#iso:code:3166:HM> rdfs:label "ISO 3166 code HM" .
+<https://www.iso.org/obp/ui/#iso:code:3166:HN> rdfs:label "ISO 3166 code HN" .
+<https://www.iso.org/obp/ui/#iso:code:3166:HR> rdfs:label "ISO 3166 code HR" .
+<https://www.iso.org/obp/ui/#iso:code:3166:HT> rdfs:label "ISO 3166 code HT" .
+<https://www.iso.org/obp/ui/#iso:code:3166:HU> rdfs:label "ISO 3166 code HU" .
+<https://www.iso.org/obp/ui/#iso:code:3166:ID> rdfs:label "ISO 3166 code ID" .
+<https://www.iso.org/obp/ui/#iso:code:3166:IE> rdfs:label "ISO 3166 code IE" .
+<https://www.iso.org/obp/ui/#iso:code:3166:IL> rdfs:label "ISO 3166 code IL" .
+<https://www.iso.org/obp/ui/#iso:code:3166:IM> rdfs:label "ISO 3166 code IM" .
+<https://www.iso.org/obp/ui/#iso:code:3166:IN> rdfs:label "ISO 3166 code IN" .
+<https://www.iso.org/obp/ui/#iso:code:3166:IO> rdfs:label "ISO 3166 code IO" .
+<https://www.iso.org/obp/ui/#iso:code:3166:IQ> rdfs:label "ISO 3166 code IQ" .
+<https://www.iso.org/obp/ui/#iso:code:3166:IR> rdfs:label "ISO 3166 code IR" .
+<https://www.iso.org/obp/ui/#iso:code:3166:IS> rdfs:label "ISO 3166 code IS" .
+<https://www.iso.org/obp/ui/#iso:code:3166:IT> rdfs:label "ISO 3166 code IT" .
+<https://www.iso.org/obp/ui/#iso:code:3166:JE> rdfs:label "ISO 3166 code JE" .
+<https://www.iso.org/obp/ui/#iso:code:3166:JM> rdfs:label "ISO 3166 code JM" .
+<https://www.iso.org/obp/ui/#iso:code:3166:JO> rdfs:label "ISO 3166 code JO" .
+<https://www.iso.org/obp/ui/#iso:code:3166:JP> rdfs:label "ISO 3166 code JP" .
+<https://www.iso.org/obp/ui/#iso:code:3166:KE> rdfs:label "ISO 3166 code KE" .
+<https://www.iso.org/obp/ui/#iso:code:3166:KG> rdfs:label "ISO 3166 code KG" .
+<https://www.iso.org/obp/ui/#iso:code:3166:KH> rdfs:label "ISO 3166 code KH" .
+<https://www.iso.org/obp/ui/#iso:code:3166:KI> rdfs:label "ISO 3166 code KI" .
+<https://www.iso.org/obp/ui/#iso:code:3166:KM> rdfs:label "ISO 3166 code KM" .
+<https://www.iso.org/obp/ui/#iso:code:3166:KN> rdfs:label "ISO 3166 code KN" .
+<https://www.iso.org/obp/ui/#iso:code:3166:KP> rdfs:label "ISO 3166 code KP" .
+<https://www.iso.org/obp/ui/#iso:code:3166:KR> rdfs:label "ISO 3166 code KR" .
+<https://www.iso.org/obp/ui/#iso:code:3166:KW> rdfs:label "ISO 3166 code KW" .
+<https://www.iso.org/obp/ui/#iso:code:3166:KY> rdfs:label "ISO 3166 code KY" .
+<https://www.iso.org/obp/ui/#iso:code:3166:KZ> rdfs:label "ISO 3166 code KZ" .
+<https://www.iso.org/obp/ui/#iso:code:3166:LA> rdfs:label "ISO 3166 code LA" .
+<https://www.iso.org/obp/ui/#iso:code:3166:LB> rdfs:label "ISO 3166 code LB" .
+<https://www.iso.org/obp/ui/#iso:code:3166:LC> rdfs:label "ISO 3166 code LC" .
+<https://www.iso.org/obp/ui/#iso:code:3166:LI> rdfs:label "ISO 3166 code LI" .
+<https://www.iso.org/obp/ui/#iso:code:3166:LK> rdfs:label "ISO 3166 code LK" .
+<https://www.iso.org/obp/ui/#iso:code:3166:LR> rdfs:label "ISO 3166 code LR" .
+<https://www.iso.org/obp/ui/#iso:code:3166:LS> rdfs:label "ISO 3166 code LS" .
+<https://www.iso.org/obp/ui/#iso:code:3166:LT> rdfs:label "ISO 3166 code LT" .
+<https://www.iso.org/obp/ui/#iso:code:3166:LU> rdfs:label "ISO 3166 code LU" .
+<https://www.iso.org/obp/ui/#iso:code:3166:LV> rdfs:label "ISO 3166 code LV" .
+<https://www.iso.org/obp/ui/#iso:code:3166:LY> rdfs:label "ISO 3166 code LY" .
+<https://www.iso.org/obp/ui/#iso:code:3166:MA> rdfs:label "ISO 3166 code MA" .
+<https://www.iso.org/obp/ui/#iso:code:3166:MC> rdfs:label "ISO 3166 code MC" .
+<https://www.iso.org/obp/ui/#iso:code:3166:MD> rdfs:label "ISO 3166 code MD" .
+<https://www.iso.org/obp/ui/#iso:code:3166:ME> rdfs:label "ISO 3166 code ME" .
+<https://www.iso.org/obp/ui/#iso:code:3166:MF> rdfs:label "ISO 3166 code MF" .
+<https://www.iso.org/obp/ui/#iso:code:3166:MG> rdfs:label "ISO 3166 code MG" .
+<https://www.iso.org/obp/ui/#iso:code:3166:MH> rdfs:label "ISO 3166 code MH" .
+<https://www.iso.org/obp/ui/#iso:code:3166:MK> rdfs:label "ISO 3166 code MK" .
+<https://www.iso.org/obp/ui/#iso:code:3166:ML> rdfs:label "ISO 3166 code ML" .
+<https://www.iso.org/obp/ui/#iso:code:3166:MM> rdfs:label "ISO 3166 code MM" .
+<https://www.iso.org/obp/ui/#iso:code:3166:MN> rdfs:label "ISO 3166 code MN" .
+<https://www.iso.org/obp/ui/#iso:code:3166:MO> rdfs:label "ISO 3166 code MO" .
+<https://www.iso.org/obp/ui/#iso:code:3166:MP> rdfs:label "ISO 3166 code MP" .
+<https://www.iso.org/obp/ui/#iso:code:3166:MQ> rdfs:label "ISO 3166 code MQ" .
+<https://www.iso.org/obp/ui/#iso:code:3166:MR> rdfs:label "ISO 3166 code MR" .
+<https://www.iso.org/obp/ui/#iso:code:3166:MS> rdfs:label "ISO 3166 code MS" .
+<https://www.iso.org/obp/ui/#iso:code:3166:MT> rdfs:label "ISO 3166 code MT" .
+<https://www.iso.org/obp/ui/#iso:code:3166:MU> rdfs:label "ISO 3166 code MU" .
+<https://www.iso.org/obp/ui/#iso:code:3166:MV> rdfs:label "ISO 3166 code MV" .
+<https://www.iso.org/obp/ui/#iso:code:3166:MW> rdfs:label "ISO 3166 code MW" .
+<https://www.iso.org/obp/ui/#iso:code:3166:MX> rdfs:label "ISO 3166 code MX" .
+<https://www.iso.org/obp/ui/#iso:code:3166:MY> rdfs:label "ISO 3166 code MY" .
+<https://www.iso.org/obp/ui/#iso:code:3166:MZ> rdfs:label "ISO 3166 code MZ" .
+<https://www.iso.org/obp/ui/#iso:code:3166:NA> rdfs:label "ISO 3166 code NA" .
+<https://www.iso.org/obp/ui/#iso:code:3166:NC> rdfs:label "ISO 3166 code NC" .
+<https://www.iso.org/obp/ui/#iso:code:3166:NE> rdfs:label "ISO 3166 code NE" .
+<https://www.iso.org/obp/ui/#iso:code:3166:NF> rdfs:label "ISO 3166 code NF" .
+<https://www.iso.org/obp/ui/#iso:code:3166:NG> rdfs:label "ISO 3166 code NG" .
+<https://www.iso.org/obp/ui/#iso:code:3166:NI> rdfs:label "ISO 3166 code NI" .
+<https://www.iso.org/obp/ui/#iso:code:3166:NL> rdfs:label "ISO 3166 code NL" .
+<https://www.iso.org/obp/ui/#iso:code:3166:NO> rdfs:label "ISO 3166 code NO" .
+<https://www.iso.org/obp/ui/#iso:code:3166:NP> rdfs:label "ISO 3166 code NP" .
+<https://www.iso.org/obp/ui/#iso:code:3166:NR> rdfs:label "ISO 3166 code NR" .
+<https://www.iso.org/obp/ui/#iso:code:3166:NU> rdfs:label "ISO 3166 code NU" .
+<https://www.iso.org/obp/ui/#iso:code:3166:NZ> rdfs:label "ISO 3166 code NZ" .
+<https://www.iso.org/obp/ui/#iso:code:3166:OM> rdfs:label "ISO 3166 code OM" .
+<https://www.iso.org/obp/ui/#iso:code:3166:PA> rdfs:label "ISO 3166 code PA" .
+<https://www.iso.org/obp/ui/#iso:code:3166:PE> rdfs:label "ISO 3166 code PE" .
+<https://www.iso.org/obp/ui/#iso:code:3166:PF> rdfs:label "ISO 3166 code PF" .
+<https://www.iso.org/obp/ui/#iso:code:3166:PG> rdfs:label "ISO 3166 code PG" .
+<https://www.iso.org/obp/ui/#iso:code:3166:PH> rdfs:label "ISO 3166 code PH" .
+<https://www.iso.org/obp/ui/#iso:code:3166:PK> rdfs:label "ISO 3166 code PK" .
+<https://www.iso.org/obp/ui/#iso:code:3166:PL> rdfs:label "ISO 3166 code PL" .
+<https://www.iso.org/obp/ui/#iso:code:3166:PM> rdfs:label "ISO 3166 code PM" .
+<https://www.iso.org/obp/ui/#iso:code:3166:PN> rdfs:label "ISO 3166 code PN" .
+<https://www.iso.org/obp/ui/#iso:code:3166:PR> rdfs:label "ISO 3166 code PR" .
+<https://www.iso.org/obp/ui/#iso:code:3166:PS> rdfs:label "ISO 3166 code PS" .
+<https://www.iso.org/obp/ui/#iso:code:3166:PT> rdfs:label "ISO 3166 code PT" .
+<https://www.iso.org/obp/ui/#iso:code:3166:PW> rdfs:label "ISO 3166 code PW" .
+<https://www.iso.org/obp/ui/#iso:code:3166:PY> rdfs:label "ISO 3166 code PY" .
+<https://www.iso.org/obp/ui/#iso:code:3166:QA> rdfs:label "ISO 3166 code QA" .
+<https://www.iso.org/obp/ui/#iso:code:3166:RE> rdfs:label "ISO 3166 code RE" .
+<https://www.iso.org/obp/ui/#iso:code:3166:RO> rdfs:label "ISO 3166 code RO" .
+<https://www.iso.org/obp/ui/#iso:code:3166:RS> rdfs:label "ISO 3166 code RS" .
+<https://www.iso.org/obp/ui/#iso:code:3166:RU> rdfs:label "ISO 3166 code RU" .
+<https://www.iso.org/obp/ui/#iso:code:3166:RW> rdfs:label "ISO 3166 code RW" .
+<https://www.iso.org/obp/ui/#iso:code:3166:SA> rdfs:label "ISO 3166 code SA" .
+<https://www.iso.org/obp/ui/#iso:code:3166:SB> rdfs:label "ISO 3166 code SB" .
+<https://www.iso.org/obp/ui/#iso:code:3166:SC> rdfs:label "ISO 3166 code SC" .
+<https://www.iso.org/obp/ui/#iso:code:3166:SD> rdfs:label "ISO 3166 code SD" .
+<https://www.iso.org/obp/ui/#iso:code:3166:SE> rdfs:label "ISO 3166 code SE" .
+<https://www.iso.org/obp/ui/#iso:code:3166:SG> rdfs:label "ISO 3166 code SG" .
+<https://www.iso.org/obp/ui/#iso:code:3166:SH> rdfs:label "ISO 3166 code SH" .
+<https://www.iso.org/obp/ui/#iso:code:3166:SI> rdfs:label "ISO 3166 code SI" .
+<https://www.iso.org/obp/ui/#iso:code:3166:SJ> rdfs:label "ISO 3166 code SJ" .
+<https://www.iso.org/obp/ui/#iso:code:3166:SK> rdfs:label "ISO 3166 code SK" .
+<https://www.iso.org/obp/ui/#iso:code:3166:SL> rdfs:label "ISO 3166 code SL" .
+<https://www.iso.org/obp/ui/#iso:code:3166:SM> rdfs:label "ISO 3166 code SM" .
+<https://www.iso.org/obp/ui/#iso:code:3166:SN> rdfs:label "ISO 3166 code SN" .
+<https://www.iso.org/obp/ui/#iso:code:3166:SO> rdfs:label "ISO 3166 code SO" .
+<https://www.iso.org/obp/ui/#iso:code:3166:SR> rdfs:label "ISO 3166 code SR" .
+<https://www.iso.org/obp/ui/#iso:code:3166:SS> rdfs:label "ISO 3166 code SS" .
+<https://www.iso.org/obp/ui/#iso:code:3166:ST> rdfs:label "ISO 3166 code ST" .
+<https://www.iso.org/obp/ui/#iso:code:3166:SV> rdfs:label "ISO 3166 code SV" .
+<https://www.iso.org/obp/ui/#iso:code:3166:SX> rdfs:label "ISO 3166 code SX" .
+<https://www.iso.org/obp/ui/#iso:code:3166:SY> rdfs:label "ISO 3166 code SY" .
+<https://www.iso.org/obp/ui/#iso:code:3166:SZ> rdfs:label "ISO 3166 code SZ" .
+<https://www.iso.org/obp/ui/#iso:code:3166:TC> rdfs:label "ISO 3166 code TC" .
+<https://www.iso.org/obp/ui/#iso:code:3166:TD> rdfs:label "ISO 3166 code TD" .
+<https://www.iso.org/obp/ui/#iso:code:3166:TF> rdfs:label "ISO 3166 code TF" .
+<https://www.iso.org/obp/ui/#iso:code:3166:TG> rdfs:label "ISO 3166 code TG" .
+<https://www.iso.org/obp/ui/#iso:code:3166:TH> rdfs:label "ISO 3166 code TH" .
+<https://www.iso.org/obp/ui/#iso:code:3166:TJ> rdfs:label "ISO 3166 code TJ" .
+<https://www.iso.org/obp/ui/#iso:code:3166:TK> rdfs:label "ISO 3166 code TK" .
+<https://www.iso.org/obp/ui/#iso:code:3166:TL> rdfs:label "ISO 3166 code TL" .
+<https://www.iso.org/obp/ui/#iso:code:3166:TM> rdfs:label "ISO 3166 code TM" .
+<https://www.iso.org/obp/ui/#iso:code:3166:TN> rdfs:label "ISO 3166 code TN" .
+<https://www.iso.org/obp/ui/#iso:code:3166:TO> rdfs:label "ISO 3166 code TO" .
+<https://www.iso.org/obp/ui/#iso:code:3166:TR> rdfs:label "ISO 3166 code TR" .
+<https://www.iso.org/obp/ui/#iso:code:3166:TT> rdfs:label "ISO 3166 code TT" .
+<https://www.iso.org/obp/ui/#iso:code:3166:TV> rdfs:label "ISO 3166 code TV" .
+<https://www.iso.org/obp/ui/#iso:code:3166:TW> rdfs:label "ISO 3166 code TW" .
+<https://www.iso.org/obp/ui/#iso:code:3166:TZ> rdfs:label "ISO 3166 code TZ" .
+<https://www.iso.org/obp/ui/#iso:code:3166:UA> rdfs:label "ISO 3166 code UA" .
+<https://www.iso.org/obp/ui/#iso:code:3166:UG> rdfs:label "ISO 3166 code UG" .
+<https://www.iso.org/obp/ui/#iso:code:3166:UM> rdfs:label "ISO 3166 code UM" .
+<https://www.iso.org/obp/ui/#iso:code:3166:US> rdfs:label "ISO 3166 code US" .
+<https://www.iso.org/obp/ui/#iso:code:3166:UY> rdfs:label "ISO 3166 code UY" .
+<https://www.iso.org/obp/ui/#iso:code:3166:UZ> rdfs:label "ISO 3166 code UZ" .
+<https://www.iso.org/obp/ui/#iso:code:3166:VA> rdfs:label "ISO 3166 code VA" .
+<https://www.iso.org/obp/ui/#iso:code:3166:VC> rdfs:label "ISO 3166 code VC" .
+<https://www.iso.org/obp/ui/#iso:code:3166:VE> rdfs:label "ISO 3166 code VE" .
+<https://www.iso.org/obp/ui/#iso:code:3166:VG> rdfs:label "ISO 3166 code VG" .
+<https://www.iso.org/obp/ui/#iso:code:3166:VI> rdfs:label "ISO 3166 code VI" .
+<https://www.iso.org/obp/ui/#iso:code:3166:VN> rdfs:label "ISO 3166 code VN" .
+<https://www.iso.org/obp/ui/#iso:code:3166:VU> rdfs:label "ISO 3166 code VU" .
+<https://www.iso.org/obp/ui/#iso:code:3166:WF> rdfs:label "ISO 3166 code WF" .
+<https://www.iso.org/obp/ui/#iso:code:3166:WS> rdfs:label "ISO 3166 code WS" .
+<https://www.iso.org/obp/ui/#iso:code:3166:YE> rdfs:label "ISO 3166 code YE" .
+<https://www.iso.org/obp/ui/#iso:code:3166:YT> rdfs:label "ISO 3166 code YT" .
+<https://www.iso.org/obp/ui/#iso:code:3166:ZA> rdfs:label "ISO 3166 code ZA" .
+<https://www.iso.org/obp/ui/#iso:code:3166:ZM> rdfs:label "ISO 3166 code ZM" .
+<https://www.iso.org/obp/ui/#iso:code:3166:ZW> rdfs:label "ISO 3166 code ZW" .
+
+schema:name
+    schema:description "The name of a thing" ;
+    schema:name "name" ;
+.
+
+
+rdfs:isDefinedBy
+    schema:description "The defininition of the subject resource." ;
+    schema:name "is defined by" ;
+.
+
+rdfs:seeAlso
+    schema:description "Further information about the subject resource." ;
+    schema:name "see also" ;
+.
+
+owl:versionInfo
+    schema:description "The annotation property that provides version information for an ontology or another OWL construct." ;
+    schema:name "versionInfo" ;
+.
+
+skos:Concept
+    schema:description "An idea or notion; a unit of thought" ;
+    schema:name "Concept" ;
+.
+
+skos:ConceptScheme
+    schema:description "A set of concepts, optionally including statements about semantic relationships between those concepts"@en ;
+    schema:name "Concept Scheme"@en ;
+.
+
+skos:altLabel
+    schema:description "An alternative lexical label for a resource"@en ;
+    schema:name "alternative label"@en ;
+.
+
+skos:broader
+    schema:description "Relates a concept to a concept that is more general in meaning"@en ;
+    schema:name "has broader"@en ;
+.
+
+skos:definition
+    schema:description "A statement or formal explanation of the meaning of a concept"@en ;
+    schema:name "definition"@en ;
+.
+
+skos:exactMatch
+    schema:description "skos:exactMatch is used to link two concepts, indicating a high degree of confidence that the concepts can be used interchangeably across a wide range of information retrieval applications. skos:exactMatch is a transitive property, and is a sub-property of skos:closeMatch"@en ;
+    schema:name "has exact match"@en ;
+.
+
+skos:hasTopConcept
+    schema:description "Relates, by convention, a concept scheme to a concept which is topmost in the broader/narrower concept hierarchies for that scheme, providing an entry point to these hierarchies"@en ;
+    schema:name "has top concept"@en ;
+.
+
+skos:historyNote
+    schema:description "A note about the past state/use/meaning of a concept"@en ;
+    schema:name "history note"@en ;
+.
+
+skos:inScheme
+    schema:description "Relates a resource (for example a concept) to a concept scheme in which it is included"@en ;
+    schema:name "is in scheme"@en ;
+.
+
+skos:narrower
+    schema:description "Relates a concept to a concept that is more specific in meaning"@en ;
+    schema:name "has narrower"@en ;
+.
+
+skos:notation
+    schema:description "A notation, also known as classification code, is a string of characters such as \"T58.5\" or \"303.4833\" used to uniquely identify a concept within the scope of a given concept scheme"@en ;
+    schema:name "notation"@en ;
+.
+
+skos:prefLabel
+    schema:description "The preferred lexical label for a resource, in a given language"@en ;
+    schema:name "preferred label"@en ;
+.
+
+skos:topConceptOf
+    schema:description "Relates a concept to the concept scheme that it is a top level concept of"@en ;
+    schema:name "is top concept in scheme"@en ;
+.
+
+dcat:contactPoint
+    schema:description "Relevant contact information for the catalogued resource. Use of vCard is recommended."@en ;
+    schema:name "contact point"@en ;
+.
+
+schema:Organization
+    schema:description "An organization such as a school, NGO, corporation, club, etc" ;
+    schema:name "Organization" ;
+.
+
+schema:citation
+    schema:description "A citation or reference to another creative work, such as another publication, web page, scholarly article, etc" ;
+    schema:name "citation" ;
+.
+
+schema:contributor
+    schema:description "A secondary contributor to the CreativeWork or Event" ;
+    schema:name "contributor" ;
+.
+
+schema:creator
+    schema:description "The creator/author of this CreativeWork. This is the same as the Author property for CreativeWork" ;
+    schema:name "creator" ;
+.
+
+schema:dateCreated
+    schema:description "The date on which the CreativeWork was created or the item was added to a DataFeed" ;
+    schema:name "date created" ;
+.
+
+schema:dateModified
+    schema:description "The date on which the CreativeWork was most recently modified or when the item's entry was modified within a DataFeed" ;
+    schema:name "date modified" ;
+.
+
+schema:description
+    schema:description "A description of the item" ;
+    schema:name "description" ;
+.
+
+schema:keywords
+    schema:description "Keywords or tags used to describe some item. Multiple textual entries in a keywords list are typically delimited by commas, or by repeating the property" ;
+    schema:name "keywords" ;
+.
+
+schema:publisher
+    schema:description "The publisher of the creative work" ;
+    schema:name "publisher" ;
+.
+
+schema:url
+    schema:description "URL of the item" ;
+    schema:name "url" ;
+.
+
+<https://w3id.org/profile/vocpub>
+    schema:description "A profile of the SKOS data model mandating minimum elements for vocabulary publication" ;
+    schema:name "VocPub Profile" ;
+.
+
+<https://pid.geoscience.gov.au/dataset/ga/148553>
+    schema:description "URL of the item" ;
+    schema:name "Geoscience Australia's geoscientific relational databases use look-up tables to describe the data stored within. These look-ups contain, but are not limited to, information about boreholes, field geology, inorganic and organic geochemistry, hydrochemistry, geophysics, rock properties, samples and other general geological terms. These terms have then been compiled into a vocabulary of terms for publication via GA's vocabulary service. Within this vocabulary, GA references where sourced terms are published in external vocabularies with a source vocabulary URI (Uniform Resource Identifier)." ;
+.
+
+<https://pid.geoscience.gov.au/dataset/ga/147628>
+    schema:description "The Geoscience Australia catalogue uses a profile of certain controlled vocabularies (codelists) from the ISO19115-1 metadata standard. A profile includes extra terms that are used by Geoscience Australia that do not appear in the original standard." ;
+    schema:name "Associated Resource Type" ;
+.
+
+<https://linked.data.gov.au/org/isgm-wg>
+    a schema:Organization ;
+    schema:description """The International Seabed Geomorphology Mapping Working Group (ISGM) is a collaboration between geoscience agencies in the United Kingdom, Norway, Ireland and Australia. The group have been collaborating since 2016 to develop a novel marine and coastal system that supports standardised geomorphic classification and mapping by a broad range of geoscientists. Users can download open-access reports and GIS tools or use the online vocabularies to apply the method to their own datasets.""" ;
+    schema:isPartOf <https://linked.data.gov.au/org/un> ;
+    schema:name "International Seabed Geomorphology Mapping Working Group" ;
+    schema:url "https://www.geomorph.org/international-seabed-geomorphology-mapping-working-group/"^^xsd:anyURI ;
+.
+
+<https://linked.data.gov.au/org/iag>
+    a schema:Organization ;
+    schema:description """International Association of Geomorphologists (IAG/AIG) is a scientific, non-governmental and non-profit organisation, whose principal objectives are development and promotion of geomorphology as a science through international co-operation and dissemination of knowledge of geomorphology. The IAG/AIG was founded at the Second International Conference on Geomorphology in Frankfurt/Main (Germany) in 1989 in order to strengthen international geomorphology. IAG/AIG fulfils its aims through the establishment of working groups and task forces, organisation of international and regional conferences, publication activity and information exchange. Membership of the IAG/AIG is normally by countries. At present, 63 countries are affiliated to the IAG/AIG through their National Scientific Members. The activity of the IAG/AIG is steered by its Executive Committee.""" ;
+    schema:name "International Association of Geomorphologists" ;
+    schema:url "https://www.geomorph.org"^^xsd:anyURI ;
+.
+
+<https://linked.data.gov.au/org/ga>
+    a schema:Organization ;
+    schema:description "Australia's pre-eminent public sector geoscience organisation. We are the nation's trusted advisor on the geology and geography of Australia. We apply science and technology to describe and understand the Earth for the benefit of Australia." ;
+    schema:name "Geoscience Australia" ;
+    schema:url "http://www.ga.gov.au"^^xsd:anyURI ;
+.
