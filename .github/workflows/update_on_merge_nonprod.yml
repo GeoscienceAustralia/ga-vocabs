@@ -1,4 +1,4 @@
-name: Handle updated vocabs Develop
+name: Sync updated vocabs Develop
 on:
   push:
     branches: [ develop ]
@@ -9,31 +9,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Bring in repo - develop branch
-        uses: actions/checkout@v1
+        uses: actions/checkout@v4
         with:
           ref: develop
-      - name: install Python dependencies
+      - name: Install UV and Prezmanifest
         run: |
-          python -m pip install -U pip
-          pip install -r scripts/requirements.txt
-      - id: file_changes
-        uses: trilom/file-changes-action@v1.2.4
-        with:
-          output: ','
-      - name: detect file changes
+          curl -LsSf https://astral.sh/uv/install.sh | sh
+          uv tool install prezmanifest
+      - name: Sync Vocabs
         env:
-            DB_USERNAME: ${{secrets.DB_USERNAME}}
-            DB_PASSWORD: ${{secrets.DB_PASSWORD}}
-            BASE_DB_URI: ${{vars.BASE_DB_URI_NONPROD}}
-            WEBSITE_URL: ${{vars.WEBSITE_URL_NONPROD}}
+          FUSEKI_ADMIN_PASSWORD: ${{secrets.FUSEKI_ADMIN_PASSWORD_NONPROD}}
+          FUSEKI_SPARQL_ENDPOINT_GA_NONPROD: ${{vars.FUSEKI_SPARQL_ENDPOINT_GA_NONPROD}}
         run: |
-          echo 'Run update script...'
-          a=${{steps.file_changes.outputs.files_added}}
-          m=${{steps.file_changes.outputs.files_modified}}
-          d=${{steps.file_changes.outputs.files_removed}}
-          r=${{steps.file_changes.outputs.files_renamed}}
-          if [ -z $a ]; then a="x"; fi
-          if [ -z $m ]; then m="x"; fi
-          if [ -z $d ]; then d="x"; fi
-          if [ -z $r ]; then r="x"; fi
-          python scripts/update_vocabs.py -a $a -m $m -d $d -r $r
+          pm sync -u admin -p $FUSEKI_ADMIN_PASSWORD_NONPROD manifest.ttl $FUSEKI_SPARQL_ENDPOINT_GA_NONPROD false false false false
