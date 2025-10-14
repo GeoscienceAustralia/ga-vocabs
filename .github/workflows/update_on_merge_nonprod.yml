@@ -18,7 +18,7 @@ jobs:
           uv tool install prezmanifest
       - name: Sync Vocabs
         env:
-          FUSEKI_ADMIN_PASSWORD: ${{secrets.FUSEKI_ADMIN_PASSWORD_NONPROD}}
+          FUSEKI_ADMIN_PASSWORD_NONPROD: ${{secrets.FUSEKI_ADMIN_PASSWORD_NONPROD}}
           FUSEKI_SPARQL_ENDPOINT_GA_NONPROD: ${{vars.FUSEKI_SPARQL_ENDPOINT_GA_NONPROD}}
         run: |
           pm sync -u admin -p $FUSEKI_ADMIN_PASSWORD_NONPROD manifest.ttl $FUSEKI_SPARQL_ENDPOINT_GA_NONPROD false false false false
