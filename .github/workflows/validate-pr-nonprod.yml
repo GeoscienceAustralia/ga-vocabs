@@ -1,4 +1,4 @@
-name: Validate Vocabs Develop
+name: Validate Vocabs on PRs to Develop
 on:
   pull_request:
     branches: [ develop ]
@@ -10,13 +10,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Bring in repo - develop branch
-        uses: actions/checkout@v1
+        uses: actions/checkout@v4
         with:
           ref: develop
-      - name: install Python dependencies
+      - name: Install UV and Prezmanifest
         run: |
-          python -m pip install -U pip
-          pip install -r scripts/requirements.txt
-      - name: Validate all vocabs
+          curl -LsSf https://astral.sh/uv/install.sh | sh
+          uv tool install prezmanifest
+      - name: Validate all vocabs with Prezmanifest
         run: |
-          python scripts/validate_vocabs.py
+          pm validate manifest.ttl
