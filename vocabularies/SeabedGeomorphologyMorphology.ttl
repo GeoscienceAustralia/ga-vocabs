@@ -500,7 +500,7 @@ This vocabulary describes the glossary in Part 1 of the two-part seabed geomorph
         ] ;
     schema:creator <https://linked.data.gov.au/org/isgm-wg> ;
     schema:dateCreated "2024-05-22"^^xsd:date ;
-    schema:dateModified "2024-10-18"^^xsd:date ;
+    schema:dateModified "2025-11-18"^^xsd:date ;
     schema:publisher <https://linked.data.gov.au/org/ga> ;
     schema:status astatus:experimental ;
     schema:version "1.0" ;
