@@ -48,13 +48,14 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <https://pid.geoscience.gov.au/def/voc/ga/StatisticalResultQualifier> ,
         <https://pid.geoscience.gov.au/def/voc/ga/StatisticalUncertaintyTypes> ,
         <https://pid.geoscience.gov.au/def/voc/ga/associationtype> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/materialtype> ;
+        <https://pid.geoscience.gov.au/def/voc/ga/materialtype> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/protocoltype>
     skos:historyNote "This catalogue was was created in 2024 from pre-existing vocabularies"@en ;
     schema:codeRepository "https://github.com/GeoscienceAustralia/ga-vocabs" ;
     schema:contributor <https://kurrawong.ai> ;
     schema:creator <https://linked.data.gov.au/org/ga> ;
     schema:dateCreated "2017"^^xsd:gYear ;
-    schema:dateModified "2024-12-30"^^xsd:date ;
+    schema:dateModified "2025-11-20"^^xsd:date ;
     schema:description """Geoscience Australia's vocabularies of controlled terms.
 
 Geoscience Australia uses domain standards that are openly available, to provide a common language for communicating ideas and provide consistency of meaning of the data collected, research undertaken and products created. Part of the use of standards is the use of controlled terms - vocabularies - and this system contains those vocabularies created by Geosceince Australia.
