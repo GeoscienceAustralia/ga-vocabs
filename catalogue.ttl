@@ -49,7 +49,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <https://pid.geoscience.gov.au/def/voc/ga/StatisticalUncertaintyTypes> ,
         <https://pid.geoscience.gov.au/def/voc/ga/associationtype> ,
         <https://pid.geoscience.gov.au/def/voc/ga/materialtype> ,
-        <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+        <https://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
     skos:historyNote "This catalogue was was created in 2024 from pre-existing vocabularies"@en ;
     schema:codeRepository "https://github.com/GeoscienceAustralia/ga-vocabs" ;
     schema:contributor <https://kurrawong.ai> ;
