@@ -1,3 +1,5 @@
+PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/protocoltype/>
+PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/protocoltype>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX prov: <http://www.w3.org/ns/prov#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -5,731 +7,725 @@ PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-<http://pid.geoscience.gov.au/def/voc/ga/protocoltype/AIMS-HTTP-configuration>
+:AIMS-HTTP-configuration
     a skos:Concept ;
-    rdfs:isDefinedBy <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "ESRI:AIMS--http--configuration"@en ;
     skos:definition "ESRI's ArcIMS Map Service Configuration File written in ArcXML"@en ;
     skos:historyNote "Concepts previously published on RVA 2025-11: created with status Experimental to publish on GA's register" ;
-    skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:inScheme cs: ;
     skos:prefLabel "ArcIMS Map Service Configuration File AXL"@en ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:topConceptOf cs: ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
 .
 
-<http://pid.geoscience.gov.au/def/voc/ga/protocoltype/AIMS-HTTP-get-feature>
+:AIMS-HTTP-get-feature
     a skos:Concept ;
-    rdfs:isDefinedBy <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "ESRI:AIMS--http-get-feature"@en ;
     skos:definition "ESRI's ArcIMS Internet Feature Map Service"@en ;
     skos:historyNote "Concepts previously published on RVA 2025-11: created with status Experimental to publish on GA's register" ;
-    skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:inScheme cs: ;
     skos:prefLabel "ArcIMS Internet Feature Map Service"@en ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:topConceptOf cs: ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
 .
 
-<http://pid.geoscience.gov.au/def/voc/ga/protocoltype/AIMS-HTTP-get-image>
+:AIMS-HTTP-get-image
     a skos:Concept ;
-    rdfs:isDefinedBy <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "ESRI:AIMS--http-get-image"@en ;
     skos:definition "ESRI's ArcIMS Internet Image Map Service"@en ;
     skos:historyNote "Concepts previously published on RVA 2025-11: created with status Experimental to publish on GA's register" ;
-    skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:inScheme cs: ;
     skos:prefLabel "ArcIMS Internet Image Map Service"@en ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:topConceptOf cs: ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
 .
 
-<http://pid.geoscience.gov.au/def/voc/ga/protocoltype/CSW>
+:CSW
     a skos:Concept ;
-    rdfs:isDefinedBy <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "OGC:CSW"@en ;
     skos:definition "Open Geospatial Consortium's Catalogue Service for the Web"@en ;
     skos:historyNote "Concepts previously published on RVA 2025-11: created with status Experimental to publish on GA's register" ;
-    skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:inScheme cs: ;
     skos:prefLabel "Catalogue Service for the Web"@en ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:topConceptOf cs: ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
 .
 
-<http://pid.geoscience.gov.au/def/voc/ga/protocoltype/DB-ORACLE>
+:DB-ORACLE
     a skos:Concept ;
-    rdfs:isDefinedBy <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "ESRDB:ORACLE"@en ;
     skos:definition "ORACLE database table"@en ;
     skos:historyNote "Concepts previously published on RVA 2025-11: created with status Experimental to publish on GA's register" ;
-    skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:inScheme cs: ;
     skos:prefLabel "ORACLE database table"@en ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:topConceptOf cs: ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
 .
 
-<http://pid.geoscience.gov.au/def/voc/ga/protocoltype/DB-POSTGIS>
+:DB-POSTGIS
     a skos:Concept ;
-    rdfs:isDefinedBy <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "DB:POSTGIS"@en ;
     skos:definition "PostGIS database table"@en ;
     skos:historyNote "Concepts previously published on RVA 2025-11: created with status Experimental to publish on GA's register" ;
-    skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:inScheme cs: ;
     skos:prefLabel "PostGIS database table"@en ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:topConceptOf cs: ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
 .
 
-<http://pid.geoscience.gov.au/def/voc/ga/protocoltype/DataTurbine>
+:DataTurbine
     a skos:Concept ;
-    rdfs:isDefinedBy <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "RBNB:DATATURBINE"@en ;
     skos:definition "Ring Buffer Network Bus (RBNB) DataTurbine streaming"@en ;
     skos:historyNote "Concepts previously published on RVA 2025-11: created with status Experimental to publish on GA's register" ;
-    skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:inScheme cs: ;
     skos:prefLabel "DataTurbine"@en ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:topConceptOf cs: ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
 .
 
-<http://pid.geoscience.gov.au/def/voc/ga/protocoltype/FILE-DATA-DIRECTORY>
+:FILE-DATA-DIRECTORY
     a skos:Concept ;
-    rdfs:isDefinedBy <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "FILE:DATA-DIRECTORY"@en ;
     skos:definition "Directory on a file system holding a collection of data files"@en ;
     skos:historyNote "Concepts previously published on RVA 2025-11: created with status Experimental to publish on GA's register" ;
-    skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:inScheme cs: ;
     skos:prefLabel "Data Directory"@en ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:topConceptOf cs: ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
 .
 
-<http://pid.geoscience.gov.au/def/voc/ga/protocoltype/FILE-GEO>
+:FILE-GEO
     a skos:Concept ;
-    rdfs:isDefinedBy <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "FILE:GEO"@en ;
     skos:definition "File containing Geographic Information System (GIS) data"@en ;
     skos:historyNote "Concepts previously published on RVA 2025-11: created with status Experimental to publish on GA's register" ;
-    skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:inScheme cs: ;
     skos:prefLabel "GIS file"@en ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:topConceptOf cs: ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
 .
 
-<http://pid.geoscience.gov.au/def/voc/ga/protocoltype/FILE-RASTER>
+:FILE-RASTER
     a skos:Concept ;
-    rdfs:isDefinedBy <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "FILE:RASTER"@en ;
     skos:definition "File containing raster data"@en ;
     skos:historyNote "Concepts previously published on RVA 2025-11: created with status Experimental to publish on GA's register" ;
-    skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:inScheme cs: ;
     skos:prefLabel "GIS Raster file"@en ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:topConceptOf cs: ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
 .
 
-<http://pid.geoscience.gov.au/def/voc/ga/protocoltype/GML>
+:GML
     a skos:Concept ;
-    rdfs:isDefinedBy <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "OGC:GML"@en ;
     skos:definition "Open Geospatial Consortium's Geography Markup Language (GML)"@en ;
     skos:historyNote "Concepts previously published on RVA 2025-11: created with status Experimental to publish on GA's register" ;
-    skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:inScheme cs: ;
     skos:prefLabel "Geography Markup Language"@en ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:topConceptOf cs: ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
 .
 
-<http://pid.geoscience.gov.au/def/voc/ga/protocoltype/Geoprocessing-Service>
+:Geoprocessing-Service
     a skos:Concept ;
-    rdfs:isDefinedBy <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "ESRI:Geoprocessing-Service"@en ;
     skos:definition "ESRI's ArcGIS Geoprocessing Server"@en ;
     skos:historyNote "Concepts previously published on RVA 2025-11: created with status Experimental to publish on GA's register" ;
-    skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:inScheme cs: ;
     skos:prefLabel "ArcGIS Geoprocessing Service"@en ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:topConceptOf cs: ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
 .
 
-<http://pid.geoscience.gov.au/def/voc/ga/protocoltype/GoogleEarth>
+:GoogleEarth
     a skos:Concept ;
-    rdfs:isDefinedBy <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "GLG:KML-2.0-http-get-map"@en ;
     skos:definition "Google Earth Keyhole Markup Language (KML) Service version 2.0"@en ;
     skos:historyNote "Concepts previously published on RVA 2025-11: created with status Experimental to publish on GA's register" ;
-    skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:inScheme cs: ;
     skos:prefLabel "Google Earth KML Service 2.0"@en ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:topConceptOf cs: ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
 .
 
-<http://pid.geoscience.gov.au/def/voc/ga/protocoltype/HTTP-RSS>
+:HTTP-RSS
     a skos:Concept ;
-    rdfs:isDefinedBy <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "WWW:LINK-1.0-http--rss"@en ;
     skos:definition "Rich Site Summary (RSS) News feed URL"@en ;
     skos:historyNote "Concepts previously published on RVA 2025-11: created with status Experimental to publish on GA's register" ;
-    skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:inScheme cs: ;
     skos:prefLabel "RSS News feed URL"@en ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:topConceptOf cs: ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
 .
 
-<http://pid.geoscience.gov.au/def/voc/ga/protocoltype/HTTP-ical>
+:HTTP-ical
     a skos:Concept ;
-    rdfs:isDefinedBy <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "WWW:LINK-1.0-http--ical"@en ;
     skos:definition "iCalendar URL"@en ;
     skos:historyNote "Concepts previously published on RVA 2025-11: created with status Experimental to publish on GA's register" ;
-    skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:inScheme cs: ;
     skos:prefLabel "iCalendar URL"@en ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:topConceptOf cs: ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
 .
 
-<http://pid.geoscience.gov.au/def/voc/ga/protocoltype/HTTP-link>
+:HTTP-link
     a skos:Concept ;
-    rdfs:isDefinedBy <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "WWW:LINK-1.0-http--link"@en ;
     skos:definition "Web address URL"@en ;
     skos:historyNote "Concepts previously published on RVA 2025-11: created with status Experimental to publish on GA's register" ;
-    skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:inScheme cs: ;
     skos:prefLabel "Web address URL"@en ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:topConceptOf cs: ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
 .
 
-<http://pid.geoscience.gov.au/def/voc/ga/protocoltype/HTTP-opendap>
+:HTTP-opendap
     a skos:Concept ;
-    rdfs:isDefinedBy <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "WWW:LINK-1.0-http--opendap"@en ;
     skos:definition "Open-source Project for a Network Data Access Protocol (OPeNDAP) URL"@en ;
     skos:historyNote "Concepts previously published on RVA 2025-11: created with status Experimental to publish on GA's register" ;
-    skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:inScheme cs: ;
     skos:prefLabel "OPeNDAP URL"@en ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:topConceptOf cs: ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
 .
 
-<http://pid.geoscience.gov.au/def/voc/ga/protocoltype/HTTP-partners>
+:HTTP-partners
     a skos:Concept ;
-    rdfs:isDefinedBy <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "WWW:LINK-1.0-http--partners"@en ;
     skos:definition "Partner web address URL"@en ;
     skos:historyNote "Concepts previously published on RVA 2025-11: created with status Experimental to publish on GA's register" ;
-    skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:inScheme cs: ;
     skos:prefLabel "Partner web address URL"@en ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:topConceptOf cs: ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
 .
 
-<http://pid.geoscience.gov.au/def/voc/ga/protocoltype/HTTP-related>
+:HTTP-related
     a skos:Concept ;
-    rdfs:isDefinedBy <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "WWW:LINK-1.0-http--related"@en ;
     skos:definition "Related link URL"@en ;
     skos:historyNote "Concepts previously published on RVA 2025-11: created with status Experimental to publish on GA's register" ;
-    skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:inScheme cs: ;
     skos:prefLabel "Related link URL"@en ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:topConceptOf cs: ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
 .
 
-<http://pid.geoscience.gov.au/def/voc/ga/protocoltype/HTTP-samples>
+:HTTP-samples
     a skos:Concept ;
-    rdfs:isDefinedBy <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "WWW:LINK-1.0-http--samples"@en ;
     skos:definition "Showcase product URL"@en ;
     skos:historyNote "Concepts previously published on RVA 2025-11: created with status Experimental to publish on GA's register" ;
-    skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:inScheme cs: ;
     skos:prefLabel "Showcase product URL"@en ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:topConceptOf cs: ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
 .
 
-<http://pid.geoscience.gov.au/def/voc/ga/protocoltype/Image-Service>
+:Image-Service
     a skos:Concept ;
-    rdfs:isDefinedBy <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "ESRI:Image-Service"@en ;
     skos:definition "ESRI's ArcGIS Image Server"@en ;
     skos:historyNote "Concepts previously published on RVA 2025-11: created with status Experimental to publish on GA's register" ;
-    skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:inScheme cs: ;
     skos:prefLabel "ArcGIS Image Service"@en ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:topConceptOf cs: ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
 .
 
-<http://pid.geoscience.gov.au/def/voc/ga/protocoltype/JetStream>
+:JetStream
     a skos:Concept ;
-    rdfs:isDefinedBy <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "URN:JETSTREAM-PROXY"@en ;
     skos:definition "File for download through a Jetstream streaming proxy"@en ;
     skos:historyNote "Concepts previously published on RVA 2025-11: created with status Experimental to publish on GA's register" ;
-    skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:inScheme cs: ;
     skos:prefLabel "File for download through Jetstream Proxy"@en ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:topConceptOf cs: ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
 .
 
-<http://pid.geoscience.gov.au/def/voc/ga/protocoltype/KML>
+:KML
     a skos:Concept ;
-    rdfs:isDefinedBy <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "OGC:KML"@en ;
     skos:definition "Open Geospatial Consortium's Keyhole Markup Language (KML)"@en ;
     skos:historyNote "Concepts previously published on RVA 2025-11: created with status Experimental to publish on GA's register" ;
-    skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:inScheme cs: ;
     skos:prefLabel "KML Keyhole Markup Language"@en ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:topConceptOf cs: ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
 .
 
-<http://pid.geoscience.gov.au/def/voc/ga/protocoltype/Map-Service>
+:Map-Service
     a skos:Concept ;
-    rdfs:isDefinedBy <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "ESRI:Map-Service"@en ;
     skos:definition "ESRI's ArcGIS Map Server"@en ;
     skos:historyNote "Concepts previously published on RVA 2025-11: created with status Experimental to publish on GA's register" ;
-    skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:inScheme cs: ;
     skos:prefLabel "ArcGIS Map Service"@en ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:topConceptOf cs: ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
 .
 
-<http://pid.geoscience.gov.au/def/voc/ga/protocoltype/ODS>
+:ODS
     a skos:Concept ;
-    rdfs:isDefinedBy <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "OGC:ODS"@en ;
     skos:definition "Open Geospatial Consortium's Location Service (OpenLS) Directory Service (ODS)"@en ;
     skos:historyNote "Concepts previously published on RVA 2025-11: created with status Experimental to publish on GA's register" ;
-    skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:inScheme cs: ;
     skos:prefLabel "OpenLS Directory Service"@en ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:topConceptOf cs: ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
 .
 
-<http://pid.geoscience.gov.au/def/voc/ga/protocoltype/OGS>
+:OGS
     a skos:Concept ;
-    rdfs:isDefinedBy <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "OGC:OGS"@en ;
     skos:definition "Open Geospatial Consortium's Location Service (OpenLS) Gateway Service (ODS)"@en ;
     skos:historyNote "Concepts previously published on RVA 2025-11: created with status Experimental to publish on GA's register" ;
-    skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:inScheme cs: ;
     skos:prefLabel "OpenLS Gateway Service"@en ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:topConceptOf cs: ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
 .
 
-<http://pid.geoscience.gov.au/def/voc/ga/protocoltype/OPS>
+:OPS
     a skos:Concept ;
-    rdfs:isDefinedBy <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "OGC:OPS"@en ;
     skos:definition "Open Geospatial Consortium's Location Service (OpenLS) Presentation Service (ODS)"@en ;
     skos:historyNote "Concepts previously published on RVA 2025-11: created with status Experimental to publish on GA's register" ;
-    skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:inScheme cs: ;
     skos:prefLabel "OpenLS Presentation Service"@en ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:topConceptOf cs: ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
 .
 
-<http://pid.geoscience.gov.au/def/voc/ga/protocoltype/ORS>
+:ORS
     a skos:Concept ;
-    rdfs:isDefinedBy <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "OGC:ORS"@en ;
     skos:definition "Open Geospatial Consortium's Location Service (OpenLS) Route Service (ODS)"@en ;
     skos:historyNote "Concepts previously published on RVA 2025-11: created with status Experimental to publish on GA's register" ;
-    skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:inScheme cs: ;
     skos:prefLabel "OpenLS Route Service"@en ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:topConceptOf cs: ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
 .
 
-<http://pid.geoscience.gov.au/def/voc/ga/protocoltype/OUS>
+:OUS
     a skos:Concept ;
-    rdfs:isDefinedBy <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "OGC:OUS"@en ;
     skos:definition "Open Geospatial Consortium's Location Service (OpenLS) Utility Service (ODS)"@en ;
     skos:historyNote "Concepts previously published on RVA 2025-11: created with status Experimental to publish on GA's register" ;
-    skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:inScheme cs: ;
     skos:prefLabel "OpenLS Utility Service"@en ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:topConceptOf cs: ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
 .
 
-<http://pid.geoscience.gov.au/def/voc/ga/protocoltype/SAS>
+:SAS
     a skos:Concept ;
-    rdfs:isDefinedBy <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "OGC:SAS"@en ;
     skos:definition "Open Geospatial Consortium's Sensor Alert Service (SAS)"@en ;
     skos:historyNote "Concepts previously published on RVA 2025-11: created with status Experimental to publish on GA's register" ;
-    skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:inScheme cs: ;
     skos:prefLabel "Sensor Alert Service"@en ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:topConceptOf cs: ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
 .
 
-<http://pid.geoscience.gov.au/def/voc/ga/protocoltype/SOS>
+:SOS
     a skos:Concept ;
-    rdfs:isDefinedBy <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "OGC:SOS"@en ;
     skos:definition "Open Geospatial Consortium's Sensor Observation Service (SOS)"@en ;
     skos:historyNote "Concepts previously published on RVA 2025-11: created with status Experimental to publish on GA's register" ;
-    skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:inScheme cs: ;
     skos:prefLabel "Sensor Observation Service"@en ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:topConceptOf cs: ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
 .
 
-<http://pid.geoscience.gov.au/def/voc/ga/protocoltype/SOS-1.0.0-HTTP-get-observation>
+:SOS-1.0.0-HTTP-get-observation
     a skos:Concept ;
-    rdfs:isDefinedBy <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "OGC:SOS-1.0.0-http-get-observation"@en ;
     skos:definition "Open Geospatial Consortium's Sensor Observation Service (SOS) version 1.0.0 GetObservation operation"@en ;
     skos:historyNote "Concepts previously published on RVA 2025-11: created with status Experimental to publish on GA's register" ;
-    skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:inScheme cs: ;
     skos:prefLabel "Sensor Observation Service GetObservation 1.0.0"@en ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:topConceptOf cs: ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
 .
 
-<http://pid.geoscience.gov.au/def/voc/ga/protocoltype/SOS-1.0.0-HTTP-post-observation>
+:SOS-1.0.0-HTTP-post-observation
     a skos:Concept ;
-    rdfs:isDefinedBy <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "OGC:SOS-1.0.0-http-post-observation"@en ;
     skos:definition "Open Geospatial Consortium's Sensor Observation Service (SOS) version 1.0.0 GetObservation operation using POST"@en ;
     skos:historyNote "Concepts previously published on RVA 2025-11: created with status Experimental to publish on GA's register" ;
-    skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:inScheme cs: ;
     skos:prefLabel "Sensor Observation Service GetObservation POST 1.0.0"@en ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:topConceptOf cs: ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
 .
 
-<http://pid.geoscience.gov.au/def/voc/ga/protocoltype/SPS>
+:SPS
     a skos:Concept ;
-    rdfs:isDefinedBy <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "OGC:SPS"@en ;
     skos:definition "Open Geospatial Consortium's Sensor Planning Service (SPS)"@en ;
     skos:historyNote "Concepts previously published on RVA 2025-11: created with status Experimental to publish on GA's register" ;
-    skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:inScheme cs: ;
     skos:prefLabel "Sensor Planning Service"@en ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:topConceptOf cs: ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
 .
 
-<http://pid.geoscience.gov.au/def/voc/ga/protocoltype/Services-Directory-Page>
+:Services-Directory-Page
     a skos:Concept ;
-    rdfs:isDefinedBy <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "ESRI:Services-Directory-Page"@en ;
     skos:definition "ESRI's ArcGIS Services Directory Page"@en ;
     skos:historyNote "Concepts previously published on RVA 2025-11: created with status Experimental to publish on GA's register" ;
-    skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:inScheme cs: ;
     skos:prefLabel "ArcGIS Services Directory Page"@en ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:topConceptOf cs: ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
 .
 
-<http://pid.geoscience.gov.au/def/voc/ga/protocoltype/UKST>
+:UKST
     a skos:Concept ;
-    rdfs:isDefinedBy <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "UKST"@en ;
     skos:definition "Unknown Service Type"@en ;
     skos:historyNote "Concepts previously published on RVA 2025-11: created with status Experimental to publish on GA's register" ;
-    skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:inScheme cs: ;
     skos:prefLabel "Unknown Service Type"@en ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:topConceptOf cs: ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
 .
 
-<http://pid.geoscience.gov.au/def/voc/ga/protocoltype/W3C>
+:W3C
     a skos:Concept ;
-    rdfs:isDefinedBy <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Un-typed World Wide Web Consortium protocol"@en ;
     skos:historyNote "Concepts previously published on RVA 2025-11: created with status Experimental to publish on GA's register" ;
-    skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:inScheme cs: ;
     skos:prefLabel "W3C"@en ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:topConceptOf cs: ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
 .
 
-<http://pid.geoscience.gov.au/def/voc/ga/protocoltype/WCS>
+:WCS
     a skos:Concept ;
-    rdfs:isDefinedBy <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "OGC:WCS"@en ;
     skos:definition "Open Geospatial Consortium's Web Coverage Service (WCS)"@en ;
     skos:historyNote "Concepts previously published on RVA 2025-11: created with status Experimental to publish on GA's register" ;
-    skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:inScheme cs: ;
     skos:prefLabel "Web Coverage Service"@en ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:topConceptOf cs: ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
 .
 
-<http://pid.geoscience.gov.au/def/voc/ga/protocoltype/WCS-1.0.0-HTTP-get-capabilities>
+:WCS-1.0.0-HTTP-get-capabilities
     a skos:Concept ;
-    rdfs:isDefinedBy <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "OGC:WCS-1.0.0-http-get-capabilities"@en ;
     skos:definition "Open Geospatial Consortium's Web Coverage Service (WCS) version 1.0.0 GetCapabilities operation"@en ;
     skos:historyNote "Concepts previously published on RVA 2025-11: created with status Experimental to publish on GA's register" ;
-    skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:inScheme cs: ;
     skos:prefLabel "Web Coverage Service 1.0.0 GetCapabilities"@en ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:topConceptOf cs: ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
 .
 
-<http://pid.geoscience.gov.au/def/voc/ga/protocoltype/WCS-1.1.0-HTTP-get-capabilities>
+:WCS-1.1.0-HTTP-get-capabilities
     a skos:Concept ;
-    rdfs:isDefinedBy <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "OGC:WCS-1.1.0-http-get-capabilities"@en ;
     skos:definition "Open Geospatial Consortium's Web Coverage Service (WCS) version 1.1.0 GetCapabilities operation"@en ;
     skos:historyNote "Concepts previously published on RVA 2025-11: created with status Experimental to publish on GA's register" ;
-    skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:inScheme cs: ;
     skos:prefLabel "Web Coverage Service 1.1.0 GetCapabilities"@en ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:topConceptOf cs: ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
 .
 
-<http://pid.geoscience.gov.au/def/voc/ga/protocoltype/WCTS>
+:WCTS
     a skos:Concept ;
-    rdfs:isDefinedBy <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "OGC:WCTS"@en ;
     skos:definition "Open Geospatial Consortium's Web Coordinate Transformation Service (WCTS)"@en ;
     skos:historyNote "Concepts previously published on RVA 2025-11: created with status Experimental to publish on GA's register" ;
-    skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:inScheme cs: ;
     skos:prefLabel "Web Coordinate Transformation Service"@en ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:topConceptOf cs: ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
 .
 
-<http://pid.geoscience.gov.au/def/voc/ga/protocoltype/WFS>
+:WFS
     a skos:Concept ;
-    rdfs:isDefinedBy <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "OGC:WFS"@en ;
     skos:definition "Open Geospatial Consortium's Web Feature Service (WFS)"@en ;
     skos:historyNote "Concepts previously published on RVA 2025-11: created with status Experimental to publish on GA's register" ;
-    skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:inScheme cs: ;
     skos:prefLabel "Web Feature Service"@en ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:topConceptOf cs: ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
 .
 
-<http://pid.geoscience.gov.au/def/voc/ga/protocoltype/WFS-1.0.0-HTTP-get-capabilities>
+:WFS-1.0.0-HTTP-get-capabilities
     a skos:Concept ;
-    rdfs:isDefinedBy <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "OGC:WFS-1.0.0-http-get-capabilities"@en ;
     skos:definition "Open Geospatial Consortium's Web Feature Service (WFS) version 1.0.0 GetCapabilities operation"@en ;
     skos:historyNote "Concepts previously published on RVA 2025-11: created with status Experimental to publish on GA's register" ;
-    skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:inScheme cs: ;
     skos:prefLabel "Web Feature Service 1.0.0 GetCapabilities"@en ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:topConceptOf cs: ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
 .
 
-<http://pid.geoscience.gov.au/def/voc/ga/protocoltype/WFS-1.1.0-HTTP-get-capabilities>
+:WFS-1.1.0-HTTP-get-capabilities
     a skos:Concept ;
-    rdfs:isDefinedBy <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "OGC:WFS-1.1.0-http-get-capabilities"@en ;
     skos:definition "Open Geospatial Consortium's Web Feature Service (WFS) version 1.1.0 GetCapabilities operation"@en ;
     skos:historyNote "Concepts previously published on RVA 2025-11: created with status Experimental to publish on GA's register" ;
-    skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:inScheme cs: ;
     skos:prefLabel "Web Feature Service 1.1.0 GetCapabilities"@en ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:topConceptOf cs: ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
 .
 
-<http://pid.geoscience.gov.au/def/voc/ga/protocoltype/WFS-G>
+:WFS-G
     a skos:Concept ;
-    rdfs:isDefinedBy <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "OGC:WFS-G"@en ;
     skos:definition "Open Geospatial Consortium's Web Feature Service Gazetteer Profile (WFS-G)"@en ;
     skos:historyNote "Concepts previously published on RVA 2025-11: created with status Experimental to publish on GA's register" ;
-    skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:inScheme cs: ;
     skos:prefLabel "Gazetteer Service"@en ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:topConceptOf cs: ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
 .
 
-<http://pid.geoscience.gov.au/def/voc/ga/protocoltype/WMC-1.1.0-HTTP-get-capabilities>
+:WMC-1.1.0-HTTP-get-capabilities
     a skos:Concept ;
-    rdfs:isDefinedBy <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "OGC:WMC-1.1.0-http-get-capabilities"@en ;
     skos:definition "Open Geospatial Consortium's Web Map Context (WMC) version 1.1 GetCapabilities operation"@en ;
     skos:historyNote "Concepts previously published on RVA 2025-11: created with status Experimental to publish on GA's register" ;
-    skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:inScheme cs: ;
     skos:prefLabel "Web Map Context 1.1 GetCapabilities"@en ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:topConceptOf cs: ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
 .
 
-<http://pid.geoscience.gov.au/def/voc/ga/protocoltype/WMS>
+:WMS
     a skos:Concept ;
-    rdfs:isDefinedBy <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "OGC:WMS"@en ;
     skos:definition "Open Geospatial Consortium's Web Map Service (WMS)"@en ;
     skos:historyNote "Concepts previously published on RVA 2025-11: created with status Experimental to publish on GA's register" ;
-    skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:inScheme cs: ;
     skos:prefLabel "Web Map Service"@en ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:topConceptOf cs: ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
 .
 
-<http://pid.geoscience.gov.au/def/voc/ga/protocoltype/WMS-1.1.1-HTTP-get-capabilities>
+:WMS-1.1.1-HTTP-get-capabilities
     a skos:Concept ;
-    rdfs:isDefinedBy <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "OGC:WMS-1.1.1-http-get-capabilities"@en ;
     skos:definition "Open Geospatial Consortium's Web Map Service (WMS) version 1.1.1 GetCapabilities operation"@en ;
     skos:historyNote "Concepts previously published on RVA 2025-11: created with status Experimental to publish on GA's register" ;
-    skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:inScheme cs: ;
     skos:prefLabel "Web Map Service 1.1.1 GetCapabilities"@en ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:topConceptOf cs: ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
 .
 
-<http://pid.geoscience.gov.au/def/voc/ga/protocoltype/WMS-1.1.1-HTTP-get-map>
+:WMS-1.1.1-HTTP-get-map
     a skos:Concept ;
-    rdfs:isDefinedBy <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "OGC:WMS-1.1.1-http-get-map"@en ;
     skos:definition "Open Geospatial Consortium's Web Map Service (WMS) version 1.1.1 GetMap operation"@en ;
     skos:historyNote "Concepts previously published on RVA 2025-11: created with status Experimental to publish on GA's register" ;
-    skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:inScheme cs: ;
     skos:prefLabel "Web Map Service 1.1.1 GetMap"@en ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:topConceptOf cs: ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
 .
 
-<http://pid.geoscience.gov.au/def/voc/ga/protocoltype/WMS-1.3.0-HTTP-get-capabilities>
+:WMS-1.3.0-HTTP-get-capabilities
     a skos:Concept ;
-    rdfs:isDefinedBy <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "OGC:WMS-1.3.0-http-get-capabilities"@en ;
     skos:definition "Open Geospatial Consortium's Web Map Service (WMS) version 1.3.0 GetCapabilities operation"@en ;
     skos:historyNote "Concepts previously published on RVA 2025-11: created with status Experimental to publish on GA's register" ;
-    skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:inScheme cs: ;
     skos:prefLabel "Web Map Service 1.3.0 GetCapabilities"@en ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:topConceptOf cs: ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
 .
 
-<http://pid.geoscience.gov.au/def/voc/ga/protocoltype/WMS-1.3.0-HTTP-get-map>
+:WMS-1.3.0-HTTP-get-map
     a skos:Concept ;
-    rdfs:isDefinedBy <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "OGC:WMS-1.3.0-http-get-map"@en ;
     skos:definition "Open Geospatial Consortium's Web Map Service (WMS) version 1.3.0 GetMap operation"@en ;
     skos:historyNote "Concepts previously published on RVA 2025-11: created with status Experimental to publish on GA's register" ;
-    skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:inScheme cs: ;
     skos:prefLabel "Web Map Service 1.3.0 GetMap"@en ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:topConceptOf cs: ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
 .
 
-<http://pid.geoscience.gov.au/def/voc/ga/protocoltype/WMTS>
+:WMTS
     a skos:Concept ;
-    rdfs:isDefinedBy <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "OGC:WMTS"@en ;
     skos:definition "Open Geospatial Consortium's Web Map Tiling Service (WMTS)"@en ;
     skos:historyNote "Concepts previously published on RVA 2025-11: created with status Experimental to publish on GA's register" ;
-    skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:inScheme cs: ;
     skos:prefLabel "Web Map Tiling Service"@en ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:topConceptOf cs: ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
 .
 
-<http://pid.geoscience.gov.au/def/voc/ga/protocoltype/WMTS-1.0.0-http-get-capabilities>
+:WMTS-1.0.0-http-get-capabilities
     a skos:Concept ;
-    rdfs:isDefinedBy <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "OGC:WMTS-1.0.0-http-get-capabilities"@en ;
     skos:definition "Open Geospatial Consortium's Web Map Tiling Service (WMTS) version 1.0.0 GetCapabilities operation"@en ;
     skos:historyNote "Concepts previously published on RVA 2025-11: created with status Experimental to publish on GA's register" ;
-    skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:inScheme cs: ;
     skos:prefLabel "Web Map Tiling Service 1.0.0 GetCapabilities"@en ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:topConceptOf cs: ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
 .
 
-<http://pid.geoscience.gov.au/def/voc/ga/protocoltype/WNS>
+:WNS
     a skos:Concept ;
-    rdfs:isDefinedBy <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "OGC:WNS"@en ;
     skos:definition "Open Geospatial Consortium's Web Notification Service (WNS)"@en ;
     skos:historyNote "Concepts previously published on RVA 2025-11: created with status Experimental to publish on GA's register" ;
-    skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:inScheme cs: ;
     skos:prefLabel "Web Notification Service"@en ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:topConceptOf cs: ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
 .
 
-<http://pid.geoscience.gov.au/def/voc/ga/protocoltype/WPS>
+:WPS
     a skos:Concept ;
-    rdfs:isDefinedBy <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "OGC:WPS"@en ;
     skos:definition "Open Geospatial Consortium's Web Processing Service (WPS)"@en ;
     skos:historyNote "Concepts previously published on RVA 2025-11: created with status Experimental to publish on GA's register" ;
-    skos:inScheme <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:inScheme cs: ;
     skos:prefLabel "Web Processing Service"@en ;
-    skos:topConceptOf <http://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+    skos:topConceptOf cs: ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
 .
 
-<https://linked.data.gov.au/org/ga>
-    a schema:Organization ;
-    schema:name "Ga" ;
-    schema:url ""^^xsd:anyURI ;
-.
-
-<http://pid.geoscience.gov.au/def/voc/ga/protocoltype>
+cs:
     a skos:ConceptScheme ;
-    owl:versionIRI <http://pid.geoscience.gov.au/def/voc/ga/protocoltype/1> ;
+    owl:versionIRI :1 ;
     skos:definition "This vocab is developed to enable the selection of Web Service protocols from a controlled list, rather than creating free text descriptions of protocols within the ISO19115-1 geospatial metadata standard.  "@en ;
     skos:hasTopConcept
-        <http://pid.geoscience.gov.au/def/voc/ga/protocoltype/AIMS-HTTP-configuration> ,
-        <http://pid.geoscience.gov.au/def/voc/ga/protocoltype/AIMS-HTTP-get-feature> ,
-        <http://pid.geoscience.gov.au/def/voc/ga/protocoltype/AIMS-HTTP-get-image> ,
-        <http://pid.geoscience.gov.au/def/voc/ga/protocoltype/CSW> ,
-        <http://pid.geoscience.gov.au/def/voc/ga/protocoltype/DB-ORACLE> ,
-        <http://pid.geoscience.gov.au/def/voc/ga/protocoltype/DB-POSTGIS> ,
-        <http://pid.geoscience.gov.au/def/voc/ga/protocoltype/DataTurbine> ,
-        <http://pid.geoscience.gov.au/def/voc/ga/protocoltype/FILE-DATA-DIRECTORY> ,
-        <http://pid.geoscience.gov.au/def/voc/ga/protocoltype/FILE-GEO> ,
-        <http://pid.geoscience.gov.au/def/voc/ga/protocoltype/FILE-RASTER> ,
-        <http://pid.geoscience.gov.au/def/voc/ga/protocoltype/GML> ,
-        <http://pid.geoscience.gov.au/def/voc/ga/protocoltype/Geoprocessing-Service> ,
-        <http://pid.geoscience.gov.au/def/voc/ga/protocoltype/GoogleEarth> ,
-        <http://pid.geoscience.gov.au/def/voc/ga/protocoltype/HTTP-RSS> ,
-        <http://pid.geoscience.gov.au/def/voc/ga/protocoltype/HTTP-ical> ,
-        <http://pid.geoscience.gov.au/def/voc/ga/protocoltype/HTTP-link> ,
-        <http://pid.geoscience.gov.au/def/voc/ga/protocoltype/HTTP-opendap> ,
-        <http://pid.geoscience.gov.au/def/voc/ga/protocoltype/HTTP-partners> ,
-        <http://pid.geoscience.gov.au/def/voc/ga/protocoltype/HTTP-related> ,
-        <http://pid.geoscience.gov.au/def/voc/ga/protocoltype/HTTP-samples> ,
-        <http://pid.geoscience.gov.au/def/voc/ga/protocoltype/Image-Service> ,
-        <http://pid.geoscience.gov.au/def/voc/ga/protocoltype/JetStream> ,
-        <http://pid.geoscience.gov.au/def/voc/ga/protocoltype/KML> ,
-        <http://pid.geoscience.gov.au/def/voc/ga/protocoltype/Map-Service> ,
-        <http://pid.geoscience.gov.au/def/voc/ga/protocoltype/ODS> ,
-        <http://pid.geoscience.gov.au/def/voc/ga/protocoltype/OGS> ,
-        <http://pid.geoscience.gov.au/def/voc/ga/protocoltype/OPS> ,
-        <http://pid.geoscience.gov.au/def/voc/ga/protocoltype/ORS> ,
-        <http://pid.geoscience.gov.au/def/voc/ga/protocoltype/OUS> ,
-        <http://pid.geoscience.gov.au/def/voc/ga/protocoltype/SAS> ,
-        <http://pid.geoscience.gov.au/def/voc/ga/protocoltype/SOS> ,
-        <http://pid.geoscience.gov.au/def/voc/ga/protocoltype/SOS-1.0.0-HTTP-get-observation> ,
-        <http://pid.geoscience.gov.au/def/voc/ga/protocoltype/SOS-1.0.0-HTTP-post-observation> ,
-        <http://pid.geoscience.gov.au/def/voc/ga/protocoltype/SPS> ,
-        <http://pid.geoscience.gov.au/def/voc/ga/protocoltype/Services-Directory-Page> ,
-        <http://pid.geoscience.gov.au/def/voc/ga/protocoltype/UKST> ,
-        <http://pid.geoscience.gov.au/def/voc/ga/protocoltype/W3C> ,
-        <http://pid.geoscience.gov.au/def/voc/ga/protocoltype/WCS> ,
-        <http://pid.geoscience.gov.au/def/voc/ga/protocoltype/WCS-1.0.0-HTTP-get-capabilities> ,
-        <http://pid.geoscience.gov.au/def/voc/ga/protocoltype/WCS-1.1.0-HTTP-get-capabilities> ,
-        <http://pid.geoscience.gov.au/def/voc/ga/protocoltype/WCTS> ,
-        <http://pid.geoscience.gov.au/def/voc/ga/protocoltype/WFS> ,
-        <http://pid.geoscience.gov.au/def/voc/ga/protocoltype/WFS-1.0.0-HTTP-get-capabilities> ,
-        <http://pid.geoscience.gov.au/def/voc/ga/protocoltype/WFS-1.1.0-HTTP-get-capabilities> ,
-        <http://pid.geoscience.gov.au/def/voc/ga/protocoltype/WFS-G> ,
-        <http://pid.geoscience.gov.au/def/voc/ga/protocoltype/WMC-1.1.0-HTTP-get-capabilities> ,
-        <http://pid.geoscience.gov.au/def/voc/ga/protocoltype/WMS> ,
-        <http://pid.geoscience.gov.au/def/voc/ga/protocoltype/WMS-1.1.1-HTTP-get-capabilities> ,
-        <http://pid.geoscience.gov.au/def/voc/ga/protocoltype/WMS-1.1.1-HTTP-get-map> ,
-        <http://pid.geoscience.gov.au/def/voc/ga/protocoltype/WMS-1.3.0-HTTP-get-capabilities> ,
-        <http://pid.geoscience.gov.au/def/voc/ga/protocoltype/WMS-1.3.0-HTTP-get-map> ,
-        <http://pid.geoscience.gov.au/def/voc/ga/protocoltype/WMTS> ,
-        <http://pid.geoscience.gov.au/def/voc/ga/protocoltype/WMTS-1.0.0-http-get-capabilities> ,
-        <http://pid.geoscience.gov.au/def/voc/ga/protocoltype/WNS> ,
-        <http://pid.geoscience.gov.au/def/voc/ga/protocoltype/WPS> ;
+        :AIMS-HTTP-configuration ,
+        :AIMS-HTTP-get-feature ,
+        :AIMS-HTTP-get-image ,
+        :CSW ,
+        :DB-ORACLE ,
+        :DB-POSTGIS ,
+        :DataTurbine ,
+        :FILE-DATA-DIRECTORY ,
+        :FILE-GEO ,
+        :FILE-RASTER ,
+        :GML ,
+        :Geoprocessing-Service ,
+        :GoogleEarth ,
+        :HTTP-RSS ,
+        :HTTP-ical ,
+        :HTTP-link ,
+        :HTTP-opendap ,
+        :HTTP-partners ,
+        :HTTP-related ,
+        :HTTP-samples ,
+        :Image-Service ,
+        :JetStream ,
+        :KML ,
+        :Map-Service ,
+        :ODS ,
+        :OGS ,
+        :OPS ,
+        :ORS ,
+        :OUS ,
+        :SAS ,
+        :SOS ,
+        :SOS-1.0.0-HTTP-get-observation ,
+        :SOS-1.0.0-HTTP-post-observation ,
+        :SPS ,
+        :Services-Directory-Page ,
+        :UKST ,
+        :W3C ,
+        :WCS ,
+        :WCS-1.0.0-HTTP-get-capabilities ,
+        :WCS-1.1.0-HTTP-get-capabilities ,
+        :WCTS ,
+        :WFS ,
+        :WFS-1.0.0-HTTP-get-capabilities ,
+        :WFS-1.1.0-HTTP-get-capabilities ,
+        :WFS-G ,
+        :WMC-1.1.0-HTTP-get-capabilities ,
+        :WMS ,
+        :WMS-1.1.1-HTTP-get-capabilities ,
+        :WMS-1.1.1-HTTP-get-map ,
+        :WMS-1.3.0-HTTP-get-capabilities ,
+        :WMS-1.3.0-HTTP-get-map ,
+        :WMTS ,
+        :WMTS-1.0.0-http-get-capabilities ,
+        :WNS ,
+        :WPS ;
     skos:historyNote "This codelist was introduced as part of Geoscience Australia’s extension to ISO 19115-1:2014, developed under the rules of ISO 19106:2004. It constrains or extends values for elements in the GA Metadata Profile but adds no new metadata elements beyond the base standard. This protocol list was published in 2017 on ARDC Research Vocabularies Austrlia. This was vocab was revisited in  2025 and publish on GA's vocab register. " ;
     skos:prefLabel "Protocol Type"@en ;
     prov:qualifiedAttribution
@@ -744,8 +740,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         ] ;
     schema:creator <https://linked.data.gov.au/org/ga> ;
     schema:dateCreated "2017-11-17"^^xsd:date ;
-    schema:dateModified "2025-11-20"^^xsd:date ;
-    schema:identifier "https://pid.geoscience.gov.au/dataset/xxxxx"^^xsd:anyURI ;
+    schema:dateModified "2025-11-21"^^xsd:date ;
     schema:publisher <https://linked.data.gov.au/org/ga> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
     schema:version "2.0" ;
