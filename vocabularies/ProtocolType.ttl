@@ -744,7 +744,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         ] ;
     schema:creator <https://linked.data.gov.au/org/ga> ;
     schema:dateCreated "2017-11-17"^^xsd:date ;
-    schema:dateModified "2025-11-20"^^xsd:date ;
+    schema:dateModified "2025-11-24"^^xsd:date ;
     schema:identifier "https://pid.geoscience.gov.au/dataset/xxxxx"^^xsd:anyURI ;
     schema:publisher <https://linked.data.gov.au/org/ga> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
