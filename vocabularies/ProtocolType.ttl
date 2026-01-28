@@ -707,12 +707,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
 .
 
-<https://linked.data.gov.au/org/ga>
-    a schema:Organization ;
-    schema:name "Ga" ;
-    schema:url ""^^xsd:anyURI ;
-.
-
 :Database
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
