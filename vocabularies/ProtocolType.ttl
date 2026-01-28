@@ -12,7 +12,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel "ESRI:AIMS--http--configuration"@en ;
-    skos:broader <http://pid.geoscience.gov.au/def/voc/ga/protocoltype/ESRI> ;
+    skos:broader :ESRI ;
     skos:definition "ESRI's ArcIMS Map Service Configuration File written in ArcXML"@en ;
     skos:historyNote "Concepts previously published on RVA 2025-11: created with status Experimental to publish on GA's register" ;
     skos:inScheme cs: ;
@@ -25,7 +25,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel "ESRI:AIMS--http-get-feature"@en ;
-    skos:broader <http://pid.geoscience.gov.au/def/voc/ga/protocoltype/ESRI> ;
+    skos:broader :ESRI ;
     skos:definition "ESRI's ArcIMS Internet Feature Map Service"@en ;
     skos:historyNote "Concepts previously published on RVA 2025-11: created with status Experimental to publish on GA's register" ;
     skos:inScheme cs: ;
@@ -38,7 +38,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel "ESRI:AIMS--http-get-image"@en ;
-    skos:broader <http://pid.geoscience.gov.au/def/voc/ga/protocoltype/ESRI> ;
+    skos:broader :ESRI ;
     skos:definition "ESRI's ArcIMS Internet Image Map Service"@en ;
     skos:historyNote "Concepts previously published on RVA 2025-11: created with status Experimental to publish on GA's register" ;
     skos:inScheme cs: ;
@@ -155,7 +155,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel "ESRI:Geoprocessing-Service"@en ;
-    skos:broader <http://pid.geoscience.gov.au/def/voc/ga/protocoltype/ESRI> ;
+    skos:broader :ESRI ;
     skos:definition "ESRI's ArcGIS Geoprocessing Server"@en ;
     skos:historyNote "Concepts previously published on RVA 2025-11: created with status Experimental to publish on GA's register" ;
     skos:inScheme cs: ;
@@ -271,7 +271,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel "ESRI:Image-Service"@en ;
-    skos:broader <http://pid.geoscience.gov.au/def/voc/ga/protocoltype/ESRI> ;
+    skos:broader :ESRI ;
     skos:definition "ESRI's ArcGIS Image Server"@en ;
     skos:historyNote "Concepts previously published on RVA 2025-11: created with status Experimental to publish on GA's register" ;
     skos:inScheme cs: ;
@@ -310,7 +310,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel "ESRI:Map-Service"@en ;
-    skos:broader <http://pid.geoscience.gov.au/def/voc/ga/protocoltype/ESRI> ;
+    skos:broader :ESRI ;
     skos:definition "ESRI's ArcGIS Map Server"@en ;
     skos:historyNote "Concepts previously published on RVA 2025-11: created with status Experimental to publish on GA's register" ;
     skos:inScheme cs: ;
@@ -452,7 +452,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel "ESRI:Services-Directory-Page"@en ;
-    skos:broader <http://pid.geoscience.gov.au/def/voc/ga/protocoltype/ESRI> ;
+    skos:broader :ESRI ;
     skos:definition "ESRI's ArcGIS Services Directory Page"@en ;
     skos:historyNote "Concepts previously published on RVA 2025-11: created with status Experimental to publish on GA's register" ;
     skos:inScheme cs: ;
@@ -707,12 +707,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
 .
 
-<https://linked.data.gov.au/org/ga>
-    a schema:Organization ;
-    schema:name "Ga" ;
-    schema:url ""^^xsd:anyURI ;
-.
-
 :Database
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
@@ -743,7 +737,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
 .
 
-<http://pid.geoscience.gov.au/def/voc/ga/protocoltype/ESRI>
+:ESRI
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Un-typed ESRI protocol"@en ;
@@ -830,9 +824,9 @@ cs:
     owl:versionIRI :1.4 ;
     skos:definition "This vocab is developed to enable the selection of Web Service protocols from a controlled list, rather than creating free text descriptions of protocols within the ISO19115-1 geospatial metadata standard.  "@en ;
     skos:hasTopConcept
-        <http://pid.geoscience.gov.au/def/voc/ga/protocoltype/ESRI> ,
         :DataTurbine ,
         :Database ,
+        :ESRI ,
         :File ,
         :GoogleEarth ,
         :JetStream ,
@@ -853,7 +847,7 @@ cs:
         ] ;
     schema:creator <https://linked.data.gov.au/org/ga> ;
     schema:dateCreated "2017-11-17"^^xsd:date ;
-    schema:dateModified "2026-01-21"^^xsd:date ;
+    schema:dateModified "2026-01-28"^^xsd:date ;
     schema:identifier "https://pid.geoscience.gov.au/dataset/xxxxx"^^xsd:anyURI ;
     schema:publisher <https://linked.data.gov.au/org/ga> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
