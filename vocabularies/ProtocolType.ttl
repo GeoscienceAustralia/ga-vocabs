@@ -705,7 +705,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Web Processing Service"@en ;
     schema:citation "GeoNetwork"^^xsd:anyURI ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
-
 .
 
 :Database
