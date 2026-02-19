@@ -16,9 +16,9 @@ PREFIX schema: <https://schema.org/>
         [
             prof:hasArtifact "vocabularies/*.ttl" ;
             prof:hasRole mrr:ResourceData ;
-            schema:description "skos:ConceptsScheme objects in RDF (Turtle) files in the vocabs/ folder" ;
+            schema:description "skos:ConceptsScheme objects in RDF (Turtle) files in the vocabs/ folder, GA VocPub valid" ;
             schema:name "Resource Data" ;
-            dcterms:conformsTo "scripts/vocpub-5.1.ttl" ;
+            dcterms:conformsTo "scripts/vocpub-5.1.GA.ttl" ;
         ] ,
         [
             prof:hasArtifact "labels.ttl" ;
