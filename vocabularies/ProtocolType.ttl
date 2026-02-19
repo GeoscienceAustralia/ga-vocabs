@@ -651,12 +651,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "Web Processing Service"@en ;
     schema:citation "GeoNetwork"^^xsd:anyURI ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
-.
 
-<https://linked.data.gov.au/org/ga>
-    a schema:Organization ;
-    schema:name "Ga" ;
-    schema:url ""^^xsd:anyURI ;
 .
 
 :Database
@@ -806,7 +801,7 @@ cs:
         ] ;
     schema:creator <https://linked.data.gov.au/org/ga> ;
     schema:dateCreated "2017-11-17"^^xsd:date ;
-    schema:dateModified "2026-02-12"^^xsd:date ;
+    schema:dateModified "2026-02-19"^^xsd:date ;
     schema:identifier "https://pid.geoscience.gov.au/dataset/ga/150899"^^xsd:anyURI ;
     schema:publisher <https://linked.data.gov.au/org/ga> ;
     schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
