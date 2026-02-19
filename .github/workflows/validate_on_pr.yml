@@ -9,10 +9,12 @@ jobs:
   validate:
     runs-on: ubuntu-latest
     steps:
-      - name: Bring in repo - master branch
+      - name: Bring in repo - source branch
         uses: actions/checkout@v4
         with:
-          ref: master
+          ref: ${{ github.head_ref }}
+      - name: Verify checked-out branch
+        run: echo "Checked out branch - ${{ github.head_ref }}"
       - name: Install UV and Prezmanifest
         run: |
           curl -LsSf https://astral.sh/uv/install.sh | sh
