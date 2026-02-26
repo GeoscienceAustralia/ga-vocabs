@@ -3,6 +3,7 @@ PREFIX astatus: <https://linked.data.gov.au/def/reg-statuses/>
 PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/BoreholeStatus>
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX gavoc: <https://pid.geoscience.gov.au/def/voc/ga/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
@@ -153,7 +154,7 @@ cs:
     dcterms:modified "2022-08-09"^^xsd:date ;
     dcterms:provenance "Geoscience Australia Borehole Status (BOREHOLE.LU_BOREHOLE_STATUS)"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
-    rdfs:seeAlso <https://pid.geoscience.gov.au/dataset/ga/148553> ;
+    rdfs:seeAlso "https://pid.geoscience.gov.au/dataset/ga/148553"^^xsd:anyURI ;
     owl:versionInfo "1" ;
     skos:definition "\"Borehole status” information provided by Geoscience Australia (GA) is not guaranteed to be authoritative or current. GA is not a reporting or regulatory authority for borehole drilling, but it sources borehole information for its research purposes from various regulatory authorities in the States, Northern Territory and Commonwealth governments. The quality and currency of borehole status data in GA’s database reflects information gathered from a borehole operator’s well completion report or from a responsible regulatory authority on a particular date. Changes in a borehole’s status after GA sourced the borehole status information may not be reflected in GA’s data. Due to the wide variety of borehole types in GA’s database, GA’s vocabulary for “borehole status” is an amalgam of terms used by professional bodies (eg, PPDM, CoalLog) and regulatory authorities. Some of the terminology used across these professional domains and jurisdictions has varied over time, and in some cases the same term has a different meaning for different types of boreholes. GA has endeavoured to merge these sources of terminology into a consistent classification that applies for all borehole types."@en ;
     skos:hasTopConcept
@@ -174,5 +175,6 @@ cs:
         :workover ;
     skos:prefLabel "Borehole Geology - Status "@en ;
     dcat:contactPoint "Team Lead - Information Services; Energy, Minerals and Groundwater Division" ;
+    schema:identifier "https://pid.geoscience.gov.au/dataset/ga/148553"^^gavoc:eCatID ;
     schema:status astatus:experimental ;
 .

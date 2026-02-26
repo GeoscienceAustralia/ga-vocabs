@@ -3,6 +3,8 @@ PREFIX astatus: <https://linked.data.gov.au/def/reg-statuses/>
 PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/CDCS>
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX gavoc: <https://pid.geoscience.gov.au/def/voc/ga/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
@@ -987,6 +989,7 @@ cs:
     dcterms:creator <https://linked.data.gov.au/org/ga> ;
     dcterms:modified "2023-03-22"^^xsd:date ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    rdfs:seeAlso "https://pid.geoscience.gov.au/dataset/ga/150902"^^xsd:anyURI ;
     skos:definition "LEGACY GA Corporate Data Classification Scheme used 2005 - 2014"@en ;
     skos:hasTopConcept
         :administrative-boundaries ,
@@ -1010,5 +1013,6 @@ cs:
     skos:historyNote "CIMA information group"@en ;
     skos:prefLabel "Legacy GA Corporate Data Classification Scheme"@en ;
     dcat:contactPoint "GAIA" ;
+    schema:identifier "https://pid.geoscience.gov.au/dataset/ga/150902"^^gavoc:eCatID ;
     schema:status astatus:experimental ;
 .

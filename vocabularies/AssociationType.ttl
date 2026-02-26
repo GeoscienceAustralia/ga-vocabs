@@ -3,6 +3,7 @@ PREFIX astatus: <https://linked.data.gov.au/def/reg-statuses/>
 PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/associationtype>
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX gavoc: <https://pid.geoscience.gov.au/def/voc/ga/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
@@ -185,7 +186,7 @@ cs:
     dcterms:creator <https://linked.data.gov.au/org/ga> ;
     dcterms:modified "2023-04-06"^^xsd:date ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
-    rdfs:seeAlso <https://pid.geoscience.gov.au/dataset/ga/147628> ;
+    rdfs:seeAlso "https://pid.geoscience.gov.au/dataset/ga/147628"^^xsd:anyURI ;
     owl:versionInfo "1.5" ;
     skos:definition "This is a SKOS vocabulary version of the ISO19115-1 standard's AssociationType code list with code list extensions described in the GA Profile document http://pid.geoscience.gov.au/dataset/ga/122551."@en ;
     skos:hasTopConcept
@@ -209,5 +210,6 @@ cs:
     skos:historyNote "https://pid.geoscience.gov.au/dataset/ga/122551"@en ;
     skos:prefLabel "Associated Resource Type"@en ;
     dcat:contactPoint "DPI" ;
+    schema:identifier "https://pid.geoscience.gov.au/dataset/ga/147628"^^gavoc:eCatID ;
     schema:status astatus:experimental ;
 .

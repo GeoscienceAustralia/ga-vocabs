@@ -2,7 +2,7 @@ PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/OnlineFunctions/>
 PREFIX astatus: <https://linked.data.gov.au/def/reg-statuses/>
 PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/OnlineFunctions>
 PREFIX dcterms: <http://purl.org/dc/terms/>
-PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX gavoc: <https://pid.geoscience.gov.au/def/voc/ga/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
@@ -130,6 +130,7 @@ cs:
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
     dcterms:subject "online functions"@en ;
     dcterms:title "OnLine Function"@en ;
+    rdfs:seeAlso "https://pid.geoscience.gov.au/dataset/ga/150902"^^xsd:anyURI ;
     owl:versionInfo "v1.0" ;
     skos:definition "OnLine Function Type"@en ;
     skos:hasTopConcept
@@ -146,5 +147,6 @@ cs:
         :upload ;
     skos:historyNote "ISO19115-1:2014"@en ;
     skos:prefLabel "OnLine Function Type"@en ;
+    schema:identifier "https://pid.geoscience.gov.au/dataset/ga/150902"^^gavoc:eCatID ;
     schema:status astatus:experimental ;
 .

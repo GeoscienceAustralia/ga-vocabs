@@ -1,6 +1,7 @@
 PREFIX dash: <http://datashapes.org/dash#>
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX gavoc: <https://pid.geoscience.gov.au/def/voc/ga/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX prof: <http://www.w3.org/ns/dx/prof/>
 PREFIX prov: <http://www.w3.org/ns/prov#>
@@ -726,7 +727,7 @@ schema:dateModified rdfs:label "date modified" .
     sh:path schema:identifier ;
     sh:minCount 1 ;
     sh:maxCount 1 ;
-    sh:datatype xsd:anyURI ;
+    sh:datatype gavoc:eCatID ;
     sh:pattern "^https://pid.geoscience.gov.au/dataset/ga/[0-9]+$" ;
 .
 

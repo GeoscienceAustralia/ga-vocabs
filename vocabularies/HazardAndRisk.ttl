@@ -1,6 +1,7 @@
 PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk/>
 PREFIX astatus: <https://linked.data.gov.au/def/reg-statuses/>
 PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk>
+PREFIX gavoc: <https://pid.geoscience.gov.au/def/voc/ga/>
 PREFIX isoroles: <https://linked.data.gov.au/def/data-roles/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX prov: <http://www.w3.org/ns/prov#>
@@ -8,6 +9,10 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+:1.0
+    schema:name "1.0" ;
+.
 
 :abnormally_high_tide
     a skos:Concept ;
@@ -1743,10 +1748,9 @@ Other types of accommodation such as hotels, holiday rentals, hospitals and aged
     schema:citation "https://www.undrr.org/drr-glossary/terminology"^^xsd:anyURI ;
 .
 
-:1.0 schema:name "1.0" .
-
 cs:
     a skos:ConceptScheme ;
+    rdfs:seeAlso "https://pid.geoscience.gov.au/dataset/ga/148603"^^xsd:anyURI ;
     owl:versionIRI :1.0 ;
     skos:definition "This vocabulary is used to describe terms used for climate and disaster risk themes, covering hazard, exposure, vulnerability, impact, climate, weather and geophysical disasters"@en ;
     skos:hasTopConcept
@@ -1886,29 +1890,30 @@ cs:
         :weather ;
     skos:historyNote "Combination of WMO, UNDRR and AIDR definitions agreed between GA, BoM, ABS and CSIRO"@en ;
     skos:prefLabel "GA Hazard and Risk Glossary"@en ;
-    prov:qualifiedAttribution
+    prov:qualifiedAttribution 
         [
-            prov:hadRole isoroles:custodian ;
-            prov:agent
-                [
-                    a schema:Organization ;
-                    schema:url ""^^xsd:anyURI ;
-                    schema:name "Impacts Lead Natural Hazards & Impacts" ;
-                ] ;
-        ] ,
-        [
-            prov:hadRole isoroles:pointOfContact ;
             prov:agent
                 [
                     a schema:Person ;
                     schema:email ""^^xsd:anyURI ;
                     schema:name "Rikki Weber" ;
                 ] ;
+            prov:hadRole isoroles:pointOfContact ;
+        ] ,
+        [
+            prov:agent
+                [
+                    a schema:Organization ;
+                    schema:name "Impacts Lead Natural Hazards & Impacts" ;
+                    schema:url ""^^xsd:anyURI ;
+                ] ;
+            prov:hadRole isoroles:custodian ;
         ] ;
     schema:creator <https://linked.data.gov.au/org/ga> ;
     schema:dateCreated "2022-05-25"^^xsd:date ;
     schema:dateModified "2022-05-25"^^xsd:date ;
+    schema:identifier "https://pid.geoscience.gov.au/dataset/ga/148603"^^gavoc:eCatID ;
     schema:publisher <https://linked.data.gov.au/org/ga> ;
-    schema:version "1.0" ;
     schema:status astatus:experimental ;
+    schema:version "1.0" ;
 .
