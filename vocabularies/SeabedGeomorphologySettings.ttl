@@ -1,6 +1,7 @@
 PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings/>
 PREFIX astatus: <https://linked.data.gov.au/def/reg-statuses/>
 PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings>
+PREFIX gavoc: <https://pid.geoscience.gov.au/def/voc/ga/>
 PREFIX isoroles: <https://linked.data.gov.au/def/data-roles/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX prov: <http://www.w3.org/ns/prov#>
@@ -8,6 +9,10 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+:1.1
+    schema:name "1.1" ;
+.
 
 :De_Geer_moraine
     a skos:Concept ;
@@ -3930,10 +3935,9 @@ Cf. FLUVIAL DELTA"""@en ;
     skos:topConceptOf cs: ;
 .
 
-:1.1 schema:name "1.1" .
-
 cs:
     a skos:ConceptScheme ;
+    rdfs:seeAlso "https://pid.geoscience.gov.au/dataset/ga/150006"^^xsd:anyURI ;
     owl:versionIRI :1.1 ;
     skos:definition """A vocabulary of GEOMORPHIC UNIT terms (Part 2) used in the two-part marine and coastal geomorphology classification scheme (International Seabed Geomorphology Mapping Working Group - ISGM-WG: Part 1 Morphology: [https://doi.org/10.5281/zenodo.4071940](https://doi.org/10.5281/zenodo.4071940); Part 2 Geomorphology: [https://doi.org/10.5281/zenodo.7804019](https://doi.org/10.5281/zenodo.7804019) to classify MORPHOLOGY FEATURES (Part 1) with their process interpretation. These UNIT terms are structured within a consistent framework design that is replicated between eleven SETTING and PROCESS categories.
 
@@ -3952,37 +3956,38 @@ This is one of four linked ISGM-WG vocabularies. Definitions in this vocabulary 
         :Solid_Earth_Setting ;
     skos:historyNote "This vocabulary describes the glossary in Part 2 of the two-part seabed geomorphology classification scheme DOI: 10.5281/zenodo.7804019"@en ;
     skos:prefLabel "Seabed geomorphology - Part 2 Geomorphology"@en ;
-    prov:qualifiedAttribution
+    prov:qualifiedAttribution 
         [
-            prov:hadRole isoroles:custodian ;
-            prov:agent
-                [
-                    a schema:Person ;
-                    schema:email ""^^xsd:anyURI ;
-                    schema:name "Marine And Coastal Geoscience" ;
-                ] ;
-        ] ,
-        [
-            prov:hadRole isoroles:custodian ;
-            prov:agent
-                [
-                    a schema:Person ;
-                    schema:email ""^^xsd:anyURI ;
-                    schema:name "Orca Branch" ;
-                ] ;
-        ] ,
-        [
-            prov:hadRole isoroles:pointOfContact ;
             prov:agent
                 [
                     a schema:Person ;
                     schema:email ""^^xsd:anyURI ;
                     schema:name "Rachel Nanson" ;
                 ] ;
+            prov:hadRole isoroles:pointOfContact ;
+        ] ,
+        [
+            prov:agent
+                [
+                    a schema:Person ;
+                    schema:email ""^^xsd:anyURI ;
+                    schema:name "Orca Branch" ;
+                ] ;
+            prov:hadRole isoroles:custodian ;
+        ] ,
+        [
+            prov:agent
+                [
+                    a schema:Person ;
+                    schema:email ""^^xsd:anyURI ;
+                    schema:name "Marine And Coastal Geoscience" ;
+                ] ;
+            prov:hadRole isoroles:custodian ;
         ] ;
     schema:creator <https://linked.data.gov.au/org/isgm-wg> ;
     schema:dateCreated "2024-06-17"^^xsd:date ;
     schema:dateModified "2025-04-02"^^xsd:date ;
+    schema:identifier "https://pid.geoscience.gov.au/dataset/ga/150006"^^gavoc:eCatID ;
     schema:publisher <https://linked.data.gov.au/org/ga> ;
     schema:status astatus:experimental ;
     schema:version "1.1" ;

@@ -3,6 +3,7 @@ PREFIX astatus: <https://linked.data.gov.au/def/reg-statuses/>
 PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/QaStatusCode>
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX gavoc: <https://pid.geoscience.gov.au/def/voc/ga/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
@@ -11,6 +12,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :c
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "This data has been checked. The data was entered by an Internal user."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "C"@en ;
@@ -19,6 +21,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :u
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "This data has not been checked. The data was entered by an Internal user."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "U"@en ;
@@ -32,7 +35,7 @@ cs:
     dcterms:modified "2022-08-09"^^xsd:date ;
     dcterms:provenance "Geoscience Australia QA Status Code (A.QA_STATUS_CODES)"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
-    rdfs:seeAlso <https://pid.geoscience.gov.au/dataset/ga/148553> ;
+    rdfs:seeAlso "https://pid.geoscience.gov.au/dataset/ga/148553"^^xsd:anyURI ;
     owl:versionInfo "1" ;
     skos:definition "Indicates the status of whether or not QA of the data for this record has been undertaken (C - Checked, U - Unchecked)."@en ;
     skos:hasTopConcept
@@ -40,5 +43,6 @@ cs:
         :u ;
     skos:prefLabel "General Geology - QA Status Code"@en ;
     dcat:contactPoint "Team Lead - Information Services; Energy, Minerals and Groundwater" ;
+    schema:identifier "https://pid.geoscience.gov.au/dataset/ga/148553"^^gavoc:eCatID ;
     schema:status astatus:experimental ;
 .
