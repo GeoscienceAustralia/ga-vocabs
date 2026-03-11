@@ -12,6 +12,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :akmolith
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :intrusion ;
     skos:definition "an intrusion along a decollement zone, with or without tonguelike extensions into the surrounding rock"@en ;
     skos:inScheme cs: ;
@@ -20,6 +21,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :amygdale
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :volcanic-feature ;
     skos:definition "a gas cavity or vesicle in an igneous rock which is filled with secondary minerals"@en ;
     skos:inScheme cs: ;
@@ -28,6 +30,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :apophysis
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :intrusion ;
     skos:definition "an offshoot from a larger intrusive body"@en ;
     skos:inScheme cs: ;
@@ -36,6 +39,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :batholith
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "a discordant magma body with exposed surface area of more than 100 square kilometres; typically consists of multiple intrusions."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "batholith"@en ;
@@ -44,6 +48,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :bioclast
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :clast ;
     skos:definition "a fragment or clast in a rock composed of the remains of organisms"@en ;
     skos:inScheme cs: ;
@@ -52,6 +57,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :block
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :pyroclast ;
     skos:definition "an angular pyroclast > 64 mm"@en ;
     skos:inScheme cs: ;
@@ -60,6 +66,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :bomb
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :pyroclast ;
     skos:definition "a clot of lava, usually mafic-ultramafic, ejected from a volcanic vent while viscous, and which assumes a rounded shape as it solidifies in flight"@en ;
     skos:inScheme cs: ;
@@ -68,6 +75,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :cactolith
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :intrusion ;
     skos:definition "an obscurely cactus-shaped intrusion."@en ;
     skos:inScheme cs: ;
@@ -76,6 +84,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :chonolith
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :intrusion ;
     skos:definition "an intrusion so irregular as to defy description"@en ;
     skos:inScheme cs: ;
@@ -84,6 +93,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :concretion
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "a hard, compact mass or aggregate of mineral matter, normally subsperical but commonly oblate, disc-shaped or irregular.  Formed from precipitation from solution about a nucleus or centre"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "concretion"@en ;
@@ -92,6 +102,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :cone-sheet
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :ring-complex ;
     skos:definition "an arcuate dyke that dips 30-45 degrees towards the centre of the arc; occur in concentric sets, presumably converging at a magmatic centre"@en ;
     skos:inScheme cs: ;
@@ -100,6 +111,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :cooling-column
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :volcanic-feature ;
     skos:definition "a cooling unit in a volcanic rock defined by polygonal jointing perpendicular to the flow surface"@en ;
     skos:inScheme cs: ;
@@ -108,6 +120,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :cryptoexplosive
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :volcanic-feature ;
     skos:definition "a volcanic body of rock formed by subsurface explosive activity"@en ;
     skos:inScheme cs: ;
@@ -116,6 +129,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :cumulate-mineral
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :crystal ;
     skos:definition "a crystal formed during accumulation of early-formed crystals from a magma"@en ;
     skos:inScheme cs: ;
@@ -124,6 +138,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :cupola
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :intrusion ;
     skos:definition "a large upward projection of the roof of an igneous intrusion into the country rock above."@en ;
     skos:inScheme cs: ;
@@ -132,6 +147,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :ductolith
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :intrusion ;
     skos:definition "a concordant intrusion, teardrop-shaped in cross section"@en ;
     skos:inScheme cs: ;
@@ -140,6 +156,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :dyke
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :intrusion ;
     skos:definition "a tabular igneous intrusion that cuts across the bedding or foliation of the country rock"@en ;
     skos:inScheme cs: ;
@@ -148,6 +165,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :dyke-swarm
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :intrusion ;
     skos:definition "a set of dykes, generally subparallel, with a common origin"@en ;
     skos:inScheme cs: ;
@@ -156,6 +174,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :enclave
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :inclusion ;
     skos:definition "an inclusion within an igneous rock to which it may or may not be genetically related"@en ;
     skos:inScheme cs: ;
@@ -164,6 +183,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :ethmolith
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :intrusion ;
     skos:definition "a discordant, funnel-shaped intrusion, tapers downward"@en ;
     skos:inScheme cs: ;
@@ -172,6 +192,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :extrusive-dome
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :volcanic-feature ;
     skos:definition "an extrusion forming a bulbous dome above and around a volcanic vent"@en ;
     skos:inScheme cs: ;
@@ -180,6 +201,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :facies
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "a lateral variant of a lithostratigraphic or metamorphic unit"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "facies"@en ;
@@ -188,6 +210,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :fissure
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :intrusion ;
     skos:definition "a volcanic conduit having the form of a crack or fissure."@en ;
     skos:inScheme cs: ;
@@ -196,6 +219,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :floor-ascendant
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "a upward projection of country rock into an igneous intrusion"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "floor ascendant"@en ;
@@ -204,6 +228,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :glomerocryst
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :crystal ;
     skos:definition "an aggregate of crystals of the same mineral"@en ;
     skos:inScheme cs: ;
@@ -212,6 +237,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :gneissic-band
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :band-layer ;
     skos:definition "a compositional band or layer in a gneiss mineralogically distinct from the surrounding material"@en ;
     skos:inScheme cs: ;
@@ -220,6 +246,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :graphic-intergrowth
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "a regular poikilitic intergrowth of triangular or linear-angular shaped grains of one mineral within a larger other mineral, typically quartz with alkali feldspar"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "graphic intergrowth"@en ;
@@ -228,6 +255,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :harpolith
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :phacolith ;
     skos:definition "a phacolith with a vertical axis; indicates multiple deformations"@en ;
     skos:inScheme cs: ;
@@ -236,6 +264,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :high-level-pluton
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :intrusion ;
     skos:definition "a pluton emplaced at a high or subvolcanic level in the crust"@en ;
     skos:inScheme cs: ;
@@ -244,6 +273,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :holoblast
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :crystalloblast ;
     skos:definition "a crystalloblast that is newly and completely formed during metamorphism"@en ;
     skos:inScheme cs: ;
@@ -252,6 +282,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :hydrothermal-alteration
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "a rock or mineral derived from hydrothermal alteration of a rock"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "hydrothermal alteration"@en ;
@@ -260,6 +291,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :hypidioblast
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :crystalloblast ;
     skos:definition "a crystalloblast that is formed during metamorphism and is bounded in part by its characteristic crystal faces"@en ;
     skos:inScheme cs: ;
@@ -268,6 +300,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :idioblast
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :crystalloblast ;
     skos:definition "a crystalloblast that is formed during metamorphism and is bounded by its characteristic crystal faces"@en ;
     skos:inScheme cs: ;
@@ -276,6 +309,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :igneous-band
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :band-layer ;
     skos:definition "a compositional band or layer in an igneous rock mineralogically distict from the surrounding material"@en ;
     skos:inScheme cs: ;
@@ -284,6 +318,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :intraclast
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :clast ;
     skos:definition "a clast or fragment in a sedimentary rock of another penecontemporaneous sedimentary rock that has been eroded within the basin of deposition"@en ;
     skos:inScheme cs: ;
@@ -292,6 +327,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :irregular-vein
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :vein ;
     skos:definition "a vein with no obvious form."@en ;
     skos:inScheme cs: ;
@@ -300,6 +336,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :laccolith
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :intrusion ;
     skos:definition "a concordant, flat-based, convex-up intrusion"@en ;
     skos:inScheme cs: ;
@@ -308,6 +345,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :lens
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :band-layer ;
     skos:definition "a discontinuous layer or bed within a sedimentary rock"@en ;
     skos:inScheme cs: ;
@@ -316,6 +354,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :leucosome
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "the light coloured part of a migmatite or other rock with compositional segregations, usually rich in quartz and feldspar"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "leucosome"@en ;
@@ -324,6 +363,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :lopolith
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :intrusion ;
     skos:definition "a large, concordant, typically layered igneous intrusion whose floor is convex-down and whose roof may be convex-down or flat."@en ;
     skos:inScheme cs: ;
@@ -332,6 +372,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :marker-bed
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :bed ;
     skos:definition "a laterally continuous stratigraphic marker within another unit."@en ;
     skos:inScheme cs: ;
@@ -340,6 +381,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :melanosome
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "the dark coloured part of a migmatite or other rock with compositional segregations, rich in mafic minerals"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "melanosome"@en ;
@@ -348,6 +390,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :microlite
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :crystal ;
     skos:definition "a microscopic crystal that polarises light and has some determinable optical properties"@en ;
     skos:inScheme cs: ;
@@ -356,6 +399,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :nodule
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "A small rounded mass of a mineral or mineral aggregate, usually with a contrasting composition from the enclosing sediment or rock matrix in which it is embedded. A fragment of a coarse grained igneous rock occurring within a finer grained rock."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "nodule"@en ;
@@ -364,6 +408,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :oikocryst
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :crystalloblast ;
     skos:definition "the enclosing crystal in a poikolitic texture"@en ;
     skos:inScheme cs: ;
@@ -372,6 +417,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :oncolite
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :grain ;
     skos:definition "a variously shaped, concentrically laminated, calcareous sedimentary structure, usually less than 10 cm in diameter, formed by the accretion of successive layered masses of blue-green algae"@en ;
     skos:inScheme cs: ;
@@ -380,6 +426,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :ooid
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :grain ;
     skos:definition "a small round or ovate accretionary particle in an oolitic rock, formed of concentric carbonate layers around a nucleus in shallow, wave-agitated water"@en ;
     skos:inScheme cs: ;
@@ -388,6 +435,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :pellet
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :grain ;
     skos:definition "a small, usually rounded aggregate of clay-sized calcareous (micritic) material, devoid of internal structure, and contained within a well sorted carbonate rock"@en ;
     skos:inScheme cs: ;
@@ -396,6 +444,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :phenocryst
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :crystal ;
     skos:definition "a relatively large, conspicuous crystal in a porphyrytic igneous rock"@en ;
     skos:inScheme cs: ;
@@ -404,6 +453,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :pillow
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :lava-flow ;
     skos:definition "a pillow-like lava body extruded beneath water"@en ;
     skos:inScheme cs: ;
@@ -412,6 +462,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :pipe
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :intrusion ;
     skos:definition "a vertical conduit through the Earth's crust below a volcano, through which magmatic materials have passed; usually filled with volcanic breccia and fragments of older rock."@en ;
     skos:inScheme cs: ;
@@ -420,6 +471,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :pisolite
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :grain ;
     skos:definition "a small round or ovate accretionary particle, larger and less regular than an ooid, formed by concentric precipitation around a nucleus typically of carbonate (limestone) or iron oxides (laterite)"@en ;
     skos:inScheme cs: ;
@@ -428,6 +480,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :planar-vein
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :vein ;
     skos:definition "a vein with length and width significantly greater than its thickness, giving the vein a tabular form."@en ;
     skos:inScheme cs: ;
@@ -436,6 +489,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :plug
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :volcanic-feature ;
     skos:definition "a roughly cylindrical mass of congealed magma that fills the conduit of an inactive volcano"@en ;
     skos:inScheme cs: ;
@@ -444,6 +498,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :pluton
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :intrusion ;
     skos:definition "a deep-seated igneous intrusion"@en ;
     skos:inScheme cs: ;
@@ -452,6 +507,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :pod
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :intrusion ;
     skos:definition "an intrusion of elongate or lenticular form"@en ;
     skos:inScheme cs: ;
@@ -460,6 +516,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :poikiloblast
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :crystalloblast ;
     skos:definition "a crystal formed by recrystallisation during metamorphism with numerous inclusions of smaller grains"@en ;
     skos:inScheme cs: ;
@@ -468,6 +525,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :porphyroblast
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :crystalloblast ;
     skos:definition "a pseudoporphyritic crystal in a rock produced by metamorphic recrystallisation"@en ;
     skos:inScheme cs: ;
@@ -476,6 +534,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :porphyroclast
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :crystal ;
     skos:definition "a paleoblast within a finer grained recrystalllised and/or pulverised matrix"@en ;
     skos:inScheme cs: ;
@@ -484,6 +543,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :pseudomorph
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "a secondary mineral whose outward crystal form has been inherited from the orignal mineral it has replaced"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "pseudomorph"@en ;
@@ -492,6 +552,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :reaction-rim
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :corona ;
     skos:definition "a peripheral zone around a mineral composed of the products of the reaction of an early solidified mineral with a surrounding melt"@en ;
     skos:inScheme cs: ;
@@ -500,6 +561,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :righ-dyke
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :ring-complex ;
     skos:definition "an arcuate or subcircular dyke, generally associated with a volcanic centre."@en ;
     skos:inScheme cs: ;
@@ -508,6 +570,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :roof-pendant
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "a downward projection of country rock into an igneous intrusion"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "roof pendant"@en ;
@@ -516,6 +579,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :sedimentry-dyke
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "a tabular sedimentary intrusion that cuts across the bedding or foliation of the host rock"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "sedimentary dyke"@en ;
@@ -524,6 +588,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :sheet
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :intrusion ;
     skos:definition "a tabular intrusion, concordant or slightly discordant."@en ;
     skos:inScheme cs: ;
@@ -532,6 +597,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :sigmoidal-vein
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :vein ;
     skos:definition "a vein is curved so as to resemble the letter S in section."@en ;
     skos:inScheme cs: ;
@@ -540,6 +606,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :sill
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :intrusion ;
     skos:definition "a tabular igneous intrusion that parallels the bedding or foliation of the country rock."@en ;
     skos:inScheme cs: ;
@@ -548,6 +615,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :sphenolith
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :intrusion ;
     skos:definition "a wedge-like intrusion, partly concordant, partly discordant."@en ;
     skos:inScheme cs: ;
@@ -556,6 +624,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :spherulite
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :volcanic-feature ;
     skos:definition "a rounded or spherical mass of acicular crystals, commonly of feldspar radiating from a central point.  Commonly formed from devitrification of volcanic glass"@en ;
     skos:inScheme cs: ;
@@ -564,6 +633,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :stock
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :intrusion ;
     skos:definition "a discordant magma body with exposed surface area of less than 100 square kilometres; may represent exposed portion of a much larger intrusion."@en ;
     skos:inScheme cs: ;
@@ -572,6 +642,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :symplectic-intergrowth
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "an intimate wormlike or irregular intergrowth of two different minerals"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "symplectic intergrowth"@en ;
@@ -580,6 +651,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :unkown
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "mode of occurrence is unknown"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "unknown"@en ;
@@ -588,6 +660,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :weathering-product
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "a secondary mineral or material derived from weathering of a rock"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "weathering product"@en ;
@@ -596,6 +669,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :xenoblast
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :crystalloblast ;
     skos:definition "a mineral that has grown during metamorphism without development of its characteristic crystal faces"@en ;
     skos:inScheme cs: ;
@@ -604,6 +678,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :xenocryst
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :crystal ;
     skos:definition "a crystal that resembles a phenocryst in an igneous rock, but that is foreign to the rock in which it occurs"@en ;
     skos:inScheme cs: ;
@@ -612,6 +687,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :xenolith
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :inclusion ;
     skos:definition "a foreign inclusion in an igneous rock; a fragment of an earlier-formed part of the igneous rock that has a different composition from that of the host rock"@en ;
     skos:inScheme cs: ;
@@ -620,6 +696,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :bed
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :band-layer ;
     skos:definition "a layer of sedimentary material bounded above and below by more or less well-defined bedding surfaces"@en ;
     skos:inScheme cs: ;
@@ -629,6 +706,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :cement
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "chemically precipitated material occuring in the space between grains or clasts of a sedimentary rock"@en ;
     skos:inScheme cs: ;
     skos:narrower :interstitial-material ;
@@ -638,6 +716,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :corona
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :mineral-overgrowth ;
     skos:definition "a zone of minerals, commonly with radial arrangement, around another mineral"@en ;
     skos:inScheme cs: ;
@@ -647,6 +726,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :detritus
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "sedimentary material derived from the waethering and/or erosion"@en ;
     skos:inScheme cs: ;
     skos:narrower :clast ;
@@ -656,6 +736,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :groundmass
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "the finer grained material between the phenocrysts of a porphyritic igneous rock"@en ;
     skos:inScheme cs: ;
     skos:narrower :interstitial-material ;
@@ -665,6 +746,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :lava-flow
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :volcanic-feature ;
     skos:definition "a tabular extrusive igneous body."@en ;
     skos:inScheme cs: ;
@@ -674,6 +756,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :matrix
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "the finer grained material between the larger grains or clasts of a sedimentary rock"@en ;
     skos:inScheme cs: ;
     skos:narrower :interstitial-material ;
@@ -683,6 +766,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :mineral-overgrowth
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "growth of one mineral around the margin of a pre-existing mineral grain"@en ;
     skos:inScheme cs: ;
     skos:narrower :corona ;
@@ -692,6 +776,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :phacolith
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :intrusion ;
     skos:definition "a concordant, lenticular intrusion, emplaced along a fold axis"@en ;
     skos:inScheme cs: ;
@@ -701,6 +786,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :clast
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :detritus ;
     skos:definition "a fragment of pre-existing rocks which have been produced by the processes of weathering and/or erosion, and in general transported to a point of deposition."@en ;
     skos:inScheme cs: ;
@@ -712,6 +798,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :inclusion
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "a fragment of older material within an igneous rock to which it may or may not be genetically related"@en ;
     skos:inScheme cs: ;
     skos:narrower
@@ -723,6 +810,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :interstitial-material
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader
         :cement ,
         :groundmass ,
@@ -734,6 +822,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :pyroclast
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :volcanic-feature ;
     skos:definition "a particle ejected during a volcanic eruption"@en ;
     skos:inScheme cs: ;
@@ -745,6 +834,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :ring-complex
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :intrusion ;
     skos:definition "an association of ring dykes and cone sheets."@en ;
     skos:inScheme cs: ;
@@ -756,6 +846,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :vein
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "an epigenetic mineral filling of a fault or fracture in a host rock, in tabular or sheetlike form, often with associated host rock replacement."@en ;
     skos:inScheme cs: ;
     skos:narrower
@@ -768,6 +859,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :band-layer
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "a thin layer, compositionally distinct from the surrounding material"@en ;
     skos:inScheme cs: ;
     skos:narrower
@@ -781,6 +873,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :grain
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "a mineral or rock particle, generally lacking crystal faces, commonly in relation to sedimentary rocks"@en ;
     skos:inScheme cs: ;
     skos:narrower
@@ -794,6 +887,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :crystal
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "a homogeneous, solid body of a mineral or element having a regular repeating atomic arrangement"@en ;
     skos:inScheme cs: ;
     skos:narrower
@@ -810,6 +904,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :crystalloblast
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :crystal ;
     skos:definition "a crystal of a mineral produced entirely by metamorphic processes"@en ;
     skos:inScheme cs: ;
@@ -826,6 +921,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :volcanic-feature
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "a rock derived from igneous processes at or just below the Earth's surface"@en ;
     skos:inScheme cs: ;
     skos:narrower
@@ -843,6 +939,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :intrusion
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "a body of igneous rock formed by the process of emplacement of magma in pre-existing rock"@en ;
     skos:inScheme cs: ;
     skos:narrower

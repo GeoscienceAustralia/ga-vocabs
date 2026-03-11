@@ -1,7 +1,6 @@
 PREFIX astatus: <https://linked.data.gov.au/def/reg-statuses/>
 PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/StatisticalResultQualifier>
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
-PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX gavoc: <https://pid.geoscience.gov.au/def/voc/ga/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -11,16 +10,17 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://pid.geoscience.gov.au/def/voc/ga/StatisticalResultQualifier/maximum>
     a skos:Concept ;
-    dcterms:provenance "http://resource.geoscience.gov.au/classifier/ga/resultqualifier/maximum"@en ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "The highest numeric value of a sample set."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "maximum"@en ;
     skos:topConceptOf cs: ;
+    schema:citation "http://resource.geoscience.gov.au/classifier/ga/resultqualifier/maximum"^^xsd:anyURI ;
 .
 
 <https://pid.geoscience.gov.au/def/voc/ga/StatisticalResultQualifier/mean>
     a skos:Concept ;
-    dcterms:provenance "http://resource.geoscience.gov.au/classifier/ga/resultqualifier/mean"@en ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel
         "arithmetic mean"@en ,
         "average"@en ;
@@ -28,57 +28,64 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "mean"@en ;
     skos:topConceptOf cs: ;
+    schema:citation "http://resource.geoscience.gov.au/classifier/ga/resultqualifier/mean"^^xsd:anyURI ;
 .
 
 <https://pid.geoscience.gov.au/def/voc/ga/StatisticalResultQualifier/median>
     a skos:Concept ;
-    dcterms:provenance "http://resource.geoscience.gov.au/classifier/ga/resultqualifier/median"@en ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "The numerical value separating the higher half of a data sample, a population, or a probability distribution, from the lower half."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "median"@en ;
     skos:topConceptOf cs: ;
+    schema:citation "http://resource.geoscience.gov.au/classifier/ga/resultqualifier/median"^^xsd:anyURI ;
 .
 
 <https://pid.geoscience.gov.au/def/voc/ga/StatisticalResultQualifier/minimum>
     a skos:Concept ;
-    dcterms:provenance "http://resource.geoscience.gov.au/classifier/ga/resultqualifier/minimum"@en ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "The lowest numeric value of a sample set."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "minimum"@en ;
     skos:topConceptOf cs: ;
+    schema:citation "http://resource.geoscience.gov.au/classifier/ga/resultqualifier/minimum"^^xsd:anyURI ;
 .
 
 <https://pid.geoscience.gov.au/def/voc/ga/StatisticalResultQualifier/mode>
     a skos:Concept ;
-    dcterms:provenance "http://resource.geoscience.gov.au/classifier/ga/resultqualifier/mode"@en ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "The value that appears most often in a set of data."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "mode"@en ;
     skos:topConceptOf cs: ;
+    schema:citation "http://resource.geoscience.gov.au/classifier/ga/resultqualifier/mode"^^xsd:anyURI ;
 .
 
 <https://pid.geoscience.gov.au/def/voc/ga/StatisticalResultQualifier/singleMeasurementPartSample>
     a skos:Concept ;
-    dcterms:provenance "http://resource.geoscience.gov.au/classifier/ga/resultqualifier/single_measurement_part_sample"@en ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "A single or spot measurement of part of a specimen (e.g., a spot measurement of magnetic susceptibility on a rock outcrop) which may be expected to vary with the location or attitude of the instrument on the specimen"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "single measurement - part sample"@en ;
     skos:topConceptOf cs: ;
+    schema:citation "http://resource.geoscience.gov.au/classifier/ga/resultqualifier/single_measurement_part_sample"^^xsd:anyURI ;
 .
 
 <https://pid.geoscience.gov.au/def/voc/ga/StatisticalResultQualifier/singleMeasurementWholeSample>
     a skos:Concept ;
-    dcterms:provenance "http://resource.geoscience.gov.au/classifier/ga/resultqualifier/single_measurement_whole_sample"@en ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "A single or spot measurement of the whole specimen, that may be expected to give the same result if repeated."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "single measurement - whole sample"@en ;
     skos:topConceptOf cs: ;
+    schema:citation "http://resource.geoscience.gov.au/classifier/ga/resultqualifier/single_measurement_whole_sample"^^xsd:anyURI ;
 .
 
 <https://pid.geoscience.gov.au/def/voc/ga/StatisticalResultQualifier/unknown>
     a skos:Concept ;
-    dcterms:provenance "http://www.opengis.net/def/nil/OGC/0/unknown"@en ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "The statistical type of measurement value is not known."@en ;
+    skos:exactMatch <http://www.opengis.net/def/nil/OGC/0/unknown> ;
     skos:inScheme cs: ;
     skos:prefLabel "unknown"@en ;
     skos:topConceptOf cs: ;
@@ -86,20 +93,16 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://pid.geoscience.gov.au/def/voc/ga/StatisticalResultQualifier/weightedMean>
     a skos:Concept ;
-    dcterms:provenance "https://en.wikipedia.org/wiki/Inverse-variance_weighting"@en ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "The sum of values in a sample, weighted proportional to their inverse variance, and divided by n-1 where n is the number of values in the population."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "weighted mean"@en ;
     skos:topConceptOf cs: ;
+    schema:citation "https://en.wikipedia.org/wiki/Inverse-variance_weighting"^^xsd:anyURI ;
 .
 
 cs:
     a skos:ConceptScheme ;
-    dcterms:created "2022-08-09"^^xsd:date ;
-    dcterms:creator <https://linked.data.gov.au/org/ga> ;
-    dcterms:modified "2022-08-09"^^xsd:date ;
-    dcterms:provenance "Geoscience Australia Statistical Result Qualifier (ROCKPROPS.LU_RESULTQUALIFIER)"@en ;
-    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
     rdfs:seeAlso "https://pid.geoscience.gov.au/dataset/ga/148553"^^xsd:anyURI ;
     owl:versionInfo "1" ;
     skos:definition "Statistical qualifier for rock property measurements (e.g. mean, maximum, median)."@en ;
@@ -115,6 +118,11 @@ cs:
         <https://pid.geoscience.gov.au/def/voc/ga/StatisticalResultQualifier/weightedMean> ;
     skos:prefLabel "Geology Rock Properties - Result Qualifier"@en ;
     dcat:contactPoint "Team Lead - Information Services; Energy, Minerals and Groundwater Division" ;
+    schema:citation "Geoscience Australia Statistical Result Qualifier (ROCKPROPS.LU_RESULTQUALIFIER)" ;
+    schema:creator <https://linked.data.gov.au/org/ga> ;
+    schema:dateCreated "2022-08-09"^^xsd:date ;
+    schema:dateModified "2022-08-09"^^xsd:date ;
     schema:identifier "https://pid.geoscience.gov.au/dataset/ga/148553"^^gavoc:eCatID ;
+    schema:publisher <https://linked.data.gov.au/org/ga> ;
     schema:status astatus:experimental ;
 .

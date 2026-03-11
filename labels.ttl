@@ -681,3 +681,10 @@ schema:status
 <https://linked.data.gov.au/def/reg-statuses/experimental> schema:name "experimental" .
 
 <https://linked.data.gov.au/org/un> schema:name "United Nations" .
+
+<http://qudt.org>
+    a schema:Organization ;
+    dcterms:description "QUDT is a non-profit organization that governs the QUDT ontologies."@en ;
+    schema:name "QUDT" ;
+    schema:url "http://www.qudt.org"^^xsd:anyURI ;
+.

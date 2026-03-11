@@ -13,6 +13,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :gridNorth
     a skos:Concept ;
     dcterms:provenance "GA"@en ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Azimuth measurements in this directional survey are relative to a local grid north."@en ;
     skos:exactMatch <http://resource.geoscience.gov.au/classifier/ga/directional_survey_azimuth_north_type/grid_north> ;
     skos:inScheme cs: ;
@@ -23,6 +24,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :magneticNorth
     a skos:Concept ;
     dcterms:provenance "GA"@en ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Azimuth measurements in this directional survey are relative to magnetic north."@en ;
     skos:exactMatch <http://resource.geoscience.gov.au/classifier/ga/directional_survey_azimuth_north_type/magnetic_north> ;
     skos:inScheme cs: ;
@@ -33,6 +35,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :trueNorth
     a skos:Concept ;
     dcterms:provenance "GA"@en ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Azimuth measurements in this directional survey are relative to true north."@en ;
     skos:exactMatch <http://resource.geoscience.gov.au/classifier/ga/directional_survey_azimuth_north_type/true_north> ;
     skos:inScheme cs: ;

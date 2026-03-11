@@ -11,6 +11,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyPathComputeMethod/gpsSection>
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "GPS"@en ;
     skos:definition "Borehole path calculated from triplets of GPS coordinates  (either lat/long/ellip_elev or easting/northing/zone/sl_elev).  This routine assumes straight-line segments between stations, so is not a particularly accurate interpolation method between stations."@en ;
     skos:inScheme cs: ;
@@ -20,6 +21,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyPathComputeMethod/linearSegment>
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "LINEAR"@en ;
     skos:definition "Borehole path calculated assuming linear segments between survey stations.  Also known as tangential method. Not a very accurate interpolation method. Not preferred by industry."@en ;
     skos:inScheme cs: ;
@@ -29,6 +31,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyPathComputeMethod/minimumCurvature>
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "MINCURV"@en ;
     skos:definition "Calculation using minimum curvature interpolation method to generate a smooth arc borehole path."@en ;
     skos:inScheme cs: ;
@@ -38,6 +41,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyPathComputeMethod/offsetSurvey>
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "OFFSET"@en ;
     skos:definition "Calculates borehole path from triplets of offset x,y,z values."@en ;
     skos:inScheme cs: ;

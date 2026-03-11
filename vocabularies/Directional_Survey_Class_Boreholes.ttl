@@ -12,6 +12,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :azimuthAndInclination
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "The directional survey is comprised of azimuth and inclination measurements."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "azimuth and inclination"@en ;
@@ -20,6 +21,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :inclinationOnly
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "The directional survey is comprised of only inclination measurements."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "inclination only"@en ;

@@ -13,6 +13,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :anpm
     a skos:Concept ;
     dcterms:provenance "http://www.anpm.tl/"@en ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Autoridade Nacional do Petróleo e Minerais (ANPM)"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "ANPM"@en ;
@@ -21,6 +22,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :dsdp
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Deep Sea Drilling Project, 1968 - 1983"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "DSDP"@en ;
@@ -29,6 +31,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :jpda
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Joint Petroleum Development Area. Established by The Timor Sea Treaty 2002 agreement between Timor-Leste and Australia."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "JPDA"@en ;
@@ -37,6 +40,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :odp
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Ocean Drilling Program, 1985 - 2003 (Continuation of DSDP).  ODP replaced by Integrated Ocean Drilling Program (IODP). "@en ;
     skos:inScheme cs: ;
     skos:prefLabel "ODP"@en ;
@@ -45,6 +49,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :opggsa
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Offshore Petroleum and Greenhouse Gas Storage Act 2006. Applies from 22 November 2008 "@en ;
     skos:inScheme cs: ;
     skos:prefLabel "OPGGSA"@en ;
@@ -53,6 +58,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :prePsla
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Drilling conducted prior to the Petroleum (Submerged Lands) ACT 1967, 22 November."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "pre-PSLA"@en ;
@@ -61,6 +67,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :psla
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Petroleum (Submerged Lands) ACT 1967. Applies from 22 Novermber 1967 to 30 June 2008 "@en ;
     skos:inScheme cs: ;
     skos:prefLabel "PSLA"@en ;
@@ -69,6 +76,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :scientificInvestigationConsents
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Consent may be given to organisations undertaking scientific research into the physical or biological characteristics of the continental shelf to undertake activities related to petroleum exploration (including the drilling of stratigraphic holes, but excluding the drilling of petroleum exploration wells as part of that research)."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "Scientific investigation consents"@en ;
@@ -77,6 +85,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :stateOnshore
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Onshore drilling activities under various State/Territory Acts."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "State onshore"@en ;
@@ -85,6 +94,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :stateWater
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Marine jurisdition of the various States/Territories. Approx. 3m from Territorial Sea Baseline."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "State waters"@en ;
@@ -94,6 +104,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :unknown
     a skos:Concept ;
     dcterms:provenance "http://www.opengis.net/def/nil/OGC/0/unknown"@en ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "The legislation under which the drilling was conducted is not known."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "unknown"@en ;
@@ -102,6 +113,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :zoc
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Petroleum (Australia-Indonesia Zone of Cooperation) Act, 1990"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "ZOC"@en ;

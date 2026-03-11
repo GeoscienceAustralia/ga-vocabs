@@ -13,6 +13,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :multiShot
     a skos:Concept ;
     dcterms:identifier "multiShot"^^xsd:token ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Multi-shot recording mode of survey"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "multi-shot"@en ;
@@ -22,6 +23,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :singleShot
     a skos:Concept ;
     dcterms:identifier "singleShot"^^xsd:token ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Single-shot recording mode of survey"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "single-shot"@en ;

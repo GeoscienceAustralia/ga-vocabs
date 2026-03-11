@@ -13,6 +13,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :open-cut-mine
     a skos:Concept ;
     dcterms:identifier "open-cut-mine"^^xsd:token ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :mine ;
     skos:definition "Open cut (open pit, open cast) mine workings."@en ;
     skos:inScheme cs: ;
@@ -22,6 +23,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :outcrop
     a skos:Concept ;
     dcterms:identifier "outcrop"^^xsd:token ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :natural-land-surface ;
     skos:definition "An exposure of rock at the Earth surface."@en ;
     skos:inScheme cs: ;
@@ -31,6 +33,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :regolith-site
     a skos:Concept ;
     dcterms:identifier "regolith-site"^^xsd:token ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :natural-land-surface ;
     skos:definition "A field site for observation or sampling of unconsolidated regolith material."@en ;
     skos:inScheme cs: ;
@@ -40,6 +43,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :sea-floor
     a skos:Concept ;
     dcterms:identifier "sea-floor"^^xsd:token ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "A location on the sea floor."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "sea floor"@en ;
@@ -49,6 +53,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :spring
     a skos:Concept ;
     dcterms:identifier "spring"^^xsd:token ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "A natural site where water flows from an aquifer to the Earth's surface."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "spring"@en ;
@@ -58,6 +63,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :underground-mine
     a skos:Concept ;
     dcterms:identifier "underground-mine"^^xsd:token ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :mine ;
     skos:definition "Underground mine workings."@en ;
     skos:inScheme cs: ;
@@ -67,6 +73,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :unknown
     a skos:Concept ;
     dcterms:identifier "unknown"^^xsd:token ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "The type of field site is unknown or unspecified."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "unknown"@en ;
@@ -76,6 +83,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :water-site
     a skos:Concept ;
     dcterms:identifier "water-site"^^xsd:token ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "A field site where water is collected at the Earth surface. The origin of the water may be unclear."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "water site"@en ;
@@ -85,6 +93,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :watercourse
     a skos:Concept ;
     dcterms:identifier "watercourse"^^xsd:token ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "A field site located in a stream or river course, either as a dry bed or with running water."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "watercourse"@en ;
@@ -94,6 +103,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :mine
     a skos:Concept ;
     dcterms:identifier "mine"^^xsd:token ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "An exposure at an open cut or underground mine site."@en ;
     skos:inScheme cs: ;
     skos:narrower
@@ -106,6 +116,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :natural-land-surface
     a skos:Concept ;
     dcterms:identifier "natural-land-surface"^^xsd:token ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Natural land surface"@en ;
     skos:inScheme cs: ;
     skos:narrower
