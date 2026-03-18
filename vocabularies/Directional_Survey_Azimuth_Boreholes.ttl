@@ -3,6 +3,7 @@ PREFIX astatus: <https://linked.data.gov.au/def/reg-statuses/>
 PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyAzimuth>
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX gavoc: <https://pid.geoscience.gov.au/def/voc/ga/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
@@ -12,6 +13,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :gridNorth
     a skos:Concept ;
     dcterms:provenance "GA"@en ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Azimuth measurements in this directional survey are relative to a local grid north."@en ;
     skos:exactMatch <http://resource.geoscience.gov.au/classifier/ga/directional_survey_azimuth_north_type/grid_north> ;
     skos:inScheme cs: ;
@@ -22,6 +24,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :magneticNorth
     a skos:Concept ;
     dcterms:provenance "GA"@en ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Azimuth measurements in this directional survey are relative to magnetic north."@en ;
     skos:exactMatch <http://resource.geoscience.gov.au/classifier/ga/directional_survey_azimuth_north_type/magnetic_north> ;
     skos:inScheme cs: ;
@@ -32,6 +35,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :trueNorth
     a skos:Concept ;
     dcterms:provenance "GA"@en ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Azimuth measurements in this directional survey are relative to true north."@en ;
     skos:exactMatch <http://resource.geoscience.gov.au/classifier/ga/directional_survey_azimuth_north_type/true_north> ;
     skos:inScheme cs: ;
@@ -46,7 +50,7 @@ cs:
     dcterms:modified "2022-08-04"^^xsd:date ;
     dcterms:provenance "Geoscience Australia Directional Survey Azimuth Terms (BOREHOLE.LU_DIR_SRVY_AZ_TYPE)"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
-    rdfs:seeAlso <https://pid.geoscience.gov.au/dataset/ga/148553> ;
+    rdfs:seeAlso "https://pid.geoscience.gov.au/dataset/ga/148553"^^xsd:anyURI ;
     owl:versionInfo "1" ;
     skos:definition "The type of North datum used for azimuth measurements (eg, true north, magnetic north, local grid north)."@en ;
     skos:hasTopConcept
@@ -55,5 +59,6 @@ cs:
         :trueNorth ;
     skos:prefLabel "Borehole Geology - Directional Survey Azimuth "@en ;
     dcat:contactPoint "Team Lead - Information Services; Minerals, Energy and Groundwater Division " ;
+    schema:identifier "https://pid.geoscience.gov.au/dataset/ga/148553"^^gavoc:eCatID ;
     schema:status astatus:experimental ;
 .

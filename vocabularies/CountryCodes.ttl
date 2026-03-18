@@ -2,7 +2,7 @@ PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/CountryCodes/>
 PREFIX astatus: <https://linked.data.gov.au/def/reg-statuses/>
 PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/CountryCodes>
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
-PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX gavoc: <https://pid.geoscience.gov.au/def/voc/ga/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
@@ -5423,11 +5423,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 cs:
     a skos:ConceptScheme ;
-    dcterms:created "2020-11-04"^^xsd:date ;
-    dcterms:creator <https://linked.data.gov.au/org/ga> ;
-    dcterms:modified "2023-09-27"^^xsd:date ;
-    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
-    rdfs:seeAlso <https://pid.geoscience.gov.au/dataset/ga/146414> ;
+    rdfs:seeAlso "https://pid.geoscience.gov.au/dataset/ga/146414"^^xsd:anyURI ;
     owl:versionInfo "1.6" ;
     skos:definition "GA Country Codes are the ISO3166 compliant country codes used by GA database custodians for reference. This list is NOT complete and is maintained semi-regularly so there will be updates made in the ISO3166 that will not be reflected in this vocabulary. The controlled ISO3166 list is found here https://www.iso.org/obp/ui "@en ;
     skos:hasTopConcept
@@ -5683,5 +5679,10 @@ cs:
     skos:historyNote "These codes are sourced from https://www.iso.org/obp/"@en ;
     skos:prefLabel "GA Country Codes"@en ;
     dcat:contactPoint "DPI" ;
+    schema:creator <https://linked.data.gov.au/org/ga> ;
+    schema:dateCreated "2020-11-04"^^xsd:date ;
+    schema:dateModified "2023-09-27"^^xsd:date ;
+    schema:identifier "https://pid.geoscience.gov.au/dataset/ga/150902"^^gavoc:eCatID ;
+    schema:publisher <https://linked.data.gov.au/org/ga> ;
     schema:status astatus:experimental ;
 .

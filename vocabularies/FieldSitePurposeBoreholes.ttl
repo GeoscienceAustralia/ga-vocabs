@@ -3,6 +3,7 @@ PREFIX astatus: <https://linked.data.gov.au/def/reg-statuses/>
 PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/FieldSitePurpose>
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX gavoc: <https://pid.geoscience.gov.au/def/voc/ga/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
@@ -11,6 +12,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :environmental-study
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "A field site to make observations or collect samples for environmental purposes."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "environmental study"@en ;
@@ -19,6 +21,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :geochemistry
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "A field site used to make observations or collect rock or regolith samples for geochemical (including isotopic) analysis."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "geochemistry"@en ;
@@ -27,6 +30,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :geochronology
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "A field site used to determine the age of geological materials."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "geochronology"@en ;
@@ -35,6 +39,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :geological-study
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "A field site from a geological survey, including lithological, stratigraphic, structural, metamorphic, and other geological description."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "geological study"@en ;
@@ -43,6 +48,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :geophysics
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "A field site to make observations about the geophysical properties at that location."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "geophysics"@en ;
@@ -51,6 +57,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :hydrochemistry
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "A field site to make observations or collect samples for hydrochemical analysis."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "hydrochemistry"@en ;
@@ -59,6 +66,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :mineral-resource-appraisal
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "A field site to make observations or collect samples for determining the mineral resource character or potential of an area."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "mineral resource appraisal"@en ;
@@ -67,6 +75,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :multi-purpose-appraisal
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "A field site to make observations or collect samples for multiple purposes. (eg, geological description, geochemical sampling, geochronological sampling, etc)"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "multi-purpose appraisal"@en ;
@@ -75,6 +84,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :natural-resource-management-study
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "A field site used for the purpose of determining the natural resource management aspects of an area."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "natural resource management study"@en ;
@@ -83,6 +93,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :neotectonics
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "A field site to make observations or collect samples for determining the deformation/earthquake history of an area under conditions imposed by the current crustal stress regime."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "neotectonics"@en ;
@@ -91,6 +102,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :petrophysics
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "A field site to make observations or collect samples for rock properties. (eg porosity, permeability, magnetic susceptibility)"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "petrophysics"@en ;
@@ -99,6 +111,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :unknown
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "The field site purpose is unknown"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "unknown"@en ;
@@ -111,7 +124,7 @@ cs:
     dcterms:creator <https://linked.data.gov.au/org/ga> ;
     dcterms:modified "2022-08-04"^^xsd:date ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
-    rdfs:seeAlso <https://pid.geoscience.gov.au/dataset/ga/148553> ;
+    rdfs:seeAlso "https://pid.geoscience.gov.au/dataset/ga/148553"^^xsd:anyURI ;
     owl:versionInfo "1" ;
     skos:definition "The purpose of the field site (eg, geological study, geochemistry, neotectonics)."@en ;
     skos:hasTopConcept
@@ -130,5 +143,6 @@ cs:
     skos:historyNote "Geoscience Australia Field Site Purpose Terms (FGDM. LU-FIELDSITE-PURPOSE)"@en ;
     skos:prefLabel "Field Geology - Field Site Purpose "@en ;
     dcat:contactPoint "Team Lead - Information Services; Minerals, Energy and Groundwater Division" ;
+    schema:identifier "https://pid.geoscience.gov.au/dataset/ga/148553"^^gavoc:eCatID ;
     schema:status astatus:experimental ;
 .
