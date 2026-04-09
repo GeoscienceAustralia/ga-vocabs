@@ -110,7 +110,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 cs:
     a skos:ConceptScheme ;
-    rdfs:seeAlso "https://pid.geoscience.gov.au/dataset/ga/148553"^^xsd:anyURI ;
     owl:versionInfo "1" ;
     skos:definition "A generic list of confidence levels."@en ;
     skos:hasTopConcept

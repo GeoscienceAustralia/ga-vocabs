@@ -142,7 +142,6 @@ cs:
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
     dcterms:subject "online functions"@en ;
     dcterms:title "OnLine Function"@en ;
-    rdfs:seeAlso "https://pid.geoscience.gov.au/dataset/ga/150902"^^xsd:anyURI ;
     owl:versionInfo "v1.0" ;
     skos:definition "OnLine Function Type"@en ;
     skos:hasTopConcept

@@ -70,7 +70,6 @@ unit:MegaYR
 
 cs:
     a skos:ConceptScheme ;
-    rdfs:seeAlso "https://pid.geoscience.gov.au/dataset/ga/150902"^^xsd:anyURI ;
     skos:definition "A vocabulary of Units from the QUDT ontology used by Geoscience Australia."@en ;
     skos:hasTopConcept
         unit:GM ,

@@ -1750,7 +1750,6 @@ Other types of accommodation such as hotels, holiday rentals, hospitals and aged
 
 cs:
     a skos:ConceptScheme ;
-    rdfs:seeAlso "https://pid.geoscience.gov.au/dataset/ga/148603"^^xsd:anyURI ;
     owl:versionIRI :1.0 ;
     skos:definition "This vocabulary is used to describe terms used for climate and disaster risk themes, covering hazard, exposure, vulnerability, impact, climate, weather and geophysical disasters"@en ;
     skos:hasTopConcept

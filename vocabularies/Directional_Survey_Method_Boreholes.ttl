@@ -137,7 +137,6 @@ cs:
     dcterms:modified "2022-08-04"^^xsd:date ;
     dcterms:provenance "Geoscience Australia Directional Survey Method terms (BOREHOLE.LU_DIR_SRVY_METHOD)"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
-    rdfs:seeAlso "https://pid.geoscience.gov.au/dataset/ga/148553"^^xsd:anyURI ;
     owl:versionInfo "1" ;
     skos:definition "A vocabulary of common directional survey methods"@en ;
     skos:hasTopConcept

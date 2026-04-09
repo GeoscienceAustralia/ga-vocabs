@@ -56,7 +56,6 @@ cs:
     dcterms:modified "2202-08-04"^^xsd:date ;
     dcterms:provenance "Geoscience Australia Directional Survey Path Computing Method Terms (BOREHOLE.LU_DIR_SRVY_COMPUTE_METHOD)"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
-    rdfs:seeAlso "https://pid.geoscience.gov.au/dataset/ga/148553"^^xsd:anyURI ;
     owl:versionInfo "1" ;
     skos:definition "Terms to describe the geometric method used to calculate the survey path from the measured survey stations (eg, minimum curvature, offset survey)."@en ;
     skos:hasTopConcept

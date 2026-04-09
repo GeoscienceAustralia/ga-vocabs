@@ -38,7 +38,6 @@ cs:
     dcterms:modified "2022-08-04"^^xsd:date ;
     dcterms:provenance "Geoscience Australia Directional Survey Recording Mode (BOREHOLE.LU_DIR_SRVY_RECORD_MODE)"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
-    rdfs:seeAlso "https://pid.geoscience.gov.au/dataset/ga/148553"^^xsd:anyURI ;
     owl:versionInfo "1" ;
     skos:definition "Terms to describe the recording mode of the survey (eg, single-shot, multi-shot)."@en ;
     skos:hasTopConcept

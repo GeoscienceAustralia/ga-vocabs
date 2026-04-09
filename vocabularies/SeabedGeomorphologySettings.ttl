@@ -3937,7 +3937,6 @@ Cf. FLUVIAL DELTA"""@en ;
 
 cs:
     a skos:ConceptScheme ;
-    rdfs:seeAlso "https://pid.geoscience.gov.au/dataset/ga/150006"^^xsd:anyURI ;
     owl:versionIRI :1.1 ;
     skos:definition """A vocabulary of GEOMORPHIC UNIT terms (Part 2) used in the two-part marine and coastal geomorphology classification scheme (International Seabed Geomorphology Mapping Working Group - ISGM-WG: Part 1 Morphology: [https://doi.org/10.5281/zenodo.4071940](https://doi.org/10.5281/zenodo.4071940); Part 2 Geomorphology: [https://doi.org/10.5281/zenodo.7804019](https://doi.org/10.5281/zenodo.7804019) to classify MORPHOLOGY FEATURES (Part 1) with their process interpretation. These UNIT terms are structured within a consistent framework design that is replicated between eleven SETTING and PROCESS categories.
 

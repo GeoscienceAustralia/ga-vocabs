@@ -50,7 +50,6 @@ cs:
     dcterms:modified "2022-08-04"^^xsd:date ;
     dcterms:provenance "Geoscience Australia Directional Survey Azimuth Terms (BOREHOLE.LU_DIR_SRVY_AZ_TYPE)"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
-    rdfs:seeAlso "https://pid.geoscience.gov.au/dataset/ga/148553"^^xsd:anyURI ;
     owl:versionInfo "1" ;
     skos:definition "The type of North datum used for azimuth measurements (eg, true north, magnetic north, local grid north)."@en ;
     skos:hasTopConcept

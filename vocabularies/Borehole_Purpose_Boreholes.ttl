@@ -201,7 +201,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 cs:
     a skos:ConceptScheme ;
-    rdfs:seeAlso "https://pid.geoscience.gov.au/dataset/ga/148553"^^xsd:anyURI ;
     owl:versionInfo "1" ;
     skos:definition "Purpose or intention for which the borehole was drilled. eg, exploration, development or production, geotechnical. Equivalent to PPDM Business Intention."@en ;
     skos:hasTopConcept

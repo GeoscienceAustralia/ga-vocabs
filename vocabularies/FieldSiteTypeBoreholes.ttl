@@ -132,7 +132,6 @@ cs:
     dcterms:creator <https://linked.data.gov.au/org/ga> ;
     dcterms:modified "2022-08-04"^^xsd:date ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
-    rdfs:seeAlso "https://pid.geoscience.gov.au/dataset/ga/148553"^^xsd:anyURI ;
     owl:versionInfo "1" ;
     skos:definition "A site on the Earth, generally visited in the field from a particular geoscientific perspective. A field site type is defined by the information collected regarding rock, regolith, water, landform, or vegetation."@en ;
     skos:hasTopConcept

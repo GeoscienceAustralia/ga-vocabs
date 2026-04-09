@@ -887,7 +887,6 @@ cs:
     dcterms:creator <https://linked.data.gov.au/org/ga> ;
     dcterms:modified "2022-08-09"^^xsd:date ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
-    rdfs:seeAlso "https://pid.geoscience.gov.au/dataset/ga/148553"^^xsd:anyURI ;
     owl:versionInfo "1" ;
     skos:definition "A vocabulary of landform types used in GA Boreholes database. Reference Pain CF, 2008. Field Guide for Describing Regolith and Landforms. ISBN 978-0-9806030-0-2."@en ;
     skos:hasTopConcept

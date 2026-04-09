@@ -5423,7 +5423,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 cs:
     a skos:ConceptScheme ;
-    rdfs:seeAlso "https://pid.geoscience.gov.au/dataset/ga/146414"^^xsd:anyURI ;
     owl:versionInfo "1.6" ;
     skos:definition "GA Country Codes are the ISO3166 compliant country codes used by GA database custodians for reference. This list is NOT complete and is maintained semi-regularly so there will be updates made in the ISO3166 that will not be reflected in this vocabulary. The controlled ISO3166 list is found here https://www.iso.org/obp/ui "@en ;
     skos:hasTopConcept

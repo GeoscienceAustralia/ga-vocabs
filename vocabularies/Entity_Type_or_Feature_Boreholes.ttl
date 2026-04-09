@@ -360,7 +360,6 @@ cs:
     dcterms:modified "2022-08-04"^^xsd:date ;
     dcterms:provenance "Geoscience Australia Entity Type or Feature (A.ENTITY_TYPES)"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
-    rdfs:seeAlso "https://pid.geoscience.gov.au/dataset/ga/148553"^^xsd:anyURI ;
     owl:versionInfo "1" ;
     skos:definition "Type of entity or feature. (eg, measured section, borehole, field site)."@en ;
     skos:hasTopConcept

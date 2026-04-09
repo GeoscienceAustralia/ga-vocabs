@@ -770,7 +770,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 cs:
     a skos:ConceptScheme ;
-    rdfs:seeAlso "https://pid.geoscience.gov.au/dataset/ga/150902"^^xsd:anyURI ;
     owl:versionIRI :1.4 ;
     skos:definition "This vocab is developed to enable the selection of Web Service protocols from a controlled list, rather than creating free text descriptions of protocols within the ISO19115-1 geospatial metadata standard.  "@en ;
     skos:hasTopConcept

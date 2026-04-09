@@ -182,7 +182,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 cs:
     a skos:ConceptScheme ;
-    rdfs:seeAlso "https://pid.geoscience.gov.au/dataset/ga/148553"^^xsd:anyURI ;
     owl:versionInfo "1" ;
     skos:definition "Describes the type of material used in downhole construction in a borehole (eg, PVC, steel, cement)."@en ;
     skos:hasTopConcept

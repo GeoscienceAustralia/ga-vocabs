@@ -35,7 +35,6 @@ cs:
     dcterms:modified "2022-08-04"^^xsd:date ;
     dcterms:provenance "Geoscience Australia Directional Survey Class (BOREHOLE.LU_DIR_SRVY_CLASS)"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
-    rdfs:seeAlso "https://pid.geoscience.gov.au/dataset/ga/148553"^^xsd:anyURI ;
     owl:versionInfo "1" ;
     skos:definition "Terms to denote whether the directional survey is comprised of azimuth and inclination measurements, or only inclination measurements."@en ;
     skos:hasTopConcept

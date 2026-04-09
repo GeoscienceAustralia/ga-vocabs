@@ -116,7 +116,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 cs:
     a skos:ConceptScheme ;
-    rdfs:seeAlso "https://pid.geoscience.gov.au/dataset/ga/148553"^^xsd:anyURI ;
     owl:versionIRI :1.0 ;
     skos:definition "Terms that describe the mining waste structure."@en ;
     skos:hasTopConcept

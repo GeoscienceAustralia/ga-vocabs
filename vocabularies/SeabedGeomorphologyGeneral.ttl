@@ -302,7 +302,6 @@ Cf. MORPHOMETRICS."""@en ;
 
 cs:
     a skos:ConceptScheme ;
-    rdfs:seeAlso "https://pid.geoscience.gov.au/dataset/ga/150006"^^xsd:anyURI ;
     owl:versionIRI :1.0 ;
     skos:definition """A vocabulary of general terms used in the two-part marine and coastal geomorphology classification scheme (International Seabed Geomorphology Mapping Working Group - ISGM-WG: Part 1 Morphology: [https://doi.org/10.5281/zenodo.4071940](https://doi.org/10.5281/zenodo.4071940); Part 2 Geomorphology: [https://doi.org/10.5281/zenodo.7804019](https://doi.org/10.5281/zenodo.7804019)).
 

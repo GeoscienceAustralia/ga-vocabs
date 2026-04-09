@@ -181,7 +181,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 cs:
     a skos:ConceptScheme ;
-    rdfs:seeAlso "https://pid.geoscience.gov.au/dataset/ga/147628"^^xsd:anyURI ;
     owl:versionInfo "1.5" ;
     skos:definition "This is a SKOS vocabulary version of the ISO19115-1 standard's AssociationType code list with code list extensions described in the GA Profile document http://pid.geoscience.gov.au/dataset/ga/122551."@en ;
     skos:hasTopConcept

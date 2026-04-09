@@ -146,7 +146,6 @@ cs:
     dcterms:modified "2022-08-09"^^xsd:date ;
     dcterms:provenance "Geoscience Australia Statistical Uncertainty Type (ROCKPROPS.LU_UNCERTAINTYTYPE)"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
-    rdfs:seeAlso "https://pid.geoscience.gov.au/dataset/ga/148553"^^xsd:anyURI ;
     owl:versionInfo "1" ;
     skos:definition "The type of statistical uncertainty for rock property measurements (e.g. 1 sigma, 2 sigma, 99 percent confidence, unknown)."@en ;
     skos:hasTopConcept

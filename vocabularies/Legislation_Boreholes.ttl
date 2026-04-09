@@ -127,7 +127,6 @@ cs:
     dcterms:modified "2022-08-09"^^xsd:date ;
     dcterms:provenance "Geoscience Australia Legislation (BOREHOLE.LU_LEGISLATION)"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
-    rdfs:seeAlso "https://pid.geoscience.gov.au/dataset/ga/148553"^^xsd:anyURI ;
     owl:versionInfo "1" ;
     skos:definition "Legislative or administrative frameworks under which drilling is performed."@en ;
     skos:hasTopConcept
