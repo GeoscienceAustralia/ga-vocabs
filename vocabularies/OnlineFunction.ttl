@@ -2,7 +2,6 @@ PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/OnlineFunctions/>
 PREFIX astatus: <https://linked.data.gov.au/def/reg-statuses/>
 PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/OnlineFunctions>
 PREFIX gavoc: <https://pid.geoscience.gov.au/def/voc/ga/>
-PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -116,7 +115,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "upload"@en ;
     skos:topConceptOf cs: ;
     schema:citation "ISO19115-1:2014"@en ;
-    schema:dateModified "2018-12-12"^^xsd:date ;
 .
 
 :information
@@ -132,7 +130,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 cs:
     a skos:ConceptScheme ;
-    owl:versionInfo "v1.0" ;
     skos:definition "This vocabulary is an extension to the ISO19115-1 standard's OnLine Function Code list. It includes additional terms implemented by Geoscience Australia to allow for online functions not included in the original codelist. An example of an extension term in this vocabulary is \"provenance query service\" which, in the SKOS structure of this vocabulary, is given as a narrower concept of the \"information\" concept which is one of the original ISO19115-1 concepts. An object indicated as having an online function of a \"provenance query service\" should be understood to perform a specialised form of an \"information\" function by allowing provenance querying. Further details are given in the term's description."@en ;
     skos:hasTopConcept
         :browseGraphic ,
@@ -151,8 +148,9 @@ cs:
     schema:creator <https://linked.data.gov.au/org/ga> ;
     schema:dateCreated "2017-05-11"^^xsd:date ;
     schema:dateIssued "2018-12-12"^^xsd:date ;
-    schema:dateModified "2023-07-26"^^xsd:date ;
+    schema:dateModified "2026-04-09"^^xsd:date ;
     schema:identifier "https://pid.geoscience.gov.au/dataset/ga/150902"^^gavoc:eCatID ;
     schema:publisher <https://linked.data.gov.au/org/ga> ;
     schema:status astatus:experimental ;
+    schema:version "1.0" ;
 .

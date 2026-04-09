@@ -3,7 +3,6 @@ PREFIX astatus: <https://linked.data.gov.au/def/reg-statuses/>
 PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/HazardAndRisk>
 PREFIX gavoc: <https://pid.geoscience.gov.au/def/voc/ga/>
 PREFIX isoroles: <https://linked.data.gov.au/def/data-roles/>
-PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX prov: <http://www.w3.org/ns/prov#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
@@ -1750,7 +1749,6 @@ Other types of accommodation such as hotels, holiday rentals, hospitals and aged
 
 cs:
     a skos:ConceptScheme ;
-    owl:versionIRI :1.0 ;
     skos:definition "This vocabulary is used to describe terms used for climate and disaster risk themes, covering hazard, exposure, vulnerability, impact, climate, weather and geophysical disasters"@en ;
     skos:hasTopConcept
         :abnormally_high_tide ,
@@ -1910,7 +1908,7 @@ cs:
         ] ;
     schema:creator <https://linked.data.gov.au/org/ga> ;
     schema:dateCreated "2022-05-25"^^xsd:date ;
-    schema:dateModified "2022-05-25"^^xsd:date ;
+    schema:dateModified "2026-04-09"^^xsd:date ;
     schema:identifier "https://pid.geoscience.gov.au/dataset/ga/148603"^^gavoc:eCatID ;
     schema:publisher <https://linked.data.gov.au/org/ga> ;
     schema:status astatus:experimental ;

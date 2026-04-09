@@ -3,7 +3,6 @@ PREFIX astatus: <https://linked.data.gov.au/def/reg-statuses/>
 PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/LandformTypes>
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX gavoc: <https://pid.geoscience.gov.au/def/voc/ga/>
-PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -882,7 +881,6 @@ channels as on a pediment."""@en ;
 
 cs:
     a skos:ConceptScheme ;
-    owl:versionInfo "1" ;
     skos:definition "A vocabulary of landform types used in GA Boreholes database. Reference Pain CF, 2008. Field Guide for Describing Regolith and Landforms. ISBN 978-0-9806030-0-2."@en ;
     skos:hasTopConcept
         :aeolian-landforms ,
@@ -905,8 +903,9 @@ cs:
     dcat:contactPoint "Team Lead - Information Services; Energy, Minerals and Groundwater Divison " ;
     schema:creator <https://linked.data.gov.au/org/ga> ;
     schema:dateCreated "2022-08-09"^^xsd:date ;
-    schema:dateModified "2022-08-09"^^xsd:date ;
+    schema:dateModified "2026-04-09"^^xsd:date ;
     schema:identifier "https://pid.geoscience.gov.au/dataset/ga/148553"^^gavoc:eCatID ;
     schema:publisher <https://linked.data.gov.au/org/ga> ;
     schema:status astatus:experimental ;
+    schema:version "1" ;
 .
