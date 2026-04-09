@@ -2,7 +2,6 @@ PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/ProportionTerms/>
 PREFIX astatus: <https://linked.data.gov.au/def/reg-statuses/>
 PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/ProportionTerms>
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
-PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX gavoc: <https://pid.geoscience.gov.au/def/voc/ga/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -120,10 +119,10 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 cs:
     a skos:ConceptScheme ;
-    dcterms:created "2022-08-09"^^xsd:date ;
-    dcterms:creator <https://linked.data.gov.au/org/ga> ;
-    dcterms:modified "2022-08-09"^^xsd:date ;
-    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    schema:created "2022-08-09"^^xsd:date ;
+    schema:creator <https://linked.data.gov.au/org/ga> ;
+    schema:dateModified "2022-08-09"^^xsd:date ;
+    schema:publisher <https://linked.data.gov.au/org/ga> ;
     owl:versionInfo "1" ;
     skos:definition "The proportion of an observed or sampled feature that is comprised by one or more earth materials. The vocabulary also provides approximate numeric percent ranges that correspond to the qualitative terms"@en ;
     skos:hasTopConcept

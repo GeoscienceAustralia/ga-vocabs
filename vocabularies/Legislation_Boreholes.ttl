@@ -2,7 +2,6 @@ PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/Legislation/>
 PREFIX astatus: <https://linked.data.gov.au/def/reg-statuses/>
 PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/Legislation>
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
-PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX gavoc: <https://pid.geoscience.gov.au/def/voc/ga/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -12,7 +11,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :anpm
     a skos:Concept ;
-    dcterms:provenance "http://www.anpm.tl/"@en ;
+    schema:citation "http://www.anpm.tl/"@en ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Autoridade Nacional do Petróleo e Minerais (ANPM)"@en ;
     skos:inScheme cs: ;
@@ -103,7 +102,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :unknown
     a skos:Concept ;
-    dcterms:provenance "http://www.opengis.net/def/nil/OGC/0/unknown"@en ;
+    schema:citation "http://www.opengis.net/def/nil/OGC/0/unknown"@en ;
     rdfs:isDefinedBy cs: ;
     skos:definition "The legislation under which the drilling was conducted is not known."@en ;
     skos:inScheme cs: ;
@@ -122,11 +121,11 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 cs:
     a skos:ConceptScheme ;
-    dcterms:created "2022-08-09"^^xsd:date ;
-    dcterms:creator <https://linked.data.gov.au/org/ga> ;
-    dcterms:modified "2022-08-09"^^xsd:date ;
-    dcterms:provenance "Geoscience Australia Legislation (BOREHOLE.LU_LEGISLATION)"@en ;
-    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    schema:created "2022-08-09"^^xsd:date ;
+    schema:creator <https://linked.data.gov.au/org/ga> ;
+    schema:dateModified "2022-08-09"^^xsd:date ;
+    schema:citation "Geoscience Australia Legislation (BOREHOLE.LU_LEGISLATION)"@en ;
+    schema:publisher <https://linked.data.gov.au/org/ga> ;
     owl:versionInfo "1" ;
     skos:definition "Legislative or administrative frameworks under which drilling is performed."@en ;
     skos:hasTopConcept

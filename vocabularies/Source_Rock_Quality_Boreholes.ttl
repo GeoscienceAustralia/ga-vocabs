@@ -2,7 +2,6 @@ PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/SourceRockQuality/>
 PREFIX astatus: <https://linked.data.gov.au/def/reg-statuses/>
 PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/SourceRockQuality>
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
-PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX gavoc: <https://pid.geoscience.gov.au/def/voc/ga/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -12,7 +11,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :effectiveSourceRock
     a skos:Concept ;
-    dcterms:identifier "effectiveSourceRock"^^xsd:token ;
+    schema:identifier "effectiveSourceRock"^^xsd:token ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel "ESR"@en ;
     skos:definition "An organic-rich rock that is presently generating and has expelled hydrocarbons"@en ;
@@ -23,7 +22,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :notASourceRock
     a skos:Concept ;
-    dcterms:identifier "notASourceRock"^^xsd:token ;
+    schema:identifier "notASourceRock"^^xsd:token ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel "NSR"@en ;
     skos:definition "A sedimentary rock that does not contain enough carbon-rich and hydrogen-rich organic matter to generate hydrocarbons"@en ;
@@ -34,7 +33,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :notAssessed
     a skos:Concept ;
-    dcterms:identifier "notAssessed"^^xsd:token ;
+    schema:identifier "notAssessed"^^xsd:token ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel "NA"@en ;
     skos:definition "Data has not been assessed for source rock quality"@en ;
@@ -45,7 +44,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :potentialSourceRock
     a skos:Concept ;
-    dcterms:identifier "potentialSourceRock"^^xsd:token ;
+    schema:identifier "potentialSourceRock"^^xsd:token ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel "PSR"@en ;
     skos:definition "A sedimentary rock that contains enough carbon-rich and hydrogen-rich organic matter to generate and expel hydrocarbons upon maturation"@en ;
@@ -56,7 +55,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :relicEffectiveSourceRock
     a skos:Concept ;
-    dcterms:identifier "relicEffectiveSourceRock"^^xsd:token ;
+    schema:identifier "relicEffectiveSourceRock"^^xsd:token ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel "RESR"@en ;
     skos:definition "An effective source rock which has ceased to generate and expel hydrocabrons due to thermal cooling (uplift) before exhausting its organic matter supply"@en ;
@@ -67,7 +66,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :spentSourceRock
     a skos:Concept ;
-    dcterms:identifier "spentSourceRock"^^xsd:token ;
+    schema:identifier "spentSourceRock"^^xsd:token ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel "SSR"@en ;
     skos:definition "An active source rock which has exhausted its ability to generate and expel hydrocarbons either through insufficient remaining organic matter or due to reaching overmaturity"@en ;
@@ -78,12 +77,11 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 cs:
     a skos:ConceptScheme ;
-    dcterms:created "2022-08-09"^^xsd:date ;
-    dcterms:creator <https://linked.data.gov.au/org/ga> ;
-    dcterms:identifier "SourceRockQuality"^^xsd:token ;
-    dcterms:modified "2022-08-09"^^xsd:date ;
-    dcterms:provenance "Geoscience Australia Source Rock Quality (ORGCHEM.LU_SOURCE_ROCK_QUALITY)"@en ;
-    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    schema:created "2022-08-09"^^xsd:date ;
+    schema:creator <https://linked.data.gov.au/org/ga> ;
+    schema:dateModified "2022-08-09"^^xsd:date ;
+    schema:citation "Geoscience Australia Source Rock Quality (ORGCHEM.LU_SOURCE_ROCK_QUALITY)"@en ;
+    schema:publisher <https://linked.data.gov.au/org/ga> ;
     owl:versionInfo "1" ;
     skos:definition "The quality of source rock from which organic chemistry samples were obtained."@en ;
     skos:hasTopConcept

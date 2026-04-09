@@ -2,7 +2,6 @@ PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType/>
 PREFIX astatus: <https://linked.data.gov.au/def/reg-statuses/>
 PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType>
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
-PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX gavoc: <https://pid.geoscience.gov.au/def/voc/ga/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -759,11 +758,11 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 cs:
     a skos:ConceptScheme ;
-    dcterms:created "2022-08-09"^^xsd:date ;
-    dcterms:creator <https://linked.data.gov.au/org/ga> ;
-    dcterms:modified "2022-08-09"^^xsd:date ;
-    dcterms:provenance "Geoscience Australia Sample Type (A.LU_SAMPLE_TYPE)"@en ;
-    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    schema:created "2022-08-09"^^xsd:date ;
+    schema:creator <https://linked.data.gov.au/org/ga> ;
+    schema:dateModified "2022-08-09"^^xsd:date ;
+    schema:citation "Geoscience Australia Sample Type (A.LU_SAMPLE_TYPE)"@en ;
+    schema:publisher <https://linked.data.gov.au/org/ga> ;
     owl:versionInfo "1" ;
     skos:definition "The form, shape, purpose, or environment of a collected specimen or observation. Where possible the sample type description is independent of the material that comprises the specimen (eg, rock, oil, sand), or the sampling method (eg, drilling, dredging), but in practice it is not always possible or convenient to completely separate these concepts from the sample type (eg, water column specimen)."@en ;
     skos:hasTopConcept

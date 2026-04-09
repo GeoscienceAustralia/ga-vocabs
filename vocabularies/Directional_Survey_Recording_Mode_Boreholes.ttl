@@ -2,7 +2,6 @@ PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyRecordingMod
 PREFIX astatus: <https://linked.data.gov.au/def/reg-statuses/>
 PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyRecordingMode>
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
-PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX gavoc: <https://pid.geoscience.gov.au/def/voc/ga/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -12,7 +11,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :multiShot
     a skos:Concept ;
-    dcterms:identifier "multiShot"^^xsd:token ;
+    schema:identifier "multiShot"^^xsd:token ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Multi-shot recording mode of survey"@en ;
     skos:inScheme cs: ;
@@ -22,7 +21,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :singleShot
     a skos:Concept ;
-    dcterms:identifier "singleShot"^^xsd:token ;
+    schema:identifier "singleShot"^^xsd:token ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Single-shot recording mode of survey"@en ;
     skos:inScheme cs: ;
@@ -32,12 +31,11 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 cs:
     a skos:ConceptScheme ;
-    dcterms:created "2022-08-04"^^xsd:date ;
-    dcterms:creator <https://linked.data.gov.au/org/ga> ;
-    dcterms:identifier "DirectionalSurveyRecordingMode"^^xsd:token ;
-    dcterms:modified "2022-08-04"^^xsd:date ;
-    dcterms:provenance "Geoscience Australia Directional Survey Recording Mode (BOREHOLE.LU_DIR_SRVY_RECORD_MODE)"@en ;
-    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    schema:created "2022-08-04"^^xsd:date ;
+    schema:creator <https://linked.data.gov.au/org/ga> ;
+    schema:dateModified "2022-08-04"^^xsd:date ;
+    schema:citation "Geoscience Australia Directional Survey Recording Mode (BOREHOLE.LU_DIR_SRVY_RECORD_MODE)"@en ;
+    schema:publisher <https://linked.data.gov.au/org/ga> ;
     owl:versionInfo "1" ;
     skos:definition "Terms to describe the recording mode of the survey (eg, single-shot, multi-shot)."@en ;
     skos:hasTopConcept
