@@ -229,8 +229,7 @@ cs:
     schema:creator <https://linked.data.gov.au/org/ga> ;
     schema:dateCreated "2022-08-09"^^xsd:date ;
     schema:dateModified "2022-08-09"^^xsd:date ;
-    schema:identifier
-        "https://pid.geoscience.gov.au/dataset/ga/148553"^^gavoc:eCatID ;
+    schema:identifier "https://pid.geoscience.gov.au/dataset/ga/148553"^^gavoc:eCatID ;
     schema:publisher <https://linked.data.gov.au/org/ga> ;
     schema:status astatus:experimental ;
 .

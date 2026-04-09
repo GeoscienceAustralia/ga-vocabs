@@ -29,12 +29,12 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :country
     a skos:Concept ;
-    schema:citation "See GA Country Codes vocab"@en ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Country name (ISO 3166-1998 Code for the representation of names of countries)"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "country"@en ;
     skos:topConceptOf cs: ;
+    schema:citation "See GA Country Codes vocab"@en ;
 .
 
 :emitter
@@ -354,11 +354,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 cs:
     a skos:ConceptScheme ;
-    schema:created "2022-08-04"^^xsd:date ;
-    schema:creator <https://linked.data.gov.au/org/ga> ;
-    schema:dateModified "2022-08-04"^^xsd:date ;
-    schema:citation "Geoscience Australia Entity Type or Feature (A.ENTITY_TYPES)"@en ;
-    schema:publisher <https://linked.data.gov.au/org/ga> ;
     owl:versionInfo "1" ;
     skos:definition "Type of entity or feature. (eg, measured section, borehole, field site)."@en ;
     skos:hasTopConcept
@@ -402,6 +397,11 @@ cs:
         :wildcatLocation ;
     skos:prefLabel "General Geology - Entity or Feature Type"@en ;
     dcat:contactPoint "Team Lead - Information Services; Minerals, Energy and Groundwater Division " ;
+    schema:citation "Geoscience Australia Entity Type or Feature (A.ENTITY_TYPES)"@en ;
+    schema:creator <https://linked.data.gov.au/org/ga> ;
+    schema:dateCreated "2022-08-04"^^xsd:date ;
+    schema:dateModified "2022-08-04"^^xsd:date ;
     schema:identifier "https://pid.geoscience.gov.au/dataset/ga/148553"^^gavoc:eCatID ;
+    schema:publisher <https://linked.data.gov.au/org/ga> ;
     schema:status astatus:experimental ;
 .

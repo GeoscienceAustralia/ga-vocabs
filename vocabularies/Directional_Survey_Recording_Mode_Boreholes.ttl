@@ -11,31 +11,26 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :multiShot
     a skos:Concept ;
-    schema:identifier "multiShot"^^xsd:token ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Multi-shot recording mode of survey"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "multi-shot"@en ;
     skos:topConceptOf cs: ;
+    schema:identifier "multiShot"^^xsd:token ;
 .
 
 :singleShot
     a skos:Concept ;
-    schema:identifier "singleShot"^^xsd:token ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Single-shot recording mode of survey"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "single-shot"@en ;
     skos:topConceptOf cs: ;
+    schema:identifier "singleShot"^^xsd:token ;
 .
 
 cs:
     a skos:ConceptScheme ;
-    schema:created "2022-08-04"^^xsd:date ;
-    schema:creator <https://linked.data.gov.au/org/ga> ;
-    schema:dateModified "2022-08-04"^^xsd:date ;
-    schema:citation "Geoscience Australia Directional Survey Recording Mode (BOREHOLE.LU_DIR_SRVY_RECORD_MODE)"@en ;
-    schema:publisher <https://linked.data.gov.au/org/ga> ;
     owl:versionInfo "1" ;
     skos:definition "Terms to describe the recording mode of the survey (eg, single-shot, multi-shot)."@en ;
     skos:hasTopConcept
@@ -43,6 +38,11 @@ cs:
         :singleShot ;
     skos:prefLabel "Borehole Geology - Directional Survey Recording Mode "@en ;
     dcat:contactPoint "Team Lead - Information Services; Minerals, Energy and Groundwater Division" ;
+    schema:citation "Geoscience Australia Directional Survey Recording Mode (BOREHOLE.LU_DIR_SRVY_RECORD_MODE)"@en ;
+    schema:creator <https://linked.data.gov.au/org/ga> ;
+    schema:dateCreated "2022-08-04"^^xsd:date ;
+    schema:dateModified "2022-08-04"^^xsd:date ;
     schema:identifier "https://pid.geoscience.gov.au/dataset/ga/148553"^^gavoc:eCatID ;
+    schema:publisher <https://linked.data.gov.au/org/ga> ;
     schema:status astatus:experimental ;
 .

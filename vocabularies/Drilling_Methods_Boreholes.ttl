@@ -200,12 +200,12 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :unknown
     a skos:Concept ;
-    schema:citation "http://www.opengis.net/def/nil/OGC/0/unknown"@en ;
     rdfs:isDefinedBy cs: ;
     skos:definition "The method of drilling is unknown"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "unknown"@en ;
     skos:topConceptOf cs: ;
+    schema:citation "http://www.opengis.net/def/nil/OGC/0/unknown"@en ;
 .
 
 :coreDiamond
@@ -245,11 +245,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 cs:
     a skos:ConceptScheme ;
-    schema:created "2022-08-04"^^xsd:date ;
-    schema:creator <https://linked.data.gov.au/org/ga> ;
-    schema:dateModified "2022-08-04"^^xsd:date ;
-    schema:citation "Geoscience Australia Drilling Methods (BOREHOLE.LU_DRILLING_METHODS)"@en ;
-    schema:publisher <https://linked.data.gov.au/org/ga> ;
     owl:versionInfo "1" ;
     skos:definition "Method of drilling."@en ;
     skos:hasTopConcept
@@ -274,6 +269,11 @@ cs:
         :unknown ;
     skos:prefLabel "Borehole Geology - Drilling Methods"@en ;
     dcat:contactPoint "Team Lead - Information Services; Minerals, Energy and Groundwater Division" ;
+    schema:citation "Geoscience Australia Drilling Methods (BOREHOLE.LU_DRILLING_METHODS)"@en ;
+    schema:creator <https://linked.data.gov.au/org/ga> ;
+    schema:dateCreated "2022-08-04"^^xsd:date ;
+    schema:dateModified "2022-08-04"^^xsd:date ;
     schema:identifier "https://pid.geoscience.gov.au/dataset/ga/148553"^^gavoc:eCatID ;
+    schema:publisher <https://linked.data.gov.au/org/ga> ;
     schema:status astatus:experimental ;
 .

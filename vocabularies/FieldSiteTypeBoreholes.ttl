@@ -11,97 +11,96 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :open-cut-mine
     a skos:Concept ;
-    schema:identifier "open-cut-mine"^^xsd:token ;
     rdfs:isDefinedBy cs: ;
     skos:broader :mine ;
     skos:definition "Open cut (open pit, open cast) mine workings."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "open cut mine"@en ;
+    schema:identifier "open-cut-mine"^^xsd:token ;
 .
 
 :outcrop
     a skos:Concept ;
-    schema:identifier "outcrop"^^xsd:token ;
     rdfs:isDefinedBy cs: ;
     skos:broader :natural-land-surface ;
     skos:definition "An exposure of rock at the Earth surface."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "outcrop"@en ;
+    schema:identifier "outcrop"^^xsd:token ;
 .
 
 :regolith-site
     a skos:Concept ;
-    schema:identifier "regolith-site"^^xsd:token ;
     rdfs:isDefinedBy cs: ;
     skos:broader :natural-land-surface ;
     skos:definition "A field site for observation or sampling of unconsolidated regolith material."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "regolith site"@en ;
+    schema:identifier "regolith-site"^^xsd:token ;
 .
 
 :sea-floor
     a skos:Concept ;
-    schema:identifier "sea-floor"^^xsd:token ;
     rdfs:isDefinedBy cs: ;
     skos:definition "A location on the sea floor."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "sea floor"@en ;
     skos:topConceptOf cs: ;
+    schema:identifier "sea-floor"^^xsd:token ;
 .
 
 :spring
     a skos:Concept ;
-    schema:identifier "spring"^^xsd:token ;
     rdfs:isDefinedBy cs: ;
     skos:definition "A natural site where water flows from an aquifer to the Earth's surface."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "spring"@en ;
     skos:topConceptOf cs: ;
+    schema:identifier "spring"^^xsd:token ;
 .
 
 :underground-mine
     a skos:Concept ;
-    schema:identifier "underground-mine"^^xsd:token ;
     rdfs:isDefinedBy cs: ;
     skos:broader :mine ;
     skos:definition "Underground mine workings."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "underground mine"@en ;
+    schema:identifier "underground-mine"^^xsd:token ;
 .
 
 :unknown
     a skos:Concept ;
-    schema:identifier "unknown"^^xsd:token ;
     rdfs:isDefinedBy cs: ;
     skos:definition "The type of field site is unknown or unspecified."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "unknown"@en ;
     skos:topConceptOf cs: ;
+    schema:identifier "unknown"^^xsd:token ;
 .
 
 :water-site
     a skos:Concept ;
-    schema:identifier "water-site"^^xsd:token ;
     rdfs:isDefinedBy cs: ;
     skos:definition "A field site where water is collected at the Earth surface. The origin of the water may be unclear."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "water site"@en ;
     skos:topConceptOf cs: ;
+    schema:identifier "water-site"^^xsd:token ;
 .
 
 :watercourse
     a skos:Concept ;
-    schema:identifier "watercourse"^^xsd:token ;
     rdfs:isDefinedBy cs: ;
     skos:definition "A field site located in a stream or river course, either as a dry bed or with running water."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "watercourse"@en ;
     skos:topConceptOf cs: ;
+    schema:identifier "watercourse"^^xsd:token ;
 .
 
 :mine
     a skos:Concept ;
-    schema:identifier "mine"^^xsd:token ;
     rdfs:isDefinedBy cs: ;
     skos:definition "An exposure at an open cut or underground mine site."@en ;
     skos:inScheme cs: ;
@@ -110,11 +109,11 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         :underground-mine ;
     skos:prefLabel "mine"@en ;
     skos:topConceptOf cs: ;
+    schema:identifier "mine"^^xsd:token ;
 .
 
 :natural-land-surface
     a skos:Concept ;
-    schema:identifier "natural-land-surface"^^xsd:token ;
     rdfs:isDefinedBy cs: ;
     skos:definition "Natural land surface"@en ;
     skos:inScheme cs: ;
@@ -123,14 +122,11 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         :regolith-site ;
     skos:prefLabel "natural land surface"@en ;
     skos:topConceptOf cs: ;
+    schema:identifier "natural-land-surface"^^xsd:token ;
 .
 
 cs:
     a skos:ConceptScheme ;
-    schema:created "2022-08-04"^^xsd:date ;
-    schema:creator <https://linked.data.gov.au/org/ga> ;
-    schema:dateModified "2022-08-04"^^xsd:date ;
-    schema:publisher <https://linked.data.gov.au/org/ga> ;
     owl:versionInfo "1" ;
     skos:definition "A site on the Earth, generally visited in the field from a particular geoscientific perspective. A field site type is defined by the information collected regarding rock, regolith, water, landform, or vegetation."@en ;
     skos:hasTopConcept
@@ -144,6 +140,10 @@ cs:
     skos:historyNote "Geoscience Australia Field Site Types (FGMD. LU-FIELDSITE-TYPE)"@en ;
     skos:prefLabel "Field Geology - Field Site Type"@en ;
     dcat:contactPoint "Team Lead - Information Services; Minerals, Energy and Groundwater Division " ;
+    schema:creator <https://linked.data.gov.au/org/ga> ;
+    schema:dateCreated "2022-08-04"^^xsd:date ;
+    schema:dateModified "2022-08-04"^^xsd:date ;
     schema:identifier "https://pid.geoscience.gov.au/dataset/ga/148553"^^gavoc:eCatID ;
+    schema:publisher <https://linked.data.gov.au/org/ga> ;
     schema:status astatus:experimental ;
 .

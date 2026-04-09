@@ -119,10 +119,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 cs:
     a skos:ConceptScheme ;
-    schema:created "2022-08-09"^^xsd:date ;
-    schema:creator <https://linked.data.gov.au/org/ga> ;
-    schema:dateModified "2022-08-09"^^xsd:date ;
-    schema:publisher <https://linked.data.gov.au/org/ga> ;
     owl:versionInfo "1" ;
     skos:definition "The proportion of an observed or sampled feature that is comprised by one or more earth materials. The vocabulary also provides approximate numeric percent ranges that correspond to the qualitative terms"@en ;
     skos:hasTopConcept
@@ -139,6 +135,10 @@ cs:
     skos:historyNote "Geoscience Australia Proportion Terms (FGDM.LU_PROPORTION_TERMS)"@en ;
     skos:prefLabel "Field Geology - Proportion Terms "@en ;
     dcat:contactPoint "Team Lead - Information Services; Energy, Minerals and Groundwater Division" ;
+    schema:creator <https://linked.data.gov.au/org/ga> ;
+    schema:dateCreated "2022-08-09"^^xsd:date ;
+    schema:dateModified "2022-08-09"^^xsd:date ;
     schema:identifier "https://pid.geoscience.gov.au/dataset/ga/148553"^^gavoc:eCatID ;
+    schema:publisher <https://linked.data.gov.au/org/ga> ;
     schema:status astatus:experimental ;
 .

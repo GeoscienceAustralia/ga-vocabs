@@ -29,11 +29,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 cs:
     a skos:ConceptScheme ;
-    schema:created "2022-08-04"^^xsd:date ;
-    schema:creator <https://linked.data.gov.au/org/ga> ;
-    schema:dateModified "2022-08-04"^^xsd:date ;
-    schema:citation "Geoscience Australia Directional Survey Class (BOREHOLE.LU_DIR_SRVY_CLASS)"@en ;
-    schema:publisher <https://linked.data.gov.au/org/ga> ;
     owl:versionInfo "1" ;
     skos:definition "Terms to denote whether the directional survey is comprised of azimuth and inclination measurements, or only inclination measurements."@en ;
     skos:hasTopConcept
@@ -41,6 +36,11 @@ cs:
         :inclinationOnly ;
     skos:prefLabel "Borehole Geology - Directional Survey Class"@en ;
     dcat:contactPoint "Team Lead - Information Services; Minerals, Energy and Groundwater Division" ;
+    schema:citation "Geoscience Australia Directional Survey Class (BOREHOLE.LU_DIR_SRVY_CLASS)"@en ;
+    schema:creator <https://linked.data.gov.au/org/ga> ;
+    schema:dateCreated "2022-08-04"^^xsd:date ;
+    schema:dateModified "2022-08-04"^^xsd:date ;
     schema:identifier "https://pid.geoscience.gov.au/dataset/ga/148553"^^gavoc:eCatID ;
+    schema:publisher <https://linked.data.gov.au/org/ga> ;
     schema:status astatus:experimental ;
 .

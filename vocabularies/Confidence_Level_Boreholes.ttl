@@ -124,10 +124,10 @@ cs:
         :veryLow ;
     skos:prefLabel "General Geology - Confidence Level "@en ;
     dcat:contactPoint "Team Lead - Information Services; Energy, Minerals and Groundwater Division" ;
-    schema:dateCreated "2022-08-11"^^xsd:date ;
     schema:creator <https://linked.data.gov.au/org/ga> ;
-    schema:identifier "https://pid.geoscience.gov.au/dataset/ga/148553"^^gavoc:eCatID ;
+    schema:dateCreated "2022-08-11"^^xsd:date ;
     schema:dateModified "2022-08-11"^^xsd:date ;
+    schema:identifier "https://pid.geoscience.gov.au/dataset/ga/148553"^^gavoc:eCatID ;
     schema:provenance "Geoscience Australia Confidence Level (VOCABULARY.CONFIDENCE"@en ;
     schema:publisher <https://linked.data.gov.au/org/ga> ;
     schema:status astatus:experimental ;
