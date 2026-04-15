@@ -647,3 +647,44 @@ schema:url
     schema:name "Geoscience Australia" ;
     schema:url "http://www.ga.gov.au"^^xsd:anyURI ;
 .
+
+prov:hadRole
+    schema:description "The _optional_ Role that an Entity assumed in the context of an Activity. For example, :baking prov:used :spoon; prov:qualified [ a prov:Usage; prov:entity :spoon; prov:hadRole roles:mixing_implement ]." ;
+    schema:name "had role" ;
+.
+
+schema:identifier
+    schema:description """The identifier property represents any kind of identifier for any kind of [[Thing]], such as ISBNs, GTIN codes, UUIDs etc. Schema.org provides dedicated properties for representing many of these, either as textual strings or as URL (URI) links. See [background notes](/docs/datamodel.html#identifierBg) for more details.
+        """ ;
+    schema:name "identifier" ;
+.
+
+schema:image
+    schema:description "An image of the item. This can be a [[URL]] or a fully described [[ImageObject]]." ;
+    schema:name "image" ;
+.
+
+schema:isPartOf
+    schema:description "Indicates an item or CreativeWork that this item, or CreativeWork (in some sense), is part of." ;
+    schema:name "is part of" ;
+.
+
+schema:status
+    schema:description "The status of the study (enumerated)." ;
+    schema:name "status" ;
+.
+
+<https://pid.geoscience.gov.au/def/voc/ga/eCatID> schema:name "eCat ID" .
+
+<https://linked.data.gov.au/def/data-roles/pointOfContact> schema:name "point of contact" .
+
+<https://linked.data.gov.au/def/reg-statuses/experimental> schema:name "experimental" .
+
+<https://linked.data.gov.au/org/un> schema:name "United Nations" .
+
+<http://qudt.org>
+    a schema:Organization ;
+    dcterms:description "QUDT is a non-profit organization that governs the QUDT ontologies."@en ;
+    schema:name "QUDT" ;
+    schema:url "http://www.qudt.org"^^xsd:anyURI ;
+.

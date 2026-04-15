@@ -3,6 +3,7 @@ PREFIX astatus: <https://linked.data.gov.au/def/reg-statuses/>
 PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/materialtype>
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX gavoc: <https://pid.geoscience.gov.au/def/voc/ga/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
@@ -11,6 +12,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :adsorbed_phase
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "An ion attached to the surface of a mineral"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "adsorbed phase"@en ;
@@ -19,6 +21,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :air
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :inorganic_gas ;
     skos:definition "The composite gas comprising the Earth's atmosphere."@en ;
     skos:inScheme cs: ;
@@ -27,6 +30,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :animalTissue
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :animal_material ;
     skos:definition "Material of an animal's body"@en ;
     skos:inScheme cs: ;
@@ -35,6 +39,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :atmospheric_dust
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Fine-grained solid material collected or filtered from the atmosphere"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "atmospheric dust"@en ;
@@ -43,6 +48,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :bark
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :vegetation ;
     skos:definition "Outermost layers of stems and roots of woody plants"@en ;
     skos:inScheme cs: ;
@@ -51,6 +57,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :bitumen
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :hydrocarbon_material ;
     skos:definition "Solid organic material that forms part of a rock. It can usually be extracted from the rock with organic solvent."@en ;
     skos:inScheme cs: ;
@@ -59,6 +66,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :catchment_outlet_sediment
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :sediment ;
     skos:definition "Terrestrial sediment deposited on a low-lying or flat landscape adjacent to a stream but outside its banks and close to the lower boundary of a hydrologic catchment; may have an aeolian component mixed in with fluvial sediments."@en ;
     skos:inScheme cs: ;
@@ -67,6 +75,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :coal
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :organic_material ;
     skos:definition "A readily combustible organic rock containing more than 50 percent by weight and more than 70 percent by volume of carbonaceous material."@en ;
     skos:inScheme cs: ;
@@ -75,6 +84,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :coke
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :organic_material ;
     skos:definition "A solid of carbonaceous material derived from the destructive distillation of low-ash, low-sulphur bituminous coal."@en ;
     skos:inScheme cs: ;
@@ -83,6 +93,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :condensate
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :fluid_hydrocarbon ;
     skos:definition "A material that exists as gas in the subsurface but condenses into liquid at the surface."@en ;
     skos:inScheme cs: ;
@@ -91,6 +102,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :coral
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :rock ;
     skos:definition "Hard stony substance secreted by certain marine coelenterates as an external skeleton, typically forming large reefs in warm seas"@en ;
     skos:inScheme cs: ;
@@ -99,6 +111,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :crude_oil_with_water
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :fluid_hydrocarbon ;
     skos:definition "A mixture of oil and water where oil is the main phase."@en ;
     skos:inScheme cs: ;
@@ -107,6 +120,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :distilled_water
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :water ;
     skos:definition "Water from which impurities, as dissolved salts and colloidal particles, have been removed by one or more processes of distillation; chemically pure water."@en ;
     skos:inScheme cs: ;
@@ -115,6 +129,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :drilling_fluid
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :fluid ;
     skos:definition "Fluid used for drill bit lubrication and return of ground rock material from the drill bit, e.g. mud."@en ;
     skos:inScheme cs: ;
@@ -123,6 +138,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :estuarine_water
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :water ;
     skos:definition "Water from an estuary. Depending on the nature of the estuary, the salinity may vary spatially and temporally and range from fresh, brackish, sea_water or hypersaline."@en ;
     skos:inScheme cs: ;
@@ -131,6 +147,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :faeces
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :animal_material ;
     skos:definition "Waste material excreted from an animal"@en ;
     skos:inScheme cs: ;
@@ -139,6 +156,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :foliage
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :vegetation ;
     skos:definition "Plant leaves, especially tree leaves, considered as a group"@en ;
     skos:inScheme cs: ;
@@ -147,6 +165,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :gas_in_solution
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :hydrocarbon_gas ;
     skos:definition "A gas that that is exsolved from a liquid, such as water or oil, at the surface or under experimental conditions."@en ;
     skos:inScheme cs: ;
@@ -155,6 +174,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :groundwater
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "formation water"@en ;
     skos:broader :water ;
     skos:definition "Synonym: formation water.  Part of the subsurface water that is in the zone of saturation, i.e., below the water table.  Can be located in one or several aquifers, aquicludes or aquitards."@en ;
@@ -164,6 +184,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :groundwater_with_oil
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "A sample containing a mixture of water and oil and may be an immulsion. Water is the main phase and hydrocarbons - e.g. benzene, toluene - are dissolved within the water. Synonym: formation water with oil"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "groundwater with oil"@en ;
@@ -172,6 +193,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :hair
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :animal_material ;
     skos:definition "Hair or fur from an animal"@en ;
     skos:inScheme cs: ;
@@ -180,6 +202,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :ice
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Frozen, solid water."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "ice"@en ;
@@ -188,6 +211,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :kerogen
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :hydrocarbon_material ;
     skos:definition "Immobile organic matter that forms part of a rock. Kerogen cannot be extracted from the rock with organic solvents. Kerogen is concentrated in a pure form by removal of the mineral matter with strong acids - ie., HCl, HF."@en ;
     skos:inScheme cs: ;
@@ -196,6 +220,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :lag
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :regolith ;
     skos:definition "Deposit, commonly thin, or fragments of larger than sand size, spread over the land surface.  Its most common origin is as the coarse material left behind after fine material has been transported away by wind, or less commonly, sheet flow."@en ;
     skos:inScheme cs: ;
@@ -204,6 +229,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :lake_sediment
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :sediment ;
     skos:definition "A sediment deposited in a body of standing fresh water"@en ;
     skos:inScheme cs: ;
@@ -212,6 +238,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :manufactured_material
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Anthropogenic materials used for scientific analysis or observation, e.g., plastic, paint, metal, wood, fibre, glass etc"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "manufactured material"@en ;
@@ -220,6 +247,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :marine_sediment_overlying_sea_water
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :marine_sediment ;
     skos:definition "A marine sediment core that is collected together with the overlying water, as in a core incubation experiment, or a known area of seafloor and overlying water column, as in a chamber incubation experiment."@en ;
     skos:inScheme cs: ;
@@ -228,6 +256,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :meteorite
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :rock ;
     skos:definition "A rock that landed on Earth from an extraterrestrial source"@en ;
     skos:inScheme cs: ;
@@ -236,6 +265,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :mine_seep_water
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :water ;
     skos:definition "Water seeping from mine workings."@en ;
     skos:inScheme cs: ;
@@ -244,6 +274,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :mineral
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "A naturally occurring inorganic, crystalline, element or compound"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "mineral"@en ;
@@ -252,6 +283,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :mixed_rock_and_sediment
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :regolith ;
     skos:definition "A sample containing a mixture of rock and unconsolidated sediment."@en ;
     skos:inScheme cs: ;
@@ -260,6 +292,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :mud_gas
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :hydrocarbon_gas ;
     skos:definition "Small amounts of hydrocarbon gases in air that are collected from the circulating mud stream during drilling."@en ;
     skos:inScheme cs: ;
@@ -268,6 +301,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :overbank_sediment
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :sediment ;
     skos:definition "Alluvium that is deposited outside an alluvial channel from flowing water which has overflowed from the channel.  It includes levees and back swamp deposits."@en ;
     skos:inScheme cs: ;
@@ -276,6 +310,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :pitch
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :hydrocarbon_material ;
     skos:definition "Any of the various dark heavy viscous and resinous substances obtained as a residue from the distillation of coal-tar or crude oil."@en ;
     skos:inScheme cs: ;
@@ -284,6 +319,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :plant_stem
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :vegetation ;
     skos:definition "Stem, trunk, branch and twig material from a plant"@en ;
     skos:inScheme cs: ;
@@ -292,6 +328,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :pore_water
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :water ;
     skos:definition "Subsurface water in an interstice between grains in a marine sediment."@en ;
     skos:inScheme cs: ;
@@ -300,6 +337,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :rain_water
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :water ;
     skos:definition "Rain water, collected before it hits the Earth's surface."@en ;
     skos:inScheme cs: ;
@@ -308,6 +346,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :refined_oil
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :fluid_hydrocarbon ;
     skos:definition "Oil that has been processed in an oil refinery."@en ;
     skos:inScheme cs: ;
@@ -316,6 +355,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :resin
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :hydrocarbon_material ;
     skos:definition "Solid organic material that forms part of a rock. It is usually associated with coal and derived from the resinous material exuded from land plants."@en ;
     skos:inScheme cs: ;
@@ -324,6 +364,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :river_water
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "stream water"@en ;
     skos:broader :surface_water ;
     skos:definition "Water sampled from a river."@en ;
@@ -333,6 +374,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :root
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :vegetation ;
     skos:definition "The part of a plant that bears no leaves and typically, but not always, lies below the surface of the soil and is used for absorption of water and inorganic nutrients"@en ;
     skos:inScheme cs: ;
@@ -341,6 +383,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :sea_water
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel
         "ocean water"@en ,
         "sea_water"@en ;
@@ -352,6 +395,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :seep_gas
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :hydrocarbon_gas ;
     skos:definition "Gas that seeps at the Earths surface and recovered without the need for drilling."@en ;
     skos:inScheme cs: ;
@@ -360,6 +404,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :seep_oil
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :crude_oil ;
     skos:definition "Crude oil that seeps at the Earths surface and recovered without the need for drilling."@en ;
     skos:inScheme cs: ;
@@ -368,6 +413,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :seep_oil_and_gas
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :fluid_hydrocarbon ;
     skos:definition "Crude oil and gas that seeps at the Earths surface and recovered without the need for drilling."@en ;
     skos:inScheme cs: ;
@@ -376,6 +422,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :snow
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Atmospheric water vapour frozen into ice crystals and falling in light white flakes or lying on the ground as a white layer."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "snow"@en ;
@@ -384,6 +431,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :soil
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :regolith ;
     skos:definition "Unconsolidated mineral or organic material on the Earth's surface that serves as a natural medium for the growth of land plants."@en ;
     skos:inScheme cs: ;
@@ -392,6 +440,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :spring_water
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :water ;
     skos:definition "Water sampled from a spring."@en ;
     skos:inScheme cs: ;
@@ -400,6 +449,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :stream_sediment
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "A sediment deposited in the bed of an active or perennial stream"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "stream sediment"@en ;
@@ -408,6 +458,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :suspended_solids
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Sediment and biological particles collected from a water column that are separated by filtration and are not dissolved."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "suspended solids"@en ;
@@ -416,6 +467,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :unknown
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Material type is unknown"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "unknown"@en ;
@@ -424,6 +476,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :unspecified_seabed_materials
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "A sample that contains a mixture of materials from the seabed, possibly animal, vegetable, and mineral material."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "unspecified seabed materials"@en ;
@@ -432,6 +485,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :wax
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :hydrocarbon_material ;
     skos:definition "A light coloured solid precipitated from either a hydrocarbon gas or oil"@en ;
     skos:inScheme cs: ;
@@ -440,6 +494,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :crude_oil
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :fluid_hydrocarbon ;
     skos:definition "A naturally occurring complex liquid hydrocarbon, typically found as part of drilling activity, which after distillation and removal of impurities yields a range of combustible fuels, petrochemicals and lubricants."@en ;
     skos:inScheme cs: ;
@@ -449,6 +504,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :fluid
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Unspecified fluid material."@en ;
     skos:inScheme cs: ;
     skos:narrower :drilling_fluid ;
@@ -458,6 +514,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :inorganic_gas
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Any non-hydrocarbon-based gas."@en ;
     skos:inScheme cs: ;
     skos:narrower :air ;
@@ -467,6 +524,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :solid_phase
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader
         :marine_sediment ,
         :sediment ;
@@ -477,6 +535,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :surface_water
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :water ;
     skos:definition "Fresh or brackish water which occurs on the surface of a land mass.  e.g., rivers, creeks, lakes"@en ;
     skos:inScheme cs: ;
@@ -486,6 +545,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :marine_sediment
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "A sediment, including pore_water, deposited in a submarine or coastal, brackish or saline environment."@en ;
     skos:inScheme cs: ;
     skos:narrower
@@ -497,6 +557,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :rock
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "A consolidated aggregate of one or more minerals or other rocks"@en ;
     skos:inScheme cs: ;
     skos:narrower
@@ -508,6 +569,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :animal_material
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "organism"@en ;
     skos:broader :organic_material ;
     skos:definition "Any material of or excreted from an animal.  e.g., animal tissue, faeces, hair"@en ;
@@ -521,6 +583,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :hydrocarbon_gas
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :fluid_hydrocarbon ;
     skos:definition "A fluid hydrocarbon that is a gas at the surface. In the subsurface this sample maybe be free of liquid hydrocarbons, contain dissolved liquid hydrocarbons, or be dissolved in oil. "@en ;
     skos:inScheme cs: ;
@@ -533,6 +596,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :regolith
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Typically unconsolidated or fragmental material, either transported or residual origin, which covers bedrock. Includes surficial duricrusts that cap bedrock."@en ;
     skos:inScheme cs: ;
     skos:narrower
@@ -546,6 +610,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :sediment
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :regolith ;
     skos:definition "Unconsolidated sedimentary material."@en ;
     skos:inScheme cs: ;
@@ -559,6 +624,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :vegetation
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "plant material"@en ;
     skos:broader :organic_material ;
     skos:definition "Any part of a plant whether it be moss, grass, sedge, or the roots, bark, twigs or leaves of trees and shrubs."@en ;
@@ -573,6 +639,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :organic_material
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Any carbon-based material."@en ;
     skos:inScheme cs: ;
     skos:narrower
@@ -587,6 +654,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :fluid_hydrocarbon
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :hydrocarbon_material ;
     skos:definition "Any carbon-hydrogen fluid material"@en ;
     skos:inScheme cs: ;
@@ -602,6 +670,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :hydrocarbon_material
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :organic_material ;
     skos:definition "Any carbon-hydrogen based material."@en ;
     skos:inScheme cs: ;
@@ -617,6 +686,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :water
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Undivided saline, brackish, or fresh water."@en ;
     skos:inScheme cs: ;
     skos:narrower
@@ -640,7 +710,7 @@ cs:
     dcterms:modified "2024-05-02"^^xsd:date ;
     dcterms:provenance "Geoscience Australia Mineral Class (A.LU_MATERIAL_CLASS)"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
-    rdfs:seeAlso <https://pid.geoscience.gov.au/dataset/ga/148553> ;
+    rdfs:seeAlso "https://pid.geoscience.gov.au/dataset/ga/148553"^^xsd:anyURI ;
     owl:versionInfo "1.3" ;
     skos:definition "Broad categories of earth materials (eg, rock, sediment, water, vegetation) that may be observed or sampled."@en ;
     skos:hasTopConcept
@@ -664,5 +734,6 @@ cs:
         :water ;
     skos:prefLabel "General Geology - Sample Material Class"@en ;
     dcat:contactPoint "Team Lead - Information Services; Energy, Minerals and Groundwater Division" ;
+    schema:identifier "https://pid.geoscience.gov.au/dataset/ga/148553"^^gavoc:eCatID ;
     schema:status astatus:experimental ;
 .

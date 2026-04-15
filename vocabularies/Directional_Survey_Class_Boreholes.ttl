@@ -3,6 +3,7 @@ PREFIX astatus: <https://linked.data.gov.au/def/reg-statuses/>
 PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyClass>
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX gavoc: <https://pid.geoscience.gov.au/def/voc/ga/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
@@ -11,6 +12,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :azimuthAndInclination
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "The directional survey is comprised of azimuth and inclination measurements."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "azimuth and inclination"@en ;
@@ -19,6 +21,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :inclinationOnly
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "The directional survey is comprised of only inclination measurements."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "inclination only"@en ;
@@ -32,7 +35,7 @@ cs:
     dcterms:modified "2022-08-04"^^xsd:date ;
     dcterms:provenance "Geoscience Australia Directional Survey Class (BOREHOLE.LU_DIR_SRVY_CLASS)"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
-    rdfs:seeAlso <https://pid.geoscience.gov.au/dataset/ga/148553> ;
+    rdfs:seeAlso "https://pid.geoscience.gov.au/dataset/ga/148553"^^xsd:anyURI ;
     owl:versionInfo "1" ;
     skos:definition "Terms to denote whether the directional survey is comprised of azimuth and inclination measurements, or only inclination measurements."@en ;
     skos:hasTopConcept
@@ -40,5 +43,6 @@ cs:
         :inclinationOnly ;
     skos:prefLabel "Borehole Geology - Directional Survey Class"@en ;
     dcat:contactPoint "Team Lead - Information Services; Minerals, Energy and Groundwater Division" ;
+    schema:identifier "https://pid.geoscience.gov.au/dataset/ga/148553"^^gavoc:eCatID ;
     schema:status astatus:experimental ;
 .

@@ -2,14 +2,16 @@ PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/ContactCharacter/>
 PREFIX astatus: <https://linked.data.gov.au/def/reg-statuses/>
 PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/ContactCharacter>
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
-PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX gavoc: <https://pid.geoscience.gov.au/def/voc/ga/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :gradational
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :diffuse ;
     skos:definition "The contact from one geological unit to another is diffuse, by a gradual and consistent change generally in one direction of grainsize or composition, such that a sharp boundary cannot be defined."@en ;
     skos:inScheme cs: ;
@@ -18,6 +20,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :interfingering
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "A geological unit contact that is formed over some distance by interfingering of parts of one unit with the adjacent unit."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "interfingering"@en ;
@@ -26,6 +29,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :sharp
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "The contact between geological units is sharp or easily defined at a single interface."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "sharp"@en ;
@@ -34,6 +38,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :diffuse
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "The contact between two geological units cannot be defined at a sharp interface.  The transition from one unit to another may be gradational (ie, exhibiting a consistent change in grainsize or composition), may involve irregular mixing of units, or may be obscured by alteration."@en ;
     skos:inScheme cs: ;
     skos:narrower :gradational ;
@@ -43,10 +48,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 cs:
     a skos:ConceptScheme ;
-    dcterms:created "2022-08-11"^^xsd:date ;
-    dcterms:creator <https://linked.data.gov.au/org/ga> ;
-    dcterms:modified "2022-08-11"^^xsd:date ;
-    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
+    rdfs:seeAlso "https://pid.geoscience.gov.au/dataset/ga/148553"^^xsd:anyURI ;
     owl:versionInfo "1" ;
     skos:definition "Terms to describe the character of a contact between two geological units."@en ;
     skos:hasTopConcept
@@ -56,6 +58,10 @@ cs:
     skos:historyNote "Geoscience Australia Contact Character (FGDM.LU_contact-character)"@en ;
     skos:prefLabel "Field Geology - Contact Character"@en ;
     dcat:contactPoint "Team Lead - Information Services; Energy, Minerals and Groundwater Division" ;
+    schema:creator <https://linked.data.gov.au/org/ga> ;
+    schema:dateCreated "2022-08-11"^^xsd:date ;
+    schema:dateModified "2022-08-11"^^xsd:date ;
+    schema:identifier "https://pid.geoscience.gov.au/dataset/ga/148553"^^gavoc:eCatID ;
+    schema:publisher <https://linked.data.gov.au/org/ga> ;
     schema:status astatus:experimental ;
 .
-

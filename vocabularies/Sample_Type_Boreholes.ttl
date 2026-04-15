@@ -3,6 +3,7 @@ PREFIX astatus: <https://linked.data.gov.au/def/reg-statuses/>
 PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/GeologySampleType>
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX gavoc: <https://pid.geoscience.gov.au/def/voc/ga/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
@@ -11,6 +12,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :analyticalBlank
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "An analytical procedure run without a \"substitute material\" and results obtained are considered to be the \"analytical blank\". Example 1: An acid digestion procedure is run without a sample, to show level of impurities introduced by the acids and the digestion vessels used."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "analytical blank"@en ;
@@ -19,6 +21,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :anthropogenicMaterial
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Anthropogenic material originating from human activity"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "anthropogenic material"@en ;
@@ -27,6 +30,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :burnSpot
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "A part of a grain which is the subject of a detailed analysis via a microprobe beam of electrons or energised ions."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "burn spot"@en ;
@@ -35,6 +39,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :catchmentOutletSpecimen
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :unconsolidated ;
     skos:definition "Terrestrial sediment specimen sampled from close to the lower boundary of a hydrologic catchment; may have an aeolian component mixed in with fluvial sediments."@en ;
     skos:inScheme cs: ;
@@ -43,6 +48,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :cavings
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :drillChipsCuttings ;
     skos:definition "Drill chips/cuttings material that is foreign to the depth interval sampled and most likely derived from higher in the stratigraphic column or possibly recirculated within the mud system from previous drilling activity."@en ;
     skos:inScheme cs: ;
@@ -51,6 +57,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :coastalFloatSpecimen
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :floatSpecimen ;
     skos:definition "A float specimen collected along the coastline, usually washed up on beaches. (eg, coastal bitumen)."@en ;
     skos:inScheme cs: ;
@@ -59,6 +66,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :coastalSample
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "A sample, usually of unconsolidated materials, collected in a coastal environment by any method. May include sediment, rocks, water, and/or organic matter. Coastal is here defined as any location above Lowest Astronomical Tide"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "coastal sample"@en ;
@@ -67,6 +75,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :corePlug
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :core ;
     skos:definition "A small plug (cylinder) of core, typically taken from a larger rock or core sample (ie, a sub-sample)"@en ;
     skos:inScheme cs: ;
@@ -75,6 +84,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :coreSlice
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :core ;
     skos:definition "A section of core that represents a specified depth interval, typically cut from a larger core specimen."@en ;
     skos:inScheme cs: ;
@@ -83,6 +93,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :crush
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "A coarse crushed sample."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "crush"@en ;
@@ -91,6 +102,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :downholeReservoirFluidSample
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "A fluid sample retrieved from a downhole formation test (WFT)"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "downhole reservoir fluid sample"@en ;
@@ -99,6 +111,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :drillingFluidSpecimen
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :boreholeSpecimen ;
     skos:definition "Fluid used for drill bit lubrication and return of ground rock material from the drill bit, e.g. drilling mud."@en ;
     skos:inScheme cs: ;
@@ -107,6 +120,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :fieldSiteSpecimen
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Any specimen of material taken from a field site (eg, rock, sediment, water, hydrocarbon). This generic value is only used where no other information about the specimen type is available."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "field site specimen"@en ;
@@ -115,6 +129,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :filteredWaterColumnSpecimen
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :waterColumnSpecimen ;
     skos:definition "A water column specimen filtered for suspended solids."@en ;
     skos:inScheme cs: ;
@@ -123,6 +138,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :fluidInclusion
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "A fluid-filled inclusion in a rock or mineral (may also contain vapour and solids at room temperature)."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "fluid inclusion"@en ;
@@ -131,6 +147,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :fuildMeltInclusionSection
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "A thick section used to examine tiny inclusions of liquid, vapour, solid, or mixtures of these phases, trapped as impurities within mineral grains."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "fluid or melt inclusion section"@en ;
@@ -139,6 +156,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :gravel
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :unconsolidated ;
     skos:definition "A specimen of unconsolidated gravel size regolith material."@en ;
     skos:inScheme cs: ;
@@ -147,6 +165,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :halfCore
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :core ;
     skos:definition "A cylindrical drill core which has been cut in half parallel to its length."@en ;
     skos:inScheme cs: ;
@@ -155,6 +174,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :incubationWaterSpecimen
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :waterSpecimen ;
     skos:definition "A water sample collected from a chamber or core incubation for the purpose of use of profiling the water column."@en ;
     skos:inScheme cs: ;
@@ -163,6 +183,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :meltInclusion
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "A glassy inclusion in a rock or mineral (may also contain liquid, vapour and crystals at room temperature)."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "melt inclusion"@en ;
@@ -171,6 +192,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :microfossilSlide
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :fossil ;
     skos:definition "A slide prepared for microscope analysis of microfossils."@en ;
     skos:inScheme cs: ;
@@ -179,6 +201,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :mineralGrain
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "An individual mineralogical particle, usually isolated from a thin section, or mounted with other grains in a polished mount."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "mineral grain"@en ;
@@ -187,6 +210,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :mineralPrecipitate
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "A collection of one or more minerals precipitated from solution (eg, salt crust or gypsum crystals precipitated on a salt lake)."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "mineral precipitate"@en ;
@@ -195,6 +219,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :mineralSeparate
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "mineral concetrate"@en ;
     skos:broader :concentrate ;
     skos:definition "A collection of mineral grains separated using density and magnetic contrast from other mineral grains."@en ;
@@ -204,6 +229,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :mineralSpecimen
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "A high quality or type mineral specimen, collected for scientific or display purposes in a museum or similar setting"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "mineral specimen"@en ;
@@ -212,6 +238,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :observationLog
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel
         "borehole observation log"@en ,
         "measured section log"@en ;
@@ -223,6 +250,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :observationOnly
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "An observation made of a feature, without collection of a physical specimen."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "observation only"@en ;
@@ -231,6 +259,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :orientedCore
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :core ;
     skos:definition "A drill core specimen taken with its orientation preserved to enable structural or other oriented analysis."@en ;
     skos:inScheme cs: ;
@@ -239,6 +268,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :orientedOutcropSpecimen
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "oriented hand specimen"@en ;
     skos:broader :outcropSpecimen ;
     skos:definition "An outcrop specimen taken with its orientation preserved to enable structural or geophysical analysis."@en ;
@@ -248,6 +278,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :pellet
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "A specimen that has been ground into a powder and pressed into a pellet."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "pellet"@en ;
@@ -256,6 +287,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :photography
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "A digital or film photographic still image"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "photograph"@en ;
@@ -264,6 +296,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :polishedMount
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Materials mounted in a medium, typically an epoxy glue or resin, and polished."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "polished mount"@en ;
@@ -272,6 +305,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :polishedSlab
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "A polished slab of rock material."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "polished slab"@en ;
@@ -280,6 +314,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :polishedThinSection
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :thinSection ;
     skos:definition "A polished thin section of a material for microscope analysis."@en ;
     skos:inScheme cs: ;
@@ -288,6 +323,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :powder
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "A specimen that has been ground into a powder."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "powder"@en ;
@@ -296,6 +332,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :powderTungstenMill
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "A specimen that has been ground into a powder in a tungsten alloy mill."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "powder (tungsten mill)"@en ;
@@ -304,6 +341,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :quarterCore
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :core ;
     skos:definition "A cylindrical drill core which has been cut in quarters parallel to its length."@en ;
     skos:inScheme cs: ;
@@ -312,6 +350,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :replicateFieldSpecimen
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :replicateSpecimen ;
     skos:definition "Repeat specimen taken in the field over given space and/or time scales to test field heterogeneity of a sampling medium.  Should be related to a previous original specimen."@en ;
     skos:inScheme cs: ;
@@ -320,6 +359,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :replicateLaboratorySpecimen
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :replicateSpecimen ;
     skos:definition "Identical split(s) of an original sample submitted blindly to the laboratory to test reproducibility (bias) of results.  Should be related to a previous original specimen."@en ;
     skos:inScheme cs: ;
@@ -328,6 +368,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :residue
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "An unspecified residue from a sample preparation or analytical technique."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "residue"@en ;
@@ -336,6 +377,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :rockChips
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :rockPieces ;
     skos:definition "Rock fragments derived from crushing or chipping material other than by drilling (eg, chips from an outcrop or mine channel sampling)."@en ;
     skos:inScheme cs: ;
@@ -344,6 +386,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :seabedSubsample
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :seabeadSample ;
     skos:definition "Specimens of surficial seafloor sediments obtained by sub-sampling the contents of a grab or box core. Depending on the intended analyses, these may be volumetric, gravimetric or qualitative."@en ;
     skos:inScheme cs: ;
@@ -352,6 +395,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :separatorFluid
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :fraction ;
     skos:definition "Liquid that has been separated from a gas phase at a surface separator."@en ;
     skos:inScheme cs: ;
@@ -360,6 +404,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :sievedSample
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :grainsizeFraction ;
     skos:definition "A grainsize fraction specimen generated by sieving"@en ;
     skos:inScheme cs: ;
@@ -368,6 +413,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :soilSpecimen
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :unconsolidated ;
     skos:definition "A specimen of soil or similar regolith materials, collected by any method."@en ;
     skos:inScheme cs: ;
@@ -376,6 +422,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :specimenBlank
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "sample blank"@en ;
     skos:definition "A specimen blank is used to determine if any impurities are introduced during sample preparation procedures. A \"sample blank material\" substitutes regular \"sample material\" in the procedure. Example 1: Quartz substitutes a rock sample to determine levels of impurities introduced by grinding equipment. Example 2: Cellulose substitutes vegetable material to determine levels of impurities introduced during sample preparation. Example 3: Pure deionized water is substituted for sample water to determine if impurities are introduced during sample filtering and bottling procedures."@en ;
     skos:inScheme cs: ;
@@ -385,6 +432,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :standardReferenceMaterial
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Also known as SRM,  these samples may range from International Standards and Certified Reference Materials (CRMs) to locally prepared standard samples for use as project reference standards. They are comprised of homogenous material prepared under strict guidelines, divided into numerous aliquots and sent to reputable laboratories to derive an assigned value. The values for Standard Reference Materials are generally well known published figures. SRMs with certified values are used to calibrate instruments or analytical techniques, to quantify analytical accuracy, and to verify new or improved analytical techniques. The material of the reference standard (eg, rock, mineral, water, etc) should be denoted in \"material type\"."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "standard reference material"@en ;
@@ -393,6 +441,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :strainedSample
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "A specimen, often a rock slab, that has been stained for mineral idenification."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "stained sample"@en ;
@@ -401,6 +450,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :streamSedimentSpecimen
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :unconsolidated ;
     skos:definition "A sample of sediment taken from the bed of a river or stream."@en ;
     skos:inScheme cs: ;
@@ -409,6 +459,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :thinSectionOffcut
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :rockPieces ;
     skos:definition "A small slab of rock remaining from the preparation of a thin section."@en ;
     skos:inScheme cs: ;
@@ -417,6 +468,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :unknown
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "The sample type is unknown"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "unknown"@en ;
@@ -425,6 +477,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :vegetationSpecimen
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "A specimen of vegetation collected by any method."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "vegetation specimen"@en ;
@@ -433,6 +486,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :video
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "A digital or film capture of a sequence of still images representing scenes in motion"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "video"@en ;
@@ -441,6 +495,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :vitriniteReflectanceSpecimen
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "A polished slab, mount, or slide for analysing vitrinite reflectance."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "vitrinite reflectance specimen"@en ;
@@ -449,6 +504,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :waterColumnObservation
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :fieldSiteObservation ;
     skos:definition "An observation or measurement of the water column recorded by a sonde/probe, typically taken at measured intervals used to profile the water column. No actual specimen is collected but the observation records the water conditions at a particular time and place."@en ;
     skos:inScheme cs: ;
@@ -457,6 +513,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :wirelineLog
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :fieldSiteObservation ;
     skos:definition "A continuous log of measurements made by an instrument in a borehole."@en ;
     skos:inScheme cs: ;
@@ -465,6 +522,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :concentrate
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :fraction ;
     skos:definition "A form of substance which has had the majority of its base component (in the case of a liquid: the solvent) removed. Typically this will be the removal of water from a solution or suspension"@en ;
     skos:inScheme cs: ;
@@ -474,6 +532,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :drillChipsCuttings
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel
         "chips"@en ,
         "cuttings"@en ;
@@ -486,6 +545,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :floatSpecimen
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :rockPieces ;
     skos:definition "A specimen taken of an isolated fragment or rock or other consolidated earth material, displaced from its original outcrop or location."@en ;
     skos:inScheme cs: ;
@@ -495,6 +555,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :fossil
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "A specimen of remains or traces of a plant or animal preserved in the Earth's crust."@en ;
     skos:inScheme cs: ;
     skos:narrower :microfossilSlide ;
@@ -504,6 +565,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :grainsizeFraction
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :fraction ;
     skos:definition "A specimen that has been generated by separating various size fractions from the original sample. For example, a sieved sediment sample."@en ;
     skos:inScheme cs: ;
@@ -513,6 +575,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :isoTube
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader
         :boreholeSpecimen ,
         :gasSpecimen ;
@@ -523,6 +586,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :outcropSpecimen
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "hand specimen"@en ;
     skos:broader :rockPieces ;
     skos:definition "A specimen of material removed from outcropping or near-outcropping bedrock. Includes subterranean rock outcrops (ie, from a mine)."@en ;
@@ -533,6 +597,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :seabeadSample
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "A sample, usually of unconsolidated materials, collected on the seabed by any method. May include sediment, rocks, water, and/or organic matter. Seabed is here defined as any location below Lowest Astronomical Tide"@en ;
     skos:inScheme cs: ;
     skos:narrower :seabedSubsample ;
@@ -542,6 +607,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :separatorGas
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader
         :fraction ,
         :gasSpecimen ;
@@ -552,6 +618,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :thinSection
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "A translucent thin section of a material for microscope analysis."@en ;
     skos:inScheme cs: ;
     skos:narrower :polishedThinSection ;
@@ -561,6 +628,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :waterColumnSpecimen
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :waterSpecimen ;
     skos:definition "A water specimen taken at measured intervals in the water column. "@en ;
     skos:inScheme cs: ;
@@ -570,6 +638,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :gasSpecimen
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "A generic specimen of gas of any type. Includes gas specimen types collected by any method."@en ;
     skos:inScheme cs: ;
     skos:narrower
@@ -581,6 +650,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :replicateSpecimen
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "A repeat analytical specimen designed to replicate the original specimen type and method of sample preparation and/or collection. Should be related to a previous original specimen."@en ;
     skos:inScheme cs: ;
     skos:narrower
@@ -592,6 +662,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :waterSpecimen
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "A generic specimen of water of any type. Includes water specimen types collected by any method."@en ;
     skos:inScheme cs: ;
     skos:narrower
@@ -603,6 +674,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :boreholeSpecimen
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Any specimen of material taken from a borehole. Only used where no other information about the borehole specimen type is available."@en ;
     skos:inScheme cs: ;
     skos:narrower
@@ -616,6 +688,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :fieldSiteObservation
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :fieldSiteObservation ;
     skos:definition "An observation made of a field site (eg, an outcrop), without collection of a physical specimen."@en ;
     skos:inScheme cs: ;
@@ -629,6 +702,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :fraction
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "A specimen that has been modified to be a specific fraction separated from the original sample eg. a panned or separated sample."@en ;
     skos:inScheme cs: ;
     skos:narrower
@@ -642,6 +716,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :rockPieces
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Unspecified rock samples or fragments of rock of unknown origin."@en ;
     skos:inScheme cs: ;
     skos:narrower
@@ -655,6 +730,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :unconsolidated
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "A specimen of unconsolidated materials (eg, regolith, sediment, gravel, soil) collected by any method at or near the ground surface, including soil and organic matter."@en ;
     skos:inScheme cs: ;
     skos:narrower
@@ -668,6 +744,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :core
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :boreholeSpecimen ;
     skos:definition "A specimen (often, but not always cylindrical) of rock, regolith, or vegetation."@en ;
     skos:inScheme cs: ;
@@ -687,7 +764,7 @@ cs:
     dcterms:modified "2022-08-09"^^xsd:date ;
     dcterms:provenance "Geoscience Australia Sample Type (A.LU_SAMPLE_TYPE)"@en ;
     dcterms:publisher <https://linked.data.gov.au/org/ga> ;
-    rdfs:seeAlso <https://pid.geoscience.gov.au/dataset/ga/148553> ;
+    rdfs:seeAlso "https://pid.geoscience.gov.au/dataset/ga/148553"^^xsd:anyURI ;
     owl:versionInfo "1" ;
     skos:definition "The form, shape, purpose, or environment of a collected specimen or observation. Where possible the sample type description is independent of the material that comprises the specimen (eg, rock, oil, sand), or the sampling method (eg, drilling, dredging), but in practice it is not always possible or convenient to completely separate these concepts from the sample type (eg, water column specimen)."@en ;
     skos:hasTopConcept
@@ -731,5 +808,6 @@ cs:
         :waterSpecimen ;
     skos:prefLabel "General Geology - Sample Type"@en ;
     dcat:contactPoint "Team Lead - Information Services; Energy, Minerals and " ;
+    schema:identifier "https://pid.geoscience.gov.au/dataset/ga/148553"^^gavoc:eCatID ;
     schema:status astatus:experimental ;
 .
