@@ -50,7 +50,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <https://pid.geoscience.gov.au/def/voc/ga/associationtype> ,
         <https://pid.geoscience.gov.au/def/voc/ga/materialtype> ,
         <https://pid.geoscience.gov.au/def/voc/ga/protocoltype> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
+        <https://pid.geoscience.gov.au/def/voc/ga/DataThemes> ;
     skos:historyNote "This catalogue was was created in 2024 from pre-existing vocabularies"@en ;
     schema:codeRepository "https://github.com/GeoscienceAustralia/ga-vocabs" ;
     schema:contributor <https://kurrawong.ai> ;
