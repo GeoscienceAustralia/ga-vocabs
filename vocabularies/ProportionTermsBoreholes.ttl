@@ -101,6 +101,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :present
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "The component is present in the observed feature, but the proportion is unknown."@en ;
     skos:inScheme cs: ;
     skos:narrower

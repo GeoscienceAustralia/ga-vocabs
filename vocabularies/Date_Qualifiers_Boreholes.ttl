@@ -20,6 +20,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :estimatedEarliest
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :estimated ;
     skos:definition "The recorded date is the earliest known date, but it is possible the true date is earlier than what is recorded."@en ;
     skos:inScheme cs: ;
@@ -29,6 +30,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :estimatedLatest
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :estimated ;
     skos:definition "The recorded date is the latest known date, but it is possible the true date is later than what is recorded."@en ;
     skos:inScheme cs: ;
@@ -38,6 +40,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :known
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "The recorded date is known"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "known"@en ;
@@ -47,6 +50,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :estimated
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "The recorded date is estimated"@en ;
     skos:inScheme cs: ;
     skos:narrower

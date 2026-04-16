@@ -3,12 +3,14 @@ PREFIX astatus: <https://linked.data.gov.au/def/reg-statuses/>
 PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/BoreholeConstructionMaterial>
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX gavoc: <https://pid.geoscience.gov.au/def/voc/ga/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :aggregate
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Mass of rock particles and or mineral grains "@en ;
     skos:inScheme cs: ;
     skos:prefLabel "aggregate"@en ;
@@ -18,6 +20,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :cement
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Finely ground powder which when mixed with water makes a plastic mass that will harden "@en ;
     skos:inScheme cs: ;
     skos:prefLabel "cement"@en ;
@@ -27,6 +30,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :clay
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Geological material consisting of particles having diameters less than 2-4 micrometres "@en ;
     skos:inScheme cs: ;
     skos:prefLabel "clay"@en ;
@@ -36,6 +40,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :concrete
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Mixture of cement, an aggregate and water which hardens to a rocklike consistency "@en ;
     skos:inScheme cs: ;
     skos:prefLabel "concrete"@en ;
@@ -45,6 +50,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :gravel
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Rock fragments typically rounded and dominated by particles larger than sand (>2mm) "@en ;
     skos:inScheme cs: ;
     skos:prefLabel "gravel"@en ;
@@ -54,6 +60,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :metal
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "An elemental substance usually with good strength, reflectivity and electrical and thermal conductivity properties "@en ;
     skos:inScheme cs: ;
     skos:prefLabel "metal"@en ;
@@ -63,6 +70,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :plastic
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "A polymeric material of large molecular weight which can be shaped by flow "@en ;
     skos:inScheme cs: ;
     skos:prefLabel "plastic"@en ;
@@ -72,6 +80,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :rock
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Undifferentiated mineral matter "@en ;
     skos:inScheme cs: ;
     skos:prefLabel "rock"@en ;
@@ -81,6 +90,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :sand
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Rock or mineral particles having a diameter range of 1/16 to 2mm "@en ;
     skos:inScheme cs: ;
     skos:prefLabel "sand"@en ;
@@ -90,6 +100,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :spoilOrCuttings
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Geological material excavated from feature "@en ;
     skos:inScheme cs: ;
     skos:prefLabel "spoil or cuttings"@en ;
@@ -99,6 +110,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :stainlessSteel
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Corrosion resistant iron-chromium alloy "@en ;
     skos:inScheme cs: ;
     skos:prefLabel "stainless steel"@en ;
@@ -108,6 +120,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :steel
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "An iron base alloy with up to 2% carbon and malleable under proper conditions "@en ;
     skos:inScheme cs: ;
     skos:prefLabel "steel"@en ;
@@ -117,6 +130,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :uPVC
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Unplasticised polyvinylchloride uPVC - thermoplastic polymer of vinyl chloride that is cheap, lightweight and chemically inert and typically used in molded rigid products "@en ;
     skos:inScheme cs: ;
     skos:prefLabel "uPVC"@en ;
@@ -126,6 +140,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :uPVC12
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Unplasticised polyvinylchloride uPVC with a moderate Class 12 pressure rating which is the "@en ;
     skos:inScheme cs: ;
     skos:prefLabel "uPVC12"@en ;
@@ -135,6 +150,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :uPVC18
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Unplasticised polyvinylchloride uPVC with a high Class 18 pressure rating "@en ;
     skos:inScheme cs: ;
     skos:prefLabel "uPVC18"@en ;
@@ -144,6 +160,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :uPVC6
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Unplasticised polyvinylchloride uPVC with a low Class 6 pressure rating that is typically used in drainage or sewage applications "@en ;
     skos:inScheme cs: ;
     skos:prefLabel "uPVC6"@en ;
@@ -153,6 +170,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :uPVC9
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Unplasticised polyvinylchloride uPVC with a Class 9 pressure rating which is the minimum class allowable for shallow bore casing "@en ;
     skos:inScheme cs: ;
     skos:prefLabel "uPVC9"@en ;
@@ -162,6 +180,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :uPVS15
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Unplasticised polyvinylchloride uPVC with a high Class 15 pressure rating"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "uPVC15"@en ;
@@ -171,6 +190,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :unknown
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Borehole construction material is unknown"@en ;
     skos:inScheme cs: ;
     skos:prefLabel "unknown"@en ;
