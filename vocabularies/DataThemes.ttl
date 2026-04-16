@@ -1,6 +1,8 @@
 PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/DataThemes/>
 PREFIX DATAROLES: <https://linked.data.gov.au/def/data-roles/>
 PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/DataThemes>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX gavoc: <https://pid.geoscience.gov.au/def/voc/ga/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX prov: <http://www.w3.org/ns/prov#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
