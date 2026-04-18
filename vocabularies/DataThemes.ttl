@@ -22,12 +22,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "M-Types"@en ;
 .
 
-<https://linked.data.gov.au/org/ga>
-    a schema:Organization ;
-    schema:name "Ga" ;
-    schema:url ""^^xsd:anyURI ;
-.
-
 :administration
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
