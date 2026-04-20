@@ -18,7 +18,7 @@ PREFIX schema: <https://schema.org/>
             prof:hasRole mrr:ResourceData ;
             schema:description "skos:ConceptsScheme objects in RDF (Turtle) files in the vocabs/ folder" ;
             schema:name "Resource Data" ;
-            dcterms:conformsTo <https://linked.data.gov.au/def/vocpub-ga/validator> ;
+            dcterms:conformsTo <https://linked.data.gov.au/def/vocpub/validator> ;
         ] ,
         [
             prof:hasArtifact "labels.ttl" ;
