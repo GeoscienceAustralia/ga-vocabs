@@ -4,6 +4,17 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <http://pid.geoscience.gov.au/catalogue/ga-vocabs>
     a schema:DataCatalog ;
+    skos:historyNote "This catalogue was was created in 2024 from pre-existing vocabularies"@en ;
+    schema:codeRepository "https://github.com/GeoscienceAustralia/ga-vocabs" ;
+    schema:contributor <https://kurrawong.ai> ;
+    schema:creator <https://linked.data.gov.au/org/ga> ;
+    schema:dateCreated "2017"^^xsd:gYear ;
+    schema:dateModified "2026-04-20"^^xsd:date ;
+    schema:description """Geoscience Australia's vocabularies of controlled terms.
+
+Geoscience Australia uses domain standards that are openly available, to provide a common language for communicating ideas and provide consistency of meaning of the data collected, research undertaken and products created. Part of the use of standards is the use of controlled terms - vocabularies - and this system contains those vocabularies created by Geosceince Australia.
+
+These vocabularies must be used in concert with international geo-domain vocabularies from the Commission for Geoscience Information (CGI), the Open Geospatial Consortium (OGC) and the International Organization for Standardization (ISO) and with Australian national vocabularies from the Government Geoscience Information Committee (GGIC) and the Intergovernmental Committee on Surveying and Mapping (ICSM).""" ;
     schema:hasPart
         <http://qudt.org/community/ga/voc> ,
         <https://pid.geoscience.gov.au/def/voc/ga/BoreholeConstructionMaterial> ,
@@ -16,6 +27,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <https://pid.geoscience.gov.au/def/voc/ga/ContactCharacter> ,
         <https://pid.geoscience.gov.au/def/voc/ga/ContactType> ,
         <https://pid.geoscience.gov.au/def/voc/ga/CountryCodes> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/DataThemes> ,
         <https://pid.geoscience.gov.au/def/voc/ga/DateQualifier> ,
         <https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyAzimuth> ,
         <https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyClass> ,
@@ -49,19 +61,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
         <https://pid.geoscience.gov.au/def/voc/ga/StatisticalUncertaintyTypes> ,
         <https://pid.geoscience.gov.au/def/voc/ga/associationtype> ,
         <https://pid.geoscience.gov.au/def/voc/ga/materialtype> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/protocoltype> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/DataThemes> ;
-    skos:historyNote "This catalogue was was created in 2024 from pre-existing vocabularies"@en ;
-    schema:codeRepository "https://github.com/GeoscienceAustralia/ga-vocabs" ;
-    schema:contributor <https://kurrawong.ai> ;
-    schema:creator <https://linked.data.gov.au/org/ga> ;
-    schema:dateCreated "2017"^^xsd:gYear ;
-    schema:dateModified "2026-04-15"^^xsd:date ;
-    schema:description """Geoscience Australia's vocabularies of controlled terms.
-
-Geoscience Australia uses domain standards that are openly available, to provide a common language for communicating ideas and provide consistency of meaning of the data collected, research undertaken and products created. Part of the use of standards is the use of controlled terms - vocabularies - and this system contains those vocabularies created by Geosceince Australia.
-
-These vocabularies must be used in concert with international geo-domain vocabularies from the Commission for Geoscience Information (CGI), the Open Geospatial Consortium (OGC) and the International Organization for Standardization (ISO) and with Australian national vocabularies from the Government Geoscience Information Committee (GGIC) and the Intergovernmental Committee on Surveying and Mapping (ICSM).""" ;
+        <https://pid.geoscience.gov.au/def/voc/ga/protocoltype> ;
     schema:name "GA Vocabularies" ;
     schema:publisher <https://linked.data.gov.au/org/ga> ;
 .
