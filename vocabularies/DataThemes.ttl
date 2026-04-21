@@ -1,7 +1,7 @@
 PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/DataThemes/>
 PREFIX DATAROLES: <https://linked.data.gov.au/def/data-roles/>
+PREFIX astatus: <https://linked.data.gov.au/def/reg-statuses/>
 PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/DataThemes>
-PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX gavoc: <https://pid.geoscience.gov.au/def/voc/ga/>
 PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX prov: <http://www.w3.org/ns/prov#>
@@ -9,6 +9,17 @@ PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+:geochronology
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :geology ;
+    skos:definition "Geochronology is a discipline of geoscience which measures the age of earth materials and provides the temporal framework in which other geoscience data can be interpreted in the context of Earth history."@en ;
+    skos:inScheme cs: ;
+    skos:prefLabel "geochronology"@en ;
+    schema:citation "https://www.ga.gov.au/scientific-topics/disciplines/geochronology"^^xsd:anyURI ;
+    schema:status astatus:experimental ;
+.
 
 :m-types
     a skos:Collection ;
@@ -22,12 +33,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "M-Types"@en ;
 .
 
-<https://linked.data.gov.au/org/ga>
-    a schema:Organization ;
-    schema:name "Ga" ;
-    schema:url ""^^xsd:anyURI ;
-.
-
 :administration
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
@@ -36,7 +41,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "administration"@en ;
     skos:topConceptOf cs: ;
     schema:citation "https://linked.data.gov.au/def/gswa-vocabulary-themes/administration"^^xsd:anyURI ;
-    schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
+    schema:status astatus:experimental ;
 .
 
 :ambient_noise_tomography
@@ -48,82 +53,29 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "ambient noise tomography"@en ;
     schema:citation "Ambient noise tomography - SEG Wiki"^^xsd:anyURI ;
-    schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
+    schema:status astatus:experimental ;
 .
 
 :data_acquisition
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
+    skos:broader :sample_acquisition_management ;
     skos:definition "Data acquisition related to the systematic processes of gathering observations and measurements, and related analytical techniques and methodologies, including sample preparation techniques."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "data acquisition"@en ;
-    skos:topConceptOf cs: ;
     schema:citation "https://linked.data.gov.au/def/gswa-vocabulary-themes/data-acquisition"^^xsd:anyURI ;
-    schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
-.
-
-<https://pid.geoscience.gov.au/def/voc/ga/DataThemes/data_management/data_acquisition>
-    skos:broader :sample_acquisition_management ;
-.
-
-<https://pid.geoscience.gov.au/def/voc/ga/DataThemes/data_management/sample_acquisition>
-    skos:broader :sample_acquisition_management ;
-.
-
-<https://pid.geoscience.gov.au/def/voc/ga/DataThemes/data_management/sample_acquisition_management>
-    skos:broader :data_management ;
-.
-
-:earth_observation
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:definition "Earth Observation is the collection, analysis and presentation of information about planet Earth’s physical, chemical and biological systems via remote sensing technologies."@en ;
-    skos:inScheme cs: ;
-    skos:prefLabel "earth observation"@en ;
-    skos:topConceptOf cs: ;
-    schema:citation "https://www.gov.uk/government/collections/earth-observation-eo"^^xsd:anyURI ;
-    schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
+    schema:status astatus:experimental ;
 .
 
 :energy
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
+    skos:broader :resources ;
     skos:definition "Related to the study, exploration for and exploitation of physical processes and natural concentrations of materials for the main purpose of power generation. Energy resources include (a) concentrations of solid and/or fluid, inorganic or fossilized organic materials naturally occurring on or in the Earth’s crust (e.g. non-renewable fossil fuels such as petroleum, and natural gases); (b) natural physical processes within the Earth’s crust, atmosphere and hydrosphere (i.e. renewable energy resources such as solar, wind, hydro, solar thermal, marine, geothermal) or human-controlled activities (e.g. bioenergy/biomass, energy storage); and (c) nuclear energy. Adapted from Glossary of geology (Neuendorf et. al., 2011, 5th edition revised)."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "energy"@en ;
-    skos:topConceptOf cs: ;
     schema:citation "https://linked.data.gov.au/def/gswa-vocabulary-themes/energy"^^xsd:anyURI ;
-    schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
-.
-
-<https://pid.geoscience.gov.au/def/voc/ga/DataThemes/geochemistry/hydrogeochemistry>
-    skos:broader :geochemistry ;
-.
-
-:geochronology
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:definition "Geochronology is a discipline of geoscience which measures the age of earth materials and provides the temporal framework in which other geoscience data can be interpreted in the context of Earth history."@en ;
-    skos:inScheme cs: ;
-    skos:prefLabel "geochronology"@en ;
-    skos:topConceptOf cs: ;
-    schema:citation "https://www.ga.gov.au/scientific-topics/disciplines/geochronology"^^xsd:anyURI ;
-    schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
-.
-
-<https://pid.geoscience.gov.au/def/voc/ga/DataThemes/geodesy/earth_observation>
-    skos:broader :geodesy ;
-.
-
-:geography
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:definition "Geography is the study of place, space, and the environment, and of people and others in relation to those."@en ;
-    skos:inScheme cs: ;
-    skos:prefLabel "geography"@en ;
-    skos:topConceptOf cs: ;
-    schema:citation "https://www.iag.org.au/what-is-geography"^^xsd:anyURI ;
-    schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
+    schema:status astatus:experimental ;
 .
 
 :geoinformatics
@@ -135,76 +87,40 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "geoinformatics"@en ;
     skos:topConceptOf cs: ;
     schema:citation "https://en.wikipedia.org/wiki/Geoinformatics"^^xsd:anyURI ;
-    schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
-.
-
-<https://pid.geoscience.gov.au/def/voc/ga/DataThemes/geology/geocronology>
-    skos:broader :geology ;
-.
-
-<https://pid.geoscience.gov.au/def/voc/ga/DataThemes/geology/hydrogeology>
-    skos:broader :geology ;
-.
-
-<https://pid.geoscience.gov.au/def/voc/ga/DataThemes/geology/marine_geoscience>
-    skos:broader :geology ;
-.
-
-<https://pid.geoscience.gov.au/def/voc/ga/DataThemes/geology/palaeontology>
-    skos:broader :geology ;
-.
-
-<https://pid.geoscience.gov.au/def/voc/ga/DataThemes/geology/resource_geoscience>
-    skos:broader :geology ;
+    schema:status astatus:experimental ;
 .
 
 :geomorphology
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
+    skos:broader :physical_geography ;
     skos:definition "Geomorphology is a branch of Earth science that focuses on the study of landforms, their origin, development, and classification. It examines the processes that shape the Earth’s surface, such as erosion, weathering, tectonic activity, and sedimentation."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "geomorphology"@en ;
-    skos:topConceptOf cs: ;
     schema:citation "https://physicalgeography.org/geomorphology/"^^xsd:anyURI ;
-    schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
-.
-
-<https://pid.geoscience.gov.au/def/voc/ga/DataThemes/geophysics/geodesy>
-    skos:broader :geophysics ;
-.
-
-<https://pid.geoscience.gov.au/def/voc/ga/DataThemes/geophysics/magnetotellurics>
-    skos:broader :geophysics ;
-.
-
-<https://pid.geoscience.gov.au/def/voc/ga/DataThemes/geophysics/radiometrics>
-    skos:broader :geophysics ;
-.
-
-<https://pid.geoscience.gov.au/def/voc/ga/DataThemes/geophysics/seismology>
-    skos:broader :geophysics ;
+    schema:status astatus:experimental ;
 .
 
 :hydrogeochemistry
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
+    skos:broader :geochemistry ;
     skos:definition "The chemistry of ground and surface waters, particularly the relationships between the chemical characteristics and quality of waters and the areal and regional geology."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "hydrogeochemistry"@en ;
-    skos:topConceptOf cs: ;
     schema:citation "hydrogeochemistry | glossary.americangeosciences.org"^^xsd:anyURI ;
-    schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
+    schema:status astatus:experimental ;
 .
 
 :hydrogeology
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
+    skos:broader :geology ;
     skos:definition "Hydrogeology is defined as the study of groundwater, encompassing its origin, occurrence, movement, and quality, while also examining its interactions within the hydrologic cycle and its relationship with other water components like precipitation and streams."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "hydrogeology"@en ;
-    skos:topConceptOf cs: ;
     schema:citation "https://www.sciencedirect.com/topics/earth-and-planetary-sciences/hydrogeology"^^xsd:anyURI ;
-    schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
+    schema:status astatus:experimental ;
 .
 
 :hydrology
@@ -215,7 +131,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "hydrology"@en ;
     skos:topConceptOf cs: ;
     schema:citation "https://www.usgs.gov/water-science-school/science/what-hydrology#Hydrology"^^xsd:anyURI ;
-    schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
+    schema:status astatus:experimental ;
 .
 
 :legislation
@@ -226,64 +142,62 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "legislation"@en ;
     skos:topConceptOf cs: ;
     schema:citation "https://linked.data.gov.au/def/gswa-vocabulary-themes/legislation"^^xsd:anyURI ;
-    schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
+    schema:status astatus:experimental ;
 .
 
 :magnetotellurics
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
+    skos:broader :geophysics ;
     skos:definition "Magnetotellurics (MT) is a passive geophysical method which uses natural time variations of the Earth's magnetic and electric fields to measure the electrical resistivity of the sub-surface."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "magnetotellurics"@en ;
-    skos:topConceptOf cs: ;
-    schema:citation "https://www.ga.gov.au/scientific-topics/disciplines/geophysics/magnetotellurics"^^xsd:anyURI ;
-    schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
+    schema:citation "https://www.ga.gov.au/scientific-topics/disciplines/magnetotellurics"^^xsd:anyURI ;
+    schema:status astatus:experimental ;
 .
 
 :marine_geoscience
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
+    skos:broader :geology ;
     skos:definition "Marine geoscience encompasses marine geology, geophysics, and geochemistry. It involves the study of the rocks that make up the ocean floor, its morphology, the processes that have created, modified, and destroyed it, and the structures that lie beneath it."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "marine geoscience"@en ;
-    skos:topConceptOf cs: ;
-    schema:citation
-        "driven%20climate%20and%20environmental%20change."^^xsd:anyURI ,
-        "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2021CN000144#:~:text=The%20marine%20geosciences%2C%20which%20encompass"^^xsd:anyURI ;
-    schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
+    schema:citation "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2021CN000144#:~:text=The%20marine%20geosciences%2C%20which%20encompass"^^xsd:anyURI ;
+    schema:status astatus:experimental ;
 .
 
-:mineral
+:minerals
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
+    skos:broader :resources ;
     skos:definition "Related to the study, exploration for and exploitation of concentrations of natural inorganic or fossilized organic material occurring on or within the Earth’s crust, in sufficient quantity and quality to have reasonable prospects for economic extraction. Mineral resources are non-renewable and include metals (e.g. iron, copper, and aluminium), non-metals (e.g. salt, gypsum, clay, sand, phosphates), and rocks (e.g. dimension stones, basic raw materials)."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "mineral"@en ;
-    skos:topConceptOf cs: ;
     schema:citation "https://glossary.americangeosciences.org/term/resources"^^xsd:anyURI ;
-    schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
+    schema:status astatus:experimental ;
 .
 
-:natural_hazard
+:natural_hazards
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
+    skos:broader :physical_geography ;
     skos:definition "A natural hazard is a natural event driven primarily by weather or geology (for example, flood, volcanic eruption, earthquake, tropical storm) that threatens people or has the potential to cause damage, destruction and/or death."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "natural hazard"@en ;
-    skos:topConceptOf cs: ;
     schema:citation "https://www.internetgeography.net/topics/what-are-natural-hazards/"^^xsd:anyURI ;
-    schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
+    schema:status astatus:experimental ;
 .
 
 :palaeontology
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
+    skos:broader :geology ;
     skos:definition "Palaeontology is the study of fossils and what they reveal about the history of our planet. In marine environments microfossils collected within in layers of sediment cores provide a rich source of information about the environmental history of an area."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "palaeontology"@en ;
-    skos:topConceptOf cs: ;
     schema:citation "https://www.ga.gov.au/scientific-topics/disciplines/palaeontology"^^xsd:anyURI ;
-    schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
+    schema:status astatus:experimental ;
 .
 
 :petrophysics
@@ -294,38 +208,18 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:prefLabel "petrophysics"@en ;
     schema:citation "https://linked.data.gov.au/def/earthsci-for/petrophysics"^^xsd:anyURI ;
-    schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
-.
-
-<https://pid.geoscience.gov.au/def/voc/ga/DataThemes/physical_geography/geography>
-    skos:broader :physical_geography ;
-.
-
-<https://pid.geoscience.gov.au/def/voc/ga/DataThemes/physical_geography/geomorphology>
-    skos:broader :physical_geography ;
-.
-
-<https://pid.geoscience.gov.au/def/voc/ga/DataThemes/physical_geography/natural_hazards>
-    skos:broader :physical_geography ;
+    schema:status astatus:experimental ;
 .
 
 :radiometrics
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
+    skos:broader :geophysics ;
     skos:definition "The radiometric, or gamma-ray spectrometric method is a geophysical process used to estimate concentrations of the radioelements: potassium, uranium and thorium in the near surface. This is done by measuring the gamma-rays which the radioactive isotopes of these elements emit during radioactive decay."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "radiometrics"@en ;
-    skos:topConceptOf cs: ;
-    schema:citation "https://www.ga.gov.au/scientific-topics/disciplines/geophysics/radiometrics"^^xsd:anyURI ;
-    schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
-.
-
-<https://pid.geoscience.gov.au/def/voc/ga/DataThemes/resources/energy>
-    skos:broader :resources ;
-.
-
-<https://pid.geoscience.gov.au/def/voc/ga/DataThemes/resources/mineral>
-    skos:broader :resources ;
+    schema:citation "https://www.ga.gov.au/scientific-topics/disciplines/radiometrics"^^xsd:anyURI ;
+    schema:status astatus:experimental ;
 .
 
 :sample_acquisition
@@ -333,22 +227,34 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     rdfs:isDefinedBy cs: ;
     skos:definition "Sample acquisition is related to the collection/procurement, handling, tracking, storing, and retrieving of primary geoscience material (typically, but not exclusively, a rock, mineral, fossil or soil) collected in the field or from materials collected in the field (e.g. drillcore)"@en ;
     skos:inScheme cs: ;
+    skos:narrower :sample_acquisition_management ;
     skos:prefLabel "sample acquisition"@en ;
     skos:topConceptOf cs: ;
     schema:citation "https://linked.data.gov.au/def/gswa-vocabulary-themes/sample-acquisition-management"^^xsd:anyURI ;
-    schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
+    schema:status astatus:experimental ;
 .
 
 :data_management
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
+    skos:broader :sample_acquisition_management ;
     skos:definition "Data Management is the development, execution, and supervision of plans, policies, programs, and practices that deliver, control, protect, and enhance the value of data and information assets throughout their lifecycles. It encompasses a range of disciplines and processes that collectively enable organizations to derive meaningful insights, make informed decisions, and maintain compliance with regulatory standards."@en ;
     skos:inScheme cs: ;
-    skos:narrower <https://pid.geoscience.gov.au/def/voc/ga/DataThemes/data_management/sample_acquisition_management> ;
     skos:prefLabel "data management"@en ;
-    skos:topConceptOf cs: ;
     schema:citation "https://dama.org/about-dama/what-is-data-management/"^^xsd:anyURI ;
-    schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
+    schema:status astatus:experimental ;
+.
+
+:earth_observation
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Earth Observation is the collection, analysis and presentation of information about planet Earth’s physical, chemical and biological systems via remote sensing technologies."@en ;
+    skos:inScheme cs: ;
+    skos:narrower :geodesy ;
+    skos:prefLabel "earth observation"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "https://www.gov.uk/government/collections/earth-observation-eo"^^xsd:anyURI ;
+    schema:status astatus:experimental ;
 .
 
 :geochemistry
@@ -356,23 +262,36 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     rdfs:isDefinedBy cs: ;
     skos:definition "Geochemistry is the study of the distribution and amounts of the chemical elements in minerals, ores, rocks, soils, water, and the atmosphere, and the study of the circulation of the elements in nature, on the basis of the properties of their atoms and ions; also, the study of the distribution and abundance of isotopes, including problems of nuclear frequency and stability in the universe. A major concern of geochemistry is the synoptic evaluation of the abundances of the elements in the Earth's crust and in major classes of rocks and minerals."@en ;
     skos:inScheme cs: ;
-    skos:narrower <https://pid.geoscience.gov.au/def/voc/ga/DataThemes/geochemistry/hydrogeochemistry> ;
+    skos:narrower :hydrogeochemistry ;
     skos:prefLabel "geochemistry"@en ;
     skos:topConceptOf cs: ;
     schema:citation "https://glossary.americangeosciences.org/term/geochemistry"^^xsd:anyURI ;
-    schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
+    schema:status astatus:experimental ;
 .
 
 :geodesy
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
+    skos:broader
+        :earth_observation ,
+        :geophysics ;
     skos:definition "Geodesy measures the size, shape, orientation and gravity field of our dynamic Earth and how it changes over time."@en ;
     skos:inScheme cs: ;
-    skos:narrower <https://pid.geoscience.gov.au/def/voc/ga/DataThemes/geodesy/earth_observation> ;
     skos:prefLabel "geodesy"@en ;
-    skos:topConceptOf cs: ;
     schema:citation "https://www.ga.gov.au/scientific-topics/positioning-navigation/positioning-australia/geodesy"^^xsd:anyURI ;
-    schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
+    schema:status astatus:experimental ;
+.
+
+:geography
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "Geography is the study of place, space, and the environment, and of people and others in relation to those."@en ;
+    skos:inScheme cs: ;
+    skos:narrower :physical_geography ;
+    skos:prefLabel "geography"@en ;
+    skos:topConceptOf cs: ;
+    schema:citation "https://www.iag.org.au/what-is-geography"^^xsd:anyURI ;
+    schema:status astatus:experimental ;
 .
 
 :information_management
@@ -383,62 +302,61 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "information management"@en ;
     skos:topConceptOf cs: ;
     schema:citation "https://www.dama-uk.org/pages/glossary"^^xsd:anyURI ;
-    schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
+    schema:status astatus:experimental ;
 .
 
 :seismology
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
+    skos:broader :geophysics ;
     skos:definition "Seismology is the scientific study of earthquakes (or generally, quakes) and the generation and propagation of elastic waves through planetary bodies. It also includes studies of the environmental effects of earthquakes such as tsunamis; other seismic sources such as volcanoes, plate tectonics, glaciers, rivers, oceanic microseisms, and the atmosphere; and artificial processes such as explosions."@en ;
     skos:inScheme cs: ;
     skos:narrower :ambient_noise_tomography ;
     skos:prefLabel "seismology"@en ;
-    skos:topConceptOf cs: ;
     schema:citation "https://en.wikipedia.org/wiki/Seismology"^^xsd:anyURI ;
-    schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
-.
-
-:resources
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:definition "Concept related to the study, exploration for and exploitation of concentrations of solid, liquid, or gaseous materials in or on the Earth's crust in such form and amount that economic extraction of a commodity from the concentration is currently or potentially feasible. Adapted from Glossary of geology (Neuendorf et. al., 2011, 5th edition revised)."@en ;
-    skos:inScheme cs: ;
-    skos:narrower
-        <https://pid.geoscience.gov.au/def/voc/ga/DataThemes/resources/energy> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/DataThemes/resources/mineral> ;
-    skos:prefLabel "resources"@en ;
-    skos:topConceptOf cs: ;
-    schema:citation "https://linked.data.gov.au/def/gswa-vocabulary-themes/resources"^^xsd:anyURI ;
-    schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
-.
-
-:sample_acquisition_management
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:definition "Sample acquisition and management is related to the collection/procurement, handling, tracking, storing, and retrieving of primary geoscience material (typically, but not exclusively, a rock, mineral, fossil or soil) collected in the field or from materials collected in the field (e.g. drillcore), as well as derived specimens from such materials for the purpose of analysis and research. Included are vocabularies related to collections as single entities."@en ;
-    skos:inScheme cs: ;
-    skos:narrower
-        <https://pid.geoscience.gov.au/def/voc/ga/DataThemes/data_management/data_acquisition> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/DataThemes/data_management/sample_acquisition> ;
-    skos:prefLabel "sample acquisition and management"@en ;
-    skos:topConceptOf cs: ;
-    schema:citation "https://linked.data.gov.au/def/gswa-vocabulary-themes/sample-acquisition-management"^^xsd:anyURI ;
-    schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
+    schema:status astatus:experimental ;
 .
 
 :physical_geography
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
+    skos:broader :geography ;
     skos:definition "Physical geography is the branch of natural science which deals with the processes and patterns in the natural environment such as the atmosphere, hydrosphere, biosphere, and geosphere."@en ;
     skos:inScheme cs: ;
     skos:narrower
-        <https://pid.geoscience.gov.au/def/voc/ga/DataThemes/physical_geography/geography> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/DataThemes/physical_geography/geomorphology> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/DataThemes/physical_geography/natural_hazards> ;
+        :geomorphology ,
+        :natural_hazards ;
     skos:prefLabel "physical geography"@en ;
-    skos:topConceptOf cs: ;
     schema:citation "https://en.wikipedia.org/wiki/Physical_geography"^^xsd:anyURI ;
-    schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
+    schema:status astatus:experimental ;
+.
+
+:resources
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :geology ;
+    skos:definition "Concept related to the study, exploration for and exploitation of concentrations of solid, liquid, or gaseous materials in or on the Earth's crust in such form and amount that economic extraction of a commodity from the concentration is currently or potentially feasible. Adapted from Glossary of geology (Neuendorf et. al., 2011, 5th edition revised)."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :energy ,
+        :minerals ;
+    skos:prefLabel "resources"@en ;
+    schema:citation "https://linked.data.gov.au/def/gswa-vocabulary-themes/resources"^^xsd:anyURI ;
+    schema:status astatus:experimental ;
+.
+
+:sample_acquisition_management
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :data_management ;
+    skos:definition "Sample acquisition and management is related to the collection/procurement, handling, tracking, storing, and retrieving of primary geoscience material (typically, but not exclusively, a rock, mineral, fossil or soil) collected in the field or from materials collected in the field (e.g. drillcore), as well as derived specimens from such materials for the purpose of analysis and research. Included are vocabularies related to collections as single entities."@en ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :data_acquisition ,
+        :sample_acquisition ;
+    skos:prefLabel "sample acquisition and management"@en ;
+    schema:citation "https://linked.data.gov.au/def/gswa-vocabulary-themes/sample-acquisition-management"^^xsd:anyURI ;
+    schema:status astatus:experimental ;
 .
 
 :geology
@@ -447,15 +365,15 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:definition "Geology is the study of the materials of which the planet Earth is made, the processes that act on these materials, the products formed, and the history of the planet and its life forms since its origin."@en ;
     skos:inScheme cs: ;
     skos:narrower
-        <https://pid.geoscience.gov.au/def/voc/ga/DataThemes/geology/geocronology> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/DataThemes/geology/hydrogeology> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/DataThemes/geology/marine_geoscience> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/DataThemes/geology/palaeontology> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/DataThemes/geology/resource_geoscience> ;
+        :geocronology ,
+        :hydrogeology ,
+        :marine_geoscience ,
+        :palaeontology ,
+        :resources ;
     skos:prefLabel "geology"@en ;
     skos:topConceptOf cs: ;
     schema:citation "geology | glossary.americangeosciences.org"^^xsd:anyURI ;
-    schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
+    schema:status astatus:experimental ;
 .
 
 :geophysics
@@ -464,15 +382,15 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:definition "Geophysics is the investigation of the solid and molten Earth using physical principles which allow studies on large scales and of the otherwise inaccessible deep Earth. Geophysical methods are used to study large scale Earth Structure, to measure the exact shape and size of the planet (Geodesy), to study the dynamics of the Earth’s interior and tectonic plates (Geodynamics), to study the history of Earth’s magnetic field and its present state (Geomagnetism), to study the physical properties of rocks and minerals at or near the surface, as well as those in the core (Mineral Physics), and finally, to study the physical causes and effects of earthquakes (Seismology)."@en ;
     skos:inScheme cs: ;
     skos:narrower
-        <https://pid.geoscience.gov.au/def/voc/ga/DataThemes/geophysics/geodesy> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/DataThemes/geophysics/magnetotellurics> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/DataThemes/geophysics/radiometrics> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/DataThemes/geophysics/seismology> ,
-        :petrophysics ;
+        :geodesy ,
+        :magnetotellurics ,
+        :petrophysics ,
+        :radiometrics ,
+        :seismology ;
     skos:prefLabel "geophysics"@en ;
     skos:topConceptOf cs: ;
     schema:citation "https://www.sciencedirect.com/science/chapter/referencework/pii/B9780124095489053549#s0015"^^xsd:anyURI ;
-    schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
+    schema:status astatus:experimental ;
 .
 
 cs:
@@ -481,34 +399,16 @@ cs:
     skos:definition "These geoscience data themes are used by Geoscience Australia to enable sorting of content in their registers."@en ;
     skos:hasTopConcept
         :administration ,
-        :data_acquisition ,
         :data_management ,
         :earth_observation ,
-        :energy ,
         :geochemistry ,
-        :geochronology ,
-        :geodesy ,
         :geography ,
         :geoinformatics ,
         :geology ,
-        :geomorphology ,
         :geophysics ,
-        :hydrogeochemistry ,
-        :hydrogeology ,
         :hydrology ,
         :information_management ,
-        :legislation ,
-        :magnetotellurics ,
-        :marine_geoscience ,
-        :mineral ,
-        :natural_hazard ,
-        :palaeontology ,
-        :physical_geography ,
-        :radiometrics ,
-        :resources ,
-        :sample_acquisition ,
-        :sample_acquisition_management ,
-        :seismology ;
+        :legislation ;
     skos:historyNote "This vocabulary is a refresh of a previous GA data classification. The definitions have been sourced from other Australian Geological Surveys where possible. This was created for the purpose of grouping related vocabularies and other GA products to enable easy sorting by data type." ;
     skos:prefLabel "GA Register Data Themes"@en ;
     prov:qualifiedAttribution
@@ -517,30 +417,22 @@ cs:
                 [
                     a schema:Person ;
                     schema:email ""^^xsd:anyURI ;
-                    schema:name "Smith" ;
+                    schema:name "Smith M." ;
                 ] ;
             prov:hadRole DATAROLES:custodian ;
         ] ,
-        [
-            prov:agent
-                [
-                    a schema:Person ;
-                    schema:email ""^^xsd:anyURI ;
-                    schema:name "Mfm" ;
-                ] ;
-            prov:hadRole DATAROLES:custodian ;
-        ] ;
     schema:creator
         [
             a schema:Organization ;
             schema:name "Data Governance And Catalogue Team" ;
+            schema:parentOrganization <https://linked.data.gov.au/org/ga> ;
             schema:url ""^^xsd:anyURI ;
         ] ;
     schema:dateCreated "2025-12-11"^^xsd:date ;
-    schema:dateModified "2026-04-15"^^xsd:date ;
+    schema:dateModified "2026-04-20"^^xsd:date ;
     schema:identifier "https://pid.geoscience.gov.au/dataset/ga/150902"^^gavoc:eCatID ;
     schema:keywords :information_management ;
     schema:publisher <https://linked.data.gov.au/org/ga> ;
-    schema:status <https://linked.data.gov.au/def/reg-statuses/experimental> ;
-    schema:version "1.0" ;
+    schema:status astatus:experimental ;
+    schema:version "1" ;
 .
