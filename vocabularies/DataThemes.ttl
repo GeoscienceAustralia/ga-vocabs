@@ -420,7 +420,7 @@ cs:
                     schema:name "Smith M." ;
                 ] ;
             prov:hadRole DATAROLES:custodian ;
-        ] ,
+        ] ;
     schema:creator
         [
             a schema:Organization ;
