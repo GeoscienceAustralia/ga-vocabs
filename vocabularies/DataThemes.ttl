@@ -411,22 +411,13 @@ cs:
         :legislation ;
     skos:historyNote "This vocabulary is a refresh of a previous GA data classification. The definitions have been sourced from other Australian Geological Surveys where possible. This was created for the purpose of grouping related vocabularies and other GA products to enable easy sorting by data type." ;
     skos:prefLabel "GA Register Data Themes"@en ;
-    prov:qualifiedAttribution 
+    prov:qualifiedAttribution
         [
             prov:agent
                 [
                     a schema:Person ;
                     schema:email ""^^xsd:anyURI ;
-                    schema:name "Margie Smith" ;
-                ] ;
-            prov:hadRole DATAROLES:custodian ;
-        ] ,
-        [
-            prov:agent
-                [
-                    a schema:Person ;
-                    schema:email ""^^xsd:anyURI ;
-                    schema:name "Mfm" ;
+                    schema:name "Smith M." ;
                 ] ;
             prov:hadRole DATAROLES:custodian ;
         ] ;
@@ -438,10 +429,10 @@ cs:
             schema:url ""^^xsd:anyURI ;
         ] ;
     schema:dateCreated "2025-12-11"^^xsd:date ;
-    schema:dateModified "2026-04-20"^^xsd:date ;
+    schema:dateModified "2026-04-21"^^xsd:date ;
     schema:identifier "https://pid.geoscience.gov.au/dataset/ga/150902"^^gavoc:eCatID ;
     schema:keywords :information_management ;
     schema:publisher <https://linked.data.gov.au/org/ga> ;
     schema:status astatus:experimental ;
-    schema:version "2" ;
+    schema:version "1" ;
 .
