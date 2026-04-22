@@ -3,7 +3,6 @@ PREFIX astatus: <https://linked.data.gov.au/def/reg-statuses/>
 PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/CountryCodes>
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX gavoc: <https://pid.geoscience.gov.au/def/voc/ga/>
-PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -193,6 +192,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :AU-ACT
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :AUS ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
     skos:inScheme cs: ;
@@ -202,6 +202,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :AU-NSW
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :AUS ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
     skos:inScheme cs: ;
@@ -211,6 +212,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :AU-NT
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :AUS ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
     skos:inScheme cs: ;
@@ -220,6 +222,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :AU-QLD
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :AUS ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
     skos:inScheme cs: ;
@@ -229,6 +232,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :AU-SA
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :AUS ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
     skos:inScheme cs: ;
@@ -238,6 +242,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :AU-TAS
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :AUS ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
     skos:inScheme cs: ;
@@ -247,6 +252,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :AU-VIC
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :AUS ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
     skos:inScheme cs: ;
@@ -256,6 +262,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :AU-WA
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :AUS ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
     skos:inScheme cs: ;
@@ -564,6 +571,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :CA-AB
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Alberta"@fra ;
     skos:broader :CAN ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -574,6 +582,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :CA-BC
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Colombie-Britannique"@fra ;
     skos:broader :CAN ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -584,6 +593,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :CA-MB
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Manitoba"@fra ;
     skos:broader :CAN ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -594,6 +604,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :CA-NB
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Nouveau-Brunswick"@fra ;
     skos:broader :CAN ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -604,6 +615,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :CA-NL
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Terre-Neuve-et-Labrador"@fra ;
     skos:broader :CAN ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -614,6 +626,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :CA-NS
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Nouvelle-Ecosse"@fra ;
     skos:broader :CAN ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -624,6 +637,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :CA-NT
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Territoires du Nord-Ouest"@fra ;
     skos:broader :CAN ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -634,6 +648,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :CA-NU
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Nunavut"@fra ;
     skos:broader :CAN ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -644,6 +659,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :CA-ON
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Ontario"@fra ;
     skos:broader :CAN ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -654,6 +670,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :CA-PE
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Île-du-Prince-Édouard"@fra ;
     skos:broader :CAN ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -664,6 +681,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :CA-QC
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Quebec"@fra ;
     skos:broader :CAN ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -674,6 +692,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :CA-SK
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Saskatchewan"@fra ;
     skos:broader :CAN ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -684,6 +703,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :CA-YT
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Yukon"@fra ;
     skos:broader :CAN ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -759,6 +779,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :CL-AI
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Aisen del General Carlos Ibanez del Campo"@spa ;
     skos:broader :CHL ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -769,6 +790,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :CL-AN
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Antofagasta"@spa ;
     skos:broader :CHL ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -779,6 +801,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :CL-AP
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Arica y Parinacota"@spa ;
     skos:broader :CHL ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -789,6 +812,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :CL-AR
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "La Araucania"@spa ;
     skos:broader :CHL ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -799,6 +823,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :CL-AT
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Atacama"@spa ;
     skos:broader :CHL ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -809,6 +834,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :CL-BI
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Biobío"@spa ;
     skos:broader :CHL ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -819,6 +845,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :CL-CO
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Coquimbo"@spa ;
     skos:broader :CHL ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -829,6 +856,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :CL-LI
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Libertador General Bernardo O'Higgins"@spa ;
     skos:broader :CHL ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -839,6 +867,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :CL-LL
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Los Lagos"@spa ;
     skos:broader :CHL ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -849,6 +878,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :CL-LR
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Los Rios"@spa ;
     skos:broader :CHL ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -859,6 +889,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :CL-MA
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Magallanes"@spa ;
     skos:broader :CHL ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -869,6 +900,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :CL-ML
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Maule"@spa ;
     skos:broader :CHL ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -879,6 +911,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :CL-NB
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Nuble"@spa ;
     skos:broader :CHL ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -889,6 +922,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :CL-RM
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Region Metropolitana de Santiago"@spa ;
     skos:broader :CHL ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -899,6 +933,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :CL-TA
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Tarapaca"@spa ;
     skos:broader :CHL ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2181,6 +2216,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :ME-01
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Andrijevica"@cnr ;
     skos:broader :MNE ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2191,6 +2227,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :ME-02
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Bar"@cnr ;
     skos:broader :MNE ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2201,6 +2238,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :ME-03
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Berane"@cnr ;
     skos:broader :MNE ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2211,6 +2249,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :ME-04
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Bijelo Polje"@cnr ;
     skos:broader :MNE ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2221,6 +2260,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :ME-05
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Budva"@cnr ;
     skos:broader :MNE ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2231,6 +2271,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :ME-06
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Cetinje"@cnr ;
     skos:broader :MNE ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2241,6 +2282,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :ME-07
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Danilovgrad"@cnr ;
     skos:broader :MNE ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2251,6 +2293,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :ME-08
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Herceg-Novi"@cnr ;
     skos:broader :MNE ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2261,6 +2304,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :ME-09
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Kolasin"@cnr ;
     skos:broader :MNE ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2271,6 +2315,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :ME-10
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Kotor"@cnr ;
     skos:broader :MNE ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2281,6 +2326,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :ME-11
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Mojkovac"@cnr ;
     skos:broader :MNE ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2291,6 +2337,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :ME-12
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Niksic"@cnr ;
     skos:broader :MNE ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2301,6 +2348,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :ME-13
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Plav"@cnr ;
     skos:broader :MNE ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2311,6 +2359,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :ME-14
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Pljevlja"@cnr ;
     skos:broader :MNE ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2321,6 +2370,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :ME-15
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Pluzine"@cnr ;
     skos:broader :MNE ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2331,6 +2381,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :ME-16
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Podgorica"@cnr ;
     skos:broader :MNE ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2341,6 +2392,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :ME-17
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Rozaje"@cnr ;
     skos:broader :MNE ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2351,6 +2403,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :ME-18
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Savnik"@cnr ;
     skos:broader :MNE ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2361,6 +2414,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :ME-19
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Tivat"@cnr ;
     skos:broader :MNE ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2371,6 +2425,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :ME-20
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Ulcinj"@cnr ;
     skos:broader :MNE ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2381,6 +2436,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :ME-21
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Zabljak"@cnr ;
     skos:broader :MNE ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2391,6 +2447,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :ME-22
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Gusinje"@cnr ;
     skos:broader :MNE ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2401,6 +2458,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :ME-23
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Petnjica"@cnr ;
     skos:broader :MNE ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2411,6 +2469,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :ME-24
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Tuzi"@cnr ;
     skos:broader :MNE ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2590,6 +2649,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :MX-AGU
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Aguascalientes"@spa ;
     skos:broader :MEX ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2600,6 +2660,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :MX-BCN
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Baja California"@spa ;
     skos:broader :MEX ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2610,6 +2671,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :MX-BCS
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Baja California Sur"@spa ;
     skos:broader :MEX ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2620,6 +2682,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :MX-CAM
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Campeche"@spa ;
     skos:broader :MEX ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2630,6 +2693,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :MX-CHH
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Chihuahua"@spa ;
     skos:broader :MEX ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2640,6 +2704,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :MX-CHP
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Chiapas"@spa ;
     skos:broader :MEX ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2650,6 +2715,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :MX-CMX
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Ciudad de Mexico"@spa ;
     skos:broader :MEX ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2660,6 +2726,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :MX-COA
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Coahuila de Zaragoza"@spa ;
     skos:broader :MEX ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2670,6 +2737,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :MX-COL
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Colima"@spa ;
     skos:broader :MEX ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2680,6 +2748,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :MX-DUR
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Durango"@spa ;
     skos:broader :MEX ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2690,6 +2759,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :MX-GRO
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Guerrero"@spa ;
     skos:broader :MEX ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2700,6 +2770,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :MX-GUA
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Guanajuato"@spa ;
     skos:broader :MEX ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2710,6 +2781,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :MX-HID
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Hidalgo"@spa ;
     skos:broader :MEX ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2720,6 +2792,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :MX-JAL
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Jalisco"@spa ;
     skos:broader :MEX ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2730,6 +2803,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :MX-MEX
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Mexico"@spa ;
     skos:broader :MEX ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2740,6 +2814,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :MX-MIC
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Michoacan de Ocampo"@spa ;
     skos:broader :MEX ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2750,6 +2825,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :MX-MOR
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Morelos"@spa ;
     skos:broader :MEX ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2760,6 +2836,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :MX-NAY
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Nayarit"@spa ;
     skos:broader :MEX ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2770,6 +2847,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :MX-NLE
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Nuevo Leon"@spa ;
     skos:broader :MEX ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2780,6 +2858,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :MX-OAX
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Oaxaca"@spa ;
     skos:broader :MEX ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2790,6 +2869,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :MX-PUE
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Puebla"@spa ;
     skos:broader :MEX ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2800,6 +2880,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :MX-QUE
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Queretaro"@spa ;
     skos:broader :MEX ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2810,6 +2891,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :MX-ROO
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Quintana Roo"@spa ;
     skos:broader :MEX ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2820,6 +2902,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :MX-SIN
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Sinaloa"@spa ;
     skos:broader :MEX ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2830,6 +2913,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :MX-SLP
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "San Luis Potosi"@spa ;
     skos:broader :MEX ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2840,6 +2924,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :MX-SON
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Sonora"@spa ;
     skos:broader :MEX ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2850,6 +2935,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :MX-TAB
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Tabasco"@spa ;
     skos:broader :MEX ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2860,6 +2946,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :MX-TAM
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Tamaulipas"@spa ;
     skos:broader :MEX ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2870,6 +2957,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :MX-TLA
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Tlaxcala"@spa ;
     skos:broader :MEX ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2880,6 +2968,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :MX-VER
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Veracruz de Ignacio de la Llave"@spa ;
     skos:broader :MEX ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2890,6 +2979,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :MX-YUC
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Yucatan"@spa ;
     skos:broader :MEX ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -2900,6 +2990,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :MX-ZAC
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Zacatecas"@spa ;
     skos:broader :MEX ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3079,6 +3170,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :NZ-AUK
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Tamaki-makau-rau"@mri ;
     skos:broader :NZL ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3089,6 +3181,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :NZ-BOP
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Te Moana a Toi Te Huatahi"@mri ;
     skos:broader :NZL ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3099,6 +3192,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :NZ-CAN
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Waitaha"@mri ;
     skos:broader :NZL ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3109,6 +3203,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :NZ-CIT
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Wharekauri"@mri ;
     skos:broader :NZL ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3119,6 +3214,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :NZ-GIS
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Turanga nui a Kiwa"@mri ;
     skos:broader :NZL ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3129,6 +3225,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :NZ-HKB
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Te Matau a Maui"@mri ;
     skos:broader :NZL ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3139,6 +3236,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :NZ-MBH
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Te Tauihu-o-te-waka"@mri ;
     skos:broader :NZL ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3149,6 +3247,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :NZ-MWT
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Manawatu-Wanganui"@mri ;
     skos:broader :NZL ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3159,6 +3258,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :NZ-NSN
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Whakatu"@mri ;
     skos:broader :NZL ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3169,6 +3269,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :NZ-NTL
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Te Tai tokerau"@mri ;
     skos:broader :NZL ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3179,6 +3280,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :NZ-OTA
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "O Takou"@mri ;
     skos:broader :NZL ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3189,6 +3291,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :NZ-STL
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Murihiku"@mri ;
     skos:broader :NZL ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3199,6 +3302,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :NZ-TAS
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Te Tai-o-Aorere"@mri ;
     skos:broader :NZL ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3209,6 +3313,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :NZ-TKI
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Taranaki"@mri ;
     skos:broader :NZL ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3219,6 +3324,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :NZ-WGN
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Te Whanga-nui-a-Tara"@mri ;
     skos:broader :NZL ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3229,6 +3335,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :NZ-WKO
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Waikato"@mri ;
     skos:broader :NZL ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3239,6 +3346,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :NZ-WTC
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Te Taihau a uru"@mri ;
     skos:broader :NZL ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3483,6 +3591,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :RS-00
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Beograd"@srp ;
     skos:broader :SRB ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3493,6 +3602,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :RS-08
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Macvanski okrug"@srp ;
     skos:broader :SRB ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3503,6 +3613,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :RS-09
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Kolubarski okrug"@srp ;
     skos:broader :SRB ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3513,6 +3624,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :RS-10
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Podunavski okrug"@srp ;
     skos:broader :SRB ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3523,6 +3635,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :RS-11
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Branicevski okrug"@srp ;
     skos:broader :SRB ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3533,6 +3646,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :RS-12
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Sumadijski okrug"@srp ;
     skos:broader :SRB ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3543,6 +3657,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :RS-13
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Pomoravski okrug"@srp ;
     skos:broader :SRB ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3553,6 +3668,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :RS-14
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Borski okrug"@srp ;
     skos:broader :SRB ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3563,6 +3679,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :RS-15
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Zajecarski okrug"@srp ;
     skos:broader :SRB ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3573,6 +3690,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :RS-16
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Zlatiborski okrug"@srp ;
     skos:broader :SRB ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3583,6 +3701,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :RS-17
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Moravicki okrug"@srp ;
     skos:broader :SRB ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3593,6 +3712,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :RS-18
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Raski okrug"@srp ;
     skos:broader :SRB ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3603,6 +3723,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :RS-19
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Rasinski okrug"@srp ;
     skos:broader :SRB ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3613,6 +3734,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :RS-20
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Nisavski okrug"@srp ;
     skos:broader :SRB ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3623,6 +3745,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :RS-21
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Toplicki okrug"@srp ;
     skos:broader :SRB ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3633,6 +3756,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :RS-22
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Pirotski okrug"@srp ;
     skos:broader :SRB ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3643,6 +3767,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :RS-23
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Jablanicki okrug"@srp ;
     skos:broader :SRB ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -3653,6 +3778,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :RS-24
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Pcinjski okrug"@srp ;
     skos:broader :SRB ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -4235,6 +4361,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :US-AK
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :USA ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
     skos:inScheme cs: ;
@@ -4244,6 +4371,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :US-AL
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :USA ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
     skos:inScheme cs: ;
@@ -4253,6 +4381,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :US-AR
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :USA ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
     skos:inScheme cs: ;
@@ -4262,6 +4391,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :US-AS
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :USA ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
     skos:inScheme cs: ;
@@ -4271,6 +4401,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :US-AZ
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :USA ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
     skos:inScheme cs: ;
@@ -4280,6 +4411,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :US-CA
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :USA ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
     skos:inScheme cs: ;
@@ -4289,6 +4421,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :US-CO
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :USA ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
     skos:inScheme cs: ;
@@ -4298,6 +4431,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :US-CT
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :USA ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
     skos:inScheme cs: ;
@@ -4307,6 +4441,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :US-DC
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :USA ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
     skos:inScheme cs: ;
@@ -4316,6 +4451,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :US-DE
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :USA ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
     skos:inScheme cs: ;
@@ -4325,6 +4461,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :US-FL
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :USA ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
     skos:inScheme cs: ;
@@ -4334,6 +4471,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :US-GA
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :USA ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
     skos:inScheme cs: ;
@@ -4343,6 +4481,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :US-GU
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :USA ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
     skos:inScheme cs: ;
@@ -4352,6 +4491,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :US-HI
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :USA ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
     skos:inScheme cs: ;
@@ -4361,6 +4501,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :US-IA
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :USA ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
     skos:inScheme cs: ;
@@ -4370,6 +4511,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :US-ID
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :USA ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
     skos:inScheme cs: ;
@@ -4379,6 +4521,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :US-IL
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :USA ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
     skos:inScheme cs: ;
@@ -4388,6 +4531,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :US-IN
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :USA ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
     skos:inScheme cs: ;
@@ -4397,6 +4541,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :US-KS
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :USA ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
     skos:inScheme cs: ;
@@ -4406,6 +4551,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :US-KY
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :USA ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
     skos:inScheme cs: ;
@@ -4415,6 +4561,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :US-LA
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :USA ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
     skos:inScheme cs: ;
@@ -4424,6 +4571,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :US-MA
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :USA ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
     skos:inScheme cs: ;
@@ -4433,6 +4581,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :US-MD
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :USA ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
     skos:inScheme cs: ;
@@ -4442,6 +4591,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :US-ME
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :USA ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
     skos:inScheme cs: ;
@@ -4451,6 +4601,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :US-MI
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :USA ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
     skos:inScheme cs: ;
@@ -4460,6 +4611,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :US-MN
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :USA ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
     skos:inScheme cs: ;
@@ -4469,6 +4621,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :US-MO
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :USA ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
     skos:inScheme cs: ;
@@ -4478,6 +4631,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :US-MP
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :USA ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
     skos:inScheme cs: ;
@@ -4487,6 +4641,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :US-MS
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :USA ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
     skos:inScheme cs: ;
@@ -4496,6 +4651,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :US-MT
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :USA ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
     skos:inScheme cs: ;
@@ -4505,6 +4661,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :US-NC
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :USA ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
     skos:inScheme cs: ;
@@ -4514,6 +4671,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :US-ND
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :USA ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
     skos:inScheme cs: ;
@@ -4523,6 +4681,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :US-NE
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :USA ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
     skos:inScheme cs: ;
@@ -4532,6 +4691,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :US-NH
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :USA ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
     skos:inScheme cs: ;
@@ -4541,6 +4701,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :US-NJ
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :USA ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
     skos:inScheme cs: ;
@@ -4550,6 +4711,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :US-NM
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :USA ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
     skos:inScheme cs: ;
@@ -4559,6 +4721,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :US-NV
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :USA ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
     skos:inScheme cs: ;
@@ -4568,6 +4731,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :US-NY
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :USA ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
     skos:inScheme cs: ;
@@ -4577,6 +4741,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :US-OH
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :USA ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
     skos:inScheme cs: ;
@@ -4586,6 +4751,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :US-OK
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :USA ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
     skos:inScheme cs: ;
@@ -4595,6 +4761,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :US-OR
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :USA ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
     skos:inScheme cs: ;
@@ -4604,6 +4771,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :US-PA
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :USA ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
     skos:inScheme cs: ;
@@ -4613,6 +4781,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :US-PR
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :USA ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
     skos:inScheme cs: ;
@@ -4622,6 +4791,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :US-RI
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :USA ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
     skos:inScheme cs: ;
@@ -4631,6 +4801,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :US-SC
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :USA ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
     skos:inScheme cs: ;
@@ -4640,6 +4811,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :US-SD
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :USA ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
     skos:inScheme cs: ;
@@ -4649,6 +4821,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :US-TN
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :USA ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
     skos:inScheme cs: ;
@@ -4658,6 +4831,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :US-TX
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :USA ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
     skos:inScheme cs: ;
@@ -4667,6 +4841,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :US-UM
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :USA ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
     skos:inScheme cs: ;
@@ -4676,6 +4851,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :US-UT
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :USA ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
     skos:inScheme cs: ;
@@ -4685,6 +4861,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :US-VA
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :USA ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
     skos:inScheme cs: ;
@@ -4694,6 +4871,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :US-VI
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :USA ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
     skos:inScheme cs: ;
@@ -4703,6 +4881,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :US-VT
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :USA ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
     skos:inScheme cs: ;
@@ -4712,6 +4891,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :US-WA
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :USA ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
     skos:inScheme cs: ;
@@ -4721,6 +4901,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :US-WI
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :USA ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
     skos:inScheme cs: ;
@@ -4730,6 +4911,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :US-WV
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :USA ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
     skos:inScheme cs: ;
@@ -4739,6 +4921,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :US-WY
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:broader :USA ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
     skos:inScheme cs: ;
@@ -4930,6 +5113,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :RS-01
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Severnobacki okrug"@srp ;
     skos:broader
         :RS-VO ,
@@ -4942,6 +5126,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :RS-02
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Srednjebanatski okrug"@srp ;
     skos:broader
         :RS-VO ,
@@ -4954,6 +5139,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :RS-03
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Severnobanatski okrug"@srp ;
     skos:broader
         :RS-VO ,
@@ -4966,6 +5152,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :RS-04
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Juznobanatski okrug"@srp ;
     skos:broader
         :RS-VO ,
@@ -4978,6 +5165,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :RS-05
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Zapadnobacki okrug"@srp ;
     skos:broader
         :RS-VO ,
@@ -4990,6 +5178,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :RS-06
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Juznobacki okrug"@srp ;
     skos:broader
         :RS-VO ,
@@ -5002,6 +5191,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :RS-07
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Sremski okrug"@srp ;
     skos:broader
         :RS-VO ,
@@ -5014,6 +5204,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :RS-25
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Kosovski okrug"@srp ;
     skos:broader
         :RS-KM ,
@@ -5026,6 +5217,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :RS-26
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Pecki okrug"@srp ;
     skos:broader
         :RS-KM ,
@@ -5038,6 +5230,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :RS-27
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Prizrenski okrug"@srp ;
     skos:broader
         :RS-KM ,
@@ -5050,6 +5243,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :RS-28
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Kosovsko-Mitrovacki okrug"@srp ;
     skos:broader
         :RS-KM ,
@@ -5062,6 +5256,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :RS-29
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Kosovsko-Pomoravski okrug"@srp ;
     skos:broader
         :RS-KM ,
@@ -5074,6 +5269,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :RS-KM
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Kosovo-Metohija"@srp ;
     skos:broader :SRB ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -5090,6 +5286,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :RS-VO
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:altLabel "Vojvodina"@srp ;
     skos:broader :SRB ;
     skos:definition "The International Standard ISO3166 is used to determine the codes of letters and/or numbers when referring electronically to countries and their subdivisions."@en ;
@@ -5423,8 +5620,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 cs:
     a skos:ConceptScheme ;
-    rdfs:seeAlso "https://pid.geoscience.gov.au/dataset/ga/146414"^^xsd:anyURI ;
-    owl:versionInfo "1.6" ;
     skos:definition "GA Country Codes are the ISO3166 compliant country codes used by GA database custodians for reference. This list is NOT complete and is maintained semi-regularly so there will be updates made in the ISO3166 that will not be reflected in this vocabulary. The controlled ISO3166 list is found here https://www.iso.org/obp/ui "@en ;
     skos:hasTopConcept
         :ABW ,
@@ -5681,8 +5876,9 @@ cs:
     dcat:contactPoint "DPI" ;
     schema:creator <https://linked.data.gov.au/org/ga> ;
     schema:dateCreated "2020-11-04"^^xsd:date ;
-    schema:dateModified "2023-09-27"^^xsd:date ;
+    schema:dateModified "2026-04-09"^^xsd:date ;
     schema:identifier "https://pid.geoscience.gov.au/dataset/ga/150902"^^gavoc:eCatID ;
     schema:publisher <https://linked.data.gov.au/org/ga> ;
     schema:status astatus:experimental ;
+    schema:version "1.6" ;
 .

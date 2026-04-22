@@ -3,12 +3,15 @@ PREFIX astatus: <https://linked.data.gov.au/def/reg-statuses/>
 PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyPhysiography>
 PREFIX gavoc: <https://pid.geoscience.gov.au/def/voc/ga/>
 PREFIX isoroles: <https://linked.data.gov.au/def/data-roles/>
-PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX prov: <http://www.w3.org/ns/prov#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+:1.0
+    schema:name "1.0" ;
+.
 
 <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyPhysiography//continental_slope>
     a skos:Concept ;
@@ -28,10 +31,6 @@ Cf. "rise" in Harris et al., (2014)."""@en ;
     skos:inScheme cs: ;
     skos:prefLabel "continental rise"@en ;
     skos:topConceptOf cs: ;
-.
-
-:1.0
-    schema:name "1.0" ;
 .
 
 :abyssal_plain
@@ -132,8 +131,6 @@ Cf. "trench" in Harris et al., (2014)."""@en ;
 
 cs:
     a skos:ConceptScheme ;
-    rdfs:seeAlso "https://pid.geoscience.gov.au/dataset/ga/150006"^^xsd:anyURI ;
-    owl:versionIRI :1.0 ;
     skos:definition """A vocabulary of physiographic terms used by Harris et al (2014:[https://doi.org/10.1016/j.margeo.2014.01.011](https://doi.org/10.1016/j.margeo.2014.01.011)) to map the macroscale shape and geology of the seabed. Many of these terms have been retained by the International Seabed Geomorphology Mapping Working Group (ISGM-WG)  in this PHYISOGRAPHY vocabulary, and some have been shifted into either Part 1 Morphology or Part 2 Geomorphology vocabularies, as indicated (Part 1 Morphology: [https://doi.org/10.5281/zenodo.4071940](https://doi.org/10.5281/zenodo.4071940); Part 2 Geomorphology:[https://doi.org/10.5281/zenodo.7804019](https://doi.org/10.5281/zenodo.7804019)).
 
 This vocabulary comprises one of four linked ISGM-WG vocabularies. """@en ;
@@ -182,7 +179,7 @@ This vocabulary comprises one of four linked ISGM-WG vocabularies. """@en ;
         ] ;
     schema:creator <https://linked.data.gov.au/org/isgm-wg> ;
     schema:dateCreated "2024-05-22"^^xsd:date ;
-    schema:dateModified "2024-10-18"^^xsd:date ;
+    schema:dateModified "2026-04-09"^^xsd:date ;
     schema:identifier "https://pid.geoscience.gov.au/dataset/ga/150006"^^gavoc:eCatID ;
     schema:publisher <https://linked.data.gov.au/org/ga> ;
     schema:status astatus:experimental ;
