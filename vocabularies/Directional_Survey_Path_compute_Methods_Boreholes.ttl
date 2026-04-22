@@ -1,9 +1,7 @@
 PREFIX astatus: <https://linked.data.gov.au/def/reg-statuses/>
 PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyPathComputeMethod>
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
-PREFIX dcterms: <http://purl.org/dc/terms/>
 PREFIX gavoc: <https://pid.geoscience.gov.au/def/voc/ga/>
-PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -51,13 +49,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 cs:
     a skos:ConceptScheme ;
-    dcterms:created "2202-08-04"^^xsd:date ;
-    dcterms:creator <https://linked.data.gov.au/org/ga> ;
-    dcterms:modified "2202-08-04"^^xsd:date ;
-    dcterms:provenance "Geoscience Australia Directional Survey Path Computing Method Terms (BOREHOLE.LU_DIR_SRVY_COMPUTE_METHOD)"@en ;
-    dcterms:publisher <https://linked.data.gov.au/org/ga> ;
-    rdfs:seeAlso "https://pid.geoscience.gov.au/dataset/ga/148553"^^xsd:anyURI ;
-    owl:versionInfo "1" ;
     skos:definition "Terms to describe the geometric method used to calculate the survey path from the measured survey stations (eg, minimum curvature, offset survey)."@en ;
     skos:hasTopConcept
         <https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyPathComputeMethod/gpsSection> ,
@@ -66,6 +57,12 @@ cs:
         <https://pid.geoscience.gov.au/def/voc/ga/DirectionalSurveyPathComputeMethod/offsetSurvey> ;
     skos:prefLabel "Borehole Geology - Directional Survey Path Computing Method"@en ;
     dcat:contactPoint "Team Lead - Information Services; Minerals, Energy and Groundwater Division" ;
+    schema:citation "Geoscience Australia Directional Survey Path Computing Method Terms (BOREHOLE.LU_DIR_SRVY_COMPUTE_METHOD)"@en ;
+    schema:creator <https://linked.data.gov.au/org/ga> ;
+    schema:dateCreated "2202-08-04"^^xsd:date ;
+    schema:dateModified "2026-04-09"^^xsd:date ;
     schema:identifier "https://pid.geoscience.gov.au/dataset/ga/148553"^^gavoc:eCatID ;
+    schema:publisher <https://linked.data.gov.au/org/ga> ;
     schema:status astatus:experimental ;
+    schema:version "1" ;
 .

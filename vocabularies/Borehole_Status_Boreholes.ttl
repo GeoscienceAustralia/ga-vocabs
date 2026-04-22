@@ -3,7 +3,6 @@ PREFIX astatus: <https://linked.data.gov.au/def/reg-statuses/>
 PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/BoreholeStatus>
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
 PREFIX gavoc: <https://pid.geoscience.gov.au/def/voc/ga/>
-PREFIX owl: <http://www.w3.org/2002/07/owl#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
@@ -11,6 +10,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :abandoned
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "All operations and activities are terminated. The operator has left the site with no intention of returning to the borehole. The borehole is not necessarily plugged.  Similar to CoalLog status \"completed\"."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "abandoned"@en ;
@@ -20,6 +20,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :completed
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Drilling is completed. Production infrastructure may be installed.  The borehole has not necessarily been abandoned.  Note that the CoalLog \"completed\" status is more similar to \"abandoned\" in this vocabulary."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "completed"@en ;
@@ -29,6 +30,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :drillingSuspended
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Drilling operations have been temporarily suspended (eg, for weather, maintenance, or other reasons)."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "drilling suspended"@en ;
@@ -38,6 +40,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :injecting
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "The status of a borehole during which liquids or gas are being pumped into the borehole."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "injecting"@en ;
@@ -47,6 +50,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :inprogress
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "The status of a borehole commencing from the rig being moved onsite to the time that drilling operations are completed.  Similar to PPDM's \"drilling\", but different."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "in progress"@en ;
@@ -56,6 +60,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :monitoring
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Borehole is being used for monitoring parameters such as water level, water quality, fluid pressure."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "monitoring"@en ;
@@ -65,6 +70,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :plugged
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "The borehole has been filled or sealed. The extent of seal may vary from just plugged near the surface (eg, many coal boreholes) to plugged in order to prevent the migration of oil, gas, water, or other substance from one stratum to another (ie, PPDM definition)."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "plugged"@en ;
@@ -74,6 +80,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :pluggedAndAbandoned
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "An abandoned borehole that has also been plugged. The extent of seal may vary from just plugged near the surface (eg, many coal boreholes) to plugged to prevent the migration of oil, gas, water, or other substance from one stratum to another (ie, PPDM definition)."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "plugged and abandoned"@en ;
@@ -83,6 +90,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :producing
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "The status of a borehole during  which liquids or gas are being extracted from the borehole."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "producing"@en ;
@@ -92,6 +100,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :producingAndInjecting
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "The status of a borehole that alternately produces and injects liquid or gas into a borehole."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "producing and injecting"@en ;
@@ -101,6 +110,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :proposed
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "A concept or application exists to drill a borehole, but drilling has not yet commenced or been approved.  Similar to PPDM's \"location\" classification, but different."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "proposed"@en ;
@@ -110,6 +120,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :rehabilitated
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "The borehole site has been fully rehabilitated. Note that this status is included within the PPDM definition of \"plugged and abandoned\"."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "rehabilitated"@en ;
@@ -119,6 +130,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :suspended
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Borehole operations have been halted for a significant period of time or in a manner that requires significant effort for the resumption of activities. The borehole can be plugged downhole and fluids injected on top of the plug in order to create a temporary seal to prevent hydrocarbon leakage. The surface equipment remains in place. Suspended is never the final status of a borehole."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "suspended"@en ;
@@ -128,7 +140,9 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :unknown
     a skos:Concept ;
-    rdfs:isDefinedBy <http://www.opengis.net/def/nil/OGC/0/unknown> ;
+    rdfs:isDefinedBy
+        <http://www.opengis.net/def/nil/OGC/0/unknown> ,
+        cs: ;
     skos:definition "The drilling status of the borehole is unknown."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "unknown"@en ;
@@ -138,6 +152,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 :workover
     a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
     skos:definition "Activities relating to production wells, etc. For example logging activities, recompletion, testing, repairs, maintenance, plug and abandonment and demobilisation."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "workover"@en ;
@@ -147,8 +162,6 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 cs:
     a skos:ConceptScheme ;
-    rdfs:seeAlso "https://pid.geoscience.gov.au/dataset/ga/148553"^^xsd:anyURI ;
-    owl:versionInfo "1" ;
     skos:definition "\"Borehole status” information provided by Geoscience Australia (GA) is not guaranteed to be authoritative or current. GA is not a reporting or regulatory authority for borehole drilling, but it sources borehole information for its research purposes from various regulatory authorities in the States, Northern Territory and Commonwealth governments. The quality and currency of borehole status data in GA’s database reflects information gathered from a borehole operator’s well completion report or from a responsible regulatory authority on a particular date. Changes in a borehole’s status after GA sourced the borehole status information may not be reflected in GA’s data. Due to the wide variety of borehole types in GA’s database, GA’s vocabulary for “borehole status” is an amalgam of terms used by professional bodies (eg, PPDM, CoalLog) and regulatory authorities. Some of the terminology used across these professional domains and jurisdictions has varied over time, and in some cases the same term has a different meaning for different types of boreholes. GA has endeavoured to merge these sources of terminology into a consistent classification that applies for all borehole types."@en ;
     skos:hasTopConcept
         :abandoned ,
@@ -170,9 +183,10 @@ cs:
     dcat:contactPoint "Team Lead - Information Services; Energy, Minerals and Groundwater Division" ;
     schema:creator <https://linked.data.gov.au/org/ga> ;
     schema:dateCreated "2022-08-09"^^xsd:date ;
-    schema:dateModified "2022-08-09"^^xsd:date ;
+    schema:dateModified "2026-04-09"^^xsd:date ;
     schema:identifier "https://pid.geoscience.gov.au/dataset/ga/148553"^^gavoc:eCatID ;
     schema:provenance "Geoscience Australia Borehole Status (BOREHOLE.LU_BOREHOLE_STATUS)"@en ;
     schema:publisher <https://linked.data.gov.au/org/ga> ;
     schema:status astatus:experimental ;
+    schema:version "1" ;
 .
