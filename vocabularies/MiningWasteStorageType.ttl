@@ -103,8 +103,7 @@ cs:
     schema:identifier "https://pid.geoscience.gov.au/dataset/ga/148553"^^gavoc:eCatID ;
     schema:keywords
         <https://pid.geoscience.gov.au/def/voc/ga/DataThemes/minerals> ,
-        "Geology" ,
-        "Mineral Resources" ;
+        <https://pid.geoscience.gov.au/def/voc/ga/DataThemes/geology> ;
     schema:publisher <https://linked.data.gov.au/org/ga> ;
     schema:status astatus:experimental ;
     schema:version "1" ;
