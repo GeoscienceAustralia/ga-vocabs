@@ -365,7 +365,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:definition "Geology is the study of the materials of which the planet Earth is made, the processes that act on these materials, the products formed, and the history of the planet and its life forms since its origin."@en ;
     skos:inScheme cs: ;
     skos:narrower
-        :geocronology ,
+        :geochronology ,
         :hydrogeology ,
         :marine_geoscience ,
         :palaeontology ,

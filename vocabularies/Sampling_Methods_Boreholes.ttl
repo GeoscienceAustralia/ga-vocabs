@@ -1248,7 +1248,7 @@ cs:
     schema:dateCreated "2022-08-09"^^xsd:date ;
     schema:dateModified "2026-04-29"^^xsd:date ;
     schema:identifier "https://pid.geoscience.gov.au/dataset/ga/148553"^^gavoc:eCatID ;
-    schema:keywords <https://pid.geoscience.gov.au/def/voc/ga/DataThemes/sample_acquisition_and_management> ;
+    schema:keywords <https://pid.geoscience.gov.au/def/voc/ga/DataThemes/sample_acquisition_management> ;
     schema:publisher <https://linked.data.gov.au/org/ga> ;
     schema:status astatus:experimental ;
     schema:version "1" ;
