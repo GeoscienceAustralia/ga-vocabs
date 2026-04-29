@@ -1,3 +1,4 @@
+PREFIX : <https://pid.geoscience.gov.au/def/voc/ga/StatisticalResultQualifier/>
 PREFIX astatus: <https://linked.data.gov.au/def/reg-statuses/>
 PREFIX cs: <https://pid.geoscience.gov.au/def/voc/ga/StatisticalResultQualifier>
 PREFIX dcat: <http://www.w3.org/ns/dcat#>
@@ -7,7 +8,7 @@ PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-<https://pid.geoscience.gov.au/def/voc/ga/StatisticalResultQualifier/maximum>
+:maximum
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "The highest numeric value of a sample set."@en ;
@@ -17,7 +18,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:citation "http://resource.geoscience.gov.au/classifier/ga/resultqualifier/maximum"^^xsd:anyURI ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/StatisticalResultQualifier/mean>
+:mean
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
@@ -30,7 +31,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:citation "http://resource.geoscience.gov.au/classifier/ga/resultqualifier/mean"^^xsd:anyURI ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/StatisticalResultQualifier/median>
+:median
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "The numerical value separating the higher half of a data sample, a population, or a probability distribution, from the lower half."@en ;
@@ -40,7 +41,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:citation "http://resource.geoscience.gov.au/classifier/ga/resultqualifier/median"^^xsd:anyURI ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/StatisticalResultQualifier/minimum>
+:minimum
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "The lowest numeric value of a sample set."@en ;
@@ -50,7 +51,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:citation "http://resource.geoscience.gov.au/classifier/ga/resultqualifier/minimum"^^xsd:anyURI ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/StatisticalResultQualifier/mode>
+:mode
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "The value that appears most often in a set of data."@en ;
@@ -60,7 +61,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:citation "http://resource.geoscience.gov.au/classifier/ga/resultqualifier/mode"^^xsd:anyURI ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/StatisticalResultQualifier/singleMeasurementPartSample>
+:singleMeasurementPartSample
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "A single or spot measurement of part of a specimen (e.g., a spot measurement of magnetic susceptibility on a rock outcrop) which may be expected to vary with the location or attitude of the instrument on the specimen"@en ;
@@ -70,7 +71,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:citation "http://resource.geoscience.gov.au/classifier/ga/resultqualifier/single_measurement_part_sample"^^xsd:anyURI ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/StatisticalResultQualifier/singleMeasurementWholeSample>
+:singleMeasurementWholeSample
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "A single or spot measurement of the whole specimen, that may be expected to give the same result if repeated."@en ;
@@ -80,7 +81,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:citation "http://resource.geoscience.gov.au/classifier/ga/resultqualifier/single_measurement_whole_sample"^^xsd:anyURI ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/StatisticalResultQualifier/unknown>
+:unknown
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "The statistical type of measurement value is not known."@en ;
@@ -90,7 +91,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:topConceptOf cs: ;
 .
 
-<https://pid.geoscience.gov.au/def/voc/ga/StatisticalResultQualifier/weightedMean>
+:weightedMean
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "The sum of values in a sample, weighted proportional to their inverse variance, and divided by n-1 where n is the number of values in the population."@en ;
@@ -104,22 +105,23 @@ cs:
     a skos:ConceptScheme ;
     skos:definition "Statistical qualifier for rock property measurements (e.g. mean, maximum, median)."@en ;
     skos:hasTopConcept
-        <https://pid.geoscience.gov.au/def/voc/ga/StatisticalResultQualifier/maximum> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/StatisticalResultQualifier/mean> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/StatisticalResultQualifier/median> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/StatisticalResultQualifier/minimum> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/StatisticalResultQualifier/mode> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/StatisticalResultQualifier/singleMeasurementPartSample> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/StatisticalResultQualifier/singleMeasurementWholeSample> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/StatisticalResultQualifier/unknown> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/StatisticalResultQualifier/weightedMean> ;
+        :maximum ,
+        :mean ,
+        :median ,
+        :minimum ,
+        :mode ,
+        :singleMeasurementPartSample ,
+        :singleMeasurementWholeSample ,
+        :unknown ,
+        :weightedMean ;
     skos:prefLabel "Geology Rock Properties - Result Qualifier"@en ;
     dcat:contactPoint "Team Lead - Information Services; Energy, Minerals and Groundwater Division" ;
     schema:citation "Geoscience Australia Statistical Result Qualifier (ROCKPROPS.LU_RESULTQUALIFIER)" ;
     schema:creator <https://linked.data.gov.au/org/ga> ;
     schema:dateCreated "2022-08-09"^^xsd:date ;
-    schema:dateModified "2026-04-09"^^xsd:date ;
+    schema:dateModified "2026-04-29"^^xsd:date ;
     schema:identifier "https://pid.geoscience.gov.au/dataset/ga/148553"^^gavoc:eCatID ;
+    schema:keywords <https://pid.geoscience.gov.au/def/voc/ga/DataThemes/data_acquisition> ;
     schema:publisher <https://linked.data.gov.au/org/ga> ;
     schema:status astatus:experimental ;
     schema:version "1" ;

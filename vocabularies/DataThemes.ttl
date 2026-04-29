@@ -173,7 +173,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:broader :resources ;
     skos:definition "Related to the study, exploration for and exploitation of concentrations of natural inorganic or fossilized organic material occurring on or within the Earth’s crust, in sufficient quantity and quality to have reasonable prospects for economic extraction. Mineral resources are non-renewable and include metals (e.g. iron, copper, and aluminium), non-metals (e.g. salt, gypsum, clay, sand, phosphates), and rocks (e.g. dimension stones, basic raw materials)."@en ;
     skos:inScheme cs: ;
-    skos:prefLabel "mineral"@en ;
+    skos:prefLabel "minerals"@en ;
     schema:citation "https://glossary.americangeosciences.org/term/resources"^^xsd:anyURI ;
     schema:status astatus:experimental ;
 .
@@ -429,7 +429,7 @@ cs:
             schema:url ""^^xsd:anyURI ;
         ] ;
     schema:dateCreated "2025-12-11"^^xsd:date ;
-    schema:dateModified "2026-04-21"^^xsd:date ;
+    schema:dateModified "2026-04-29"^^xsd:date ;
     schema:identifier "https://pid.geoscience.gov.au/dataset/ga/150902"^^gavoc:eCatID ;
     schema:keywords :information_management ;
     schema:publisher <https://linked.data.gov.au/org/ga> ;

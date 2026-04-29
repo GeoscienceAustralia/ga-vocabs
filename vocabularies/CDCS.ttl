@@ -1115,8 +1115,9 @@ cs:
     dcat:contactPoint "GAIA" ;
     schema:creator <https://linked.data.gov.au/org/ga> ;
     schema:dateCreated "2005-01-01"^^xsd:date ;
-    schema:dateModified "2026-04-09"^^xsd:date ;
+    schema:dateModified "2026-04-29"^^xsd:date ;
     schema:identifier "https://pid.geoscience.gov.au/dataset/ga/150902"^^gavoc:eCatID ;
+    schema:keywords <https://pid.geoscience.gov.au/def/voc/ga/DataThemes/information_management> ;
     schema:publisher <https://linked.data.gov.au/org/ga> ;
     schema:status astatus:experimental ;
 .
