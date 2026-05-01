@@ -59,7 +59,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :data_acquisition
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :sample_acquisition_management ;
+    skos:broader :sample_acquisition_and_management ;
     skos:definition "Data acquisition related to the systematic processes of gathering observations and measurements, and related analytical techniques and methodologies, including sample preparation techniques."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "data acquisition"@en ;
@@ -227,7 +227,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     rdfs:isDefinedBy cs: ;
     skos:definition "Sample acquisition is related to the collection/procurement, handling, tracking, storing, and retrieving of primary geoscience material (typically, but not exclusively, a rock, mineral, fossil or soil) collected in the field or from materials collected in the field (e.g. drillcore)"@en ;
     skos:inScheme cs: ;
-    skos:narrower :sample_acquisition_management ;
+    skos:narrower :sample_acquisition_and_management ;
     skos:prefLabel "sample acquisition"@en ;
     skos:topConceptOf cs: ;
     schema:citation "https://linked.data.gov.au/def/gswa-vocabulary-themes/sample-acquisition-management"^^xsd:anyURI ;
@@ -237,7 +237,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :data_management
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :sample_acquisition_management ;
+    skos:broader :sample_acquisition_and_management ;
     skos:definition "Data Management is the development, execution, and supervision of plans, policies, programs, and practices that deliver, control, protect, and enhance the value of data and information assets throughout their lifecycles. It encompasses a range of disciplines and processes that collectively enable organizations to derive meaningful insights, make informed decisions, and maintain compliance with regulatory standards."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "data management"@en ;
@@ -345,7 +345,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     schema:status astatus:experimental ;
 .
 
-:sample_acquisition_management
+:sample_acquisition_and_management
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader :data_management ;
