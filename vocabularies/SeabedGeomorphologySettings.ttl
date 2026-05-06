@@ -899,7 +899,7 @@ Cf. FLUVIAL INCISED VALLEY"""@en ;
     schema:status astatus:stable ;
 .
 
-:de_geer_moraine
+:De_Geer_moraine
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader :moraine ;
@@ -2117,10 +2117,10 @@ Cf. COASTAL PRO-DELTA"""@en ;
     schema:status astatus:retired ;
 .
 
-:mdac_chimney
+:MDAC_chimney
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :mdac ;
+    skos:broader :MDAC ;
     skos:definition "OUTCROPPING MDAC pillars that can reach several metres in height and ~1.5 m width. They consist of poorly cemented vertical pipe structures (Judd and Hovland, 2007)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -2129,10 +2129,10 @@ Cf. COASTAL PRO-DELTA"""@en ;
     schema:status astatus:stable ;
 .
 
-:mdac_mounds
+:MDAC_mounds
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :mdac ;
+    skos:broader :MDAC ;
     skos:definition "OUTCROPPING MDAC structures in the form of large mounds or hillocks (O’Reilly et al., 2014)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -2141,10 +2141,10 @@ Cf. COASTAL PRO-DELTA"""@en ;
     schema:status astatus:stable ;
 .
 
-:mdac_pavements
+:MDAC_pavements
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :mdac ;
+    skos:broader :MDAC ;
     skos:definition "OUTCROPPING MDAC structures in the form of low relief (tens of centimetres thick or less) pavements (Judd and Hovland, 2007)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -2153,10 +2153,10 @@ Cf. COASTAL PRO-DELTA"""@en ;
     schema:status astatus:stable ;
 .
 
-:mdac_slab
+:MDAC_slab
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :mdac ;
+    skos:broader :MDAC ;
     skos:definition "OUTCROPPING MDAC structures in the form of ‘high relief’ slabs (up to a few metres in thickness) (Judd and Hovland, 2007)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -4525,7 +4525,7 @@ Cf. FLUVIAL SUBAERIAL VALLEY"""@en ;
     schema:status astatus:stable ;
 .
 
-:mdac
+:MDAC
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader :Fluid_Flow_Process ;
@@ -4533,10 +4533,10 @@ Cf. FLUVIAL SUBAERIAL VALLEY"""@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
     skos:narrower
-        :mdac_chimney ,
-        :mdac_mounds ,
-        :mdac_pavements ,
-        :mdac_slab ;
+        :MDAC_chimney ,
+        :MDAC_mounds ,
+        :MDAC_pavements ,
+        :MDAC_slab ;
     skos:prefLabel "outcropping methane-derived authigenic carbonate (MDAC)"@en ;
     schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/basic_geomorphic_unit_BGU"^^xsd:anyURI ;
     schema:status astatus:stable ;
@@ -4675,7 +4675,7 @@ Cf. FLUVIAL SUBAERIAL VALLEY"""@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
     skos:narrower
-        :de_geer_moraine ,
+        :De_Geer_moraine ,
         :lateral_moraine ,
         :push_moraine ,
         :recessional_moraine ,
@@ -4963,7 +4963,7 @@ Cf. FLUVIAL DELTA"""@en ;
         :gryphon ,
         :hydrothermal_mound ,
         :hydrothermal_vent ,
-        :mdac ,
+        :MDAC ,
         :moat ,
         :mud_volcano ,
         :mudflow_mud-volcano ,
