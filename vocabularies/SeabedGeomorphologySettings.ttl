@@ -221,7 +221,7 @@ Cf. "abyss - hills" in Harris et al., (2014)."""@en ;
     schema:status astatus:stable ;
 .
 
-:back_tilted_fault_block
+:back-tilted_fault_block
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader :tectonic_high ;
@@ -390,7 +390,7 @@ Cf. "abyss - hills" in Harris et al., (2014)."""@en ;
     schema:status astatus:stable ;
 .
 
-:blow_out_crater
+:blow-out_crater
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader :Fluid_Flow_Process ;
@@ -3308,7 +3308,7 @@ Cf. RAISED BEACH"""@en ;
     schema:status astatus:stable ;
 .
 
-:single_keeled_ploughmark
+:single-keeled_ploughmark
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader :iceberg_ploughmark ;
@@ -3320,7 +3320,7 @@ Cf. RAISED BEACH"""@en ;
     schema:status astatus:stable ;
 .
 
-:slope_confined_canyon
+:slope-confined_canyon
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel "blind canyon"@en ;
@@ -3333,7 +3333,7 @@ Cf. RAISED BEACH"""@en ;
     schema:status astatus:stable ;
 .
 
-:solid_earth_compressional_ridge
+:solid-earth_compressional_ridge
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader :tectonic_high ;
@@ -3357,7 +3357,7 @@ Cf. RAISED BEACH"""@en ;
     schema:status astatus:stable ;
 .
 
-:spur_and-groove
+:spur-and-groove
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader :Biogenic_Process ;
@@ -4134,7 +4134,7 @@ Cf. COASTAL DELTA"""@en ;
     skos:inScheme cs: ;
     skos:narrower
         :multi-keeled_ploughmark ,
-        :single_keeled_ploughmark ;
+        :single-keeled_ploughmark ;
     skos:prefLabel "iceberg ploughmark"@en ;
     schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/basic_geomorphic_unit_BGU"^^xsd:anyURI ;
     schema:status astatus:stable ;
@@ -4219,7 +4219,7 @@ Cf. "canyon" in Harris et al., (2014)."""@en ;
     skos:inScheme cs: ;
     skos:narrower
         :shelf-incising_canyon ,
-        :slope_confined_canyon ;
+        :slope-confined_canyon ;
     skos:prefLabel "submarine canyon"@en ;
     schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/basic_geomorphic_unit_BGU"^^xsd:anyURI ;
     schema:status astatus:stable ;
@@ -4584,9 +4584,9 @@ Cf. FLUVIAL SUBAERIAL VALLEY"""@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
     skos:narrower
-        :back_tilted_fault_block ,
+        :back-tilted_fault_block ,
         :horst ,
-        :solid_earth_compressional_ridge ,
+        :solid-earth_compressional_ridge ,
         :tectonic_dome ;
     skos:prefLabel "tectonic high"@en ;
     schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/basic_geomorphic_unit_BGU"^^xsd:anyURI ;
@@ -4849,7 +4849,7 @@ Cf. FLUVIAL DELTA"""@en ;
         :reef_crest ,
         :reef_flat ,
         :reef_lagoon ,
-        :spur_and-groove ;
+        :spur-and-groove ;
     skos:prefLabel "Biogenic Process"@en ;
     skos:topConceptOf cs: ;
     schema:status astatus:stable ;
@@ -4958,7 +4958,7 @@ Cf. FLUVIAL DELTA"""@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
     skos:narrower
-        :blow_out_crater ,
+        :blow-out_crater ,
         :caldera ,
         :gryphon ,
         :hydrothermal_mound ,
