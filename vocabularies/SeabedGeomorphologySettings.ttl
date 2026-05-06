@@ -45,8 +45,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:narrower
         :bayhead ,
-        :coastal_delta_front ,
-        :coastal_pro_delta ,
+        :coastal_delta-front ,
+        :coastal_pro-delta ,
         :lower ,
         :shelf_edge ,
         :tidal_delta ,
@@ -65,8 +65,8 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:inScheme cs: ;
     skos:narrower
         :bayhead ,
-        :coastal_delta_front ,
-        :coastal_pro_delta ,
+        :coastal_delta-front ,
+        :coastal_pro-delta ,
         :lower ,
         :shelf_edge ,
         :tidal_delta ,
@@ -281,7 +281,7 @@ Cf. "abyss - hills" in Harris et al., (2014)."""@en ;
     schema:status astatus:stable ;
 .
 
-:bay_mouth_barrier
+:bay-mouth_barrier
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader :barrier ;
@@ -620,7 +620,7 @@ Cf. FLUVIAL INCISED VALLEY"""@en ;
     schema:status astatus:stable ;
 .
 
-:cold_water-coral-reef
+:cold-water-coral-reef
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader :biogenic_reef ;
@@ -765,7 +765,7 @@ Cf. FLUVIAL INCISED VALLEY"""@en ;
     schema:status astatus:stable ;
 .
 
-:crescentic_reef_mature
+:crescentic_reef-mature
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader :biogenic_reef ;
@@ -851,7 +851,7 @@ Cf. FLUVIAL INCISED VALLEY"""@en ;
     schema:status astatus:stable ;
 .
 
-:current_induced_channel
+:current-induced_channel
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader :Current-induced_Process ;
@@ -863,7 +863,7 @@ Cf. FLUVIAL INCISED VALLEY"""@en ;
     schema:status astatus:stable ;
 .
 
-:current_induced_crag_and_tail
+:current-induced_crag_and_tail
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader :bedform ;
@@ -875,7 +875,7 @@ Cf. FLUVIAL INCISED VALLEY"""@en ;
     schema:status astatus:stable ;
 .
 
-:current_induced_furrow
+:current-induced_furrow
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader :bedform ;
@@ -1236,7 +1236,7 @@ Cf. FLUVIAL INCISED VALLEY"""@en ;
     schema:status astatus:stable ;
 .
 
-:fluvial_delta_front
+:fluvial_delta-front
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader :fluvial_delta ;
@@ -1286,7 +1286,7 @@ Cf. COASTAL INCISED VALLEY"""@en ;
     schema:status astatus:stable ;
 .
 
-:fluvial_pro_delta
+:fluvial_pro-delta
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader :fluvial_delta ;
@@ -1311,7 +1311,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
     schema:status astatus:stable ;
 .
 
-:fore_reef
+:fore-reef
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader :Biogenic_Process ;
@@ -1641,7 +1641,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
     schema:status astatus:stable ;
 .
 
-:high_energy_confined_floodplain
+:high-energy_confined_floodplain
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader :floodplain ;
@@ -1839,7 +1839,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
     schema:status astatus:stable ;
 .
 
-:juvenile_reef_irregular_patch_reefs
+:juvenile_reef-irregular_patch_reefs
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader :biogenic_reef ;
@@ -1851,7 +1851,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
     schema:status astatus:stable ;
 .
 
-:juvenile_reef_submerged_shoals
+:juvenile_reef-submerged_shoals
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader :biogenic_reef ;
@@ -1863,7 +1863,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
     schema:status astatus:stable ;
 .
 
-:juvenile_reef_unmodified_antecedent_platform
+:juvenile_reef-unmodified_antecedent_platform
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader :biogenic_reef ;
@@ -1923,7 +1923,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
     schema:status astatus:stable ;
 .
 
-:lagoonal_reef_mature
+:lagoonal_reef-mature
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader :biogenic_reef ;
@@ -2020,7 +2020,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
     schema:status astatus:stable ;
 .
 
-:low_energy_cohesive_floodplain
+:low-energy_cohesive_floodplain
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader :floodplain ;
@@ -2068,7 +2068,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
     schema:status astatus:stable ;
 .
 
-:mass_movement_compressional_ridge
+:mass-movement_compressional_ridge
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel "transverse ridge"@en ;
@@ -2081,7 +2081,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
     schema:status astatus:stable ;
 .
 
-:mass_movement_toe
+:mass-movement_toe
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader :Mass_Movement_Process ;
@@ -2177,7 +2177,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
     schema:status astatus:stable ;
 .
 
-:medium_energy_unconfined_floodplain
+:medium-energy_unconfined_floodplain
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader :floodplain ;
@@ -2189,7 +2189,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
     schema:status astatus:stable ;
 .
 
-:mega_scale_glacial_lineation
+:mega-scale_glacial_lineation
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader :streamlined_landform ;
@@ -2213,7 +2213,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
     schema:status astatus:stable ;
 .
 
-:mid_channel_bar
+:mid-channel_bar
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader :barform ;
@@ -2348,7 +2348,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
     schema:status astatus:stable ;
 .
 
-:mudflow_mud_volcano
+:mudflow_mud-volcano
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader :Fluid_Flow_Process ;
@@ -2360,7 +2360,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
     schema:status astatus:stable ;
 .
 
-:multi_keeled_ploughmark
+:multi-keeled_ploughmark
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader :iceberg_ploughmark ;
@@ -2576,7 +2576,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
     schema:status astatus:stable ;
 .
 
-:planar_reef_senile
+:planar_reef-senile
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader :biogenic_reef ;
@@ -3208,7 +3208,7 @@ Cf. "seamount" in Harris et al., (2014)."""@en ;
     schema:status astatus:stable ;
 .
 
-:shear_margin_moraine
+:shear-margin_moraine
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader :moraine ;
@@ -3232,7 +3232,7 @@ Cf. "seamount" in Harris et al., (2014)."""@en ;
     schema:status astatus:stable ;
 .
 
-:shelf_incising_canyon
+:shelf-incising_canyon
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader :submarine_canyon ;
@@ -4008,7 +4008,7 @@ Cf. "fan/apron" in Harris et al., (2014), cf. APRON (MORPHOLOGY)."""@en ;
     schema:status astatus:stable ;
 .
 
-:coastal_delta_front
+:coastal_delta-front
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader :coastal_delta ;
@@ -4021,7 +4021,7 @@ Cf. FLUVIAL DELTA-FRONT"""@en ;
     schema:status astatus:stable ;
 .
 
-:coastal_pro_delta
+:coastal_pro-delta
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader :coastal_delta ;
@@ -4073,8 +4073,8 @@ Cf. COASTAL DELTA"""@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
     skos:narrower
-        :fluvial_delta_front ,
-        :fluvial_pro_delta ;
+        :fluvial_delta-front ,
+        :fluvial_pro-delta ;
     skos:prefLabel "Fluvial delta"@en ;
     schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/basic_geomorphic_unit_BGU"^^xsd:anyURI ;
     schema:status astatus:stable ;
@@ -4133,7 +4133,7 @@ Cf. COASTAL DELTA"""@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
     skos:narrower
-        :multi_keeled_ploughmark ,
+        :multi-keeled_ploughmark ,
         :single_keeled_ploughmark ;
     skos:prefLabel "iceberg ploughmark"@en ;
     schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/basic_geomorphic_unit_BGU"^^xsd:anyURI ;
@@ -4218,7 +4218,7 @@ Cf. "canyon" in Harris et al., (2014)."""@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
     skos:narrower
-        :shelf_incising_canyon ,
+        :shelf-incising_canyon ,
         :slope_confined_canyon ;
     skos:prefLabel "submarine canyon"@en ;
     schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/basic_geomorphic_unit_BGU"^^xsd:anyURI ;
@@ -4449,7 +4449,7 @@ Cf. FLUVIAL SUBAERIAL VALLEY"""@en ;
     skos:narrower
         :barrier_island ,
         :barrier_spit ,
-        :bay_mouth_barrier ,
+        :bay-mouth_barrier ,
         :salient_tombolo ;
     skos:prefLabel "barrier"@en ;
     schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/basic_geomorphic_unit_BGU"^^xsd:anyURI ;
@@ -4500,9 +4500,9 @@ Cf. FLUVIAL SUBAERIAL VALLEY"""@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
     skos:narrower
-        :high_energy_confined_floodplain ,
-        :low_energy_cohesive_floodplain ,
-        :medium_energy_unconfined_floodplain ;
+        :high-energy_confined_floodplain ,
+        :low-energy_cohesive_floodplain ,
+        :medium-energy_unconfined_floodplain ;
     skos:prefLabel "floodplain"@en ;
     schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/basic_geomorphic_unit_BGU"^^xsd:anyURI ;
     schema:status astatus:stable ;
@@ -4679,7 +4679,7 @@ Cf. FLUVIAL SUBAERIAL VALLEY"""@en ;
         :lateral_moraine ,
         :push_moraine ,
         :recessional_moraine ,
-        :shear_margin_moraine ,
+        :shear-margin_moraine ,
         :terminal_moraine ;
     skos:prefLabel "moraine"@en ;
     schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/basic_geomorphic_unit_BGU"^^xsd:anyURI ;
@@ -4696,8 +4696,8 @@ Cf. FLUVIAL DELTA"""@en ;
     skos:inScheme cs: ;
     skos:narrower
         :bayhead ,
-        :coastal_delta_front ,
-        :coastal_pro_delta ,
+        :coastal_delta-front ,
+        :coastal_pro-delta ,
         :lower ,
         :shelf_edge ,
         :tidal_delta ,
@@ -4717,7 +4717,7 @@ Cf. FLUVIAL DELTA"""@en ;
         :barform ,
         :bedform ,
         :chute_channel ,
-        :current_induced_channel ,
+        :current-induced_channel ,
         :knickpoint ,
         :oxbow ,
         :plunge_pool ;
@@ -4759,7 +4759,7 @@ Cf. FLUVIAL DELTA"""@en ;
         :flute ,
         :glacial_crag_and_tail ,
         :groove ,
-        :mega_scale_glacial_lineation ,
+        :mega-scale_glacial_lineation ,
         :roche_moutonnee ;
     skos:prefLabel "streamlined landform"@en ;
     schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/basic_geomorphic_unit_BGU"^^xsd:anyURI ;
@@ -4822,7 +4822,7 @@ Cf. FLUVIAL DELTA"""@en ;
         :crevasse_splay ,
         :ledge ,
         :levee ,
-        :mid_channel_bar ,
+        :mid-channel_bar ,
         :mouthbar ,
         :pointbar ,
         :riffle_and_pool ,
@@ -4844,7 +4844,7 @@ Cf. FLUVIAL DELTA"""@en ;
         :bioherm ,
         :biostrome ,
         :excavation ,
-        :fore_reef ,
+        :fore-reef ,
         :mat ,
         :reef_crest ,
         :reef_flat ,
@@ -4910,8 +4910,8 @@ Cf. FLUVIAL DELTA"""@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
     skos:narrower
-        :current_induced_crag_and_tail ,
-        :current_induced_furrow ,
+        :current-induced_crag_and_tail ,
+        :current-induced_furrow ,
         :cyclic_step ,
         :dune ,
         :lag ,
@@ -4966,7 +4966,7 @@ Cf. FLUVIAL DELTA"""@en ;
         :mdac ,
         :moat ,
         :mud_volcano ,
-        :mudflow_mud_volcano ,
+        :mudflow_mud-volcano ,
         :permafrost_pingo_depression ,
         :pingo ,
         :pockmark ,
@@ -5013,18 +5013,18 @@ Cf. FLUVIAL DELTA"""@en ;
     skos:narrower
         :atoll ,
         :barrier_reef ,
-        :cold_water-coral-reef ,
+        :cold-water-coral-reef ,
         :coralligene_bank ,
         :coralligene_rim ,
         :coralligène ,
-        :crescentic_reef_mature ,
+        :crescentic_reef-mature ,
         :fringing_reef ,
-        :juvenile_reef_irregular_patch_reefs ,
-        :juvenile_reef_submerged_shoals ,
-        :juvenile_reef_unmodified_antecedent_platform ,
-        :lagoonal_reef_mature ,
+        :juvenile_reef-irregular_patch_reefs ,
+        :juvenile_reef-submerged_shoals ,
+        :juvenile_reef-unmodified_antecedent_platform ,
+        :lagoonal_reef-mature ,
         :patch_reef ,
-        :planar_reef_senile ,
+        :planar_reef-senile ,
         :platform_reef ;
     skos:prefLabel "biogenic reef"@en ;
     schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/basic_geomorphic_unit_BGU"^^xsd:anyURI ;
@@ -5110,8 +5110,8 @@ Cf. FLUVIAL DELTA"""@en ;
         :head_scarp ,
         :lateral_scarp ,
         :lateral_spread ,
-        :mass_movement_compressional_ridge ,
-        :mass_movement_toe ,
+        :mass-movement_compressional_ridge ,
+        :mass-movement_toe ,
         :minor_scarp ,
         :mudflow_fan ,
         :mudflow_gully ,
