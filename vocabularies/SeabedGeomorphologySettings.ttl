@@ -103,7 +103,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 :abyssal_hill
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :solid_earth_setting ;
+    skos:broader :Solid_Earth_Setting ;
     skos:definition """An isolated (or tract of) small elevation(s) on the deep seafloor parallel to a mid ocean ridge and formed by volcanism and block faulting.
 Cf. "abyss - hills" in Harris et al., (2014)."""@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
@@ -188,7 +188,7 @@ Cf. "abyss - hills" in Harris et al., (2014)."""@en ;
 :axial_volcanic_ridge
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :solid_earth_setting ;
+    skos:broader :Solid_Earth_Setting ;
     skos:definition "Composite volcanic edifices, comprising an elongate, typically spreading normal orientated topographic high, produced within the inner valleys of mid-ocean ridges, usually those that are slow spreading  (modified after Harff et al., 2016)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -200,7 +200,7 @@ Cf. "abyss - hills" in Harris et al., (2014)."""@en ;
 :back_barrier
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :coastal_setting ;
+    skos:broader :Coastal_Setting ;
     skos:definition "A relatively protected area between the BARRIER and the mainland, which may be occupied by FLATS or a LAGOON (modified from Davis Jr and FitzGerald, 2009)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -212,7 +212,7 @@ Cf. "abyss - hills" in Harris et al., (2014)."""@en ;
 :back_reef
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :biogenic_process ;
+    skos:broader :Biogenic_Process ;
     skos:definition "Wide (up to kms) zone extending back from the REEF FLAT, mainly found in linear-shaped reefs. BACK REEF zone supports scattered small submerged PATCH REEFS and extensive sand bank development (Maxwell, 1968)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -308,7 +308,7 @@ Cf. "abyss - hills" in Harris et al., (2014)."""@en ;
 :beach_ridge
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :coastal_setting ;
+    skos:broader :Coastal_Setting ;
     skos:definition "Relict ridges of wave origin, sub to parallel to the open coastline, possibly including wind deposits that collectively form STRANDPLAINS. Active BEACH and shore ridge forms (cf. CURRENT-INDUCED PROCESSES: DUNES –foredune BGU-sT), regardless of their dimensions, shape or origin, are not considered to be BEACH RIDGES by most authors (e.g. Otvos, 2020, modified from 2000)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -321,7 +321,7 @@ Cf. "abyss - hills" in Harris et al., (2014)."""@en ;
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel "foreshore"@en ;
-    skos:broader :coastal_setting ;
+    skos:broader :Coastal_Setting ;
     skos:definition "The coastal area between the low-tide shoreline (SHOREFACE) and the maximum height of wave effect."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -393,7 +393,7 @@ Cf. "abyss - hills" in Harris et al., (2014)."""@en ;
 :blow_out_crater
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :fluid_flow_process ;
+    skos:broader :Fluid_Flow_Process ;
     skos:definition "Large circular or irregular Depression created by the release of gas from decomposed hydrate accumulations. Gas decomposition creates hydrofractures through the overburden rocks and sediment, triggering abrupt gas expulsions which blow out the overlying seafloor and collapse of GAS HYDRATE PINGOS (modified after Andreassen et al., 2017)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -442,7 +442,7 @@ Cf. "abyss - hills" in Harris et al., (2014)."""@en ;
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel "crater"@en ;
-    skos:broader :fluid_flow_process ;
+    skos:broader :Fluid_Flow_Process ;
     skos:definition "A circular Depression at the summit of a MUD VOLCANO, where the central conduit crops out at the surface. These structures are related to fluid-rich seeps generally associated passive margins (Ceramicola et al., 2018)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -454,7 +454,7 @@ Cf. "abyss - hills" in Harris et al., (2014)."""@en ;
 :canyon_head
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :marine_setting ;
+    skos:broader :Marine_Setting ;
     skos:definition "The upslope start or boundary of a SUBMARINE CANYON (Amblas et al., 2018)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -466,7 +466,7 @@ Cf. "abyss - hills" in Harris et al., (2014)."""@en ;
 :canyon_mouth
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :marine_setting ;
+    skos:broader :Marine_Setting ;
     skos:definition "The downslope terminus or boundary of a SUBMARINE CANYON."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -502,7 +502,7 @@ Cf. "abyss - hills" in Harris et al., (2014)."""@en ;
 :channel_ledge
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :coastal_setting ;
+    skos:broader :Coastal_Setting ;
     skos:definition "Distinctly stepped, flat-topped, elongate, bank-attached units. Have straight to gently curved planforms and flank one or both banks. Composed of the same materials as the adjacent FLOODPLAIN (i.e. sediments are laterally continuous from the CHANNEL LEDGE into their adjacent FLOODPLAIN) and are formed by channel expansion processes where flows selectively erode the upper units of the adjacent surface as the channel incises and expands (Brierley and Fryirs, 2013)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -526,7 +526,7 @@ Cf. "abyss - hills" in Harris et al., (2014)."""@en ;
 :chenier_ridge
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :coastal_setting ;
+    skos:broader :Coastal_Setting ;
     skos:definition "Sandy or shelly elongate RIDGES (MORPHOLOGY), differentiated from other sand or shell BEACH RIDGES by the fact that they are perched over fine grained, muddy (or sometimes marshy) sediments and are separated from one another by these finer-grained deposits (modified from Goudie, 2006)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -538,7 +538,7 @@ Cf. "abyss - hills" in Harris et al., (2014)."""@en ;
 :chute_channel
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :current_induced_process ;
+    skos:broader :Current-induced_Process ;
     skos:definition "A channel with typically more rapid flow that cuts through constrictive material and so short-cuts the main flow (e.g. through a BARFORM in a SUBAERIAL CHANNEL; between BARRIER ISLANDS; Goudie, 2006)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -635,7 +635,7 @@ Cf. FLUVIAL INCISED VALLEY"""@en ;
 :complex
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :mass_movement_process ;
+    skos:broader :Mass_Movement_Process ;
     skos:definition "A mass movement where one form of failure develops into a second form of movement i.e. a change of behaviour downslope by the same material."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -720,7 +720,7 @@ Cf. FLUVIAL INCISED VALLEY"""@en ;
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel "ribs"@en ;
-    skos:broader :glacial_setting ;
+    skos:broader :Glacial_Setting ;
     skos:definition "Small, regularly spaced ridges formed by tidal-induced movement of icebergs or a glacier grounding line during retreat (Bell et al. 2016; Dowdeswell et al. 2020). Ridge spacing indicates the rate of iceberg drift and grounding line retreat (Batchelor et al. 2023)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -732,7 +732,7 @@ Cf. FLUVIAL INCISED VALLEY"""@en ;
 :corrugation_ridges_within_ploughmarks
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :glacial_setting ;
+    skos:broader :Glacial_Setting ;
     skos:definition "Small, parallel ridges formed within ice-berg ploughmarks by icebergs moving up and down in response to tides while ploughing the seafloor (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -781,7 +781,7 @@ Cf. FLUVIAL INCISED VALLEY"""@en ;
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel "crevasse-squeeze ridge"@en ;
-    skos:broader :glacial_setting ;
+    skos:broader :Glacial_Setting ;
     skos:definition "A relatively straight ridge of stratified sand and gravel, till or other sediments, formed by the filling of a (surface or basal) crevasse in a stagnant glacier which later melted (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -806,7 +806,7 @@ Cf. FLUVIAL INCISED VALLEY"""@en ;
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel "tension cracks"@en ;
-    skos:broader :mass_movement_process ;
+    skos:broader :Mass_Movement_Process ;
     skos:definition "A type of open fracture found within partically undisplaced material upslope the EVACUATION AREA and generally parallel to the HEAD SCARP."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -842,7 +842,7 @@ Cf. FLUVIAL INCISED VALLEY"""@en ;
 :cupola_hill
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :glacial_setting ;
+    skos:broader :Glacial_Setting ;
     skos:definition "CUPOLA HILLS are THRUST-BLOCK MORAINES or HILL HOLE PAIRS that have been overridden by glaciers (Benn and Evans, 2010)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -854,7 +854,7 @@ Cf. FLUVIAL INCISED VALLEY"""@en ;
 :current_induced_channel
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :current_induced_process ;
+    skos:broader :Current-induced_Process ;
     skos:definition "A channel of any scale that has been formed by any type of flow."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -914,7 +914,7 @@ Cf. FLUVIAL INCISED VALLEY"""@en ;
 :debris_apron
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :mass_movement_process ;
+    skos:broader :Mass_Movement_Process ;
     skos:definition "An Apron formed by the accumulation of debris at the base of a steep slope as the result of multiple mass movement events. These are not typically developed within the marine environment but can be found associated with nearshore slope instability."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -938,7 +938,7 @@ Cf. FLUVIAL INCISED VALLEY"""@en ;
 :debris_fan
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :mass_movement_process ;
+    skos:broader :Mass_Movement_Process ;
     skos:definition "A Fan formed by the accumulation of debris at the base of a steep slope, as the result of multiple mass movement events, in particular, DEBRIS FLOWS."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -977,7 +977,7 @@ Cf. FLUVIAL INCISED VALLEY"""@en ;
     skos:altLabel
         "Accumulation zone"@en ,
         "compressional domain"@en ;
-    skos:broader :mass_movement_process ;
+    skos:broader :Mass_Movement_Process ;
     skos:definition "The most downslope zone of a mass movement, within which the displaced material lies above the original ground surface (modified from: Cruden, 1993). Its lower limit is set by the geometry of the TOE. The DEPOSITIONAL ZONE of SLIDES tends to be dominated by a compressional regime (e.g. thrust and fold systems), whereas for FLOWS the material tends to disperse forming fans or aprons at the base of the slope."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -1002,7 +1002,7 @@ Cf. FLUVIAL INCISED VALLEY"""@en ;
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel "bench"@en ;
-    skos:broader :solid_earth_setting ;
+    skos:broader :Solid_Earth_Setting ;
     skos:definition "A natural/gradual slope on the surface of the seabed which is parallel to the dip of the underlying strata (modified after Huggett, 2017)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -1039,7 +1039,7 @@ Cf. FLUVIAL INCISED VALLEY"""@en ;
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel "catchment"@en ;
-    skos:broader :fluvial_setting ;
+    skos:broader :Fluvial_Setting ;
     skos:definition "Includes the DRAINAGE NETWORK and all surfaces draining to them (modified from Goudie, 2006)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -1051,7 +1051,7 @@ Cf. FLUVIAL INCISED VALLEY"""@en ;
 :drainage_network
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :fluvial_setting ;
+    skos:broader :Fluvial_Setting ;
     skos:definition "A collection of SUBAERIAL CHANNELS joined together (modified from Goudie, 2006). Can be sub-classified by their planform pattern, which are frequently used to infer their processes and development (BGU-T: dendritic; parallel; radial; centrifugal; centripetal; distributary; angular; trellis; or annular: Twidale, 2004)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -1115,7 +1115,7 @@ Cf. FLUVIAL INCISED VALLEY"""@en ;
 :erratic
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :glacial_setting ;
+    skos:broader :Glacial_Setting ;
     skos:definition "A large rock or boulder carried by a glacier or by floating ice and deposited when the ice melted, well away from its place of origin and therefore contrasting with the country rock (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -1127,7 +1127,7 @@ Cf. FLUVIAL INCISED VALLEY"""@en ;
 :esker
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :glacial_setting ;
+    skos:broader :Glacial_Setting ;
     skos:definition "A long, narrow, sinuous ridge of stratified glacifluvial material (generally sand and gravel) deposited by a stream normally flowing beneath a stagnant or retreating glacier in an ice tunnel or subglacial stream bed, and left behind after the disappearance of the glacier (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -1143,7 +1143,7 @@ Cf. FLUVIAL INCISED VALLEY"""@en ;
         "depletion zone"@en ,
         "extensional domain"@en ,
         "headwall domain"@en ;
-    skos:broader :mass_movement_process ;
+    skos:broader :Mass_Movement_Process ;
     skos:definition "The most upslope zone of a mass movement, within which the remobilized material lies below the original ground surface (modified from: Cruden, 1993). Its upper limit is set by the geometry of the HEAD SCARP and this zone is normally dominated by extension features such as Blocks or elongated Ridges (Nissen et al., 1999)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -1155,7 +1155,7 @@ Cf. FLUVIAL INCISED VALLEY"""@en ;
 :excavation
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :biogenic_process ;
+    skos:broader :Biogenic_Process ;
     skos:definition "A mappable unit representing sediment transport or reworking by the activity of living benthic infauna and epifauna (bioturbation) (modified from Kristensen et al., 2012). Often mapped as a FIELD, rather than individual components, including (not limited to) feeding trace, nest, burrow, boring, resting site, track, trail, mound."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -1167,7 +1167,7 @@ Cf. FLUVIAL INCISED VALLEY"""@en ;
 :extensional_ridge
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :mass_movement_process ;
+    skos:broader :Mass_Movement_Process ;
     skos:definition "An elongated Ridge separated by normal faults, typically observed close to the head scarp."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -1252,7 +1252,7 @@ Cf. COASTAL DELTA-FRONT"""@en ;
 :fluvial_fan
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :fluvial_setting ;
+    skos:broader :Fluvial_Setting ;
     skos:definition "Usually cone-shaped forms with surface slopes radiating away from an apex located at the point where the feeder SUBAERIAL CHANNEL splits to form DISTRIBUTARY CHANNELS. Their fan-like geometry can be modified by the confinement of neighbouring fans or valley walls (modified from Goudie, 2006)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -1264,7 +1264,7 @@ Cf. COASTAL DELTA-FRONT"""@en ;
 :fluvial_fan_lobe
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :fluvial_setting ;
+    skos:broader :Fluvial_Setting ;
     skos:definition "Fluvial fan sedimentation is usually restricted to one part of the fan surface at a time, and the sedimentology of these FAN LOBES are typically internally consistent. FLUVIAL FAN LOBES are abandoned, and new ones are initiated, by channel avulsion."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -1314,7 +1314,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
 :fore_reef
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :biogenic_process ;
+    skos:broader :Biogenic_Process ;
     skos:definition "The outside slope of a coral REEF seaward of the REEF CREST (or reef edge) facing open sea (Cabioch, 2011; Maxwell, 1968)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -1422,7 +1422,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
 :glacial_basin
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :glacial_setting ;
+    skos:broader :Glacial_Setting ;
     skos:definition "In marine geology, a more or less equi-dimensional depression in the seafloor... (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016). Basins ranging from small depressions to trough width basins may be formed in bedrock and/or soft sediments, by glacier erosion, glacitectonic thrusting and/or sediment deformation on soft beds (Benn and Evans, 2010)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -1446,7 +1446,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
 :glacial_fjord
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :glacial_setting ;
+    skos:broader :Glacial_Setting ;
     skos:definition "A U-shaped glacial trough whose floor is occupied by the sea. Typically, fjords are steep-sided, overdeepened rock basins with shallow thresholds at the coast. Their form is characteristic of erosion by ice streams, outlet glaciers or valley glaciers which exploited either pre-existing river valleys or underlying weaknesses in the bedrock (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -1459,7 +1459,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel "glacier-fed delta"@en ;
-    skos:broader :glacial_setting ;
+    skos:broader :Glacial_Setting ;
     skos:definition "The typical GLACIFLUVIAL DELTA usually consists of coarser-grained sediments, and their front slopes are steep with foreset beds generally dipping 10-30° (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016). GLACIFLUVIAL DELTAS are also referred to as glacier-fed deltas as terrestrial proglacial meltwater streams/rivers carry sediments from a glacier to the marine/lacustrine environment (Benn and Evans, 2010)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -1472,7 +1472,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel "sandur"@en ;
-    skos:broader :glacial_setting ;
+    skos:broader :Glacial_Setting ;
     skos:definition "Laterally extensive flat plain of sand and gravel with braided streams of glacial meltwater flowing across them when active. It is an Icelandic term meaning ‘sand’ (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -1484,7 +1484,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
 :glacigenic_debris_flow
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :glacial_setting ;
+    skos:broader :Glacial_Setting ;
     skos:definition "GLACIGENIC DEBRIS FLOWS are consecutive mass-flows that deposit prograding lobes/wedges of sediment beyond a glacier grounding-line (King et al., 1998; Laberg and Vorren, 1996)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -1520,7 +1520,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
 :glacitectonic_raft
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :glacial_setting ;
+    skos:broader :Glacial_Setting ;
     skos:definition "Dislocated slab of unconsolidated sediment or rock that has been entrained and transported from its original position by subglacial processes. Large rafts are sometimes referred to as megablocks (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016). See also HILL-HOLE PAIR."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -1556,7 +1556,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
 :grounding_zone_wedge
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :glacial_setting ;
+    skos:broader :Glacial_Setting ;
     skos:definition "A sedimentary depocentre formed at the grounding zone of an ice sheet/ice-shelf system, formed of dipping diamicton beds overlain by horizontal sheets of diamicton, mainly subglacial till. Till emerging from beneath the glacier along a line-source is redistributed by subaqueous debris flows, producing diamicton beds that dip away from the margin. GZWs are usually asymmetrical in long-profile, steeper in the ice-distal direction (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -1568,7 +1568,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
 :gryphon
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :fluid_flow_process ;
+    skos:broader :Fluid_Flow_Process ;
     skos:definition "A steep-sided Cone formed at gas-mud vents. These small-scale Cones (<3-4 m high) generally occur at the flanks or on the summit of MUD VOLCANO DOMES and can be characterised by intense and continuous degassing or more periodic emissions (Etiope, 2015)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -1592,7 +1592,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
 :guyot
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :solid_earth_setting ;
+    skos:broader :Solid_Earth_Setting ;
     skos:definition "Flat-topped SEAMOUNTS or PLEATEAUS, usually former VOLCANOES, are formed by gradual subsidence through different stages. In many cases, they are capped by drowned atoll REEFS and pelagic sediment (modified after Harff et al., 2016)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -1632,7 +1632,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel "headwall"@en ;
-    skos:broader :mass_movement_process ;
+    skos:broader :Mass_Movement_Process ;
     skos:definition "The upslope boundary of a mass movement, set between undisturbed and remobilised material. It is the visible part of the surface of rupture and can be defined as an extensional failure surface linked at depth to the basal shear surface. In plan-view, head scarps are typified by an arcuate geometry well-defined continuous scarp, particularly in mass movements associated with a higher degree of desegregation (e.g., SLIDES, FLOWS). However, a head scarp can also present a sinuous geometry due to localised retrogressive erosion of the scarp (Bull et al., 2009)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -1704,7 +1704,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
 :hummocky_terrain
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :glacial_setting ;
+    skos:broader :Glacial_Setting ;
     skos:definition "A glacial landscape with a highly irregular surface, characterised by a series of small mounds, ridges and depressions. Associated with glacier/ice sheet grounding zones (Ottesen and Dowdeswell, 2009)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -1716,7 +1716,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
 :hydrothermal_mound
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :fluid_flow_process ;
+    skos:broader :Fluid_Flow_Process ;
     skos:definition "Circular or irregular mounding structures formed by the precipitated minerals that accumulate at hydrothermal vent sites (modified after Harff et al., 2016)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -1728,7 +1728,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
 :ice_contact_delta
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :glacial_setting ;
+    skos:broader :Glacial_Setting ;
     skos:definition "ICE-CONTACT DELTAS form at glacier margins and develop from e.g. ice proximal grounding line fans or other submerged depositional units (Benn and Evans, 2010)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -1744,7 +1744,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
         "grounding zone fan"@en ,
         "grounding-line fan"@en ,
         "ice-contact fan"@en ;
-    skos:broader :glacial_setting ;
+    skos:broader :Glacial_Setting ;
     skos:definition "Fan-shaped sediments produced by deposition from sediment-laden meltwater as it exits from subglacial meltwater tunnels, ususally at the base of tidewater glacier terminal ice CLIFFS (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -1756,7 +1756,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
 :iceberg_grounding_pit
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :glacial_setting ;
+    skos:broader :Glacial_Setting ;
     skos:definition "A discrete, usually roughly circular depression in seafloor sediment caused by the impact of the keel of an iceberg (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -1769,7 +1769,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel "astrobleme"@en ;
-    skos:broader :solid_earth_setting ;
+    skos:broader :Solid_Earth_Setting ;
     skos:definition "Remains of an ancient meteorite-impact structure on the Earth's surface, generally in the form of a circular scar of crushed and deformed bedrock (modified after Huggett, 2017)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -1890,7 +1890,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
 :kettle_hole
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :glacial_setting ;
+    skos:broader :Glacial_Setting ;
     skos:definition "Steep-sided hollow produced by the melt-out of an original deposit which also contained finer materials that were removed by wind or water action (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -1902,7 +1902,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
 :knickpoint
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :current_induced_process ;
+    skos:broader :Current-induced_Process ;
     skos:definition "A KNICKPOINT is a substantially steepened section of a long profile (modified from Goudie, 2006), usually measured along the thalweg or centreline of a CHANNEL, VALLEY or CANYON."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -1951,7 +1951,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel "sidewall"@en ;
-    skos:broader :mass_movement_process ;
+    skos:broader :Mass_Movement_Process ;
     skos:definition "A scarp, normally parallel to the main direction of transport, which represents the lateral confining boundary to a mass movement. Depending on the overall structure and type of collapse, a lateral scarp may only have a minor superficial expression or be associated with a steep relief."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -1963,7 +1963,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
 :lateral_spread
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :mass_movement_process ;
+    skos:broader :Mass_Movement_Process ;
     skos:definition "A mass movement produced by the lateral extension of a cohesive rock or debris over a deforming mass of softer underlying material (modified from Goudie, 2006). They usually occur on very gentle slopes or flat terrain and the failure is caused by liquefaction, the process whereby saturated, loose, cohesionless sediments (usually sands and silts) are transformed from a solid into a liquefied state."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -2059,7 +2059,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
 :marine_reef
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :marine_setting ;
+    skos:broader :Marine_Setting ;
     skos:definition "A general term for an occurrence of rock, biogenic, or other stable material that lies at or near the sea surface, and is elevated at least partially above the surrounding seabed. REEFS may be further classified by BIOGENIC PROCESSES."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -2072,7 +2072,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel "transverse ridge"@en ;
-    skos:broader :mass_movement_process ;
+    skos:broader :Mass_Movement_Process ;
     skos:definition "An elongated ridge perpendicular to the main direction of transport, typically found in the distal parts of slides with the deformation front limiting the downslope extent of the slide."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -2084,7 +2084,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
 :mass_movement_toe
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :mass_movement_process ;
+    skos:broader :Mass_Movement_Process ;
     skos:definition "The lower boundary of a mass movement, set between the remobilised and undisturbed material. In FRONTALLY CONFINED SLIDES this usually curved margin coincides with the intersection between the lower part of the surface of rupture of a landslide and the original ground surface. Where remobilised material is moved beyond the lower part of the surface of rupture the boundary may be diffuse and have limited bathymetric expression."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -2108,7 +2108,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
 :mat
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :biogenic_process ;
+    skos:broader :Biogenic_Process ;
     skos:definition "A sheet-like organic and detrital-rich accumulation generated from baffling and trapping (± binding) by macrophytes (e.g. seagrass), filamentous algae and cyanobacteria to form an organo-sedimentary build-up. Examples include ‘algal mat’ and ‘seagrass bed’. Usually allochthonous."@en ;
     skos:historyNote "2026-05: This Concept was retired in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -2168,7 +2168,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
 :medial_moraine
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :glacial_setting ;
+    skos:broader :Glacial_Setting ;
     skos:definition "Moraine formed at the confluence of two glaciers, where debris can be entrained at the glacier bed and surface. Entrained debris can be a shallow unit or extend to the base of the glacier, depending on the detailed mechanisms of formation (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -2204,7 +2204,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
 :meltwater_channel
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :glacial_setting ;
+    skos:broader :Glacial_Setting ;
     skos:definition "A channel produced by the flow of glacial meltwater. Where the channel is subglacial, pressurized water may flow upslope as well as downslope, producing an undulating channel long-profile (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016)"@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -2253,7 +2253,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel "secondary escarpment"@en ;
-    skos:broader :mass_movement_process ;
+    skos:broader :Mass_Movement_Process ;
     skos:definition "A scarp that can appear morphologically similar to a HEAD SCARP but is fully located within the EVACUATION ZONE and downslope of the HEAD SCARP."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -2266,7 +2266,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel "subsidence rim"@en ;
-    skos:broader :fluid_flow_process ;
+    skos:broader :Fluid_Flow_Process ;
     skos:definition "An annular lowland around the base of a MUD VOLCANO. Kopf (2002) suggested these types of Depressions form after mud-volcano activity has ceased and dewatering occurs, resulting in subsidence around the structure. Alternatively, Somoza et al., (2002) proposed they could also be caused by erosional bottom currents that are deflected by the mud volcano cone."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -2327,7 +2327,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
 :mudflow_fan
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :mass_movement_process ;
+    skos:broader :Mass_Movement_Process ;
     skos:definition "A Fan formed by the accumulation of sediments as the result of multiple MUD FLOW events. These will be smaller and less complex than SUBMARINE FAN."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -2339,7 +2339,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
 :mudflow_gully
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :mass_movement_process ;
+    skos:broader :Mass_Movement_Process ;
     skos:definition "A narrow, incised SUBMARINE GULLY formed by a single or multiple mudflows events. Mudflow gullies of varying scales exert different influences on the distribution of the associated DEPOSITIONAL ZONE and influence the connectivity of continuity reservoirs."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -2351,7 +2351,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
 :mudflow_mud_volcano
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :fluid_flow_process ;
+    skos:broader :Fluid_Flow_Process ;
     skos:definition "A type of FLOW where the sediments (mud) fluidised by gas and water form a muddy slurry which moves downslope from the flanks of a MUD VOLCANO. The composition of the mudflows can be highly variable and usually corresponds directly to the nature of the conduit and the lithology of the mobilised sediments, although it may also include loose conduit wall rock fragments removed by the ascending mud at the initial phase of an eruptive cycle."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -2435,7 +2435,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
 :oceanic_core_complex
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :solid_earth_setting ;
+    skos:broader :Solid_Earth_Setting ;
     skos:definition "The uplifted footwalls of oceanic detachment FAULTS. They are elevated, dome-shaped massifs, typically with prominent spreading-parallel corrugations on smoothly curved upper surfaces. These surfaces represent exposed now-inactive low-angle FAULT planes that have been directly responsible for the exhumation of mantle and plutonic lithologies onto the seafloor (Maffione et al., 2013; Tucholke et al., 1998)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -2519,7 +2519,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
 :oxbow
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :current_induced_process ;
+    skos:broader :Current-induced_Process ;
     skos:definition "An abandoned channel reach, typically meandering in plan view, formed as a result of channel cut-off and channel adjustment (Reineck and Singh, 2012)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -2555,7 +2555,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
 :permafrost_pingo_depression
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :fluid_flow_process ;
+    skos:broader :Fluid_Flow_Process ;
     skos:definition "An irregularly shaped, steep-sided depression that is formed when the ice core of a submarine permafrost pingo thaws. An ‘inverted landform’ originating as a PINGO (Paull et al., 2022)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -2615,7 +2615,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
 :plunge_pool
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :current_induced_process ;
+    skos:broader :Current-induced_Process ;
     skos:definition "Depressions situated downstream of steep reaches of SUBAERIAL and SUBMARINE CHANNELS, VALLEYS and GULLIES, and CANYONS, and downstream of escarpments where flows either excavate basement material (e.g. downstream of indurated sediment in SUBAERIAL CHANNELS or CANYONS) or maintain depth and deposit material further downstream."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -2678,7 +2678,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
 :proglacial_meltwater_channel
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :glacial_setting ;
+    skos:broader :Glacial_Setting ;
     skos:definition "Meltwater channel (see definition further up), occurring in area immediately beyond the limits of a glacier (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -2714,7 +2714,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
 :raised_beach
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :coastal_setting ;
+    skos:broader :Coastal_Setting ;
     skos:definition "A relict landform comprising mostly wave-transported sedimentary material preserved above and landward of the active shoreline. RAISED BEACHES are distinguished here from raised SHOREFACE TERRACES on the basis that the former are solely the product of physical depositional mechanisms, whereas the latter have a broader genesis that may incorporate depositional, erosional and/or BIOGENIC PROCESSES (modified from Goudie, 2006)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -2762,7 +2762,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
 :reef_crest
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :biogenic_process ;
+    skos:broader :Biogenic_Process ;
     skos:definition "Reef top behind the FORE-REEF, comprising an elevated rim and hard coralgal pavement which attenuates wave energy (Maxwell, 1968)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -2774,7 +2774,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
 :reef_flat
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :biogenic_process ;
+    skos:broader :Biogenic_Process ;
     skos:definition "The most recent expression of coral growth at sea level, extending back from the FORE-REEF. There are two forms of REEF FLATS: (1) coral dominated and (2) rubble-dominated, modulated by the ambient energy conditions as the growing reef approaches sea-level (Maxwell, 1968; Thornborough and Davies, 2011)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -2786,7 +2786,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
 :reef_lagoon
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :biogenic_process ;
+    skos:broader :Biogenic_Process ;
     skos:definition "Fully or partly enclosed shallow depressions in coral REEFs (Hopley, 2011; Maxwell, 1968)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -2822,7 +2822,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
 :remnant_block
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :mass_movement_process ;
+    skos:broader :Mass_Movement_Process ;
     skos:definition "A Block of undisturbed, coherent sediment, found within the remobilised material but which has not been displaced during the mass movement. This type of in situ block can be recognised in seismic profiles by the contrast between areas of lateral concordant and continuous seismic facies and the often chaotic facies of the remoulded material."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -2906,7 +2906,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
 :ring_fault
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :fluid_flow_process ;
+    skos:broader :Fluid_Flow_Process ;
     skos:definition "A semi-circular scarp interpreted as extensional fault, around the crater of a MUD VOLCANO."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -3003,7 +3003,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
 :rogen_moraine
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :glacial_setting ;
+    skos:broader :Glacial_Setting ;
     skos:definition "A moraine transverse to the direction of ice flow, formed of large transverse ridges, giving the overall appearance of an animal’s ribs. The ridges, consisting of till for the most part are generally steep-sided. In plan view, they appear slightly curved and wavy, and their ends merge to form poorly defined ridges which intersect at different angles (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -3089,7 +3089,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel "cliff"@en ;
-    skos:broader :solid_earth_setting ;
+    skos:broader :Solid_Earth_Setting ;
     skos:definition "A relatively steep face of a scarp created by a resistant cap rock overlying a relatively weak and erodible stratum (modified after Huggett, 2017)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -3271,7 +3271,7 @@ Cf. "seamount" in Harris et al., (2014)."""@en ;
 :shoreface
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :coastal_setting ;
+    skos:broader :Coastal_Setting ;
     skos:definition "The relatively steep surface between the low-tide shoreline and the inner shelf. The lower boundary of the SHOREFACE commences where ocean swell waves begin to shoal towards the shore (modified from Boak and Turner, 2005; Woodroffe, 2002)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -3299,7 +3299,7 @@ Cf. RAISED BEACH"""@en ;
 :sill
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :glacial_setting ;
+    skos:broader :Glacial_Setting ;
     skos:definition "A relatively shallow ridge or rise separating one basin from another. Sills are common in fjords where they consist of a sub-marine barrier of rock or moraine that occurs at the mouth of, or between, basins (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -3360,7 +3360,7 @@ Cf. RAISED BEACH"""@en ;
 :spur_and-groove
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :biogenic_process ;
+    skos:broader :Biogenic_Process ;
     skos:definition "Best developed on the windward side of coral REEFS, the spur-and-grooves consists of parallel elongate CHANNELS (MORPHOLOGY) or GROOVES (MORPHOLOGY), a few metres wide and deep, separated by seaward extending coral RIDGES (MORPHOLOGY) or spurs (Harris and Baker, 2020; Maxwell, 1968; Shinn, 2011)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -3432,7 +3432,7 @@ Cf. RAISED BEACH"""@en ;
 :sub_ice_shelf_keel_scour_mark
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :glacial_setting ;
+    skos:broader :Glacial_Setting ;
     skos:definition "Sub-ice shelf keel scour marks consist of highly linear splayed lineations, occasionally cross-cutting, that display low parallel conformity. They record the transition from a grounded to a sub-ice shelf environment and form an intermediary landform between curvilinear iceberg ploughmarks and glacial lineations. They are hypothesised to form where ice reaches flotation in newly opened ice shelf cavities (Smith et al., 2019)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -3444,7 +3444,7 @@ Cf. RAISED BEACH"""@en ;
 :submarine_channel
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :marine_setting ;
+    skos:broader :Marine_Setting ;
     skos:definition "Formed by sediment-laden turbidity currents and other sediment-rich gravity currents (Klaucke and Hesse, 1996; Peakall et al., 2000; Peakall and Sumner, 2015)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -3456,7 +3456,7 @@ Cf. RAISED BEACH"""@en ;
 :submarine_channel_belt
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :marine_setting ;
+    skos:broader :Marine_Setting ;
     skos:definition "A coherent package of channel-related deposits that may incorporate both vertical and/or lateral accretion components Their planform morphology may include linear, sinuous, or meandering channels (Janocko et al., 2013; Jobe et al., 2016)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -3468,7 +3468,7 @@ Cf. RAISED BEACH"""@en ;
 :submarine_fan
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :marine_setting ;
+    skos:broader :Marine_Setting ;
     skos:definition """Develop on the CONTINENTAL SLOPE, RISE and ABYSSAL PLAIN, normally at the mouths of SUBMARINE CANYONS. They are constructed principally from the deposits of sediment gravity flows (mainly turbidity currents and debris flows) as terrigenous and shallow marine sediment is redistributed into deeper water (Clark et al., 1992; Covault, 2011; Deptuck and Sylvester, 2018; Shanmugam, 2016).
 Cf. "fan/apron" in Harris et al., (2014), cf. APRON (MORPHOLOGY)."""@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
@@ -3481,7 +3481,7 @@ Cf. "fan/apron" in Harris et al., (2014), cf. APRON (MORPHOLOGY)."""@en ;
 :submarine_gully
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :marine_setting ;
+    skos:broader :Marine_Setting ;
     skos:definition "Small-scale (<10 km) confined channels, generally on the order of tens of meters deep and often low sinuosity in planform. SUBMARINE GULLIES are commonly found within or alongside SUBMARINE CANYONS on the continental slope and may represent an incipient stage of canyon development (Amblas et al., 2018; Gales et al., 2013; Izumi, 2004; Micallef and Mountjoy, 2011; Pratson et al., 2007)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -3493,7 +3493,7 @@ Cf. "fan/apron" in Harris et al., (2014), cf. APRON (MORPHOLOGY)."""@en ;
 :submarine_terrace
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :marine_setting ;
+    skos:broader :Marine_Setting ;
     skos:definition "Form within SUBMARINE VALLEYS and SUBMARINE CANYONS as a result of the incision of their adjacent SUBMARINE CHANNEL, which causes the decoupling of their surfaces from the active channel."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -3505,7 +3505,7 @@ Cf. "fan/apron" in Harris et al., (2014), cf. APRON (MORPHOLOGY)."""@en ;
 :submarine_tributary_canyon
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :marine_setting ;
+    skos:broader :Marine_Setting ;
     skos:definition "Secondary or subordinate components of SUBMARINE CANYONS that are directed towards a typically larger primary SUBMARINE CANYON. They have their own CANYON HEAD."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -3517,7 +3517,7 @@ Cf. "fan/apron" in Harris et al., (2014), cf. APRON (MORPHOLOGY)."""@en ;
 :submarine_valley
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :marine_setting ;
+    skos:broader :Marine_Setting ;
     skos:definition "Smaller than SUBMARINE CANYONS and generally located on more gentle slopes. SUBMARINE VALLEYS may be associated with internal and/or external LEVEES and SUBMARINE TERRACES and, in contrast to SUBMARINE CHANNELS, they are shaped by supplementary processes including channel entrenchment, lateral migration, and aggradation (Harris et al., 2014; Lemay et al., 2020)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -3553,7 +3553,7 @@ Cf. "fan/apron" in Harris et al., (2014), cf. APRON (MORPHOLOGY)."""@en ;
 :talus_apron
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :mass_movement_process ;
+    skos:broader :Mass_Movement_Process ;
     skos:definition "An Apron formed by the accumulation of broken rock fragments at the base of a steep slope as the result of multiple mass movement events. These are not typically developed within the marine environment but can be found associated with nearshore slope instability."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -3565,7 +3565,7 @@ Cf. "fan/apron" in Harris et al., (2014), cf. APRON (MORPHOLOGY)."""@en ;
 :talus_fan
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :mass_movement_process ;
+    skos:broader :Mass_Movement_Process ;
     skos:definition "A Fan formed by the accumulation of broken rock fragments at the base of a steep slope as the result of multiple mass movement events. These are not typically developed within the marine environment but can be found associated to nearshore slope instability."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -3601,7 +3601,7 @@ Cf. "fan/apron" in Harris et al., (2014), cf. APRON (MORPHOLOGY)."""@en ;
 :tectonic_escarpment
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :solid_earth_setting ;
+    skos:broader :Solid_Earth_Setting ;
     skos:definition "An escarpment that forms as a result of unspecified faulting activity (Huggett, 2017)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -3625,7 +3625,7 @@ Cf. "fan/apron" in Harris et al., (2014), cf. APRON (MORPHOLOGY)."""@en ;
 :thrust_block_moraine
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :glacial_setting ;
+    skos:broader :Glacial_Setting ;
     skos:definition "THRUST-BLOCK MORAINES (composite ridges) are heavily glacitectonised ridges formed by thrusting of blocks/slabs of sediments in front of a glacier (Benn and Evans, 2010)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -3697,7 +3697,7 @@ Cf. "fan/apron" in Harris et al., (2014), cf. APRON (MORPHOLOGY)."""@en ;
 :transverse_crack
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :mass_movement_process ;
+    skos:broader :Mass_Movement_Process ;
     skos:definition "A type of open fracture, perpendicular to the main direction of transport, they tend to be found either at the EVACUATION ZONE or overlying the intersection between the lower part of the surface of rupture and the original ground surface (Cruden and Varnes, 1996)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -3709,7 +3709,7 @@ Cf. "fan/apron" in Harris et al., (2014), cf. APRON (MORPHOLOGY)."""@en ;
 :trough_mouth_fan
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :glacial_setting ;
+    skos:broader :Glacial_Setting ;
     skos:definition "A large fan-shaped depositional body located at the seaward end, or mouth, of a CROSS-SHELF TRUOGH that has been largely eroded by grounded ice-sheets. The fan is built mainly from sediments carried by the ice sheets, and especially by fast-flowing ice streams within it. Some authors restrict the term to fans built principally of glacigenic debris-flows (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -3721,7 +3721,7 @@ Cf. "fan/apron" in Harris et al., (2014), cf. APRON (MORPHOLOGY)."""@en ;
 :tunnel_valley
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :glacial_setting ;
+    skos:broader :Glacial_Setting ;
     skos:definition "A large subglacial, steep-sided channel cut into unconsolidated sediment or bedrock by meltwater. The channel may have a reverse gradient in places (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -3733,7 +3733,7 @@ Cf. "fan/apron" in Harris et al., (2014), cf. APRON (MORPHOLOGY)."""@en ;
 :turbidite_fan
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :mass_movement_process ;
+    skos:broader :Mass_Movement_Process ;
     skos:definition "A Fan formed by the accumulation of sediment as the result of multiple TURBIDITY CURRENTS. These will be smaller and less complex than SUBMARINE FANS."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -3745,7 +3745,7 @@ Cf. "fan/apron" in Harris et al., (2014), cf. APRON (MORPHOLOGY)."""@en ;
 :turbidite_levee
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :mass_movement_process ;
+    skos:broader :Mass_Movement_Process ;
     skos:definition "An elongated Ridge flanking the margins of a turbidity channel, formed by sediments overtopping a TURBIDITY CHANNEL."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -3757,7 +3757,7 @@ Cf. "fan/apron" in Harris et al., (2014), cf. APRON (MORPHOLOGY)."""@en ;
 :turbidity_channel
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :mass_movement_process ;
+    skos:broader :Mass_Movement_Process ;
     skos:definition "A SUBMARINE CHANNEL formed by the interaction of TURBIDITY CURRENTS with an erodible seabed."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -3902,8 +3902,8 @@ Cf. "fan/apron" in Harris et al., (2014), cf. APRON (MORPHOLOGY)."""@en ;
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader
-        :coastal_setting ,
-        :fluvial_setting ;
+        :Coastal_Setting ,
+        :Fluvial_Setting ;
     skos:definition "A conglomeration of relatively coarser-grained sediment comprised of amalgamated SUBAERIAL CHANNEL, BEDFORM and BARFORM deposits (modified from Bridge and Tye, 2000; cf. Marine SUBMARINE CHANNEL BELT versus Fluvial CHANNEL BELT geometries: Jobe et al., 2016)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -3915,7 +3915,7 @@ Cf. "fan/apron" in Harris et al., (2014), cf. APRON (MORPHOLOGY)."""@en ;
 :cross_shelf_trough
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :glacial_setting ;
+    skos:broader :Glacial_Setting ;
     skos:definition "A wide (several to tens of kilometres) elongate depression of the seafloor, usually a few hundred metres deep, extending across the continental shelf between shallower banks; commonly eroded by grounded ice-sheets over successive full-glacial periods. See transverse channel/trough (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016). Cf.\"glacial trough\" in Harris et al., (2014)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -3929,8 +3929,8 @@ Cf. "fan/apron" in Harris et al., (2014), cf. APRON (MORPHOLOGY)."""@en ;
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader
-        :coastal_setting ,
-        :fluvial_setting ;
+        :Coastal_Setting ,
+        :Fluvial_Setting ;
     skos:definition "Discrete accumulations of sediment that form at the distal end of relatively confined river channels and may represent distinct avulsion events (Chatanantavet et al., 2012). Multiple DELTA LOBES sum to comprise entire DELTAS."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -3942,7 +3942,7 @@ Cf. "fan/apron" in Harris et al., (2014), cf. APRON (MORPHOLOGY)."""@en ;
 :salt_karst
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :karst_process ;
+    skos:broader :Karst_Process ;
     skos:definition "Landscape where the dominant geomorphic process is dissolution of salt (halite); characterised by distinctive rough terrain and landforms, e.g. dolines (modified after Field, 2002)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -3955,7 +3955,7 @@ Cf. "fan/apron" in Harris et al., (2014), cf. APRON (MORPHOLOGY)."""@en ;
 :u_shaped_valley
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :glacial_setting ;
+    skos:broader :Glacial_Setting ;
     skos:definition "A valley having a pronounced parabolic cross-profile suggesting the form of a broad letter ‘U’ with steep parallel walls and a broad, nearly flat floor; specifically a valley carved by glacial erosion, such as a glacial trough or fjord (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -3969,7 +3969,7 @@ Cf. "fan/apron" in Harris et al., (2014), cf. APRON (MORPHOLOGY)."""@en ;
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel "barrier system"@en ;
-    skos:broader :coastal_setting ;
+    skos:broader :Coastal_Setting ;
     skos:definition "Amalgamated, shore-parallel sand bodies incorporating BEACH, coastal dunes (DUNE - foredune BGU-sT), WASHOVER and backbarrier FLAT deposits. May comprise multiple shorelines to form a PLAIN (STRAND- or CHENIER) (modified from Griffin et al., 2012)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -3996,7 +3996,7 @@ Cf. "fan/apron" in Harris et al., (2014), cf. APRON (MORPHOLOGY)."""@en ;
 :biostrome
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :biogenic_process ;
+    skos:broader :Biogenic_Process ;
     skos:definition "Build-ups lacking the lens-like positive relief that would otherwise classify the unit as a bioherm (Cumings, 1932); bedded or unbedded (Kershaw, 1994) with variable skeletal and matrix components. Synonym ‘bed’ (Kershaw, 1994). Usually parautochthonous to allochthonous."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -4037,7 +4037,7 @@ Cf. FLUVIAL PRO-DELTA"""@en ;
 :fall
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :mass_movement_process ;
+    skos:broader :Mass_Movement_Process ;
     skos:definition "A relatively free-falling abrupt movement of newly detached material from steep slopes or CLIFFS. The source area of a fall is not usually directly identified in bathymetry data, being only indirectly mapped, by identifying the cliff face associated with debris or rock fragments accumulation at the base of the slope. Different types of FALLS can be described by the nature of the material remobilized."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -4053,8 +4053,8 @@ Cf. FLUVIAL PRO-DELTA"""@en ;
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader
-        :coastal_setting ,
-        :fluvial_setting ;
+        :Coastal_Setting ,
+        :Fluvial_Setting ;
     skos:definition "Planar-surfaced units that remain after the adjacent channel has incised and abandoned the surface (Brierley and Fryirs, 2013) and can be comprised of alluvial material (cf. FLOODPLAINS) or rock (cf. STRATH; modified from Goudie, 2006)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -4067,7 +4067,7 @@ Cf. FLUVIAL PRO-DELTA"""@en ;
 :fluvial_delta
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :fluvial_setting ;
+    skos:broader :Fluvial_Setting ;
     skos:definition """A discrete shoreline sedimentary protuberance formed where a river enters a body of water and supplies sediment more rapidly than it can be redistributed by basinal processes (modified from: Elliott, 1986).
 Cf. COASTAL DELTA"""@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
@@ -4083,7 +4083,7 @@ Cf. COASTAL DELTA"""@en ;
 :fluvial_subaerial_valley
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :fluvial_setting ;
+    skos:broader :Fluvial_Setting ;
     skos:definition "Form via combinations of fluvial and coastal processes (see Additional Attributes: Marginal marine process classification); they widen by lateral SUBAERIAL CHANNEL erosion and weathering, and lengthen by both headward erosion and progradation in their lower reaches. SUBAERIAL VALLEYS can form networks with a variety of drainage patterns (see DRAINAGE NETWORK; modified from Goudie, 2006). Cf. RIVER VALLEY; INCISED VALLEY; RIA; FJORD, COASTAL SUBAERIAL VALLEY."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -4098,7 +4098,7 @@ Cf. COASTAL DELTA"""@en ;
 :hill_hole_pair
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :glacial_setting ;
+    skos:broader :Glacial_Setting ;
     skos:definition "A discrete hill of ice-thrust material, often slightly deformed, situated downglacier from a depression of approximately the same size and shape. Either pre-existing drift or bedrock may be contained in the dislocated hill (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -4113,7 +4113,7 @@ Cf. COASTAL DELTA"""@en ;
 :hydrothermal_vent
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :fluid_flow_process ;
+    skos:broader :Fluid_Flow_Process ;
     skos:definition "Fissures on the oceanic crust in volcanically active sites (e.g. mid-ocean ridges, back-arc spreading centers, and hot-spot or arc-related submarine volcanoes), from which geothermally heated water is released. Circulating seawater is heated by a heat source such as a magma chamber or associated hot rock and, during heating and chemical reaction with the surrounding rock, undergoes a suite of chemical modifications (modified after Harff et al., 2016)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -4128,7 +4128,7 @@ Cf. COASTAL DELTA"""@en ;
 :iceberg_ploughmark
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :glacial_setting ;
+    skos:broader :Glacial_Setting ;
     skos:definition "Groove or furrow caused by the impact and movement of grounded icebergs along the sea or lake floor (Excerpt from Bell et al. 2016 In: Dowdeswell et al., 2016)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -4155,7 +4155,7 @@ Cf. COASTAL DELTA"""@en ;
 :mud_volcano
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :fluid_flow_process ;
+    skos:broader :Fluid_Flow_Process ;
     skos:definition "A positive topographic unit, usually conical, formed by the periodic upwelling of sediments (mud) fluidised by gas and water (Etiope, 2015). It can develop as a single isolated cone (that can be several hundreds of meters high) or, more frequently, as groups of cones. MUD VOLCANOES can be classified by their morphologies, with the key distinction made on the grounds of angle of the flanks."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -4170,7 +4170,7 @@ Cf. COASTAL DELTA"""@en ;
 :pingo
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :fluid_flow_process ;
+    skos:broader :Fluid_Flow_Process ;
     skos:definition "A conical Mound up to a few tens of metres in height and a few hundred metres in diameter, which has been domed up from beneath. PINGOS can be either PERMAFROST PINGO or GAS HYDRATE PINGOS."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -4185,7 +4185,7 @@ Cf. COASTAL DELTA"""@en ;
 :sandstone_karst
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :karst_process ;
+    skos:broader :Karst_Process ;
     skos:definition "Landscape where the dominant geomorphic processes are a combination of chemical weathering and other erosional processes of sandstone (quartz); characterised by distinctive rough terrain and landforms, e.g. ruiniform."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -4212,7 +4212,7 @@ Cf. COASTAL DELTA"""@en ;
 :submarine_canyon
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :marine_setting ;
+    skos:broader :Marine_Setting ;
     skos:definition """Steep-sided, GENERALLY V-shaped valleys with heads at or near the CONTINENTAL SHELF edge. They extend across the CONTINENTAL SLOPE and are commonly linked to numerous tributaries, similar to unglaciated river-cut canyons on land (Amblas et al., 2018; Covault, 2011; Harris and Baker, 2011; Huang et al., 2014; Pratson et al., 2007; Puig et al., 2014).
 Cf. "canyon" in Harris et al., (2014)."""@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
@@ -4240,7 +4240,7 @@ Cf. "canyon" in Harris et al., (2014)."""@en ;
 :topple
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :mass_movement_process ;
+    skos:broader :Mass_Movement_Process ;
     skos:definition "A mass movement produced by forward rotation around a pivot or hinge on a slope below the centre of gravity of the displaced mass. Different types of FALLS are described by the nature of the material remobilized."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -4264,7 +4264,7 @@ Cf. "canyon" in Harris et al., (2014)."""@en ;
     schema:status astatus:stable ;
 .
 
-:anthropogenic_process
+:Anthropogenic_Process
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "A PROCESS grouping in which geomorphic units are primarily the result of Anthropogenic activity (e.g. PYLONS; BEDFORMS and SCOURS around infrastructure)."@en ;
@@ -4282,7 +4282,7 @@ Cf. "canyon" in Harris et al., (2014)."""@en ;
 :archaeological
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :anthropogenic_process ;
+    skos:broader :Anthropogenic_Process ;
     skos:definition "Any anthropogenic unit of archaeological, historical, cultural or ceremonial significance."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -4298,7 +4298,7 @@ Cf. "canyon" in Harris et al., (2014)."""@en ;
 :bedding_ridge
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :solid_earth_setting ;
+    skos:broader :Solid_Earth_Setting ;
     skos:definition "A positive relief generated by bedrock bedding (modified after Huggett, 2017)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -4314,7 +4314,7 @@ Cf. "canyon" in Harris et al., (2014)."""@en ;
 :bedrock_outcrop_undef
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :solid_earth_setting ;
+    skos:broader :Solid_Earth_Setting ;
     skos:definition "A relief formed by bedrock of unspecified lithology and genesis cropping out of the surrounding seabed."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -4330,7 +4330,7 @@ Cf. "canyon" in Harris et al., (2014)."""@en ;
 :coastal_subaerial_valley
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :coastal_setting ;
+    skos:broader :Coastal_Setting ;
     skos:definition """Form via combinations of fluvial and coastal processes (see Additional Attributes: Marginal marine process classification); they widen by lateral SUBAERIAL CHANNEL erosion and weathering, and lengthen by both headward erosion and progradation in their lower reaches. SUBAERIAL VALLEYS can form networks with a variety of drainage patterns (see DRAINAGE NETWORK; modified from Goudie, 2006). Cf. RIVER VALLEY; INCISED VALLEY; RIA; FJORD.
 Cf. FLUVIAL SUBAERIAL VALLEY"""@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
@@ -4344,7 +4344,7 @@ Cf. FLUVIAL SUBAERIAL VALLEY"""@en ;
     schema:status astatus:stable ;
 .
 
-:karst_process
+:Karst_Process
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "A PROCESS grouping in which geomorphic UNITS are primarily formed by the chemical dissolution of soluble rocks (carbonate, salt and sandstone)."@en ;
@@ -4362,7 +4362,7 @@ Cf. FLUVIAL SUBAERIAL VALLEY"""@en ;
 :lagoon
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :coastal_setting ;
+    skos:broader :Coastal_Setting ;
     skos:definition "A stretch of usually saline water separated from the sea by a low BARRIER or coral REEF (Cf. REEF LAGOON - Biogenic; Goudie, 2006)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -4378,7 +4378,7 @@ Cf. FLUVIAL SUBAERIAL VALLEY"""@en ;
 :tectonic_lineament
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :solid_earth_setting ;
+    skos:broader :Solid_Earth_Setting ;
     skos:definition "A lineament that forms as a result of unspecified tectonic/structural activity (modified after Huggett, 2017)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -4394,7 +4394,7 @@ Cf. FLUVIAL SUBAERIAL VALLEY"""@en ;
 :tidal_flat
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :coastal_setting ;
+    skos:broader :Coastal_Setting ;
     skos:definition "Low gradient intertidal to supratidal surfaces formed in fine-grained sediment (Woodroffe, 2002)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -4410,7 +4410,7 @@ Cf. FLUVIAL SUBAERIAL VALLEY"""@en ;
 :translated_block
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :mass_movement_process ;
+    skos:broader :Mass_Movement_Process ;
     skos:definition "A Block of undisturbed, coherent sediment, which has been displaced by a mass movement, preserving at least two relatively flat surfaces."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -4426,7 +4426,7 @@ Cf. FLUVIAL SUBAERIAL VALLEY"""@en ;
 :volcano_island
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :solid_earth_setting ;
+    skos:broader :Solid_Earth_Setting ;
     skos:definition "A mountain or hill, typically conical, having a crater or vent through which lava, rock fragments, hot vapour, and gas are or have been erupted from the earth's crust (modified after Huggett, 2017)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -4442,7 +4442,7 @@ Cf. FLUVIAL SUBAERIAL VALLEY"""@en ;
 :barrier
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :coastal_setting ;
+    skos:broader :Coastal_Setting ;
     skos:definition "Elongate accumulations of sand or coarser sediment primarily deposited by waves and longshore currents, rising above the formative sea level, often impounding terrestrial drainage or blocking off a LAGOON in the BACKBARRIER (modified from Griffin et al., 2012; Woodroffe, 2002). Can be sub-classified using their number of attachment points to the mainland (cf. SALIENT/TOMBOLO; BAY-MOUTH; SPIT)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -4459,7 +4459,7 @@ Cf. FLUVIAL SUBAERIAL VALLEY"""@en ;
 :beach
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :coastal_setting ;
+    skos:broader :Coastal_Setting ;
     skos:definition "A wave-deposited body of sand or gravel formed along open coast (marine), estuarine and lacustrine shorelines."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -4476,7 +4476,7 @@ Cf. FLUVIAL SUBAERIAL VALLEY"""@en ;
 :bioherm
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :biogenic_process ;
+    skos:broader :Biogenic_Process ;
     skos:definition "Build-ups with lens-like positive relief (Cumings, 1932), with variable skeletal and matrix components (± binding); skeletal components are adjacent and some may be in contact, but are mostly disarticulated (modified from Riding, 2002). (e.g., Halimeda bioherm). Synonym ‘mound’; includes carbonate ‘mud mound’ (modified from Riding, 2002). Usually parautochthonous to allochthonous."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -4494,8 +4494,8 @@ Cf. FLUVIAL SUBAERIAL VALLEY"""@en ;
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader
-        :coastal_setting ,
-        :fluvial_setting ;
+        :Coastal_Setting ,
+        :Fluvial_Setting ;
     skos:definition "The relatively flat area of land between the banks of the parent stream and the confining valley walls, over which water from the parent stream flows at times of high discharge. The sediment that comprises a FLOODPLAIN is mainly alluvium derived from the parent stream (modified from Goudie, 2006) and can be comprised of confined/cut-and-fill, braided, lateral migration or anabranching floodplain deposits (Nanson and Croke, 1992)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -4511,7 +4511,7 @@ Cf. FLUVIAL SUBAERIAL VALLEY"""@en ;
 :flow
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :mass_movement_process ;
+    skos:broader :Mass_Movement_Process ;
     skos:definition "A mass movement where the individual particles travel separately within a moving mass. They involve highly fractured rock, clastic debris in a fine matrix or small grain sizes."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -4528,7 +4528,7 @@ Cf. FLUVIAL SUBAERIAL VALLEY"""@en ;
 :mdac
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :fluid_flow_process ;
+    skos:broader :Fluid_Flow_Process ;
     skos:definition "Exposed authigenic carbonate structures, mostly in the form of hardground with positive relief, associated with the seepage of methane rich fluids as a result of the anaerobic methane oxidation coupled with sulphate reduction by associations of archaea and bacteria (Hovland et al., 1987)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -4545,7 +4545,7 @@ Cf. FLUVIAL SUBAERIAL VALLEY"""@en ;
 :slide
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :mass_movement_process ;
+    skos:broader :Mass_Movement_Process ;
     skos:definition "A slide consists of the movement of a coherent mass of material along a distinct shear surface (modified from Goudie, 2006)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -4562,7 +4562,7 @@ Cf. FLUVIAL SUBAERIAL VALLEY"""@en ;
 :tectonic_depression
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :solid_earth_setting ;
+    skos:broader :Solid_Earth_Setting ;
     skos:definition "A depression generated by an unspecified tectonic/structural process."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -4579,7 +4579,7 @@ Cf. FLUVIAL SUBAERIAL VALLEY"""@en ;
 :tectonic_high
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :solid_earth_setting ;
+    skos:broader :Solid_Earth_Setting ;
     skos:definition "A positive relief generated by an unspecified tectonic/structural process."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -4596,7 +4596,7 @@ Cf. FLUVIAL SUBAERIAL VALLEY"""@en ;
 :marine_barform
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :marine_setting ;
+    skos:broader :Marine_Setting ;
     skos:definition "Tend to be larger than CURRENT-INDUCED BEDFORMS (e.g. Venditti, 2013), are often forced by macro-scale topography (e.g. channels – point bar; headlands - banner), and develop over longer periods of time (e.g. Dury, 1970)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -4614,7 +4614,7 @@ Cf. FLUVIAL SUBAERIAL VALLEY"""@en ;
 :pockmark
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :fluid_flow_process ;
+    skos:broader :Fluid_Flow_Process ;
     skos:definition "A concave crater-like Depression formed by gas and/or fluid expulsion, typically one to tens of meters in diameter but can be up to a few hundred meters wide (Hovland et al., 1987). Pockmarks tend to be characteristic V shaped Depressions, with circular, or elliptical geometry. However, they can also present a W-shaped profile or more complex geometries."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -4632,7 +4632,7 @@ Cf. FLUVIAL SUBAERIAL VALLEY"""@en ;
 :carbonate_karst
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :karst_process ;
+    skos:broader :Karst_Process ;
     skos:definition "Landscape where the dominant geomorphic process is dissolution of carbonate rocks; characterised by distinctive landforms, e.g. caves, CARBONATE DOLINES, underground drainage (modified after Field, 2002)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -4651,7 +4651,7 @@ Cf. FLUVIAL SUBAERIAL VALLEY"""@en ;
 :disturbance
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :anthropogenic_process ;
+    skos:broader :Anthropogenic_Process ;
     skos:definition "All anthropogenic seabed alteration or erosional units placed into the nearshore or marine environment (Watson et al., 2020)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -4670,7 +4670,7 @@ Cf. FLUVIAL SUBAERIAL VALLEY"""@en ;
 :moraine
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :glacial_setting ;
+    skos:broader :Glacial_Setting ;
     skos:definition "A mound, ridge or other distinct accumulation of generally unsorted, unstratified glacigenic sediment, predominantly till, deposited chiefly by direct contact with glacier ice, commonly subglacial. See De Geer moraine, end moraine, fluted moraine, interlobate moraine, kame moraine, lateral moraine (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -4689,7 +4689,7 @@ Cf. FLUVIAL SUBAERIAL VALLEY"""@en ;
 :coastal_delta
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :coastal_setting ;
+    skos:broader :Coastal_Setting ;
     skos:definition """A discrete shoreline sedimentary protuberance formed where a river enters a body of water and supplies sediment more rapidly than it can be redistributed by basinal processes (modified from: Elliott, 1986).
 Cf. FLUVIAL DELTA"""@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
@@ -4707,7 +4707,7 @@ Cf. FLUVIAL DELTA"""@en ;
     schema:status astatus:stable ;
 .
 
-:current_induced_process
+:Current-induced_Process
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "A PROCESS grouping that includes a broad suite of geomorphic UNITS that are primarily formed by air and water currents by modern or former processes. Where the formative process is known (e.g. MARINE, ANTHROPOGENIC) these units can be reclassified into their formative SETTING or PROCESS (e.g. a CURRENT-INDUCED DUNE that is submerged on the continental shelf can be reclassed as a COASTAL DUNE)."@en ;
@@ -4729,7 +4729,7 @@ Cf. FLUVIAL DELTA"""@en ;
 :magmatic_outcrop
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :solid_earth_setting ;
+    skos:broader :Solid_Earth_Setting ;
     skos:definition "A magmatic bedrock outcrop of unspecified lithology (modified after Huggett, 2017)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -4749,7 +4749,7 @@ Cf. FLUVIAL DELTA"""@en ;
 :streamlined_landform
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :glacial_setting ;
+    skos:broader :Glacial_Setting ;
     skos:definition "Streamlined landforms have been sculpted and moulded by glacier ice, moving in a coherent direction. These landforms can consist of bedrock, unconsolidated sediments or both. They are formed parallel to the ice flow direction and are considered good palaeo-flow indicators. Elongation is considered to be positively correlated with higher ice flow velocities (Stokes and Clark, 1999, 2002; Krabbendam et al., 2016)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -4770,8 +4770,8 @@ Cf. FLUVIAL DELTA"""@en ;
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader
-        :coastal_setting ,
-        :fluvial_setting ;
+        :Coastal_Setting ,
+        :Fluvial_Setting ;
     skos:definition "Formed of alluvium, usually have mobile boundaries and are self-adjusting in response to changing conditions. Commonly parabolic or trapezoid in cross section with adjacent, roughly horizontal FLOODPLAINS that are inundated when the channel exceeds bankfull capacity (modified from Goudie, 2006)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -4790,7 +4790,7 @@ Cf. FLUVIAL DELTA"""@en ;
 :coastal_barform
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :coastal_setting ;
+    skos:broader :Coastal_Setting ;
     skos:definition "Any type of BARFORM formed in a COASTAL SETTING; the exact BGU-T or BGU-sT may be unknown or may exceed classification requirements."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -4811,7 +4811,7 @@ Cf. FLUVIAL DELTA"""@en ;
 :barform
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :current_induced_process ;
+    skos:broader :Current-induced_Process ;
     skos:definition "Tend to be larger than BEDFORMS (e.g. Venditti, 2013), are often forced by macro-scale topography (e.g. CHANNELS - POINTBAR; HEADLANDS - BANNER), and develop over longer periods of time (e.g. Dury, 1970)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -4832,7 +4832,7 @@ Cf. FLUVIAL DELTA"""@en ;
     schema:status astatus:stable ;
 .
 
-:biogenic_process
+:Biogenic_Process
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "A PROCESS grouping in which geomorphic UNITS are biogenic landforms (bioconstructions and build-ups) that can predominantly be attributed to the activity of organisms at or below highest astronomical tides."@en ;
@@ -4855,7 +4855,7 @@ Cf. FLUVIAL DELTA"""@en ;
     schema:status astatus:stable ;
 .
 
-:fluvial_setting
+:Fluvial_Setting
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "A SETTING in which geomorphic UNITS are primarily formed by fluvial processes (rivers) on modern or formerly subaerial portions of CONTINENTAL SHELVES (PHYSIOGRAPHY)."@en ;
@@ -4881,7 +4881,7 @@ Cf. FLUVIAL DELTA"""@en ;
 :structure
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :anthropogenic_process ;
+    skos:broader :Anthropogenic_Process ;
     skos:definition "All anthropogenic structures or units placed into the nearshore or marine environment (Watson et al., 2020)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -4905,7 +4905,7 @@ Cf. FLUVIAL DELTA"""@en ;
 :bedform
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :current_induced_process ;
+    skos:broader :Current-induced_Process ;
     skos:definition "Quasi-rhythmic, erosional or depositional units formed at the interface between sediment and a lower-density medium (e.g. water, air, ice or pyroclastic flows). BEDFORMS constitute the bulk of sediment transport (Robert, 2014) and scale to changing flow properties (e.g. Simons and Richardson, 1966). BEDFORMS often develop over BARFORMS in response to changing flow conditions (Simons and Richardson, 1966)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -4927,7 +4927,7 @@ Cf. FLUVIAL DELTA"""@en ;
     schema:status astatus:stable ;
 .
 
-:marine_setting
+:Marine_Setting
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "A SETTING in which geomorphic UNITS are primarily formed below lowest astronomical tide by marine processes (waves, tides, oceanic and density currents, cumulative MASS MOVEMENT PROCESSES – e.g. SUBMARINE CANYONS)."@en ;
@@ -4951,7 +4951,7 @@ Cf. FLUVIAL DELTA"""@en ;
     schema:status astatus:stable ;
 .
 
-:fluid_flow_process
+:Fluid_Flow_Process
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "A PROCESS grouping in which geomorphic UNITS are primarily formed by the migration of fluids (liquids and gasses) that are driven by pressure gradients."@en ;
@@ -4979,7 +4979,7 @@ Cf. FLUVIAL DELTA"""@en ;
 :rocky_coast
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :coastal_setting ;
+    skos:broader :Coastal_Setting ;
     skos:definition "Any length of coast that is predominantly characterised by rock (rather than sediment or vegetation)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -5006,7 +5006,7 @@ Cf. FLUVIAL DELTA"""@en ;
 :biogenic_reef
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :biogenic_process ;
+    skos:broader :Biogenic_Process ;
     skos:definition "In-situ, positive relief, persistent build-ups of primarily skeleton-supported framework (+ internal binding), that influence the local sedimentary environment (Klement, 1967), and supports (or supported) living communities during active accretion. Definition modified from a range of sources: (Cumings, 1932; Goudie, 2006; Harris and Baker, 2020; Klement, 1967; Lo Iacono et al., 2018).Cf. REEF (MARINE SETTING)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -5031,7 +5031,7 @@ Cf. FLUVIAL DELTA"""@en ;
     schema:status astatus:stable ;
 .
 
-:solid_earth_setting
+:Solid_Earth_Setting
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "A SETTING in which bedrock UNITS are related to the configuration of the bedrock geology itself; these UNITS represent a broad range of scales and lithologies and can be the product of tectonic deformation and volcanic activity. The SOLID EARTH SETTING excludes UNITS formed by other processes (e.g. FLUVIAL - SUBAERIAL CHANNELS incised into bedrock) and is not intended to span the spectrum of geological terminology that is traditionally applied during terrestrial geology mapping."@en ;
@@ -5058,7 +5058,7 @@ Cf. FLUVIAL DELTA"""@en ;
     schema:status astatus:stable ;
 .
 
-:coastal_setting
+:Coastal_Setting
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "A SETTING in which geomorphic UNITS are primarily formed by coastal processes (waves, tides, rivers and winds) on modern or former CONTINENTAL SHELVES (PHYSIOGRAPHY)."@en ;
@@ -5091,7 +5091,7 @@ Cf. FLUVIAL DELTA"""@en ;
     schema:status astatus:stable ;
 .
 
-:mass_movement_process
+:Mass_Movement_Process
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "A PROCESS grouping in which geomorphic UNITS are primarily formed by downslope gravity-driven transport."@en ;
@@ -5130,7 +5130,7 @@ Cf. FLUVIAL DELTA"""@en ;
     schema:status astatus:stable ;
 .
 
-:glacial_setting
+:Glacial_Setting
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:definition "A SETTING in which geomorphic UNITS are primarily formed by glacial, periglacial and proglacial processes on modern or previously glaciated coasts or on the CONTINENTAL SHELF (PHYSIOGRAPHY)."@en ;
@@ -5181,17 +5181,17 @@ cs:
 
 This is one of four linked ISGM-WG vocabularies. Definitions in this vocabulary are subject to intermittent review and versioning. Unless otherwise stated, all definitions are derived from the Part 2 Geomorphology report (Version 1.0) [https://doi.org/10.5281/zenodo.7804019](https://doi.org/10.5281/zenodo.7804019))."""@en ;
     skos:hasTopConcept
-        :anthropogenic_process ,
-        :biogenic_process ,
-        :coastal_setting ,
-        :current_induced_process ,
-        :fluid_flow_process ,
-        :fluvial_setting ,
-        :glacial_setting ,
-        :karst_process ,
-        :marine_setting ,
-        :mass_movement_process ,
-        :solid_earth_setting ;
+        :Anthropogenic_Process ,
+        :Biogenic_Process ,
+        :Coastal_Setting ,
+        :Current-induced_Process ,
+        :Fluid_Flow_Process ,
+        :Fluvial_Setting ,
+        :Glacial_Setting ,
+        :Karst_Process ,
+        :Marine_Setting ,
+        :Mass_Movement_Process ,
+        :Solid_Earth_Setting ;
     skos:historyNote "This vocabulary describes the glossary in Part 2 of the two-part seabed geomorphology classification scheme DOI: 10.5281/zenodo.7804019. This vocabulary was published in 2025 but following Phase Three of the Ocean Best Practice (OBP) approach, the concepts in 2026 have gone through revision and maintenance, which are reflected in this most recent update."@en ;
     skos:prefLabel "Seabed geomorphology - Part 2 Geomorphology"@en ;
     prov:qualifiedAttribution 
