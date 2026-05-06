@@ -777,7 +777,7 @@ Cf. FLUVIAL INCISED VALLEY"""@en ;
     schema:status astatus:stable ;
 .
 
-:crevasse_filling
+:crevasse-filling
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel "crevasse-squeeze ridge"@en ;
@@ -1496,7 +1496,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
 :glacitectonic_hill
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :hill_hole_pair ;
+    skos:broader :hill-hole_pair ;
     skos:definition "See definition of HILL-HOLE PAIR."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -1508,7 +1508,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
 :glacitectonic_hole
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :hill_hole_pair ;
+    skos:broader :hill-hole_pair ;
     skos:definition "See definition of HILL-HOLE PAIR."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -1619,7 +1619,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
 :hanging_valley
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :u_shaped_valley ;
+    skos:broader :u-shaped_valley ;
     skos:definition "A tributary glacial valley opening at a relatively high level on the steep side of a larger glacial-cut valley occupied, or formerly occupied, by a trunk glacier. The height drop between the floors of the two valleys is due to the greater erosive power of the trunk glacier (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -1725,7 +1725,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
     schema:status astatus:stable ;
 .
 
-:ice_contact_delta
+:ice-contact_delta
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader :Glacial_Setting ;
@@ -1737,7 +1737,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
     schema:status astatus:stable ;
 .
 
-:ice_proximal_fan
+:ice-proximal_fan
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel
@@ -3429,7 +3429,7 @@ Cf. RAISED BEACH"""@en ;
     schema:status astatus:stable ;
 .
 
-:sub_ice_shelf_keel_scour_mark
+:sub-ice_shelf_keel_scour_mark
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader :Glacial_Setting ;
@@ -3622,7 +3622,7 @@ Cf. "fan/apron" in Harris et al., (2014), cf. APRON (MORPHOLOGY)."""@en ;
     schema:status astatus:stable ;
 .
 
-:thrust_block_moraine
+:thrust-block_moraine
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader :Glacial_Setting ;
@@ -3706,7 +3706,7 @@ Cf. "fan/apron" in Harris et al., (2014), cf. APRON (MORPHOLOGY)."""@en ;
     schema:status astatus:stable ;
 .
 
-:trough_mouth_fan
+:trough-mouth_fan
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader :Glacial_Setting ;
@@ -3793,7 +3793,7 @@ Cf. "fan/apron" in Harris et al., (2014), cf. APRON (MORPHOLOGY)."""@en ;
 :valley_head
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :cross_shelf_trough ;
+    skos:broader :cross-shelf_trough ;
     skos:definition "A valley/trough head is the upper end of a valley/trough, formed at the upper part of a valley glacier or ice stream (Benn and Evans, 2010)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -3912,7 +3912,7 @@ Cf. "fan/apron" in Harris et al., (2014), cf. APRON (MORPHOLOGY)."""@en ;
     schema:status astatus:stable ;
 .
 
-:cross_shelf_trough
+:cross-shelf_trough
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader :Glacial_Setting ;
@@ -3952,7 +3952,7 @@ Cf. "fan/apron" in Harris et al., (2014), cf. APRON (MORPHOLOGY)."""@en ;
     schema:status astatus:stable ;
 .
 
-:u_shaped_valley
+:u-shaped_valley
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader :Glacial_Setting ;
@@ -4095,7 +4095,7 @@ Cf. COASTAL DELTA"""@en ;
     schema:status astatus:stable ;
 .
 
-:hill_hole_pair
+:hill-hole_pair
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:broader :Glacial_Setting ;
@@ -5139,8 +5139,8 @@ Cf. FLUVIAL DELTA"""@en ;
     skos:narrower
         :corrugation_ridges ,
         :corrugation_ridges_within_ploughmarks ,
-        :crevasse_filling ,
-        :cross_shelf_trough ,
+        :crevasse-filling ,
+        :cross-shelf_trough ,
         :cupola_hill ,
         :erratic ,
         :esker ,
@@ -5151,10 +5151,10 @@ Cf. FLUVIAL DELTA"""@en ;
         :glacigenic_debris_flow ,
         :glacitectonic_raft ,
         :grounding_zone_wedge ,
-        :hill_hole_pair ,
+        :hill-hole_pair ,
         :hummocky_terrain ,
-        :ice_contact_delta ,
-        :ice_proximal_fan ,
+        :ice-contact_delta ,
+        :ice-proximal_fan ,
         :iceberg_grounding_pit ,
         :iceberg_ploughmark ,
         :kettle_hole ,
@@ -5165,11 +5165,11 @@ Cf. FLUVIAL DELTA"""@en ;
         :rogen_moraine ,
         :sill ,
         :streamlined_landform ,
-        :sub_ice_shelf_keel_scour_mark ,
-        :thrust_block_moraine ,
-        :trough_mouth_fan ,
+        :sub-ice_shelf_keel_scour_mark ,
+        :thrust-block_moraine ,
+        :trough-mouth_fan ,
         :tunnel_valley ,
-        :u_shaped_valley ;
+        :u-shaped_valley ;
     skos:prefLabel "Glacial Setting"@en ;
     skos:topConceptOf cs: ;
     schema:status astatus:stable ;
