@@ -164,7 +164,7 @@ This vocabulary comprises one of four linked ISGM-WG vocabularies. """@en ;
                 [
                     a schema:Person ;
                     schema:email ""^^xsd:anyURI ;
-                    schema:name "Rachel Nanson" ;
+                    schema:name "Nanson, R." ;
                 ] ;
             prov:hadRole isoroles:pointOfContact ;
         ] ,
