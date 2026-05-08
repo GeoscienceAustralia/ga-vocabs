@@ -1,0 +1,10 @@
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+SELECT ?pl
+WHERE {
+    ?c
+        a skos:Concept ;
+        skos:prefLabel ?pl ;
+    .
+}
+ORDER BY ?pl

@@ -9,10 +9,6 @@ PREFIX schema: <https://schema.org/>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-:1.1
-    schema:name "1.1" ;
-.
-
 :aggregation
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
@@ -98,6 +94,66 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     skos:prefLabel "sediment trapped/bound"@en ;
     schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/basic_geomorphic_unit_BGU"^^xsd:anyURI ;
     schema:status astatus:experimental ;
+.
+
+:De_Geer_moraine
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :moraine ;
+    skos:definition "A moraine transverse to the direction of ice flow, formed of a succession of low, relatively narrow, regularly spaced ridges. It forms in shallow bodies of water at the glacier terminus (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016)."@en ;
+    skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "De Geer moraine"@en ;
+    schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/BGU-Type_BGU-T"^^xsd:anyURI ;
+    schema:status astatus:stable ;
+.
+
+:MDAC_chimney
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :MDAC ;
+    skos:definition "OUTCROPPING MDAC pillars that can reach several metres in height and ~1.5 m width. They consist of poorly cemented vertical pipe structures (Judd and Hovland, 2007)."@en ;
+    skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "MDAC chimney"@en ;
+    schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/BGU-Type_BGU-T"^^xsd:anyURI ;
+    schema:status astatus:stable ;
+.
+
+:MDAC_mounds
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :MDAC ;
+    skos:definition "OUTCROPPING MDAC structures in the form of large mounds or hillocks (O’Reilly et al., 2014)."@en ;
+    skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "MDAC mounds"@en ;
+    schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/BGU-Type_BGU-T"^^xsd:anyURI ;
+    schema:status astatus:stable ;
+.
+
+:MDAC_pavements
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :MDAC ;
+    skos:definition "OUTCROPPING MDAC structures in the form of low relief (tens of centimetres thick or less) pavements (Judd and Hovland, 2007)."@en ;
+    skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "MDAC pavements"@en ;
+    schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/BGU-Type_BGU-T"^^xsd:anyURI ;
+    schema:status astatus:stable ;
+.
+
+:MDAC_slab
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :MDAC ;
+    skos:definition "OUTCROPPING MDAC structures in the form of ‘high relief’ slabs (up to a few metres in thickness) (Judd and Hovland, 2007)."@en ;
+    skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "MDAC slab"@en ;
+    schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/BGU-Type_BGU-T"^^xsd:anyURI ;
+    schema:status astatus:stable ;
 .
 
 :abyssal_hill
@@ -197,6 +253,18 @@ Cf. "abyss - hills" in Harris et al., (2014)."""@en ;
     schema:status astatus:stable ;
 .
 
+:back-tilted_fault_block
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :tectonic_high ;
+    skos:definition "Section of tilted seabed between two FAULTS. The tilting may produce high relief and intervening basins (modified after Huggett, 2017)."@en ;
+    skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "back-tilted fault block"@en ;
+    schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/BGU-Type_BGU-T"^^xsd:anyURI ;
+    schema:status astatus:stable ;
+.
+
 :back_barrier
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
@@ -218,18 +286,6 @@ Cf. "abyss - hills" in Harris et al., (2014)."""@en ;
     skos:inScheme cs: ;
     skos:prefLabel "back reef"@en ;
     schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/basic_geomorphic_unit_BGU"^^xsd:anyURI ;
-    schema:status astatus:stable ;
-.
-
-:back-tilted_fault_block
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:broader :tectonic_high ;
-    skos:definition "Section of tilted seabed between two FAULTS. The tilting may produce high relief and intervening basins (modified after Huggett, 2017)."@en ;
-    skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
-    skos:inScheme cs: ;
-    skos:prefLabel "back-tilted fault block"@en ;
-    schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/BGU-Type_BGU-T"^^xsd:anyURI ;
     schema:status astatus:stable ;
 .
 
@@ -895,18 +951,6 @@ Cf. FLUVIAL INCISED VALLEY"""@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
     skos:prefLabel "cyclic step"@en ;
-    schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/BGU-Type_BGU-T"^^xsd:anyURI ;
-    schema:status astatus:stable ;
-.
-
-:De_Geer_moraine
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:broader :moraine ;
-    skos:definition "A moraine transverse to the direction of ice flow, formed of a succession of low, relatively narrow, regularly spaced ridges. It forms in shallow bodies of water at the glacier terminus (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016)."@en ;
-    skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
-    skos:inScheme cs: ;
-    skos:prefLabel "De Geer moraine"@en ;
     schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/BGU-Type_BGU-T"^^xsd:anyURI ;
     schema:status astatus:stable ;
 .
@@ -2115,54 +2159,6 @@ Cf. COASTAL PRO-DELTA"""@en ;
     skos:prefLabel "mat"@en ;
     schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/basic_geomorphic_unit_BGU"^^xsd:anyURI ;
     schema:status astatus:retired ;
-.
-
-:MDAC_chimney
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:broader :MDAC ;
-    skos:definition "OUTCROPPING MDAC pillars that can reach several metres in height and ~1.5 m width. They consist of poorly cemented vertical pipe structures (Judd and Hovland, 2007)."@en ;
-    skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
-    skos:inScheme cs: ;
-    skos:prefLabel "MDAC chimney"@en ;
-    schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/BGU-Type_BGU-T"^^xsd:anyURI ;
-    schema:status astatus:stable ;
-.
-
-:MDAC_mounds
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:broader :MDAC ;
-    skos:definition "OUTCROPPING MDAC structures in the form of large mounds or hillocks (O’Reilly et al., 2014)."@en ;
-    skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
-    skos:inScheme cs: ;
-    skos:prefLabel "MDAC mounds"@en ;
-    schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/BGU-Type_BGU-T"^^xsd:anyURI ;
-    schema:status astatus:stable ;
-.
-
-:MDAC_pavements
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:broader :MDAC ;
-    skos:definition "OUTCROPPING MDAC structures in the form of low relief (tens of centimetres thick or less) pavements (Judd and Hovland, 2007)."@en ;
-    skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
-    skos:inScheme cs: ;
-    skos:prefLabel "MDAC pavements"@en ;
-    schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/BGU-Type_BGU-T"^^xsd:anyURI ;
-    schema:status astatus:stable ;
-.
-
-:MDAC_slab
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:broader :MDAC ;
-    skos:definition "OUTCROPPING MDAC structures in the form of ‘high relief’ slabs (up to a few metres in thickness) (Judd and Hovland, 2007)."@en ;
-    skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
-    skos:inScheme cs: ;
-    skos:prefLabel "MDAC slab"@en ;
-    schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/BGU-Type_BGU-T"^^xsd:anyURI ;
-    schema:status astatus:stable ;
 .
 
 :medial_moraine
@@ -4279,6 +4275,21 @@ Cf. "canyon" in Harris et al., (2014)."""@en ;
     schema:status astatus:stable ;
 .
 
+:Karst_Process
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A PROCESS grouping in which geomorphic UNITS are primarily formed by the chemical dissolution of soluble rocks (carbonate, salt and sandstone)."@en ;
+    skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :carbonate_karst ,
+        :salt_karst ,
+        :sandstone_karst ;
+    skos:prefLabel "Karst Process"@en ;
+    skos:topConceptOf cs: ;
+    schema:status astatus:stable ;
+.
+
 :archaeological
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
@@ -4341,21 +4352,6 @@ Cf. FLUVIAL SUBAERIAL VALLEY"""@en ;
         :ria ;
     skos:prefLabel "Coastal subaerial valley"@en ;
     schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/basic_geomorphic_unit_BGU"^^xsd:anyURI ;
-    schema:status astatus:stable ;
-.
-
-:Karst_Process
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:definition "A PROCESS grouping in which geomorphic UNITS are primarily formed by the chemical dissolution of soluble rocks (carbonate, salt and sandstone)."@en ;
-    skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
-    skos:inScheme cs: ;
-    skos:narrower
-        :carbonate_karst ,
-        :salt_karst ,
-        :sandstone_karst ;
-    skos:prefLabel "Karst Process"@en ;
-    skos:topConceptOf cs: ;
     schema:status astatus:stable ;
 .
 
@@ -4435,6 +4431,23 @@ Cf. FLUVIAL SUBAERIAL VALLEY"""@en ;
         :shield_volcano ,
         :stratovolcano ;
     skos:prefLabel "volcano (island or submarine)"@en ;
+    schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/basic_geomorphic_unit_BGU"^^xsd:anyURI ;
+    schema:status astatus:stable ;
+.
+
+:MDAC
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Fluid_Flow_Process ;
+    skos:definition "Exposed authigenic carbonate structures, mostly in the form of hardground with positive relief, associated with the seepage of methane rich fluids as a result of the anaerobic methane oxidation coupled with sulphate reduction by associations of archaea and bacteria (Hovland et al., 1987)."@en ;
+    skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :MDAC_chimney ,
+        :MDAC_mounds ,
+        :MDAC_pavements ,
+        :MDAC_slab ;
+    skos:prefLabel "outcropping methane-derived authigenic carbonate (MDAC)"@en ;
     schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/basic_geomorphic_unit_BGU"^^xsd:anyURI ;
     schema:status astatus:stable ;
 .
@@ -4521,23 +4534,6 @@ Cf. FLUVIAL SUBAERIAL VALLEY"""@en ;
         :rock_avalanche ,
         :turbidity_current ;
     skos:prefLabel "flow"@en ;
-    schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/basic_geomorphic_unit_BGU"^^xsd:anyURI ;
-    schema:status astatus:stable ;
-.
-
-:MDAC
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:broader :Fluid_Flow_Process ;
-    skos:definition "Exposed authigenic carbonate structures, mostly in the form of hardground with positive relief, associated with the seepage of methane rich fluids as a result of the anaerobic methane oxidation coupled with sulphate reduction by associations of archaea and bacteria (Hovland et al., 1987)."@en ;
-    skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
-    skos:inScheme cs: ;
-    skos:narrower
-        :MDAC_chimney ,
-        :MDAC_mounds ,
-        :MDAC_pavements ,
-        :MDAC_slab ;
-    skos:prefLabel "outcropping methane-derived authigenic carbonate (MDAC)"@en ;
     schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/basic_geomorphic_unit_BGU"^^xsd:anyURI ;
     schema:status astatus:stable ;
 .
@@ -4686,6 +4682,25 @@ Cf. FLUVIAL SUBAERIAL VALLEY"""@en ;
     schema:status astatus:stable ;
 .
 
+:Current-induced_Process
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A PROCESS grouping that includes a broad suite of geomorphic UNITS that are primarily formed by air and water currents by modern or former processes. Where the formative process is known (e.g. MARINE, ANTHROPOGENIC) these units can be reclassified into their formative SETTING or PROCESS (e.g. a CURRENT-INDUCED DUNE that is submerged on the continental shelf can be reclassed as a COASTAL DUNE)."@en ;
+    skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :barform ,
+        :bedform ,
+        :chute_channel ,
+        :current-induced_channel ,
+        :knickpoint ,
+        :oxbow ,
+        :plunge_pool ;
+    skos:prefLabel "Current-induced Process"@en ;
+    skos:topConceptOf cs: ;
+    schema:status astatus:stable ;
+.
+
 :coastal_delta
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
@@ -4704,25 +4719,6 @@ Cf. FLUVIAL DELTA"""@en ;
         :upper ;
     skos:prefLabel "Coastal delta"@en ;
     schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/basic_geomorphic_unit_BGU"^^xsd:anyURI ;
-    schema:status astatus:stable ;
-.
-
-:Current-induced_Process
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:definition "A PROCESS grouping that includes a broad suite of geomorphic UNITS that are primarily formed by air and water currents by modern or former processes. Where the formative process is known (e.g. MARINE, ANTHROPOGENIC) these units can be reclassified into their formative SETTING or PROCESS (e.g. a CURRENT-INDUCED DUNE that is submerged on the continental shelf can be reclassed as a COASTAL DUNE)."@en ;
-    skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
-    skos:inScheme cs: ;
-    skos:narrower
-        :barform ,
-        :bedform ,
-        :chute_channel ,
-        :current-induced_channel ,
-        :knickpoint ,
-        :oxbow ,
-        :plunge_pool ;
-    skos:prefLabel "Current-induced Process"@en ;
-    skos:topConceptOf cs: ;
     schema:status astatus:stable ;
 .
 
@@ -4808,30 +4804,6 @@ Cf. FLUVIAL DELTA"""@en ;
     schema:status astatus:stable ;
 .
 
-:barform
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:broader :Current-induced_Process ;
-    skos:definition "Tend to be larger than BEDFORMS (e.g. Venditti, 2013), are often forced by macro-scale topography (e.g. CHANNELS - POINTBAR; HEADLANDS - BANNER), and develop over longer periods of time (e.g. Dury, 1970)."@en ;
-    skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
-    skos:inScheme cs: ;
-    skos:narrower
-        :bank_attached ,
-        :bench ,
-        :counterpoint_bar ,
-        :crevasse_splay ,
-        :ledge ,
-        :levee ,
-        :mid-channel_bar ,
-        :mouthbar ,
-        :pointbar ,
-        :riffle_and_pool ,
-        :scroll_bar ;
-    skos:prefLabel "barform"@en ;
-    schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/basic_geomorphic_unit_BGU"^^xsd:anyURI ;
-    schema:status astatus:stable ;
-.
-
 :Biogenic_Process
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
@@ -4878,6 +4850,30 @@ Cf. FLUVIAL DELTA"""@en ;
     schema:status astatus:stable ;
 .
 
+:barform
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Current-induced_Process ;
+    skos:definition "Tend to be larger than BEDFORMS (e.g. Venditti, 2013), are often forced by macro-scale topography (e.g. CHANNELS - POINTBAR; HEADLANDS - BANNER), and develop over longer periods of time (e.g. Dury, 1970)."@en ;
+    skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :bank_attached ,
+        :bench ,
+        :counterpoint_bar ,
+        :crevasse_splay ,
+        :ledge ,
+        :levee ,
+        :mid-channel_bar ,
+        :mouthbar ,
+        :pointbar ,
+        :riffle_and_pool ,
+        :scroll_bar ;
+    skos:prefLabel "barform"@en ;
+    schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/basic_geomorphic_unit_BGU"^^xsd:anyURI ;
+    schema:status astatus:stable ;
+.
+
 :structure
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
@@ -4898,31 +4894,6 @@ Cf. FLUVIAL DELTA"""@en ;
         :rubbish_discharge ,
         :wreck ;
     skos:prefLabel "structure"@en ;
-    schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/basic_geomorphic_unit_BGU"^^xsd:anyURI ;
-    schema:status astatus:stable ;
-.
-
-:bedform
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:broader :Current-induced_Process ;
-    skos:definition "Quasi-rhythmic, erosional or depositional units formed at the interface between sediment and a lower-density medium (e.g. water, air, ice or pyroclastic flows). BEDFORMS constitute the bulk of sediment transport (Robert, 2014) and scale to changing flow properties (e.g. Simons and Richardson, 1966). BEDFORMS often develop over BARFORMS in response to changing flow conditions (Simons and Richardson, 1966)."@en ;
-    skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
-    skos:inScheme cs: ;
-    skos:narrower
-        :current-induced_crag_and_tail ,
-        :current-induced_furrow ,
-        :cyclic_step ,
-        :dune ,
-        :lag ,
-        :lineation ,
-        :obstacle_and_comet_scour ,
-        :plane_bed ,
-        :ripple ,
-        :scour ,
-        :sediment_ribbon ,
-        :sediment_streak ;
-    skos:prefLabel "bedform"@en ;
     schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/basic_geomorphic_unit_BGU"^^xsd:anyURI ;
     schema:status astatus:stable ;
 .
@@ -4951,6 +4922,31 @@ Cf. FLUVIAL DELTA"""@en ;
     schema:status astatus:stable ;
 .
 
+:bedform
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :Current-induced_Process ;
+    skos:definition "Quasi-rhythmic, erosional or depositional units formed at the interface between sediment and a lower-density medium (e.g. water, air, ice or pyroclastic flows). BEDFORMS constitute the bulk of sediment transport (Robert, 2014) and scale to changing flow properties (e.g. Simons and Richardson, 1966). BEDFORMS often develop over BARFORMS in response to changing flow conditions (Simons and Richardson, 1966)."@en ;
+    skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :current-induced_crag_and_tail ,
+        :current-induced_furrow ,
+        :cyclic_step ,
+        :dune ,
+        :lag ,
+        :lineation ,
+        :obstacle_and_comet_scour ,
+        :plane_bed ,
+        :ripple ,
+        :scour ,
+        :sediment_ribbon ,
+        :sediment_streak ;
+    skos:prefLabel "bedform"@en ;
+    schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/basic_geomorphic_unit_BGU"^^xsd:anyURI ;
+    schema:status astatus:stable ;
+.
+
 :Fluid_Flow_Process
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
@@ -4958,12 +4954,12 @@ Cf. FLUVIAL DELTA"""@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
     skos:narrower
+        :MDAC ,
         :blow-out_crater ,
         :caldera ,
         :gryphon ,
         :hydrothermal_mound ,
         :hydrothermal_vent ,
-        :MDAC ,
         :moat ,
         :mud_volcano ,
         :mudflow_mud-volcano ,
@@ -5003,6 +4999,33 @@ Cf. FLUVIAL DELTA"""@en ;
     schema:status astatus:stable ;
 .
 
+:Solid_Earth_Setting
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:definition "A SETTING in which bedrock UNITS are related to the configuration of the bedrock geology itself; these UNITS represent a broad range of scales and lithologies and can be the product of tectonic deformation and volcanic activity. The SOLID EARTH SETTING excludes UNITS formed by other processes (e.g. FLUVIAL - SUBAERIAL CHANNELS incised into bedrock) and is not intended to span the spectrum of geological terminology that is traditionally applied during terrestrial geology mapping."@en ;
+    skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
+    skos:inScheme cs: ;
+    skos:narrower
+        :abyssal_hill ,
+        :axial_volcanic_ridge ,
+        :bedding_ridge ,
+        :bedrock_outcrop_undef ,
+        :dip_slope ,
+        :guyot ,
+        :impact_crater ,
+        :magmatic_outcrop ,
+        :oceanic_core_complex ,
+        :scarp_slope ,
+        :tectonic_depression ,
+        :tectonic_escarpment ,
+        :tectonic_high ,
+        :tectonic_lineament ,
+        :volcano_island ;
+    skos:prefLabel "Solid Earth Setting"@en ;
+    skos:topConceptOf cs: ;
+    schema:status astatus:stable ;
+.
+
 :biogenic_reef
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
@@ -5028,33 +5051,6 @@ Cf. FLUVIAL DELTA"""@en ;
         :platform_reef ;
     skos:prefLabel "biogenic reef"@en ;
     schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/basic_geomorphic_unit_BGU"^^xsd:anyURI ;
-    schema:status astatus:stable ;
-.
-
-:Solid_Earth_Setting
-    a skos:Concept ;
-    rdfs:isDefinedBy cs: ;
-    skos:definition "A SETTING in which bedrock UNITS are related to the configuration of the bedrock geology itself; these UNITS represent a broad range of scales and lithologies and can be the product of tectonic deformation and volcanic activity. The SOLID EARTH SETTING excludes UNITS formed by other processes (e.g. FLUVIAL - SUBAERIAL CHANNELS incised into bedrock) and is not intended to span the spectrum of geological terminology that is traditionally applied during terrestrial geology mapping."@en ;
-    skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
-    skos:inScheme cs: ;
-    skos:narrower
-        :abyssal_hill ,
-        :axial_volcanic_ridge ,
-        :bedding_ridge ,
-        :bedrock_outcrop_undef ,
-        :dip_slope ,
-        :guyot ,
-        :impact_crater ,
-        :magmatic_outcrop ,
-        :oceanic_core_complex ,
-        :scarp_slope ,
-        :tectonic_depression ,
-        :tectonic_escarpment ,
-        :tectonic_high ,
-        :tectonic_lineament ,
-        :volcano_island ;
-    skos:prefLabel "Solid Earth Setting"@en ;
-    skos:topConceptOf cs: ;
     schema:status astatus:stable ;
 .
 
@@ -5192,7 +5188,9 @@ This is one of four linked ISGM-WG vocabularies. Definitions in this vocabulary 
         :Marine_Setting ,
         :Mass_Movement_Process ,
         :Solid_Earth_Setting ;
-    skos:historyNote "This vocabulary describes the glossary in Part 2 of the two-part seabed geomorphology classification scheme DOI: 10.5281/zenodo.7804019. This vocabulary was published in 2025 but following Phase Three of the Ocean Best Practice (OBP) approach, the concepts in 2026 have gone through revision and maintenance, which are reflected in this most recent update."@en ;
+    skos:historyNote """2026-05: Removed BGU and BGU-T annotations from Concepts and instead added citation links for them.
+
+This vocabulary describes the glossary in Part 2 of the two-part seabed geomorphology classification scheme DOI: 10.5281/zenodo.7804019. This vocabulary was published in 2025 but following Phase Three of the Ocean Best Practice (OBP) approach, the concepts in 2026 have gone through revision and maintenance, which are reflected in this most recent update."""@en ;
     skos:prefLabel "Seabed geomorphology - Part 2 Geomorphology"@en ;
     prov:qualifiedAttribution 
         [
@@ -5224,7 +5222,7 @@ This is one of four linked ISGM-WG vocabularies. Definitions in this vocabulary 
         ] ;
     schema:creator <https://linked.data.gov.au/org/isgm-wg> ;
     schema:dateCreated "2024-06-17"^^xsd:date ;
-    schema:dateModified "2026-05-01"^^xsd:date ;
+    schema:dateModified "2026-05-08"^^xsd:date ;
     schema:identifier "https://pid.geoscience.gov.au/dataset/ga/150006"^^gavoc:eCatID ;
     schema:keywords <https://pid.geoscience.gov.au/def/voc/ga/DataThemes/geomorphology> ;
     schema:publisher <https://linked.data.gov.au/org/ga> ;

@@ -332,7 +332,7 @@ This is one of four linked ISGM-WG vocabularies. Definitions in this vocabulary 
                 [
                     a schema:Person ;
                     schema:email ""^^xsd:anyURI ;
-                    schema:name "Rachel Nanson" ;
+                    schema:name "Nanson, R." ;
                 ] ;
             prov:hadRole isoroles:pointOfContact ;
         ] ,
