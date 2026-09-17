@@ -55,9 +55,11 @@ The validation workflows triggers on the creation of a PR to the _master_ or _de
 The push workflows trigger on merger into _master_ or _develop_ branches uses the Prez Manifest `sync` command which automatically detects what files have changes and pushes only them.
 
 > [!TIP]
-> PrezManifest's `sync` command detects changes only based on a resources `schema:dateModified` and `schema:version` predicate values. If there is a problem with change detection, use the [kurra toolkit's GSP commands](https://github.com/kurrawong/kurra) which Prez Manifest uses under-the-hood - to manually override data on the server with files, e.g. `kurra db gsp put {FILE} -g {GRAPH-IRI} {SPARQL-ENDPOINT}`
+> **Manually fixing sync issues**
+> 
+> PrezManifest's `sync` command detects changes only based on a resources `schema:dateModified` and `schema:version` predicate values. If there is a problem with change detection, use the [kurra toolkit's GSP commands](https://github.com/kurrawong/kurra) which Prez Manifest uses under-the-hood, to manually override data on the server with files, e.g. `kurra db gsp put {FILE} -g {GRAPH-IRI} {SPARQL-ENDPOINT}`.
 >
-> Be sure the clear the Prez instance's cache after 'manual' changes like this too: `curl {PREZ-API-ROOT}/purge-tbox-cache`
+> Be sure also to clear the Prez instance's cache after 'manual' changes like this: `curl {PREZ-API-ROOT}/purge-tbox-cache`
 
 ## License  
 
