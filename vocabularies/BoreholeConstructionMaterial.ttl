@@ -230,6 +230,6 @@ cs:
     schema:keywords <https://pid.geoscience.gov.au/def/voc/ga/DataThemes/sample_acquisition_and_management> ;
     schema:provenance "Geoscience Australia Borehole Material database table (BOREHOLE.LU_CONSTRUCTION_MATERIALS)"@en ;
     schema:publisher <https://linked.data.gov.au/org/ga> ;
-    schema:status astatus:experimental ;
+    schema:status astatus:stable ;
     schema:version "1" ;
 .

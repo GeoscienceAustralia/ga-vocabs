@@ -129,6 +129,6 @@ cs:
     schema:keywords <https://pid.geoscience.gov.au/def/voc/ga/DataThemes/data_management> ;
     schema:provenance "Geoscience Australia Confidence Level (VOCABULARY.CONFIDENCE"@en ;
     schema:publisher <https://linked.data.gov.au/org/ga> ;
-    schema:status astatus:experimental ;
+    schema:status astatus:stable ;
     schema:version "1" ;
 .

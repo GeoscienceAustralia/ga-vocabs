@@ -68,6 +68,6 @@ cs:
         <https://pid.geoscience.gov.au/def/voc/ga/DataThemes/minerals> ,
         <https://pid.geoscience.gov.au/def/voc/ga/DataThemes/geology> ;
     schema:publisher <https://linked.data.gov.au/org/ga> ;
-    schema:status astatus:experimental ;
+    schema:status astatus:stable ;
     schema:version "1" ;
 .

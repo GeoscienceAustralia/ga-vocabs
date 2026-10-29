@@ -1,3 +1,4 @@
+PREFIX astatus: <https://linked.data.gov.au/def/reg-statuses/>
 PREFIX cs: <http://qudt.org/community/ga/voc>
 PREFIX gavoc: <https://pid.geoscience.gov.au/def/voc/ga/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
@@ -86,4 +87,5 @@ cs:
     schema:identifier "https://pid.geoscience.gov.au/dataset/ga/150902"^^gavoc:eCatID ;
     schema:keywords <https://pid.geoscience.gov.au/def/voc/ga/DataThemes/data_management> ;
     schema:publisher <https://linked.data.gov.au/org/ga> ;
+    schema:status astatus:stable ;
 .

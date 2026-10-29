@@ -77,6 +77,6 @@ cs:
     schema:keywords <https://pid.geoscience.gov.au/def/voc/ga/DataThemes/data_management> ;
     schema:provenance "Geoscience Australia Date Qualifer Terms (BOREHOLE.LU_DATE_QUALIFIERS)" ;
     schema:publisher <https://linked.data.gov.au/org/ga> ;
-    schema:status astatus:experimental ;
+    schema:status astatus:stable ;
     schema:version "1" ;
 .

@@ -87,6 +87,6 @@ cs:
     schema:keywords <https://pid.geoscience.gov.au/def/voc/ga/DataThemes/sample_acquisition_and_management> ;
     schema:provenance "Geoscience Australia Borehole Construction Type database table (BOREHOLE. LU_CONSTRUCTION_TYPE)"@en ;
     schema:publisher <https://linked.data.gov.au/org/ga> ;
-    schema:status astatus:experimental ;
+    schema:status astatus:stable ;
     schema:version "1" ;
 .
