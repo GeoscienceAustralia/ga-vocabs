@@ -302,10 +302,7 @@ Cf. MORPHOMETRICS."""@en ;
 
 cs:
     a skos:ConceptScheme ;
-#    skos:definition """A vocabulary of general terms used in the two-part marine and coastal geomorphology classification scheme (International Seabed Geomorphology Mapping Working Group - ISGM-WG: Part 1 Morphology: [https://doi.org/10.5281/zenodo.4071940](https://doi.org/10.5281/zenodo.4071940); Part 2 Geomorphology: [https://doi.org/10.1016/j.earscirev.2026.105439](https://doi.org/10.1016/j.earscirev.2026.105439)).
-
-# This is one of four linked ISGM-WG vocabularies, see also IGSN [Part 1 Morphology](https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology), IGSM [Part 2 Geomorphology](https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings) and  ISGM [Physiography](https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyPhysiography). Definitions in this vocabulary are subject to intermittent review and versioning."""@en ;
-    skos:definiton """A vocabulary of general terms used in the two-part marine and coastal geomorphology classification scheme (International Seabed Geomorphology Mapping Working Group (ISGM): Part 1 Morphology; Part 2 Geomorphology).
+    skos:definition """A vocabulary of general terms used in the two-part marine and coastal geomorphology classification scheme (International Seabed Geomorphology Mapping Working Group (ISGM): Part 1 Morphology; Part 2 Geomorphology).
 
 This is one of four linked ISGM vocabularies: see also Seabed geomorphology – [Part 1 Morphology (ISGM)](https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology), Seabed geomorphology – [Part 2 Geomorphology (ISGM)](https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings) and Seabed geomorphology – [Physiography (ISGM)](https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyPhysiography).
 
