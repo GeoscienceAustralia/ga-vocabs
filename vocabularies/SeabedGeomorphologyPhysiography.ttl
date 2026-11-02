@@ -131,9 +131,11 @@ Cf. "trench" in Harris et al., (2014)."""@en ;
 
 cs:
     a skos:ConceptScheme ;
-    skos:definition """A vocabulary of physiographic terms used by Harris et al (2014: [https://doi.org/10.1016/j.margeo.2014.01.011](https://doi.org/10.1016/j.margeo.2014.01.011)) to map the macroscale shape and geology of the seabed. Many of these terms have been retained by the International Seabed Geomorphology Mapping Working Group (ISGM-WG)  in this PHYISOGRAPHY vocabulary, and some have been shifted into either Part 1 Morphology or Part 2 Geomorphology vocabularies, as indicated (Part 1 Morphology: [https://doi.org/10.5281/zenodo.4071940](https://doi.org/10.5281/zenodo.4071940); Part 2 Geomorphology: [https://doi.org/10.1016/j.earscirev.2026.105439](https://doi.org/10.1016/j.earscirev.2026.105439)).
+    skos:definition """A vocabulary of physiographic terms used to describe and map the macroscale physical expression of the seafloor. These terms are primarily derived from the [global seafloor geomorphology map of Harris et al. (2014)](https://doi.org/10.1016/j.margeo.2014.01.011), which did not explicitly separate physiographic and morphological terms. The International Seabed Geomorphology Mapping Working Group (ISGM) classifies the terms in this vocabulary as physiographic terms, following Nanson et al. (2026). An updated global seafloor map applying the ISGM classification is presented by [Nanson et al. (2026)](https://doi.org/10.1016/j.earscirev.2026.105439).
 
-This vocabulary comprises one of four linked ISGM-WG vocabularies, see also IGSN [Part 1 Morphology](https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology), IGSM [Part 2 Geomorphology](https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings), and ISGM [Method terms](https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral). """@en ;
+This is one of four linked ISGM vocabularies: see also Seabed geomorphology – [Part 1 Morphology (ISGM)](https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology), Seabed geomorphology – [Part 2 Geomorphology (ISGM)](https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings) and Seabed geomorphology – [Method terms (ISGM)](https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral).
+
+Definitions in this vocabulary are subject to intermittent review and versioning. Terms shown in uppercase refer to defined concepts within the ISGM vocabularies. """@en ;
     skos:hasTopConcept
         <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyPhysiography//continental_slope> ,
         <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyPhysiography//continetal_rise> ,
@@ -148,7 +150,9 @@ This vocabulary comprises one of four linked ISGM-WG vocabularies, see also IGSN
         :mid-ocean_ridge ,
         :oceanic_trench ;
     skos:historyNote "This vocabulary describes the glossary in Part 2 of the two-part seabed geomorphology classification scheme DOI: 10.5281/zenodo.7804019"@en ;
-    skos:prefLabel "Seabed geomorphology - Physiography"@en ;
+    skos:historyNote "2026-11: The classification hierarchy of some Part 2 Geomorphology and Physiography terms has changed since the Part 2 Geomorphology report. [Nanson et al. (2026)](https://doi.org/10.1016/j.earscirev.2026.105439) provides the current classification decision trees."@en ;
+#    skos:prefLabel "Seabed geomorphology - Physiography"@en ;
+    skos:prefLabel "Seabed geomorphology - Physiography (ISGM)"@en ;
     prov:qualifiedAttribution 
         [
             prov:agent
@@ -179,7 +183,7 @@ This vocabulary comprises one of four linked ISGM-WG vocabularies, see also IGSN
         ] ;
     schema:creator <https://linked.data.gov.au/org/isgm-wg> ;
     schema:dateCreated "2024-05-22"^^xsd:date ;
-    schema:dateModified "2026-10-30"^^xsd:date ;
+    schema:dateModified "2026-11-02"^^xsd:date ;
     schema:identifier "https://pid.geoscience.gov.au/dataset/ga/150006"^^gavoc:eCatID ;
     schema:keywords <https://pid.geoscience.gov.au/def/voc/ga/DataThemes/geomorphology> ;
     schema:publisher <https://linked.data.gov.au/org/ga> ;

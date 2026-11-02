@@ -161,7 +161,8 @@ Cf. MORPHOMETRICS."""@en ;
 :physiography
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:definition "Terms that are used to describe the macroscale physical expression of the seafloor (e.g. CONTINENTAL SHELF). Physiographic terms were primarily derived from Harris et al (2014) global seafloor geomorphology map, however, their complete list of terms have been split between PHYSIOGRAPHIC, Part 1 (MORPHOLOGY) and Part 2 (GEOMORPHOLOGY) vocabularies. See also the [Physiography vocabulary](https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyPhysiography)."@en ;
+#    skos:definition "Terms that are used to describe the macroscale physical expression of the seafloor (e.g. CONTINENTAL SHELF). Physiographic terms were primarily derived from Harris et al (2014) global seafloor geomorphology map, however, their complete list of terms have been split between PHYSIOGRAPHIC, Part 1 (MORPHOLOGY) and Part 2 (GEOMORPHOLOGY) vocabularies. See also the [Physiography vocabulary](https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyPhysiography)."@en ;
+    skos:definition "Terms used to describe the macroscale physical expression of the seafloor (e.g. CONTINENTAL SHELF). The International Seabed Geomorphology Mapping Working Group (ISGM) classifies the terms in the Seabed geomorphology – [Physiography (ISGM) vocabulary](https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyPhysiography) as physiographic terms, following Nanson et al. (2026). Terms shown in uppercase refer to defined concepts within the ISGM vocabularies."@en ;
     skos:inScheme cs: ;
     skos:prefLabel "physiography"@en ;
     skos:topConceptOf cs: ;
@@ -301,9 +302,11 @@ Cf. MORPHOMETRICS."""@en ;
 
 cs:
     a skos:ConceptScheme ;
-    skos:definition """A vocabulary of general terms used in the two-part marine and coastal geomorphology classification scheme (International Seabed Geomorphology Mapping Working Group - ISGM-WG: Part 1 Morphology: [https://doi.org/10.5281/zenodo.4071940](https://doi.org/10.5281/zenodo.4071940); Part 2 Geomorphology: [https://doi.org/10.1016/j.earscirev.2026.105439](https://doi.org/10.1016/j.earscirev.2026.105439)).
+    skos:definition """A vocabulary of general terms used in the two-part marine and coastal geomorphology classification scheme (International Seabed Geomorphology Mapping Working Group (ISGM): Part 1 Morphology; Part 2 Geomorphology).
 
-This is one of four linked ISGM-WG vocabularies, see also IGSN [Part 1 Morphology](https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology), IGSM [Part 2 Geomorphology](https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings) and  ISGM [Physiography](https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyPhysiography). Definitions in this vocabulary are subject to intermittent review and versioning."""@en ;
+This is one of four linked ISGM vocabularies: see also Seabed geomorphology – [Part 1 Morphology (ISGM)](https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyMorphology), Seabed geomorphology – [Part 2 Geomorphology (ISGM)](https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologySettings) and Seabed geomorphology – [Physiography (ISGM)](https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyPhysiography).
+
+Definitions in this vocabulary are subject to intermittent review and versioning. Terms shown in uppercase refer to defined concepts within the ISGM vocabularies. """@en ;
     skos:hasTopConcept
         :BGU-Type_BGU-T ,
         :BGU-subType_BGU-sT ,
@@ -325,7 +328,8 @@ This is one of four linked ISGM-WG vocabularies, see also IGSN [Part 1 Morpholog
         :setting ,
         :unit ;
     skos:historyNote "This vocabulary describes the glossary in Part 2 of the two-part seabed geomorphology classification scheme DOI: 10.5281/zenodo.7804019"@en ;
-    skos:prefLabel "Seabed geomorphology - Method Terms"@en ;
+    skos:historyNote "2026-11: The classification hierarchy of some Part 2 Geomorphology and Physiography terms has changed since the Part 2 Geomorphology report. [Nanson et al. (2026)](https://doi.org/10.1016/j.earscirev.2026.105439) provides the current classification decision trees."@en ;
+    skos:prefLabel "Seabed geomorphology - Method Terms (ISGM)"@en ;
     prov:qualifiedAttribution 
         [
             prov:agent
@@ -356,7 +360,7 @@ This is one of four linked ISGM-WG vocabularies, see also IGSN [Part 1 Morpholog
         ] ;
     schema:creator <https://linked.data.gov.au/org/isgm-wg> ;
     schema:dateCreated "2024-05-22"^^xsd:date ;
-    schema:dateModified "2026-10-29"^^xsd:date ;
+    schema:dateModified "2026-11-02"^^xsd:date ;
     schema:identifier "https://pid.geoscience.gov.au/dataset/ga/150006"^^gavoc:eCatID ;
     schema:keywords <https://pid.geoscience.gov.au/def/voc/ga/DataThemes/geomorphology> ;
     schema:publisher <https://linked.data.gov.au/org/ga> ;
