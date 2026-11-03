@@ -469,9 +469,8 @@ Definitions in this vocabulary are subject to intermittent review and versioning
         :trench ,
         :trough ,
         :valley ;
-    skos:historyNote """2025-08 1.1: Images added\n
-
-This vocabulary describes the glossary in Part 1 of the two-part seabed geomorphology classification scheme. [Dove et al. (2020)](https://doi.org/10.5281/zenodo.4075248)""" ;
+    skos:historyNote """2025-08 1.1: Images added""" ;
+    skos:historyNote """This vocabulary describes the glossary in Part 1 of the two-part seabed geomorphology classification scheme. [Dove et al. (2020)](https://doi.org/10.5281/zenodo.4075248)""" ;
     skos:historyNote "2026-11: The classification hierarchy of some Part 2 Geomorphology and Physiography terms has changed since the Part 2 Geomorphology report [Nanson et al, 2023](https://doi.org/10.5281/zenodo.7804019). [Nanson et al. (2026)](https://doi.org/10.1016/j.earscirev.2026.105439) provides the current classification decision trees."@en ;
     skos:prefLabel "Seabed geomorphology - Part 1 Morphology (ISGM)"@en ;
     prov:qualifiedAttribution 
