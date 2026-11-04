@@ -137,8 +137,8 @@ This is one of four linked ISGM vocabularies: see also Seabed geomorphology – 
 
 Definitions in this vocabulary are subject to intermittent review and versioning. Terms shown in uppercase refer to defined concepts within the ISGM vocabularies. """@en ;
     skos:hasTopConcept
-        <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyPhysiography//continental_rise> ,
-        <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyPhysiography//continental_slope> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyPhysiography/continental_rise> ,
+        <https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyPhysiography/continental_slope> ,
         :abyssal_plain ,
         :accretionary_prism ,
         :axial_high ,
