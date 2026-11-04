@@ -15,10 +15,10 @@ jobs:
           ref: ${{ github.head_ref }}
       - name: Verify checked-out branch
         run: echo "Checked out branch - ${{ github.head_ref }}"
-      - name: Install UV and Prezmanifest
+      - name: Install UV and KGM
         run: |
           curl -LsSf https://astral.sh/uv/install.sh | sh
-          uv tool install prezmanifest
-      - name: Validate all vocabs with Prezmanifest
+          uv tool install kgm
+      - name: Validate all vocabs with KGM
         run: |
-          pm validate manifest.ttl
+          kgm validate manifest.ttl
