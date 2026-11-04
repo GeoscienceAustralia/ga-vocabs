@@ -21,4 +21,4 @@ jobs:
           uv tool install prezmanifest
       - name: Validate all vocabs with Prezmanifest
         run: |
-          pm validate manifest.ttl
+          kgm validate manifest.ttl
