@@ -102,7 +102,6 @@ Cf. "abyss - hills" in Harris et al., (2014)."""@en ;
     skos:historyNote "2026-05: This Concept was added in 2026 with status Experimental following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
     skos:prefLabel "aggregation"@en ;
-    skos:topConceptOf cs: ;
     schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/basic_geomorphic_unit_BGU"^^xsd:anyURI ;
     schema:status astatus:experimental ;
 .
@@ -115,7 +114,6 @@ Cf. "abyss - hills" in Harris et al., (2014)."""@en ;
     skos:historyNote "2026-05: This Concept was added in 2026 with status Experimental following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
     skos:prefLabel "alluvial"@en ;
-    skos:topConceptOf cs: ;
     schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/BGU-Type_BGU-T"^^xsd:anyURI ;
     schema:status astatus:experimental ;
 .
@@ -596,7 +594,6 @@ Cf. "abyss - hills" in Harris et al., (2014)."""@en ;
         :tidal_delta ,
         :upper ;
     skos:prefLabel "Coastal delta lobe"@en ;
-    skos:topConceptOf cs: ;
     schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/basic_geomorphic_unit_BGU"^^xsd:anyURI ;
     schema:status astatus:experimental ;
 .
@@ -617,7 +614,6 @@ Cf. "abyss - hills" in Harris et al., (2014)."""@en ;
         :tidal_delta ,
         :upper ;
     skos:prefLabel "Coastal fan delta"@en ;
-    skos:topConceptOf cs: ;
     schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/basic_geomorphic_unit_BGU"^^xsd:anyURI ;
     schema:status astatus:experimental ;
 .
@@ -1309,7 +1305,6 @@ Cf. COASTAL DELTA-FRONT"""@en ;
     skos:historyNote "2026-05: This Concept was added in 2026 with status Experimental following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
     skos:prefLabel "Fluvial fan delta"@en ;
-    skos:topConceptOf cs: ;
     schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/basic_geomorphic_unit_BGU"^^xsd:anyURI ;
     schema:status astatus:experimental ;
 .
@@ -3210,7 +3205,6 @@ Cf. "seamount" in Harris et al., (2014)."""@en ;
     skos:historyNote "2026-05: This Concept was added in 2026 with status Experimental following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
     skos:prefLabel "sediment trapped/bound"@en ;
-    skos:topConceptOf cs: ;
     schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/basic_geomorphic_unit_BGU"^^xsd:anyURI ;
     schema:status astatus:experimental ;
 .
@@ -5236,13 +5230,7 @@ Definitions in this vocabulary are subject to intermittent review and versioning
         :Karst_Process ,
         :Marine_Setting ,
         :Mass_Movement_Process ,
-        :Solid_Earth_Setting ,
-        :aggregation ,
-        :alluvial ,
-        :coastal_delta_lobe ,
-        :coastal_fan_delta ,
-        :fluvial_fan_delta ,
-        :sediment_trapped_bound ;
+        :Solid_Earth_Setting ;
     skos:historyNote """2026-05: Removed BGU and BGU-T annotations from Concepts and instead added citation links for them. This vocabulary describes the glossary in Part 2 of the two-part seabed geomorphology classification scheme [(Nanson et al., 2023)](https://doi.org/10.5281/zenodo.7804019). This vocabulary was published in 2025 but following Phase Three of the Ocean Best Practice (OBP) approach, the concepts in 2026 have gone through revision and maintenance, which are reflected in this most recent update."""@en ;
     skos:historyNote "2026-11: The classification hierarchy of some Part 2 Geomorphology and Physiography terms has changed since the Part 2 Geomorphology report [(Nanson et al., 2023)](https://doi.org/10.5281/zenodo.7804019). [Nanson et al. (2026)](https://doi.org/10.1016/j.earscirev.2026.105439) provides the current classification decision trees."@en ;
     skos:prefLabel "Seabed geomorphology - Part 2 Geomorphology (ISGM)"@en ;
@@ -5276,7 +5264,7 @@ Definitions in this vocabulary are subject to intermittent review and versioning
         ] ;
     schema:creator <https://linked.data.gov.au/org/isgm-wg> ;
     schema:dateCreated "2024-06-17"^^xsd:date ;
-    schema:dateModified "2026-11-05"^^xsd:date ;
+    schema:dateModified "2026-11-06"^^xsd:date ;
     schema:identifier "https://pid.geoscience.gov.au/dataset/ga/150006"^^gavoc:eCatID ;
     schema:keywords <https://pid.geoscience.gov.au/def/voc/ga/DataThemes/geomorphology> ;
     schema:publisher <https://linked.data.gov.au/org/ga> ;
