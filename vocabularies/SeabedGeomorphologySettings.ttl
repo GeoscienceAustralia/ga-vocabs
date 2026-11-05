@@ -97,6 +97,7 @@ Cf. "abyss - hills" in Harris et al., (2014)."""@en ;
 :aggregation
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
+    skos:broader :biostrome ;
     skos:definition "currently under working group consultation"@en ;
     skos:historyNote "2026-05: This Concept was added in 2026 with status Experimental following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -109,6 +110,7 @@ Cf. "abyss - hills" in Harris et al., (2014)."""@en ;
 :alluvial
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
+    skos:broader :floodplain ;
     skos:definition "currently under working group consultation"@en ;
     skos:historyNote "2026-05: This Concept was added in 2026 with status Experimental following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -439,7 +441,7 @@ Cf. "abyss - hills" in Harris et al., (2014)."""@en ;
     skos:definition "A circular Depression at the summit of a MUD VOLCANO, where the central conduit crops out at the surface. These structures are related to fluid-rich seeps generally associated passive margins (Ceramicola et al., 2018)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
-    skos:prefLabel "caldera (mud volcano)"@en ;
+    skos:prefLabel "caldera"@en ;
     schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/basic_geomorphic_unit_BGU"^^xsd:anyURI ;
     schema:status astatus:stable ;
 .
@@ -495,7 +497,9 @@ Cf. "abyss - hills" in Harris et al., (2014)."""@en ;
 :channel_ledge
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :Coastal_Setting ;
+    skos:broader
+        :Coastal_Setting ,
+        :Fluvial_Setting ;
     skos:definition "Distinctly stepped, flat-topped, elongate, bank-attached units. Have straight to gently curved planforms and flank one or both banks. Composed of the same materials as the adjacent FLOODPLAIN (i.e. sediments are laterally continuous from the CHANNEL LEDGE into their adjacent FLOODPLAIN) and are formed by channel expansion processes where flows selectively erode the upper units of the adjacent surface as the channel incises and expands (Brierley and Fryirs, 2013)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -579,6 +583,7 @@ Cf. "abyss - hills" in Harris et al., (2014)."""@en ;
 :coastal_delta_lobe
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
+    skos:broader :Coastal_Setting ;
     skos:definition "currently under working group consultation"@en ;
     skos:historyNote "2026-05: This Concept was added in 2026 with status Experimental following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -599,6 +604,7 @@ Cf. "abyss - hills" in Harris et al., (2014)."""@en ;
 :coastal_fan_delta
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
+    skos:broader :Coastal_Setting ;
     skos:definition "currently under working group consultation"@en ;
     skos:historyNote "2026-05: This Concept was added in 2026 with status Experimental following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -648,9 +654,20 @@ Cf. FLUVIAL INCISED VALLEY"""@en ;
     skos:definition "A coastal structure (usually of rock, sediment, concrete or wood) projecting into the sea or aligned to the coast, that either protects a shore area by reducing the wave energy or reduces the longshore drift and traps sediment, or delimits and protects a navigation channel and enables the docking of ships (Bulleri and Chapman, 2010; Masselink et al., 2014)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
-    skos:prefLabel "Coastal management structure"@en ;
+    skos:prefLabel "coastal management structure"@en ;
     schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/BGU-Type_BGU-T"^^xsd:anyURI ;
     schema:status astatus:stable ;
+.
+
+:debris
+    a skos:Concept ;
+    rdfs:isDefinedBy cs: ;
+    skos:broader :structure ;
+    skos:definition "currently under working group consultation"@en ;
+    skos:historyNote "2026-11: This Concept was added in 2026 with status Experimental following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
+    skos:inScheme cs: ;
+    skos:prefLabel "debris"@en ;
+    schema:status astatus:experimental ;
 .
 
 :cold-water-coral-reef
@@ -720,9 +737,9 @@ Cf. FLUVIAL INCISED VALLEY"""@en ;
     skos:definition "Currently under working group consultation"@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
-    skos:prefLabel "coralligene bank"@en ;
+    skos:prefLabel "coralligène bank"@en ;
     schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/BGU-Type_BGU-T"^^xsd:anyURI ;
-    schema:status astatus:stable ;
+    schema:status astatus:experimental ;
 .
 
 :coralligene_rim
@@ -732,9 +749,9 @@ Cf. FLUVIAL INCISED VALLEY"""@en ;
     skos:definition "Currently under working group consultation"@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
-    skos:prefLabel "coralligene rim"@en ;
+    skos:prefLabel "coralligène rim"@en ;
     schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/BGU-Type_BGU-T"^^xsd:anyURI ;
-    schema:status astatus:stable ;
+    schema:status astatus:experimental ;
 .
 
 :coralligène
@@ -807,7 +824,7 @@ Cf. FLUVIAL INCISED VALLEY"""@en ;
     skos:inScheme cs: ;
     skos:prefLabel "crescentic reef - mature"@en ;
     schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/BGU-Type_BGU-T"^^xsd:anyURI ;
-    schema:status astatus:stable ;
+    schema:status astatus:experimental ;
 .
 
 :crevasse-filling
@@ -1260,7 +1277,9 @@ Cf. FLUVIAL INCISED VALLEY"""@en ;
 :fluvial_delta-front
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :fluvial_delta ;
+    skos:broader
+        :delta_lobe ,
+        :fluvial_delta ;
     skos:definition """The subaqueous portion of the delta between the subaerial delta and its associated MOUTHBARS and above wave base, where relatively coarse material is deposited (Postma, 1984; Suter, 1994).
 Cf. COASTAL DELTA-FRONT"""@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
@@ -1285,6 +1304,7 @@ Cf. COASTAL DELTA-FRONT"""@en ;
 :fluvial_fan_delta
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
+    skos:broader :Fluvial_Setting ;
     skos:definition "currently under working group consultation"@en ;
     skos:historyNote "2026-05: This Concept was added in 2026 with status Experimental following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -1322,7 +1342,9 @@ Cf. COASTAL INCISED VALLEY"""@en ;
 :fluvial_pro-delta
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :fluvial_delta ;
+    skos:broader
+        :delta_lobe ,
+        :fluvial_delta ;
     skos:definition """The relatively low gradient, subaqueous portion of a delta below wave base, where relatively fine material is deposited.
 Cf. COASTAL PRO-DELTA"""@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
@@ -1423,7 +1445,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
     skos:definition "A narrow incision across the surface of a subhorizontal SHORE PLATFORM, in some cases extending the width of the platform to low tide line (Sunamura, 1992)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
-    skos:prefLabel "furrow (rocky coast) BGU-T)"@en ;
+    skos:prefLabel "furrow"@en ;
     schema:status astatus:stable ;
 .
 
@@ -1459,7 +1481,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
     skos:definition "In marine geology, a more or less equi-dimensional depression in the seafloor... (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016). Basins ranging from small depressions to trough width basins may be formed in bedrock and/or soft sediments, by glacier erosion, glacitectonic thrusting and/or sediment deformation on soft beds (Benn and Evans, 2010)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
-    skos:prefLabel "glacial basin"@en ;
+    skos:prefLabel "Glacial basin"@en ;
     schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/basic_geomorphic_unit_BGU"^^xsd:anyURI ;
     schema:status astatus:stable ;
 .
@@ -1483,7 +1505,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
     skos:definition "A U-shaped glacial trough whose floor is occupied by the sea. Typically, fjords are steep-sided, overdeepened rock basins with shallow thresholds at the coast. Their form is characteristic of erosion by ice streams, outlet glaciers or valley glaciers which exploited either pre-existing river valleys or underlying weaknesses in the bedrock (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
-    skos:prefLabel "glacial fjord"@en ;
+    skos:prefLabel "Glacial fjord"@en ;
     schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/basic_geomorphic_unit_BGU"^^xsd:anyURI ;
     schema:status astatus:stable ;
 .
@@ -1605,7 +1627,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
     skos:definition "A steep-sided Cone formed at gas-mud vents. These small-scale Cones (<3-4 m high) generally occur at the flanks or on the summit of MUD VOLCANO DOMES and can be characterised by intense and continuous degassing or more periodic emissions (Etiope, 2015)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
-    skos:prefLabel "gryphon (mud volcano)"@en ;
+    skos:prefLabel "gryphon"@en ;
     schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/basic_geomorphic_unit_BGU"^^xsd:anyURI ;
     schema:status astatus:stable ;
 .
@@ -1637,7 +1659,9 @@ Cf. COASTAL PRO-DELTA"""@en ;
 :hanging_valley
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :u-shaped_valley ;
+    skos:broader
+        :cross-shelf_trough ,
+        :u-shaped_valley ;
     skos:definition "A tributary glacial valley opening at a relatively high level on the steep side of a larger glacial-cut valley occupied, or formerly occupied, by a trunk glacier. The height drop between the floors of the two valleys is due to the greater erosive power of the trunk glacier (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -1666,7 +1690,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
     skos:definition "Develop in steep-walled, high energy (>300 W/m^2) VALLEYS, can be comprised of poorly sorted or vertically accreted alluvium, and typically erode and deposit during catastrophic flows (Nanson and Croke, 1992)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
-    skos:prefLabel "high-energy confined floodplain"@en ;
+    skos:prefLabel "high-energy"@en ;
     schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/BGU-Type_BGU-T"^^xsd:anyURI ;
     schema:status astatus:stable ;
 .
@@ -1866,7 +1890,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
     skos:inScheme cs: ;
     skos:prefLabel "juvenile reef - irregular patch reefs"@en ;
     schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/BGU-Type_BGU-T"^^xsd:anyURI ;
-    schema:status astatus:stable ;
+    schema:status astatus:experimental ;
 .
 
 :juvenile_reef-submerged_shoals
@@ -1878,7 +1902,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
     skos:inScheme cs: ;
     skos:prefLabel "juvenile reef - submerged shoals"@en ;
     schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/BGU-Type_BGU-T"^^xsd:anyURI ;
-    schema:status astatus:stable ;
+    schema:status astatus:experimental ;
 .
 
 :juvenile_reef-unmodified_antecedent_platform
@@ -1890,7 +1914,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
     skos:inScheme cs: ;
     skos:prefLabel "juvenile reef - unmodified antecedent platform"@en ;
     schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/BGU-Type_BGU-T"^^xsd:anyURI ;
-    schema:status astatus:stable ;
+    schema:status astatus:experimental ;
 .
 
 :karst_plain
@@ -1950,7 +1974,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
     skos:inScheme cs: ;
     skos:prefLabel "lagoonal reef - mature"@en ;
     schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/BGU-Type_BGU-T"^^xsd:anyURI ;
-    schema:status astatus:stable ;
+    schema:status astatus:experimental ;
 .
 
 :lateral_moraine
@@ -2045,7 +2069,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
     skos:definition "Develop in low energy (<10 W/m^2), low gradient settings by overbank accretion of coarse to more typically fine sediment, deposited by anastomosing or laterally-stable meandering channels (Nanson and Croke, 1992)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
-    skos:prefLabel "low-energy cohesive floodplain"@en ;
+    skos:prefLabel "low-energy"@en ;
     schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/BGU-Type_BGU-T"^^xsd:anyURI ;
     schema:status astatus:stable ;
 .
@@ -2081,7 +2105,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
     skos:definition "A general term for an occurrence of rock, biogenic, or other stable material that lies at or near the sea surface, and is elevated at least partially above the surrounding seabed. REEFS may be further classified by BIOGENIC PROCESSES."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
-    skos:prefLabel "marine reef"@en ;
+    skos:prefLabel "Marine reef"@en ;
     schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/basic_geomorphic_unit_BGU"^^xsd:anyURI ;
     schema:status astatus:stable ;
 .
@@ -2094,7 +2118,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
     skos:definition "An elongated ridge perpendicular to the main direction of transport, typically found in the distal parts of slides with the deformation front limiting the downslope extent of the slide."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
-    skos:prefLabel "mass-movement compressional ridge"@en ;
+    skos:prefLabel "Mass-movement compressional ridge"@en ;
     schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/basic_geomorphic_unit_BGU"^^xsd:anyURI ;
     schema:status astatus:stable ;
 .
@@ -2106,7 +2130,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
     skos:definition "The lower boundary of a mass movement, set between the remobilised and undisturbed material. In FRONTALLY CONFINED SLIDES this usually curved margin coincides with the intersection between the lower part of the surface of rupture of a landslide and the original ground surface. Where remobilised material is moved beyond the lower part of the surface of rupture the boundary may be diffuse and have limited bathymetric expression."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
-    skos:prefLabel "mass-movement toe"@en ;
+    skos:prefLabel "Mass-movement toe"@en ;
     schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/basic_geomorphic_unit_BGU"^^xsd:anyURI ;
     schema:status astatus:stable ;
 .
@@ -2154,7 +2178,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
     skos:definition "Develop in medium energy (10 – 300 W/m^2) and generally unconfined settings by both lateral migration and overbank accretion during regular flow events, and usually have coarser-grained (high permeability) basal strata (Nanson and Croke, 1992)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
-    skos:prefLabel "medium-energy unconfined floodplain"@en ;
+    skos:prefLabel "medium-energy"@en ;
     schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/BGU-Type_BGU-T"^^xsd:anyURI ;
     schema:status astatus:stable ;
 .
@@ -2240,7 +2264,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
     skos:definition "An annular lowland around the base of a MUD VOLCANO. Kopf (2002) suggested these types of Depressions form after mud-volcano activity has ceased and dewatering occurs, resulting in subsidence around the structure. Alternatively, Somoza et al., (2002) proposed they could also be caused by erosional bottom currents that are deflected by the mud volcano cone."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
-    skos:prefLabel "moat (mud volcano)"@en ;
+    skos:prefLabel "moat"@en ;
     schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/basic_geomorphic_unit_BGU"^^xsd:anyURI ;
     schema:status astatus:stable ;
 .
@@ -2325,7 +2349,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
     skos:definition "A type of FLOW where the sediments (mud) fluidised by gas and water form a muddy slurry which moves downslope from the flanks of a MUD VOLCANO. The composition of the mudflows can be highly variable and usually corresponds directly to the nature of the conduit and the lithology of the mobilised sediments, although it may also include loose conduit wall rock fragments removed by the ascending mud at the initial phase of an eruptive cycle."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
-    skos:prefLabel "mudflow (mud volcano)"@en ;
+    skos:prefLabel "mudflow"@en ;
     schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/basic_geomorphic_unit_BGU"^^xsd:anyURI ;
     schema:status astatus:stable ;
 .
@@ -2397,7 +2421,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
     skos:definition "OBSTACLE (aka. crag) AND COMET SCOUR refers to the crescentic to elongate scour marks around and extending downstream from an obstacle in the path of flow. Although these may include depositional tails, they occur at relatively high flow velocities (0.4 to >1 m/s) and are principally erosional in origin. Scour length varies from meters to hundreds of meters. Forms transitional to CRAG AND TAIL structures with small-sized obstacles and less well developed SCOUR marks (decimeter scale) occur at the lower end of this velocity spectrum. Erosional SCOUR crescents, irregular pluck marks, and tool marks may all occur without an associated obstacle (Stow et al., 2009)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
-    skos:prefLabel "obstacle and comet scour"@en ;
+    skos:prefLabel "obstacle and scour"@en ;
     schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/BGU-Type_BGU-T"^^xsd:anyURI ;
     schema:status astatus:stable ;
 .
@@ -2529,7 +2553,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
     skos:definition "An irregularly shaped, steep-sided depression that is formed when the ice core of a submarine permafrost pingo thaws. An ‘inverted landform’ originating as a PINGO (Paull et al., 2022)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
-    skos:prefLabel "permafrost pingo depression"@en ;
+    skos:prefLabel "collapsed pingo"@en ;
     schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/basic_geomorphic_unit_BGU"^^xsd:anyURI ;
     schema:status astatus:stable ;
 .
@@ -2555,7 +2579,7 @@ Cf. COASTAL PRO-DELTA"""@en ;
     skos:inScheme cs: ;
     skos:prefLabel "planar reef - senile"@en ;
     schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/BGU-Type_BGU-T"^^xsd:anyURI ;
-    schema:status astatus:stable ;
+    schema:status astatus:experimental ;
 .
 
 :plane_bed
@@ -3181,6 +3205,7 @@ Cf. "seamount" in Harris et al., (2014)."""@en ;
 :sediment_trapped_bound
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
+    skos:broader :biostrome ;
     skos:definition "currently under working group consultation"@en ;
     skos:historyNote "2026-05: This Concept was added in 2026 with status Experimental following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -3217,7 +3242,9 @@ Cf. "seamount" in Harris et al., (2014)."""@en ;
 :shelf-incising_canyon
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :submarine_canyon ;
+    skos:broader
+        :submarine_canyon ,
+        :submarine_tributary_canyon ;
     skos:definition "SUBMARINE CANYONS that extend up from the CONTINENTAL SLOPE and are incised into CONTINENTAL SHELF towards the coast, where they are potentially associated with a terrestrial fluvial system (Harris and Whiteway, 2011)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -3306,7 +3333,9 @@ Cf. RAISED BEACH"""@en ;
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
     skos:altLabel "blind canyon"@en ;
-    skos:broader :submarine_canyon ;
+    skos:broader
+        :submarine_canyon ,
+        :submarine_tributary_canyon ;
     skos:definition "SUBMARINE CANYONS that are restricted to the CONTINENTAL SLOPE, and are not geometrically connected to the CONTINENTAL SHELF (Harris and Whiteway, 2011)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -3491,6 +3520,9 @@ Cf. "fan/apron" in Harris et al., (2014), cf. APRON (MORPHOLOGY)."""@en ;
     skos:definition "Secondary or subordinate components of SUBMARINE CANYONS that are directed towards a typically larger primary SUBMARINE CANYON. They have their own CANYON HEAD."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
+    skos:narrower
+        :shelf-incising_canyon ,
+        :slope-confined_canyon ;
     skos:prefLabel "submarine tributary canyon"@en ;
     schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/basic_geomorphic_unit_BGU"^^xsd:anyURI ;
     schema:status astatus:stable ;
@@ -3587,6 +3619,10 @@ Cf. "fan/apron" in Harris et al., (2014), cf. APRON (MORPHOLOGY)."""@en ;
     skos:definition "An escarpment that forms as a result of unspecified faulting activity (Huggett, 2017)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
+    skos:narrower
+        :fault ,
+        :fracture_zone ,
+        :joint ;
     skos:prefLabel "tectonic escarpment"@en ;
     schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/basic_geomorphic_unit_BGU"^^xsd:anyURI ;
     schema:status astatus:stable ;
@@ -3647,7 +3683,7 @@ Cf. "fan/apron" in Harris et al., (2014), cf. APRON (MORPHOLOGY)."""@en ;
     skos:definition "The base of a CLIFF defined by a marked change in gradient, typically associated with deposits of rock debris or talus."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
-    skos:prefLabel "toe (rocky coast)"@en ;
+    skos:prefLabel "toe"@en ;
     schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/BGU-Type_BGU-T"^^xsd:anyURI ;
     schema:status astatus:stable ;
 .
@@ -3775,7 +3811,9 @@ Cf. "fan/apron" in Harris et al., (2014), cf. APRON (MORPHOLOGY)."""@en ;
 :valley_head
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
-    skos:broader :cross-shelf_trough ;
+    skos:broader
+        :cross-shelf_trough ,
+        :u-shaped_valley ;
     skos:definition "A valley/trough head is the upper end of a valley/trough, formed at the upper part of a valley glacier or ice stream (Benn and Evans, 2010)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
@@ -3901,7 +3939,9 @@ Cf. "fan/apron" in Harris et al., (2014), cf. APRON (MORPHOLOGY)."""@en ;
     skos:definition "A wide (several to tens of kilometres) elongate depression of the seafloor, usually a few hundred metres deep, extending across the continental shelf between shallower banks; commonly eroded by grounded ice-sheets over successive full-glacial periods. See transverse channel/trough (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016). Cf.\"glacial trough\" in Harris et al., (2014)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
-    skos:narrower :valley_head ;
+    skos:narrower
+        :hanging_valley ,
+        :valley_head ;
     skos:prefLabel "cross-shelf trough"@en ;
     schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/basic_geomorphic_unit_BGU"^^xsd:anyURI ;
     schema:status astatus:stable ;
@@ -3916,7 +3956,7 @@ Cf. "fan/apron" in Harris et al., (2014), cf. APRON (MORPHOLOGY)."""@en ;
     skos:definition "Discrete accumulations of sediment that form at the distal end of relatively confined river channels and may represent distinct avulsion events (Chatanantavet et al., 2012). Multiple DELTA LOBES sum to comprise entire DELTAS."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
-    skos:prefLabel "delta lobe"@en ;
+    skos:prefLabel "Fluvial delta lobe"@en ;
     schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/basic_geomorphic_unit_BGU"^^xsd:anyURI ;
     schema:status astatus:stable ;
 .
@@ -3941,7 +3981,9 @@ Cf. "fan/apron" in Harris et al., (2014), cf. APRON (MORPHOLOGY)."""@en ;
     skos:definition "A valley having a pronounced parabolic cross-profile suggesting the form of a broad letter ‘U’ with steep parallel walls and a broad, nearly flat floor; specifically a valley carved by glacial erosion, such as a glacial trough or fjord (Excerpt from Bell et al. 2016, adapted from Bell et al. 1997. In: Dowdeswell et al., 2016)."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
-    skos:narrower :hanging_valley ;
+    skos:narrower
+        :hanging_valley ,
+        :valley_head ;
     skos:prefLabel "U-shaped valley"@en ;
     schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/basic_geomorphic_unit_BGU"^^xsd:anyURI ;
     schema:status astatus:stable ;
@@ -3978,6 +4020,9 @@ Cf. "fan/apron" in Harris et al., (2014), cf. APRON (MORPHOLOGY)."""@en ;
 :biostrome
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
+    skos:altLabel
+        "bed"@en ,
+        "mat"@en ;
     skos:broader :Biogenic_Process ;
     skos:definition "Build-ups lacking the lens-like positive relief that would otherwise classify the unit as a bioherm (Cumings, 1932); bedded or unbedded (Kershaw, 1994) with variable skeletal and matrix components. Synonym ‘bed’ (Kershaw, 1994). Usually parautochthonous to allochthonous."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
@@ -4490,6 +4535,7 @@ Cf. FLUVIAL SUBAERIAL VALLEY"""@en ;
 :bioherm
     a skos:Concept ;
     rdfs:isDefinedBy cs: ;
+    skos:altLabel "mound"@en ;
     skos:broader :Biogenic_Process ;
     skos:definition "Build-ups with lens-like positive relief (Cumings, 1932), with variable skeletal and matrix components (± binding); skeletal components are adjacent and some may be in contact, but are mostly disarticulated (modified from Riding, 2002). (e.g., Halimeda bioherm). Synonym ‘mound’; includes carbonate ‘mud mound’ (modified from Riding, 2002). Usually parautochthonous to allochthonous."@en ;
     skos:historyNote "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
@@ -4603,7 +4649,7 @@ Cf. FLUVIAL SUBAERIAL VALLEY"""@en ;
         :sediment_bank ,
         :sediment_drift ,
         :sediment_lobe ;
-    skos:prefLabel "marine barform"@en ;
+    skos:prefLabel "Marine barform"@en ;
     schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/basic_geomorphic_unit_BGU"^^xsd:anyURI ;
     schema:status astatus:stable ;
 .
@@ -5050,7 +5096,7 @@ Cf. FLUVIAL DELTA"""@en ;
         :patch_reef ,
         :planar_reef-senile ,
         :platform_reef ;
-    skos:prefLabel "biogenic reef"@en ;
+    skos:prefLabel "Biogenic reef"@en ;
     schema:citation "https://pid.geoscience.gov.au/def/voc/ga/SeabedGeomorphologyGeneral/basic_geomorphic_unit_BGU"^^xsd:anyURI ;
     schema:status astatus:stable ;
 .
