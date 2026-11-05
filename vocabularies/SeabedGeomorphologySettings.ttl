@@ -666,7 +666,7 @@ Cf. FLUVIAL INCISED VALLEY"""@en ;
     rdfs:isDefinedBy cs: ;
     skos:broader :structure ;
     skos:definition "currently under working group consultation"@en ;
-    skos:historyNote "2026-11: This Concept was added in 2026 with status Experimental following revision and maintenance of the ISGM 2-part geomorphic classification scheme."
+    skos:historyNote "2026-11: This Concept was added in 2026 with status Experimental following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
     skos:inScheme cs: ;
     skos:prefLabel "debris"@en ;
     schema:status astatus:experimental ;
