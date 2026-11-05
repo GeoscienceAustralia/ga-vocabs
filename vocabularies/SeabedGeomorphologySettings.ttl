@@ -4563,8 +4563,8 @@ Cf. FLUVIAL SUBAERIAL VALLEY"""@en ;
     skos:broader :Biogenic_Process ;
     skos:definition "Build-ups with lens-like positive relief (Cumings, 1932), with variable skeletal and matrix components (± binding); skeletal components are adjacent and some may be in contact, but are mostly disarticulated (modified from Riding, 2002). (e.g., Halimeda bioherm). Synonym ‘mound’; includes carbonate ‘mud mound’ (modified from Riding, 2002). Usually parautochthonous to allochthonous."@en ;
     skos:historyNote
-        "2026-11: The classification hierarchy of some Part 2 Geomorphology and Physiography terms has changed since the Part 2 Geomorphology report [(Nanson et al., 2023)](https://doi.org/10.5281/zenodo.7804019). [Nanson et al. (2026)](https://doi.org/10.1016/j.earscirev.2026.105439) provides the current classification decision trees."@en ,
-        "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme." ;
+        "2026-11: The classification hierarchy of some Part 2 Geomorphology and Physiography terms has changed since the Part 2 Geomorphology report [(Nanson et al., 2023)](https://doi.org/10.5281/zenodo.7804019). [Nanson et al. (2026)](https://doi.org/10.1016/j.earscirev.2026.105439) provides the current classification decision trees." ,
+        "2026-05: This Concept was updated in 2026 following revision and maintenance of the ISGM 2-part geomorphic classification scheme."@en ;
     skos:inScheme cs: ;
     skos:narrower
         :agglutinating ,
