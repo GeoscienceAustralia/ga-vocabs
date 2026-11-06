@@ -5268,6 +5268,6 @@ Definitions in this vocabulary are subject to intermittent review and versioning
     schema:identifier "https://pid.geoscience.gov.au/dataset/ga/150006"^^gavoc:eCatID ;
     schema:keywords <https://pid.geoscience.gov.au/def/voc/ga/DataThemes/geomorphology> ;
     schema:publisher <https://linked.data.gov.au/org/ga> ;
-    schema:status astatus:experimental ;
+    schema:status astatus:stable ;
     schema:version "2.0" ;
 .
